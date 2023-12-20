@@ -8,10 +8,13 @@
 
 // UNSUPPORTED: c++03, c++11, c++14, c++17
 // UNSUPPORTED: clang-modules-build
+// UNSUPPORTED: gcc
 
-// XFAIL: *
+// XFAIL: has-no-module-support
 
 // A minimal test to validate import works.
+
+// MODULES: std.compat
 
 import std.compat;
 

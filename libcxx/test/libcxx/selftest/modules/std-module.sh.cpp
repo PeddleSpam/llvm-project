@@ -12,13 +12,14 @@
 
 // XFAIL: has-no-module-support
 
-// A minimal test to validate import works.
+// Make sure that the module flags contain the expected elements.
+// The tests only look for the expected components and not the exact flags.
+// Otherwise changing the location of the module breaks this test.
 
 // MODULES: std
+//
+// RUN: echo "%{module_flags}" | grep -- "-fprebuilt-module-path="
+// RUN: echo "%{module_flags}" | grep "std.pcm"
 
-import std;
-
-int main(int, char**) {
-  std::println("Hello modular world");
-  return 0;
-}
+// The std module should not provide the std.compat module
+// RUN: echo "%{module_flags}" | grep -v "std.compat.pcm"

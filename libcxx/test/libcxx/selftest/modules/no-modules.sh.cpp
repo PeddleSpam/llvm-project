@@ -6,19 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-// UNSUPPORTED: c++03, c++11, c++14, c++17, c++20
-// UNSUPPORTED: clang-modules-build
-// UNSUPPORTED: gcc
+// Make sure that the module flags are empty when no module is supplied.
 
-// XFAIL: has-no-module-support
-
-// A minimal test to validate import works.
-
-// MODULES: std
-
-import std;
-
-int main(int, char**) {
-  std::println("Hello modular world");
-  return 0;
-}
+// MODULES:
+// RUN: echo "%{module_flags}"  | grep "^$"

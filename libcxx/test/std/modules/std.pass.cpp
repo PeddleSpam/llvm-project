@@ -10,11 +10,11 @@
 // UNSUPPORTED: clang-modules-build
 // UNSUPPORTED: gcc
 
-// XFAIL: has-no-module-support
+// XFAIL: has-no-cxx-module-support
 
 // A minimal test to validate import works.
 
-// MODULES: std
+// MODULE_DEPENDENCIES: std
 
 import std;
 

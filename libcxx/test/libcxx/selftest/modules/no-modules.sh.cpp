@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-// Make sure that the module flags are empty when no module is supplied.
+// Make sure that the compile flags contain no module information.
 
-// MODULES:
-// RUN: echo "%{module_flags}"  | grep "^$"
+// MODULE_DEPENDENCIES:
+
+// RUN: echo "%{compile_flags}" | grep -v -- "-fprebuilt-module-path="
+// RUN: echo "%{compile_flags}" | grep -v "std.pcm"
+// RUN: echo "%{compile_flags}" | grep -v "std.compat.pcm"

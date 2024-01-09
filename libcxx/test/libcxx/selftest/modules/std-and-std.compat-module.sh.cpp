@@ -10,14 +10,14 @@
 // UNSUPPORTED: clang-modules-build
 // UNSUPPORTED: gcc
 
-// XFAIL: has-no-module-support
+// XFAIL: has-no-cxx-module-support
 
-// Make sure that the module flags contain the expected elements.
+// Make sure that the compile flags contain the expected elements.
 // The tests only look for the expected components and not the exact flags.
 // Otherwise changing the location of the module breaks this test.
 
-// MODULES: std std.compat
-//
-// RUN: echo "%{module_flags}" | grep -- "-fprebuilt-module-path="
-// RUN: echo "%{module_flags}" | grep "std.pcm"
-// RUN: echo "%{module_flags}" | grep "std.compat.pcm"
+// MODULE_DEPENDENCIES: std std.compat
+
+// RUN: echo "%{compile_flags}" | grep -- "-fprebuilt-module-path="
+// RUN: echo "%{compile_flags}" | grep "std.pcm"
+// RUN: echo "%{compile_flags}" | grep "std.compat.pcm"

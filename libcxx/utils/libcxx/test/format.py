@@ -52,6 +52,21 @@ def _executeScriptInternal(test, litConfig, commands):
     return (out, err, exitCode, timeoutInfo, parsedCommands)
 
 
+def _validateModuleDependencies(modules):
+    for m in modules:
+        if m not in ("std", "std.compat"):
+            raise RuntimeError(
+                f"Invalid module dependency '{m}', only 'std' and 'std.compat' are valid"
+            )
+
+
+def _getSubstitution(substitution, config):
+    for (orig, replacement) in config.substitutions:
+        if orig == substitution:
+            return replacement
+    raise ValueError("Substitution {} is not in the config.".format(substitution))
+
+
 def parseScript(test, preamble):
     """
     Extract the script from a test, with substitutions applied.
@@ -105,7 +120,7 @@ def parseScript(test, preamble):
             initial_value=additionalCompileFlags,
         ),
         lit.TestRunner.IntegratedTestKeywordParser(
-            "MODULES:",
+            "MODULE_DEPENDENCIES:",
             lit.TestRunner.ParserKind.SPACE_LIST,
             initial_value=modules,
         ),
@@ -138,65 +153,62 @@ def parseScript(test, preamble):
     script += preamble
     script += scriptInTest
 
-    has_std_module = False
-    has_std_compat_module = False
-    for module in modules:
-        if module == "std":
-            has_std_module = True
-        elif module == "std.compat":
-            has_std_compat_module = True
-        else:
-            script.insert(
-                0,
-                f"echo \"The module '{module}' is not valid, use 'std' or 'std.compat'\"",
-            )
-            script.insert(1, "false")
-            return script
-
-    if modules:
-        # This flag is needed for both modules.
-        moduleCompileFlags.append("-fprebuilt-module-path=%T")
-
-        # Building the modules needs to happen before the other script commands
-        # are executed. Therefore the commands are added to the front of the
-        # list.
-        if has_std_compat_module:
-            script.insert(
-                0,
-                "%dbg(MODULE std.compat) %{cxx} %{flags} %{compile_flags} "
-                "-Wno-reserved-module-identifier -Wno-reserved-user-defined-literal "
-                "--precompile -o %T/std.compat.pcm -c %{module}/std.compat.cppm",
-            )
-            moduleCompileFlags.append("%T/std.compat.pcm")
-
-        # Make sure the std module is added before std.compat.
-        # Libc++'s std.compat module will depend on its std module.
-        # It is not known whether the compiler expects the modules in the order
-        # of their dependencies. However it's trivial to provide them in that
-        # order.
-        if has_std_module:
-            script.insert(
-                0,
-                "%dbg(MODULE std) %{cxx} %{flags} %{compile_flags} "
-                "-Wno-reserved-module-identifier -Wno-reserved-user-defined-literal "
-                "--precompile -o %T/std.pcm -c %{module}/std.cppm",
-            )
-            moduleCompileFlags.append("%T/std.pcm")
-
     # Add compile flags specified with ADDITIONAL_COMPILE_FLAGS.
+    # Modules need to be build with the same compilation flags as the
+    # test. So add these flags before adding the modules.
     substitutions = [
         (s, x + " " + " ".join(additionalCompileFlags))
         if s == "%{compile_flags}"
         else (s, x)
         for (s, x) in substitutions
     ]
-    # In order to use modules, additional compilation flags are required.
-    # Adding these to the %{compile_flags} gives a chicken and egg issue:
-    # - the modules need to be built with the same compilation flags as the
-    #   tests,
-    # - except for the module dependency, which does not exist.
-    # The issue is resolved by adding a private substitution.
-    substitutions.append(("%{module_flags}", " ".join(moduleCompileFlags)))
+
+    if modules:
+        _validateModuleDependencies(modules)
+
+        # This flag is needed for both modules.
+        moduleCompileFlags.append("-fprebuilt-module-path=%T")
+
+        # The moduleCompileFlags are added to the %{compile_flags}, but
+        # the modules need should be built without these flags. So
+        # expand the compile_flags and add the expanded value to the
+        # build script.
+        compileFlags = _getSubstitution("%{compile_flags}", test.config)
+
+        # Building the modules needs to happen before the other script
+        # commands are executed. Therefore the commands are added to the
+        # front of the list.
+        if "std.compat" in modules:
+            script.insert(
+                0,
+                "%dbg(MODULE std.compat) %{cxx} %{flags} "
+                f"{compileFlags} "
+                "-Wno-reserved-module-identifier -Wno-reserved-user-defined-literal "
+                "--precompile -o %T/std.compat.pcm -c %{module}/std.compat.cppm",
+            )
+            moduleCompileFlags.append("%T/std.compat.pcm")
+
+        # Make sure the std module is added before std.compat. Libc++'s
+        # std.compat module will depend on its std module.  It is not
+        # known whether the compiler expects the modules in the order of
+        # their dependencies. However it's trivial to provide them in
+        # that order.
+        script.insert(
+            0,
+            "%dbg(MODULE std) %{cxx} %{flags} "
+            f"{compileFlags} "
+            "-Wno-reserved-module-identifier -Wno-reserved-user-defined-literal "
+            "--precompile -o %T/std.pcm -c %{module}/std.cppm",
+        )
+        moduleCompileFlags.append("%T/std.pcm")
+
+        # Add compile flags required for the modules.
+        substitutions = [
+            (s, x + " " + " ".join(moduleCompileFlags))
+            if s == "%{compile_flags}"
+            else (s, x)
+            for (s, x) in substitutions
+        ]
 
     # Perform substitutions in the script itself.
     script = lit.TestRunner.applySubstitutions(
@@ -250,7 +262,6 @@ class CxxStandardLibraryTest(lit.formats.FileBasedTest):
     constructs:
         %{cxx}           - A command that can be used to invoke the compiler
         %{compile_flags} - Flags to use when compiling a test case
-        %{module_flags}  - Flags to use when compiling a test case that imports modules
         %{link_flags}    - Flags to use when linking a test case
         %{flags}         - Flags to use either when compiling or linking a test case
         %{exec}          - A command to prefix the execution of executables
@@ -287,7 +298,7 @@ class CxxStandardLibraryTest(lit.formats.FileBasedTest):
 
            This directive will build the required C++23 standard library
            modules and add the additional compiler flags in
-           %{module_flags}. (Libc++ offers these modules in C++20 as an
+           %{compile_flags}. (Libc++ offers these modules in C++20 as an
            extension.)
 
     Additional provided substitutions and features
@@ -354,22 +365,22 @@ class CxxStandardLibraryTest(lit.formats.FileBasedTest):
             ".compile.pass.mm"
         ):
             steps = [
-                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{module_flags} -fsyntax-only"
+                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} -fsyntax-only"
             ]
             return self._executeShTest(test, litConfig, steps)
         elif filename.endswith(".compile.fail.cpp"):
             steps = [
-                "%dbg(COMPILED WITH) ! %{cxx} %s %{flags} %{compile_flags} %{module_flags} -fsyntax-only"
+                "%dbg(COMPILED WITH) ! %{cxx} %s %{flags} %{compile_flags} -fsyntax-only"
             ]
             return self._executeShTest(test, litConfig, steps)
         elif filename.endswith(".link.pass.cpp") or filename.endswith(".link.pass.mm"):
             steps = [
-                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{module_flags} %{link_flags} -o %t.exe"
+                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{link_flags} -o %t.exe"
             ]
             return self._executeShTest(test, litConfig, steps)
         elif filename.endswith(".link.fail.cpp"):
             steps = [
-                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{module_flags} -c -o %t.o",
+                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} -c -o %t.o",
                 "%dbg(LINKED WITH) ! %{cxx} %t.o %{flags} %{link_flags} -o %t.exe",
             ]
             return self._executeShTest(test, litConfig, steps)
@@ -387,7 +398,7 @@ class CxxStandardLibraryTest(lit.formats.FileBasedTest):
         # suffixes above too.
         elif filename.endswith(".pass.cpp") or filename.endswith(".pass.mm"):
             steps = [
-                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{module_flags} %{link_flags} -o %t.exe",
+                "%dbg(COMPILED WITH) %{cxx} %s %{flags} %{compile_flags} %{link_flags} -o %t.exe",
                 "%dbg(EXECUTED AS) %{exec} %t.exe",
             ]
             return self._executeShTest(test, litConfig, steps)

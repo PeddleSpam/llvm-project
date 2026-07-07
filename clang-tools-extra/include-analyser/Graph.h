@@ -13,6 +13,12 @@ public:
   using ConstNodeIterator = typename NodeContainer::const_iterator;
   using SizeType = typename NodeContainer::size_type;
 
+  struct NodeIterLess {
+    bool operator()(NodeIterator const& lhs, NodeIterator const& rhs) const {
+      return &(*lhs) < &(*rhs);
+    }
+  };
+
   class Node {
   public:
     Node() = default;
@@ -23,11 +29,11 @@ public:
     Data const& getData() const { return m_data; }
     void setData(Data const& data) { m_data = data; }
 
-    using ParentContainer = std::list<NodeIterator>;
+    using ParentContainer = std::set<NodeIterator, NodeIterLess>;
     using ParentIterator = typename ParentContainer::iterator;
     using ConstParentIterator = typename ParentContainer::const_iterator;
     
-    using ChildContainer = std::list<NodeIterator>;
+    using ChildContainer = std::set<NodeIterator, NodeIterLess>;
     using ChildIterator = typename ChildContainer::iterator;
     using ConstChildIterator = typename ChildContainer::const_iterator;
 
@@ -50,24 +56,14 @@ public:
     ConstParentIterator endParents() const { return m_parents.end(); }
     ConstParentIterator cendParents() const { return m_parents.cend(); }
 
-    ParentIterator addParent(NodeIterator node) {
-      m_parents.push_back(node);
-      return endParents()--;
+    std::pair<ParentIterator, bool> addParent(NodeIterator node) {
+      return m_parents.insert(node);
     }
 
     void removeParent(ConstParentIterator iter) { m_parents.erase(iter); }
 
-    SizeType removeParent(ConstNodeIterator parent) {
-      auto collected = std::list<ParentIterator>();
-      for (auto iter = m_parents.begin(); iter != m_parents.end(); ++iter) {
-        if (*iter == parent) {
-          collected.push_back(iter);
-        }
-      }
-      for (auto& iter : collected) {
-        m_parents.erase(iter);
-      }
-      return collected.size();
+    SizeType removeParent(NodeIterator iter) {
+      return m_parents.erase(iter);
     }
 
     ChildContainer& getChildren() { return m_children; }
@@ -85,24 +81,14 @@ public:
     ConstChildIterator endChildren() const { return m_children.end(); }
     ConstChildIterator cendChildren() const { return m_children.cend(); }
 
-    ChildIterator addChild(NodeIterator node) {
-      m_children.push_back(node);
-      return endChildren()--;
+    std::pair<ChildIterator, bool> addChild(NodeIterator node) {
+      return m_children.insert(node);
     }
 
     void removeChild(ConstChildIterator iter) { m_children.erase(iter); }
 
-    SizeType removeChild(ConstNodeIterator child) {
-      auto collected = std::list<ChildIterator>();
-      for (auto iter = m_children.begin(); iter != m_children.end(); ++iter) {
-        if (*iter == child) {
-          collected.push_back(iter);
-        }
-      }
-      for (auto& iter : collected) {
-        m_children.erase(iter);
-      }
-      return collected.size();
+    SizeType removeChild(NodeIterator iter) {
+      return m_children.erase(iter);
     }
 
   private:
@@ -126,7 +112,7 @@ public:
     return --endNodes();
   }
 
-  void removeNode(ConstNodeIterator iter) {
+  void removeNode(NodeIterator iter) {
     for (auto& child : iter->getChildren()) {
       child->removeParent(iter);
     }

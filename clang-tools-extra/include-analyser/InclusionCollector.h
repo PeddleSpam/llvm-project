@@ -15,6 +15,8 @@ public:
 
   struct FileData {
     PathType const* m_path;
+    PathType m_relativePath;
+    bool m_isAngled;
   };
 
   struct MacroData {
@@ -75,9 +77,9 @@ public:
 
 private:
   clang::CompilerInstance* m_compiler;
-  GraphType m_includeGraph;
   InclusionMap m_inclusions;
-  std::list<MacroData> m_macros;
+  GraphType m_includeGraph;
+  MacroList m_macros;
 };
 
 #endif // INCLUDE_ANALYSER_INCLUSION_COLLECTOR_H

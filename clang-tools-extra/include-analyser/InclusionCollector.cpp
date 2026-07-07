@@ -25,20 +25,34 @@ void InclusionCollector::InclusionDirective(
 
   // Ensure the source file has an entry in the graph.
   auto srcFilePath = PathType(std::string(srcMgr.getFilename(hashLoc)));
+
+  if (!srcFilePath.is_absolute()) {
+    auto srcAbsPath = llvm::SmallString<16u>(srcFilePath.generic_string());
+    llvm::sys::path::make_absolute("", srcAbsPath);
+  }
+
   auto srcEntry = m_inclusions.insert({srcFilePath, m_includeGraph.endNodes()});
   if (srcEntry.second) {
     auto* pathPtr = &(srcEntry.first->first);
-    m_inclusions[srcFilePath] = m_includeGraph.addNode({pathPtr});
+    m_inclusions[srcFilePath] =
+        m_includeGraph.addNode({pathPtr, pathPtr->c_str(), false});
   }
   auto srcFileIter = m_inclusions[srcFilePath];
 
   // Ensure the included file has an entry in the graph.
   auto incFilePath = PathType(std::string(searchPath));
   incFilePath.append(std::string(fileName));
+
+  if (!incFilePath.is_absolute()) {
+    auto absPath = llvm::SmallString<16u>(incFilePath.generic_string());
+    llvm::sys::path::make_absolute("", absPath);
+  }
+
   auto incEntry = m_inclusions.insert({incFilePath, m_includeGraph.endNodes()});
   if (incEntry.second) {
     auto* pathPtr = &(incEntry.first->first);
-    m_inclusions[incFilePath] = m_includeGraph.addNode({pathPtr});
+    m_inclusions[incFilePath] =
+        m_includeGraph.addNode({pathPtr, relativePath.str(), isAngled});
   }
   auto incFileIter = m_inclusions[incFilePath];
   
@@ -68,6 +82,13 @@ InclusionCollector::cendInclusions() const {
 }
 
 void InclusionCollector::removeInclusion(ConstIncMapIterator iter) {
+  // Connect all parents to all children.
+  for (auto& parent : iter->second->getParents()) {
+    for (auto& child : iter->second->getChildren()) {
+      parent->addChild(child);
+      child->addParent(parent);
+    }
+  }
   m_includeGraph.removeNode(iter->second);
   m_inclusions.erase(iter);
 }

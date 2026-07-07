@@ -1,14 +1,13 @@
-set(LLVM_LINK_COMPONENTS
-  FrontendOpenMP
-  Support
-  )
+set(LLVM_LINK_COMPONENTS Support)
 
 add_clang_executable(include-analyser
+  IAActionFactory.cpp
   IAConsumer.cpp
   IAFrontendAction.cpp
   IAVisitor.cpp
   IncludeAnalyser.cpp
   InclusionCollector.cpp
+  IAOptions.cpp
   )
 
 clang_target_link_libraries(include-analyser
@@ -16,7 +15,10 @@ clang_target_link_libraries(include-analyser
   clangAST
   clangASTMatchers
   clangBasic
+  clangFormat
   clangFrontend
+  clangLex
+  clangSerialization
   clangTooling
   clangToolingRefactoring
   )

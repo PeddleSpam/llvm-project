@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/PassInstrumentation.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/IR/PassManager.h"
 
 using namespace llvm;
 

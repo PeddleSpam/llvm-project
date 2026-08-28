@@ -1,7 +1,6 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,alpha.llvm.Conventions \
 // RUN:   -std=c++14 -verify  %s
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 //===----------------------------------------------------------------------===//
 // Forward declarations for StringRef tests.

@@ -11,30 +11,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Object/ArchiveWriter.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/IR/LLVMContext.h"
-#include "llvm/Object/Archive.h"
-#include "llvm/Object/COFF.h"
 #include "llvm/Object/COFFImportFile.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Object/GOFFObjectFile.h"
 #include "llvm/Object/IRObjectFile.h"
 #include "llvm/Object/MachO.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Object/SymbolicFile.h"
 #include "llvm/Object/XCOFFObjectFile.h"
-#include "llvm/Support/Alignment.h"
 #include "llvm/Support/EndianStream.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/MathExtras.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cerrno>
 #include <map>

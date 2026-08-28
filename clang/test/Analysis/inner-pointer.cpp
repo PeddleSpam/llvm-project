@@ -2,7 +2,6 @@
 // RUN:   -Wno-dangling -Wno-dangling-field -Wno-return-stack-address \
 // RUN:   %s -analyzer-output=text -verify
 
-#include "Inputs/system-header-simulator-cxx.h"
 namespace std {
 
 template <typename T>

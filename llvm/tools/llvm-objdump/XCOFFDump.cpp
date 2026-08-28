@@ -17,11 +17,6 @@
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Demangle/Demangle.h"
 #include "llvm/MC/MCInstPrinter.h"
-#include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/Support/Endian.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/FormattedStream.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 
 using namespace llvm;

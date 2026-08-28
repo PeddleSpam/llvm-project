@@ -7,17 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/PrintPasses.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/IOSandbox.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Program.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

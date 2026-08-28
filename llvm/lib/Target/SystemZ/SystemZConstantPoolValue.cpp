@@ -9,7 +9,6 @@
 #include "SystemZConstantPoolValue.h"
 #include "llvm/ADT/FoldingSet.h"
 #include "llvm/IR/GlobalValue.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

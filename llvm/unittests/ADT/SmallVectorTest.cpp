@@ -10,11 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/ArrayRef.h"
-#include "llvm/Support/Compiler.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <list>
 #include <stdarg.h>
 

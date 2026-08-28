@@ -7,32 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Object/IRSymtab.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallPtrSet.h"
 #include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/ADT/StringSet.h"
 #include "llvm/Bitcode/BitcodeReader.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/IR/Comdat.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/GlobalAlias.h"
-#include "llvm/IR/GlobalObject.h"
-#include "llvm/IR/Mangler.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/IR/Module.h"
 #include "llvm/MC/StringTableBuilder.h"
 #include "llvm/Object/ModuleSymbolTable.h"
-#include "llvm/Object/SymbolicFile.h"
-#include "llvm/Support/Allocator.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/StringSaver.h"
 #include "llvm/Support/VCSRevision.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 #include <cassert>
 #include <string>
 #include <utility>

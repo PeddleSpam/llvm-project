@@ -1,12 +1,11 @@
+#include "../../../../../sie/llvm-project/llvm/include/llvm/Support/Unicode.h"
+#include "../../lib/Format/AffectedRangeManager.h"
+#include "../../lib/Format/FormatToken.h"
+#include "../../lib/Format/FormatTokenLexer.h"
 #include "../../lib/Format/Macros.h"
-#include "../../lib/Format/UnwrappedLineParser.h"
 #include "TestLexer.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <map>
 #include <memory>
 #include <vector>

@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/APInt.h"
 #include "llvm/Support/DivisionByConstantInfo.h"
 #include "gtest/gtest.h"
 

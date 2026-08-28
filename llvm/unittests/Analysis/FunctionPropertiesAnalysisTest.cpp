@@ -8,21 +8,11 @@
 
 #include "llvm/Analysis/FunctionPropertiesAnalysis.h"
 #include "llvm/Analysis/AliasAnalysis.h"
-#include "llvm/Analysis/IR2Vec.h"
-#include "llvm/Analysis/LoopInfo.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Dominators.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/StandardInstrumentations.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Transforms/Utils/Cloning.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstring>
 
 using namespace llvm;

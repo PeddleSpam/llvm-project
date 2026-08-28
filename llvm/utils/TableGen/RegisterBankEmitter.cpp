@@ -14,12 +14,8 @@
 #include "Common/CodeGenRegisters.h"
 #include "Common/CodeGenTarget.h"
 #include "Common/InfoByHwMode.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/MathExtras.h"
 #include "llvm/TableGen/CodeGenHelpers.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TGTimer.h"
 #include "llvm/TableGen/TableGenBackend.h"
 

@@ -9,10 +9,8 @@
 #include "llvm/IR/RuntimeLibcalls.h"
 #include "benchmark/benchmark.h"
 #include "llvm/IR/DataLayout.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/LineIterator.h"
 #include "llvm/Support/MemoryBuffer.h"
-#include "llvm/TargetParser/Triple.h"
 #include <random>
 #include <string>
 using namespace llvm;

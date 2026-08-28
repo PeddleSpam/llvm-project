@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CAS/ActionCache.h"
-#include "llvm/CAS/CASID.h"
 #include "llvm/CAS/ObjectStore.h"
 
 using namespace llvm;

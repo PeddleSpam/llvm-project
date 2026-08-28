@@ -5,7 +5,6 @@
 
 // expected-no-diagnostics
 
-#include "../Inputs/system-header-simulator-cxx-std-suppression.h"
 
 void testList_pop_front(std::list<int> list) {
   while(!list.empty())

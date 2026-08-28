@@ -10,12 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Basic/SDNodeProperties.h"
 #include "Common/CodeGenDAGPatterns.h"
 #include "DAGISelMatcher.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "isel-opt"

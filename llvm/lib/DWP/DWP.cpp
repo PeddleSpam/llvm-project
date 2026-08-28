@@ -11,18 +11,11 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/DWP/DWP.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/DWP/DWPError.h"
 #include "llvm/DWP/ELFWriter.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugAbbrev.h"
 #include "llvm/Object/Decompressor.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Support/EndianStream.h"
-#include "llvm/Support/LEB128.h"
-#include "llvm/Support/MathExtras.h"
 #include <limits>
 #include <optional>
 

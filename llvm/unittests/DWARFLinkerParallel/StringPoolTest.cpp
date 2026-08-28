@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DWARFLinker/StringPool.h"
-#include "llvm/Support/Parallel.h"
 #include "gtest/gtest.h"
 #include <cstdlib>
 

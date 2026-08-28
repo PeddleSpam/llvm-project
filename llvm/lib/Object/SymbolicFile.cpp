@@ -10,15 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Object/SymbolicFile.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/Object/COFFImportFile.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Object/IRObjectFile.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <memory>
 
 using namespace llvm;

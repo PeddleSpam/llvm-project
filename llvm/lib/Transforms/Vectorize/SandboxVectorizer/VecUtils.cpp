@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h"
 
-#include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/SandboxIR/Instruction.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h"
 
 namespace llvm::sandboxir {

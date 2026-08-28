@@ -68,20 +68,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/CodeGen/BasicBlockMatchingAndInference.h"
 #include "llvm/CodeGen/BasicBlockSectionUtils.h"
-#include "llvm/CodeGen/BasicBlockSectionsProfileReader.h"
-#include "llvm/CodeGen/MachineDominators.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
 #include "llvm/CodeGen/MachinePostDominators.h"
-#include "llvm/CodeGen/Passes.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
-#include "llvm/InitializePasses.h"
-#include "llvm/Support/UniqueBBID.h"
-#include "llvm/Target/TargetMachine.h"
 #include "llvm/Transforms/Utils/CodeLayout.h"
 #include <optional>
 

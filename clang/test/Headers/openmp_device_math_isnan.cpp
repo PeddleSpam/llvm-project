@@ -23,6 +23,9 @@
 // RUN: %clang_cc1 -x c++ -include __clang_openmp_device_functions.h -internal-isystem %S/../../lib/Headers/openmp_wrappers -internal-isystem %S/Inputs/include -fopenmp -triple amdgpu-amd-amdhsa -aux-triple powerpc64le-unknown-unknown -fopenmp-targets=amdgpu-amd-amdhsa -emit-llvm %s -fopenmp-is-target-device -fopenmp-host-ir-file-path %t-ppc-host.bc -o - -ffast-math -ffp-contract=fast -DUSE_ISNAN_WITH_INT_RETURN | FileCheck %s --check-prefix=AMD_INT_RETURN_FAST
 // expected-no-diagnostics
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <cmath>
 
 double math(float f, double d) {

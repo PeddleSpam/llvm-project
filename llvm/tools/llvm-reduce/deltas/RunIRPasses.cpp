@@ -8,8 +8,6 @@
 
 #include "RunIRPasses.h"
 #include "llvm/Passes/PassBuilder.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace llvm;
 

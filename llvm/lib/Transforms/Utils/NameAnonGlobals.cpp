@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/NameAnonGlobals.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/MD5.h"
 #include "llvm/Transforms/Utils/ModuleUtils.h"

@@ -14,13 +14,7 @@
 #include "llvm/ExecutionEngine/JITLink/XCOFF_ppc64.h"
 #include "JITLinkGeneric.h"
 #include "XCOFFLinkGraphBuilder.h"
-#include "llvm/ADT/bit.h"
-#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "llvm/ExecutionEngine/JITLink/ppc64.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Object/XCOFFObjectFile.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <system_error>
 
 using namespace llvm;

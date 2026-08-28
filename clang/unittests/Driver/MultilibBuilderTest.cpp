@@ -13,11 +13,7 @@
 
 #include "clang/Driver/MultilibBuilder.h"
 #include "SimpleDiagnosticConsumer.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Driver/CommonArgs.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "gtest/gtest.h"
 
 using llvm::is_contained;

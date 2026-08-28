@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <utility>
 
 namespace llvm {

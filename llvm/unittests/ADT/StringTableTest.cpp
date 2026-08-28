@@ -8,7 +8,6 @@
 
 #include "llvm/ADT/StringTable.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstdlib>
 
 using namespace llvm;

@@ -7,15 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/DebugInfo/CodeView/DebugChecksumsSubsection.h"
 #include "llvm/DebugInfo/CodeView/DebugStringTableSubsection.h"
 #include "llvm/DebugInfo/CodeView/StringsAndChecksums.h"
-#include "llvm/Object/COFF.h"
 #include "llvm/ObjectYAML/COFFYAML.h"
-#include "llvm/ObjectYAML/CodeViewYAMLTypes.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/YAMLTraits.h"
 
 using namespace llvm;
 

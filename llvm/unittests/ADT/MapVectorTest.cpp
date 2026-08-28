@@ -8,9 +8,7 @@
 
 #include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/iterator_range.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <utility>
 

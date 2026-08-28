@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Bitstream/BitstreamReader.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Bitstream/BitstreamWriter.h"
 #include "gtest/gtest.h"
 

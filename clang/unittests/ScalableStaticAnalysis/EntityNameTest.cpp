@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 namespace clang::ssaf {

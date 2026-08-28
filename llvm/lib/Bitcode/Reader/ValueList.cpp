@@ -8,13 +8,8 @@
 
 #include "ValueList.h"
 #include "llvm/IR/Argument.h"
-#include "llvm/IR/Constant.h"
 #include "llvm/IR/GlobalValue.h"
 #include "llvm/IR/Instruction.h"
-#include "llvm/IR/Type.h"
-#include "llvm/IR/Value.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 

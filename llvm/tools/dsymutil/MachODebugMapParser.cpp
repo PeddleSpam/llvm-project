@@ -6,19 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "BinaryHolder.h"
-#include "DebugMap.h"
 #include "MachOUtils.h"
-#include "RelocationMap.h"
 #include "dsymutil.h"
-#include "llvm/ADT/DenseSet.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Object/MachO.h"
-#include "llvm/Support/Chrono.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 #include <vector>
 

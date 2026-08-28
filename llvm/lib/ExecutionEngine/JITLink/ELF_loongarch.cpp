@@ -11,11 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/JITLink/ELF_loongarch.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/ExecutionEngine/JITLink/DWARFRecordSectionSplitter.h"
-#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "llvm/ExecutionEngine/JITLink/loongarch.h"
-#include "llvm/Object/ELF.h"
 #include "llvm/Object/ELFObjectFile.h"
 
 #include "EHFrameSupportImpl.h"

@@ -14,8 +14,6 @@
 #include "llvm/ObjCopy/CommonConfig.h"
 
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Object/Binary.h"
-#include "llvm/Object/COFF.h"
 #include "llvm/Support/CRC.h"
 #include "llvm/Support/Errc.h"
 #include "llvm/Support/Path.h"

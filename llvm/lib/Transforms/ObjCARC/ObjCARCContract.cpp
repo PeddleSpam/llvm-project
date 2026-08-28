@@ -25,26 +25,15 @@
 // TODO: ObjCARCContract could insert PHI nodes when uses aren't
 // dominated by single calls.
 
-#include "ARCRuntimeEntryPoints.h"
 #include "DependencyAnalysis.h"
 #include "ObjCARC.h"
 #include "ProvenanceAnalysis.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/Analysis/AliasAnalysis.h"
 #include "llvm/Analysis/BasicAliasAnalysis.h"
-#include "llvm/Analysis/ObjCARCUtil.h"
-#include "llvm/IR/Dominators.h"
-#include "llvm/IR/EHPersonalities.h"
 #include "llvm/IR/InlineAsm.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Operator.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/Transforms/ObjCARC.h"
-#include "llvm/Transforms/Utils/Local.h"
 
 using namespace llvm;
 using namespace llvm::objcarc;

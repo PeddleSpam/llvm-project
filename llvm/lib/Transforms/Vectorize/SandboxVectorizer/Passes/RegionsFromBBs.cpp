@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Passes/RegionsFromBBs.h"
-#include "llvm/SandboxIR/Function.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/RegionWithScore.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerPassBuilder.h"
 

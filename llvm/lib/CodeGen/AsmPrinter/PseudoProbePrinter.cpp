@@ -13,9 +13,6 @@
 #include "PseudoProbePrinter.h"
 #include "llvm/CodeGen/AsmPrinter.h"
 #include "llvm/IR/DebugInfoMetadata.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/PseudoProbe.h"
-#include "llvm/MC/MCPseudoProbe.h"
 #include "llvm/MC/MCStreamer.h"
 #include "llvm/ProfileData/SampleProf.h"
 

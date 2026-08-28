@@ -14,7 +14,6 @@
 #include "llvm/Transforms/IPO/Annotation2Metadata.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
 #include "llvm/IR/Constants.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstIterator.h"
 #include "llvm/IR/Module.h"
 

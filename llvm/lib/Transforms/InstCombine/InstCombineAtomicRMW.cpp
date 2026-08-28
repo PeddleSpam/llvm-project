@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "InstCombineInternal.h"
-#include "llvm/IR/Instructions.h"
 
 using namespace llvm;
 using namespace PatternMatch;

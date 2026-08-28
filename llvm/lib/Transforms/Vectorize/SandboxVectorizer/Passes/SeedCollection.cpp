@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Passes/SeedCollection.h"
-#include "llvm/Analysis/TargetTransformInfo.h"
 #include "llvm/SandboxIR/Module.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/RegionWithScore.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerPassBuilder.h"

@@ -11,15 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/IntrinsicLowering.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/DerivedTypes.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/Type.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 /// This function is used when we want to lower an intrinsic call to a call of

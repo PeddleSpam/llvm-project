@@ -1,7 +1,6 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=alpha.webkit.UncheckedLocalVarsChecker -verify %s
 
 #include "mock-types.h"
-#include "mock-system-header.h"
 
 void someFunction();
 

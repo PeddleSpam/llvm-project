@@ -14,7 +14,6 @@
 
 #include "llvm/ExecutionEngine/Orc/Debugging/DebugInfoSupport.h"
 #include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
-#include "llvm/ExecutionEngine/Orc/Shared/WrapperFunctionUtils.h"
 
 #define DEBUG_TYPE "orc"
 

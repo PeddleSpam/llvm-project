@@ -9,9 +9,6 @@
 #include "llvm/CodeGen/GlobalISel/MachineFloatingPointPredicateUtils.h"
 #include "llvm/CodeGen/GlobalISel/MIPatternMatch.h"
 #include "llvm/CodeGen/LowLevelTypeUtils.h"
-#include "llvm/CodeGen/MachineRegisterInfo.h"
-#include "llvm/CodeGen/MachineSSAContext.h"
-#include "llvm/IR/Constants.h"
 #include <optional>
 
 namespace llvm {

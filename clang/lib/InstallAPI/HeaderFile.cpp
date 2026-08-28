@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/InstallAPI/HeaderFile.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/TextAPI/Utils.h"
 
 using namespace llvm;
 namespace clang::installapi {

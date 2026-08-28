@@ -8,7 +8,6 @@
 
 #include "clang/Basic/FileEntry.h"
 #include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Support/Path.h"
 #include "gtest/gtest.h"
 

@@ -6,18 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Option/OptTable.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Option/Arg.h"
 #include "llvm/Option/ArgList.h"
-#include "llvm/Option/OptSpecifier.h"
-#include "llvm/Option/Option.h"
 #include "llvm/Support/CommandLine.h" // for expandResponseFiles
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/OptionStrCmp.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cassert>
 #include <cctype>

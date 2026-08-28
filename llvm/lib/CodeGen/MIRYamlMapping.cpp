@@ -13,7 +13,6 @@
 
 #include "llvm/CodeGen/MIRYamlMapping.h"
 #include "llvm/CodeGen/MachineFrameInfo.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatVariadic.h"
 
 using namespace llvm;

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "OrcTestCommon.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
 #include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "llvm/ExecutionEngine/Orc/MemoryMapper.h"
 #include "llvm/ExecutionEngine/Orc/SelfExecutorProcessControl.h"

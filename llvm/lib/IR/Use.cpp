@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/Use.h"
 #include "llvm/IR/DerivedTypes.h"
 #include "llvm/IR/User.h"
 

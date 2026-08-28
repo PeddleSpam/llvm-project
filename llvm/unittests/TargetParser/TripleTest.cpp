@@ -7,13 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/TargetParser/Triple.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/CodeGen.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/VersionTuple.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

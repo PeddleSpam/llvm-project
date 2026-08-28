@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/MC/MCDirectives.h"
 #include "llvm/MC/MCStreamer.h"
 namespace llvm {
 class MCContext;

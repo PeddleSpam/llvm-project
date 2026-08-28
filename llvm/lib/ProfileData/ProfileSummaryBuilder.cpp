@@ -10,11 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/ProfileSummary.h"
-#include "llvm/ProfileData/InstrProf.h"
 #include "llvm/ProfileData/ProfileCommon.h"
-#include "llvm/ProfileData/SampleProf.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 

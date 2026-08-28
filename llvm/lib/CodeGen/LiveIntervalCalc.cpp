@@ -11,14 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/LiveIntervalCalc.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/CodeGen/LiveInterval.h"
-#include "llvm/CodeGen/MachineInstr.h"
-#include "llvm/CodeGen/MachineOperand.h"
 #include "llvm/CodeGen/MachineRegisterInfo.h"
-#include "llvm/CodeGen/SlotIndexes.h"
-#include "llvm/CodeGen/TargetRegisterInfo.h"
-#include "llvm/MC/LaneBitmask.h"
 #include <cassert>
 
 using namespace llvm;

@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "LlvmState.h"
 #include "Target.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/MC/MCCodeEmitter.h"
-#include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCFixup.h"
-#include "llvm/MC/MCObjectFileInfo.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Target/TargetMachine.h"
-#include "llvm/Target/TargetOptions.h"
 #include "llvm/TargetParser/Host.h"
 
 namespace llvm {

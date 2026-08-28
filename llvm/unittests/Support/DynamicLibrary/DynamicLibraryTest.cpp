@@ -8,7 +8,6 @@
 
 #include "llvm/Support/DynamicLibrary.h"
 #include "llvm/Config/config.h"
-#include "llvm/Support/Compiler.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 #include "gtest/gtest.h"

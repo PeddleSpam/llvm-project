@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/PGOCtxProfWriter.h"
-#include "llvm/Bitstream/BitCodeEnums.h"
-#include "llvm/ProfileData/CtxInstrContextNode.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Error.h"
 #include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::ctx_profile;

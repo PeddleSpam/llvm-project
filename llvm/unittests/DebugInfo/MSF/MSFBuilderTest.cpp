@@ -10,9 +10,6 @@
 #include "llvm/DebugInfo/MSF/MSFCommon.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gmock/gmock-matchers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::msf;

@@ -12,11 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/MIRPrinter.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
 #include "llvm/CodeGen/MachineModuleInfo.h"
-#include "llvm/CodeGen/Passes.h"
 #include "llvm/CodeGen/VirtRegMap.h"
-#include "llvm/IR/Function.h"
 #include "llvm/InitializePasses.h"
 
 using namespace llvm;

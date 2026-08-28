@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/CodeGen/GlobalISel/LegalizerInfo.h"
-#include "llvm/CodeGen/TargetOpcodes.h"
 #include "GISelMITest.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace LegalizeActions;

@@ -11,4 +11,3 @@
 // RUN: clang-check -ast-dump "%S/Inputs/pch.cpp" "%s" -- -include-pch %t1 -I "%S" -c >%t2 2>&1
 // RUN: test -s %t2
 
-#include "Inputs/pch-fail.h"

@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Object/GOFFObjectFile.h"
-#include "llvm/BinaryFormat/GOFF.h"
 #include "llvm/Object/GOFF.h"
 #include "llvm/Support/DataExtractor.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/raw_ostream.h"
 
 #ifndef DEBUG_TYPE
 #define DEBUG_TYPE "goff"

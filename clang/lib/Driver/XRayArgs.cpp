@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "clang/Driver/XRayArgs.h"
 #include "clang/Driver/CommonArgs.h"
-#include "clang/Driver/Driver.h"
-#include "clang/Driver/ToolChain.h"
-#include "clang/Options/Options.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/SpecialCaseList.h"
-#include "llvm/Support/VirtualFileSystem.h"
 
 using namespace clang;
 using namespace clang::driver;

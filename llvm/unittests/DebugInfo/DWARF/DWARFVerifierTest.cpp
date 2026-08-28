@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/DWARF/DWARFVerifier.h"
-#include "llvm/DebugInfo/DWARF/DWARFAddressRange.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

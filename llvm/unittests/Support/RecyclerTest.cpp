@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Recycler.h"
-#include "llvm/Support/AllocatorBase.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

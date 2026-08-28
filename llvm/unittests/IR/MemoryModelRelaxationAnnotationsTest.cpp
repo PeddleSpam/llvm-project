@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/MemoryModelRelaxationAnnotations.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/IR/Module.h"
 #include "gtest/gtest.h"
 

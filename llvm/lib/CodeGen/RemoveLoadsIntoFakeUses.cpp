@@ -26,14 +26,8 @@
 #include "llvm/ADT/PostOrderIterator.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/CodeGen/LiveRegUnits.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
-#include "llvm/CodeGen/MachinePassManager.h"
 #include "llvm/CodeGen/MachineRegisterInfo.h"
-#include "llvm/CodeGen/TargetSubtargetInfo.h"
-#include "llvm/IR/Function.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Target/TargetMachine.h"
 
 using namespace llvm;

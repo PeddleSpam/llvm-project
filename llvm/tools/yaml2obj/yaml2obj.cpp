@@ -14,16 +14,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/ObjectYAML/ObjectYAML.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/InitLLVM.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/ToolOutputFile.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 #include <system_error>
 

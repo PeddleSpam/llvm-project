@@ -27,7 +27,6 @@
 // RUN: cat %t/use-explicit-no-map-cwd.d
 // RUN: FileCheck --check-prefix=CHECK-USE %s < %t/use-explicit-no-map-cwd.d
 
-#include "Inputs/relative-dep-gen-1.h"
 
 // CHECK-BUILD: mod.pcm:
 // CHECK-BUILD:   {{[ \t]}}Inputs{{[/\\]}}relative-dep-gen{{(-cwd)?}}.modulemap

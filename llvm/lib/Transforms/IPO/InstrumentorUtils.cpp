@@ -8,10 +8,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Transforms/IPO/InstrumentorUtils.h"
 #include "llvm/Transforms/IPO/Instrumentor.h"
 
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/IR/DiagnosticInfo.h"
 
 using namespace llvm;

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCDisassembler/MCRelocationInfo.h"
-#include "llvm-c/DisassemblerTypes.h"
 #include "llvm/MC/TargetRegistry.h"
 
 using namespace llvm;

@@ -10,7 +10,6 @@
 #include "llvm/ObjCopy/CommonConfig.h"
 #include "llvm/ObjCopy/MultiFormatConfig.h"
 #include "llvm/ObjCopy/ObjCopy.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Support/FileOutputBuffer.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"
 

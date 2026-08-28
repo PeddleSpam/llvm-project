@@ -8,14 +8,9 @@
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Passes/LoadStoreVec.h"
 #include "llvm/SandboxIR/Module.h"
-#include "llvm/SandboxIR/Region.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/InstructionCost.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Debug.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Legality.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/RegionWithScore.h"
-#include "llvm/Transforms/Vectorize/SandboxVectorizer/Scheduler.h"
-#include "llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h"
 
 namespace llvm {
 

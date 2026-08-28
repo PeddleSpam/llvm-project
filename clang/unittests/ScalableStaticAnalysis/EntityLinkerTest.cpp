@@ -8,18 +8,7 @@
 
 #include "clang/ScalableStaticAnalysis/Core/EntityLinker/EntityLinker.h"
 #include "TestFixture.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/EntitySummaryEncoding.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummaryEncoding.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityIdTable.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/SummaryName.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 using namespace clang::ssaf;

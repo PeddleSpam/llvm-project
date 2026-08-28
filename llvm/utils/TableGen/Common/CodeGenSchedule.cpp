@@ -12,17 +12,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "CodeGenSchedule.h"
-#include "CodeGenInstruction.h"
+#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenTarget.h"
 #include "Utils.h"
 #include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/Regex.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
 #include <algorithm>
 #include <iterator>

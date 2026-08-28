@@ -1,6 +1,5 @@
 #include "llvm/Transforms/Utils/CodeLayout.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <vector>
 
 using namespace llvm;

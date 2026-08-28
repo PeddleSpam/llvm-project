@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/IndexSerialization/SerializablePathCollection.h"
-#include "llvm/Support/Path.h"
 
 using namespace llvm;
 using namespace clang;

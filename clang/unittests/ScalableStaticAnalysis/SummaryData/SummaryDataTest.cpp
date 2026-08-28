@@ -7,19 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "../TestFixture.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummary.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityIdTable.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/SummaryName.h"
 #include "clang/ScalableStaticAnalysis/Core/SummaryData/LUSummaryConsumer.h"
 #include "clang/ScalableStaticAnalysis/Core/SummaryData/SummaryDataBuilderRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/EntitySummary.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <utility>
 #include <vector>

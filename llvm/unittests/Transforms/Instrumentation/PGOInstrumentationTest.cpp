@@ -8,12 +8,10 @@
 
 #include "llvm/Transforms/Instrumentation/PGOInstrumentation.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Module.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/ProfileData/InstrProf.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include <tuple>
 

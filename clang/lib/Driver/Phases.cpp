@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Driver/Phases.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/vadefs.h"
 #include "llvm/Support/ErrorHandling.h"
 #include <cassert>
 

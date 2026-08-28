@@ -9,12 +9,7 @@
 #include "llvm/Transforms/IPO/EmbedBitcodePass.h"
 #include "llvm/Bitcode/BitcodeWriter.h"
 #include "llvm/Bitcode/BitcodeWriterPass.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/Pass.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/Transforms/IPO/ThinLTOBitcodeWriter.h"
 #include "llvm/Transforms/Utils/ModuleUtils.h"
 

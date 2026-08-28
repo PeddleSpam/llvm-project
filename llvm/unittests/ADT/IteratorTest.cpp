@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/iterator.h"
 #include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/ilist.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 #include <type_traits>
 #include <vector>

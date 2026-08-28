@@ -8,7 +8,6 @@
 
 #include "llvm/ExecutionEngine/Orc/LinkGraphLinkingLayer.h"
 
-#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

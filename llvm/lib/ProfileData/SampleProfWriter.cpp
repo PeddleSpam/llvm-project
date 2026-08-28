@@ -18,17 +18,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/SampleProfWriter.h"
-#include "llvm/ADT/Eytzinger.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/ProfileData/ProfileCommon.h"
-#include "llvm/ProfileData/SampleProf.h"
 #include "llvm/Support/Compression.h"
-#include "llvm/Support/EndianStream.h"
-#include "llvm/Support/ErrorOr.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/MD5.h"
-#include "llvm/Support/raw_ostream.h"
 #include <array>
 #include <cmath>
 #include <cstdint>

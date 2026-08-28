@@ -8,18 +8,10 @@
 
 #include "llvm/Analysis/IR2Vec.h"
 #include "llvm/IR/Constants.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/LLVMContext.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/Type.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <vector>
 
 using namespace llvm;

@@ -10,19 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/CodeGen/DIE.h"
 #include "DwarfCompileUnit.h"
-#include "DwarfDebug.h"
-#include "llvm/CodeGen/AsmPrinter.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/MC/MCAsmInfo.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/MC/MCSymbol.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/LEB128.h"
-#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "dwarfdebug"

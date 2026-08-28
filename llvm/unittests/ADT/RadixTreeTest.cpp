@@ -8,10 +8,7 @@
 
 #include "llvm/ADT/RadixTree.h"
 #include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <iterator>
 #include <list>
 #include <vector>

@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/GenericDomTree.h"
-#include "llvm/ADT/GraphTraits.h"
-#include "llvm/Support/DataTypes.h"
 #include "gtest/gtest.h"
 using namespace llvm;
 

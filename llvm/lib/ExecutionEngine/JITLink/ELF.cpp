@@ -12,7 +12,6 @@
 
 #include "llvm/ExecutionEngine/JITLink/ELF.h"
 
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/ExecutionEngine/JITLink/ELF_aarch32.h"
 #include "llvm/ExecutionEngine/JITLink/ELF_aarch64.h"
 #include "llvm/ExecutionEngine/JITLink/ELF_hexagon.h"

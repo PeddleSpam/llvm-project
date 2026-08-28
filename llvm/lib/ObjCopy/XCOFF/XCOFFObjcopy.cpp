@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjCopy/XCOFF/XCOFFObjcopy.h"
-#include "XCOFFObject.h"
 #include "XCOFFReader.h"
 #include "XCOFFWriter.h"
 #include "llvm/ObjCopy/CommonConfig.h"

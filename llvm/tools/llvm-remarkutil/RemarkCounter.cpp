@@ -12,9 +12,7 @@
 
 #include "RemarkCounter.h"
 #include "RemarkUtilRegistry.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InterleavedRange.h"
-#include "llvm/Support/Regex.h"
 
 using namespace llvm;
 using namespace remarks;

@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Clustering.h"
-#include "BenchmarkResult.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace llvm {
 namespace exegesis {

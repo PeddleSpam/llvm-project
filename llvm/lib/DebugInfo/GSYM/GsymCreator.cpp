@@ -6,13 +6,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/GSYM/GsymCreator.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/DebugInfo/GSYM/FileWriter.h"
 #include "llvm/DebugInfo/GSYM/Header.h"
-#include "llvm/DebugInfo/GSYM/LineTable.h"
 #include "llvm/DebugInfo/GSYM/OutputAggregator.h"
-#include "llvm/MC/StringTableBuilder.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <algorithm>
 #include <cassert>

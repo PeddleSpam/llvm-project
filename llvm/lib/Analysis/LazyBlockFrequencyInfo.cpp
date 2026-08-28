@@ -15,7 +15,6 @@
 
 #include "llvm/Analysis/LazyBlockFrequencyInfo.h"
 #include "llvm/Analysis/CycleAnalysis.h"
-#include "llvm/Analysis/LazyBranchProbabilityInfo.h"
 #include "llvm/IR/Dominators.h"
 #include "llvm/InitializePasses.h"
 

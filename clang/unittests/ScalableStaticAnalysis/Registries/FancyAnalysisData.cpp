@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Registries/MockSerializationFormat.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/EntitySummary.h"
 #include "llvm/Support/Casting.h"
-#include "llvm/Support/Registry.h"
 
 using namespace clang;
 using namespace ssaf;

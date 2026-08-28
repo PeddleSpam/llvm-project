@@ -8,12 +8,10 @@
 
 #include "DwarfGenerator.h"
 #include "DwarfUtils.h"
-#include "llvm/BinaryFormat/Dwarf.h"
 #include "llvm/DebugInfo/DWARF/DWARFCompileUnit.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/ObjectYAML/DWARFEmitter.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::dwarf;

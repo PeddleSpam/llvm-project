@@ -17,6 +17,10 @@
 // RUN: FileCheck -allow-deprecated-dag-overlap --check-prefix=CHECK-FORCE-EMIT %s < %t.vtable
 
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 // CHECK-TEST1: @_ZTVN5Test11AE = external constant

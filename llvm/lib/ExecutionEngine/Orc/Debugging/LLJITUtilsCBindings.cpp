@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm-c/LLJIT.h"
 #include "llvm-c/LLJITUtils.h"
 
 #include "llvm/ExecutionEngine/Orc/Debugging/DebuggerSupport.h"

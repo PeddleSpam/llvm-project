@@ -12,11 +12,8 @@
 #include "clang/Serialization/InMemoryModuleCache.h"
 #include "clang/Serialization/ModuleFile.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/IOSandbox.h"
 #include "llvm/Support/LockFileManager.h"
-#include "llvm/Support/Path.h"
 
 using namespace clang;
 

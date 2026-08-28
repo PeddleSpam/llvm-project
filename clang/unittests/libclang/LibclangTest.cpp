@@ -7,17 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestUtils.h"
-#include "clang-c/BuildSystem.h"
-#include "clang-c/Index.h"
 #include "clang-c/Rewrite.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Chrono.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
-#include "gtest/gtest.h"
 #include <cstring>
 #include <fstream>
 #include <functional>

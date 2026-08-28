@@ -8,11 +8,7 @@
 
 #include "Win64EHDumper.h"
 #include "llvm-readobj.h"
-#include "llvm/ADT/Enum.h"
 #include "llvm/Object/COFF.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/WithColor.h"
 
 using namespace llvm;

@@ -10,9 +10,7 @@
 #include "llvm/Transforms/ObjCARC.h"
 #include "llvm/ADT/SetVector.h"
 #include "llvm/Analysis/AliasAnalysis.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::objcarc;

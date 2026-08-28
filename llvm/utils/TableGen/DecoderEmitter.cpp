@@ -11,8 +11,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Common/CodeGenHwModes.h"
-#include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenRegisters.h"
 #include "Common/CodeGenTarget.h"
 #include "Common/InfoByHwMode.h"
@@ -20,29 +18,12 @@
 #include "Common/SubtargetFeatureInfo.h"
 #include "Common/VarLenCodeEmitterGen.h"
 #include "DecoderTableEmitter.h"
-#include "DecoderTree.h"
 #include "TableGenBackends.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/FormattedStream.h"
-#include "llvm/Support/KnownBits.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include <algorithm>
 #include <cassert>
 #include <cstddef>
@@ -1502,9 +1483,7 @@ void DecoderEmitter::run(raw_ostream &o) const {
 #include "llvm/MC/MCInst.h"
 #include "llvm/MC/MCSubtargetInfo.h"
 #include "llvm/Support/DataTypes.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/SubtargetFeature.h"
 #include <assert.h>
 

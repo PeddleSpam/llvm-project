@@ -25,9 +25,6 @@
 #ifndef NO_TEXTUAL_INCLUSION
 #include "Inputs/merge-decl-context/a.h"
 #endif
-#include "Inputs/merge-decl-context/b.h"
-#include "Inputs/merge-decl-context/c.h"
-#include "Inputs/merge-decl-context/d.h"
 
 void t() {
   ff(42);

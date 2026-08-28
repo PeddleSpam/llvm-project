@@ -9,11 +9,9 @@
 #include "llvm/ObjCopy/DXContainer/DXContainerObjcopy.h"
 #include "DXContainerReader.h"
 #include "DXContainerWriter.h"
-#include "llvm/BinaryFormat/DXContainer.h"
 #include "llvm/ObjCopy/CommonConfig.h"
 #include "llvm/ObjCopy/DXContainer/DXContainerConfig.h"
 #include "llvm/Support/FileOutputBuffer.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace llvm {
 namespace objcopy {

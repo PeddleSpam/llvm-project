@@ -6,10 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/InstallAPI/DylibVerifier.h"
+#include "../../../../../sie/llvm-project/clang/include/clang/Basic/DiagnosticInstallAPI.h"
 #include "DiagnosticBuilderWrappers.h"
 #include "clang/InstallAPI/FrontendRecords.h"
-#include "clang/InstallAPI/InstallAPIDiagnostic.h"
 #include "llvm/Demangle/Demangle.h"
 #include "llvm/TextAPI/DylibReader.h"
 

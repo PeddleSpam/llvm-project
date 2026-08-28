@@ -7,6 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "../lib/Format/ObjCPropertyAttributeOrderFixer.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/AffectedRangeManager.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/Encoding.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/FormatToken.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/FormatTokenLexer.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/Macros.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/TokenAnalyzer.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/TokenAnnotator.h"
+#include "../../../../../sie/llvm-project/clang/lib/Format/UnwrappedLineParser.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/MapVector.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/SmallPtrSet.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/StringSet.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/Support/Unicode.h"
 #include "FormatTestBase.h"
 #include "TestLexer.h"
 

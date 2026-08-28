@@ -7,16 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "DWARFEmitterImpl.h"
-#include "DWARFLinkerCompileUnit.h"
 #include "llvm/MC/MCAsmBackend.h"
 #include "llvm/MC/MCCodeEmitter.h"
-#include "llvm/MC/MCInstPrinter.h"
 #include "llvm/MC/MCObjectWriter.h"
-#include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/MC/MCTargetOptions.h"
 #include "llvm/MC/MCTargetOptionsCommandFlags.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/FormattedStream.h"
 
 using namespace llvm;
 using namespace dwarf_linker;

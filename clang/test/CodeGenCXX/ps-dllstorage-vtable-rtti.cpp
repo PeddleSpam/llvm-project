@@ -17,6 +17,10 @@
 // RUN: %clang_cc1 -I%S -fdeclspec -triple x86_64-sie-ps5  -emit-llvm -o - %s -fhalf-no-semantic-interposition \
 // RUN:   | FileCheck %s --check-prefixes=PS
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 /// Case (a) -- Import Aspect

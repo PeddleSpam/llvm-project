@@ -13,17 +13,11 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "llvm-c/Remarks.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Demangle/Demangle.h"
 #include "llvm/Remarks/Remark.h"
-#include "llvm/Remarks/RemarkFormat.h"
 #include "llvm/Remarks/RemarkParser.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorOr.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/LineIterator.h"
 #include "llvm/Support/MemoryBuffer.h"
@@ -31,7 +25,6 @@
 #include "llvm/Support/Program.h"
 #include "llvm/Support/TypeSize.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdlib>
 #include <map>
 #include <optional>

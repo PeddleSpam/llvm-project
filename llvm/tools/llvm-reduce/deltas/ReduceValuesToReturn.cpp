@@ -16,13 +16,9 @@
 
 #include "ReduceValuesToReturn.h"
 
-#include "Delta.h"
 #include "Utils.h"
 #include "llvm/IR/AttributeMask.h"
-#include "llvm/IR/Attributes.h"
-#include "llvm/IR/CFG.h"
 #include "llvm/IR/Instructions.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"
 
 using namespace llvm;

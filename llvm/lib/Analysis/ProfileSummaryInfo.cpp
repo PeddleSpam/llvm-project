@@ -13,14 +13,9 @@
 
 #include "llvm/Analysis/ProfileSummaryInfo.h"
 #include "llvm/Analysis/BlockFrequencyInfo.h"
-#include "llvm/IR/BasicBlock.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/ProfileSummary.h"
 #include "llvm/InitializePasses.h"
 #include "llvm/ProfileData/ProfileCommon.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Compiler.h"
 #include <optional>
 using namespace llvm;
 

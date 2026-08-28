@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ArrayRecycler.h"
-#include "llvm/Support/Allocator.h"
 #include "gtest/gtest.h"
 #include <cstdlib>
 

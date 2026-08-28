@@ -1,6 +1,5 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,debug.ExprInspection -analyzer-config c++-inlining=constructors -verify %s
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

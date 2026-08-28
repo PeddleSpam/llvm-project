@@ -17,11 +17,6 @@
 #include "Common/CodeGenSchedule.h"
 #include "Common/CodeGenTarget.h"
 #include "DFAEmitter.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <cassert>
 #include <cstdint>

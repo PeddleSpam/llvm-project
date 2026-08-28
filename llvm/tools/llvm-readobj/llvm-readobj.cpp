@@ -19,7 +19,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm-readobj.h"
-#include "ObjDumper.h"
 #include "WindowsResourceDumper.h"
 #include "llvm/DebugInfo/CodeView/GlobalTypeTableBuilder.h"
 #include "llvm/DebugInfo/CodeView/MergingTypeTableBuilder.h"
@@ -28,23 +27,12 @@
 #include "llvm/Object/COFFImportFile.h"
 #include "llvm/Object/ELFObjectFile.h"
 #include "llvm/Object/MachOUniversal.h"
-#include "llvm/Object/ObjectFile.h"
 #include "llvm/Object/Wasm.h"
-#include "llvm/Object/WindowsResource.h"
 #include "llvm/Object/XCOFFObjectFile.h"
-#include "llvm/Option/Arg.h"
 #include "llvm/Option/ArgList.h"
-#include "llvm/Option/Option.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/DataTypes.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/LLVMDriver.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Support/WithColor.h"
 
 using namespace llvm;

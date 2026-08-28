@@ -13,10 +13,7 @@
 
 #include "llvm/MC/MCAsmInfo.h"
 #include "llvm/ADT/Enum.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/BinaryFormat/Dwarf.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCExpr.h"
 #include "llvm/MC/MCStreamer.h"
 #include "llvm/MC/MCValue.h"
 #include "llvm/Support/Casting.h"

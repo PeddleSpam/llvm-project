@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/TargetParser/TargetParser.h"
-#include "llvm/ADT/ArrayRef.h"
 
 using namespace llvm;
 

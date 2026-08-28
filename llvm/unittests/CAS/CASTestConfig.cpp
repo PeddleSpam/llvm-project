@@ -8,10 +8,7 @@
 
 #include "CASTestConfig.h"
 #include "OnDiskCommonUtils.h"
-#include "llvm/CAS/ObjectStore.h"
 #include "llvm/Support/SHA1.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <mutex>
 
 using namespace llvm;

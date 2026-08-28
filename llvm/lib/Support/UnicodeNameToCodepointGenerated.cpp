@@ -62,6 +62,8 @@ use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
 */
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include "llvm/Support/Compiler.h"
 #include <cstddef>
 #include <cstdint>

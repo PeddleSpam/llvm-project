@@ -11,10 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Core/ASTEntityMapping.h"
-#include "clang/AST/Decl.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
 #include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/ADT/SmallString.h"
 
 namespace clang::ssaf {
 

@@ -6,15 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/Module.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/IR/Constants.h"
-#include "llvm/IR/GlobalVariable.h"
 #include "llvm/IR/ModuleSummaryIndex.h"
 #include "llvm/Pass.h"
 #include "llvm/Support/RandomNumberGenerator.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 #include <random>

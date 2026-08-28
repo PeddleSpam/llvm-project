@@ -11,24 +11,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummaryEncoding.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/MultiArchSharedLibrary.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/MultiArchStaticLibrary.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/StaticLibrary.h"
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
+#include "../../../../../sie/llvm-project/clang/include/clang/ScalableStaticAnalysis/SSAFBuiltinForceLinker.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
-#include "clang/ScalableStaticAnalysis/Core/Serialization/SerializationFormatRegistry.h"
-#include "clang/ScalableStaticAnalysis/SSAFForceLinker.h" // IWYU pragma: keep
 #include "clang/ScalableStaticAnalysis/Tool/Utils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include <memory>
 #include <optional>
 #include <string>

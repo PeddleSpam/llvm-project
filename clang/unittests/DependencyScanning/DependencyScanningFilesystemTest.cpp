@@ -6,12 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/DependencyScanning/DependencyScanningFilesystem.h"
 #include "clang/DependencyScanning/DependencyScanningService.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
-#include "gtest/gtest.h"
 #include <condition_variable>
 #include <mutex>
 #include <thread>

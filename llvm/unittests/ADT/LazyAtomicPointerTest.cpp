@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/LazyAtomicPointer.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/ThreadPool.h"
 #include "gtest/gtest.h"
 

@@ -15,7 +15,6 @@
 #include "llvm/Object/BuildID.h"
 
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 

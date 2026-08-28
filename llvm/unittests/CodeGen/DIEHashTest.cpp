@@ -7,16 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "../lib/CodeGen/AsmPrinter/DIEHash.h"
+#include "../../lib/CodeGen/AsmPrinter/DIEHash.h"
 #include "TestAsmPrinter.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/CodeGen/DIE.h"
-#include "llvm/CodeGen/DwarfStringPoolEntry.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Format.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

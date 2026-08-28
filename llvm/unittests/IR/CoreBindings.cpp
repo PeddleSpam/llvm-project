@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm-c/Core.h"
-#include "llvm/Config/llvm-config.h"
 #include "gtest/gtest.h"
 
 namespace {

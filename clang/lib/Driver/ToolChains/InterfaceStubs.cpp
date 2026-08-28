@@ -9,7 +9,6 @@
 #include "InterfaceStubs.h"
 #include "clang/Driver/CommonArgs.h"
 #include "clang/Driver/Compilation.h"
-#include "llvm/Support/Path.h"
 
 namespace clang {
 namespace driver {

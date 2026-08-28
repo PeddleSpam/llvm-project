@@ -19,19 +19,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Interpreter.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/Config/config.h" // Detect libffi
-#include "llvm/ExecutionEngine/GenericValue.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/Type.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/DynamicLibrary.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/Mutex.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <cmath>
 #include <csignal>

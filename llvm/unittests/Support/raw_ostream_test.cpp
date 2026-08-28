@@ -6,17 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
 #include "llvm/Support/AutoConvert.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace llvm;

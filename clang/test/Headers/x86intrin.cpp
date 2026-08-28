@@ -4,6 +4,7 @@
 // XFAIL: target=arm64ec-pc-windows-msvc
 // These intrinsics are not yet implemented for Arm64EC.
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
 #if defined(i386) || defined(__x86_64__)
 
 // Include the metaheader that includes all x86 intrinsic headers.

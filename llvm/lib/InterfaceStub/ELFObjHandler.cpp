@@ -9,14 +9,9 @@
 #include "llvm/InterfaceStub/ELFObjHandler.h"
 #include "llvm/InterfaceStub/IFSStub.h"
 #include "llvm/MC/StringTableBuilder.h"
-#include "llvm/Object/Binary.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Object/ELFTypes.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileOutputBuffer.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include <optional>
 
 using llvm::object::ELFObjectFile;

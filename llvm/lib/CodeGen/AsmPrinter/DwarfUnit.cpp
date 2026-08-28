@@ -10,23 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DwarfUnit.h"
-#include "AddressPool.h"
 #include "DwarfCompileUnit.h"
 #include "DwarfExpression.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/APInt.h"
 #include "llvm/CodeGen/TargetRegisterInfo.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/GlobalValue.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCDwarf.h"
-#include "llvm/MC/MCSection.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Target/TargetLoweringObjectFile.h"
 #include <cassert>
 #include <cstdint>

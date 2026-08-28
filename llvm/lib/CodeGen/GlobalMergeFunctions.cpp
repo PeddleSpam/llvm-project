@@ -13,13 +13,10 @@
 #include "llvm/CodeGen/GlobalMergeFunctions.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Analysis/ModuleSummaryAnalysis.h"
-#include "llvm/CGData/CodeGenData.h"
 #include "llvm/CGData/CodeGenDataWriter.h"
 #include "llvm/CodeGen/Passes.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/StructuralHash.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Transforms/Utils/ModuleUtils.h"
 
 #define DEBUG_TYPE "global-merge-func"

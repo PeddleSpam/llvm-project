@@ -14,8 +14,6 @@
 
 #include "Interpreter.h"
 #include "llvm/CodeGen/IntrinsicLowering.h"
-#include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Module.h"
 #include <cstring>
 using namespace llvm;
 

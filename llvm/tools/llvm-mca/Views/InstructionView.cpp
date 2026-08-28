@@ -13,7 +13,6 @@
 
 #include "Views/InstructionView.h"
 #include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCInstPrinter.h"
 #include "llvm/MC/MCSubtargetInfo.h"
 
 namespace llvm {

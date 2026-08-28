@@ -2,7 +2,6 @@
 
 int f() {
   int x = 0;
-#include "Inputs/comment.h" /*
     */
   return x;
 }

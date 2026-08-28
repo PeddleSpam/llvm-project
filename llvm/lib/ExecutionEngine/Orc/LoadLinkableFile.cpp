@@ -6,12 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ExecutionEngine/Orc/LoadLinkableFile.h"
 
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/BinaryFormat/Magic.h"
 #include "llvm/ExecutionEngine/Orc/MachO.h"
-#include "llvm/Support/FileSystem.h"
 
 #define DEBUG_TYPE "orc"
 

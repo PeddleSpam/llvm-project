@@ -17,7 +17,6 @@
 // RUN:   -analyzer-checker=deadcode \
 // RUN:   -analyzer-config silence-checkers="deadcode.DeadStores"
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 typedef __typeof(sizeof(int)) size_t;
 void *malloc(size_t);

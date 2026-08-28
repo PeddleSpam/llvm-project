@@ -16,20 +16,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Bitcode/BitcodeReader.h"
 #include "llvm/CodeGen/CommandFlags.h"
 #include "llvm/DTLTO/DTLTO.h"
 #include "llvm/IR/DiagnosticPrinter.h"
-#include "llvm/LTO/LTO.h"
 #include "llvm/Plugins/PassPlugin.h"
 #include "llvm/Remarks/HotnessThresholdParser.h"
-#include "llvm/Support/Caching.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/PluginLoader.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/Threading.h"
 #include "llvm/Support/TimeProfiler.h"
 #include <atomic>
 

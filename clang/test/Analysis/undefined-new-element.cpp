@@ -1,6 +1,5 @@
 // RUN: %clang_analyze_cc1 %s -analyzer-checker=core.uninitialized.NewArraySize -analyzer-output=text -verify
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void checkUndefinedElmenetCountValue() {
   int n;

@@ -11,7 +11,6 @@
 #include "llvm/ADT/FoldingSet.h"
 #include "llvm/ADT/StringRef.h"
 #include "llvm/Demangle/ItaniumDemangle.h"
-#include "llvm/Support/Allocator.h"
 
 using namespace llvm;
 using llvm::itanium_demangle::ForwardTemplateReference;

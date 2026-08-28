@@ -8,9 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/MemoryMapper.h"
 #include "llvm/ExecutionEngine/JITLink/JITLink.h"
-#include "llvm/Support/Process.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

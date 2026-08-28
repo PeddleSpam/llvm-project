@@ -8,7 +8,6 @@
 
 #include "llvm/CodeGen/Rematerializer.h"
 #include "CodeGenTestBase.h"
-#include "llvm/CodeGen/LiveIntervals.h"
 #include "llvm/CodeGen/RegisterPressure.h"
 #include "llvm/Config/Targets.h"
 #include "llvm/Support/TargetSelect.h"

@@ -14,14 +14,7 @@
 
 #include "MultiArchCreateCLI.h"
 
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
-#include "clang/ScalableStaticAnalysis/Core/Support/ErrorBuilder.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Timer.h"
-#include "llvm/TargetParser/Triple.h"
 #include <cassert>
 #include <memory>
 #include <string>

@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/FuzzMutate/RandomIRBuilder.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/FuzzMutate/OpDescriptor.h"
 #include "llvm/FuzzMutate/Random.h"
-#include "llvm/IR/BasicBlock.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/DataLayout.h"
 #include "llvm/IR/Dominators.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
 

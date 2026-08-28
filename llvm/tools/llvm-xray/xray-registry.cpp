@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 #include "xray-registry.h"
 
-#include "llvm/ADT/DenseMap.h"
 
 using namespace llvm;
 using namespace xray;

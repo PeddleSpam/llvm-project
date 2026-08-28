@@ -15,7 +15,6 @@
 
 void clang_analyzer_eval(bool);
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 class A {
   int x;

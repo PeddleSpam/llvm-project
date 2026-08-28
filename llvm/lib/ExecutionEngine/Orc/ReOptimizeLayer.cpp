@@ -1,6 +1,5 @@
 #include "llvm/ExecutionEngine/Orc/ReOptimizeLayer.h"
 #include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
-#include "llvm/ExecutionEngine/Orc/Mangling.h"
 #include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
 
 using namespace llvm;

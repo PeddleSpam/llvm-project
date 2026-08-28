@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/JITSymbol.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/GlobalAlias.h"
-#include "llvm/IR/GlobalValue.h"
 #include "llvm/IR/ModuleSummaryIndex.h"
 #include "llvm/Object/ObjectFile.h"
 

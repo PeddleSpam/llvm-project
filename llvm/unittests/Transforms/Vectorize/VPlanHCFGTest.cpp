@@ -6,12 +6,22 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../lib/Transforms/Vectorize/VPlan.h"
-#include "../lib/Transforms/Vectorize/VPlanTransforms.h"
+#include "../../../include/llvm/ADT/ScopeExit.h"
+#include "../../../include/llvm/Analysis/DomTreeUpdater.h"
+#include "../../../include/llvm/Analysis/DominanceFrontier.h"
+#include "../../../include/llvm/Analysis/TargetTransformInfo.h"
+#include "../../../include/llvm/Analysis/VectorUtils.h"
+#include "../../../include/llvm/IR/ModuleSlotTracker.h"
+#include "../../../include/llvm/IR/Operator.h"
+#include "../../../include/llvm/Support/GenericDomTreeConstruction.h"
+#include "../../../include/llvm/Support/Regex.h"
+#include "../../../lib/Transforms/Vectorize/VPlanAnalysis.h"
+#include "../../../lib/Transforms/Vectorize/VPlanCFG.h"
+#include "../../../lib/Transforms/Vectorize/VPlanDominatorTree.h"
+#include "../../../lib/Transforms/Vectorize/VPlanUtils.h"
+#include "../../../lib/Transforms/Vectorize/VPlanValue.h"
+#include "../../../lib/Transforms/Vectorize/VPlanVerifier.h"
 #include "VPlanTestBase.h"
-#include "llvm/Analysis/TargetLibraryInfo.h"
-#include "llvm/TargetParser/Triple.h"
-#include "gtest/gtest.h"
 #include <string>
 
 namespace llvm {

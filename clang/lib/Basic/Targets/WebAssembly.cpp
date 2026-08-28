@@ -11,11 +11,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "WebAssembly.h"
-#include "Targets.h"
-#include "clang/Basic/Builtins.h"
+#include "../../../../../../sie/llvm-project/clang/lib/Basic/TargetDefines.h"
+#include "../../../include/clang/Basic/MacroBuilder.h"
 #include "clang/Basic/Diagnostic.h"
 #include "clang/Basic/TargetBuiltins.h"
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace clang;
 using namespace clang::targets;

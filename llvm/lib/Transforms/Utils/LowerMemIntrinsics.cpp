@@ -8,14 +8,9 @@
 
 #include "llvm/Transforms/Utils/LowerMemIntrinsics.h"
 #include "llvm/Analysis/ScalarEvolution.h"
-#include "llvm/Analysis/TargetTransformInfo.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/MDBuilder.h"
-#include "llvm/IR/ProfDataUtils.h"
 #include "llvm/ProfileData/InstrProf.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/MathExtras.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"
 #include "llvm/Transforms/Utils/LoopUtils.h"
 #include <cmath>

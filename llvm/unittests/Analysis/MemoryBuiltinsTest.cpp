@@ -7,11 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/MemoryBuiltins.h"
-#include "llvm/IR/Attributes.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/ObjectYAML.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/YAMLParser.h"
-#include "llvm/Support/YAMLTraits.h"
 #include <string>
 
 using namespace llvm;

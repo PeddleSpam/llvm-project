@@ -9,11 +9,8 @@
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/HTTP/HTTPClient.h"
 #include "llvm/HTTP/HTTPServer.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ThreadPool.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

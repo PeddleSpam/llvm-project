@@ -1,6 +1,12 @@
-#include "../../lib/Format/Macros.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/MapVector.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/SmallPtrSet.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/ADT/StringSet.h"
+#include "../../../../../sie/llvm-project/llvm/include/llvm/Support/Unicode.h"
+#include "../../lib/Format/AffectedRangeManager.h"
+#include "../../lib/Format/Encoding.h"
+#include "../../lib/Format/FormatToken.h"
+#include "../../lib/Format/UnwrappedLineParser.h"
 #include "TestLexer.h"
-#include "clang/Basic/FileManager.h"
 
 #include "gtest/gtest.h"
 

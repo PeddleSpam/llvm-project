@@ -6,7 +6,6 @@
 
 // CHECK: checker cannot be enabled with analyzer option 'aggressive-binary-operation-simplification' == false
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

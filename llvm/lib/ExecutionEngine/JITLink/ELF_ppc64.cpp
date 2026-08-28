@@ -12,7 +12,6 @@
 
 #include "llvm/ExecutionEngine/JITLink/ELF_ppc64.h"
 #include "llvm/ExecutionEngine/JITLink/DWARFRecordSectionSplitter.h"
-#include "llvm/ExecutionEngine/JITLink/TableManager.h"
 #include "llvm/ExecutionEngine/JITLink/ppc64.h"
 #include "llvm/Object/ELFObjectFile.h"
 

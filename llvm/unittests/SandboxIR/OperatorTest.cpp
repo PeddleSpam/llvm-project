@@ -8,11 +8,8 @@
 
 #include "llvm/SandboxIR/Operator.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/SandboxIR/Context.h"
 #include "llvm/SandboxIR/Function.h"
-#include "llvm/SandboxIR/Instruction.h"
 #include "llvm/SandboxIR/Module.h"
-#include "llvm/SandboxIR/Value.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gtest/gtest.h"
 

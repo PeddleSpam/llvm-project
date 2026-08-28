@@ -6,7 +6,6 @@
 
 // expected-no-diagnostics
 
-#include "../Inputs/system-header-simulator-cxx-std-suppression.h"
 
 void test_opaque_handling() {
   int arr[5] = {};

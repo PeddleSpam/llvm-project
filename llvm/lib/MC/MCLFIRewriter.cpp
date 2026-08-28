@@ -13,10 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCLFIRewriter.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCInstrInfo.h"
 
 using namespace llvm;
 

@@ -7,14 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/VirtualOutputBackends.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Support/BLAKE3.h"
 #include "llvm/Support/HashingOutputBackend.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::vfs;

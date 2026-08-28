@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/SectionMemoryManager.h"
-#include "llvm/Config/config.h"
 #include "llvm/Support/Process.h"
 
 namespace llvm {

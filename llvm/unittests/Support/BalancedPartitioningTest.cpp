@@ -9,7 +9,6 @@
 #include "llvm/Support/BalancedPartitioning.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using testing::Each;
 using testing::Field;

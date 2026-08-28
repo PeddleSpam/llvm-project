@@ -12,7 +12,6 @@
 #include "llvm/ExecutionEngine/Orc/EPCGenericJITLinkMemoryManagerSPS.h"
 #include "llvm/ExecutionEngine/Orc/EPCGenericMemoryAccessSPS.h"
 #include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
-#include "llvm/Support/FormatVariadic.h"
 
 #define DEBUG_TYPE "orc"
 

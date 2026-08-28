@@ -8,7 +8,6 @@
 
 #include "llvm/ExecutionEngine/Orc/IRPartitionLayer.h"
 #include "llvm/ExecutionEngine/Orc/ExecutionUtils.h"
-#include "llvm/ExecutionEngine/Orc/IndirectionUtils.h"
 
 using namespace llvm;
 using namespace llvm::orc;

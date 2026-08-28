@@ -8,8 +8,6 @@
 
 #include "clang/Tooling/Inclusions/HeaderIncludes.h"
 #include "clang/Format/Format.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/StringRef.h"
 
 #include "gtest/gtest.h"
 #include <cassert>

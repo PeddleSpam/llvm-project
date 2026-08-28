@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjCopy/wasm/WasmObjcopy.h"
-#include "WasmObject.h"
 #include "WasmReader.h"
 #include "WasmWriter.h"
 #include "llvm/ObjCopy/CommonConfig.h"

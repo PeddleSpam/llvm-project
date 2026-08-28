@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
-#include "llvm/MC/DXContainerInfo.h"
-#include "llvm/Object/DXContainer.h"
 #include "llvm/ObjectYAML/DXContainerYAML.h"
-#include "llvm/Support/Error.h"
 
 #include <algorithm>
 

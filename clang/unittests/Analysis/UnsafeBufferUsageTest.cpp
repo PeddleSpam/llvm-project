@@ -1,8 +1,5 @@
 #include "gtest/gtest.h"
-#include "clang/Basic/SourceLocation.h"
 #include "clang/Basic/SourceManager.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/FileManager.h"
 #include "clang/Analysis/Analyses/UnsafeBufferUsage.h"
 
 using namespace clang;

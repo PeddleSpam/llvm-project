@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "PPCFreeBSD.h"
-#include "clang/Driver/Driver.h"
-#include "clang/Options/Options.h"
-#include "llvm/Support/Path.h"
 
 using namespace clang::driver::toolchains;
 using namespace llvm::opt;

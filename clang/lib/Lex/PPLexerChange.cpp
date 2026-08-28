@@ -11,17 +11,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/LexDiagnostic.h"
-#include "clang/Lex/MacroInfo.h"
+#include "../../../../../sie/llvm-project/clang/include/clang/Basic/DiagnosticLex.h"
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include <optional>
 
 using namespace clang;

@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Regex.h"
 #include "llvm/Support/YAMLTraits.h"
 #include <string>

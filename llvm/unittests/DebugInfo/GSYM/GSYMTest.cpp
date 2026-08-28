@@ -6,32 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFTypePrinter.h"
 #include "llvm/DebugInfo/GSYM/DwarfTransformer.h"
-#include "llvm/DebugInfo/GSYM/ExtractRanges.h"
-#include "llvm/DebugInfo/GSYM/FileEntry.h"
 #include "llvm/DebugInfo/GSYM/FileWriter.h"
-#include "llvm/DebugInfo/GSYM/FunctionInfo.h"
 #include "llvm/DebugInfo/GSYM/GsymCreatorV1.h"
 #include "llvm/DebugInfo/GSYM/GsymCreatorV2.h"
-#include "llvm/DebugInfo/GSYM/GsymDataExtractor.h"
 #include "llvm/DebugInfo/GSYM/GsymReaderV1.h"
 #include "llvm/DebugInfo/GSYM/GsymReaderV2.h"
-#include "llvm/DebugInfo/GSYM/Header.h"
-#include "llvm/DebugInfo/GSYM/HeaderV2.h"
-#include "llvm/DebugInfo/GSYM/InlineInfo.h"
 #include "llvm/DebugInfo/GSYM/OutputAggregator.h"
-#include "llvm/DebugInfo/GSYM/StringTable.h"
 #include "llvm/ObjectYAML/DWARFEmitter.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/JSON.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
-#include "gmock/gmock.h"
 #include <string>
 
 using namespace llvm;

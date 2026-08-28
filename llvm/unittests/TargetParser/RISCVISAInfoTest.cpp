@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/TargetParser/RISCVISAInfo.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using ::testing::ElementsAre;
 

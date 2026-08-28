@@ -7,21 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "DebugMap.h"
-#include "BinaryHolder.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/MachO.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/Chrono.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 #include <algorithm>
 #include <cinttypes>
 #include <cstdint>

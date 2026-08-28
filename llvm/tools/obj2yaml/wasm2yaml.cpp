@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
-#include "llvm/Object/COFF.h"
 #include "llvm/ObjectYAML/WasmYAML.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/YAMLTraits.h"
 
 using namespace llvm;
 using object::WasmSection;

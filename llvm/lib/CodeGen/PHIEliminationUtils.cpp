@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "PHIEliminationUtils.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/MachineRegisterInfo.h"
 
 using namespace llvm;

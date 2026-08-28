@@ -10,7 +10,6 @@
 
 #include "llvm/ExecutionEngine/Orc/MapperJITLinkMemoryManager.h"
 
-#include "llvm/ExecutionEngine/Orc/MemoryMapper.h"
 #include "llvm/Testing/Support/Error.h"
 
 using namespace llvm;

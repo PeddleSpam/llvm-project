@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Basic/Sarif.h"
-#include "clang/Basic/SourceLocation.h"
 #include "clang/ScalableStaticAnalysis/SourceTransformation/SourceEditEmitter.h"
 #include "clang/ScalableStaticAnalysis/SourceTransformation/TransformationReportEmitter.h"
 #include "gtest/gtest.h"

@@ -13,11 +13,8 @@
 
 #include "JSONFormatTest.h"
 
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
 
 #include <memory>
 

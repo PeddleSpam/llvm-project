@@ -10,7 +10,6 @@
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/ObjectYAML/DWARFEmitter.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

@@ -10,15 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ObjDumper.h"
 #include "StackMapPrinter.h"
 #include "llvm-readobj.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Object/MachO.h"
 #include "llvm/Support/BinaryStreamReader.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ScopedPrinter.h"
 
 using namespace llvm;
 using namespace object;

@@ -4,7 +4,6 @@
 // RUN: %clang_analyze_cc1 -std=c++14 -analyzer-checker=core,cplusplus.Move \
 // RUN:   -analyzer-output=text -verify %s
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 struct S {
   int v;

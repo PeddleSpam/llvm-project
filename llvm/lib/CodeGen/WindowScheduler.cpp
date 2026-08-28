@@ -35,15 +35,11 @@
 // target and achieved favorable results.
 //
 //===----------------------------------------------------------------------===//
-#include "llvm/CodeGen/WindowScheduler.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/CodeGen/LiveIntervals.h"
-#include "llvm/CodeGen/MachineLoopInfo.h"
 #include "llvm/CodeGen/MachinePipeliner.h"
 #include "llvm/CodeGen/ModuloSchedule.h"
 #include "llvm/CodeGen/TargetPassConfig.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/TimeProfiler.h"
 #include "llvm/Target/TargetMachine.h"
 

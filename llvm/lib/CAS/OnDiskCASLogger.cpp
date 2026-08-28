@@ -18,14 +18,9 @@
 
 #include "llvm/CAS/OnDiskCASLogger.h"
 
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 #ifdef __APPLE__
 #include <sys/time.h>
 #endif

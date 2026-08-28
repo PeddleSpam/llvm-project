@@ -12,9 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCAsmInfoCOFF.h"
-#include "llvm/BinaryFormat/COFF.h"
-#include "llvm/MC/MCDirectives.h"
-#include "llvm/MC/MCSection.h"
 #include "llvm/MC/MCSectionCOFF.h"
 #include "llvm/MC/MCSymbol.h"
 #include "llvm/Support/raw_ostream.h"

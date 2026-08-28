@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/TextEncoding.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Config/config.h"
 #include "gtest/gtest.h"
 

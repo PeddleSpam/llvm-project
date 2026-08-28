@@ -12,21 +12,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/CodeViewYAMLSymbols.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/DebugInfo/CodeView/CodeView.h"
-#include "llvm/DebugInfo/CodeView/CodeViewError.h"
 #include "llvm/DebugInfo/CodeView/EnumTables.h"
-#include "llvm/DebugInfo/CodeView/RecordSerialization.h"
 #include "llvm/DebugInfo/CodeView/SymbolDeserializer.h"
-#include "llvm/DebugInfo/CodeView/SymbolRecord.h"
 #include "llvm/DebugInfo/CodeView/SymbolSerializer.h"
-#include "llvm/DebugInfo/CodeView/TypeIndex.h"
 #include "llvm/ObjectYAML/YAML.h"
-#include "llvm/Support/Allocator.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/YAMLTraits.h"
 #include <algorithm>
 #include <cstdint>
 #include <cstring>

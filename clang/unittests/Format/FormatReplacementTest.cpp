@@ -6,7 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../../sie/llvm-project/clang/include/clang/Basic/SourceManager.h"
+#include "../../../../../sie/llvm-project/clang/include/clang/Rewrite/Core/Rewriter.h"
+#include "../../../../../sie/llvm-project/third-party/unittest/googletest/include/gtest/gtest.h"
 #include "../Tooling/ReplacementTest.h"
+#include "../Tooling/RewriterTestContext.h"
 #include "clang/Format/Format.h"
 
 namespace clang {

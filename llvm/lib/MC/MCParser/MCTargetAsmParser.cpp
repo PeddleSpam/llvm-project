@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCParser/MCTargetAsmParser.h"
-#include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCObjectStreamer.h"
-#include "llvm/MC/MCRegister.h"
 
 using namespace llvm;
 

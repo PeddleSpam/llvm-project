@@ -7,11 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "Common/GlobalISel/PatternParser.h"
+#include "../../../../include/llvm/ADT/SmallPtrSet.h"
+#include "../../../../include/llvm/Support/ModRef.h"
+#include "../../Basic/SDNodeProperties.h"
+#include "../CodeGenInstruction.h"
+#include "../InfoByHwMode.h"
 #include "Basic/CodeGenIntrinsics.h"
 #include "Common/CodeGenTarget.h"
 #include "Common/GlobalISel/CombinerUtils.h"
 #include "Common/GlobalISel/Patterns.h"
-#include "llvm/ADT/StringRef.h"
+#include "Patterns.h"
 #include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/SaveAndRestore.h"
 #include "llvm/TableGen/Error.h"

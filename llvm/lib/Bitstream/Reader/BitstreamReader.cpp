@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Bitstream/BitstreamReader.h"
-#include "llvm/ADT/StringRef.h"
 #include <cassert>
 #include <optional>
 #include <string>

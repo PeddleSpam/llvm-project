@@ -14,7 +14,6 @@
 #include "llvm/IR/BuiltinGCs.h"
 #include "llvm/IR/GCStrategy.h"
 #include "llvm/IR/DerivedTypes.h"
-#include "llvm/Support/Casting.h"
 
 using namespace llvm;
 

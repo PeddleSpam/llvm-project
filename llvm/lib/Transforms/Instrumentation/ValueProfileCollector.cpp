@@ -11,8 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "ValueProfileCollector.h"
+#include "../../../include/llvm/Analysis/IndirectCallVisitor.h"
+#include "../../../include/llvm/Analysis/TargetLibraryInfo.h"
 #include "ValueProfilePlugins.inc"
-#include "llvm/ProfileData/InstrProf.h"
 
 using namespace llvm;
 

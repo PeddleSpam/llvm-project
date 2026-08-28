@@ -9,13 +9,9 @@
 #include "llvm/ExecutionEngine/Orc/MachO.h"
 
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/BinaryFormat/MachO.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/ExecutionEngine/Orc/ExecutionUtils.h"
-#include "llvm/ExecutionEngine/Orc/Layer.h"
 #include "llvm/Object/MachOUniversal.h"
 #include "llvm/Object/TapiUniversal.h"
-#include "llvm/Support/FileSystem.h"
 
 #define DEBUG_TYPE "orc"
 

@@ -10,17 +10,10 @@
 #include "llvm/Analysis/AssumptionCache.h"
 #include "llvm/Analysis/BasicAliasAnalysis.h"
 #include "llvm/Analysis/LoopInfo.h"
-#include "llvm/Analysis/ScalarEvolution.h"
 #include "llvm/Analysis/TargetLibraryInfo.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/DataLayout.h"
 #include "llvm/IR/Dominators.h"
-#include "llvm/SandboxIR/Function.h"
-#include "llvm/SandboxIR/Instruction.h"
-#include "llvm/Support/SourceMgr.h"
-#include "llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

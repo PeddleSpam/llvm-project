@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "BuiltinCAS.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/CAS/BuiltinObjectHasher.h"
 #include "llvm/CAS/UnifiedOnDiskCache.h"
 

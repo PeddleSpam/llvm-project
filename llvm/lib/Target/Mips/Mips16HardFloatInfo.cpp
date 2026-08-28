@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Mips16HardFloatInfo.h"
+#include "../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/vadefs.h"
 #include <string.h>
 
 namespace llvm {

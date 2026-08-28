@@ -8,6 +8,7 @@
 
 #include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
 
+#include "../../../../../../../sie/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
 #include "../ModelStringConversions.h"
 
 namespace clang::ssaf {

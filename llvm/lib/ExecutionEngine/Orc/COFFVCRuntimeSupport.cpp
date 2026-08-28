@@ -11,7 +11,6 @@
 #include "llvm/ExecutionEngine/Orc/COFF.h"
 #include "llvm/ExecutionEngine/Orc/CallProxiesSPS.h"
 #include "llvm/ExecutionEngine/Orc/ExecutionUtils.h"
-#include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
 #include "llvm/ExecutionEngine/Orc/RecordProxy.h"
 #include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/WindowsDriver/MSVCPaths.h"

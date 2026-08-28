@@ -12,15 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/RawCommentList.h"
-#include "clang/Basic/CommentOptions.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticIDs.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "clang/Basic/SourceLocation.h"
 #include "clang/Basic/SourceManager.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include <gtest/gtest.h>
 
 namespace clang {

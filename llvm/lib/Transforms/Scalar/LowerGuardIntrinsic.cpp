@@ -13,10 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Scalar/LowerGuardIntrinsic.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/Instructions.h"
-#include "llvm/IR/Intrinsics.h"
 #include "llvm/Transforms/Utils/GuardUtils.h"
 
 using namespace llvm;

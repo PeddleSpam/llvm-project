@@ -10,15 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/XRay/Trace.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/DataExtractor.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/XRay/BlockIndexer.h"
 #include "llvm/XRay/BlockVerifier.h"
 #include "llvm/XRay/FDRRecordConsumer.h"
 #include "llvm/XRay/FDRRecordProducer.h"
-#include "llvm/XRay/FDRRecords.h"
 #include "llvm/XRay/FDRTraceExpander.h"
 #include "llvm/XRay/FileHeaderReader.h"
 #include "llvm/XRay/YAMLXRayRecord.h"

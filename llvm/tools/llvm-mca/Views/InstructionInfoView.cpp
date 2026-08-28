@@ -14,7 +14,6 @@
 #include "Views/InstructionInfoView.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/FormattedStream.h"
-#include "llvm/Support/JSON.h"
 #include "llvm/Support/WithColor.h"
 
 namespace llvm {

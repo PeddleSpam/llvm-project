@@ -8,19 +8,11 @@
 
 #include "llvm/ExecutionEngine/Orc/TargetProcess/LibraryResolver.h"
 #include "llvm/ExecutionEngine/Orc/JITTargetMachineBuilder.h"
-#include "llvm/ExecutionEngine/Orc/TargetProcess/LibraryScanner.h"
 #include "llvm/ObjectYAML/MachOYAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/YAMLParser.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "llvm/Testing/Support/SupportHelpers.h"
 
-#include "gtest/gtest.h"
 
 #include <algorithm>
 #include <string>

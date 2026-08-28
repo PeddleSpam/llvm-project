@@ -8,8 +8,6 @@
 
 #include "llvm/ExecutionEngine/Orc/EPCGenericMemoryAccessSPS.h"
 
-#include "llvm/ExecutionEngine/Orc/Core.h"
-#include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
 #include "llvm/ExecutionEngine/Orc/RecordProxy.h"
 
 namespace llvm::orc::sps {

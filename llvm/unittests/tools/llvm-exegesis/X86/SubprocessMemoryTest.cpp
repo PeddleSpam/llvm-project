@@ -9,7 +9,6 @@
 #include "SubprocessMemory.h"
 
 #include "X86/TestBase.h"
-#include "gtest/gtest.h"
 #include <string>
 
 #ifdef __linux__

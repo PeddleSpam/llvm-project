@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "FormatTestBase.h"
-#include "clang/Format/Format.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Debug.h"
-#include "gtest/gtest.h"
 
 #define DEBUG_TYPE "sort-includes-test"
 

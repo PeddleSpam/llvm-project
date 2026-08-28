@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/SandboxIR/Pass.h"
 #include "llvm/Analysis/TargetTransformInfo.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Module.h"
-#include "llvm/SandboxIR/Constant.h"
-#include "llvm/SandboxIR/Context.h"
-#include "llvm/SandboxIR/Function.h"
 #include "llvm/SandboxIR/PassManager.h"
 #include "llvm/SandboxIR/Region.h"
 #include "llvm/Support/SourceMgr.h"

@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISelMITest.h"
-#include "llvm/ADT/FloatingPointMode.h"
-#include "llvm/CodeGen/GlobalISel/GISelValueTracking.h"
-#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 TEST_F(AArch64GISelMITest, TestFPClassCstPosZero) {

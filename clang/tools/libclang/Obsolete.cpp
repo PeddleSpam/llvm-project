@@ -12,9 +12,7 @@
 //
 //===--------------------------------------------------------------------===//
 
-#include "clang-c/CXString.h"
 #include "clang-c/Index.h"
-#include "clang-c/Platform.h"
 #include "llvm/Support/raw_ostream.h"
 
 extern "C" {

@@ -7,15 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "Common/OptEmitter.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Option/OptTable.h"
 #include "llvm/Support/InterleavedRange.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/StringToOffsetTable.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <cstring>

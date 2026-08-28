@@ -6,24 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ExecutionEngine/Orc/TargetProcess/LibraryScanner.h"
 #include "llvm/ExecutionEngine/Orc/TargetProcess/LibraryResolver.h"
 
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Object/COFF.h"
-#include "llvm/Object/ELF.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Object/ELFTypes.h"
-#include "llvm/Object/MachO.h"
 #include "llvm/Object/MachOUniversal.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Program.h"
 #include "llvm/TargetParser/Host.h"
-#include "llvm/TargetParser/Triple.h"
 
 #ifdef LLVM_ON_UNIX
 #include <sys/stat.h>

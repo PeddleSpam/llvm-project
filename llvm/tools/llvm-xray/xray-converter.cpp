@@ -13,15 +13,10 @@
 
 #include "trie-node.h"
 #include "xray-registry.h"
-#include "llvm/DebugInfo/Symbolize/Symbolize.h"
 #include "llvm/Support/EndianStream.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/XRay/InstrumentationMap.h"
-#include "llvm/XRay/Trace.h"
 #include "llvm/XRay/YAMLXRayRecord.h"
 
 using namespace llvm;

@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/CombinationGenerator.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstddef>
 #include <vector>
 

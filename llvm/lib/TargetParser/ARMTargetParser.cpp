@@ -14,9 +14,6 @@
 #include "llvm/TargetParser/ARMTargetParser.h"
 #include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/Format.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/ARMTargetParserCommon.h"
-#include "llvm/TargetParser/Triple.h"
 #include <cctype>
 
 using namespace llvm;

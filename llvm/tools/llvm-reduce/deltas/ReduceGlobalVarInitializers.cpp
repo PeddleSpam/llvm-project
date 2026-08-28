@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceGlobalVarInitializers.h"
-#include "llvm/IR/GlobalValue.h"
-#include "llvm/IR/Value.h"
 #include "llvm/Transforms/Utils/Cloning.h"
 
 using namespace llvm;

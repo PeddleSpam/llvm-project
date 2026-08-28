@@ -11,7 +11,6 @@
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gmock/gmock-matchers.h"
-#include "gtest/gtest.h"
 
 #include <memory>
 

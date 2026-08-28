@@ -9,6 +9,7 @@
 #include "MockTUSummaryBuilder.h"
 #include "clang/AST/ASTContext.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
+#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
 
 using namespace clang;
 using namespace ssaf;

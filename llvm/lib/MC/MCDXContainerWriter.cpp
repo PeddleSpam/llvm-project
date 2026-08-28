@@ -10,6 +10,9 @@
 #include "llvm/BinaryFormat/DXContainer.h"
 #include "llvm/MC/MCAssembler.h"
 #include "llvm/MC/MCContext.h"
+#include "llvm/MC/MCSection.h"
+#include "llvm/MC/MCValue.h"
+#include "llvm/Support/Alignment.h"
 #include "llvm/Support/CommandLine.h"
 
 using namespace llvm;

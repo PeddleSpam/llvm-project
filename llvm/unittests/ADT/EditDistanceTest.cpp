@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/StringRef.h"
 #include "llvm/ADT/edit_distance.h"
 #include "gtest/gtest.h"
 #include <cstdlib>

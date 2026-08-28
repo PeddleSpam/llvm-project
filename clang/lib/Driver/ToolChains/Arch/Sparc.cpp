@@ -7,6 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "Sparc.h"
+#include "clang/Driver/Driver.h"
+#include "clang/Options/Options.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/Option/ArgList.h"
 #include "llvm/TargetParser/Host.h"
 
 using namespace clang::driver;

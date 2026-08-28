@@ -18,6 +18,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceDbgRecords.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/IR/BasicBlock.h"
+#include "llvm/IR/DebugProgramInstruction.h"
 
 using namespace llvm;
 

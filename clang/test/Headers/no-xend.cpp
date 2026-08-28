@@ -3,8 +3,6 @@
 // RUN:     -ffreestanding -fsyntax-only -Werror -Wsystem-headers \
 // RUN:     -isystem %S/Inputs/include %s
 
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
 #include <immintrin.h>
 
 #pragma clang attribute push(__attribute__((target("avx"))), apply_to=function)

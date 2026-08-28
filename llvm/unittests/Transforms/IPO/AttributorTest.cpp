@@ -6,8 +6,17 @@
 //
 //===---------------------------------------------------------------------===//
 
+#include "llvm/Transforms/IPO/Attributor.h"
 #include "AttributorTestBase.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Analysis/CGSCCPassManager.h"
+#include "llvm/Analysis/CallGraphSCCPass.h"
 #include "llvm/Analysis/LoopAnalysisManager.h"
+#include "llvm/AsmParser/Parser.h"
+#include "llvm/Support/Allocator.h"
+#include "llvm/Testing/Support/Error.h"
+#include "llvm/Transforms/Utils/CallGraphUpdater.h"
+#include "gtest/gtest.h"
 
 namespace llvm {
 

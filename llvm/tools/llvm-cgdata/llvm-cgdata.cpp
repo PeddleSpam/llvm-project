@@ -12,12 +12,20 @@
 // information, and it can be used to optimize the code in the subsequent build.
 //
 //===----------------------------------------------------------------------===//
+#include "llvm/ADT/StringRef.h"
 #include "llvm/CGData/CodeGenDataReader.h"
 #include "llvm/CGData/CodeGenDataWriter.h"
+#include "llvm/IR/LLVMContext.h"
 #include "llvm/Object/Archive.h"
+#include "llvm/Object/Binary.h"
 #include "llvm/Option/ArgList.h"
+#include "llvm/Option/Option.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/LLVMDriver.h"
+#include "llvm/Support/Path.h"
+#include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Support/WithColor.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::object;

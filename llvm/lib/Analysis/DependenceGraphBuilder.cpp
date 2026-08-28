@@ -9,6 +9,7 @@
 // of dependence graphs such as DDG and PDG.
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Analysis/DependenceGraphBuilder.h"
 #include "llvm/ADT/DepthFirstIterator.h"
 #include "llvm/ADT/EnumeratedArray.h"
 #include "llvm/ADT/PostOrderIterator.h"

@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/PDB/Native/Hash.h"
+#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Support/CRC.h"
 #include "llvm/Support/Endian.h"
 #include <cstdint>

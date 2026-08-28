@@ -10,6 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/DebugInfo/CodeView/RecordSerialization.h"
+#include "llvm/ADT/APInt.h"
+#include "llvm/ADT/APSInt.h"
+#include "llvm/DebugInfo/CodeView/CVRecord.h"
+#include "llvm/DebugInfo/CodeView/CodeViewError.h"
 #include "llvm/DebugInfo/CodeView/SymbolRecord.h"
 #include "llvm/Support/BinaryByteStream.h"
 

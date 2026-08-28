@@ -7,6 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Core/Model/EntityIdTable.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
 #include "gtest/gtest.h"
 
 namespace clang {

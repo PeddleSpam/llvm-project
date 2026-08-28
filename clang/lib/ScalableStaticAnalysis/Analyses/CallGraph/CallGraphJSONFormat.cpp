@@ -7,7 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Analyses/CallGraph/CallGraphSummary.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
+#include "clang/ScalableStaticAnalysis/Core/Support/ErrorBuilder.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/JSON.h"
 #include <memory>
 
 using namespace llvm;

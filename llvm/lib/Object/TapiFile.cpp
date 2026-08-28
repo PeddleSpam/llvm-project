@@ -11,6 +11,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Object/TapiFile.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/BinaryFormat/MachO.h"
+#include "llvm/Support/MemoryBufferRef.h"
+#include "llvm/TextAPI/ArchitectureSet.h"
+#include "llvm/TextAPI/InterfaceFile.h"
+#include "llvm/TextAPI/Platform.h"
+#include "llvm/TextAPI/Symbol.h"
 
 using namespace llvm;
 using namespace MachO;

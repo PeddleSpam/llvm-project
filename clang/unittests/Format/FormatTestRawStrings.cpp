@@ -6,13 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "clang/Format/Format.h"
 
-#include "../../../../../sie/llvm-project/clang/include/clang/Basic/SourceManager.h"
-#include "../../../../../sie/llvm-project/clang/include/clang/Rewrite/Core/Rewriter.h"
 #include "../Tooling/ReplacementTest.h"
-#include "../Tooling/RewriterTestContext.h"
 #include "FormatTestUtils.h"
 
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/MemoryBuffer.h"
 #include "gtest/gtest.h"
 
 #define DEBUG_TYPE "format-test"

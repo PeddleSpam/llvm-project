@@ -13,6 +13,8 @@
 #include "llvm/Object/WindowsResource.h"
 #include "llvm/Object/COFF.h"
 #include "llvm/Object/WindowsMachineFlag.h"
+#include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/MathExtras.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include <ctime>
 #include <queue>

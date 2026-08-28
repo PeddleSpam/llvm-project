@@ -12,7 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "BinaryHolder.h"
+#include "llvm/Object/MachO.h"
 #include "llvm/Support/WithColor.h"
+#include "llvm/Support/raw_ostream.h"
 
 namespace llvm {
 namespace dsymutil {

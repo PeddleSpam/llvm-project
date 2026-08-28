@@ -1,5 +1,6 @@
 // RUN: %clang_analyze_cc1 -std=c++20 -analyzer-checker=core,debug.ExprInspection -analyzer-config inline-lambdas=true -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 void clang_analyzer_warnIfReached();
 void clang_analyzer_eval(int);
 

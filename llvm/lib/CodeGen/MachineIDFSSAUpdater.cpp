@@ -16,9 +16,19 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/MachineIDFSSAUpdater.h"
+#include "llvm/ADT/DenseMap.h"
 #include "llvm/Analysis/IteratedDominanceFrontier.h"
+#include "llvm/CodeGen/MachineBasicBlock.h"
 #include "llvm/CodeGen/MachineDominators.h"
+#include "llvm/CodeGen/MachineFunction.h"
+#include "llvm/CodeGen/MachineInstr.h"
+#include "llvm/CodeGen/MachineInstrBuilder.h"
+#include "llvm/CodeGen/MachineOperand.h"
+#include "llvm/CodeGen/MachineRegisterInfo.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
+#include "llvm/CodeGen/TargetOpcodes.h"
+#include "llvm/IR/DebugLoc.h"
+#include "llvm/Support/Debug.h"
 
 namespace llvm {
 

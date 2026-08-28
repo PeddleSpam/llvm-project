@@ -14,6 +14,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CGData/OutlinedHashTreeRecord.h"
+#include "llvm/ObjectYAML/YAML.h"
+#include "llvm/Support/Endian.h"
 #include "llvm/Support/EndianStream.h"
 
 #define DEBUG_TYPE "outlined-hash-tree"

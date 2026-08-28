@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "llvm/Support/RISCVAttributeParser.h"
 #include "llvm/Support/ARMBuildAttributes.h"
+#include "llvm/Support/ELFAttributes.h"
 #include "gtest/gtest.h"
 #include <string>
 

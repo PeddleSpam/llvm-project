@@ -14,6 +14,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/AssignGUID.h"
+#include "llvm/Support/Debug.h"
 
 using namespace llvm;
 

@@ -10,8 +10,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "X86SelectionDAGInfo.h"
+#include "X86InstrInfo.h"
+#include "X86RegisterInfo.h"
 #include "X86Subtarget.h"
 #include "llvm/CodeGen/MachineFrameInfo.h"
+#include "llvm/CodeGen/SelectionDAG.h"
+#include "llvm/CodeGen/TargetLowering.h"
 
 #define GET_SDNODE_DESC
 #include "X86GenSDNodeInfo.inc"

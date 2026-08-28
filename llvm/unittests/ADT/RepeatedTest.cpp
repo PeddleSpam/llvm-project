@@ -8,6 +8,7 @@
 
 #include "llvm/ADT/Repeated.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include <memory>
 #include <string>

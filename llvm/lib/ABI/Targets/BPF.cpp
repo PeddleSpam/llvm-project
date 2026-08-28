@@ -6,7 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ABI/FunctionInfo.h"
 #include "llvm/ABI/TargetInfo.h"
+#include "llvm/ABI/Types.h"
+#include "llvm/Support/Alignment.h"
+#include "llvm/Support/Casting.h"
 
 namespace llvm::abi {
 

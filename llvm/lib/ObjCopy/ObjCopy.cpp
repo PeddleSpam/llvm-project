@@ -23,6 +23,8 @@
 #include "llvm/Object/COFF.h"
 #include "llvm/Object/DXContainer.h"
 #include "llvm/Object/ELFObjectFile.h"
+#include "llvm/Object/Error.h"
+#include "llvm/Object/MachO.h"
 #include "llvm/Object/MachOUniversal.h"
 #include "llvm/Object/Wasm.h"
 #include "llvm/Object/XCOFFObjectFile.h"

@@ -9,6 +9,7 @@
 #include "clang/Basic/Sanitizers.h"
 
 #include "gmock/gmock-matchers.h"
+#include "gtest/gtest.h"
 
 using namespace clang;
 

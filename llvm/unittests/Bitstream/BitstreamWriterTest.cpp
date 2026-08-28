@@ -7,10 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Bitstream/BitstreamWriter.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/Bitstream/BitCodeEnums.h"
 #include "llvm/Bitstream/BitstreamReader.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

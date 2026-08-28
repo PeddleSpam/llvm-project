@@ -10,8 +10,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/Utils/ImportedFunctionsInliningStatistics.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/IR/Function.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 #include <iomanip>
 #include <sstream>
 #include <string>

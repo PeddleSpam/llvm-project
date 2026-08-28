@@ -8,6 +8,7 @@
 
 #include "CFGBuilder.h"
 #include "llvm/Analysis/PostDominators.h"
+#include "llvm/IR/Dominators.h"
 #include "llvm/Support/GenericDomTreeConstruction.h"
 #include "gtest/gtest.h"
 #include <random>

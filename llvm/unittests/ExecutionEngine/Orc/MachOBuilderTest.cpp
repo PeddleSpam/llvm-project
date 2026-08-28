@@ -7,8 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/Orc/MachOBuilder.h"
+#include "llvm/BinaryFormat/MachO.h"
 #include "llvm/Object/MachO.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

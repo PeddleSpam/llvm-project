@@ -12,8 +12,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "RISCVInlineAsmLowering.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/CodeGen/GlobalISel/InlineAsmLowering.h"
 #include "llvm/CodeGen/MachineOperand.h"
 #include "llvm/IR/Constants.h"
+#include "llvm/Support/MathExtras.h"
 
 using namespace llvm;
 

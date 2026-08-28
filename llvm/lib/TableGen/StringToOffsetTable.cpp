@@ -8,6 +8,7 @@
 
 #include "llvm/TableGen/StringToOffsetTable.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/Main.h"
 

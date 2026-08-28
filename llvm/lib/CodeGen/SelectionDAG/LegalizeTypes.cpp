@@ -14,6 +14,10 @@
 
 #include "LegalizeTypes.h"
 #include "llvm/ADT/SetVector.h"
+#include "llvm/IR/DataLayout.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "legalize-types"

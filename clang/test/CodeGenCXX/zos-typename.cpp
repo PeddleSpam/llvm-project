@@ -2,10 +2,6 @@
 // RUN: %clang -S -emit-llvm -target s390x-none-zos -I%S %s -o - | FileCheck %s
 // RUN: %clang -S -emit-llvm -target s390x-none-zos -I%S -m32 %s -o - | FileCheck %s
 
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 class TestClass {};

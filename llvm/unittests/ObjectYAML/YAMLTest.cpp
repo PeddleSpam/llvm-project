@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/YAML.h"
+#include "llvm/Support/YAMLTraits.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

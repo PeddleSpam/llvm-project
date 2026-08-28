@@ -7,13 +7,20 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/LogicalView/Core/LVCompare.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVLine.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVScope.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVSymbol.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVType.h"
 #include "llvm/DebugInfo/LogicalView/LVReaderHandler.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/COM.h"
 #include "llvm/Support/InitLLVM.h"
+#include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Support/TargetSelect.h"
+#include "llvm/Support/ToolOutputFile.h"
 #include "llvm/Testing/Support/Error.h"
 
+#include "gtest/gtest.h"
 #include <algorithm>
 
 using namespace llvm;

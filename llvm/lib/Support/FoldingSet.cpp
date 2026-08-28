@@ -14,6 +14,8 @@
 #include "llvm/ADT/FoldingSet.h"
 #include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringRef.h"
+#include "llvm/Support/Allocator.h"
+#include "llvm/Support/MathExtras.h"
 #include "llvm/Support/SwapByteOrder.h"
 #include <cassert>
 #include <cstring>

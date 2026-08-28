@@ -8,6 +8,8 @@
 
 #include "MachOLayoutBuilder.h"
 #include "llvm/Support/Errc.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/MathExtras.h"
 
 using namespace llvm;
 using namespace llvm::objcopy::macho;

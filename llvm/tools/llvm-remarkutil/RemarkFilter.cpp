@@ -13,6 +13,8 @@
 #include "RemarkUtilHelpers.h"
 #include "RemarkUtilRegistry.h"
 
+#include "llvm/Support/Error.h"
+#include "llvm/Support/Regex.h"
 #include <map>
 
 using namespace llvm;

@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/EndianStream.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/Support/DataTypes.h"
 #include "gtest/gtest.h"
 using namespace llvm;
 using namespace support;

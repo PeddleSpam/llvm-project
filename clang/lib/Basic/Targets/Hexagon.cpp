@@ -13,6 +13,7 @@
 #include "Hexagon.h"
 #include "clang/Basic/MacroBuilder.h"
 #include "clang/Basic/TargetBuiltins.h"
+#include "llvm/ADT/StringSwitch.h"
 
 using namespace clang;
 using namespace clang::targets;

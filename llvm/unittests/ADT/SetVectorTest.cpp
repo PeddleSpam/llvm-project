@@ -13,6 +13,7 @@
 #include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/SmallPtrSet.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

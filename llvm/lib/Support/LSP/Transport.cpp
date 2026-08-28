@@ -7,6 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/LSP/Transport.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/LSP/Logging.h"
+#include "llvm/Support/LSP/Protocol.h"
 #include <atomic>
 #include <optional>
 #include <system_error>

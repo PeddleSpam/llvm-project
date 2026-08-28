@@ -6,7 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h"
 #include "OrcTestCommon.h"
+#include "llvm/ExecutionEngine/Orc/Shared/ExecutorSymbolDef.h"
 
 using namespace llvm;
 using namespace llvm::orc;

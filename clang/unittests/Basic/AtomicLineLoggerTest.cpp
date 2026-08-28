@@ -11,6 +11,7 @@
 #include "llvm/Support/Process.h"
 #include "llvm/Support/Threading.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 #include <thread>
 
 using namespace clang;

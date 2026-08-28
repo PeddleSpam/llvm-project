@@ -13,7 +13,9 @@
 
 #include "ReduceTargetFeaturesAttr.h"
 
+#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringExtras.h"
+#include "llvm/IR/Function.h"
 
 // TODO: We could maybe do better if we did a semantic parse of the attributes
 // through MCSubtargetInfo. Features can be flipped on and off in the string,

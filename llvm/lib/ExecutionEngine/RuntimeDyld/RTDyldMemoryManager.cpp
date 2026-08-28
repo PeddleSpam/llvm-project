@@ -12,7 +12,9 @@
 
 #include "llvm/Config/config.h"
 #include "llvm/ExecutionEngine/RTDyldMemoryManager.h"
+#include "llvm/Support/Compiler.h"
 #include "llvm/Support/DynamicLibrary.h"
+#include "llvm/Support/ErrorHandling.h"
 #include <cstdlib>
 
 #ifdef __linux__

@@ -7,15 +7,21 @@
 //===----------------------------------------------------------------------===//
 
 #include "Options.h"
-#include "../../../../../sie/llvm-project/clang/include/clang/Basic/DiagnosticInstallAPI.h"
+#include "clang/Basic/DiagnosticIDs.h"
+#include "clang/Driver/Driver.h"
 #include "clang/InstallAPI/DirectoryScanner.h"
 #include "clang/InstallAPI/FileList.h"
+#include "clang/InstallAPI/HeaderFile.h"
+#include "clang/InstallAPI/InstallAPIDiagnostic.h"
 #include "llvm/BinaryFormat/Magic.h"
 #include "llvm/Support/JSON.h"
+#include "llvm/Support/Program.h"
+#include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/TextAPI/DylibReader.h"
 #include "llvm/TextAPI/TextAPIError.h"
 #include "llvm/TextAPI/TextAPIReader.h"
+#include "llvm/TextAPI/TextAPIWriter.h"
 
 using namespace llvm;
 using namespace llvm::opt;

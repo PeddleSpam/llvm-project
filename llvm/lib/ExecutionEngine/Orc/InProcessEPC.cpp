@@ -8,6 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/InProcessEPC.h"
 
+#include "llvm/ExecutionEngine/Orc/Core.h"
 #include "llvm/ExecutionEngine/Orc/EPCGenericDylibManagerSPS.h"
 #include "llvm/ExecutionEngine/Orc/EPCGenericJITLinkMemoryManagerSPS.h"
 #include "llvm/ExecutionEngine/Orc/EPCGenericMemoryAccessSPS.h"

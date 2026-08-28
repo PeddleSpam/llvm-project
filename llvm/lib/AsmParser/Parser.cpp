@@ -10,8 +10,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/AsmParser/Parser.h"
 #include "llvm/AsmParser/LLParser.h"
 #include "llvm/IR/DebugInfoMetadata.h"
+#include "llvm/IR/Module.h"
+#include "llvm/IR/ModuleSummaryIndex.h"
+#include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/SourceMgr.h"
 #include <system_error>
 
 using namespace llvm;

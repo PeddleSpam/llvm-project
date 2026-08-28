@@ -7,6 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "Common/OptEmitter.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/StringMap.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace llvm;

@@ -2,6 +2,7 @@
 #include "llvm/ExecutionEngine/Orc/TargetProcess/ExecutorResolver.h"
 
 #include "llvm/Support/DynamicLibrary.h"
+#include "llvm/Support/Error.h"
 
 namespace llvm::orc {
 

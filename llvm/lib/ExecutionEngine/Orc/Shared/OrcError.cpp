@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/Orc/Shared/OrcError.h"
+#include "llvm/Support/ErrorHandling.h"
 
 #include <type_traits>
 

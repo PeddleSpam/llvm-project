@@ -8,9 +8,14 @@
 
 #include "llvm/ADT/DenseSet.h"
 #include "llvm/Bitcode/BitcodeAnalyzer.h"
+#include "llvm/ProfileData/CtxInstrContextNode.h"
 #include "llvm/ProfileData/PGOCtxProfReader.h"
+#include "llvm/ProfileData/PGOCtxProfWriter.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::ctx_profile;

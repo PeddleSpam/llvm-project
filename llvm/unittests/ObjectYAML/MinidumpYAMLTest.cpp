@@ -10,6 +10,7 @@
 #include "llvm/ObjectYAML/yaml2obj.h"
 #include "llvm/Support/YAMLTraits.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::minidump;

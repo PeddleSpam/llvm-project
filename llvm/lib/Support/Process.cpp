@@ -11,12 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Process.h"
-#include "../../include/llvm/Support/CommandLine.h"
-#include "../../include/llvm/Support/ConvertUTF.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
-#include "../../include/llvm/Support/WindowsError.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/Config/config.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/CrashRecoveryContext.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 
 #include <optional>

@@ -6,8 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "VPlanAnalysis.h"
+#include "VPlan.h"
+#include "VPlanCFG.h"
+#include "VPlanDominatorTree.h"
 #include "VPlanHelpers.h"
 #include "VPlanPatternMatch.h"
+#include "llvm/ADT/PostOrderIterator.h"
+#include "llvm/Analysis/TargetTransformInfo.h"
 
 using namespace llvm;
 using namespace VPlanPatternMatch;

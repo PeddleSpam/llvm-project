@@ -1,6 +1,7 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=debug.AnalysisOrder -analyzer-config c++-allocator-inlining=true,debug.AnalysisOrder:PreStmtCXXNewExpr=true,debug.AnalysisOrder:PostStmtCXXNewExpr=true,debug.AnalysisOrder:PreCall=true,debug.AnalysisOrder:PostCall=true,debug.AnalysisOrder:NewAllocator=true %s 2>&1 | FileCheck %s --check-prefixes=CHECK,CHECK-INLINE
 // RUN: %clang_analyze_cc1 -analyzer-checker=debug.AnalysisOrder -analyzer-config c++-allocator-inlining=false,debug.AnalysisOrder:PreStmtCXXNewExpr=true,debug.AnalysisOrder:PostStmtCXXNewExpr=true,debug.AnalysisOrder:PreCall=true,debug.AnalysisOrder:PostCall=true,debug.AnalysisOrder:NewAllocator=true %s 2>&1 | FileCheck %s  --check-prefixes=CHECK,CHECK-NO-INLINE
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 namespace std {
 void *malloc(size_t);

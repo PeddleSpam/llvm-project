@@ -11,10 +11,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenTarget.h"
 #include "X86RecognizableInstr.h"
 #include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/X86FoldTablesUtils.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <set>
 

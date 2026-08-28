@@ -8,6 +8,7 @@
 
 #include "llvm/CodeGen/GlobalISel/Legalizer.h"
 #include "GISelMITest.h"
+#include "llvm/CodeGen/GlobalISel/GISelValueTracking.h"
 #include "llvm/CodeGen/GlobalISel/LostDebugLocObserver.h"
 
 #define DEBUG_TYPE "legalizer-test"

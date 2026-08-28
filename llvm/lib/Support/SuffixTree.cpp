@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/SuffixTree.h"
+#include "llvm/Support/Allocator.h"
 #include "llvm/Support/Casting.h"
+#include "llvm/Support/SuffixTreeNode.h"
 
 using namespace llvm;
 

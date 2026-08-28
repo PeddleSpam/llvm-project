@@ -8,13 +8,21 @@
 
 #include "BareMetal.h"
 
+#include "Gnu.h"
 #include "clang/Driver/CommonArgs.h"
+#include "clang/Driver/InputInfo.h"
 
 #include "Arch/AArch64.h"
 #include "Arch/ARM.h"
 #include "Arch/RISCV.h"
 #include "clang/Driver/Compilation.h"
+#include "clang/Driver/Driver.h"
 #include "clang/Driver/MultilibBuilder.h"
+#include "clang/Options/Options.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/Option/ArgList.h"
+#include "llvm/Support/Path.h"
+#include "llvm/Support/VirtualFileSystem.h"
 
 using namespace llvm::opt;
 using namespace clang;

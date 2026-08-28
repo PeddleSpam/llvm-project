@@ -9,7 +9,9 @@
 #include "llvm/DebugInfo/DWARF/DWARFListTable.h"
 #include "llvm/Support/EndianStream.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

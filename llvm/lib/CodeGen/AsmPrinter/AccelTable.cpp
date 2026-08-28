@@ -10,7 +10,19 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/CodeGen/AccelTable.h"
 #include "DwarfCompileUnit.h"
+#include "DwarfUnit.h"
+#include "llvm/ADT/DenseSet.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/BinaryFormat/Dwarf.h"
+#include "llvm/CodeGen/AsmPrinter.h"
+#include "llvm/CodeGen/DIE.h"
+#include "llvm/MC/MCStreamer.h"
+#include "llvm/MC/MCSymbol.h"
+#include "llvm/Support/LEB128.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/Target/TargetLoweringObjectFile.h"
 #include <cstddef>
 #include <cstdint>

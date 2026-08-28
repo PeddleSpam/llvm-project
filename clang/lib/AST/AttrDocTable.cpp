@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/Attr.h"
+#include "llvm/ADT/StringRef.h"
 
 #include "AttrDocTable.inc"
 

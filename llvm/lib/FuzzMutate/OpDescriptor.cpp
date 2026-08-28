@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/FuzzMutate/OpDescriptor.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/Support/CommandLine.h"
 
 using namespace llvm;

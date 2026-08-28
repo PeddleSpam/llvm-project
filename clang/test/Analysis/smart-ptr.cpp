@@ -8,6 +8,7 @@
 // RUN:   -analyzer-config cplusplus.SmartPtrModeling:ModelSmartPtrDereference=true\
 // RUN:   -std=c++20 -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_warnIfReached();
 void clang_analyzer_numTimesReached();

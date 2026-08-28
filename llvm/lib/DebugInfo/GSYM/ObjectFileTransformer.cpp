@@ -8,6 +8,9 @@
 
 #include "llvm/Object/ELFObjectFile.h"
 #include "llvm/Object/MachOUniversal.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/DataExtractor.h"
+#include "llvm/Support/raw_ostream.h"
 
 #include "llvm/DebugInfo/GSYM/GsymCreator.h"
 #include "llvm/DebugInfo/GSYM/ObjectFileTransformer.h"

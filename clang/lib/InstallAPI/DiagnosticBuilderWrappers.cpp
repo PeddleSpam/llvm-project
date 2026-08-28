@@ -7,6 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "DiagnosticBuilderWrappers.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/TextAPI/Platform.h"
 
 using clang::DiagnosticBuilder;
 

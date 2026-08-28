@@ -13,6 +13,11 @@
 
 #include "llvm/Bitcode/BitcodeWriter.h"
 #include "llvm/CGData/CodeGenDataReader.h"
+#include "llvm/CGData/OutlinedHashTreeRecord.h"
+#include "llvm/CGData/StableFunctionMapRecord.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/Caching.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/WithColor.h"
 
 #define DEBUG_TYPE "cg-data"

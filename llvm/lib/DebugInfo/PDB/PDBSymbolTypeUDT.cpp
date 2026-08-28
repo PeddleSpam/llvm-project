@@ -8,6 +8,7 @@
 
 #include "llvm/DebugInfo/PDB/PDBSymbolTypeUDT.h"
 
+#include "llvm/DebugInfo/PDB/IPDBLineNumber.h"
 #include "llvm/DebugInfo/PDB/PDBSymDumper.h"
 
 using namespace llvm;

@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCDisassembler/MCDisassembler.h"
+#include "llvm/ADT/ArrayRef.h"
 
 using namespace llvm;
 

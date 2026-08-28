@@ -75,11 +75,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenTarget.h"
 #include "TableGenBackends.h"
 #include "llvm/ADT/SetVector.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/TableGen/CodeGenHelpers.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 
 using namespace llvm;
 using InstrRelMapTy = std::map<std::string, std::vector<const Record *>>;

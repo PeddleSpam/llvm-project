@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 #include "clang/Tooling/Syntax/Mutations.h"
+#include "clang/Basic/LLVM.h"
 #include "clang/Tooling/Syntax/BuildTree.h"
+#include "clang/Tooling/Syntax/Nodes.h"
+#include "clang/Tooling/Syntax/Tree.h"
 #include <cassert>
 
 using namespace clang;

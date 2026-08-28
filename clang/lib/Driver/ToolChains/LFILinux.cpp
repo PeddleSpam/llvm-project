@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "LFILinux.h"
+#include "clang/Driver/Driver.h"
 
 using namespace clang::driver;
 using namespace clang::driver::toolchains;

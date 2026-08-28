@@ -14,9 +14,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "X86RecognizableInstr.h"
+#include "X86DisassemblerShared.h"
 #include "X86DisassemblerTables.h"
 #include "X86ModRMFilters.h"
 #include "llvm/ADT/StringSwitch.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/TableGen/Record.h"
 #include <string>
 
 using namespace llvm;

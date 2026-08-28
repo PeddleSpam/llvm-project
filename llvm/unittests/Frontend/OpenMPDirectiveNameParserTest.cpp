@@ -6,7 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/Sequence.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Frontend/OpenMP/DirectiveNameParser.h"
+#include "llvm/Frontend/OpenMP/OMP.h"
 #include "gtest/gtest.h"
 
 #include <cctype>

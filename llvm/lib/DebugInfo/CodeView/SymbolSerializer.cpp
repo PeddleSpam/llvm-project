@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/CodeView/SymbolSerializer.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "llvm/Support/Error.h"
 #include <cassert>
 #include <cstdint>
 #include <cstring>

@@ -7,8 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CAS/OnDiskTrieRawHashMap.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/Alignment.h"
 #include "llvm/Testing/Support/Error.h"
+#include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 
 #if LLVM_ENABLE_ONDISK_CAS
 using namespace llvm;

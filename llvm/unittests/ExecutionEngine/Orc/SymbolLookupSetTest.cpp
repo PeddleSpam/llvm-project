@@ -8,6 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/SymbolLookupSet.h"
 
+#include "llvm/ExecutionEngine/Orc/SymbolStringPool.h"
 #include "llvm/Testing/Support/Error.h"
 
 #include <memory>
@@ -15,6 +16,7 @@
 #include <utility>
 #include <vector>
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

@@ -12,6 +12,7 @@
 
 #include "llvm/Transforms/IPO/ExtractGV.h"
 #include "llvm/IR/Module.h"
+#include "llvm/IR/PassManager.h"
 
 using namespace llvm;
 

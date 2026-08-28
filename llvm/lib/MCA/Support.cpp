@@ -13,6 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MCA/Support.h"
+#include "llvm/MC/MCSchedule.h"
+#include "llvm/Support/Debug.h"
 #include <numeric>
 
 namespace llvm {

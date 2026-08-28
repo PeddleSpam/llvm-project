@@ -9,7 +9,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "XCOFFLinkGraphBuilder.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/BinaryFormat/XCOFF.h"
+#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "llvm/ExecutionEngine/JITLink/ppc64.h"
+#include "llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h"
+#include "llvm/ExecutionEngine/Orc/Shared/MemoryFlags.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Object/XCOFFObjectFile.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/Format.h"
+#include "llvm/Support/raw_ostream.h"
 #include <memory>
 
 using namespace llvm;

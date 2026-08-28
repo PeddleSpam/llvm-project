@@ -8,7 +8,10 @@
 
 #include "MissingFrameInferrer.h"
 #include "Options.h"
+#include "PerfReader.h"
+#include "ProfiledBinary.h"
 #include "llvm/ADT/SCCIterator.h"
+#include "llvm/ADT/Statistic.h"
 #include <algorithm>
 #include <cstdint>
 #include <queue>

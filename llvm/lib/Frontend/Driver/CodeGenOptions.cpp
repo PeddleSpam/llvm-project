@@ -8,7 +8,9 @@
 
 #include "llvm/Frontend/Driver/CodeGenOptions.h"
 #include "llvm/Analysis/TargetLibraryInfo.h"
+#include "llvm/IR/SystemLibraries.h"
 #include "llvm/ProfileData/InstrProfCorrelator.h"
+#include "llvm/TargetParser/Triple.h"
 
 namespace llvm {
 extern llvm::cl::opt<llvm::InstrProfCorrelator::ProfCorrelatorKind>

@@ -6,12 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/CAS/ObjectStore.h"
 #include "OnDiskCommonUtils.h"
+#include "llvm/CAS/ActionCache.h"
 #include "llvm/CAS/BuiltinUnifiedCASDatabases.h"
+#include "llvm/Config/llvm-config.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/RandomNumberGenerator.h"
 #include "llvm/Support/ThreadPool.h"
+#include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 #include "CASTestConfig.h"
 

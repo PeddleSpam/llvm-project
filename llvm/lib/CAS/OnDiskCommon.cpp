@@ -8,6 +8,8 @@
 
 #include "OnDiskCommon.h"
 #include "llvm/Support/Errno.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 #include <mutex>

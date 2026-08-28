@@ -9,6 +9,7 @@
 #include "llvm/Object/ELFObjectFile.h"
 #include "llvm/Object/XCOFFObjectFile.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::object;

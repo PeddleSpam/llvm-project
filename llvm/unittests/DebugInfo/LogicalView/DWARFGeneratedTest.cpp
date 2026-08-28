@@ -6,18 +6,25 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/llvm/CodeGen/DIE.h"
 #include "../DWARF/DwarfGenerator.h"
 #include "../DWARF/DwarfUtils.h"
 #include "llvm/DebugInfo/DWARF/DWARFCompileUnit.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVReader.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVScope.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVSymbol.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVType.h"
 #include "llvm/DebugInfo/LogicalView/LVReaderHandler.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/COM.h"
 #include "llvm/Support/InitLLVM.h"
+#include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Support/TargetSelect.h"
+#include "llvm/Support/ToolOutputFile.h"
 #include "llvm/Testing/Support/Error.h"
+#include "llvm/Testing/Support/SupportHelpers.h"
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::logicalview;

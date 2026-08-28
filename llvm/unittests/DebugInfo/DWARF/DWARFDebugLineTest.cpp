@@ -6,10 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/DebugInfo/DWARF/DWARFDebugLine.h"
 #include "DwarfGenerator.h"
 #include "DwarfUtils.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
+#include "llvm/Object/ObjectFile.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 // AIX doesn't support the debug_addr section
 #ifdef _AIX

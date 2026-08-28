@@ -6,8 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "clang/Analysis/FlowSensitive/Value.h"
 #include "clang/Analysis/FlowSensitive/Arena.h"
+#include "clang/Analysis/FlowSensitive/StorageLocation.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <memory>
 
 namespace {

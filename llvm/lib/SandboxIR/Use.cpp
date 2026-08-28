@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/SandboxIR/Use.h"
 #include "llvm/SandboxIR/Context.h"
 #include "llvm/SandboxIR/User.h"
 

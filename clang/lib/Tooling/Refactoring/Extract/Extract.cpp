@@ -14,6 +14,8 @@
 
 #include "clang/Tooling/Refactoring/Extract/Extract.h"
 #include "clang/AST/ASTContext.h"
+#include "clang/AST/DeclCXX.h"
+#include "clang/AST/Expr.h"
 #include "clang/AST/ExprObjC.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/Refactoring/Extract/SourceExtraction.h"

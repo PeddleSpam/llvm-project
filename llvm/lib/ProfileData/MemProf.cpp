@@ -1,6 +1,10 @@
 #include "llvm/ProfileData/MemProf.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/IR/Function.h"
 #include "llvm/ProfileData/InstrProf.h"
 #include "llvm/ProfileData/SampleProf.h"
+#include "llvm/Support/Endian.h"
+#include "llvm/Support/EndianStream.h"
 
 namespace llvm {
 namespace memprof {

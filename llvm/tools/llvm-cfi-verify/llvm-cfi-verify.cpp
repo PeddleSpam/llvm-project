@@ -16,9 +16,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "lib/FileAnalysis.h"
 #include "lib/GraphBuilder.h"
 
+#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/SpecialCaseList.h"
 #include "llvm/Support/VirtualFileSystem.h"

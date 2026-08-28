@@ -10,6 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Remarks/RemarkSerializer.h"
 #include "llvm/Remarks/BitstreamRemarkSerializer.h"
 #include "llvm/Remarks/YAMLRemarkSerializer.h"
 

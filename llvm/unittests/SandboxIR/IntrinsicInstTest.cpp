@@ -8,6 +8,12 @@
 
 #include "llvm/SandboxIR/IntrinsicInst.h"
 #include "llvm/AsmParser/Parser.h"
+#include "llvm/IR/BasicBlock.h"
+#include "llvm/IR/Function.h"
+#include "llvm/IR/Instruction.h"
+#include "llvm/IR/IntrinsicInst.h"
+#include "llvm/IR/Value.h"
+#include "llvm/SandboxIR/Context.h"
 #include "llvm/SandboxIR/Function.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gtest/gtest.h"

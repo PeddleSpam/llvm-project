@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Tooling/Inclusions/HeaderAnalysis.h"
+#include "clang/Basic/SourceLocation.h"
 #include "clang/Lex/HeaderSearch.h"
 
 namespace clang::tooling {

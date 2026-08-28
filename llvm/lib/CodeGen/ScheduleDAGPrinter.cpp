@@ -10,8 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/ScheduleDAG.h"
 #include "llvm/Support/GraphWriter.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 template <>

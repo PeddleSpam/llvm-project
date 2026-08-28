@@ -13,8 +13,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "VPlanVerifier.h"
+#include "VPlan.h"
+#include "VPlanCFG.h"
+#include "VPlanDominatorTree.h"
 #include "VPlanHelpers.h"
 #include "VPlanPatternMatch.h"
+#include "VPlanUtils.h"
+#include "llvm/ADT/SmallPtrSet.h"
 
 #define DEBUG_TYPE "loop-vectorize"
 

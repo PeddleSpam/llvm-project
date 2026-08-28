@@ -9,7 +9,9 @@
 #include "llvm/ADT/SetOperations.h"
 #include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/SmallPtrSet.h"
+#include "llvm/ADT/SmallVector.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include <set>
 

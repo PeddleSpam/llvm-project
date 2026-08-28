@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Reproducer.h"
+#include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 
 using namespace llvm;

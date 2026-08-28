@@ -11,8 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "TCE.h"
-#include "../../../../../../sie/llvm-project/clang/lib/Basic/TargetDefines.h"
-#include "../../../include/clang/Basic/MacroBuilder.h"
+#include "Targets.h"
+#include "clang/Basic/MacroBuilder.h"
 
 using namespace clang;
 using namespace clang::targets;

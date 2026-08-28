@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
+#include "llvm/BinaryFormat/Magic.h"
+#include "llvm/Object/OffloadBinary.h"
 #include "llvm/ObjectYAML/OffloadYAML.h"
 #include "llvm/Support/StringSaver.h"
 

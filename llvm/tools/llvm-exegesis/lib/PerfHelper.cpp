@@ -8,7 +8,10 @@
 
 #include "PerfHelper.h"
 #include "Error.h"
+#include "llvm/Config/config.h"
 #include "llvm/Support/Errc.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/raw_ostream.h"
 #ifdef HAVE_LIBPFM
 #include <perfmon/perf_event.h>
 #include <perfmon/pfmlib.h>

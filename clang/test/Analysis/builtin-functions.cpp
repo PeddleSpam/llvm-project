@@ -1,6 +1,7 @@
 // RUN: %clang_analyze_cc1 -triple x86_64-apple-darwin10 -analyzer-checker=core,debug.ExprInspection %s -std=c++11 -verify
 // RUN: %clang_analyze_cc1 -triple x86_64-pc-windows-msvc19.11.0 -fms-extensions -analyzer-checker=core,debug.ExprInspection %s -std=c++11 -verify
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 namespace std {
 // Intentionally not using an "auto" return type here, as such must also have a definition.

@@ -11,6 +11,9 @@
 #include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenRegisters.h"
 #include "Common/CodeGenTarget.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/TableGen/Record.h"
 using namespace llvm;
 
 void Matcher::anchor() {}

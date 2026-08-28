@@ -11,6 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "X86InstrFMA3Info.h"
 #include "X86InstrInfo.h"
 #include <atomic>
 #include <cassert>

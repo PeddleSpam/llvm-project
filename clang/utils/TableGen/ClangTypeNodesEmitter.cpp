@@ -49,7 +49,9 @@
 #include "ASTTableGen.h"
 #include "TableGenBackends.h"
 
+#include "llvm/ADT/StringRef.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <vector>
 

@@ -8,6 +8,7 @@
 
 #include "UopsBenchmarkRunner.h"
 
+#include "Target.h"
 
 namespace llvm {
 namespace exegesis {

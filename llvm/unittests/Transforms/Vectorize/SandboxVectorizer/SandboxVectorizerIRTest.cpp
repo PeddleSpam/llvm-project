@@ -8,6 +8,7 @@
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizerIR.h"
 #include "llvm/AsmParser/Parser.h"
+#include "llvm/SandboxIR/BasicBlock.h"
 #include "llvm/SandboxIR/Function.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/SandboxVectorizer.h"

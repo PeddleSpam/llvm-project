@@ -12,6 +12,7 @@
 
 #include "X86InstrFoldTables.h"
 #include "X86InstrInfo.h"
+#include "llvm/ADT/STLExtras.h"
 #include <atomic>
 #include <vector>
 

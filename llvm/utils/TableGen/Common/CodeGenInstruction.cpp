@@ -10,9 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../Basic/CodeGenIntrinsics.h"
+#include "CodeGenInstruction.h"
 #include "CodeGenTarget.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 #include <set>
 using namespace llvm;
 

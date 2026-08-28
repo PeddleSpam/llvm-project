@@ -35,6 +35,7 @@
 #include "llvm/Analysis/GuardUtils.h"
 #include "llvm/IR/InstIterator.h"
 #include "llvm/IR/Instructions.h"
+#include "llvm/IR/Intrinsics.h"
 #include "llvm/Pass.h"
 #include "llvm/Transforms/Utils/GuardUtils.h"
 

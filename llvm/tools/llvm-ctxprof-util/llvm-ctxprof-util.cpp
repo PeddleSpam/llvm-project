@@ -12,9 +12,14 @@
 ///
 //===----------------------------------------------------------------------===//
 
+#include "llvm/IR/GlobalValue.h"
 #include "llvm/ProfileData/PGOCtxProfReader.h"
+#include "llvm/ProfileData/PGOCtxProfWriter.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

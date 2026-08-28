@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Frontend/FrontendOptions.h"
+#include "clang/Basic/LangStandard.h"
+#include "llvm/ADT/StringSwitch.h"
 
 using namespace clang;
 

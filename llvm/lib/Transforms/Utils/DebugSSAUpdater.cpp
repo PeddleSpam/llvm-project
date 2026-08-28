@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/DebugSSAUpdater.h"
+#include "llvm/IR/CFG.h"
 #include "llvm/IR/DebugInfo.h"
+#include "llvm/IR/DebugInfoMetadata.h"
 #include "llvm/Transforms/Utils/SSAUpdaterImpl.h"
 
 using namespace llvm;

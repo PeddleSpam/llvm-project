@@ -8,6 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/TargetProcess/SimpleExecutorMemoryManager.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 #include <limits>
 

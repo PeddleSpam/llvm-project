@@ -1,5 +1,6 @@
 // RUN: %clang_cc1 -fsanitize=alloc-token -triple x86_64-linux-gnu -std=c++20 -emit-llvm -disable-llvm-passes %s -o - | FileCheck %s
 
+#include "../Analysis/Inputs/system-header-simulator-cxx.h"
 
 typedef __UINTPTR_TYPE__ uintptr_t;
 

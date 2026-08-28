@@ -8,6 +8,7 @@
 
 #include "llvm/Analysis/CFGSCCPrinter.h"
 #include "llvm/ADT/SCCIterator.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/IR/CFG.h"
 
 using namespace llvm;

@@ -1,5 +1,6 @@
 // RUN: %clang_analyze_cc1 -Wno-ignored-reference-qualifiers -analyzer-checker=core,debug.ExprInspection -std=c++17 -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

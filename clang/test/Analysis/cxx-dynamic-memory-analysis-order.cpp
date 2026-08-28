@@ -11,6 +11,7 @@
 
 // expected-no-diagnostics
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void f() {
   // C++20 standard draft 17.6.1.15:

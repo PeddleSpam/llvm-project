@@ -7,7 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCSymbolGOFF.h"
+#include "llvm/BinaryFormat/GOFF.h"
 #include "llvm/MC/MCContext.h"
+#include "llvm/Support/Alignment.h"
+#include "llvm/Support/ErrorHandling.h"
 
 using namespace llvm;
 

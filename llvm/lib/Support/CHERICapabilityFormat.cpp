@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/CHERICapabilityFormat.h"
+#include "llvm/ADT/bit.h"
 
 namespace llvm {
 

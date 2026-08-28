@@ -10,6 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/Hashing.h"
+#include "llvm/Support/DataTypes.h"
 #include "llvm/Support/HashBuilder.h"
 #include "gtest/gtest.h"
 #include <deque>

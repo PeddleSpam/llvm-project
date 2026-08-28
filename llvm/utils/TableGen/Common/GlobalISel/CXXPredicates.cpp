@@ -10,6 +10,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "CXXPredicates.h"
+#include "llvm/ADT/STLExtras.h"
 
 using namespace llvm;
 using namespace gi;

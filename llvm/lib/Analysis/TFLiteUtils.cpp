@@ -9,6 +9,7 @@
 // This file implements utilities for interfacing with TFLite.
 //
 //===----------------------------------------------------------------------===//
+#include "llvm/Config/config.h"
 #if defined(LLVM_HAVE_TFLITE)
 
 #include "llvm/ADT/Twine.h"

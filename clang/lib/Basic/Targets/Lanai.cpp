@@ -12,6 +12,7 @@
 
 #include "Lanai.h"
 #include "clang/Basic/MacroBuilder.h"
+#include "llvm/ADT/StringSwitch.h"
 
 using namespace clang;
 using namespace clang::targets;

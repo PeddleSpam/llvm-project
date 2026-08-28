@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestRunner.h"
+#include "ReducerWorkItem.h"
 #include "deltas/Utils.h"
 #include "llvm/Support/WithColor.h"
 

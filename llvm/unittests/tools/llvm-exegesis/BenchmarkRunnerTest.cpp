@@ -8,6 +8,7 @@
 
 #include "BenchmarkRunner.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 namespace llvm {
 namespace exegesis {

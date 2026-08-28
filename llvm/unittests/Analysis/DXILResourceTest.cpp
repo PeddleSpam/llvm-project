@@ -8,6 +8,8 @@
 
 #include "llvm/Analysis/DXILResource.h"
 #include "llvm/IR/Constants.h"
+#include "llvm/IR/DataLayout.h"
+#include "llvm/IR/GlobalVariable.h"
 #include "llvm/IR/Module.h"
 #include "gtest/gtest.h"
 

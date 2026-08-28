@@ -29,9 +29,15 @@
 #include "llvm/CodeGen/RenameIndependentSubregs.h"
 #include "LiveRangeUtils.h"
 #include "PHIEliminationUtils.h"
+#include "llvm/CodeGen/LiveInterval.h"
 #include "llvm/CodeGen/LiveIntervals.h"
+#include "llvm/CodeGen/MachineFunctionPass.h"
+#include "llvm/CodeGen/MachineInstrBuilder.h"
+#include "llvm/CodeGen/MachineRegisterInfo.h"
+#include "llvm/CodeGen/RegisterClassInfo.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
 #include "llvm/InitializePasses.h"
+#include "llvm/Pass.h"
 
 using namespace llvm;
 

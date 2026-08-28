@@ -11,8 +11,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Remarks/RemarkStringTable.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Remarks/Remark.h"
 #include "llvm/Remarks/RemarkParser.h"
+#include "llvm/Support/raw_ostream.h"
 #include <vector>
 
 using namespace llvm;

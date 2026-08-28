@@ -7,15 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "LoongArch.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Driver/Compilation.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Driver/CudaInstallationDetector.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Driver/LazyDetector.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Driver/RocmInstallationDetector.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Driver/SyclInstallationDetector.h"
-#include "../../../../../../../sie/llvm-project/llvm/include/llvm/WindowsDriver/MSVCPaths.h"
 #include "../Clang.h"
-#include "../MSVC.h"
+#include "clang/Basic/DiagnosticDriver.h"
 #include "clang/Driver/CommonArgs.h"
+#include "clang/Driver/Driver.h"
+#include "clang/Options/Options.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/TargetParser/LoongArchTargetParser.h"
 

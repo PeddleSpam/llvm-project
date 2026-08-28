@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/Analyses/ThreadSafetyTIL.h"
+#include "clang/Basic/LLVM.h"
 #include <cassert>
 #include <cstddef>
 

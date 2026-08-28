@@ -1,3 +1,4 @@
+#include "llvm/Support/xxhash.h"
 #include "benchmark/benchmark.h"
 #include "llvm/ADT/ArrayRef.h"
 

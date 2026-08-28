@@ -1,6 +1,8 @@
 #include "clang/Basic/Cuda.h"
 
 #include "llvm/ADT/Twine.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/VersionTuple.h"
 #include "llvm/TargetParser/NVPTXTargetParser.h"
 #include <cassert>
 

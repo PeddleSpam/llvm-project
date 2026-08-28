@@ -8,8 +8,10 @@
 
 #include "llvm/Analysis/TensorSpec.h"
 #include "llvm/Support/JSON.h"
+#include "llvm/Support/Path.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

@@ -6,8 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ExecutionEngine/Orc/WaitingOnGraph.h"
 #include "llvm/ExecutionEngine/Orc/WaitingOnGraphOpReplay.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 namespace llvm::orc::detail {
 

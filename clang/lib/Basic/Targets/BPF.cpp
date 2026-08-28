@@ -13,6 +13,7 @@
 #include "BPF.h"
 #include "clang/Basic/MacroBuilder.h"
 #include "clang/Basic/TargetBuiltins.h"
+#include "llvm/ADT/StringRef.h"
 
 using namespace clang;
 using namespace clang::targets;

@@ -12,7 +12,10 @@
 
 #include "llvm/ADT/SmallPtrSet.h"
 #include "llvm/ADT/PointerIntPair.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/PointerLikeTypeTraits.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using testing::UnorderedElementsAre;

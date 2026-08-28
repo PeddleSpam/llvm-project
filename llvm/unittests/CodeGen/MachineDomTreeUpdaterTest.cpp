@@ -8,8 +8,11 @@
 
 #include "llvm/CodeGen/MachineDomTreeUpdater.h"
 #include "CodeGenTestBase.h"
+#include "llvm/CodeGen/MIRParser/MIRParser.h"
 #include "llvm/CodeGen/MachinePostDominators.h"
+#include "llvm/Passes/PassBuilder.h"
 #include "llvm/Support/TargetSelect.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

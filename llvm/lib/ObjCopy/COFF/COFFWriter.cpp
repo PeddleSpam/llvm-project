@@ -8,8 +8,14 @@
 
 #include "COFFWriter.h"
 #include "COFFObject.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/BinaryFormat/COFF.h"
+#include "llvm/Object/COFF.h"
 #include "llvm/Support/CRC.h"
+#include "llvm/Support/Endian.h"
 #include "llvm/Support/Errc.h"
+#include "llvm/Support/ErrorHandling.h"
 #include <cstddef>
 #include <cstdint>
 

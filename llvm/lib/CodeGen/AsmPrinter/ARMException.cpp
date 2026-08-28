@@ -11,6 +11,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "DwarfException.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/CodeGen/AsmPrinter.h"
+#include "llvm/CodeGen/MachineFunction.h"
+#include "llvm/IR/Function.h"
 #include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCStreamer.h"
 using namespace llvm;

@@ -6,8 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 using clang::ssaf::EntityLinkage;

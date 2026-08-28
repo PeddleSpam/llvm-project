@@ -7,19 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "Matchers.h"
-#include "../../../../../include/llvm/ADT/PointerUnion.h"
-#include "../../../../../include/llvm/ADT/StringSet.h"
-#include "../../../../../include/llvm/Support/ModRef.h"
-#include "../../../Basic/CodeGenIntrinsics.h"
-#include "../../../Basic/SDNodeProperties.h"
-#include "../../CodeGenRegisters.h"
-#include "../../CodeGenTarget.h"
 #include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenRegisters.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
 #include "llvm/Support/LEB128.h"
 #include "llvm/Support/ScopedPrinter.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
 
 #define DEBUG_TYPE "gi-match-table-matchers"

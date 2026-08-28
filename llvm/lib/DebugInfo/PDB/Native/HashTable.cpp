@@ -7,6 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/PDB/Native/HashTable.h"
+#include "llvm/DebugInfo/PDB/Native/RawError.h"
+#include "llvm/Support/BinaryStreamReader.h"
+#include "llvm/Support/BinaryStreamWriter.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/MathExtras.h"
 #include <cstdint>
 #include <utility>
 

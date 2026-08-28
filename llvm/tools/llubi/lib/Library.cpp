@@ -11,6 +11,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Library.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Analysis/TargetLibraryInfo.h"
+#include "llvm/IR/InstrTypes.h"
+#include "llvm/Support/Format.h"
+#include "llvm/Support/raw_ostream.h"
 
 namespace llvm::ubi {
 

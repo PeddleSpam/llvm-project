@@ -12,6 +12,7 @@
 #include "llvm/DebugInfo/PDB/Native/LinePrinter.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolExe.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolPublicSymbol.h"
+#include "llvm/Support/Format.h"
 
 using namespace llvm;
 using namespace llvm::pdb;

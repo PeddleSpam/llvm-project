@@ -8,7 +8,9 @@
 
 #include "llvm/Frontend/HLSL/HLSLBinding.h"
 #include "llvm/ADT/ArrayRef.h"
+#include "llvm/Support/DXILABI.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::dxil;

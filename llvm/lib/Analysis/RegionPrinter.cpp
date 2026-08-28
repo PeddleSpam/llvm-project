@@ -10,8 +10,11 @@
 
 #include "llvm/Analysis/RegionPrinter.h"
 #include "llvm/Analysis/DOTGraphTraitsPass.h"
+#include "llvm/Analysis/RegionInfo.h"
 #include "llvm/Analysis/RegionIterator.h"
 #include "llvm/InitializePasses.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/raw_ostream.h"
 #ifndef NDEBUG
 #include "llvm/IR/LegacyPassManager.h"
 #endif

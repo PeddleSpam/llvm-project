@@ -11,7 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Lex/MacroArgs.h"
-#include "../../../../../sie/llvm-project/clang/include/clang/Basic/DiagnosticLex.h"
+#include "clang/Lex/LexDiagnostic.h"
+#include "clang/Lex/MacroInfo.h"
 #include "clang/Lex/Preprocessor.h"
 #include "llvm/Support/SaveAndRestore.h"
 #include <algorithm>

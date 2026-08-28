@@ -6,11 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/Error.h"
+#include "llvm-c/Error.h"
 #include "llvm/Support/ErrorExtras.h"
 
+#include "llvm/ADT/Twine.h"
 #include "llvm/Support/Errc.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
+#include "gtest/gtest.h"
 #include <memory>
 
 using namespace llvm;

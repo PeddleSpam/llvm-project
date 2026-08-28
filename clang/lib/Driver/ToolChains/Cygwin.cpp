@@ -9,6 +9,10 @@
 #include "Cygwin.h"
 #include "clang/Config/config.h"
 #include "clang/Driver/CommonArgs.h"
+#include "clang/Driver/Driver.h"
+#include "clang/Options/Options.h"
+#include "llvm/Support/Path.h"
+#include "llvm/Support/VirtualFileSystem.h"
 
 using namespace clang::driver;
 using namespace clang::driver::toolchains;

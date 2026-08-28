@@ -17,6 +17,8 @@
 
 #include "AMDGPU.h"
 #include "AMDGPUMemoryUtils.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/Analysis/AliasAnalysis.h"
 #include "llvm/Analysis/MemorySSA.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/InitializePasses.h"

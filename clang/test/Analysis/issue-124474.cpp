@@ -4,6 +4,7 @@
 
 // expected-no-diagnostics
 
+#include "Inputs/system-header-simulator-cxx-std-locks.h"
 
 std::mutex mtx;
 using ssize_t = long long;

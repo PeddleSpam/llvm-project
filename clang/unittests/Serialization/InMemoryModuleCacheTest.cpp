@@ -8,6 +8,7 @@
 
 #include "clang/Serialization/InMemoryModuleCache.h"
 #include "clang/Basic/AtomicLineLogger.h"
+#include "llvm/Support/MemoryBuffer.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

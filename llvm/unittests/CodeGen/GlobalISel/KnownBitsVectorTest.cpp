@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISelMITest.h"
+#include "llvm/CodeGen/GlobalISel/GISelValueTracking.h"
+#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
 
 // Vector KnownBits track bits that are common for all vector scalar elements.
 // For tests below KnownBits analysis is same as for scalar/pointer types, tests

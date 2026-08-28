@@ -10,6 +10,8 @@
 //===--------------------------------------------------------------------===//
 
 #include "llvm/Support/ELFAttrParserCompact.h"
+#include "llvm/ADT/Enum.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/Errc.h"
 #include "llvm/Support/ScopedPrinter.h"
 

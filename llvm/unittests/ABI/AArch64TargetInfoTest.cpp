@@ -6,7 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ABI/FunctionInfo.h"
 #include "llvm/ABI/TargetInfo.h"
+#include "llvm/ABI/Types.h"
+#include "llvm/ADT/APFloat.h"
+#include "llvm/IR/CallingConv.h"
+#include "llvm/Support/Alignment.h"
+#include "llvm/Support/Allocator.h"
 #include "gtest/gtest.h"
 
 namespace {

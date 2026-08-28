@@ -9,6 +9,7 @@
 #include "llvm/Demangle/ItaniumDemangle.h"
 #include "llvm/Support/Allocator.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <cstdlib>
 #include <string_view>
 #include <vector>

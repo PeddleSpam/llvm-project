@@ -6,7 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm-c/ExecutionEngine.h"
+#include "llvm/ADT/DenseMap.h"
 #include "llvm/ExecutionEngine/JITEventListener.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/Compiler.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/Mutex.h"
 #include <mutex>
 

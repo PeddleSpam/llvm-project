@@ -9,6 +9,9 @@
 #include "llvm/ExecutionEngine/Orc/LazyReexports.h"
 
 #include "llvm/ExecutionEngine/Orc/ObjectLinkingLayer.h"
+#include "llvm/ExecutionEngine/Orc/OrcABISupport.h"
+#include "llvm/ExecutionEngine/Orc/Shared/SimplePackedSerialization.h"
+#include "llvm/TargetParser/Triple.h"
 
 #define DEBUG_TYPE "orc"
 

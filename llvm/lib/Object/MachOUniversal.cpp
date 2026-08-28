@@ -13,6 +13,10 @@
 #include "llvm/Object/MachOUniversal.h"
 #include "llvm/Object/Archive.h"
 #include "llvm/Object/IRObjectFile.h"
+#include "llvm/Object/MachO.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/SwapByteOrder.h"
 
 using namespace llvm;
 using namespace object;

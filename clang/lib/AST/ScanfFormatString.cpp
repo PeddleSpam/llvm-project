@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "FormatStringParsing.h"
+#include "clang/AST/FormatString.h"
 #include "clang/Basic/TargetInfo.h"
 
 using clang::UpdateOnReturn;

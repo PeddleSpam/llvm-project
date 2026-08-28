@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/MachineInstrBundleIterator.h"
+#include "llvm/ADT/ilist_node.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

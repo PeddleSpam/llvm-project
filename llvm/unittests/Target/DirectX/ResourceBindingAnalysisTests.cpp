@@ -6,9 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Analysis/DXILResource.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/Passes/PassBuilder.h"
+#include "llvm/Support/DXILABI.h"
 #include "gtest/gtest.h"
 #include <cstdint>
 

@@ -10,7 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "DiffLog.h"
 #include "DiffConsumer.h"
+#include "llvm/ADT/StringRef.h"
 
 using namespace llvm;
 

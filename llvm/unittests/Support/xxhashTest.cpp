@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/xxhash.h"
 #include "llvm/ADT/ArrayRef.h"
 #include "gtest/gtest.h"
 

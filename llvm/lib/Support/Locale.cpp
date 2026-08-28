@@ -1,4 +1,5 @@
 #include "llvm/Support/Locale.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Unicode.h"
 
 namespace llvm {

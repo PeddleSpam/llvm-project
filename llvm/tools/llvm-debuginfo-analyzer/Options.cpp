@@ -11,6 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "Options.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVOptions.h"
+#include "llvm/DebugInfo/LogicalView/Core/LVSort.h"
+#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 using namespace llvm::logicalview;

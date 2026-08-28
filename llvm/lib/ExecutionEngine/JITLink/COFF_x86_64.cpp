@@ -12,9 +12,13 @@
 
 #include "llvm/ExecutionEngine/JITLink/COFF_x86_64.h"
 #include "COFFLinkGraphBuilder.h"
+#include "JITLinkGeneric.h"
 #include "SEHFrameSupport.h"
+#include "llvm/BinaryFormat/COFF.h"
 #include "llvm/ExecutionEngine/JITLink/COFF.h"
 #include "llvm/ExecutionEngine/JITLink/x86_64.h"
+#include "llvm/Object/COFF.h"
+#include "llvm/Support/Endian.h"
 
 #define DEBUG_TYPE "jitlink"
 

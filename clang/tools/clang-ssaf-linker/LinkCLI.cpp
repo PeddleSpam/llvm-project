@@ -20,6 +20,10 @@
 
 #include "LinkCLI.h"
 
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/MultiArchSharedLibrary.h"
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "clang/ScalableStaticAnalysis/Core/Support/ErrorBuilder.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
 #include "llvm/ADT/Sequence.h"
 #include "llvm/Support/Path.h"

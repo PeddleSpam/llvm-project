@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ExecutionEngine/Orc/SymbolStringPool.h"
+#include "llvm/TargetParser/Triple.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 #include <llvm/ExecutionEngine/JITLink/aarch32.h>
 
 using namespace llvm;

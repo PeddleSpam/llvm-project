@@ -6,7 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ExecutionEngine/JITLink/JITLinkMemoryManager.h"
 #include "llvm/ExecutionEngine/JITLink/JITLink.h"
+#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Process.h"
 
 #define DEBUG_TYPE "jitlink"

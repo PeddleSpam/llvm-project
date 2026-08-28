@@ -13,11 +13,15 @@
 
 #include "Basic/SequenceToOffsetTable.h"
 #include "Common/CodeGenTarget.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/StringSet.h"
 #include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/DXILABI.h"
 #include "llvm/Support/VersionTuple.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 #include <string>

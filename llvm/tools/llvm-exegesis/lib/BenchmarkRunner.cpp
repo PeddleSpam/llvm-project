@@ -6,11 +6,26 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "BenchmarkRunner.h"
+#include "Assembler.h"
 #include "DisassemblerHelper.h"
+#include "Error.h"
+#include "MCInstrDescView.h"
+#include "MmapUtils.h"
+#include "PerfHelper.h"
 #include "SubprocessMemory.h"
 #include "Target.h"
 #include "llvm/ADT/ScopeExit.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
 #include "llvm/Support/CrashRecoveryContext.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/FileSystem.h"
+#include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/Program.h"
 #include "llvm/Support/Signals.h"
 #include <cmath>
 #include <memory>

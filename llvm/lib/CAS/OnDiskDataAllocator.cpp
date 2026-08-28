@@ -12,6 +12,8 @@
 
 #include "llvm/CAS/OnDiskDataAllocator.h"
 #include "DatabaseFile.h"
+#include "llvm/CAS/OnDiskCASLogger.h"
+#include "llvm/Config/llvm-config.h"
 
 using namespace llvm;
 using namespace llvm::cas;

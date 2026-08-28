@@ -6,10 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/llvm/ADT/BitmaskEnum.h"
-#include "../../include/llvm/ADT/Sequence.h"
-#include "../../include/llvm/Frontend/Directive/Spelling.h"
+#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/SmallSet.h"
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/Frontend/OpenACC/ACC.h.inc"
 #include "gtest/gtest.h"
 

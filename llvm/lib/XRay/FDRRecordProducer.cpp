@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/XRay/FDRRecordProducer.h"
+#include "llvm/Support/DataExtractor.h"
 
 #include <cstdint>
 

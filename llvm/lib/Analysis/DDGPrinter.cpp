@@ -13,6 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/DDGPrinter.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/GraphWriter.h"
 
 using namespace llvm;

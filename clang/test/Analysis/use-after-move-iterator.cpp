@@ -3,6 +3,7 @@
 // RUN:   -analyzer-config aggressive-binary-operation-simplification=true \
 // RUN:   -analyzer-config c++-container-inlining=false
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 enum Target {MovedFromSource, Destination, storeIterator};
 

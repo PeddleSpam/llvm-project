@@ -8,6 +8,8 @@
 
 #include "llvm/ExecutionEngine/Orc/TargetProcess/JITLoaderGDB.h"
 
+#include "llvm/Support/Compiler.h"
+#include "llvm/Support/FormatVariadic.h"
 
 #include <cstdint>
 #include <mutex>

@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "PPCMachineFunctionInfo.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/BinaryFormat/XCOFF.h"
 #include "llvm/IR/DataLayout.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/Support/CommandLine.h"

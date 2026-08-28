@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/XCOFFYAML.h"
+#include "llvm/BinaryFormat/XCOFF.h"
 #include <string.h>
 
 namespace llvm {

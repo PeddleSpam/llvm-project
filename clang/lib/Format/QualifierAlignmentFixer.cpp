@@ -13,6 +13,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "QualifierAlignmentFixer.h"
+#include "FormatToken.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Regex.h"
 
 #define DEBUG_TYPE "format-qualifier-alignment-fixer"
 

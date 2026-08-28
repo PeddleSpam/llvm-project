@@ -8,6 +8,7 @@
 
 #include "clang/DependencyScanning/DependencyScanningService.h"
 
+#include "llvm/Support/Chrono.h"
 #include "llvm/Support/Process.h"
 
 using namespace clang;

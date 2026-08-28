@@ -20,8 +20,10 @@
 #include "llvm/CAS/OnDiskKeyValueDB.h"
 #include "OnDiskCommon.h"
 #include "llvm/ADT/StringExtras.h"
+#include "llvm/CAS/OnDiskTrieRawHashMap.h"
 #include "llvm/CAS/UnifiedOnDiskCache.h"
 #include "llvm/Support/Alignment.h"
+#include "llvm/Support/Compiler.h"
 #include "llvm/Support/Errc.h"
 #include "llvm/Support/Path.h"
 

@@ -4,6 +4,7 @@
 // RUN:   -analyzer-config eagerly-assume=false                   \
 // RUN:   -analyzer-output=text
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 void clang_analyzer_warnIfReached();

@@ -7,13 +7,22 @@
 //===----------------------------------------------------------------------===//
 
 #include "MachOUtils.h"
+#include "BinaryHolder.h"
 #include "DebugMap.h"
 #include "LinkUtils.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/CodeGen/NonRelocatableStringpool.h"
 #include "llvm/MC/MCAssembler.h"
 #include "llvm/MC/MCMachObjectWriter.h"
 #include "llvm/MC/MCObjectStreamer.h"
+#include "llvm/MC/MCSectionMachO.h"
+#include "llvm/MC/MCStreamer.h"
+#include "llvm/MC/MCSubtargetInfo.h"
+#include "llvm/Object/MachO.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/Program.h"
+#include "llvm/Support/WithColor.h"
+#include "llvm/Support/raw_ostream.h"
 
 namespace llvm {
 namespace dsymutil {

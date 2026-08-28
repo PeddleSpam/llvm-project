@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/StringMap.h"
+#include "llvm/Support/MathExtras.h"
 #include "llvm/Support/ReverseIteration.h"
+#include "llvm/Support/xxhash.h"
 
 using namespace llvm;
 

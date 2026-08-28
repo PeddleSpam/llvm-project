@@ -7,15 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "Patterns.h"
-#include "../../../../include/llvm/CodeGenTypes/MachineValueType.h"
-#include "../../../../include/llvm/Support/ModRef.h"
-#include "../../Basic/SDNodeProperties.h"
 #include "Basic/CodeGenIntrinsics.h"
 #include "CXXPredicates.h"
 #include "CodeExpander.h"
 #include "CodeExpansions.h"
 #include "Common/CodeGenInstruction.h"
 #include "llvm/ADT/StringSet.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/Record.h"
 

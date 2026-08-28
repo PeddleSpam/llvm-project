@@ -11,13 +11,16 @@
 //
 //===----------------------------------------------------------------------===//
 #include "xray-registry.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/XRay/BlockIndexer.h"
 #include "llvm/XRay/BlockPrinter.h"
 #include "llvm/XRay/BlockVerifier.h"
 #include "llvm/XRay/FDRRecordConsumer.h"
 #include "llvm/XRay/FDRRecordProducer.h"
+#include "llvm/XRay/FDRRecords.h"
 #include "llvm/XRay/FileHeaderReader.h"
+#include "llvm/XRay/RecordPrinter.h"
 
 using namespace llvm;
 using namespace xray;

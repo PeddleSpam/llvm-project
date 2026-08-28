@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Utils.h"
+#include "llvm/ADT/STLExtras.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/Record.h"
 #include <algorithm>

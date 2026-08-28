@@ -8,9 +8,18 @@
 
 #include "SnippetFile.h"
 
+#include "LlvmState.h"
 #include "TestBase.h"
 #include "X86InstrInfo.h"
+#include "llvm/MC/TargetRegistry.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/FileSystem.h"
+#include "llvm/Support/Path.h"
+#include "llvm/Support/TargetSelect.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 namespace llvm {
 namespace exegesis {

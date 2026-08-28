@@ -8,10 +8,12 @@
 
 #include "TestAsmPrinter.h"
 #include "llvm/CodeGen/AsmPrinter.h"
+#include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Target/TargetLoweringObjectFile.h"
 #include "llvm/Target/TargetMachine.h"
+#include "llvm/TargetParser/Triple.h"
 
 using namespace llvm;
 using ::testing::StrictMock;

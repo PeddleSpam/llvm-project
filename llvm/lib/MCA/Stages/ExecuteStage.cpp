@@ -15,6 +15,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MCA/Stages/ExecuteStage.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "llvm-mca"
 

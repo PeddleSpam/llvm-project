@@ -4,10 +4,6 @@
 // RUN: %clang_cc1 -I%S/Inputs %s -triple x86_64-apple-darwin10 -fclangir -emit-llvm -std=c++11 -o - | FileCheck %s --check-prefixes=LLVM
 // RUN: %clang_cc1 -I%S/Inputs %s -triple x86_64-apple-darwin10 -emit-llvm -std=c++11 -o - | FileCheck %s --check-prefixes=LLVM
 
-#include "../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
-#include "../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
-#include "../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 struct Item {

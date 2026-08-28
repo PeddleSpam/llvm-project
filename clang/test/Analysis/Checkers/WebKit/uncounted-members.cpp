@@ -1,6 +1,7 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=webkit.NoUncountedMemberChecker -verify %s
 
 #include "mock-types.h"
+#include "mock-system-header.h"
 
 namespace members {
   struct Foo {

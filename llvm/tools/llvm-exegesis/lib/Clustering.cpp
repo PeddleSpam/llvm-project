@@ -9,7 +9,10 @@
 #include "Clustering.h"
 #include "Error.h"
 #include "SchedClassResolution.h"
+#include "llvm/ADT/MapVector.h"
+#include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/SmallSet.h"
+#include "llvm/ADT/SmallVector.h"
 #include <algorithm>
 #include <deque>
 #include <string>

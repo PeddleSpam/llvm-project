@@ -9,12 +9,16 @@
 // Test for round-trip record writing and reading.
 //
 //===----------------------------------------------------------------------===//
+#include "llvm/Support/DataExtractor.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/XRay/FDRLogBuilder.h"
 #include "llvm/XRay/FDRRecordConsumer.h"
 #include "llvm/XRay/FDRRecordProducer.h"
+#include "llvm/XRay/FDRRecords.h"
 #include "llvm/XRay/FDRTraceWriter.h"
 #include "llvm/XRay/FileHeaderReader.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <string>
 
 namespace llvm {

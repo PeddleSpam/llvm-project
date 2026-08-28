@@ -8,10 +8,14 @@
 
 #include "llvm/Support/Program.h"
 #include "llvm/CAS/MappedFileRegionArena.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/ConvertUTF.h"
 #include "llvm/Support/ExponentialBackoff.h"
+#include "llvm/Support/FileSystem.h"
+#include "llvm/Support/Path.h"
 #include "llvm/Support/ThreadPool.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 #if defined(__APPLE__)
 #include <crt_externs.h>
 #elif !defined(_MSC_VER)

@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISelMITest.h"
+#include "llvm/CodeGen/GlobalISel/Utils.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

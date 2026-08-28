@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCWin64EH.h"
+#include "llvm/MC/MCWinEH.h"
+#include "llvm/Support/Win64EH.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

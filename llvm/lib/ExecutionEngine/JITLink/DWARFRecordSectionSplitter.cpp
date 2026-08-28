@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/JITLink/DWARFRecordSectionSplitter.h"
+#include "llvm/Support/BinaryStreamReader.h"
 
 #define DEBUG_TYPE "jitlink"
 

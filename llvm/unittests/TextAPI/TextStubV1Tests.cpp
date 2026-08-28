@@ -7,6 +7,7 @@
 //===-----------------------------------------------------------------------===/
 
 #include "TextStubHelpers.h"
+#include "llvm/TextAPI/InterfaceFile.h"
 #include "llvm/TextAPI/TextAPIReader.h"
 #include "llvm/TextAPI/TextAPIWriter.h"
 #include "gtest/gtest.h"

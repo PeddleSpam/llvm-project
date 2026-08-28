@@ -28,10 +28,13 @@
 
 #include "llvm/CodeGen/PostRAHazardRecognizer.h"
 #include "llvm/ADT/Statistic.h"
+#include "llvm/CodeGen/MachineFunctionPass.h"
 #include "llvm/CodeGen/MachineLoopInfo.h"
 #include "llvm/CodeGen/ScheduleHazardRecognizer.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
+#include "llvm/CodeGen/TargetSubtargetInfo.h"
 #include "llvm/InitializePasses.h"
+#include "llvm/Pass.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "post-RA-hazard-rec"

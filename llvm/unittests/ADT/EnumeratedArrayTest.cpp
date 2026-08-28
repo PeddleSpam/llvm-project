@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/EnumeratedArray.h"
+#include "llvm/ADT/iterator_range.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <type_traits>
 
 namespace llvm {

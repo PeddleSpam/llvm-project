@@ -13,8 +13,13 @@
 #include "llvm/Transforms/Utils/MatrixUtils.h"
 #include "llvm/Analysis/DomTreeUpdater.h"
 #include "llvm/Analysis/LoopInfo.h"
+#include "llvm/IR/BasicBlock.h"
+#include "llvm/IR/Dominators.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/MDBuilder.h"
+#include "llvm/IR/ProfDataUtils.h"
+#include "llvm/IR/Type.h"
+#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 

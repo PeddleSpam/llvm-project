@@ -12,6 +12,7 @@
 
 #include "llvm/ADT/FoldingSet.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <map>
 #include <memory>
 #include <random>

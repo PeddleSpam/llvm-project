@@ -13,8 +13,12 @@
 #include "BuiltinCAS.h"
 #include "llvm/ADT/TrieRawHashMap.h"
 #include "llvm/CAS/ActionCache.h"
+#include "llvm/CAS/OnDiskCASLogger.h"
 #include "llvm/CAS/OnDiskKeyValueDB.h"
 #include "llvm/CAS/UnifiedOnDiskCache.h"
+#include "llvm/Config/llvm-config.h"
+#include "llvm/Support/BLAKE3.h"
+#include "llvm/Support/Compiler.h"
 
 #define DEBUG_TYPE "cas-action-caches"
 

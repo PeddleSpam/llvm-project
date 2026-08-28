@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Basic/BuiltinTraits.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/vadefs.h"
 #include <cassert>
 #include <cstring>
 using namespace clang;

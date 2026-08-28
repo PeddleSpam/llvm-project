@@ -18,7 +18,9 @@
 ///
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Analysis/ObjCARCInstKind.h"
 #include "llvm/Analysis/ObjCARCAnalysisUtils.h"
+#include "llvm/IR/Intrinsics.h"
 
 using namespace llvm;
 using namespace llvm::objcarc;

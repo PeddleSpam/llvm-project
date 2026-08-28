@@ -15,7 +15,12 @@
 
 #include "func-id-helper.h"
 #include "xray-registry.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
+#include "llvm/Support/Format.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/XRay/InstrumentationMap.h"
 
 using namespace llvm;

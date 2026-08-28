@@ -13,7 +13,9 @@
 #include "RemarkUtilHelpers.h"
 #include "RemarkUtilRegistry.h"
 
+#include "llvm/Support/Format.h"
 #include "llvm/Support/FormattedStream.h"
+#include "llvm/Support/Regex.h"
 
 #include <cmath>
 #include <numeric>

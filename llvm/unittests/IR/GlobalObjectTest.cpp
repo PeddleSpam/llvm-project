@@ -6,10 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/IR/GlobalObject.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 using namespace llvm;
 namespace {
 using testing::Eq;

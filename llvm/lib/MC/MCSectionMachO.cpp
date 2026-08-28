@@ -8,6 +8,8 @@
 
 #include "llvm/MC/MCSectionMachO.h"
 #include "llvm/MC/MCAsmInfoDarwin.h"
+#include "llvm/MC/SectionKind.h"
+#include "llvm/Support/raw_ostream.h"
 
 namespace llvm {
 class MCAsmInfo;

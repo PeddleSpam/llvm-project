@@ -8,9 +8,13 @@
 
 #include "JITLinkTestUtils.h"
 
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 #include "llvm/ExecutionEngine/JITLink/MachO.h"
+#include "llvm/ExecutionEngine/Orc/SymbolStringPool.h"
 
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::jitlink;

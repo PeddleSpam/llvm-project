@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "AMDGPUDelayedMCExpr.h"
+#include "llvm/MC/MCExpr.h"
 #include "llvm/MC/MCValue.h"
 
 using namespace llvm;

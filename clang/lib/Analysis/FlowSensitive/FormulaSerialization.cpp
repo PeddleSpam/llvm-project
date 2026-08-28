@@ -7,6 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/FlowSensitive/FormulaSerialization.h"
+#include "clang/Analysis/FlowSensitive/Arena.h"
+#include "clang/Analysis/FlowSensitive/Formula.h"
+#include "clang/Basic/LLVM.h"
+#include "llvm/ADT/DenseMap.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/ErrorHandling.h"
 #include <cassert>
 #include <cstddef>
 #include <stack>

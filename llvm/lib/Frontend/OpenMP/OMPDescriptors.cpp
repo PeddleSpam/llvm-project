@@ -12,6 +12,8 @@
 
 #include "llvm/Frontend/OpenMP/OMPDescriptors.h"
 
+#include "llvm/ADT/DenseMap.h"
+#include "llvm/Frontend/OpenMP/OMP.h"
 
 namespace llvm::omp {
 const DescriptorMap<Clause, descriptor::Clause> &getClauseMap() {

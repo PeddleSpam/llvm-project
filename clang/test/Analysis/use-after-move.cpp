@@ -52,6 +52,7 @@
 // RUN:  -analyzer-checker core,cplusplus.SmartPtrModeling,debug.ExprInspection\
 // RUN:  -verify=expected,peaceful,aggressive %s 2>&1 | FileCheck %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_warnIfReached();
 void clang_analyzer_printState();

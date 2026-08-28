@@ -1,5 +1,6 @@
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,alpha.deadcode.UnreachableCode,unix.Malloc,cplusplus -verify %s
 // expected-no-diagnostics
+#include "Inputs/qt-simulator.h"
 
 void send(QObject *obj)
 {

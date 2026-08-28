@@ -2,6 +2,7 @@
 
 // expected-no-diagnostics
 
+#include "Inputs/no-store-suppression.h"
 
 using namespace std;
 

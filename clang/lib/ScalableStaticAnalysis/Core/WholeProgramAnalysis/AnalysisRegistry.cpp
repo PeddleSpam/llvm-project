@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h"
+#include "clang/ScalableStaticAnalysis/Core/Support/ErrorBuilder.h"
+#include "llvm/ADT/STLExtras.h"
 
 using namespace clang;
 using namespace ssaf;

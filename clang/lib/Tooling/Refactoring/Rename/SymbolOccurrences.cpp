@@ -8,6 +8,7 @@
 
 #include "clang/Tooling/Refactoring/Rename/SymbolOccurrences.h"
 #include "clang/Tooling/Refactoring/Rename/SymbolName.h"
+#include "llvm/ADT/STLExtras.h"
 
 using namespace clang;
 using namespace tooling;

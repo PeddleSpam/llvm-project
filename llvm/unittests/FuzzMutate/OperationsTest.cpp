@@ -8,11 +8,14 @@
 
 #include "llvm/FuzzMutate/Operations.h"
 #include "llvm/AsmParser/Parser.h"
+#include "llvm/FuzzMutate/OpDescriptor.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
 #include "llvm/IR/Verifier.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 #include <iostream>
 
 // Define some pretty printers to help with debugging failures.

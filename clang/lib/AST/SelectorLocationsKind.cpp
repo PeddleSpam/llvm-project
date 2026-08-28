@@ -11,6 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "clang/AST/SelectorLocationsKind.h"
 #include "clang/AST/Expr.h"
 
 using namespace clang;

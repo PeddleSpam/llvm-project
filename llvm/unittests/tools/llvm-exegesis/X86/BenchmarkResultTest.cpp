@@ -8,11 +8,16 @@
 
 #include "BenchmarkResult.h"
 #include "X86InstrInfo.h"
+#include "llvm/ADT/SmallString.h"
 #include "llvm/MC/TargetRegistry.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/TargetSelect.h"
+#include "llvm/Support/YAMLTraits.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using ::testing::AllOf;
 using ::testing::Eq;

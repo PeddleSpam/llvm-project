@@ -14,7 +14,9 @@
 #include "llvm/Transforms/Utils/RelLookupTableConverter.h"
 #include "llvm/Analysis/ConstantFolding.h"
 #include "llvm/Analysis/TargetTransformInfo.h"
+#include "llvm/IR/BasicBlock.h"
 #include "llvm/IR/IRBuilder.h"
+#include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
 
 using namespace llvm;

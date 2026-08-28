@@ -13,6 +13,7 @@
 #include "llvm/Transforms/Utils/DeclareRuntimeLibcalls.h"
 #include "llvm/Analysis/RuntimeLibcallInfo.h"
 #include "llvm/IR/Module.h"
+#include "llvm/IR/RuntimeLibcalls.h"
 
 using namespace llvm;
 

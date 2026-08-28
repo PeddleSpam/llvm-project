@@ -10,11 +10,17 @@
 // rewards for mlgo policy training.
 //
 //===----------------------------------------------------------------------===//
+#include "llvm/Analysis/TensorSpec.h"
+#include "llvm/Config/config.h"
 
+#include "llvm/ADT/Twine.h"
 #include "llvm/Analysis/Utils/TrainingLogger.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/JSON.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Path.h"
+#include "llvm/Support/raw_ostream.h"
 
 #include <cassert>
 

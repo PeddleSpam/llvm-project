@@ -6,8 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../../include/llvm/Support/Error.h"
-#include "../PerfHelper.h"
+#include "X86Counter.h"
 
 #if defined(__linux__) && defined(HAVE_LIBPFM) &&                              \
     defined(LIBPFM_HAS_FIELD_CYCLES)

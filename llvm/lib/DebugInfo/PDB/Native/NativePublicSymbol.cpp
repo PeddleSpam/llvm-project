@@ -8,6 +8,7 @@
 
 #include "llvm/DebugInfo/PDB/Native/NativePublicSymbol.h"
 
+#include "llvm/DebugInfo/CodeView/SymbolRecord.h"
 #include "llvm/DebugInfo/PDB/Native/NativeSession.h"
 
 using namespace llvm;

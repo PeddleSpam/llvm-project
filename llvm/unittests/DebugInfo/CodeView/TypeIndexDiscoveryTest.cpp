@@ -11,8 +11,10 @@
 #include "llvm/DebugInfo/CodeView/AppendingTypeTableBuilder.h"
 #include "llvm/DebugInfo/CodeView/ContinuationRecordBuilder.h"
 #include "llvm/DebugInfo/CodeView/SymbolSerializer.h"
+#include "llvm/Support/Allocator.h"
 
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::codeview;

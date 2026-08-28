@@ -8,6 +8,7 @@
 
 #include "llvm/Demangle/Demangle.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include <cstdlib>
 #include <string_view>

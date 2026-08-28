@@ -11,10 +11,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/TargetParser/Host.h"
-#include "../../../build/include/llvm/Config/config.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
 #include "llvm/ADT/Bitfields.h"
+#include "llvm/ADT/STLFunctionalExtras.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/ADT/StringMap.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/RISCVTargetParser.h"
 #include "llvm/TargetParser/Triple.h"
 #include "llvm/TargetParser/X86TargetParser.h"

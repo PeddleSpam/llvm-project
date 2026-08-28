@@ -1,6 +1,7 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,debug.ExprInspection -analyzer-output=text -std=c++11 -verify %s
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,debug.ExprInspection -analyzer-output=text -std=c++17 -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 namespace copyMoveTrackCtor {
 struct S {

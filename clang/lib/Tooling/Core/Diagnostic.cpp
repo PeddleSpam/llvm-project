@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Tooling/Core/Diagnostic.h"
+#include "clang/Basic/SourceLocation.h"
 #include "clang/Basic/SourceManager.h"
+#include "llvm/ADT/STLExtras.h"
 
 namespace clang {
 namespace tooling {

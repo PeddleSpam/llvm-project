@@ -13,6 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/CallGraphUpdater.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/Transforms/Utils/ModuleUtils.h"
 
 using namespace llvm;

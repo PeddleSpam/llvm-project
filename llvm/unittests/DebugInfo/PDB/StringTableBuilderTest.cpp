@@ -13,6 +13,7 @@
 #include "llvm/Support/BinaryStreamWriter.h"
 #include "llvm/Testing/Support/Error.h"
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::pdb;

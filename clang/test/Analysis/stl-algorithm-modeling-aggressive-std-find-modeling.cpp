@@ -4,6 +4,7 @@
 // RUN:  -analyzer-config alpha.cplusplus.STLAlgorithmModeling:AggressiveStdFindModeling=true\
 // RUN:  -verify
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

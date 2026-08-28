@@ -13,6 +13,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "Views/SummaryView.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/MCA/Support.h"
+#include "llvm/Support/Format.h"
 
 namespace llvm {
 namespace mca {

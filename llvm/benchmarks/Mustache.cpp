@@ -1,5 +1,7 @@
 #include "llvm/Support/Mustache.h"
 #include "benchmark/benchmark.h"
+#include "llvm/Support/JSON.h"
+#include "llvm/Support/raw_ostream.h"
 #include <string>
 
 // A large, raw string with many characters that require HTML escaping.

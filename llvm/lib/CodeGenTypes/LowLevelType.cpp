@@ -13,6 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGenTypes/LowLevelType.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 bool LLT::ExtendedLLT = false;

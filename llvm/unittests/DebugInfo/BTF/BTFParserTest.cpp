@@ -9,6 +9,7 @@
 #include "llvm/DebugInfo/BTF/BTFContext.h"
 #include "llvm/ObjectYAML/YAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
+#include "llvm/Support/SwapByteOrder.h"
 #include "llvm/Testing/Support/Error.h"
 
 using namespace llvm;

@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/Orc/JITLinkRedirectableSymbolManager.h"
+#include "llvm/ExecutionEngine/Orc/Core.h"
 
 #define DEBUG_TYPE "orc"
 

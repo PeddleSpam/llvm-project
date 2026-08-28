@@ -6,9 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "SnippetRepetitor.h"
 #include "Target.h"
+#include "llvm/ADT/Sequence.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
 #include "llvm/CodeGen/TargetLowering.h"
+#include "llvm/CodeGen/TargetSubtargetInfo.h"
 
 namespace llvm {
 namespace exegesis {

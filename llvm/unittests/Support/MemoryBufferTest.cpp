@@ -10,11 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/ADT/ScopeExit.h"
+#include "llvm/Config/llvm-config.h" // for LLVM_ENABLE_THREADS, LLVM_ON_UNIX
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 #if LLVM_ENABLE_THREADS
 #include <thread>
 #endif

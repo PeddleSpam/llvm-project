@@ -15,6 +15,7 @@
 
 #include <future>
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

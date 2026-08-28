@@ -8,6 +8,9 @@
 
 #include "JSONFormatImpl.h"
 
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/MultiArchStaticLibrary.h"
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/StaticLibrary.h"
+#include "llvm/TargetParser/Triple.h"
 
 namespace clang::ssaf {
 

@@ -7,6 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/InstallAPI/DirectoryScanner.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/Support/VirtualFileSystem.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

@@ -7,8 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceOperands.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/IR/InstIterator.h"
+#include "llvm/IR/InstrTypes.h"
+#include "llvm/IR/Operator.h"
 #include "llvm/IR/PatternMatch.h"
+#include "llvm/IR/Type.h"
 
 using namespace llvm;
 using namespace PatternMatch;

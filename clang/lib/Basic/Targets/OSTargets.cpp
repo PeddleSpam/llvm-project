@@ -9,7 +9,10 @@
 // This file implements OS specific TargetInfo types.
 //===----------------------------------------------------------------------===//
 
+#include "OSTargets.h"
 #include "AArch64.h"
+#include "clang/Basic/MacroBuilder.h"
+#include "llvm/ADT/StringRef.h"
 
 using namespace clang;
 using namespace clang::targets;

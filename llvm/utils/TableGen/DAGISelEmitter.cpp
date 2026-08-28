@@ -14,6 +14,8 @@
 #include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenTarget.h"
 #include "DAGISelMatcher.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TGTimer.h"
 #include "llvm/TableGen/TableGenBackend.h"
 using namespace llvm;

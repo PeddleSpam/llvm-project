@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/NVVMIntrinsicUtils.h"
+#include "llvm/ADT/StringRef.h"
 
 using namespace llvm;
 using namespace nvvm;

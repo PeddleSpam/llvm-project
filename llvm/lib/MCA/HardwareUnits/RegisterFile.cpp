@@ -15,6 +15,7 @@
 
 #include "llvm/MCA/HardwareUnits/RegisterFile.h"
 #include "llvm/MCA/Instruction.h"
+#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "llvm-mca"
 

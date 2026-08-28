@@ -22,7 +22,9 @@
 #include "Common/CodeGenTarget.h"
 #include "Common/InfoByHwMode.h"
 #include "llvm/ADT/StringSwitch.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <set>
 #include <utility>

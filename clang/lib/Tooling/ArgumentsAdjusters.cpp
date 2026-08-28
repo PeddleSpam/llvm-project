@@ -12,7 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Tooling/ArgumentsAdjusters.h"
+#include "clang/Basic/LLVM.h"
 #include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/StringRef.h"
 #include <cstddef>
 #include <vector>
 

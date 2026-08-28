@@ -8,6 +8,10 @@
 
 #include "GISelMITest.h"
 #include "llvm/CodeGen/GlobalISel/CSEMIRBuilder.h"
+#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
+#include "llvm/CodeGen/GlobalISel/Utils.h"
+#include "llvm/CodeGen/MachineFunction.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

@@ -28,6 +28,8 @@
 // RUN:     -analyzer-checker=unix.cstring.UninitializedRead \
 // RUN:     -verify=expected,no-oob,uninit %s
 
+#include "Inputs/system-header-simulator-cxx.h"
+#include "Inputs/system-header-simulator-for-malloc.h"
 
 // This provides us with four possible mempcpy() definitions.
 // See also comments in bstring.c.

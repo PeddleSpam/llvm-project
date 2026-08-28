@@ -14,8 +14,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/IntegerDivision.h"
+#include "llvm/IR/Function.h"
 #include "llvm/IR/IRBuilder.h"
+#include "llvm/IR/Instruction.h"
+#include "llvm/IR/Instructions.h"
+#include "llvm/IR/Intrinsics.h"
+#include "llvm/IR/LLVMContext.h"
 #include "llvm/IR/MDBuilder.h"
+#include "llvm/IR/ProfDataUtils.h"
+#include "llvm/IR/Value.h"
+#include "llvm/Support/Casting.h"
 
 using namespace llvm;
 

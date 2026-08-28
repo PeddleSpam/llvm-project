@@ -13,6 +13,7 @@
 
 #include "llvm/ProfileData/SymbolRemappingReader.h"
 #include "llvm/ADT/StringSwitch.h"
+#include "llvm/ADT/Twine.h"
 #include "llvm/Support/LineIterator.h"
 #include "llvm/Support/MemoryBuffer.h"
 

@@ -10,11 +10,19 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/BinaryFormat/GOFF.h"
 #include "llvm/MC/MCAsmBackend.h"
 #include "llvm/MC/MCAssembler.h"
+#include "llvm/MC/MCGOFFAttributes.h"
 #include "llvm/MC/MCGOFFObjectWriter.h"
+#include "llvm/MC/MCObjectWriter.h"
+#include "llvm/MC/MCSectionGOFF.h"
 #include "llvm/MC/MCSymbolGOFF.h"
+#include "llvm/MC/MCValue.h"
 #include "llvm/Support/ConvertEBCDIC.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Endian.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

@@ -12,9 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Memory.h"
-#include "../../include/llvm/Support/Process.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
-#include "../../include/llvm/Support/WindowsError.h"
+#include "llvm/Config/llvm-config.h"
 
 #ifndef NDEBUG
 #include "llvm/Support/raw_ostream.h"

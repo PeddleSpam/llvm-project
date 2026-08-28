@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceGlobalObjects.h"
+#include "llvm/IR/GlobalObject.h"
 
 using namespace llvm;
 

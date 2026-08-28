@@ -11,7 +11,10 @@
 ///  on a single input. This function is then linked into the Fuzzer library.
 ///
 //===----------------------------------------------------------------------===//
+#include "llvm/DebugInfo/DIContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/MemoryBuffer.h"
 
 using namespace llvm;
 using namespace object;

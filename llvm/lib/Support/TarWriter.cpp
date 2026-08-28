@@ -22,7 +22,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/TarWriter.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/FileSystem.h"
+#include "llvm/Support/MathExtras.h"
 #include "llvm/Support/Path.h"
 
 using namespace llvm;

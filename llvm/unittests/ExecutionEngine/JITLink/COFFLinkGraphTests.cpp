@@ -9,6 +9,7 @@
 #include "JITLinkTestUtils.h"
 
 #include "llvm/ExecutionEngine/JITLink/COFF.h"
+#include "llvm/ExecutionEngine/JITLink/JITLink.h"
 
 #include "gtest/gtest.h"
 

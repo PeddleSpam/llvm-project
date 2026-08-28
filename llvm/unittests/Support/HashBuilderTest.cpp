@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/HashBuilder.h"
+#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Support/MD5.h"
 #include "llvm/Support/SHA1.h"
 #include "llvm/Support/SHA256.h"

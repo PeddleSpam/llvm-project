@@ -6,11 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include "llvm/XRay/BlockIndexer.h"
 #include "llvm/XRay/BlockPrinter.h"
 #include "llvm/XRay/BlockVerifier.h"
 #include "llvm/XRay/FDRLogBuilder.h"
+#include "llvm/XRay/FDRRecords.h"
+#include "llvm/XRay/RecordPrinter.h"
 
 namespace llvm {
 namespace xray {

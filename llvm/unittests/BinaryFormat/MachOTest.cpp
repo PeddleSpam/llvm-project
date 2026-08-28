@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/bit.h"
 #include "llvm/BinaryFormat/MachO.h"
 #include "llvm/TargetParser/Triple.h"
 #include "gtest/gtest.h"

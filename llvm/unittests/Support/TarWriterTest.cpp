@@ -7,8 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/TarWriter.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 #include <vector>
 
 using namespace llvm;

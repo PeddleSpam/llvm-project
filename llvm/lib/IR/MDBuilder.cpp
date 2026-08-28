@@ -13,6 +13,8 @@
 
 #include "llvm/IR/MDBuilder.h"
 #include "llvm/IR/Constants.h"
+#include "llvm/IR/Function.h"
+#include "llvm/IR/Metadata.h"
 #include "llvm/IR/ProfDataUtils.h"
 using namespace llvm;
 

@@ -8,6 +8,9 @@
 
 #include "llvm/Analysis/Utils/MLGOUtils.h"
 #include "llvm/Analysis/EmitCModelRunner.h"
+#include "llvm/Analysis/ReleaseModeModelRunner.h"
+#include "llvm/Analysis/TensorSpec.h"
+#include "llvm/IR/LLVMContext.h"
 #include "gtest/gtest.h"
 #include <map>
 #include <string>

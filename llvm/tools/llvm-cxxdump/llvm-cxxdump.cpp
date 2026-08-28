@@ -12,12 +12,18 @@
 
 #include "llvm-cxxdump.h"
 #include "Error.h"
+#include "llvm/ADT/ArrayRef.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Object/Archive.h"
+#include "llvm/Object/ObjectFile.h"
 #include "llvm/Object/SymbolSize.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Endian.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/WithColor.h"
+#include "llvm/Support/raw_ostream.h"
 #include <map>
 #include <string>
 #include <system_error>

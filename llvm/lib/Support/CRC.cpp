@@ -21,6 +21,7 @@
 #include "llvm/Support/CRC.h"
 
 #include "llvm/ADT/ArrayRef.h"
+#include "llvm/Config/config.h"
 
 using namespace llvm;
 

@@ -6,14 +6,19 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/DebugInfo/PDB/Native/HashTable.h"
 
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/DebugInfo/PDB/Native/Hash.h"
 #include "llvm/DebugInfo/PDB/Native/NamedStreamMap.h"
+#include "llvm/Support/Allocator.h"
 #include "llvm/Support/BinaryByteStream.h"
+#include "llvm/Support/BinaryStreamReader.h"
+#include "llvm/Support/BinaryStreamWriter.h"
 #include "llvm/Support/StringSaver.h"
 #include "llvm/Testing/Support/Error.h"
 
+#include "gtest/gtest.h"
 
 #include <vector>
 

@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceAliases.h"
+#include "llvm/IR/GlobalValue.h"
 #include "llvm/Transforms/Utils/ModuleUtils.h"
 
 using namespace llvm;

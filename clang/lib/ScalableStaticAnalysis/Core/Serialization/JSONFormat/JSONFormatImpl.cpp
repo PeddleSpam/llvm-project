@@ -9,6 +9,8 @@
 #include "JSONFormatImpl.h"
 
 #include "clang/ScalableStaticAnalysis/Core/Serialization/SerializationFormatRegistry.h"
+#include "llvm/Support/Registry.h"
+#include "llvm/TargetParser/Triple.h"
 
 using namespace clang;
 using namespace ssaf;

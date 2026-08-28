@@ -13,6 +13,7 @@
 
 #include "llvm/ObjectYAML/CodeViewYAMLTypeHashing.h"
 
+#include "llvm/Support/BinaryStreamReader.h"
 #include "llvm/Support/BinaryStreamWriter.h"
 
 using namespace llvm;

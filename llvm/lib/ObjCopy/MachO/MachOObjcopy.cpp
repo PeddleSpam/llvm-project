@@ -6,16 +6,20 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ObjCopy/MachO/MachOObjcopy.h"
 #include "Archive.h"
 #include "MachOReader.h"
 #include "MachOWriter.h"
+#include "llvm/ADT/DenseSet.h"
 #include "llvm/ObjCopy/CommonConfig.h"
 #include "llvm/ObjCopy/MachO/MachOConfig.h"
 #include "llvm/ObjCopy/MultiFormatConfig.h"
 #include "llvm/ObjCopy/ObjCopy.h"
+#include "llvm/Object/ArchiveWriter.h"
 #include "llvm/Object/MachOUniversal.h"
 #include "llvm/Object/MachOUniversalWriter.h"
 #include "llvm/Support/Errc.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/FileOutputBuffer.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"

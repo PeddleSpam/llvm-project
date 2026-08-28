@@ -13,6 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MCA/Stages/EntryStage.h"
+#include "llvm/MCA/Instruction.h"
 
 namespace llvm {
 namespace mca {

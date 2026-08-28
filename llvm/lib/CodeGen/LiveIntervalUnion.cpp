@@ -13,7 +13,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/LiveIntervalUnion.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/CodeGen/LiveInterval.h"
 #include "llvm/CodeGen/TargetRegisterInfo.h"
+#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <cstdlib>
 

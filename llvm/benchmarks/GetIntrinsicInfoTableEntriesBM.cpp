@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "benchmark/benchmark.h"
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/IR/Intrinsics.h"
 
 using namespace llvm;

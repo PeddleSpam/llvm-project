@@ -8,6 +8,7 @@
 
 #include "llvm/ADT/APFixedPoint.h"
 #include "llvm/ADT/APFloat.h"
+#include "llvm/ADT/APSInt.h"
 #include "gtest/gtest.h"
 
 using llvm::APFixedPoint;

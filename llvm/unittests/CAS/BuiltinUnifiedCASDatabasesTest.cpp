@@ -8,7 +8,11 @@
 
 #include "llvm/CAS/BuiltinUnifiedCASDatabases.h"
 #include "CASTestConfig.h"
+#include "llvm/CAS/ActionCache.h"
+#include "llvm/CAS/ObjectStore.h"
 #include "llvm/Testing/Support/Error.h"
+#include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::cas;

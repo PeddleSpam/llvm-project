@@ -3,6 +3,7 @@
 // RUN:  -analyzer-config aggressive-binary-operation-simplification=true\
 // RUN:  -verify
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

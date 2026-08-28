@@ -19,14 +19,22 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/AST/ASTTypeTraits.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/Frontend/SSAFOptions.h"
-#include "../../../../../../../sie/llvm-project/clang/include/clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
 #include "../SSAFAnalysesCommon.h"
 #include "clang/AST/ASTContext.h"
+#include "clang/AST/Decl.h"
+#include "clang/AST/DeclCXX.h"
+#include "clang/AST/Type.h"
+#include "clang/Basic/OperatorKinds.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
+#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryExtractor.h"
 #include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h"
+#include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisResult.h"
+#include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/SummaryAnalysis.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/JSON.h"
 #include <memory>
 #include <optional>
 #include <utility>

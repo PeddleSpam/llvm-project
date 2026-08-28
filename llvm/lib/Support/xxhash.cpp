@@ -39,6 +39,7 @@
 // (June 2024).
 
 #include "llvm/Support/xxhash.h"
+#include "llvm/Support/Compiler.h"
 #include "llvm/Support/Endian.h"
 
 #include <stdlib.h>

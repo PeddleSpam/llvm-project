@@ -10,6 +10,7 @@
 // RUN: -analyzer-config aggressive-binary-operation-simplification=true\
 // RUN: -analyzer-config c++-container-inlining=true -DINLINE=1 %s -verify
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 template <typename Container>
 long clang_analyzer_container_begin(const Container&);

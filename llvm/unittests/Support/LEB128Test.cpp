@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/LEB128.h"
+#include "llvm/Support/DataTypes.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <string>
 using namespace llvm;

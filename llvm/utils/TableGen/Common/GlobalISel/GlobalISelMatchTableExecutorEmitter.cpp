@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "GlobalISelMatchTableExecutorEmitter.h"
-#include "../../../../include/llvm/Support/ModRef.h"
-#include "../CodeGenDAGPatterns.h"
-#include "../CodeGenInstruction.h"
-#include "../InfoByHwMode.h"
 #include "MatchTable/Matchers.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/TableGen/CodeGenHelpers.h"

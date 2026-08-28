@@ -5,14 +5,6 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "../../../include/llvm/ADT/PriorityQueue.h"
-#include "../../../include/llvm/IR/DebugInfoMetadata.h"
-#include "../../../include/llvm/ProfileData/ProfileCommon.h"
-#include "../../../include/llvm/ProfileData/SampleProfWriter.h"
-#include "../../../include/llvm/Transforms/IPO/ProfiledCallGraph.h"
-#include "../../../tools/llvm-profgen/CSPreInliner.h"
-#include "../../../tools/llvm-profgen/PerfReader.h"
-#include "../../../tools/llvm-profgen/ProfiledBinary.h"
 #include "../tools/llvm-profgen/ProfileGenerator.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
 #include "gtest/gtest.h"

@@ -1,5 +1,11 @@
 #include "MCATestBase.h"
 #include "Views/SummaryView.h"
+#include "llvm/MCA/CustomBehaviour.h"
+#include "llvm/MCA/InstrBuilder.h"
+#include "llvm/MCA/Pipeline.h"
+#include "llvm/MCA/SourceMgr.h"
+#include "llvm/MCA/View.h"
+#include "llvm/Support/JSON.h"
 #include "llvm/Support/WithColor.h"
 #include <string>
 

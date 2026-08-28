@@ -13,6 +13,7 @@
 
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FileUtilities.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 namespace {

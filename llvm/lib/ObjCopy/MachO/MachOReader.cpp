@@ -7,6 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "MachOReader.h"
+#include "MachOObject.h"
+#include "llvm/BinaryFormat/MachO.h"
+#include "llvm/Object/MachO.h"
 #include <memory>
 
 using namespace llvm;

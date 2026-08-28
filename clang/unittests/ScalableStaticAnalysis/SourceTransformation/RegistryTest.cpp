@@ -7,7 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestFixture.h"
+#include "clang/ScalableStaticAnalysis/SourceTransformation/Transformation.h"
 #include "clang/ScalableStaticAnalysis/SourceTransformation/TransformationRegistry.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/raw_ostream.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace clang;

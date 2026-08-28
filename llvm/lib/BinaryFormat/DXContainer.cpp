@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/BinaryFormat/DXContainer.h"
+#include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/ScopedPrinter.h"
 
 using namespace llvm;

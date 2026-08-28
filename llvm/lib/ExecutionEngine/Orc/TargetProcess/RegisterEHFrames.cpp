@@ -8,7 +8,10 @@
 
 #include "llvm/ExecutionEngine/Orc/TargetProcess/RegisterEHFrames.h"
 
+#include "llvm/Config/config.h"
+#include "llvm/Support/Compiler.h"
 #include "llvm/Support/DynamicLibrary.h"
+#include "llvm/Support/raw_ostream.h"
 
 #define DEBUG_TYPE "orc"
 

@@ -9,6 +9,7 @@
 #include "SystemZMCAsmInfo.h"
 #include "llvm/ADT/Enum.h"
 #include "llvm/MC/MCContext.h"
+#include "llvm/MC/MCExpr.h"
 #include "llvm/MC/MCValue.h"
 
 using namespace llvm;

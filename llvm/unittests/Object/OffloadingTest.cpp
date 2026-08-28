@@ -1,6 +1,7 @@
 #include "llvm/Object/OffloadBinary.h"
 
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 #include <random>
 
 using namespace llvm;

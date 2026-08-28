@@ -3,6 +3,7 @@
 // RUN:  -triple x86_64-unknown-linux-gnu \
 // RUN:  -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 typedef __SIZE_TYPE__ size_t;
 void *malloc(size_t);

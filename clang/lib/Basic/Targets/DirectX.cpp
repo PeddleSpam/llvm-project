@@ -11,8 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "DirectX.h"
-#include "../../../../../../sie/llvm-project/clang/lib/Basic/TargetDefines.h"
-#include "../../../include/clang/Basic/MacroBuilder.h"
+#include "Targets.h"
 #include "clang/Basic/TargetBuiltins.h"
 
 using namespace clang;

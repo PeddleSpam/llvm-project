@@ -6,8 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "MemberPointer.h"
 #include "Context.h"
 #include "Program.h"
+#include "Record.h"
 
 namespace clang {
 namespace interp {

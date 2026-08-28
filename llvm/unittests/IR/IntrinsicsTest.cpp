@@ -6,6 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/IR/Intrinsics.h"
+#include "llvm/ADT/SmallVector.h"
+#include "llvm/IR/Constant.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/IntrinsicsAArch64.h"

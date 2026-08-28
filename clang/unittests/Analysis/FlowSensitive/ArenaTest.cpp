@@ -9,6 +9,8 @@
 #include "clang/Analysis/FlowSensitive/Arena.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 namespace clang::dataflow {
 namespace {

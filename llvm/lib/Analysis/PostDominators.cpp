@@ -11,8 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/PostDominators.h"
+#include "llvm/IR/Function.h"
 #include "llvm/IR/Instructions.h"
+#include "llvm/IR/PassManager.h"
 #include "llvm/InitializePasses.h"
+#include "llvm/Pass.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

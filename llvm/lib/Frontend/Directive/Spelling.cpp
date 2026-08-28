@@ -8,6 +8,7 @@
 
 #include "llvm/Frontend/Directive/Spelling.h"
 
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/MathExtras.h"
 
 #include <cassert>

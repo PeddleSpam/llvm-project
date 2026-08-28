@@ -8,7 +8,9 @@
 
 #include "llvm/Support/DebugLog.h"
 #include "llvm/ADT/Sequence.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include <string>
 using namespace llvm;

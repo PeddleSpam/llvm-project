@@ -14,6 +14,8 @@
 #include "DiagTool.h"
 #include "DiagnosticNames.h"
 #include "clang/Basic/AllDiagnostics.h"
+#include "clang/Basic/Diagnostic.h"
+#include "llvm/ADT/StringMap.h"
 #include "llvm/Support/Format.h"
 
 DEF_DIAGTOOL("list-warnings",

@@ -8,7 +8,9 @@
 
 #include "obj2yaml.h"
 #include "llvm/Object/GOFF.h"
+#include "llvm/Object/GOFFObjectFile.h"
 #include "llvm/ObjectYAML/ObjectYAML.h"
+#include "llvm/Support/ConvertEBCDIC.h"
 
 using namespace llvm;
 

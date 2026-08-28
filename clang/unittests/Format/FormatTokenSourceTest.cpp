@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "../../lib/Format/FormatTokenSource.h"
-#include "../../../../../sie/llvm-project/llvm/include/llvm/Support/Unicode.h"
-#include "../../lib/Format/AffectedRangeManager.h"
-#include "../../lib/Format/FormatToken.h"
-#include "../../lib/Format/FormatTokenLexer.h"
-#include "../../lib/Format/Macros.h"
 #include "TestLexer.h"
+#include "clang/Basic/TokenKinds.h"
 #include "gtest/gtest.h"
 
 namespace clang {

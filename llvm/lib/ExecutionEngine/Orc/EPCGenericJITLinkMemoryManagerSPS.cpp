@@ -8,6 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/EPCGenericJITLinkMemoryManagerSPS.h"
 
+#include "llvm/ExecutionEngine/Orc/Core.h"
 
 namespace llvm::orc::sps {
 

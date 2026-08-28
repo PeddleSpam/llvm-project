@@ -1,5 +1,6 @@
 // RUN: %clang_analyze_cc1 %s -verify -analyzer-checker=core
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 
 namespace GH94193 {

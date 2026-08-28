@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Utils/LowerAtomic.h"
+#include "llvm/IR/Function.h"
 #include "llvm/IR/IRBuilder.h"
 
 using namespace llvm;

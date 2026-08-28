@@ -8,6 +8,7 @@
 
 #include "clang/Format/Format.h"
 
+#include "llvm/Support/Debug.h"
 #include "gtest/gtest.h"
 
 #define DEBUG_TYPE "namespace-end-comments-fixer-test"

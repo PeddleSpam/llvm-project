@@ -9,6 +9,7 @@
 #include "llvm/DebugInfo/GSYM/GsymDataExtractor.h"
 #include "llvm/Testing/Support/Error.h"
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace gsym;

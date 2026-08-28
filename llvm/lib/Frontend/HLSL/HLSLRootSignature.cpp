@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Frontend/HLSL/HLSLRootSignature.h"
+#include "llvm/Support/DXILABI.h"
 #include "llvm/Support/InterleavedRange.h"
 #include "llvm/Support/ScopedPrinter.h"
 

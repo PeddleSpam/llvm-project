@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/Orc/Mangling.h"
+#include "llvm/Support/Error.h"
 
 #include "OrcTestCommon.h"
 

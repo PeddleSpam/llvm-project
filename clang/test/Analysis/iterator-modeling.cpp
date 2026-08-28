@@ -10,6 +10,7 @@
 
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,cplusplus,alpha.cplusplus.IteratorModeling,debug.ExprInspection -analyzer-config aggressive-binary-operation-simplification=true %s 2>&1 | FileCheck %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 template <typename Container>
 long clang_analyzer_container_begin(const Container&);

@@ -13,6 +13,8 @@
 
 #include "clang/Basic/SimpleTypoCorrection.h"
 #include "clang/Basic/IdentifierTable.h"
+#include "clang/Basic/LLVM.h"
+#include "llvm/ADT/StringRef.h"
 
 using namespace clang;
 

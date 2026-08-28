@@ -6,12 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "PrimType.h"
 #include "Boolean.h"
 #include "Char.h"
 #include "FixedPoint.h"
 #include "Floating.h"
 #include "IntegralAP.h"
 #include "MemberPointer.h"
+#include "Pointer.h"
 
 using namespace clang;
 using namespace clang::interp;

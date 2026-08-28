@@ -9,6 +9,7 @@
 #include "llvm/DebugInfo/PDB/DIA/DIAEnumSymbols.h"
 #include "llvm/DebugInfo/PDB/DIA/DIARawSymbol.h"
 #include "llvm/DebugInfo/PDB/DIA/DIASession.h"
+#include "llvm/DebugInfo/PDB/PDBSymbol.h"
 
 using namespace llvm;
 using namespace llvm::pdb;

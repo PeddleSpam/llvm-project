@@ -10,9 +10,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "ErrorHandling.h"
 #include "Options.h"
+#include "PerfReader.h"
 #include "ProfileGenerator.h"
+#include "ProfiledBinary.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/VirtualFileSystem.h"

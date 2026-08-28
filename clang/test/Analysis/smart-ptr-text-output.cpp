@@ -8,6 +8,7 @@
 // RUN:  -analyzer-config cplusplus.SmartPtrModeling:ModelSmartPtrDereference=true\
 // RUN:  -analyzer-output=text -std=c++11 %s -verify=expected
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

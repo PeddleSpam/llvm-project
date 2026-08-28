@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/ilist.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/ilist_node.h"
 #include "gtest/gtest.h"
 #include <ostream>
 

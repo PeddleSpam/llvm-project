@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Alignment.h"
+#include "llvm/ADT/STLExtras.h"
 #include "gtest/gtest.h"
 
 #include <vector>

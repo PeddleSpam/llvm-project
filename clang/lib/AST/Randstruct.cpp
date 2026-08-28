@@ -14,6 +14,10 @@
 #include "clang/AST/Randstruct.h"
 #include "clang/AST/ASTContext.h"
 #include "clang/AST/Attr.h"
+#include "clang/AST/Decl.h"
+#include "clang/AST/DeclCXX.h" // For StaticAssertDecl
+#include "clang/Basic/Diagnostic.h"
+#include "llvm/ADT/SmallVector.h"
 
 #include <algorithm>
 #include <random>

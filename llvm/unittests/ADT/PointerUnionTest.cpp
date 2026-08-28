@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/PointerUnion.h"
+#include "llvm/ADT/DenseMap.h"
 #include "gtest/gtest.h"
 using namespace llvm;
 

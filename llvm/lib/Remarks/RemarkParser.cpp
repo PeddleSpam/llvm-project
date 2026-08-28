@@ -11,8 +11,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Remarks/RemarkParser.h"
 #include "BitstreamRemarkParser.h"
 #include "YAMLRemarkParser.h"
+#include "llvm-c/Remarks.h"
+#include "llvm/Remarks/RemarkFormat.h"
+#include "llvm/Support/CBindingWrapping.h"
 #include <optional>
 
 using namespace llvm;

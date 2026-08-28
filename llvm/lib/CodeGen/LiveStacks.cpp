@@ -15,6 +15,7 @@
 #include "llvm/CodeGen/LiveStacks.h"
 #include "llvm/CodeGen/TargetRegisterInfo.h"
 #include "llvm/CodeGen/TargetSubtargetInfo.h"
+#include "llvm/IR/Function.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "livestacks"

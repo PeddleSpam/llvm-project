@@ -7,9 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "ELFObject.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SmallPtrSet.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/ADT/iterator_range.h"
+#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/MC/MCELFExtras.h"
 #include "llvm/MC/MCTargetOptions.h"
+#include "llvm/Support/Compression.h"
+#include "llvm/Support/Endian.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/Path.h"
 #include <algorithm>
 #include <cstddef>

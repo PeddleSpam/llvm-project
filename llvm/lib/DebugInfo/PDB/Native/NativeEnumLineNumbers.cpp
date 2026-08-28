@@ -8,6 +8,7 @@
 
 #include "llvm/DebugInfo/PDB/Native/NativeEnumLineNumbers.h"
 
+#include "llvm/DebugInfo/PDB/Native/NativeLineNumber.h"
 
 #include <vector>
 

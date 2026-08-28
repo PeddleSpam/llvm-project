@@ -15,6 +15,7 @@
 
 #include "llvm/Transforms/Utils/SampleProfileInference.h"
 #include "llvm/ADT/BitVector.h"
+#include "llvm/ADT/DenseSet.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Debug.h"
 #include <queue>

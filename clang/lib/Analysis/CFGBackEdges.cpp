@@ -10,7 +10,9 @@
 #include <utility>
 #include <vector>
 
+#include "clang/Analysis/CFG.h"
 #include "clang/Analysis/CFGBackEdges.h"
+#include "llvm/ADT/DenseMap.h"
 
 namespace clang {
 

@@ -8,9 +8,12 @@
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Interval.h"
 #include "llvm/AsmParser/Parser.h"
+#include "llvm/SandboxIR/Context.h"
 #include "llvm/SandboxIR/Function.h"
+#include "llvm/SandboxIR/Instruction.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gmock/gmock-matchers.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

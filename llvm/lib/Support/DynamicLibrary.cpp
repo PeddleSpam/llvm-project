@@ -11,10 +11,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/DynamicLibrary.h"
-#include "../../include/llvm/Support/ConvertUTF.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
 #include "llvm-c/Support.h"
+#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringMap.h"
+#include "llvm/Config/config.h"
 #include "llvm/Support/Mutex.h"
 #include <vector>
 

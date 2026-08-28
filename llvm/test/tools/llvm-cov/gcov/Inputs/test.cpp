@@ -1,7 +1,4 @@
 #include "test.h"
-#include "../../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
-#include "../../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <cstdlib>
 
 bool on = false;

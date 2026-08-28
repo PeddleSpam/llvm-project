@@ -6,7 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/SandboxIR/Constant.h"
+#include "llvm/SandboxIR/BasicBlock.h"
+#include "llvm/SandboxIR/Context.h"
 #include "llvm/SandboxIR/Function.h"
+#include "llvm/Support/Compiler.h"
 
 namespace llvm::sandboxir {
 

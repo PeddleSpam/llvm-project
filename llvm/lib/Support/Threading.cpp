@@ -12,8 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Threading.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
-#include "../../include/llvm/Support/thread.h"
+#include "llvm/Config/config.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/Jobserver.h"
 
 #include <cassert>

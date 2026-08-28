@@ -12,6 +12,8 @@
 //===----------------------------------------------------------------------===//
 #include "llvm/XRay/Profile.h"
 
+#include "llvm/Support/DataExtractor.h"
+#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/XRay/Trace.h"
 #include <memory>

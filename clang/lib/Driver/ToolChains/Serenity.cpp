@@ -7,9 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "Serenity.h"
+#include "clang/Config/config.h"
 #include "clang/Driver/CommonArgs.h"
 #include "clang/Driver/Compilation.h"
+#include "clang/Driver/Driver.h"
 #include "clang/Driver/SanitizerArgs.h"
+#include "clang/Options/Options.h"
+#include "llvm/Option/ArgList.h"
+#include "llvm/Support/VirtualFileSystem.h"
 #include <string>
 
 using namespace clang::driver;

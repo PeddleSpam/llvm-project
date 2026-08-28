@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ScopedPrinter.h"
+#include "llvm/Support/Format.h"
 
 using namespace llvm;
 

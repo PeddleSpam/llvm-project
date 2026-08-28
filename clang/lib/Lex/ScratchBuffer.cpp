@@ -12,6 +12,7 @@
 
 #include "clang/Lex/ScratchBuffer.h"
 #include "clang/Basic/SourceManager.h"
+#include "llvm/Support/MemoryBuffer.h"
 #include <cstring>
 using namespace clang;
 

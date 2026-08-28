@@ -13,6 +13,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "UsingDeclarationsSorter.h"
+#include "clang/Format/Format.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Regex.h"
 
 #include <algorithm>
 

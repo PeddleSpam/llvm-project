@@ -10,6 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/DebugInfo/LogicalView/Core/LVSort.h"
 #include "llvm/DebugInfo/LogicalView/Core/LVReader.h"
 #include <string>
 

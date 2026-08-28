@@ -8,7 +8,11 @@
 
 #include "ReduceOperandsToArgs.h"
 #include "Utils.h"
+#include "llvm/ADT/Sequence.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/IR/InstIterator.h"
+#include "llvm/IR/InstrTypes.h"
+#include "llvm/IR/Instructions.h"
 #include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/Operator.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"

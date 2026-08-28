@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DWARFLinker/Utils.h"
+#include "llvm/ADT/STLExtras.h"
 #include <limits>
 #include <map>
 

@@ -10,9 +10,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ProfileData/DataAccessProf.h"
+#include "llvm/ProfileData/InstrProf.h"
 #include "llvm/ProfileData/InstrProfReader.h"
+#include "llvm/ProfileData/MemProf.h"
 #include "llvm/ProfileData/MemProfRadixTree.h"
+#include "llvm/ProfileData/MemProfSummary.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/OnDiskHashTable.h"
 
 namespace llvm {
 

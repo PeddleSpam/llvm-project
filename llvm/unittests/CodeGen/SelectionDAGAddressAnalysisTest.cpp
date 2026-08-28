@@ -8,6 +8,7 @@
 
 #include "llvm/CodeGen/SelectionDAGAddressAnalysis.h"
 #include "SelectionDAGTestBase.h"
+#include "llvm/Analysis/MemoryLocation.h"
 
 namespace llvm {
 

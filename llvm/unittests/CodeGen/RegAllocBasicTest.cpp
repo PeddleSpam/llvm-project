@@ -7,8 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "../../lib/CodeGen/RegAllocBasic.h"
-#include "../../include/llvm/ADT/SmallSet.h"
-#include "../../include/llvm/CodeGen/RegisterClassInfo.h"
+#include "llvm/CodeGen/LiveInterval.h"
 #include "gtest/gtest.h"
 #include <queue>
 

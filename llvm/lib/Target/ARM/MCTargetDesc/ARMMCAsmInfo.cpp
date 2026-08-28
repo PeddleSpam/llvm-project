@@ -12,6 +12,7 @@
 
 #include "ARMMCAsmInfo.h"
 #include "llvm/ADT/Enum.h"
+#include "llvm/MC/MCExpr.h"
 #include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Triple.h"
 

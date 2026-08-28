@@ -6,7 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/DenseMap.h"
 #include "llvm/DWARFLinker/Utils.h"
+#include "llvm/DebugInfo/DWARF/DWARFDebugLine.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

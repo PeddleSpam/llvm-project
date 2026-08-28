@@ -11,10 +11,15 @@
 // data).
 //===----------------------------------------------------------------------===//
 
-#include "../Basic/CodeGenIntrinsics.h"
+#include "InfoByHwMode.h"
 #include "CodeGenRegisters.h"
 #include "CodeGenTarget.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
+#include "llvm/TableGen/Record.h"
 #include <string>
 
 using namespace llvm;

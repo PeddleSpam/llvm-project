@@ -9,6 +9,7 @@
 #include "llvm/ExecutionEngine/Orc/Shared/WrapperFunctionUtils.h"
 #include "llvm/ADT/FunctionExtras.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 #include <future>
 

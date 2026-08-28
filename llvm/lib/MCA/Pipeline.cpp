@@ -13,6 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MCA/Pipeline.h"
+#include "llvm/MCA/HWEventListener.h"
+#include "llvm/Support/Debug.h"
 
 namespace llvm {
 namespace mca {

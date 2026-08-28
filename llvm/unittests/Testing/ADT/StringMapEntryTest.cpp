@@ -9,6 +9,7 @@
 #include "llvm/Testing/ADT/StringMapEntry.h"
 #include "llvm/ADT/StringMap.h"
 
+#include "gtest/gtest.h"
 #include <sstream>
 
 namespace llvm {

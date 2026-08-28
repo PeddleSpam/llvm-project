@@ -8,6 +8,8 @@
 
 #include "ParallelSnippetGenerator.h"
 
+#include "BenchmarkRunner.h"
+#include "MCInstrDescView.h"
 #include "Target.h"
 
 // FIXME: Load constants into registers (e.g. with fld1) to not break

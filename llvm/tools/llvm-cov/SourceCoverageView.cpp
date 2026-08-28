@@ -10,8 +10,10 @@
 ///
 //===----------------------------------------------------------------------===//
 
+#include "SourceCoverageView.h"
 #include "SourceCoverageViewHTML.h"
 #include "SourceCoverageViewText.h"
+#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LineIterator.h"

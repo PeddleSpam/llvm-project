@@ -7,8 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "MinGW.h"
+#include "clang/Config/config.h"
 #include "clang/Driver/CommonArgs.h"
+#include "clang/Driver/Compilation.h"
+#include "clang/Driver/Driver.h"
+#include "clang/Driver/InputInfo.h"
 #include "clang/Driver/SanitizerArgs.h"
+#include "clang/Options/Options.h"
+#include "llvm/Config/llvm-config.h" // for LLVM_HOST_TRIPLE
+#include "llvm/Option/ArgList.h"
+#include "llvm/Support/FileSystem.h"
+#include "llvm/Support/Path.h"
+#include "llvm/Support/VirtualFileSystem.h"
 #include <system_error>
 
 using namespace clang::diag;

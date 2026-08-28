@@ -12,7 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm-c/Object.h"
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/IR/LLVMContext.h"
+#include "llvm/Object/ObjectFile.h"
 #include "llvm/Object/MachOUniversal.h"
 #include "llvm/Support/MemAlloc.h"
 

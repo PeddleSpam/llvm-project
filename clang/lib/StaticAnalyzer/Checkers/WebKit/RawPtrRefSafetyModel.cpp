@@ -8,6 +8,7 @@
 
 #include "RawPtrRefSafetyModel.h"
 #include "ASTUtils.h"
+#include "clang/AST/Decl.h"
 #include "clang/AST/Type.h"
 #include "clang/Basic/SourceManager.h"
 

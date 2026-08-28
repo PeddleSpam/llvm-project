@@ -11,7 +11,11 @@
 
 #include "llvm/Transforms/Coroutines/MaterializationUtils.h"
 #include "CoroInternal.h"
+#include "llvm/ADT/PostOrderIterator.h"
+#include "llvm/IR/Dominators.h"
 #include "llvm/IR/InstIterator.h"
+#include "llvm/IR/Instruction.h"
+#include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/ModuleSlotTracker.h"
 #include "llvm/Transforms/Coroutines/SpillUtils.h"
 #include <deque>

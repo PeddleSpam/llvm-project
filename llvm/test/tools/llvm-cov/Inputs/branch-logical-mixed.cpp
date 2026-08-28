@@ -2,8 +2,6 @@
 
 
 
-#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
 #include <stdio.h>
 #include <stdlib.h>
 // CHECK: | [[#min(C,4)]]|void func(

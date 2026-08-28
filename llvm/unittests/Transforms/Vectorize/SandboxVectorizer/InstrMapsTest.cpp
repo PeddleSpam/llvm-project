@@ -7,8 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h"
+#include "llvm/ADT/SmallSet.h"
 #include "llvm/AsmParser/Parser.h"
+#include "llvm/SandboxIR/Function.h"
+#include "llvm/SandboxIR/Instruction.h"
+#include "llvm/Support/SourceMgr.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

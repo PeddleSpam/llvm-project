@@ -12,7 +12,11 @@
 
 #include "llvm/Analysis/InstCount.h"
 #include "llvm/ADT/Statistic.h"
+#include "llvm/IR/Function.h"
 #include "llvm/IR/InstVisitor.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "instcount"

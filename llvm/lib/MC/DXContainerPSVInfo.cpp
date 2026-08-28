@@ -7,7 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/DXContainerPSVInfo.h"
+#include "llvm/BinaryFormat/DXContainer.h"
+#include "llvm/MC/StringTableBuilder.h"
 #include "llvm/Support/EndianStream.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::mcdxbc;

@@ -7,8 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include "llvm/Support/FileCollector.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
 
 using namespace llvm;

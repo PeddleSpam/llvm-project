@@ -11,6 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 #include "clang/Basic/SanitizerSpecialCaseList.h"
+#include "llvm/ADT/STLExtras.h"
 
 using namespace clang;
 

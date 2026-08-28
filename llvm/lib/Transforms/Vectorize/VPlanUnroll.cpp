@@ -12,9 +12,19 @@
 //===----------------------------------------------------------------------===//
 
 #include "VPRecipeBuilder.h"
+#include "VPlan.h"
+#include "VPlanAnalysis.h"
+#include "VPlanCFG.h"
 #include "VPlanHelpers.h"
 #include "VPlanPatternMatch.h"
 #include "VPlanTransforms.h"
+#include "VPlanUtils.h"
+#include "llvm/ADT/PostOrderIterator.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/ScopeExit.h"
+#include "llvm/Analysis/IVDescriptors.h"
+#include "llvm/IR/Constants.h"
+#include "llvm/IR/Intrinsics.h"
 
 using namespace llvm;
 using namespace llvm::VPlanPatternMatch;

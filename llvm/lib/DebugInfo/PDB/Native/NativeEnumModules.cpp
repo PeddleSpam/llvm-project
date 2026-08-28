@@ -9,6 +9,8 @@
 #include "llvm/DebugInfo/PDB/Native/NativeEnumModules.h"
 
 #include "llvm/DebugInfo/PDB/Native/NativeSession.h"
+#include "llvm/DebugInfo/PDB/Native/SymbolCache.h"
+#include "llvm/DebugInfo/PDB/PDBSymbol.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolCompiland.h"
 
 namespace llvm {

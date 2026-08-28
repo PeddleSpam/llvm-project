@@ -13,7 +13,10 @@
 
 #include "llvm/Frontend/HLSL/SemanticSignatures.h"
 #include "llvm/ADT/Enum.h"
+#include "llvm/ADT/STLForwardCompat.h"
 #include "llvm/IR/Constants.h"
+#include "llvm/IR/Metadata.h"
+#include "llvm/IR/Type.h"
 
 using namespace llvm;
 using namespace llvm::hlsl;

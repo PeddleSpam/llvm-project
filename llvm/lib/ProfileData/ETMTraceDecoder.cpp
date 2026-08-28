@@ -7,7 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/ETMTraceDecoder.h"
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/Object/ELFObjectFile.h"
+#include "llvm/Object/ObjectFile.h"
+#include "llvm/Support/Error.h"
 #include "llvm/TargetParser/ARMTargetParser.h"
 
 #ifdef HAVE_OPENCSD

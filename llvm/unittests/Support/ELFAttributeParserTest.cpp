@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ELFAttrParserCompact.h"
+#include "llvm/Support/ELFAttributes.h"
 #include "gtest/gtest.h"
 #include <string>
 

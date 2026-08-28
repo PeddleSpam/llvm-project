@@ -10,6 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 #include "RemarkUtilRegistry.h"
+#include "llvm/ADT/DenseMap.h"
 
 namespace llvm {
 namespace remarkutil {

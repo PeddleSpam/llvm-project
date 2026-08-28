@@ -16,9 +16,13 @@
 #include <string>
 
 #include "xray-graph-diff.h"
+#include "xray-graph.h"
 #include "xray-registry.h"
 
+#include "xray-color-helper.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/MemoryBuffer.h"
+#include "llvm/XRay/Trace.h"
 
 using namespace llvm;
 using namespace xray;

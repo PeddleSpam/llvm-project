@@ -14,6 +14,7 @@
 #include "DefineExternalSectionStartAndEndSymbols.h"
 #include "ELFLinkGraphBuilder.h"
 #include "JITLinkGeneric.h"
+#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/ExecutionEngine/JITLink/x86.h"
 #include "llvm/Object/ELFObjectFile.h"
 

@@ -10,6 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/StringRef.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 #define DEBUG_TYPE "skeleton-emitter"

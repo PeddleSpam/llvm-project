@@ -10,6 +10,7 @@ void basic(int * x) {    // expected-warning{{'x' is an unsafe pointer used for 
   p1[5];  // not to warn
 
 #define _INCLUDE_NO_WARN
+#include "warn-unsafe-buffer-usage-pragma.h" // increment p1 in header
 
   int *p3 = new int[10]; // expected-warning{{'p3' is an unsafe pointer used for buffer access}}
 
@@ -18,6 +19,7 @@ void basic(int * x) {    // expected-warning{{'x' is an unsafe pointer used for 
   p3[5]; //expected-note{{used in buffer access here}}
   x++;   //expected-note{{used in pointer arithmetic here}}
 #define _INCLUDE_WARN
+#include "warn-unsafe-buffer-usage-pragma.h" // increment p2 in header
 }
 
 

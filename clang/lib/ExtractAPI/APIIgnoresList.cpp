@@ -13,6 +13,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ExtractAPI/APIIgnoresList.h"
+#include "clang/Basic/FileManager.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/Error.h"
 
 using namespace clang;
 using namespace clang::extractapi;

@@ -7,7 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ScopedPrinter.h"
+#include "llvm/ADT/APSInt.h"
 #include "llvm/ADT/BitmaskEnum.h"
+#include "llvm/Support/Format.h"
 #include "gtest/gtest.h"
 #include <cmath>
 #include <vector>

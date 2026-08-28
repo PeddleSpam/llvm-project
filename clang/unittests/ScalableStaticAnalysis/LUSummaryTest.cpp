@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummary.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
 #include "gtest/gtest.h"
 
 namespace clang::ssaf {

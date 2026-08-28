@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/STLForwardCompat.h"
 #include "CountCopyAndMove.h"
 #include "gtest/gtest.h"
 

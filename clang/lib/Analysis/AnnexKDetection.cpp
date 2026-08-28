@@ -13,6 +13,7 @@
 
 #include "clang/Analysis/AnnexKDetection.h"
 
+#include "clang/Basic/LangOptions.h"
 #include "clang/Lex/Preprocessor.h"
 
 namespace clang::analysis {

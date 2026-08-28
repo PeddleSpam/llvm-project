@@ -11,7 +11,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "ScheduleDAGSDNodes.h"
+#include "llvm/ADT/DenseSet.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/CodeGen/MachineFunction.h"
+#include "llvm/CodeGen/SelectionDAG.h"
+#include "llvm/Support/Debug.h"
 #include "llvm/Support/GraphWriter.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 #define DEBUG_TYPE "dag-printer"

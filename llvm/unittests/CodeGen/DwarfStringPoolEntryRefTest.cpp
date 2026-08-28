@@ -10,6 +10,8 @@
 #include "llvm/Support/Allocator.h"
 #include "llvm/Testing/Support/Error.h"
 
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

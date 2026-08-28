@@ -9,6 +9,7 @@
 #include "llvm/Bitcode/BitcodeAnalyzer.h"
 #include "llvm/Remarks/Remark.h"
 #include "llvm/Remarks/RemarkSerializer.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <optional>
 #include <string>

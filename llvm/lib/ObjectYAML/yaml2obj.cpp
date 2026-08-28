@@ -7,8 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/yaml2obj.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/Object/ObjectFile.h"
 #include "llvm/ObjectYAML/ObjectYAML.h"
 #include "llvm/Support/WithColor.h"
+#include "llvm/Support/YAMLTraits.h"
 
 namespace llvm {
 namespace yaml {

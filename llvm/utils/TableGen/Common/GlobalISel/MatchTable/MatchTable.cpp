@@ -7,8 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "MatchTable.h"
+#include "llvm/ADT/Twine.h"
 #include "llvm/Support/LEB128.h"
 #include "llvm/Support/ScopedPrinter.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Record.h"
 
 #define DEBUG_TYPE "gi-match-table"

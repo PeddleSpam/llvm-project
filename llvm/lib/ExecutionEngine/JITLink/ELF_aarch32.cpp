@@ -12,7 +12,13 @@
 
 #include "llvm/ExecutionEngine/JITLink/ELF_aarch32.h"
 
+#include "llvm/BinaryFormat/ELF.h"
+#include "llvm/ExecutionEngine/JITLink/JITLink.h"
+#include "llvm/ExecutionEngine/JITLink/aarch32.h"
+#include "llvm/Object/ELF.h"
 #include "llvm/Object/ELFObjectFile.h"
+#include "llvm/Support/Compiler.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/TargetParser/ARMTargetParser.h"
 
 #include "ELFLinkGraphBuilder.h"

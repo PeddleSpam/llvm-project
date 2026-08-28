@@ -16,6 +16,8 @@
 #include "llvm/Analysis/PostDominators.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/Instructions.h"
+#include "llvm/Support/Compiler.h"
+#include "llvm/Support/GenericDomTree.h"
 #include <functional>
 
 namespace llvm {

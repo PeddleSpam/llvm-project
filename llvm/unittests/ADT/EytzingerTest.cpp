@@ -9,6 +9,7 @@
 #include "llvm/ADT/Eytzinger.h"
 #include "llvm/Support/Endian.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

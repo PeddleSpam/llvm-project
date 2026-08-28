@@ -10,7 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/Allocator.h"
 #include "llvm/Support/PerThreadBumpPtrAllocator.h"
+#include "llvm/Support/raw_ostream.h"
 
 #include <atomic>
 

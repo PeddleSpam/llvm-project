@@ -8,6 +8,8 @@
 
 #include "llvm/ExecutionEngine/Orc/LinkGraphLayer.h"
 
+#include "llvm/ExecutionEngine/JITLink/JITLink.h"
+#include "llvm/ExecutionEngine/Orc/Shared/MachOObjectFormat.h"
 #include "llvm/ExecutionEngine/Orc/Shared/ObjectFormats.h"
 
 #define DEBUG_TYPE "orc"

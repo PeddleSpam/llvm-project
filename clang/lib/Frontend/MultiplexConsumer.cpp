@@ -14,6 +14,7 @@
 
 #include "clang/Frontend/MultiplexConsumer.h"
 #include "clang/AST/ASTMutationListener.h"
+#include "clang/AST/DeclGroup.h"
 
 using namespace clang;
 

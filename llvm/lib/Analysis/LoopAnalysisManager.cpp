@@ -11,7 +11,9 @@
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/MemorySSA.h"
 #include "llvm/Analysis/ScalarEvolution.h"
+#include "llvm/IR/Dominators.h"
 #include "llvm/IR/PassManagerImpl.h"
+#include "llvm/Support/Compiler.h"
 #include <optional>
 
 using namespace llvm;

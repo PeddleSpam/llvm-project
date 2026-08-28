@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ExecutionEngine/Orc/IndirectionUtils.h"
 #include "OrcTestCommon.h"
+#include "llvm/ADT/SmallVector.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

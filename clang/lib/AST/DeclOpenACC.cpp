@@ -11,7 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/DeclOpenACC.h"
+#include "clang/AST/ASTContext.h"
 #include "clang/AST/Attr.h"
+#include "clang/AST/OpenACCClause.h"
 
 using namespace clang;
 

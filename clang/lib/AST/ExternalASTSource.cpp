@@ -12,8 +12,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "clang/AST/ExternalASTSource.h"
 #include "clang/AST/ASTContext.h"
+#include "clang/AST/DeclarationName.h"
 #include "clang/Basic/ASTSourceDescriptor.h"
+#include "clang/Basic/IdentifierTable.h"
+#include "clang/Basic/LLVM.h"
+#include "llvm/Support/ErrorHandling.h"
 #include <cstdint>
 #include <optional>
 

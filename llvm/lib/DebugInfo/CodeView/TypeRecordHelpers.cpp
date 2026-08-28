@@ -8,6 +8,7 @@
 
 #include "llvm/DebugInfo/CodeView/TypeRecordHelpers.h"
 
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/DebugInfo/CodeView/TypeDeserializer.h"
 #include "llvm/DebugInfo/CodeView/TypeIndexDiscovery.h"
 

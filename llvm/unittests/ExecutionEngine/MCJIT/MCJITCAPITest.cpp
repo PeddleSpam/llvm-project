@@ -14,8 +14,12 @@
 #include "MCJITTestAPICommon.h"
 #include "llvm-c/Analysis.h"
 #include "llvm-c/Core.h"
+#include "llvm-c/ExecutionEngine.h"
+#include "llvm-c/Target.h"
 #include "llvm-c/Transforms/PassBuilder.h"
 #include "llvm/ExecutionEngine/SectionMemoryManager.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/TargetParser/Host.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

@@ -1,7 +1,9 @@
 #include "benchmark/benchmark.h"
 #include "llvm/ADT/SmallString.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/SpecialCaseList.h"
+#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <random>
 #include <string>

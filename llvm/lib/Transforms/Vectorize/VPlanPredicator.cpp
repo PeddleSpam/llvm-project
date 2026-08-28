@@ -12,9 +12,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "VPRecipeBuilder.h"
+#include "VPlan.h"
+#include "VPlanCFG.h"
 #include "VPlanDominatorTree.h"
 #include "VPlanPatternMatch.h"
 #include "VPlanTransforms.h"
+#include "VPlanUtils.h"
+#include "llvm/ADT/PostOrderIterator.h"
 
 using namespace llvm;
 using namespace VPlanPatternMatch;

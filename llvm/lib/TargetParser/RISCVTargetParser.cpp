@@ -14,7 +14,9 @@
 #include "llvm/TargetParser/RISCVTargetParser.h"
 #include "llvm/ADT/SetOperations.h"
 #include "llvm/ADT/SmallSet.h"
+#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
+#include "llvm/ADT/StringSwitch.h"
 #include "llvm/ADT/StringTable.h"
 #include "llvm/TargetParser/RISCVISAInfo.h"
 

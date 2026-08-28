@@ -13,6 +13,7 @@
 #include "clang/AST/Availability.h"
 #include "clang/AST/ASTContext.h"
 #include "clang/AST/Attr.h"
+#include "clang/AST/Decl.h"
 #include "clang/Basic/TargetInfo.h"
 
 namespace {

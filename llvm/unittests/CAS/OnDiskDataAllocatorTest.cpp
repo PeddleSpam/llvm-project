@@ -8,7 +8,10 @@
 
 #include "llvm/CAS/OnDiskDataAllocator.h"
 #include "llvm/CAS/MappedFileRegionArena.h"
+#include "llvm/Config/llvm-config.h"
+#include "llvm/Support/Alignment.h"
 #include "llvm/Testing/Support/Error.h"
+#include "llvm/Testing/Support/SupportHelpers.h"
 
 #if LLVM_ENABLE_ONDISK_CAS
 

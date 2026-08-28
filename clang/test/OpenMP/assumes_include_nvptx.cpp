@@ -7,9 +7,6 @@
 #ifndef HEADER
 #define HEADER
 
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <cmath>
 
 // TODO: Think about teaching the OMPIRBuilder about default attributes as well so the __kmpc* declarations are annotated.

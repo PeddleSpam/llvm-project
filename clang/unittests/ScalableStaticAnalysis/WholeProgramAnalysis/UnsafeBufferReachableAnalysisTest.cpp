@@ -7,10 +7,20 @@
 //===----------------------------------------------------------------------===//
 
 #include "../TestFixture.h"
+#include "clang/ScalableStaticAnalysis/Analyses/EntityPointerLevel/EntityPointerLevel.h"
+#include "clang/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlow.h"
 #include "clang/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlowAnalysis.h"
 #include "clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsage.h"
 #include "clang/ScalableStaticAnalysis/Analyses/UnsafeBufferUsage/UnsafeBufferUsageAnalysis.h"
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummary.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
 #include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisDriver.h"
+#include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/WPASuite.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "gtest/gtest.h"
 #include <map>
 #include <memory>
 #include <optional>

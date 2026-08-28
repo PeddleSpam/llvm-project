@@ -10,6 +10,7 @@
 #include "llvm/Support/BLAKE3.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::cas;

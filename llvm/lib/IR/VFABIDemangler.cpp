@@ -12,6 +12,8 @@
 #include "llvm/ADT/StringSwitch.h"
 #include "llvm/IR/Module.h"
 #include "llvm/IR/VectorTypeUtils.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 #include <limits>
 
 using namespace llvm;

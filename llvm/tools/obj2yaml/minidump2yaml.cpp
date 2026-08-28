@@ -7,7 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
+#include "llvm/Object/Minidump.h"
 #include "llvm/ObjectYAML/MinidumpYAML.h"
+#include "llvm/Support/YAMLTraits.h"
 
 using namespace llvm;
 

@@ -14,6 +14,8 @@
 
 #include "Views/BottleneckAnalysis.h"
 #include "llvm/MC/MCInst.h"
+#include "llvm/MCA/Support.h"
+#include "llvm/Support/Format.h"
 
 namespace llvm {
 namespace mca {

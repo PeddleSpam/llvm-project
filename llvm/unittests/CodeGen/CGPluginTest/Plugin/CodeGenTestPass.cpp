@@ -9,6 +9,7 @@
 #include "CodeGenTestPass.h"
 
 #include "llvm/CodeGen/MachineFrameInfo.h"
+#include "llvm/CodeGen/MachineFunctionPass.h"
 
 using namespace llvm;
 

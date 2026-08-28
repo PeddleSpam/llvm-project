@@ -8,6 +8,8 @@
 
 #include "RuntimeLibcalls.h"
 #include "PredicateExpanderDag.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
 
 using namespace llvm;

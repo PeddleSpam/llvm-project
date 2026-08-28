@@ -27,10 +27,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/SpillPlacement.h"
+#include "llvm/ADT/BitVector.h"
 #include "llvm/CodeGen/EdgeBundles.h"
+#include "llvm/CodeGen/MachineBasicBlock.h"
 #include "llvm/CodeGen/MachineBlockFrequencyInfo.h"
+#include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/Passes.h"
 #include "llvm/InitializePasses.h"
+#include "llvm/Pass.h"
 #include <algorithm>
 #include <cassert>
 #include <cstdint>

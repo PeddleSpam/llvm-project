@@ -12,6 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Sema/Scope.h"
+#include "clang/AST/Decl.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 

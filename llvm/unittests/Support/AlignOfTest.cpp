@@ -13,6 +13,7 @@
 #endif
 
 #include "llvm/Support/AlignOf.h"
+#include "llvm/Support/Compiler.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

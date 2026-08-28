@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "JSONEntitySummaryEncoding.h"
 #include "JSONFormatImpl.h"
 
 namespace clang::ssaf {

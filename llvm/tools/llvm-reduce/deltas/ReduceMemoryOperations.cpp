@@ -8,6 +8,7 @@
 
 #include "ReduceMemoryOperations.h"
 #include "llvm/IR/InstIterator.h"
+#include "llvm/IR/Instructions.h"
 #include "llvm/IR/IntrinsicInst.h"
 
 using namespace llvm;

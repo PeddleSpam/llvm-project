@@ -6,12 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../../include/llvm/TargetParser/Host.h"
-#include "../../../../include/llvm/Testing/Support/Error.h"
-#include "../../../../tools/llvm-exegesis/lib/Target.h"
 #include "../Common/AssemblerUtils.h"
+#include "LlvmState.h"
+#include "MCInstrDescView.h"
+#include "RegisterAliasing.h"
 #include "TestBase.h"
 #include "X86InstrInfo.h"
+#include "llvm/CodeGen/MachineBasicBlock.h"
 
 namespace llvm {
 namespace exegesis {

@@ -11,10 +11,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/CodeGen/MacroFusion.h"
 #include "llvm/ADT/Statistic.h"
+#include "llvm/CodeGen/MachineInstr.h"
+#include "llvm/CodeGen/ScheduleDAG.h"
 #include "llvm/CodeGen/ScheduleDAGInstrs.h"
 #include "llvm/CodeGen/ScheduleDAGMutation.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 
 #define DEBUG_TYPE "machine-scheduler"
 

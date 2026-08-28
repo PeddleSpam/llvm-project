@@ -8,7 +8,10 @@
 
 #include "llvm/Support/LSP/Transport.h"
 #include "llvm/Support/FileSystem.h"
+#include "llvm/Support/LSP/Logging.h"
+#include "llvm/Support/LSP/Protocol.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::lsp;

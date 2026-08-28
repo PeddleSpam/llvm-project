@@ -15,6 +15,8 @@
 #include "llvm/Analysis/DomTreeUpdater.h"
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/IR/Constants.h"
+#include "llvm/IR/Instructions.h"
+#include "llvm/IR/ValueHandle.h"
 #include "llvm/Transforms/Utils/Local.h"
 
 #define DEBUG_TYPE "control-flow-hub"

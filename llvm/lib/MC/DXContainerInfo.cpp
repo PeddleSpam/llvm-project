@@ -7,10 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/DXContainerInfo.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/BinaryFormat/DXContainer.h"
 #include "llvm/Config/config.h"
 #include "llvm/Support/Compression.h"
 #include "llvm/Support/EndianStream.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/SwapByteOrder.h"
 #include "llvm/Support/VCSRevision.h"
 #include <type_traits>
 

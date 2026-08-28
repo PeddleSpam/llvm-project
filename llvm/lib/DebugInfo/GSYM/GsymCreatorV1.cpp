@@ -7,6 +7,7 @@
 
 #include "llvm/DebugInfo/GSYM/GsymCreatorV1.h"
 #include "llvm/DebugInfo/GSYM/FileWriter.h"
+#include "llvm/DebugInfo/GSYM/Header.h"
 
 #include <cassert>
 

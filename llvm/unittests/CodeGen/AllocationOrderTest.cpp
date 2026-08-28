@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "../lib/CodeGen/AllocationOrder.h"
-#include "../../include/llvm/ADT/ArrayRef.h"
-#include "../../include/llvm/CodeGen/Register.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

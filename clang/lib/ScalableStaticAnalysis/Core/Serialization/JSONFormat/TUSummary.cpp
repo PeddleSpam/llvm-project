@@ -8,6 +8,8 @@
 
 #include "JSONFormatImpl.h"
 
+#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
+#include "llvm/TargetParser/Triple.h"
 
 #include <set>
 

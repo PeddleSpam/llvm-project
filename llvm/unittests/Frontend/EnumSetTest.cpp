@@ -6,9 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ADT/STLExtras.h"
 #include "llvm/Frontend/OpenMP/OMP.h"
 
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 #include <type_traits>
 

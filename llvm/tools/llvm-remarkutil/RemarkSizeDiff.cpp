@@ -17,6 +17,7 @@
 #include "RemarkUtilHelpers.h"
 #include "RemarkUtilRegistry.h"
 #include "llvm/ADT/SmallSet.h"
+#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/JSON.h"
 
 using namespace llvm;

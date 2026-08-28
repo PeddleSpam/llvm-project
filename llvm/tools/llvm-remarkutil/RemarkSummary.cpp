@@ -13,6 +13,12 @@
 #include "RemarkUtilHelpers.h"
 #include "RemarkUtilRegistry.h"
 
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/Regex.h"
 #include "llvm/Support/WithColor.h"
 #include <memory>
 

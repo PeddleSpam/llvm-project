@@ -8,6 +8,7 @@
 
 #include "llvm/IR/BundleAttributes.h"
 
+#include "llvm/ADT/StringSwitch.h"
 #include "llvm/IR/Constants.h"
 
 using namespace llvm;

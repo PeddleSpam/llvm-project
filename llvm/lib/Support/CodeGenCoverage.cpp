@@ -11,6 +11,8 @@
 
 #include "llvm/Support/CodeGenCoverage.h"
 
+#include "llvm/Support/Endian.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Mutex.h"
 #include "llvm/Support/Process.h"

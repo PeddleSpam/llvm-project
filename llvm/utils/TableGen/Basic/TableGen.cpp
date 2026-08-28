@@ -12,7 +12,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "TableGen.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/TableGen/Main.h"
+#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/SetTheory.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <cassert>

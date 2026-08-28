@@ -7,7 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/DeltaAlgorithm.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdarg.h"
+#include "llvm/ADT/STLExtras.h"
 #include "gtest/gtest.h"
 #include <cstdarg>
 using namespace llvm;

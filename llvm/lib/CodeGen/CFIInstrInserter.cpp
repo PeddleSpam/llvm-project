@@ -19,9 +19,15 @@
 
 #include "llvm/CodeGen/CFIInstrInserter.h"
 #include "llvm/ADT/DepthFirstIterator.h"
+#include "llvm/CodeGen/MachineFunctionPass.h"
+#include "llvm/CodeGen/MachineInstrBuilder.h"
+#include "llvm/CodeGen/Passes.h"
+#include "llvm/CodeGen/TargetFrameLowering.h"
 #include "llvm/CodeGen/TargetInstrInfo.h"
+#include "llvm/CodeGen/TargetSubtargetInfo.h"
 #include "llvm/InitializePasses.h"
 #include "llvm/MC/MCContext.h"
+#include "llvm/MC/MCDwarf.h"
 using namespace llvm;
 
 static cl::opt<bool> VerifyCFI("verify-cfiinstrs",

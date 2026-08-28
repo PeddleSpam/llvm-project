@@ -13,7 +13,9 @@
 
 #include "xray-graph.h"
 #include "xray-registry.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/XRay/InstrumentationMap.h"
+#include "llvm/XRay/Trace.h"
 
 #include <cmath>
 

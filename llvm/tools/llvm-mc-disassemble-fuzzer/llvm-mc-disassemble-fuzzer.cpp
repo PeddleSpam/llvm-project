@@ -11,6 +11,7 @@
 #include "llvm-c/Disassembler.h"
 #include "llvm-c/Target.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/TargetParser/SubtargetFeature.h"
 

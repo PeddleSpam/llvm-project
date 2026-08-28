@@ -10,7 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "DIEHash.h"
+#include "ByteStreamer.h"
 #include "DwarfCompileUnit.h"
+#include "DwarfDebug.h"
+#include "llvm/ADT/ArrayRef.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/BinaryFormat/Dwarf.h"
+#include "llvm/CodeGen/AsmPrinter.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

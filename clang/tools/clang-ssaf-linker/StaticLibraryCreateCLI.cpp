@@ -15,7 +15,11 @@
 
 #include "StaticLibraryCreateCLI.h"
 
+#include "clang/ScalableStaticAnalysis/Core/EntityLinker/TUSummaryEncoding.h"
+#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "clang/ScalableStaticAnalysis/Core/Support/ErrorBuilder.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
+#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/Path.h"
 #include <memory>
 

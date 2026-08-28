@@ -9,6 +9,7 @@
 #include "llvm/Support/Chrono.h"
 #include "gtest/gtest.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/FormatProviders.h"
 #include "llvm/Support/FormatVariadic.h"
 
 namespace llvm {

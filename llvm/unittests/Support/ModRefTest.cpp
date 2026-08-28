@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ModRef.h"
+#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <string>
 

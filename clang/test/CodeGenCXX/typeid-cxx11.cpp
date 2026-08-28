@@ -1,8 +1,4 @@
 // RUN: %clang_cc1 -I%S %s -triple x86_64-apple-darwin10 -emit-llvm -std=c++11 -o - | FileCheck %s
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 namespace Test1 {

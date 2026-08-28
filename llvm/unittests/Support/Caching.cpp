@@ -7,7 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Caching.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/MemoryBuffer.h"
+#include "llvm/Support/Path.h"
 #include "llvm/Testing/Support/Error.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 

@@ -8,6 +8,8 @@
 
 #include "SerialSnippetGenerator.h"
 
+#include "CodeTemplate.h"
+#include "MCInstrDescView.h"
 #include "Target.h"
 #include <algorithm>
 #include <numeric>

@@ -1,6 +1,7 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=cplusplus.Move %s -std=c++11\
 // RUN:  -analyzer-output=text
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 class C {
   int n;

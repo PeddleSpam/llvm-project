@@ -7,7 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/ConcurrentHashtable.h"
+#include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatVariadic.h"
+#include "llvm/Support/Parallel.h"
 #include "llvm/Support/PerThreadBumpPtrAllocator.h"
 #include "gtest/gtest.h"
 #include <limits>

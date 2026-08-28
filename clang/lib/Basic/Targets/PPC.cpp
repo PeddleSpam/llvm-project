@@ -12,6 +12,7 @@
 
 #include "PPC.h"
 #include "clang/Basic/Diagnostic.h"
+#include "clang/Basic/MacroBuilder.h"
 #include "clang/Basic/TargetBuiltins.h"
 #include "llvm/TargetParser/PPCTargetParser.h"
 #include <optional>

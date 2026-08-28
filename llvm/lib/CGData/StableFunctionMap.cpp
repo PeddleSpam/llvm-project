@@ -13,9 +13,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/CGData/StableFunctionMap.h"
 #include "llvm/ADT/SmallSet.h"
 #include "llvm/CGData/StableFunctionMapRecord.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "stable-function-map"
 

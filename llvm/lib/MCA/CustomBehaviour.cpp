@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MCA/CustomBehaviour.h"
+#include "llvm/MCA/Instruction.h"
 
 namespace llvm {
 namespace mca {

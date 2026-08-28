@@ -10,9 +10,11 @@
 #include "llvm/DebugInfo/PDB/Native/NativeSession.h"
 #include "llvm/DebugInfo/PDB/Native/PDBFile.h"
 #include "llvm/DebugInfo/PDB/PDB.h"
+#include "llvm/Support/Path.h"
 
 #include "llvm/Testing/Support/Error.h"
 
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::pdb;

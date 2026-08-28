@@ -7,7 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/Legality.h"
+#include "llvm/SandboxIR/Instruction.h"
 #include "llvm/SandboxIR/Operator.h"
+#include "llvm/SandboxIR/Utils.h"
+#include "llvm/SandboxIR/Value.h"
+#include "llvm/Support/Debug.h"
+#include "llvm/Transforms/Vectorize/SandboxVectorizer/InstrMaps.h"
+#include "llvm/Transforms/Vectorize/SandboxVectorizer/VecUtils.h"
 
 namespace llvm::sandboxir {
 

@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/CodeGen/ModuleBuilder.h"
+#include "llvm/ADT/StringRef.h"
 #include "gtest/gtest.h"
 
 using namespace clang::CodeGen;

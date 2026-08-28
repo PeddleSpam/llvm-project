@@ -7,9 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm-dwarfdump.h"
+#include "llvm/ADT/DenseMap.h"
+#include "llvm/ADT/DenseSet.h"
 #include "llvm/ADT/StringSet.h"
+#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugLoc.h"
 #include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
+#include "llvm/Object/ObjectFile.h"
 #include "llvm/Support/JSON.h"
 #include <cmath>
 #include <limits>

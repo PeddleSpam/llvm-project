@@ -10,8 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/TextAPI/RecordsSlice.h"
 #include "llvm/ADT/SetVector.h"
 #include "llvm/TextAPI/InterfaceFile.h"
+#include "llvm/TextAPI/Record.h"
+#include "llvm/TextAPI/Symbol.h"
 #include <utility>
 
 using namespace llvm;

@@ -7,8 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Frontend/TextDiagnostic.h"
+#include "clang/Basic/FileManager.h"
 #include "clang/Basic/LangOptions.h"
+#include "clang/Basic/SourceLocation.h"
 #include "clang/Basic/SourceManager.h"
+#include "clang/Frontend/DiagnosticRenderer.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"
 #include "gtest/gtest.h"

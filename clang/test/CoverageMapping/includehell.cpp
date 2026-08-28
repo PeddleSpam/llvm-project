@@ -5,11 +5,16 @@ int main() {
 
   #include "Inputs/starts_a_scope"
     x = x;
+    #include "Inputs/code.h"
     x = x;
+  #include "Inputs/ends_a_scope"
 
   #include "Inputs/starts_a_scope"
+    #include "Inputs/code.h"
+  #include "Inputs/ends_a_scope"
 
   #include "Inputs/starts_a_scope"
+  #include "Inputs/ends_a_scope"
 
   return 0;
 }

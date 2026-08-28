@@ -9,6 +9,9 @@
 #include "llvm/XRay/BlockIndexer.h"
 #include "llvm/XRay/BlockVerifier.h"
 #include "llvm/XRay/FDRLogBuilder.h"
+#include "llvm/XRay/FDRRecords.h"
+#include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 namespace llvm {
 namespace xray {

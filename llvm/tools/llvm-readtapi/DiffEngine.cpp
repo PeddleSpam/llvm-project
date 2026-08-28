@@ -12,6 +12,11 @@
 //===----------------------------------------------------------------------===/
 #include "DiffEngine.h"
 #include "llvm/ADT/SmallString.h"
+#include "llvm/Support/Casting.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/TextAPI/InterfaceFile.h"
+#include "llvm/TextAPI/Symbol.h"
+#include "llvm/TextAPI/Target.h"
 #include <iterator>
 
 using namespace llvm;

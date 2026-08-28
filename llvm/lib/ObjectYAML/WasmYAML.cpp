@@ -11,6 +11,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/WasmYAML.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/BinaryFormat/Wasm.h"
+#include "llvm/Support/Casting.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/YAMLTraits.h"
 
 namespace llvm {
 

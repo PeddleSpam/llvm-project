@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "OptEmitter.h"
+#include "llvm/ADT/Twine.h"
 #include "llvm/Support/OptionStrCmp.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/Record.h"

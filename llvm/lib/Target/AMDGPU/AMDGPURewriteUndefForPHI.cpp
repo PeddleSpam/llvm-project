@@ -57,6 +57,8 @@
 
 #include "AMDGPU.h"
 #include "llvm/Analysis/UniformityAnalysis.h"
+#include "llvm/IR/BasicBlock.h"
+#include "llvm/IR/Constants.h"
 #include "llvm/IR/Dominators.h"
 #include "llvm/IR/Instructions.h"
 #include "llvm/InitializePasses.h"

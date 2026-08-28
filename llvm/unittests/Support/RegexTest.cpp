@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Regex.h"
+#include "llvm/ADT/SmallVector.h"
 #include "gtest/gtest.h"
 #include <cstring>
 

@@ -1,5 +1,6 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=cplusplus.NewDelete -verify %s
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 struct S {
   S() : Data(new int) {}

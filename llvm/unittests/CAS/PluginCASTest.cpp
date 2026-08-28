@@ -13,8 +13,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "CASTestConfig.h"
+#include "llvm/CAS/ActionCache.h"
+#include "llvm/CAS/ObjectStore.h"
 #include "llvm/Config/config.h"
+#include "llvm/Support/Compiler.h"
+#include "llvm/Support/Path.h"
 #include "llvm/Testing/Support/Error.h"
+#include "llvm/Testing/Support/SupportHelpers.h"
+#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::cas;

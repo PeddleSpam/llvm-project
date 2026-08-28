@@ -4,6 +4,7 @@
 //
 // expected-no-diagnostics
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void test_std_getline() {
   std::string userid, comment;

@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/MathExtras.h"
 #include "gtest/gtest.h"
 #include <limits>
 #include <utility>

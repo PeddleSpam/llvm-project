@@ -7,7 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/InstrProf.h"
+#include "llvm/Support/BalancedPartitioning.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using testing::Field;
 using testing::UnorderedElementsAre;

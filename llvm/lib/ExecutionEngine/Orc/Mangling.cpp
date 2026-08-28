@@ -8,8 +8,10 @@
 
 #include "llvm/ExecutionEngine/Orc/Mangling.h"
 #include "llvm/ADT/StringExtras.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/Mangler.h"
+#include "llvm/Support/ErrorHandling.h"
 
 #define DEBUG_TYPE "orc"
 

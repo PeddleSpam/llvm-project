@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "VE.h"
+#include "clang/Basic/Builtins.h"
 #include "clang/Basic/MacroBuilder.h"
 #include "clang/Basic/TargetBuiltins.h"
 

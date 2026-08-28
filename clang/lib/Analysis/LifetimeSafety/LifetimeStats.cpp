@@ -12,6 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/Analyses/LifetimeSafety/LifetimeStats.h"
+#include "clang/AST/TypeBase.h"
+#include "llvm/Support/raw_ostream.h"
 
 namespace clang::lifetimes {
 void printStats(const LifetimeSafetyStats &Stats) {

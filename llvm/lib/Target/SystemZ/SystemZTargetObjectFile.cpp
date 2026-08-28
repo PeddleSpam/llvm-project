@@ -8,6 +8,7 @@
 
 #include "SystemZTargetObjectFile.h"
 #include "MCTargetDesc/SystemZMCAsmInfo.h"
+#include "llvm/MC/MCExpr.h"
 #include "llvm/Target/TargetMachine.h"
 
 using namespace llvm;

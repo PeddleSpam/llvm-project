@@ -10,7 +10,9 @@
 //===----------------------------------------------------------------------===//
 #include "llvm/Analysis/DDG.h"
 #include "llvm/ADT/SCCIterator.h"
+#include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/LoopIterator.h"
+#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 

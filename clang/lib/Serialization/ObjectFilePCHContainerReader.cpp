@@ -8,6 +8,7 @@
 
 #include "clang/Serialization/ObjectFilePCHContainerReader.h"
 #include "llvm/Object/COFF.h"
+#include "llvm/Object/ObjectFile.h"
 
 using namespace clang;
 

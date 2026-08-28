@@ -7,7 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "SyntheticTypeNameBuilder.h"
+#include "DWARFLinkerCompileUnit.h"
 #include "llvm/DebugInfo/DWARF/DWARFAcceleratorTable.h"
+#include "llvm/DebugInfo/DWARF/DWARFDebugInfoEntry.h"
 
 using namespace llvm;
 using namespace dwarf_linker;

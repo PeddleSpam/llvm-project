@@ -3,6 +3,7 @@
 // RUN:   -analyzer-checker=cplusplus \
 // RUN:   -analyzer-checker=unix
 
+#include "Inputs/system-header-simulator-for-malloc.h"
 
 //===----------------------------------------------------------------------===//
 // unique_ptr test cases 

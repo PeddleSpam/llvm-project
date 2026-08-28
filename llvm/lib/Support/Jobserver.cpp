@@ -7,7 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Jobserver.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
+#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/Error.h"
 
 #include <atomic>

@@ -11,8 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "ARM.h"
+#include "clang/Basic/Builtins.h"
 #include "clang/Basic/Diagnostic.h"
 #include "clang/Basic/TargetBuiltins.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/TargetParser/ARMTargetParser.h"
 
 using namespace clang;
 using namespace clang::targets;

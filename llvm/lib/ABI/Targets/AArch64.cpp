@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/ABI/FunctionInfo.h"
 #include "llvm/ABI/TargetInfo.h"
+#include "llvm/ABI/Types.h"
+#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/WithColor.h"
 
 namespace llvm {

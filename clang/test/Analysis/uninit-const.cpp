@@ -11,6 +11,7 @@
 
 // Passing uninitialized const data to unknown function
 
+#include "Inputs/system-header-simulator-cxx.h"
 
 void doStuff6(const int& c);
 void doStuff4(const int y);

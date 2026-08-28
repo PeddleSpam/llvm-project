@@ -12,6 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceGlobalValues.h"
+#include "llvm/IR/GlobalValue.h"
 
 using namespace llvm;
 

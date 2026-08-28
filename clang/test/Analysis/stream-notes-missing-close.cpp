@@ -3,6 +3,7 @@
 // RUN:   -analyzer-checker=unix.Stream
 
 
+#include "Inputs/system-header-simulator.h"
 char *logDump();
 bool coin();
 

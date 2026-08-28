@@ -7,10 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/BitmaskEnum.h"
+#include "llvm/ADT/StringMap.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/ADT/StringSwitch.h"
+#include "llvm/ADT/Twine.h"
+#include "llvm/Support/Casting.h"
+#include "llvm/Support/Endian.h"
 #include "llvm/Support/Format.h"
 #include "llvm/Support/YAMLTraits.h"
 #include "gmock/gmock.h"
+#include "gtest/gtest.h"
 
 using llvm::yaml::Hex16;
 using llvm::yaml::Hex32;

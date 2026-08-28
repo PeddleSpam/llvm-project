@@ -7,6 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "M68k.h"
+#include "clang/Driver/Driver.h"
+#include "clang/Options/Options.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/Option/ArgList.h"
 #include "llvm/Support/Regex.h"
 #include "llvm/TargetParser/Host.h"
 

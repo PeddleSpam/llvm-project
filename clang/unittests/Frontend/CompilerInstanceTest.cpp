@@ -6,21 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Basic/FileManager.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/ToolOutputFile.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

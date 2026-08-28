@@ -12,8 +12,6 @@
 
 #include "TreeTestBase.h"
 #include "clang/Tooling/Syntax/BuildTree.h"
-#include "clang/Tooling/Syntax/Nodes.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace clang::syntax;

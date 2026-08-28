@@ -10,21 +10,9 @@
 #include "FindDecl.h"
 #include "TestFixture.h"
 #include "clang/Frontend/SSAFOptions.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/SummaryName.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/EntitySummary.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryExtractor.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <type_traits>
 

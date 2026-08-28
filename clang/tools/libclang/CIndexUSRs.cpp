@@ -12,13 +12,9 @@
 
 #include "CIndexer.h"
 #include "CXCursor.h"
-#include "CXString.h"
 #include "CXTranslationUnit.h"
 #include "clang/Frontend/ASTUnit.h"
-#include "clang/Lex/PreprocessingRecord.h"
 #include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace clang::index;

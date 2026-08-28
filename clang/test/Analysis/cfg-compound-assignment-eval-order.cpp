@@ -4,7 +4,6 @@
 // RUN: %clang_analyze_cc1 -std=c++17 -analyzer-checker=core,cplusplus.Move \
 // RUN:   -analyzer-output=text -verify %s
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 int *getPtr(int);
 int getVal(int);

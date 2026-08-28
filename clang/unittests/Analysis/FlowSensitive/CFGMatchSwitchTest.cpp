@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/FlowSensitive/CFGMatchSwitch.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Analysis/CFG.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/StringRef.h"
 #include "gtest/gtest.h"
 
 using namespace clang;

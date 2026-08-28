@@ -9,7 +9,6 @@
 
 // expected-no-diagnostics
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 typedef enum memory_order {
   memory_order_relaxed = __ATOMIC_RELAXED,

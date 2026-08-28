@@ -6,22 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Analysis/FlowSensitive/DataflowEnvironment.h"
 #include "TestingSupport.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/Stmt.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysisContext.h"
-#include "clang/Analysis/FlowSensitive/StorageLocation.h"
-#include "clang/Analysis/FlowSensitive/Value.h"
-#include "clang/Analysis/FlowSensitive/WatchedLiteralsSolver.h"
-#include "clang/Tooling/Tooling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <string>
 

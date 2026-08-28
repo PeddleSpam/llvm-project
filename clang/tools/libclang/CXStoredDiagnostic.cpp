@@ -14,11 +14,8 @@
 #include "CIndexer.h"
 #include "CXTranslationUnit.h"
 #include "CXSourceLocation.h"
-#include "CXString.h"
 
-#include "clang/Basic/DiagnosticIDs.h"
 #include "clang/Frontend/ASTUnit.h"
-#include "llvm/ADT/Twine.h"
 
 using namespace clang;
 using namespace clang::cxloc;

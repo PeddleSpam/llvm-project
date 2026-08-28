@@ -1,5 +1,9 @@
 // RUN: %clang_cc1 -I%S %s -triple amdgpu-amd-amdhsa -emit-llvm -std=c++11 -o - | FileCheck %s
 // RUN: %clang_cc1 -I%S %s -triple spirv64-amd-amdhsa -emit-llvm -std=c++11 -o - | FileCheck %s --check-prefix=WITH-NONZERO-DEFAULT-AS
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 namespace Test1 {

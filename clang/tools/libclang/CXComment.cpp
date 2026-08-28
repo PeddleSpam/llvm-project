@@ -12,13 +12,7 @@
 
 #include "CXComment.h"
 #include "CXCursor.h"
-#include "CXString.h"
-#include "clang-c/Documentation.h"
-#include "clang-c/Index.h"
-#include "clang/AST/Decl.h"
 #include "clang/Index/CommentToXML.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <climits>
 
 using namespace clang;

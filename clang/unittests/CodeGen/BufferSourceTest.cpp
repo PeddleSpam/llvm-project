@@ -8,18 +8,9 @@
 
 #include "TestCompiler.h"
 
-#include "clang/AST/ASTContext.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/TargetInfo.h"
-#include "clang/CodeGen/ModuleBuilder.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Lex/Preprocessor.h"
-#include "clang/Parse/ParseAST.h"
 #include "clang/Sema/Sema.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/TargetParser/Host.h"
-#include "llvm/TargetParser/Triple.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

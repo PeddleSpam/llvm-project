@@ -27,10 +27,7 @@
 
 #include <deque>
 
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace llvm;

@@ -31,7 +31,6 @@
 // RUN:   -analyzer-checker=cplusplus.NewDeleteLeaks \
 // RUN:   -analyzer-checker=debug.ExprInspection
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 typedef __typeof__(sizeof(int)) size_t;
 extern "C" void *malloc(size_t);

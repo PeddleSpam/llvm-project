@@ -7,27 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "SSAFAnalysesCommon.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/Expr.h"
 #include "clang/AST/ExprCXX.h"
-#include "clang/AST/Stmt.h"
-#include "clang/AST/TypeBase.h"
-#include "clang/Frontend/SSAFOptions.h"
-#include "clang/ScalableStaticAnalysis/Analyses/EntityPointerLevel/EntityPointerLevel.h"
 #include "clang/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlow.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryExtractor.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
 #include "llvm/ADT/Sequence.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Error.h"
 #include <memory>
 #include <optional>
 

@@ -6,16 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Tooling/Transformer/RangeSelector.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Tooling/Tooling.h"
 #include "clang/Tooling/Transformer/Parsing.h"
 #include "clang/Tooling/Transformer/SourceCode.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace transformer;

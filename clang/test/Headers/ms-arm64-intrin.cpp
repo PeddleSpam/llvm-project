@@ -6,6 +6,8 @@
 // RUN: -isystem %S/Inputs/include %s -o - -emit-llvm 2>&1 \
 // RUN: | FileCheck %s
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
 #include <intrin.h>
 
 void check_nop() {

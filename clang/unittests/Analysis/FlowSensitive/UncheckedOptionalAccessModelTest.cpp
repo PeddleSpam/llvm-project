@@ -10,17 +10,8 @@
 #include "clang/Analysis/FlowSensitive/Models/UncheckedOptionalAccessModel.h"
 #include "MockHeaders.h"
 #include "TestingSupport.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/SourceLocation.h"
 #include "clang/Frontend/TextDiagnostic.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 #include <string>
 #include <utility>

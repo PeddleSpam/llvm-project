@@ -1,6 +1,5 @@
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,cplusplus.NewDelete,cplusplus.NewDeleteLeaks,unix.Malloc -std=c++11 -fblocks -verify %s
 // RUN: %clang_analyze_cc1 -analyzer-checker=core,cplusplus.NewDelete,cplusplus.NewDeleteLeaks,unix.Malloc -std=c++11 -fblocks -verify %s -analyzer-config c++-allocator-inlining=false
-#include "Inputs/system-header-simulator-cxx.h"
 
 // expected-no-diagnostics
 

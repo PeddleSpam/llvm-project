@@ -8,12 +8,8 @@
 
 #include "clang/Analysis/Analyses/LifetimeSafety/LifetimeSafety.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/Analyses/LifetimeSafety/Loans.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/ADT/StringMap.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 #include <vector>
 

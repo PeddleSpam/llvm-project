@@ -7,15 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Compiler.h"
-#include "ByteCodeEmitter.h"
-#include "Context.h"
-#include "FixedPoint.h"
-#include "Floating.h"
-#include "Function.h"
 #include "InterpShared.h"
-#include "PrimType.h"
-#include "Program.h"
-#include "clang/AST/Attr.h"
 #include "clang/AST/DynamicRecursiveASTVisitor.h"
 #include "llvm/Support/SaveAndRestore.h"
 

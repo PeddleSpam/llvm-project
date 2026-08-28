@@ -7,11 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestFixture.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/SummaryName.h"
 #include <ostream>
 #include <string>
 

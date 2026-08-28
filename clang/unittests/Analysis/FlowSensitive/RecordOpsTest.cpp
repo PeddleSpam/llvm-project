@@ -8,14 +8,7 @@
 
 #include "clang/Analysis/FlowSensitive/RecordOps.h"
 #include "TestingSupport.h"
-#include "clang/AST/Type.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/DataflowEnvironment.h"
-#include "clang/Analysis/FlowSensitive/NoopLattice.h"
-#include "clang/Analysis/FlowSensitive/StorageLocation.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <string>
 
 namespace clang {

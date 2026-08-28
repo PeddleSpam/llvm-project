@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "../../lib/ScalableStaticAnalysis/Core/ModelStringConversions.h"
+#include "../../include/clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "../../include/clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
 #include "gtest/gtest.h"
 
 using namespace clang::ssaf;

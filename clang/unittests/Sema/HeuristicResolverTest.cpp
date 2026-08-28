@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 #include "clang/Sema/HeuristicResolver.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/Diagnostic.h"
 #include "clang/Tooling/Tooling.h"
 #include "gmock/gmock-matchers.h"
-#include "gtest/gtest.h"
 
 using namespace clang::ast_matchers;
 using testing::ElementsAre;

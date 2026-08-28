@@ -6,7 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../../../third-party/unittest/googletest/include/gtest/gtest.h"
+#include "../../include/clang/Basic/SourceManager.h"
+#include "../../include/clang/Rewrite/Core/Rewriter.h"
 #include "../Tooling/ReplacementTest.h"
+#include "../Tooling/RewriterTestContext.h"
 #include "clang/Format/Format.h"
 
 namespace clang {

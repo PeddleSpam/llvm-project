@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/Model/EntityIdTable.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
 #include "clang/ScalableStaticAnalysis/Core/Support/FormatProviders.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <cctype>
 

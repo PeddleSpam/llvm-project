@@ -3,7 +3,6 @@
 // This file tests that unix.Malloc can handle C++ code where e.g. malloc and
 // free are declared within the namespace 'std' by the header <cstdlib>.
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void leak() {
   int *p = static_cast<int*>(std::malloc(sizeof(int))); // expected-note{{Memory is allocated}}

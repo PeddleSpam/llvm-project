@@ -12,12 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Testing/Annotations/Annotations.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang::dataflow::test {

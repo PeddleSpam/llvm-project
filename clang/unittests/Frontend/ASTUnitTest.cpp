@@ -8,18 +8,10 @@
 
 #include <fstream>
 
-#include "clang/Basic/FileManager.h"
 #include "clang/Driver/CreateASTUnitFromArgs.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
-#include "clang/Frontend/PCHContainerOperations.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/ToolOutputFile.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Basic/LangOptions.h"
-#include "clang/Basic/LangStandard.h"
 #include "clang/Config/config.h"
 #include "llvm/Support/Path.h"
 

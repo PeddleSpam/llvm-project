@@ -3,6 +3,11 @@
 // RUN: %clang_cc1 -verify -internal-isystem %S/../../lib/Headers/openmp_wrappers -include __clang_openmp_device_functions.h -internal-isystem %S/Inputs/include -fopenmp -x c++ -triple nvptx64-unknown-unknown -fopenmp-targets=nvptx64-nvidia-cuda -emit-llvm %s -fopenmp-is-target-device -fopenmp-host-ir-file-path %t-ppc-host.bc -aux-triple powerpc64le-unknown-unknown -o - | FileCheck %s
 // expected-no-diagnostics
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/float.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <cmath>
 #include <complex>
 

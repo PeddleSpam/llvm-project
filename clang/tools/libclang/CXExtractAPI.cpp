@@ -11,27 +11,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "CXCursor.h"
-#include "CXString.h"
 #include "CXTranslationUnit.h"
-#include "clang-c/CXErrorCode.h"
 #include "clang-c/Documentation.h"
-#include "clang-c/Index.h"
-#include "clang-c/Platform.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclObjC.h"
 #include "clang/Basic/TargetInfo.h"
-#include "clang/ExtractAPI/API.h"
 #include "clang/ExtractAPI/ExtractAPIVisitor.h"
 #include "clang/ExtractAPI/Serialization/SymbolGraphSerializer.h"
 #include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/FrontendOptions.h"
-#include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/CBindingWrapping.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace clang::extractapi;

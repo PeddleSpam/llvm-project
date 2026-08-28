@@ -9,17 +9,8 @@
 #include "CheckerRegistration.h"
 #include "Reusables.h"
 
-#include "clang/AST/ExprCXX.h"
-#include "clang/Analysis/PathDiagnostic.h"
-#include "clang/StaticAnalyzer/Core/BugReporter/CommonBugCategories.h"
-#include "clang/StaticAnalyzer/Core/Checker.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CallDescription.h"
-#include "clang/StaticAnalyzer/Core/PathSensitive/CallEvent.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CheckerContext.h"
-#include "clang/StaticAnalyzer/Frontend/AnalysisConsumer.h"
-#include "clang/StaticAnalyzer/Frontend/CheckerRegistry.h"
-#include "clang/Tooling/Tooling.h"
-#include "gtest/gtest.h"
 #include <type_traits>
 
 namespace clang {

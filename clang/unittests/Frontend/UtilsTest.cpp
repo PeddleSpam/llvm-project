@@ -6,17 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Frontend/Utils.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/TargetOptions.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace {

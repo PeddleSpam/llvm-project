@@ -6,9 +6,11 @@
 //
 //===-------------------------------------------------------------------===//
 
+#include "../../../include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../include/clang/Testing/TestClangConfig.h"
+#include "../../../include/clang/Tooling/Tooling.h"
 #include "../ASTMatchersTest.h"
 #include "clang/ASTMatchers/Dynamic/Parser.h"
-#include "clang/ASTMatchers/Dynamic/Registry.h"
 #include "gtest/gtest.h"
 #include <optional>
 #include <string>

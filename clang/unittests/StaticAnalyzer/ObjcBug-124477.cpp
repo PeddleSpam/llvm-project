@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "CheckerRegistration.h"
-#include "clang/StaticAnalyzer/Core/Checker.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CheckerContext.h"
-#include "clang/StaticAnalyzer/Core/PathSensitive/ProgramStateTrait.h"
-#include "clang/StaticAnalyzer/Frontend/AnalysisConsumer.h"
-#include "clang/StaticAnalyzer/Frontend/CheckerRegistry.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace ento;

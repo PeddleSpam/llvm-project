@@ -10,7 +10,6 @@
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Testing/TestAST.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace tooling {

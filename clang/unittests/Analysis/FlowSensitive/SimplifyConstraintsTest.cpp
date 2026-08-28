@@ -8,9 +8,7 @@
 
 #include "clang/Analysis/FlowSensitive/SimplifyConstraints.h"
 #include "TestingSupport.h"
-#include "clang/Analysis/FlowSensitive/Arena.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace {
 

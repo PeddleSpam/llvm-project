@@ -13,11 +13,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Attr.h"
-#include "clang/Sema/ParsedAttr.h"
 #include "clang/Sema/Sema.h"
-#include "clang/Sema/SemaDiagnostic.h"
 #include "llvm/IR/Attributes.h"
 using namespace clang;
 

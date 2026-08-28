@@ -9,16 +9,7 @@
 
 #include "clang/Analysis/FlowSensitive/Models/ChromiumCheckModel.h"
 #include "TestingSupport.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/CFG.h"
-#include "clang/Analysis/FlowSensitive/NoopLattice.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <string>
 
 using namespace clang;

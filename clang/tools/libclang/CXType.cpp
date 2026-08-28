@@ -13,16 +13,9 @@
 #include "CXType.h"
 #include "CIndexer.h"
 #include "CXCursor.h"
-#include "CXString.h"
 #include "CXTranslationUnit.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclObjC.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/Expr.h"
 #include "clang/AST/QualTypeNames.h"
 #include "clang/AST/RecordLayout.h"
-#include "clang/AST/Type.h"
-#include "clang/Basic/AddressSpaces.h"
 #include "clang/Frontend/ASTUnit.h"
 #include <optional>
 

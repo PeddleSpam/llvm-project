@@ -14,19 +14,12 @@
 
 #include "clang/Interpreter/Interpreter.h"
 
-#include "clang/AST/Expr.h"
 #include "clang/Frontend/CompilerInstance.h"
 #include "clang/Sema/Lookup.h"
-#include "clang/Sema/Sema.h"
 
-#include "llvm/ExecutionEngine/Orc/LLJIT.h"
-#include "llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Threading.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include <system_error>
 

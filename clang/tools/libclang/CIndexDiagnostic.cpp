@@ -14,13 +14,9 @@
 #include "CIndexer.h"
 #include "CXTranslationUnit.h"
 #include "CXSourceLocation.h"
-#include "CXString.h"
 
-#include "clang/Basic/DiagnosticOptions.h"
 #include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/DiagnosticRenderer.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace clang::cxloc;

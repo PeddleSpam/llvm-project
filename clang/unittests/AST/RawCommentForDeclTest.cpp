@@ -7,14 +7,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/DeclGroup.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Tooling/Tooling.h"
 
 #include "gmock/gmock-matchers.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 

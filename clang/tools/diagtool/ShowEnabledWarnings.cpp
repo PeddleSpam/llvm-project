@@ -8,14 +8,10 @@
 
 #include "DiagTool.h"
 #include "DiagnosticNames.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/TextDiagnosticBuffer.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
-#include "clang/Frontend/Utils.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/VirtualFileSystem.h"
 
 DEF_DIAGTOOL("show-enabled",
              "Show which warnings are enabled for a given command line",

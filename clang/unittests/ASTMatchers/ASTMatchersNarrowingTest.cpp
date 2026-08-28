@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ASTMatchersTest.h"
-#include "clang/AST/PrettyPrinter.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Tooling/Tooling.h"
 #include "llvm/TargetParser/Host.h"
-#include "llvm/TargetParser/Triple.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace ast_matchers {

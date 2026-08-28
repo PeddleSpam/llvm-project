@@ -2,6 +2,10 @@
 // RUN: FileCheck --check-prefix=CHECK-TEST1 %s < %t
 // RUN: FileCheck --check-prefix=CHECK-TEST2 %s < %t
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 namespace Test1 {

@@ -16,7 +16,6 @@
 // RUN:                    -std=c++11 -verify=system,impure %s
 
 #include "virtualcall.h"
-#include "Inputs/virtualcall-system-header.h"
 
 void clang_analyzer_warnIfReached();
 

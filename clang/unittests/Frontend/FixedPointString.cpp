@@ -1,6 +1,4 @@
 #include "clang/AST/Type.h"
-#include "llvm/ADT/APSInt.h"
-#include "llvm/ADT/SmallString.h"
 #include "gtest/gtest.h"
 
 using clang::FixedPointValueToString;

@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Tooling/Syntax/Tree.h"
 #include "TreeTestBase.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Tooling/Syntax/BuildTree.h"
-#include "clang/Tooling/Syntax/Nodes.h"
-#include "llvm/ADT/STLExtras.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace clang::syntax;

@@ -8,27 +8,9 @@
 
 #include "clang/Tooling/Refactoring.h"
 #include "ReplacementTest.h"
-#include "RewriterTestContext.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclGroup.h"
 #include "clang/AST/DynamicRecursiveASTVisitor.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Format/Format.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
-#include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/Refactoring/AtomicChange.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang {

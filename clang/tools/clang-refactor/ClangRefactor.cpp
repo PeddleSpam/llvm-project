@@ -13,19 +13,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestSupport.h"
-#include "clang/Frontend/CommandLineSourceLoc.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/CommonOptionsParser.h"
-#include "clang/Tooling/Refactoring.h"
 #include "clang/Tooling/Refactoring/RefactoringAction.h"
-#include "clang/Tooling/Refactoring/RefactoringOptions.h"
 #include "clang/Tooling/Refactoring/Rename/RenamingAction.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 #include <string>
 

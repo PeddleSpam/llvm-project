@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/Attr.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/AttrKinds.h"
-#include "clang/Basic/AttributeScopeInfo.h"
-#include "clang/Basic/IdentifierTable.h"
 #include "clang/Tooling/Tooling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 

@@ -8,12 +8,7 @@
 
 #include "IRMatchers.h"
 #include "TestCompiler.h"
-#include "clang/AST/ASTConsumer.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TargetInfo.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "gtest/gtest.h"
 #include <memory>
 

@@ -6,14 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ASTContext.h"
 #include "clang/AST/ASTNodeTraverser.h"
 #include "clang/AST/TextNodeDumper.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Tooling/Tooling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang::tooling;
 using namespace clang::ast_matchers;

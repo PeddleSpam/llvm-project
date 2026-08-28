@@ -923,7 +923,6 @@ void fLambdaFieldWithInvalidThisCapture() {
 // System header tests.
 //===----------------------------------------------------------------------===//
 
-#include "Inputs/system-header-simulator-for-cxx-uninitialized-object.h"
 
 struct SystemHeaderTest1 {
   RecordInSystemHeader rec; // defined in the system header simulator

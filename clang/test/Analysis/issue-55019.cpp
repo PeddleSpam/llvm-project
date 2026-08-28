@@ -7,8 +7,6 @@
 // RUN:   -analyzer-checker=unix \
 // RUN:   -analyzer-checker=debug.ExprInspection
 
-#include "Inputs/system-header-simulator.h"
-#include "Inputs/system-header-simulator-cxx.h"
 
 void *malloc(size_t);
 void free(void *);

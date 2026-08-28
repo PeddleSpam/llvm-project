@@ -8,24 +8,12 @@
 
 #include "TestFixture.h"
 
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DynamicRecursiveASTVisitor.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/SSAFOptions.h"
 #include "clang/ScalableStaticAnalysis/Analyses/SharedLexicalRepresentation/SharedLexicalRepresentation.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
-#include "gtest/gtest.h"
 
 #include <memory>
 #include <set>

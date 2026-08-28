@@ -7,14 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/SourceTransformation/YAMLSourceEditFormat.h"
-#include "clang/Tooling/Core/Replacement.h"
 #include "clang/Tooling/ReplacementsYaml.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/YAMLTraits.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace clang;

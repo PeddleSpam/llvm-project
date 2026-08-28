@@ -10,17 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang-c/BuildSystem.h"
 #include "CXString.h"
 #include "clang/Serialization/ModuleCache.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/CBindingWrapping.h"
-#include "llvm/Support/Chrono.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/MemAlloc.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace llvm::sys;

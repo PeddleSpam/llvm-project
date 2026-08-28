@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestVisitor.h"
-#include "clang/AST/Expr.h"
 
 using namespace clang;
 

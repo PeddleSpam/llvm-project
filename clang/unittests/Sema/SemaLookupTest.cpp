@@ -1,9 +1,5 @@
-#include "clang/AST/DeclarationName.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Parse/ParseAST.h"
 #include "clang/Sema/Lookup.h"
-#include "clang/Sema/Sema.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 

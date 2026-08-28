@@ -10,7 +10,6 @@
 
 #include "TestVisitor.h"
 #include "clang/AST/ExprObjC.h"
-#include "clang/Basic/SourceManager.h"
 #include <optional>
 
 using namespace clang;

@@ -6,8 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../include/clang/Testing/TestClangConfig.h"
+#include "../../include/clang/Tooling/Tooling.h"
 #include "../ASTMatchers/ASTMatchersTest.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "gtest/gtest.h"
 
 namespace clang {

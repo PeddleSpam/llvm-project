@@ -5,7 +5,6 @@
 // RUN:   -analyzer-output=text -verify \
 // RUN:   -triple x86_64-unknown-linux-gnu
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void f() {
   short s;                    // expected-note {{'s' declared without an initial value}}

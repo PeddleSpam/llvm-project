@@ -10,14 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ExprConcepts.h"
 #include "clang/AST/RecordLayout.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Testing/CommandLineArgs.h"
 #include "llvm/Support/SmallVectorMemoryBuffer.h"
 
 #include "clang/AST/DeclContextInternals.h"
-#include "gtest/gtest.h"
 
 #include "ASTImporterFixtures.h"
 #include <optional>

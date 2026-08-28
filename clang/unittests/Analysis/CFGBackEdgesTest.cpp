@@ -8,11 +8,7 @@
 
 #include "clang/Analysis/CFGBackEdges.h"
 #include "CFGBuildResult.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Analysis/CFG.h"
-#include "clang/Basic/LLVM.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace analysis {

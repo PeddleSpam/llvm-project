@@ -11,14 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "ASTPrint.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Expr.h"
 #include "clang/AST/IgnoreExpr.h"
-#include "clang/AST/OpenACCClause.h"
 #include "clang/AST/StmtOpenACC.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Tooling/Tooling.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 

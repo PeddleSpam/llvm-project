@@ -8,7 +8,6 @@
 
 #include "DiagnosticNames.h"
 #include "clang/Basic/AllDiagnostics.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringTable.h"
 
 using namespace clang;

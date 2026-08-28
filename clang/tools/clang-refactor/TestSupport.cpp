@@ -14,16 +14,8 @@
 
 #include "TestSupport.h"
 #include "clang/Basic/DiagnosticError.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorOr.h"
 #include "llvm/Support/LineIterator.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Regex.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace llvm;

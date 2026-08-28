@@ -12,17 +12,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/AST.h"
-#include "clang/AST/ASTConsumer.h"
+#include "../../include/clang/AST/StmtVisitor.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Frontend/FrontendPluginRegistry.h"
 #include "clang/Sema/Sema.h"
-#include "llvm/IR/Module.h"
-#include "llvm/IR/PassManager.h"
-#include "llvm/Passes/OptimizationLevel.h"
 #include "llvm/Passes/PassBuilder.h"
-#include "llvm/Support/raw_ostream.h"
 using namespace clang;
 
 namespace {

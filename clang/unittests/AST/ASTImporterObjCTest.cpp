@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/DeclContextInternals.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "gtest/gtest.h"
 
 #include "ASTImporterFixtures.h"
 

@@ -1,7 +1,6 @@
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,cplusplus,alpha.cplusplus.IteratorRange -analyzer-config aggressive-binary-operation-simplification=true -analyzer-config c++-container-inlining=false -analyzer-output=text %s -verify
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,cplusplus,alpha.cplusplus.IteratorRange -analyzer-config aggressive-binary-operation-simplification=true -analyzer-config c++-container-inlining=true -DINLINE=1 -analyzer-output=text %s -verify
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_warnIfReached();
 

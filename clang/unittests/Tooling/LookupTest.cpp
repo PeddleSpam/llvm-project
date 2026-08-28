@@ -8,8 +8,6 @@
 
 #include "clang/Tooling/Refactoring/Lookup.h"
 #include "TestVisitor.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/SourceLocation.h"
 using namespace clang;
 
 namespace {

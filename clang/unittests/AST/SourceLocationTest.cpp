@@ -15,22 +15,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Basic/SourceLocation.h"
 #include "MatchVerifier.h"
-#include "clang/AST/ASTConcept.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/ASTFwd.h"
-#include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/ExprConcepts.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersInternal.h"
-#include "clang/Testing/CommandLineArgs.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Annotations/Annotations.h"
-#include "gtest/gtest.h"
 #include <string>
 
 using namespace clang;

@@ -1,6 +1,10 @@
 // RUN: %clang_cc1 %std_cxx98- %s -I%S -triple=x86_64-apple-darwin10 -emit-llvm -Wno-dynamic-exception-spec -o - | FileCheck %s -check-prefixes=CHECK,CHECK-BOTH
 // RUN: %clang_cc1 %std_cxx98- %s -I%S -triple=x86_64-apple-darwin10 -emit-llvm -Wno-dynamic-exception-spec -fvisibility=hidden -o - | FileCheck %s --check-prefixes=CHECK-WITH-HIDDEN,CHECK-BOTH
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 // CHECK-BOTH: _ZTIP1C = internal constant

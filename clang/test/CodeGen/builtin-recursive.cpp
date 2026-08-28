@@ -2,6 +2,7 @@
 
 // This used to cause a read past the end of a global variable.
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/vadefs.h"
 #include <stdio.h>
 
 void testcase(void) {

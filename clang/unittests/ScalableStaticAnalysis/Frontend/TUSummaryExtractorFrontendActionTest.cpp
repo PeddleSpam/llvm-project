@@ -7,25 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/ScalableStaticAnalysis/Frontend/TUSummaryExtractorFrontendAction.h"
-#include "clang/AST/ASTConsumer.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendOptions.h"
 #include "clang/Frontend/SSAFOptions.h"
 #include "clang/Frontend/TextDiagnosticBuffer.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "clang/ScalableStaticAnalysis/Core/Serialization/SerializationFormat.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/SerializationFormatRegistry.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryExtractor.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <string>
 #include <vector>

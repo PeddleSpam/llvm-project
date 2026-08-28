@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/IssueHash.h"
-#include "clang/AST/Decl.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 #include <memory>

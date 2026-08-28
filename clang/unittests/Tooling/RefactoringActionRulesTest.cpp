@@ -7,15 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReplacementTest.h"
-#include "RewriterTestContext.h"
 #include "clang/Tooling/Refactoring.h"
 #include "clang/Tooling/Refactoring/Extract/Extract.h"
 #include "clang/Tooling/Refactoring/RefactoringAction.h"
-#include "clang/Tooling/Refactoring/RefactoringDiagnostic.h"
 #include "clang/Tooling/Refactoring/Rename/SymbolName.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Errc.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace clang;

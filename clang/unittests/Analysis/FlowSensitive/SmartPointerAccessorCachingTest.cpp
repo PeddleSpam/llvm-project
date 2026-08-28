@@ -8,9 +8,7 @@
 
 #include "clang/Analysis/FlowSensitive/SmartPointerAccessorCaching.h"
 
-#include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/ADT/StringRef.h"
 #include "gtest/gtest.h"
 
 namespace clang::dataflow {

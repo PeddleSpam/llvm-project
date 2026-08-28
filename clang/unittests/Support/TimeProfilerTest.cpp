@@ -7,18 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/ASTMutationListener.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Lex/PreprocessorOptions.h"
 
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 #include <stack>
 
 #include "gtest/gtest.h"

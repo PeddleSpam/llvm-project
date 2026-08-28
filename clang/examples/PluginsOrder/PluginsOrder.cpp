@@ -6,8 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/AST.h"
-#include "clang/AST/ASTConsumer.h"
+#include "../../include/clang/AST/StmtVisitor.h"
 #include "clang/Frontend/FrontendPluginRegistry.h"
 using namespace clang;
 

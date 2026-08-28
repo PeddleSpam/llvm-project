@@ -8,18 +8,11 @@
 
 #include "FindDecl.h"
 #include "TestFixture.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/SSAFOptions.h"
 #include "clang/ScalableStaticAnalysis/Analyses/TypeConstrainedPointers/TypeConstrainedPointers.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryExtractor.h"
 #include "clang/Tooling/Tooling.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <optional>
 

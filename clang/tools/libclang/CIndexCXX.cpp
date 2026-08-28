@@ -13,7 +13,6 @@
 #include "CIndexer.h"
 #include "CXCursor.h"
 #include "CXType.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DeclTemplate.h"
 
 using namespace clang;

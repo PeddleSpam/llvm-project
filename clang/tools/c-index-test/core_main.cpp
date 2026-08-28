@@ -7,27 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/Mangle.h"
-#include "clang/Basic/LangOptions.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
 #include "clang/Frontend/ASTUnit.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendAction.h"
-#include "clang/Frontend/Utils.h"
 #include "clang/Index/IndexDataConsumer.h"
 #include "clang/Index/IndexingAction.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Serialization/ASTReader.h"
 #include "clang/Serialization/ObjectFilePCHContainerReader.h"
 #include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/StringSaver.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace clang::index;

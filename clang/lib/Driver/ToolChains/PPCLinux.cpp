@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "PPCLinux.h"
-#include "clang/Driver/Driver.h"
-#include "clang/Options/Options.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 using namespace clang::driver;
 using namespace clang::driver::toolchains;

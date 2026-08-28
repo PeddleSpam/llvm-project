@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace clang;

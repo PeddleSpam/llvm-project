@@ -12,8 +12,6 @@
 
 #include "clang/Driver/CommonArgs.h"
 #include "clang/Options/OptionUtils.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/iterator_range.h"
 #include "gtest/gtest.h"
 
 using namespace clang::driver::tools;

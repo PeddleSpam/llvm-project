@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/DirectoryWatcher/DirectoryWatcher.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <condition_variable>
 #include <future>
 #include <mutex>

@@ -8,23 +8,13 @@
 
 #include "clang/ScalableStaticAnalysis/Analyses/PointerFlow/PointerFlow.h"
 #include "TestFixture.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DynamicRecursiveASTVisitor.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/Frontend/ASTUnit.h"
-#include "clang/Frontend/PCHContainerOperations.h"
 #include "clang/Frontend/SSAFOptions.h"
-#include "clang/ScalableStaticAnalysis/Core/Model/EntityId.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
-#include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummaryBuilder.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/SaveAndRestore.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <type_traits>
 #include <variant>

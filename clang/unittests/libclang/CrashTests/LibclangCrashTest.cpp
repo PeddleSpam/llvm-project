@@ -8,7 +8,6 @@
 
 #include "../TestUtils.h"
 #include "clang-c/FatalErrorHandler.h"
-#include "gtest/gtest.h"
 #include <string>
 
 TEST_F(LibclangParseTest, InstallAbortingLLVMFatalErrorHandler) {

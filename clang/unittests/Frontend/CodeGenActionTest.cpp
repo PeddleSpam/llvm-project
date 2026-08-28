@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/CodeGen/CodeGenAction.h"
-#include "clang/Basic/LangStandard.h"
 #include "clang/CodeGen/BackendUtil.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Lex/PreprocessorOptions.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

@@ -7,17 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Attr.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/FunctionExtras.h"
-#include "llvm/ADT/STLExtras.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cassert>
 
 using namespace clang;

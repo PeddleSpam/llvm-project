@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestVisitor.h"
-#include "clang/Lex/Preprocessor.h"
 
 namespace clang {
 

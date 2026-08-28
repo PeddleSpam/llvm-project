@@ -7,7 +7,6 @@
 
 // expected-no-diagnostics
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 struct X {
   static void *operator new(std::size_t sz, void *b) {

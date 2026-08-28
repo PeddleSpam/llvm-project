@@ -10,18 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Basic/DiagnosticIDs.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/OffloadArch.h"
-#include "clang/Basic/TargetOptions.h"
 #include "clang/Driver/Compilation.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Driver/Driver.h"
-#include "clang/Driver/ToolChain.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <memory>
 

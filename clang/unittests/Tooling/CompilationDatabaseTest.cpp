@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Tooling/CompilationDatabase.h"
-#include "clang/Tooling/FileMatchTrie.h"
 #include "clang/Tooling/JSONCompilationDatabase.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TargetSelect.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <algorithm>
 
 namespace clang {

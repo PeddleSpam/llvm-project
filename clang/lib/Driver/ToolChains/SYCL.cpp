@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 #include "SYCL.h"
 #include "clang/Driver/CommonArgs.h"
-#include "llvm/Support/VirtualFileSystem.h"
 
 using namespace clang::driver;
 using namespace clang::driver::toolchains;

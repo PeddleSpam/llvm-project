@@ -12,9 +12,7 @@
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/ExtractorRegistry.h"
 #include "clang/ScalableStaticAnalysis/Core/TUSummary/TUSummary.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 using namespace clang;

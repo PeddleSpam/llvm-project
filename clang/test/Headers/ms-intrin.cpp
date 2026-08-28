@@ -32,6 +32,8 @@
 
 // intrin.h needs size_t, but -ffreestanding prevents us from getting it from
 // stddef.h.  Work around it with this typedef.
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
 typedef __SIZE_TYPE__ size_t;
 
 #include <intrin.h>

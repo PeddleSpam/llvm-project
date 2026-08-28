@@ -1,10 +1,5 @@
 #include "TestingSupport.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/DataflowEnvironment.h"
-#include "clang/Analysis/FlowSensitive/DataflowLattice.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 namespace clang::dataflow::test {
 namespace {

@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestVisitor.h"
-#include "clang/AST/ASTConcept.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/ExprConcepts.h"
-#include "clang/AST/Type.h"
 
 using namespace clang;
 

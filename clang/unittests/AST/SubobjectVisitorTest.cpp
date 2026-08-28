@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/SubobjectVisitor.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"

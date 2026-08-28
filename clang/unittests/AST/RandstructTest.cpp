@@ -23,8 +23,6 @@
 
 #include "DeclMatcher.h"
 #include "clang/AST/RecordLayout.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Testing/CommandLineArgs.h"
 #include "clang/Tooling/Tooling.h"
 #include "llvm/Support/ToolOutputFile.h"

@@ -16,16 +16,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../include/clang/ScalableStaticAnalysis/SSAFBuiltinForceLinker.h"
 #include "LinkCLI.h"
 #include "MultiArchCreateCLI.h"
 #include "StaticLibraryCreateCLI.h"
 
-#include "clang/ScalableStaticAnalysis/SSAFForceLinker.h" // IWYU pragma: keep
-#include "clang/ScalableStaticAnalysis/Tool/Utils.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
-#include "llvm/Support/Timer.h"
-#include "llvm/Support/raw_ostream.h"
 #include <string>
 
 using namespace llvm;

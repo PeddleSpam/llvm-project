@@ -10,8 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Type.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 

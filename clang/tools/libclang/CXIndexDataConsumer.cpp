@@ -10,12 +10,8 @@
 #include "CIndexDiagnostic.h"
 #include "CXFile.h"
 #include "CXTranslationUnit.h"
-#include "clang/AST/Attr.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclTemplate.h"
 #include "clang/AST/DeclVisitor.h"
 #include "clang/Frontend/ASTUnit.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace clang;
 using namespace clang::index;

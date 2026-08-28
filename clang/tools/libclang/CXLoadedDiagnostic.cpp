@@ -15,14 +15,8 @@
 #include "CXString.h"
 #include "clang/Basic/Diagnostic.h"
 #include "clang/Basic/FileManager.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Frontend/SerializedDiagnosticReader.h"
 #include "clang/Frontend/SerializedDiagnostics.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Bitstream/BitstreamReader.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace clang;
 

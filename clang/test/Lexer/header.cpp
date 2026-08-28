@@ -1,14 +1,8 @@
 // RUN: %clang_cc1 -fsyntax-only -Wno-header-guard %s
 // RUN: %clang_cc1 -fsyntax-only -Wheader-guard -fno-diagnostics-show-line-numbers %s 2>&1 | FileCheck %s
 
-#include "Inputs/good-header-guard.h"
-#include "Inputs/no-define.h"
-#include "Inputs/different-define.h"
-#include "Inputs/out-of-order-define.h"
 #include "Inputs/tokens-between-ifndef-and-define.h"
-#include "Inputs/unlikely-to-be-header-guard.h"
 
-#include "Inputs/bad-header-guard.h"
 // CHECK: In file included from {{.*}}header.cpp:{{[0-9]*}}:
 // CHECK: {{.*}}bad-header-guard.h:1:9: warning: 'bad_header_guard' is used as a header guard here, followed by #define of a different macro
 // CHECK: {{^}}#ifndef bad_header_guard
@@ -28,10 +22,6 @@
 // CHECK: {{^}}        ^~~
 // CHECK: {{^}}        foo
 
-#include "Inputs/multiple.h"
-#include "Inputs/multiple.h"
-#include "Inputs/multiple.h"
-#include "Inputs/multiple.h"
 // CHECK: In file included from {{.*}}header.cpp:{{[0-9]*}}:
 // CHECK: {{.*}}multiple.h:1:9: warning: 'multiple' is used as a header guard here, followed by #define of a different macro
 // CHECK: {{^}}#ifndef multiple

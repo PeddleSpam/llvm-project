@@ -15,10 +15,8 @@
 #include "clang/Sema/CodeCompleteConsumer.h"
 #include "clang/Sema/Sema.h"
 #include "llvm/LineEditor/LineEditor.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 namespace {

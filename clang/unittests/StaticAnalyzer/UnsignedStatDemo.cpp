@@ -12,15 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "CheckerRegistration.h"
-#include "clang/StaticAnalyzer/Core/Checker.h"
-#include "clang/StaticAnalyzer/Core/CheckerManager.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CheckerContext.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/EntryPointStats.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace clang;

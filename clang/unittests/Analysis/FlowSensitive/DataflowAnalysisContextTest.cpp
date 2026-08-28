@@ -9,7 +9,6 @@
 #include "clang/Analysis/FlowSensitive/DataflowAnalysisContext.h"
 #include "clang/Analysis/FlowSensitive/WatchedLiteralsSolver.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 namespace {

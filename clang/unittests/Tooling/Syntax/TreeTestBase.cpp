@@ -11,27 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "TreeTestBase.h"
-#include "clang/AST/ASTConsumer.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "clang/Testing/CommandLineArgs.h"
-#include "clang/Testing/TestClangConfig.h"
 #include "clang/Tooling/Syntax/BuildTree.h"
-#include "clang/Tooling/Syntax/Nodes.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "clang/Tooling/Syntax/Tree.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Testing/Annotations/Annotations.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace clang::syntax;

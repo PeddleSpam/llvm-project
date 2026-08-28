@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Parse/ParseAST.h"
-#include "clang/Serialization/ASTDeserializationListener.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 

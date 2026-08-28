@@ -8,10 +8,7 @@
 
 #include "EvaluationResult.h"
 #include "InterpState.h"
-#include "Pointer.h"
 #include "Record.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallPtrSet.h"
 #include <iterator>
 
 namespace clang {

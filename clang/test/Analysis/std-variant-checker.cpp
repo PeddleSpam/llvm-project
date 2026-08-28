@@ -3,7 +3,6 @@
 // RUN:   -Xclang -analyzer-checker=debug.ExprInspection \
 // RUN:   -Xclang -analyzer-checker=core,alpha.core.StdVariant
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 class Foo{};
 

@@ -8,15 +8,10 @@
 
 #include "clang/Tooling/Inclusions/StandardLibrary.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclarationName.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/ScopedPrinter.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using ::testing::Contains;
 using ::testing::ElementsAre;

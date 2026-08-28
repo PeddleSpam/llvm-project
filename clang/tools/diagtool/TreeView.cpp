@@ -9,10 +9,7 @@
 #include "DiagTool.h"
 #include "DiagnosticNames.h"
 #include "clang/Basic/AllDiagnostics.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
 #include "llvm/ADT/DenseSet.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/Process.h"
 
 DEF_DIAGTOOL("tree", "Show warning flags in a tree view", TreeView)

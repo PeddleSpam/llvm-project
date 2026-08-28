@@ -1,13 +1,7 @@
 #include "TestingSupport.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Analysis/FlowSensitive/NoopAnalysis.h"
-#include "clang/Tooling/Tooling.h"
 #include "llvm/Testing/ADT/StringMapEntry.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace dataflow;

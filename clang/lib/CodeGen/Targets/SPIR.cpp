@@ -9,9 +9,6 @@
 #include "ABIInfoImpl.h"
 #include "HLSLBufferLayoutBuilder.h"
 #include "TargetInfo.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/Basic/LangOptions.h"
-#include "llvm/IR/DerivedTypes.h"
 
 #include <stdint.h>
 #include <utility>

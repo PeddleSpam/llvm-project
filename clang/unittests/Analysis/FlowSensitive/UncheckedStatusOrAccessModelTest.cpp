@@ -9,8 +9,6 @@
 #include <utility>
 
 #include "UncheckedStatusOrAccessModelTestFixture.h"
-#include "clang/Analysis/FlowSensitive/Models/UncheckedStatusOrAccessModel.h"
-#include "gtest/gtest.h"
 
 namespace clang::dataflow::statusor_model {
 namespace {

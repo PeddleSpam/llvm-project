@@ -10,10 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/ASTVector.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/Basic/Builtins.h"
-#include "clang/Basic/FileManager.h"
 #include "clang/Basic/SourceManager.h"
 #include "gtest/gtest.h"
 

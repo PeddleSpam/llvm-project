@@ -6,7 +6,6 @@
 // expected-no-diagnostics
 #endif
 
-#include "../Inputs/system-header-simulator-cxx.h"
 
 void clang_analyzer_eval(bool);
 

@@ -7,19 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport.h"
-#include "clang/AST/Decl.h"
-#include "clang/Analysis/FlowSensitive/AdornedCFG.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysisContext.h"
-#include "clang/Analysis/FlowSensitive/DataflowEnvironment.h"
-#include "clang/Analysis/FlowSensitive/Formula.h"
 #include "clang/Analysis/FlowSensitive/NoopAnalysis.h"
-#include "clang/Analysis/FlowSensitive/TypeErasedDataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/WatchedLiteralsSolver.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <memory>
 #include <string>

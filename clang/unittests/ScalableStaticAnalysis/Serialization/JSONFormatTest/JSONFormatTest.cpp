@@ -13,9 +13,6 @@
 #include "JSONFormatTest.h"
 
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Registry.h"
 #include "llvm/Testing/Support/Error.h"
 #ifndef _WIN32
 #include <unistd.h>

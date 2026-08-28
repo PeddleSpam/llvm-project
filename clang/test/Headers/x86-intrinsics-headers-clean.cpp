@@ -10,6 +10,7 @@
 
 // expected-no-diagnostics
 
+#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
 #include "system_reserved_names.h"
 
 #include <x86intrin.h>

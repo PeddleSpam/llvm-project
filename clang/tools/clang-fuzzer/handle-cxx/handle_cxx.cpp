@@ -13,10 +13,8 @@
 #include "handle_cxx.h"
 
 #include "clang/CodeGen/CodeGenAction.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Lex/PreprocessorOptions.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Option/Option.h"
 
 using namespace clang;
 

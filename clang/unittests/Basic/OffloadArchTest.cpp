@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Basic/OffloadArch.h"
-#include "llvm/TargetParser/Triple.h"
 #include "gtest/gtest.h"
 
 using namespace clang;

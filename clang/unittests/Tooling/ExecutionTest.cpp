@@ -6,20 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Tooling/Execution.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DynamicRecursiveASTVisitor.h"
-#include "clang/Frontend/ASTUnit.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Tooling/AllTUsExecution.h"
-#include "clang/Tooling/CompilationDatabase.h"
 #include "clang/Tooling/StandaloneExecution.h"
 #include "clang/Tooling/ToolExecutorPluginRegistry.h"
-#include "clang/Tooling/Tooling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <algorithm>
 #include <string>
 

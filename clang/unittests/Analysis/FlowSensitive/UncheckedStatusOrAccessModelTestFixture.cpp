@@ -8,13 +8,11 @@
 
 #include "UncheckedStatusOrAccessModelTestFixture.h"
 #include "MockHeaders.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "gtest/gtest.h"
 
 namespace clang::dataflow::statusor_model {
 namespace {

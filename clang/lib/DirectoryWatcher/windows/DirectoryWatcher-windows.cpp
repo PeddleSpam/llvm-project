@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DirectoryScanner.h"
-#include "clang/DirectoryWatcher/DirectoryWatcher.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ConvertUTF.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Windows/WindowsSupport.h"

@@ -7,17 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/DeclLookups.h"
-#include "clang/AST/DeclarationName.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Parse/ParseAST.h"
 #include "clang/Sema/Lookup.h"
-#include "clang/Sema/Sema.h"
-#include "clang/Sema/SemaConsumer.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 

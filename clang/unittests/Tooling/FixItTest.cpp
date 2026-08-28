@@ -8,7 +8,6 @@
 
 #include "clang/Tooling/FixIt.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Testing/TestAST.h"
 #include "gtest/gtest.h"
 

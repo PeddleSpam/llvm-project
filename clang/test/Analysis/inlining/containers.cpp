@@ -82,7 +82,6 @@ void testWrappers(BeginOnlySet &w1, IteratorStructOnlySet &w2,
 
 #else // HEADER
 
-#include "../Inputs/system-header-simulator-cxx.h"
 
 class MySet {
   int *storage;

@@ -14,7 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/AST/DataCollection.h"
-#include "clang/AST/DeclTemplate.h"
 #include "clang/AST/StmtVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Tooling/Tooling.h"

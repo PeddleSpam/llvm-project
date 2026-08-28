@@ -8,19 +8,7 @@
 
 #include "clang/StaticAnalyzer/Core/PathSensitive/CallEvent.h"
 #include "CheckerRegistration.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/StaticAnalyzer/Core/BugReporter/BugReporter.h"
-#include "clang/StaticAnalyzer/Core/BugReporter/BugType.h"
-#include "clang/StaticAnalyzer/Core/BugReporter/CommonBugCategories.h"
-#include "clang/StaticAnalyzer/Core/Checker.h"
-#include "clang/StaticAnalyzer/Core/PathSensitive/AnalysisManager.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CheckerContext.h"
-#include "clang/StaticAnalyzer/Core/PathSensitive/ExplodedGraph.h"
-#include "clang/StaticAnalyzer/Frontend/AnalysisConsumer.h"
-#include "clang/StaticAnalyzer/Frontend/CheckerRegistry.h"
-#include "clang/Tooling/Tooling.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace ento {

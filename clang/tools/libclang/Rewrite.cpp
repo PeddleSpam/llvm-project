@@ -9,7 +9,6 @@
 #include "clang-c/Rewrite.h"
 #include "CXSourceLocation.h"
 #include "CXTranslationUnit.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Frontend/ASTUnit.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 

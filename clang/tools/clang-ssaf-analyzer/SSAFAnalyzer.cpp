@@ -12,13 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/ScalableStaticAnalysis/Core/EntityLinker/LUSummary.h"
+#include "../../include/clang/ScalableStaticAnalysis/SSAFBuiltinForceLinker.h"
 #include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisDriver.h"
-#include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisName.h"
-#include "clang/ScalableStaticAnalysis/SSAFForceLinker.h" // IWYU pragma: keep
 #include "clang/ScalableStaticAnalysis/Tool/Utils.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
 #include <memory>
 #include <string>

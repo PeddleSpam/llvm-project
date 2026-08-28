@@ -1,7 +1,6 @@
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,cplusplus,alpha.cplusplus.MismatchedIterator -analyzer-config aggressive-binary-operation-simplification=true -analyzer-config c++-container-inlining=false %s -verify
 // RUN: %clang_analyze_cc1 -std=c++11 -analyzer-checker=core,cplusplus,alpha.cplusplus.MismatchedIterator -analyzer-config aggressive-binary-operation-simplification=true -analyzer-config c++-container-inlining=true -DINLINE=1 %s -verify
 
-#include "Inputs/system-header-simulator-cxx.h"
 
 void good_insert1(std::vector<int> &V, int n) {
   V.insert(V.cbegin(), n); // no-warning

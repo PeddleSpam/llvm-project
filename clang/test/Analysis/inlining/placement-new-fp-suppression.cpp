@@ -12,7 +12,6 @@
 #endif
 
 #include <stdint.h>
-#include "../Inputs/system-header-simulator-cxx.h"
 
 void error();
 void *malloc(size_t);

@@ -15,15 +15,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Analysis/FlowSensitive/CFGMatchSwitch.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/NoopLattice.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Testing/Annotations/Annotations.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 namespace {

@@ -1,11 +1,8 @@
 #include "clang/DependencyScanning/InProcessModuleCache.h"
 
-#include "clang/Basic/AtomicLineLogger.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace clang::dependencies;

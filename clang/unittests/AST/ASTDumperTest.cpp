@@ -14,12 +14,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "ASTPrint.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace clang;
 using namespace ast_matchers;

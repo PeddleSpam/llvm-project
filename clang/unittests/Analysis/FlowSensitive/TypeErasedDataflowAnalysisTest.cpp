@@ -7,31 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/OperationKinds.h"
-#include "clang/AST/Type.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/CFG.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysisContext.h"
-#include "clang/Analysis/FlowSensitive/DataflowEnvironment.h"
-#include "clang/Analysis/FlowSensitive/DataflowLattice.h"
 #include "clang/Analysis/FlowSensitive/DebugSupport.h"
 #include "clang/Analysis/FlowSensitive/NoopAnalysis.h"
-#include "clang/Analysis/FlowSensitive/Value.h"
-#include "clang/Analysis/FlowSensitive/WatchedLiteralsSolver.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/ADT/StringMapEntry.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cassert>
 #include <memory>
 #include <optional>

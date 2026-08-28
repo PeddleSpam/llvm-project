@@ -10,13 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/Type.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 

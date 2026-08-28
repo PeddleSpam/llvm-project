@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Analysis/AnyCall.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/ExprObjC.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 #include <initializer_list>

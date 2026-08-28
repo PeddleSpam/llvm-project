@@ -8,8 +8,11 @@
 
 #include "clang/Format/Format.h"
 
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../../include/clang/Basic/SourceManager.h"
+#include "../../include/clang/Rewrite/Core/Rewriter.h"
 #include "../Tooling/ReplacementTest.h"
-#include "clang/Tooling/Core/Replacement.h"
+#include "../Tooling/RewriterTestContext.h"
 
 #include "gtest/gtest.h"
 

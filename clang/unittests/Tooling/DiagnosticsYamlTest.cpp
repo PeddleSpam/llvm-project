@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Tooling/DiagnosticsYaml.h"
-#include "clang/Tooling/Core/Diagnostic.h"
-#include "clang/Tooling/ReplacementsYaml.h"
-#include "llvm/ADT/SmallVector.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

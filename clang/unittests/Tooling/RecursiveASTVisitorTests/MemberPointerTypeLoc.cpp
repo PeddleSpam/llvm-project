@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestVisitor.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace clang;
 

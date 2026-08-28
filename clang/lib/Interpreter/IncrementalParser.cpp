@@ -13,17 +13,10 @@
 #include "IncrementalParser.h"
 #include "IncrementalAction.h"
 
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
 #include "clang/AST/DeclContextInternals.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Interpreter/PartialTranslationUnit.h"
 #include "clang/Parse/Parser.h"
-#include "clang/Sema/Sema.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Module.h"
 #include "llvm/Support/CrashRecoveryContext.h"
-#include "llvm/Support/Error.h"
 
 #include <sstream>
 

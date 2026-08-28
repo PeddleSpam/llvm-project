@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Basic/Builtins.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/RangedConstraintManager.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/APSInt.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 using namespace clang;

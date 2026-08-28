@@ -12,14 +12,6 @@
 
 #include "clang/AST/QualTypeNames.h"
 #include "ASTPrint.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclarationName.h"
-#include "clang/AST/TypeBase.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace {

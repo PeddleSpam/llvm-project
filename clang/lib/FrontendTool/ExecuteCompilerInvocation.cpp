@@ -11,29 +11,22 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../include/clang/ScalableStaticAnalysis/SSAFBuiltinForceLinker.h"
 #include "clang/Basic/DiagnosticFrontend.h"
 #include "clang/CodeGen/CodeGenAction.h"
 #include "clang/Config/config.h"
 #include "clang/ExtractAPI/FrontendActions.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Frontend/FrontendPluginRegistry.h"
 #include "clang/Frontend/SSAFOptions.h"
-#include "clang/Frontend/Utils.h"
 #include "clang/FrontendTool/Utils.h"
 #include "clang/Options/Options.h"
 #include "clang/Rewrite/Frontend/FrontendActions.h"
 #include "clang/ScalableStaticAnalysis/Frontend/SourceTransformationFrontendAction.h"
 #include "clang/ScalableStaticAnalysis/Frontend/TUSummaryExtractorFrontendAction.h"
-#include "clang/ScalableStaticAnalysis/SSAFForceLinker.h" // IWYU pragma: keep
 #include "clang/StaticAnalyzer/Core/AnalyzerOptions.h"
 #include "clang/StaticAnalyzer/Frontend/AnalyzerHelpFlags.h"
 #include "clang/StaticAnalyzer/Frontend/FrontendActions.h"
-#include "llvm/Option/OptTable.h"
-#include "llvm/Support/BuryPointer.h"
-#include "llvm/Support/DynamicLibrary.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #if CLANG_ENABLE_CIR
 #include "mlir/IR/AsmState.h"

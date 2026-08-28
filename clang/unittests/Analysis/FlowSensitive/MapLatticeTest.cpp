@@ -1,8 +1,5 @@
 #include "clang/Analysis/FlowSensitive/MapLattice.h"
-#include "clang/Analysis/FlowSensitive/DataflowLattice.h"
-#include "llvm/Support/Error.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <ostream>
 
 using namespace clang;

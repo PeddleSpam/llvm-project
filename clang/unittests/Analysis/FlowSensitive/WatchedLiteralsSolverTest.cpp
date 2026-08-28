@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang/Analysis/FlowSensitive/WatchedLiteralsSolver.h"
 #include "SolverTest.h"
 
 namespace clang::dataflow::test {

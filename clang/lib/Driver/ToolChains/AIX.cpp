@@ -10,11 +10,7 @@
 #include "clang/Driver/CommonArgs.h"
 #include "clang/Driver/Compilation.h"
 #include "clang/Driver/SanitizerArgs.h"
-#include "clang/Options/Options.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Option/ArgList.h"
 #include "llvm/ProfileData/InstrProf.h"
-#include "llvm/Support/Path.h"
 
 #include <set>
 

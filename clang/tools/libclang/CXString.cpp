@@ -12,11 +12,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "CXString.h"
 #include "CXTranslationUnit.h"
-#include "clang-c/Index.h"
 #include "clang/Frontend/ASTUnit.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace clang;
 

@@ -9,7 +9,6 @@
 #include "Reusables.h"
 
 #include "clang/Tooling/Tooling.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace ento {

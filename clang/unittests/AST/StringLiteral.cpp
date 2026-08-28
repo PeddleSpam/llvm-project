@@ -5,13 +5,7 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclObjC.h"
 #include "clang/AST/Mangle.h"
-#include "clang/AST/TypeBase.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 #include <cassert>

@@ -15,10 +15,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/BasicTTIImpl.h"
-#include "llvm/CodeGen/TargetSubtargetInfo.h"
-#include "llvm/IR/Function.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Target/TargetMachine.h"
 
 using namespace llvm;
 

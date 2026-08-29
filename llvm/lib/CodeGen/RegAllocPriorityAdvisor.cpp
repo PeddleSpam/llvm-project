@@ -10,13 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/CodeGen/RegAllocPriorityAdvisor.h"
 #include "RegAllocGreedy.h"
-#include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/VirtRegMap.h"
 #include "llvm/IR/Module.h"
-#include "llvm/InitializePasses.h"
-#include "llvm/Pass.h"
 
 using namespace llvm;
 

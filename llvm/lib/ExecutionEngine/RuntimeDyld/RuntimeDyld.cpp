@@ -10,16 +10,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ExecutionEngine/RuntimeDyld.h"
 #include "RuntimeDyldCOFF.h"
 #include "RuntimeDyldELF.h"
-#include "RuntimeDyldImpl.h"
 #include "RuntimeDyldMachO.h"
 #include "llvm/Object/COFF.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Support/Alignment.h"
 #include "llvm/Support/MSVCErrorWorkarounds.h"
-#include "llvm/Support/MathExtras.h"
 #include <mutex>
 
 #include <future>

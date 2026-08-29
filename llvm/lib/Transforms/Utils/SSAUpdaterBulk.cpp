@@ -13,11 +13,8 @@
 #include "llvm/Transforms/Utils/SSAUpdaterBulk.h"
 #include "llvm/Analysis/InstructionSimplify.h"
 #include "llvm/Analysis/IteratedDominanceFrontier.h"
-#include "llvm/IR/BasicBlock.h"
 #include "llvm/IR/Dominators.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/Use.h"
-#include "llvm/IR/Value.h"
 
 using namespace llvm;
 

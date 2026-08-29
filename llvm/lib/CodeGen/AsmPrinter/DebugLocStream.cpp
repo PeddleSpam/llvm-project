@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DebugLocStream.h"
 #include "DwarfDebug.h"
-#include "llvm/CodeGen/AsmPrinter.h"
 
 using namespace llvm;
 

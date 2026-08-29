@@ -24,7 +24,6 @@
 
 #include "benchmark/benchmark.h"
 #include "llvm/ADT/ImmutableMap.h"
-#include "llvm/ADT/ImmutableSet.h"
 #include <algorithm>
 #include <memory>
 #include <numeric>

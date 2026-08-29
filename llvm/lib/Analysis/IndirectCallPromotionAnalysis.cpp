@@ -14,9 +14,6 @@
 
 #include "llvm/Analysis/IndirectCallPromotionAnalysis.h"
 #include "llvm/IR/Instruction.h"
-#include "llvm/ProfileData/InstrProf.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 
 using namespace llvm;
 

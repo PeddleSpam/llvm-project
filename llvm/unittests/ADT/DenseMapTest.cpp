@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/DenseMap.h"
 #include "CountCopyAndMove.h"
-#include "llvm/ADT/DenseMapInfo.h"
 #include "llvm/ADT/DenseMapInfoVariant.h"
-#include "llvm/ADT/STLForwardCompat.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <map>
 #include <optional>
 #include <set>

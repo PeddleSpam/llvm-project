@@ -7,12 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DWARFCFIChecker/DWARFCFIFunctionFrameStreamer.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCDwarf.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCInstrInfo.h"
-#include "llvm/MC/MCStreamer.h"
 #include <optional>
 
 using namespace llvm;

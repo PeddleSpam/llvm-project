@@ -7,13 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/SeedCollector.h"
-#include "llvm/Analysis/LoopAccessAnalysis.h"
-#include "llvm/Analysis/ValueTracking.h"
-#include "llvm/IR/Type.h"
-#include "llvm/SandboxIR/Instruction.h"
-#include "llvm/SandboxIR/Utils.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Debug.h"
 
 using namespace llvm;
 namespace llvm::sandboxir {

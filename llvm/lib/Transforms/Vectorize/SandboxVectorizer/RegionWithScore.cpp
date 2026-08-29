@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Vectorize/SandboxVectorizer/RegionWithScore.h"
-#include "llvm/SandboxIR/Function.h"
 
 namespace llvm::sandboxir {
 

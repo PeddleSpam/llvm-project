@@ -15,8 +15,6 @@
 
 #include "llvm/Transforms/Utils/InstructionNamer.h"
 #include "llvm/IR/Function.h"
-#include "llvm/IR/PassManager.h"
-#include "llvm/IR/Type.h"
 
 using namespace llvm;
 

@@ -8,10 +8,7 @@
 
 #include "llvm/Debuginfod/Debuginfod.h"
 #include "llvm/HTTP/HTTPClient.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #ifdef _WIN32
 #define setenv(name, var, ignore) _putenv_s(name, var)

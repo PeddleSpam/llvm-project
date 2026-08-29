@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 #include "llvm/Object/ELFTypes.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <iostream>
 
 using namespace llvm;

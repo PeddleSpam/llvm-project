@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/LibcallLoweringInfo.h"
-#include "llvm/Analysis/RuntimeLibcallInfo.h"
 
 using namespace llvm;
 

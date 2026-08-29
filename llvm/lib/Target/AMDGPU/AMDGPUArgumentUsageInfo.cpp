@@ -8,11 +8,8 @@
 
 #include "AMDGPUArgumentUsageInfo.h"
 #include "AMDGPU.h"
-#include "MCTargetDesc/AMDGPUMCTargetDesc.h"
 #include "SIRegisterInfo.h"
-#include "llvm/CodeGen/TargetRegisterInfo.h"
 #include "llvm/Support/NativeFormatting.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

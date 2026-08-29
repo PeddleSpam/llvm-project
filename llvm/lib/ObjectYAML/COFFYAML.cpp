@@ -11,8 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/COFFYAML.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/YAMLTraits.h"
 #include <cstdint>
 #include <cstring>
 

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/LogicalResult.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

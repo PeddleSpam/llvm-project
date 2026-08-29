@@ -9,8 +9,6 @@
 #include "llvm/CodeGen/RDFRegisters.h"
 #include "llvm/CodeGen/RegisterPressure.h"
 #include "llvm/CodeGen/ScheduleDAG.h"
-#include "llvm/CodeGen/SelectionDAGNodes.h"
-#include "llvm/CodeGen/SlotIndexes.h"
 #include "llvm/CodeGen/TargetPassConfig.h"
 #include "gtest/gtest.h"
 #include <functional>

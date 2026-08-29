@@ -14,7 +14,6 @@
 
 #include "WebAssemblyMachineFunctionInfo.h"
 #include "Utils/WebAssemblyTypeUtilities.h"
-#include "WebAssemblyISelLowering.h"
 #include "WebAssemblySubtarget.h"
 #include "WebAssemblyUtilities.h"
 #include "llvm/CodeGen/Analysis.h"

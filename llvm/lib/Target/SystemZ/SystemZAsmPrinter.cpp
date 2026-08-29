@@ -11,22 +11,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SystemZAsmPrinter.h"
 #include "MCTargetDesc/SystemZGNUInstPrinter.h"
 #include "MCTargetDesc/SystemZHLASMInstPrinter.h"
-#include "MCTargetDesc/SystemZMCAsmInfo.h"
-#include "MCTargetDesc/SystemZMCTargetDesc.h"
 #include "SystemZELFAsmPrinter.h"
-#include "SystemZMCInstLower.h"
-#include "SystemZSubtarget.h"
 #include "SystemZXPLINKAsmPrinter.h"
 #include "TargetInfo/SystemZTargetInfo.h"
-#include "llvm/CodeGen/MachineInstr.h"
-#include "llvm/MC/MCExpr.h"
-#include "llvm/MC/MCInstBuilder.h"
-#include "llvm/MC/MCStreamer.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Compiler.h"
 
 using namespace llvm;
 

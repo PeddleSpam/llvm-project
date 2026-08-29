@@ -13,11 +13,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ExecutionEngine/Orc/SPSProxySpec.h"
 #include "llvm/ExecutionEngine/Orc/CallProxiesSPS.h"
 #include "llvm/ExecutionEngine/Orc/SelfExecutorProcessControl.h"
-#include "llvm/ExecutionEngine/Orc/Shared/WrapperFunctionUtils.h"
-#include "llvm/Support/MSVCErrorWorkarounds.h"
 #include "llvm/Testing/Support/Error.h"
 
 #include <cstring>
@@ -25,7 +22,6 @@
 #include <string>
 #include <vector>
 
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

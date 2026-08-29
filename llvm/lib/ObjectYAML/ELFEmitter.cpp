@@ -11,22 +11,13 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/MC/StringTableBuilder.h"
-#include "llvm/Object/ELFTypes.h"
 #include "llvm/ObjectYAML/ContiguousBlobAccumulator.h"
 #include "llvm/ObjectYAML/DWARFEmitter.h"
-#include "llvm/ObjectYAML/DWARFYAML.h"
 #include "llvm/ObjectYAML/ELFYAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace llvm;

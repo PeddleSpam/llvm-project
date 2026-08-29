@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/StableHashing.h"
-#include "llvm/Support/SwapByteOrder.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

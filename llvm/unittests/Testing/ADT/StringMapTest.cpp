@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Testing/ADT/StringMap.h"
-#include "llvm/ADT/StringMap.h"
 
-#include "gtest/gtest.h"
 #include <sstream>
 
 namespace llvm {

@@ -8,10 +8,7 @@
 
 #include "llvm/Object/ELF.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/Object/BBAddrMap.h"
 #include "llvm/Object/Decompressor.h"
-#include "llvm/Support/Compiler.h"
 
 using namespace llvm;
 using namespace object;

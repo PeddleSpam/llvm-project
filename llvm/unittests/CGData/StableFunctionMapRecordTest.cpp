@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/CGData/StableFunctionMapRecord.h"
 #include "llvm/CGData/CodeGenDataWriter.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

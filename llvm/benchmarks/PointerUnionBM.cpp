@@ -12,7 +12,6 @@
 
 #include "benchmark/benchmark.h"
 #include "llvm/ADT/PointerUnion.h"
-#include "llvm/Support/Casting.h"
 #include <cstddef>
 #include <random>
 #include <vector>

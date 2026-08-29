@@ -12,18 +12,14 @@
 
 #include "LanaiDisassembler.h"
 
+#include "../../../../include/llvm/Support/LEB128.h"
 #include "LanaiAluCode.h"
 #include "LanaiCondCode.h"
 #include "LanaiInstrInfo.h"
 #include "TargetInfo/LanaiTargetInfo.h"
 #include "llvm/MC/MCDecoder.h"
 #include "llvm/MC/MCDecoderOps.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCSubtargetInfo.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/MathExtras.h"
 
 #define DEBUG_TYPE "lanai-disassembler"
 

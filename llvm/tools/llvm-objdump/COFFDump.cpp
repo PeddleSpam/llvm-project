@@ -18,14 +18,9 @@
 
 #include "llvm-objdump.h"
 #include "llvm/Demangle/Demangle.h"
-#include "llvm/Object/COFF.h"
 #include "llvm/Object/COFFImportFile.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Support/Win64EH.h"
-#include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::objdump;

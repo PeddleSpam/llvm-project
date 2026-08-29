@@ -11,7 +11,6 @@
 //===---------------------------------------------------------------------===//
 
 #include "llvm/WindowsManifest/WindowsManifestMerger.h"
-#include "llvm/Config/config.h"
 #include "llvm/Support/MemoryBuffer.h"
 
 #if LLVM_ENABLE_LIBXML2

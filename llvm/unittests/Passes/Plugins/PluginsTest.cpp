@@ -6,20 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Analysis/CGSCCPassManager.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/Config/config.h"
-#include "llvm/IR/GlobalVariable.h"
-#include "llvm/IR/Module.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Plugins/PassPlugin.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Testing/Support/Error.h"
-#include "llvm/Transforms/Scalar/LoopPassManager.h"
-#include "gtest/gtest.h"
 
 #include "TestPlugin.h"
 

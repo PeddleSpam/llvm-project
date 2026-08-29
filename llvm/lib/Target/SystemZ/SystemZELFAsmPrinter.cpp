@@ -11,18 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "SystemZELFAsmPrinter.h"
-#include "MCTargetDesc/SystemZMCTargetDesc.h"
 #include "SystemZConstantPoolValue.h"
-#include "SystemZMCInstLower.h"
-#include "SystemZSubtarget.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/CodeGen/MachineConstantPool.h"
-#include "llvm/CodeGen/StackMaps.h"
 #include "llvm/IR/Module.h"
-#include "llvm/MC/MCExpr.h"
-#include "llvm/MC/MCInstBuilder.h"
 #include "llvm/MC/MCSectionELF.h"
-#include "llvm/MC/MCStreamer.h"
 
 using namespace llvm;
 

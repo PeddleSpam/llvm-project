@@ -25,14 +25,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "AggressiveInstCombineInternal.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Analysis/ConstantFolding.h"
-#include "llvm/IR/DataLayout.h"
 #include "llvm/IR/Dominators.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/Support/KnownBits.h"
 
 using namespace llvm;
 

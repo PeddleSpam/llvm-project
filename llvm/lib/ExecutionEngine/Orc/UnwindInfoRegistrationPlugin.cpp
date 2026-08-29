@@ -9,8 +9,6 @@
 #include "llvm/ExecutionEngine/Orc/UnwindInfoRegistrationPlugin.h"
 
 #include "llvm/ExecutionEngine/Orc/Shared/MachOObjectFormat.h"
-#include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
-#include "llvm/IR/Module.h"
 
 #define DEBUG_TYPE "orc"
 

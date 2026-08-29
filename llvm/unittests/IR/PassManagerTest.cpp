@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/PassManager.h"
 #include "llvm/Analysis/AssumptionCache.h"
 #include "llvm/Analysis/TargetTransformInfo.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/IR/Dominators.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
 #include "llvm/IR/PassManagerImpl.h"
 #include "llvm/Passes/StandardInstrumentations.h"
 #include "llvm/Support/SourceMgr.h"

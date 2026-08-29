@@ -8,7 +8,6 @@
 
 #include "llvm/ObjCopy/ConfigManager.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 using namespace llvm::objcopy;

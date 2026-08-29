@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCRegisterInfo.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <algorithm>
 #include <cassert>
 #include <cstdint>

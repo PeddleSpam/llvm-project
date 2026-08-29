@@ -7,17 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/DXILMetadataAnalysis.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/Instructions.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/IR/Module.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Compression.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #define DEBUG_TYPE "dxil-metadata-analysis"
 

@@ -9,14 +9,12 @@
 #include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCExpr.h"
-#include "llvm/MC/MCInst.h"
 #include "llvm/MC/MCInstrInfo.h"
 #include "llvm/MC/MCRegisterInfo.h"
 #include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/MC/MCTargetOptions.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "MCTargetDesc/AArch64InstPrinter.h"
+#include "../../../lib/Target/AArch64/Utils/AArch64BaseInfo.h"
 
 #include "gtest/gtest.h"
 

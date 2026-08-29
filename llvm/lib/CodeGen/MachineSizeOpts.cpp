@@ -13,7 +13,6 @@
 
 #include "llvm/CodeGen/MachineSizeOpts.h"
 #include "llvm/CodeGen/MBFIWrapper.h"
-#include "llvm/Analysis/ProfileSummaryInfo.h"
 #include "llvm/CodeGen/MachineBlockFrequencyInfo.h"
 
 using namespace llvm;

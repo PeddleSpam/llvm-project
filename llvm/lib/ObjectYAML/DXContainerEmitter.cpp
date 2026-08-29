@@ -12,15 +12,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/Sequence.h"
-#include "llvm/BinaryFormat/DXContainer.h"
-#include "llvm/MC/DXContainerInfo.h"
 #include "llvm/MC/DXContainerPSVInfo.h"
 #include "llvm/MC/DXContainerRootSignature.h"
 #include "llvm/ObjectYAML/DXContainerYAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

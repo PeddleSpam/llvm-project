@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SystemZFrameLowering.h"
 #include "SystemZCallingConv.h"
-#include "SystemZInstrInfo.h"
-#include "SystemZMachineFunctionInfo.h"
-#include "SystemZRegisterInfo.h"
-#include "SystemZSubtarget.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/CodeGen/LivePhysRegs.h"
-#include "llvm/CodeGen/MachineInstrBuilder.h"
 #include "llvm/CodeGen/MachineModuleInfo.h"
-#include "llvm/CodeGen/MachineRegisterInfo.h"
 #include "llvm/CodeGen/RegisterScavenging.h"
 #include "llvm/CodeGen/TargetLoweringObjectFileImpl.h"
-#include "llvm/IR/CallingConv.h"
-#include "llvm/IR/Function.h"
 #include "llvm/Target/TargetMachine.h"
 
 using namespace llvm;

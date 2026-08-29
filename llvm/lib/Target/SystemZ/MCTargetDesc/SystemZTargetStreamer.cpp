@@ -14,10 +14,7 @@
 
 #include "SystemZTargetStreamer.h"
 #include "SystemZHLASMAsmStreamer.h"
-#include "llvm/ADT/BitmaskEnum.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCGOFFStreamer.h"
 #include "llvm/MC/MCObjectFileInfo.h"
 #include "llvm/Support/ConvertEBCDIC.h"

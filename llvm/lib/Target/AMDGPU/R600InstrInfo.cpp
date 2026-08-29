@@ -11,11 +11,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "R600InstrInfo.h"
+#include "../../../include/llvm/CodeGen/DFAPacketizer.h"
 #include "MCTargetDesc/R600MCTargetDesc.h"
 #include "R600Defines.h"
 #include "R600Subtarget.h"
-#include "llvm/ADT/SmallSet.h"
 #include "llvm/CodeGen/MachineFrameInfo.h"
 
 using namespace llvm;

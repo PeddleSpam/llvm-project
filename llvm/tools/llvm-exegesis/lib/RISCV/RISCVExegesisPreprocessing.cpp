@@ -9,12 +9,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "RISCV.h"
 #include "RISCVExegesisPasses.h"
-#include "RISCVRegisterInfo.h"
 #include "RISCVSubtarget.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
-#include "llvm/CodeGen/MachineRegisterInfo.h"
 
 using namespace llvm;
 

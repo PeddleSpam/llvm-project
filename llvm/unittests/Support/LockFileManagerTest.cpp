@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/LockFileManager.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Testing/Support/Error.h"
-#include "llvm/Testing/Support/SupportHelpers.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using llvm::unittest::TempDir;

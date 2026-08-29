@@ -13,18 +13,10 @@
 #include "RISCVTargetStreamer.h"
 #include "RISCVBaseInfo.h"
 #include "RISCVMCTargetDesc.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCExpr.h"
 #include "llvm/MC/MCSectionELF.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/MC/MCSymbol.h"
-#include "llvm/Support/Alignment.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/FormattedStream.h"
 #include "llvm/Support/RISCVAttributes.h"
-#include "llvm/TargetParser/RISCVISAInfo.h"
 
 using namespace llvm;
 

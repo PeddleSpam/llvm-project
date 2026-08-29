@@ -11,13 +11,8 @@
 #include <cassert>
 
 #include "MCTargetDesc/X86MCTargetDesc.h"
-#include "MmapUtils.h"
 #include "SubprocessMemory.h"
 #include "TestBase.h"
-#include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/TargetSelect.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "llvm/MC/MCInstPrinter.h"
 

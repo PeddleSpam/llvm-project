@@ -12,9 +12,7 @@
 //     Will return true if cmd crashes (e.g. for testing crash reporting).
 
 #include "llvm/Support/Process.h"
-#include "llvm/Support/Program.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 
 #ifdef _WIN32
 #include <windows.h>

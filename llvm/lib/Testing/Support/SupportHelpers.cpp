@@ -1,13 +1,8 @@
 
 #include "llvm/Testing/Support/SupportHelpers.h"
 
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::unittest;

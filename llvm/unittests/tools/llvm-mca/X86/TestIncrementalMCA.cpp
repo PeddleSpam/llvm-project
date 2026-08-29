@@ -3,13 +3,7 @@
 #include "X86TestBase.h"
 #include "llvm/ADT/SmallPtrSet.h"
 #include "llvm/MC/MCInstBuilder.h"
-#include "llvm/MCA/CustomBehaviour.h"
 #include "llvm/MCA/IncrementalSourceMgr.h"
-#include "llvm/MCA/InstrBuilder.h"
-#include "llvm/MCA/Pipeline.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include <memory>
 #include <unordered_map>
 

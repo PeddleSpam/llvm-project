@@ -10,20 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Context.h"
-#include "ExecutorBase.h"
 #include "Library.h"
-#include "Value.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Analysis/VectorUtils.h"
 #include "llvm/IR/InlineAsm.h"
 #include "llvm/IR/InstVisitor.h"
-#include "llvm/IR/Intrinsics.h"
-#include "llvm/IR/Operator.h"
 #include "llvm/IR/PatternMatch.h"
-#include "llvm/Support/Allocator.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include <cassert>
 #include <cstring>

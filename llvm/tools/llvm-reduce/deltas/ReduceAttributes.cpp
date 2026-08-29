@@ -12,10 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceAttributes.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Attributes.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstVisitor.h"
 
 using namespace llvm;

@@ -28,14 +28,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/StaticDataAnnotator.h"
-#include "llvm/Analysis/ProfileSummaryInfo.h"
 #include "llvm/Analysis/StaticDataProfileInfo.h"
 #include "llvm/CodeGen/Passes.h"
-#include "llvm/IR/Analysis.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Pass.h"
 
 #define DEBUG_TYPE "static-data-annotator"
 

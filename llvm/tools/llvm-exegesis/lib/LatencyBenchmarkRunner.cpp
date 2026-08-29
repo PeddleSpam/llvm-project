@@ -8,10 +8,6 @@
 
 #include "LatencyBenchmarkRunner.h"
 
-#include "BenchmarkRunner.h"
-#include "Target.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Error.h"
 #include <algorithm>
 #include <cmath>
 

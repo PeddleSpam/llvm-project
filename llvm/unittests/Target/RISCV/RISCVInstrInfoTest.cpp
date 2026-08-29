@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "RISCVInstrInfo.h"
-#include "RISCVSubtarget.h"
 #include "RISCVTargetMachine.h"
 #include "llvm/CodeGen/MachineModuleInfo.h"
 #include "llvm/IR/DebugInfoMetadata.h"
@@ -15,8 +13,6 @@
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Target/TargetLoweringObjectFile.h"
-#include "llvm/Target/TargetMachine.h"
-#include "llvm/Target/TargetOptions.h"
 
 #include "gtest/gtest.h"
 

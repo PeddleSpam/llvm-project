@@ -1,3 +1,5 @@
+#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
+#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
 #include <stdlib.h>
 
 bool case0(bool a) {

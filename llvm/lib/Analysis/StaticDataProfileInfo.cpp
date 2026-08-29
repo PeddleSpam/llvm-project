@@ -1,10 +1,6 @@
 #include "llvm/Analysis/StaticDataProfileInfo.h"
-#include "llvm/Analysis/ProfileSummaryInfo.h"
-#include "llvm/IR/Constant.h"
 #include "llvm/IR/Constants.h"
-#include "llvm/IR/GlobalVariable.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/InitializePasses.h"
 #include "llvm/ProfileData/InstrProf.h"
 

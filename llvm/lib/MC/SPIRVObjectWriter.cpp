@@ -9,9 +9,6 @@
 #include "llvm/MC/MCAssembler.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCSPIRVObjectWriter.h"
-#include "llvm/MC/MCSection.h"
-#include "llvm/MC/MCValue.h"
-#include "llvm/Support/EndianStream.h"
 
 using namespace llvm;
 

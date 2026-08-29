@@ -18,10 +18,7 @@
 #include "NVVMProperties.h"
 #include "llvm/Analysis/ValueTracking.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Pass.h"
-#include "llvm/Support/NVPTXAddrSpace.h"
 
 using namespace llvm;
 using namespace NVPTXAS;

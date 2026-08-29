@@ -8,12 +8,9 @@
 
 #include "llvm/Analysis/ScalarEvolution.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Module.h"
 #include "llvm/Passes/PassBuilder.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Testing/Support/Error.h"
 #include "llvm/Transforms/Scalar/LICM.h"
-#include "gtest/gtest.h"
 
 namespace llvm {
 

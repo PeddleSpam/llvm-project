@@ -7,11 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DWARFCFIChecker/DWARFCFIState.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFUnwindTable.h"
-#include "llvm/MC/MCDwarf.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/FormatVariadic.h"
 #include <cassert>
 #include <optional>

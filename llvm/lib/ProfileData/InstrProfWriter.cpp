@@ -12,19 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/InstrProfWriter.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/IR/ProfileSummary.h"
-#include "llvm/ProfileData/DataAccessProf.h"
-#include "llvm/ProfileData/IndexedMemProfData.h"
-#include "llvm/ProfileData/InstrProf.h"
 #include "llvm/ProfileData/ProfileCommon.h"
 #include "llvm/Support/Compression.h"
-#include "llvm/Support/EndianStream.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/OnDiskHashTable.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdint>
 #include <memory>
 #include <string>

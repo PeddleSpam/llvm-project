@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 #include "ProfileGenerator.h"
-#include "ErrorHandling.h"
 #include "MissingFrameInferrer.h"
 #include "Options.h"
-#include "PerfReader.h"
-#include "ProfiledBinary.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
-#include "llvm/ProfileData/ProfileCommon.h"
 #include "llvm/Support/Timer.h"
 #include <algorithm>
 #include <float.h>

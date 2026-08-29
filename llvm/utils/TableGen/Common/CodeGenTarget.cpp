@@ -14,16 +14,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "CodeGenTarget.h"
-#include "CodeGenInstruction.h"
+#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenRegisters.h"
 #include "CodeGenSchedule.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include <tuple>
 using namespace llvm;
 

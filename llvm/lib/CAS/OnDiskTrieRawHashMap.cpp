@@ -14,12 +14,7 @@
 #include "DatabaseFile.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/TrieHashIndexGenerator.h"
-#include "llvm/CAS/MappedFileRegionArena.h"
-#include "llvm/CAS/OnDiskCASLogger.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::cas;

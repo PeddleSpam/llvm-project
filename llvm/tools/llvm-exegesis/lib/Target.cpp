@@ -5,16 +5,11 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "Target.h"
 
 #include "LatencyBenchmarkRunner.h"
 #include "ParallelSnippetGenerator.h"
-#include "PerfHelper.h"
 #include "SerialSnippetGenerator.h"
 #include "UopsBenchmarkRunner.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/TargetParser/SubtargetFeature.h"
 
 namespace llvm {
 namespace exegesis {

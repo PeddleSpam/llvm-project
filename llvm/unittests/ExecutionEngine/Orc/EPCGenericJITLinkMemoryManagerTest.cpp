@@ -10,14 +10,9 @@
 
 #include "llvm/ExecutionEngine/Orc/EPCGenericJITLinkMemoryManagerSPS.h"
 
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/ExecutionEngine/Orc/AbsoluteSymbols.h"
 #include "llvm/ExecutionEngine/Orc/SelfExecutorProcessControl.h"
 #include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
-#include "llvm/ExecutionEngine/Orc/Shared/SPSCI/SimpleNativeMemoryMapSPSCI.h"
-#include "llvm/ExecutionEngine/Orc/Shared/TargetProcessControlTypes.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Memory.h"
 #include "llvm/Testing/Support/Error.h"
 
 #include <limits>

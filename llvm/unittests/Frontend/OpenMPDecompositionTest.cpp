@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Frontend/OpenMP/ClauseT.h"
 #include "llvm/Frontend/OpenMP/ConstructDecompositionT.h"
-#include "llvm/Frontend/OpenMP/OMP.h"
 #include "gtest/gtest.h"
 
 #include <iterator>

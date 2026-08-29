@@ -10,10 +10,6 @@
 #include "llvm/ADT/APFloat.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Type.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/TypeSize.h"
 #include "llvm/Support/WithColor.h"
 using namespace llvm;
 

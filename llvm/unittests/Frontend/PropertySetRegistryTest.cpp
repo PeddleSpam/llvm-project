@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Frontend/Offloading/PropertySet.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "gtest/gtest.h"

@@ -13,12 +13,7 @@
 #include "llvm/ExecutionEngine/JITLink/aarch32.h"
 
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ExecutionEngine/JITLink/JITLink.h"
-#include "llvm/ExecutionEngine/Orc/Shared/MemoryFlags.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/ManagedStatic.h"
-#include "llvm/Support/MathExtras.h"
 
 #define DEBUG_TYPE "jitlink"
 

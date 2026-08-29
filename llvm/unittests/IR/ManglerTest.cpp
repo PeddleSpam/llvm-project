@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/Mangler.h"
-#include "llvm/IR/CallingConv.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/GlobalValue.h"
 #include "llvm/IR/Module.h"
 #include "gtest/gtest.h"
 

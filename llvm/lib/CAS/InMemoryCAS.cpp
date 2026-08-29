@@ -10,7 +10,6 @@
 #include "llvm/ADT/LazyAtomicPointer.h"
 #include "llvm/ADT/PointerIntPair.h"
 #include "llvm/ADT/TrieRawHashMap.h"
-#include "llvm/Support/Allocator.h"
 #include "llvm/Support/Casting.h"
 #include "llvm/Support/ThreadSafeAllocator.h"
 #include "llvm/Support/TrailingObjects.h"

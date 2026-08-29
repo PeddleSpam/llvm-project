@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ExecutionEngine/Orc/CompileOnDemandLayer.h"
-#include "llvm/ExecutionEngine/Orc/Layer.h"
-#include "llvm/IR/Module.h"
 
 using namespace llvm;
 using namespace llvm::orc;

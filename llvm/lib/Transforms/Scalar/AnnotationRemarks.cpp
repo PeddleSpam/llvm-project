@@ -13,8 +13,6 @@
 #include "llvm/Transforms/Scalar/AnnotationRemarks.h"
 #include "llvm/ADT/MapVector.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
-#include "llvm/Analysis/TargetLibraryInfo.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstIterator.h"
 #include "llvm/Transforms/Utils/MemoryOpRemark.h"
 

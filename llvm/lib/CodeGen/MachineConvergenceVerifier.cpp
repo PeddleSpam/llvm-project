@@ -10,7 +10,6 @@
 #include "llvm/CodeGen/MachineConvergenceVerifier.h"
 #include "llvm/CodeGen/MachineDominators.h"
 #include "llvm/CodeGen/MachineRegisterInfo.h"
-#include "llvm/CodeGen/MachineSSAContext.h"
 #include "llvm/IR/GenericConvergenceVerifierImpl.h"
 
 using namespace llvm;

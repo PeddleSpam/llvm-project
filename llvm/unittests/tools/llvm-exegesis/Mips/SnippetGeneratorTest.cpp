@@ -6,12 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../include/llvm/TargetParser/Host.h"
+#include "../../../../include/llvm/Testing/Support/Error.h"
+#include "../../../../tools/llvm-exegesis/lib/Target.h"
 #include "../Common/AssemblerUtils.h"
-#include "LlvmState.h"
-#include "MCInstrDescView.h"
 #include "MipsInstrInfo.h"
 #include "ParallelSnippetGenerator.h"
-#include "RegisterAliasing.h"
 #include "SerialSnippetGenerator.h"
 #include "TestBase.h"
 

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/ScopedHashTable.h"
-#include "llvm/ADT/StringRef.h"
 #include "gtest/gtest.h"
 #include <memory>
 #include <stack>

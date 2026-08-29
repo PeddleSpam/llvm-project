@@ -11,15 +11,11 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/BinaryFormat/XCOFF.h"
 #include "llvm/MC/StringTableBuilder.h"
 #include "llvm/Object/XCOFFObjectFile.h"
 #include "llvm/ObjectYAML/ObjectYAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
 #include "llvm/Support/EndianStream.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::object;

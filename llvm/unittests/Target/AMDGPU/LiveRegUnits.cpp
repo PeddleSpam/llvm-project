@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "AMDGPUUnitTests.h"
-#include "GCNSubtarget.h"
-#include "llvm/CodeGen/MIRParser/MIRParser.h"
-#include "llvm/CodeGen/MachineModuleInfo.h"
-#include "gtest/gtest.h"
 
 #include "AMDGPUGenSubtargetInfo.inc"
 

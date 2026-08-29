@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/DynamicAPInt.h"
-#include "llvm/ADT/SlowDynamicAPInt.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

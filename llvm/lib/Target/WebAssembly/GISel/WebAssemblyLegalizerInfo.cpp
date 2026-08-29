@@ -11,10 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "WebAssemblyLegalizerInfo.h"
-#include "MCTargetDesc/WebAssemblyMCTargetDesc.h"
 #include "WebAssemblySubtarget.h"
 #include "llvm/CodeGen/GlobalISel/LegalizerHelper.h"
-#include "llvm/CodeGen/GlobalISel/LegalizerInfo.h"
 
 #define DEBUG_TYPE "wasm-legalinfo"
 

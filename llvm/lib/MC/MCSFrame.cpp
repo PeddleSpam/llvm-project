@@ -7,16 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCSFrame.h"
-#include "llvm/BinaryFormat/SFrame.h"
 #include "llvm/DebugInfo/DWARF/LowLevel/DWARFCFIProgram.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFDataExtractorSimple.h"
 #include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCObjectFileInfo.h"
 #include "llvm/MC/MCObjectStreamer.h"
-#include "llvm/MC/MCSection.h"
 #include "llvm/MC/MCSymbol.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/EndianStream.h"
 
 using namespace llvm;

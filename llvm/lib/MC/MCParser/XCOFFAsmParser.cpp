@@ -7,8 +7,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/BinaryFormat/XCOFF.h"
-#include "llvm/MC/MCParser/MCAsmParser.h"
 #include "llvm/MC/MCParser/MCAsmParserExtension.h"
 
 using namespace llvm;

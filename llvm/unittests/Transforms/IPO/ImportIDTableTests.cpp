@@ -8,7 +8,6 @@
 
 #include "llvm/Transforms/IPO/FunctionImport.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <set>
 #include <type_traits>
 

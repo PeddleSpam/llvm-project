@@ -6,26 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ProfiledBinary.h"
-#include "ErrorHandling.h"
 #include "MissingFrameInferrer.h"
 #include "Options.h"
 #include "ProfileGenerator.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/DebugInfo/PDB/IPDBSession.h"
 #include "llvm/DebugInfo/PDB/PDB.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolFunc.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
 #include "llvm/Demangle/Demangle.h"
-#include "llvm/IR/DebugInfoMetadata.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Object/COFF.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/TargetParser/Triple.h"
 #include <optional>
 
 #define DEBUG_TYPE "load-binary"

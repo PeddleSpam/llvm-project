@@ -12,7 +12,6 @@
 
 #include "llvm/ExecutionEngine/JITLink/COFF.h"
 
-#include "llvm/BinaryFormat/COFF.h"
 #include "llvm/ExecutionEngine/JITLink/COFF_x86_64.h"
 #include "llvm/Object/COFF.h"
 #include <cstring>

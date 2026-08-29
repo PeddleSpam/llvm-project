@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/BlockFrequency.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/YAMLTraits.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #include "llvm/Support/thread.h"
 #include "llvm/TargetParser/Host.h"

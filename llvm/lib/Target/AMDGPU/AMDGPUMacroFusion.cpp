@@ -12,9 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "AMDGPUMacroFusion.h"
-#include "MCTargetDesc/AMDGPUMCTargetDesc.h"
 #include "SIInstrInfo.h"
-#include "llvm/CodeGen/MacroFusion.h"
 
 using namespace llvm;
 

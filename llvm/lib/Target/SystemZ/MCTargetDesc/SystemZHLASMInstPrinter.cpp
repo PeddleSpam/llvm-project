@@ -8,8 +8,6 @@
 
 #include "SystemZHLASMInstPrinter.h"
 #include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCRegister.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

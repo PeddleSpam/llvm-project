@@ -7,10 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/FileCheck/FileCheck.h"
+#include "../../include/llvm/ADT/APInt.h"
+#include "../../include/llvm/ADT/StringMap.h"
+#include "../../include/llvm/Support/SourceMgr.h"
 #include "../lib/FileCheck/FileCheckImpl.h"
-#include "llvm/Support/Regex.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <tuple>
 #include <unordered_set>
 

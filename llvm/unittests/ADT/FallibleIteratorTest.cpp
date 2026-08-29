@@ -10,7 +10,6 @@
 #include "llvm/Testing/Support/Error.h"
 
 #include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
 
 #include <utility>
 #include <vector>

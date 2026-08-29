@@ -11,10 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CGData/CodeGenDataReader.h"
-#include "llvm/CGData/OutlinedHashTreeRecord.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 #define DEBUG_TYPE "cg-data-reader"
 

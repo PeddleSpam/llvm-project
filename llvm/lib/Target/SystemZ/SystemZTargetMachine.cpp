@@ -6,24 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SystemZTargetMachine.h"
-#include "MCTargetDesc/SystemZMCTargetDesc.h"
-#include "SystemZ.h"
-#include "SystemZMachineFunctionInfo.h"
 #include "SystemZMachineScheduler.h"
 #include "SystemZTargetObjectFile.h"
 #include "SystemZTargetTransformInfo.h"
 #include "TargetInfo/SystemZTargetInfo.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Analysis/TargetTransformInfo.h"
-#include "llvm/CodeGen/Passes.h"
-#include "llvm/CodeGen/TargetLoweringObjectFileImpl.h"
 #include "llvm/CodeGen/TargetPassConfig.h"
-#include "llvm/IR/DataLayout.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/CodeGen.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Target/TargetLoweringObjectFile.h"
 #include "llvm/Transforms/Scalar.h"
 #include <memory>
 #include <optional>

@@ -13,10 +13,7 @@
 #include "llvm/ExecutionEngine/Orc/MachOBuilder.h"
 #include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
 
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/BinaryFormat/MachO.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
-#include "llvm/DebugInfo/DWARF/DWARFDebugLine.h"
 
 #include <chrono>
 

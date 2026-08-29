@@ -8,7 +8,6 @@
 
 #include "llvm/ExecutionEngine/Orc/ObjectLinkingLayer.h"
 #include "llvm/ExecutionEngine/Orc/DebugUtils.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 #define DEBUG_TYPE "orc"
 

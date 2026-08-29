@@ -12,7 +12,6 @@
 
 #include "llvm/Support/MD5.h"
 #include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallString.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

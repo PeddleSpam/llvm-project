@@ -13,11 +13,9 @@
 
 #include "llvm-c/Transforms/PassBuilder.h"
 #include "llvm/Analysis/AliasAnalysis.h"
-#include "llvm/IR/Module.h"
 #include "llvm/IR/Verifier.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/StandardInstrumentations.h"
-#include "llvm/Support/CBindingWrapping.h"
 
 using namespace llvm;
 

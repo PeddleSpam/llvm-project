@@ -8,7 +8,6 @@
 // Detects single entry single exit regions in the control flow graph.
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Analysis/RegionInfo.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Analysis/DominanceFrontier.h"
 #include "llvm/InitializePasses.h"
@@ -17,10 +16,6 @@
 #endif
 #include "llvm/Analysis/Passes.h"
 #include "llvm/Analysis/RegionInfoImpl.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/IR/Function.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Compiler.h"
 
 using namespace llvm;
 

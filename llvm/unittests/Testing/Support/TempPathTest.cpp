@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using llvm::unittest::TempDir;

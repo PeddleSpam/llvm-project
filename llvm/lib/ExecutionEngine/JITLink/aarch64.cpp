@@ -12,7 +12,6 @@
 
 #include "llvm/ExecutionEngine/JITLink/aarch64.h"
 
-#include "llvm/Support/BinaryStreamWriter.h"
 
 #define DEBUG_TYPE "jitlink"
 

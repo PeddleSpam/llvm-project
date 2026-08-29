@@ -13,23 +13,11 @@
 
 #include "SPIRV.h"
 #include "SPIRVBuiltins.h"
-#include "SPIRVSubtarget.h"
 #include "SPIRVTargetMachine.h"
-#include "SPIRVUtils.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Analysis/LoopInfo.h"
-#include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/InstIterator.h"
 #include "llvm/IR/InstVisitor.h"
 #include "llvm/IR/IntrinsicsSPIRV.h"
 #include "llvm/IR/PatternMatch.h"
-#include "llvm/IR/TypedPointerType.h"
-#include "llvm/IR/Value.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Transforms/Utils/Local.h"
 
 #include <cassert>

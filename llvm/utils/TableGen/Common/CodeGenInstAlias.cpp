@@ -11,13 +11,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "CodeGenInstAlias.h"
-#include "CodeGenInstruction.h"
+#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenRegisters.h"
 #include "CodeGenTarget.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/Error.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace llvm;
 

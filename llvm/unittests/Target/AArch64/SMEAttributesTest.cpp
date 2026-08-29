@@ -1,6 +1,5 @@
 #include "AArch64SMEAttributes.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstrTypes.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"

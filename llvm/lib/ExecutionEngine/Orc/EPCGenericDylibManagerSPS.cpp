@@ -8,10 +8,7 @@
 
 #include "llvm/ExecutionEngine/Orc/EPCGenericDylibManagerSPS.h"
 
-#include "llvm/ExecutionEngine/Orc/Core.h"
-#include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
 #include "llvm/ExecutionEngine/Orc/RecordProxy.h"
-#include "llvm/ExecutionEngine/Orc/Shared/SimpleRemoteEPCUtils.h"
 
 namespace llvm::orc::shared {
 

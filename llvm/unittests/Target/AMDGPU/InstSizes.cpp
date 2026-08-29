@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "AMDGPUUnitTests.h"
-#include "GCNSubtarget.h"
-#include "SIInstrInfo.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

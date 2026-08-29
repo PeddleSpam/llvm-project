@@ -12,16 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Scalar/InferAlignment.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
 #include "llvm/ADT/ScopedHashTable.h"
 #include "llvm/Analysis/AssumptionCache.h"
 #include "llvm/Analysis/ValueTracking.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/PatternMatch.h"
-#include "llvm/Support/KnownBits.h"
 #include "llvm/Transforms/Scalar.h"
 #include "llvm/Transforms/Utils/Local.h"
 

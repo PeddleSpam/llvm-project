@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Views/RetireControlUnitStatistics.h"
-#include "llvm/Support/Format.h"
 
 namespace llvm {
 namespace mca {

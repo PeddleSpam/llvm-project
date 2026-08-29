@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Endian.h"
-#include "llvm/Support/DataTypes.h"
 #include "gtest/gtest.h"
 #include <cstdlib>
 #include <ctime>

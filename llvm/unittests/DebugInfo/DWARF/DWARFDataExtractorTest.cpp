@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/DebugInfo/DWARF/DWARFDataExtractor.h"
 #include "llvm/DebugInfo/DWARF/DWARFContext.h"
-#include "llvm/Object/ObjectFile.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

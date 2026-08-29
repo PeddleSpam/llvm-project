@@ -14,7 +14,6 @@
 #include "llvm/Transforms/Utils/EscapeEnumerator.h"
 #include "llvm/IR/EHPersonalities.h"
 #include "llvm/IR/Module.h"
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/Transforms/Utils/Local.h"
 
 using namespace llvm;

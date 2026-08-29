@@ -6,17 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/ADT/DenseMap.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/CodeGen.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/SwapByteOrder.h"
-#include "llvm/Support/VersionTuple.h"
 #include "llvm/TargetParser/AMDGPUTargetParser.h"
 #include "llvm/TargetParser/ARMTargetParser.h"
-#include "llvm/TargetParser/ARMTargetParserCommon.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/TargetParser/TargetParser.h"
 #include <cassert>

@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/Attributes.h"
 #include "llvm-c/Core.h"
 #include "llvm/ADT/FloatingPointMode.h"
 #include "llvm/AsmParser/Parser.h"
 #include "llvm/IR/AttributeMask.h"
 #include "llvm/IR/ConstantRange.h"
-#include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/InstrTypes.h"
-#include "llvm/IR/LLVMContext.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gtest/gtest.h"

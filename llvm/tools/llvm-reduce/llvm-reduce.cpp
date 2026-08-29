@@ -13,16 +13,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "DeltaManager.h"
-#include "ReducerWorkItem.h"
 #include "TestRunner.h"
 #include "llvm/Bitcode/BitcodeReader.h"
 #include "llvm/CodeGen/CommandFlags.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 
 #ifdef _WIN32
 #include <windows.h>

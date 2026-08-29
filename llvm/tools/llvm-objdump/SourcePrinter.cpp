@@ -14,13 +14,9 @@
 
 #include "SourcePrinter.h"
 #include "llvm-objdump.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/DebugInfo/DWARF/DWARFExpressionPrinter.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
 #include "llvm/Demangle/Demangle.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Path.h"
 
 #define DEBUG_TYPE "objdump"
 

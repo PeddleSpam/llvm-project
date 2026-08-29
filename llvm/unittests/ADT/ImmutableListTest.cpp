@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/ImmutableList.h"
-#include "llvm/ADT/STLExtras.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <algorithm>
 #include <vector>
 

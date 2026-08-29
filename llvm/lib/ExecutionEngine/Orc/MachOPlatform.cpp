@@ -8,7 +8,6 @@
 
 #include "llvm/ExecutionEngine/Orc/MachOPlatform.h"
 
-#include "llvm/BinaryFormat/MachO.h"
 #include "llvm/ExecutionEngine/JITLink/EHFrameSupport.h"
 #include "llvm/ExecutionEngine/JITLink/MachO.h"
 #include "llvm/ExecutionEngine/JITLink/aarch64.h"
@@ -17,7 +16,6 @@
 #include "llvm/ExecutionEngine/Orc/ExecutionUtils.h"
 #include "llvm/ExecutionEngine/Orc/MachOBuilder.h"
 #include "llvm/ExecutionEngine/Orc/Shared/OrcRTBridge.h"
-#include "llvm/Support/Debug.h"
 #include <optional>
 
 #define DEBUG_TYPE "orc"

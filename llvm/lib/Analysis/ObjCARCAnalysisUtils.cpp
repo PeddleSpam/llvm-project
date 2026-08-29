@@ -14,7 +14,6 @@
 
 #include "llvm/Analysis/ObjCARCAnalysisUtils.h"
 #include "llvm/Analysis/AliasAnalysis.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 using namespace llvm::objcarc;

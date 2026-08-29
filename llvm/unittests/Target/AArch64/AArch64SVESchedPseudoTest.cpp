@@ -1,12 +1,6 @@
-#include "AArch64InstrInfo.h"
-#include "AArch64Subtarget.h"
 #include "AArch64TargetMachine.h"
-#include "llvm/MC/MCSubtargetInfo.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/Target/TargetMachine.h"
-#include "llvm/Target/TargetOptions.h"
 
 #include "gtest/gtest.h"
 

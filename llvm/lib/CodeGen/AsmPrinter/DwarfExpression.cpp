@@ -12,14 +12,9 @@
 
 #include "DwarfExpression.h"
 #include "DwarfCompileUnit.h"
-#include "llvm/ADT/APInt.h"
 #include "llvm/ADT/SmallBitVector.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/CodeGen/Register.h"
 #include "llvm/CodeGen/TargetRegisterInfo.h"
-#include "llvm/IR/DataLayout.h"
 #include "llvm/MC/MCAsmInfo.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <algorithm>
 
 using namespace llvm;

@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "VEInstrInfo.h"
-#include "VESubtarget.h"
 #include "VETargetMachine.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Target/TargetMachine.h"
-#include "llvm/Target/TargetOptions.h"
 
 #include "gtest/gtest.h"
 

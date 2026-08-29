@@ -10,7 +10,6 @@
 
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 using namespace llvm;
 
 namespace {

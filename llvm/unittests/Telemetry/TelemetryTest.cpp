@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Telemetry/Telemetry.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include "gtest/gtest.h"
 #include <optional>
 #include <vector>

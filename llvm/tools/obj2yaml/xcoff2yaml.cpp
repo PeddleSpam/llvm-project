@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
-#include "llvm/Object/XCOFFObjectFile.h"
 #include "llvm/ObjectYAML/XCOFFYAML.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/YAMLTraits.h"
 
 using namespace llvm;
 using namespace llvm::object;

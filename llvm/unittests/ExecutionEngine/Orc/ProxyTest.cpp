@@ -14,17 +14,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ExecutionEngine/Orc/Proxy.h"
 #include "llvm/ExecutionEngine/Orc/AbsoluteSymbols.h"
-#include "llvm/ExecutionEngine/Orc/LookupAndApply.h"
 #include "llvm/ExecutionEngine/Orc/RecordProxy.h"
 #include "llvm/ExecutionEngine/Orc/SelfExecutorProcessControl.h"
-#include "llvm/Support/MSVCErrorWorkarounds.h"
 #include "llvm/Testing/Support/Error.h"
 
 #include <future>
 
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

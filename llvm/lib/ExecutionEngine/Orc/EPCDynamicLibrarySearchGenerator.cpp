@@ -10,7 +10,6 @@
 
 #include "llvm/ExecutionEngine/Orc/AbsoluteSymbols.h"
 #include "llvm/ExecutionEngine/Orc/DebugUtils.h"
-#include "llvm/Support/Error.h"
 
 #define DEBUG_TYPE "orc"
 

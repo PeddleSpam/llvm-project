@@ -43,14 +43,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SystemZ.h"
 #include "SystemZSubtarget.h"
-#include "llvm/ADT/MapVector.h"
 #include "llvm/CodeGen/TargetPassConfig.h"
-#include "llvm/IR/Constants.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/IntrinsicsS390.h"
 #include "llvm/IR/LegacyPassManager.h"
 #include "llvm/IR/Module.h"

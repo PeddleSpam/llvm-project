@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCTargetOptions.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace llvm;
 

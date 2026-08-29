@@ -8,7 +8,6 @@
 
 #include "StripDebugInfo.h"
 #include "llvm/IR/DebugInfo.h"
-#include "llvm/IR/Metadata.h"
 
 using namespace llvm;
 

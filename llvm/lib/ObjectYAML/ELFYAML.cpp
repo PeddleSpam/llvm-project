@@ -11,15 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ObjectYAML/ELFYAML.h"
-#include "llvm/ADT/APInt.h"
 #include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/Support/ARMEHABI.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/MipsABIFlags.h"
-#include "llvm/Support/YAMLTraits.h"
 #include "llvm/Support/WithColor.h"
 #include <cassert>
 #include <cstdint>

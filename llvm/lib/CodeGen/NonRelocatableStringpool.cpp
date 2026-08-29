@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/NonRelocatableStringpool.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace llvm;
 

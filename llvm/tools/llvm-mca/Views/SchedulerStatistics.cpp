@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Views/SchedulerStatistics.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormattedStream.h"
 
 namespace llvm {

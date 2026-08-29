@@ -9,15 +9,11 @@
 #include "llvm/CAS/OnDiskCASLogger.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/LineIterator.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/Threading.h"
 #include "llvm/Testing/Support/Error.h"
-#include "llvm/Testing/Support/SupportHelpers.h"
-#include "gtest/gtest.h"
 #if defined(__APPLE__)
 #include <crt_externs.h>
 #elif !defined(_MSC_VER)

@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/ValueHandle.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/BasicBlock.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/Instructions.h"
-#include "llvm/IR/LLVMContext.h"
 #include "gtest/gtest.h"
 #include <memory>
 

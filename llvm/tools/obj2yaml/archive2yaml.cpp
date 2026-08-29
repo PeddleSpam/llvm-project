@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "obj2yaml.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/ObjectYAML/ArchiveYAML.h"
 
 using namespace llvm;

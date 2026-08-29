@@ -12,12 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ProfileData/PGOCtxProfReader.h"
-#include "llvm/Bitstream/BitCodeEnums.h"
-#include "llvm/Bitstream/BitstreamReader.h"
 #include "llvm/ProfileData/InstrProf.h"
-#include "llvm/ProfileData/PGOCtxProfWriter.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/YAMLTraits.h"
 #include <utility>
 

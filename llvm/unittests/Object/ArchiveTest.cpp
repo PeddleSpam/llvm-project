@@ -8,7 +8,6 @@
 
 #include "llvm/Object/Archive.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace object;

@@ -13,16 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "MIRUtils.h"
-#include "llvm/CodeGen/MIR2Vec.h"
-#include "llvm/CodeGen/MIRParser/MIRParser.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "llvm/CodeGen/MachineModuleInfo.h"
-#include "llvm/CodeGen/TargetInstrInfo.h"
-#include "llvm/CodeGen/TargetRegisterInfo.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/Target/TargetMachine.h"
 
 #define DEBUG_TYPE "ir2vec"
 

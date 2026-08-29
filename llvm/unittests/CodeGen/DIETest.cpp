@@ -10,7 +10,6 @@
 #include "TestAsmPrinter.h"
 #include "llvm/CodeGen/AsmPrinter.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCExpr.h"
 #include "llvm/Testing/Support/Error.h"
 
 using namespace llvm;

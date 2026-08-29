@@ -12,18 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISel/WebAssemblyRegisterBankInfo.h"
-#include "MCTargetDesc/WebAssemblyMCTargetDesc.h"
-#include "Utils/WasmAddressSpaces.h"
 #include "Utils/WebAssemblyTypeUtilities.h"
-#include "WebAssemblyRegisterInfo.h"
-#include "WebAssemblySubtarget.h"
 #include "WebAssemblyTargetMachine.h"
 #include "llvm/CodeGen/GlobalISel/GIMatchTableExecutorImpl.h"
-#include "llvm/CodeGen/GlobalISel/InstructionSelector.h"
-#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
-#include "llvm/CodeGen/GlobalISel/Utils.h"
-#include "llvm/CodeGen/MachineOperand.h"
-#include "llvm/CodeGen/TargetLowering.h"
 #include "llvm/IR/IntrinsicsWebAssembly.h"
 
 #define DEBUG_TYPE "wasm-isel"

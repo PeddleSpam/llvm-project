@@ -9,16 +9,7 @@
 #include "BenchmarkResult.h"
 #include "MipsInstrInfo.h"
 #include "TestBase.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using ::testing::Pointwise;
 

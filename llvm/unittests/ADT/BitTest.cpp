@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/bit.h"
 #include "gtest/gtest.h"
 #include <cstdint>
 #include <cstdlib>

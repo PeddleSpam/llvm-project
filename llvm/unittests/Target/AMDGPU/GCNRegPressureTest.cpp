@@ -8,17 +8,7 @@
 
 #include "GCNRegPressure.h"
 #include "AMDGPUUnitTests.h"
-#include "GCNSubtarget.h"
-#include "SIRegisterInfo.h"
-#include "llvm/CodeGen/LiveIntervals.h"
-#include "llvm/CodeGen/MIRParser/MIRParser.h"
-#include "llvm/CodeGen/MachineFunctionAnalysis.h"
-#include "llvm/CodeGen/MachineModuleInfo.h"
 #include "llvm/CodeGen/MachineScheduler.h"
-#include "llvm/CodeGen/SelectionDAG.h"
-#include "llvm/CodeGen/TargetLowering.h"
-#include "llvm/Passes/PassBuilder.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

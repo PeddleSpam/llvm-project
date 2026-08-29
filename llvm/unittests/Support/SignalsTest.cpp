@@ -15,7 +15,6 @@
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/Config/config.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::sys;

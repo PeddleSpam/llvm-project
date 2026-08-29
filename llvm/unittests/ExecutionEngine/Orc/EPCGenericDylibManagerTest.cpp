@@ -10,9 +10,6 @@
 
 #include "llvm/ExecutionEngine/Orc/EPCGenericDylibManagerSPS.h"
 
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ExecutionEngine/Orc/Core.h"
-#include "llvm/ExecutionEngine/Orc/Shared/SPSCI/NativeDylibManagerSPSCI.h"
 #include "llvm/Testing/Support/Error.h"
 
 using namespace llvm;

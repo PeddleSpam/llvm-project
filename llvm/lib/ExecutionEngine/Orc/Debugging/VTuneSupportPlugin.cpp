@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/ExecutionEngine/Orc/Debugging/VTuneSupportPlugin.h"
-#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/ExecutionEngine/Orc/Debugging/DebugInfoSupport.h"
 
 using namespace llvm;

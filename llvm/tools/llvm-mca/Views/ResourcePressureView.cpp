@@ -13,7 +13,6 @@
 
 #include "Views/ResourcePressureView.h"
 #include "llvm/Support/FormattedStream.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace llvm {
 namespace mca {

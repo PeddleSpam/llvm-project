@@ -7,16 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/DebugInfo/LogicalView/Core/LVCompare.h"
-#include "llvm/DebugInfo/LogicalView/Core/LVLine.h"
 #include "llvm/DebugInfo/LogicalView/Core/LVReader.h"
-#include "llvm/DebugInfo/LogicalView/Core/LVScope.h"
-#include "llvm/DebugInfo/LogicalView/Core/LVSymbol.h"
-#include "llvm/DebugInfo/LogicalView/Core/LVType.h"
-#include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/ToolOutputFile.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::logicalview;

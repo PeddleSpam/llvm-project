@@ -11,20 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "AMDKernelCodeTUtils.h"
-#include "AMDKernelCodeT.h"
 #include "MCTargetDesc/AMDGPUMCTargetDesc.h"
-#include "SIDefines.h"
 #include "Utils/AMDGPUBaseInfo.h"
 #include "Utils/SIDefinesUtils.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCExpr.h"
-#include "llvm/MC/MCParser/AsmLexer.h"
 #include "llvm/MC/MCParser/MCAsmParser.h"
 #include "llvm/MC/MCStreamer.h"
 #include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::AMDGPU;

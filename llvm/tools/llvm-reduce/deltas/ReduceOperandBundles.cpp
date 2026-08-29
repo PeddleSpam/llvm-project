@@ -12,12 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReduceOperandBundles.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/Sequence.h"
 #include "llvm/IR/InstVisitor.h"
-#include "llvm/IR/InstrTypes.h"
 #include <iterator>
 #include <vector>
 

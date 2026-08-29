@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/XRay/BlockVerifier.h"
-#include "llvm/Support/Error.h"
 
 #include <bitset>
 

@@ -6,14 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/VFABIDemangler.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Analysis/VectorUtils.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/DerivedTypes.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Module.h"
-#include "llvm/Support/SourceMgr.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

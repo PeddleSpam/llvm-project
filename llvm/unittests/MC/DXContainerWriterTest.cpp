@@ -9,10 +9,6 @@
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/MC/MCDXContainerWriter.h"
 #include "llvm/Object/DXContainer.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 #include "gtest/gtest.h"
 
 using namespace llvm;

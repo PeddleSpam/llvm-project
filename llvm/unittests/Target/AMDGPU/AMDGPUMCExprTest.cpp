@@ -8,14 +8,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "MCTargetDesc/AMDGPUMCExpr.h"
-#include "AMDGPUTargetMachine.h"
 #include "AMDGPUUnitTests.h"
-#include "GCNSubtarget.h"
-#include "llvm/CodeGen/MachineModuleInfo.h"
-#include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCExpr.h"
-#include "llvm/MC/MCSymbol.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

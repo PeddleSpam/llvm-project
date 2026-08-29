@@ -11,7 +11,6 @@
 #include "llvm/ADT/edit_distance.h"
 #include "llvm/Support/ConvertUTF.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace llvm {
 namespace sys {

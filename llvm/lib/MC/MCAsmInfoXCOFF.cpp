@@ -8,11 +8,9 @@
 
 #include "llvm/MC/MCAsmInfoXCOFF.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCSectionXCOFF.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Format.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 

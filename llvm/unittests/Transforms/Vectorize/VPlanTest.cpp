@@ -7,18 +7,23 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../lib/Transforms/Vectorize/VPlan.h"
+#include "../../../include/llvm/ADT/ScopeExit.h"
+#include "../../../include/llvm/Analysis/DomTreeUpdater.h"
+#include "../../../include/llvm/Analysis/DominanceFrontier.h"
+#include "../../../include/llvm/Analysis/TargetTransformInfo.h"
+#include "../../../include/llvm/IR/ModuleSlotTracker.h"
+#include "../../../include/llvm/IR/Operator.h"
+#include "../../../include/llvm/Support/GenericDomTreeConstruction.h"
+#include "../../../include/llvm/Support/Regex.h"
+#include "../../../lib/Transforms/Vectorize/VPlanAnalysis.h"
+#include "../../../lib/Transforms/Vectorize/VPlanDominatorTree.h"
+#include "../../../lib/Transforms/Vectorize/VPlanValue.h"
+#include "../../../lib/Transforms/Vectorize/VPlanVerifier.h"
 #include "../lib/Transforms/Vectorize/LoopVectorizationPlanner.h"
 #include "../lib/Transforms/Vectorize/VPlanCFG.h"
-#include "../lib/Transforms/Vectorize/VPlanHelpers.h"
 #include "../lib/Transforms/Vectorize/VPlanUtils.h"
 #include "VPlanTestBase.h"
-#include "llvm/ADT/DepthFirstIterator.h"
-#include "llvm/ADT/PostOrderIterator.h"
 #include "llvm/Analysis/VectorUtils.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Instructions.h"
-#include "gtest/gtest.h"
 #include <string>
 
 namespace llvm {

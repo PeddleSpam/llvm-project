@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISelMITest.h"
-#include "llvm/CodeGen/GlobalISel/GISelValueTracking.h"
-#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
 
 // Check that we are able to track bits through PHIs
 // and get the intersections of everything we know on each operand.

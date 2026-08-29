@@ -13,10 +13,6 @@
 
 #include "MCTargetDesc/PPCMCTargetDesc.h"
 #include "TestBase.h"
-#include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/TargetSelect.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace llvm{
 namespace exegesis {

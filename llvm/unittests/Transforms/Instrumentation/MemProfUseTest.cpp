@@ -7,20 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Transforms/Instrumentation/MemProfUse.h"
-#include "llvm/Analysis/TargetLibraryInfo.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
 #include "llvm/Passes/PassBuilder.h"
-#include "llvm/ProfileData/IndexedMemProfData.h"
 #include "llvm/ProfileData/InstrProfReader.h"
 #include "llvm/ProfileData/InstrProfWriter.h"
-#include "llvm/ProfileData/MemProf.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace llvm {
 namespace memprof {

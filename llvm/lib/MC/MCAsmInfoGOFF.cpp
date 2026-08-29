@@ -13,7 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCAsmInfoGOFF.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace llvm;
 

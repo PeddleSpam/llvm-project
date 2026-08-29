@@ -9,7 +9,6 @@
 #include "llvm/Remarks/Remark.h"
 #include "llvm/Remarks/RemarkParser.h"
 #include "llvm/Remarks/YAMLRemarkSerializer.h"
-#include "llvm/Support/Error.h"
 #include "gtest/gtest.h"
 
 // We need to supprt Windows paths as well. In order to have paths with the same

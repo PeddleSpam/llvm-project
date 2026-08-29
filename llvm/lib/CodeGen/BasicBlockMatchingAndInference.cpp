@@ -19,11 +19,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/BasicBlockMatchingAndInference.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/CodeGen/BasicBlockSectionsProfileReader.h"
 #include "llvm/CodeGen/MachineBlockHashInfo.h"
 #include "llvm/CodeGen/Passes.h"
-#include "llvm/InitializePasses.h"
 #include <llvm/Support/CommandLine.h>
 
 using namespace llvm;

@@ -16,11 +16,7 @@
 
 #include "llvm/Analysis/ModuleDebugInfoPrinter.h"
 #include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/IR/DebugInfo.h"
-#include "llvm/IR/PassManager.h"
 #include "llvm/Pass.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 
 static void printFile(raw_ostream &O, StringRef Filename, StringRef Directory,

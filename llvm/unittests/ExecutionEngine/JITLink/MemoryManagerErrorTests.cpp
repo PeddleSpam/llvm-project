@@ -10,7 +10,6 @@
 #include "llvm/ExecutionEngine/JITLink/MachO_x86_64.h"
 
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::orc;

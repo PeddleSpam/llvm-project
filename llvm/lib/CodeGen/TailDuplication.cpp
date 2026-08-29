@@ -15,16 +15,9 @@
 #include "llvm/CodeGen/TailDuplication.h"
 #include "llvm/Analysis/ProfileSummaryInfo.h"
 #include "llvm/CodeGen/LazyMachineBlockFrequencyInfo.h"
-#include "llvm/CodeGen/MBFIWrapper.h"
 #include "llvm/CodeGen/MachineBranchProbabilityInfo.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
-#include "llvm/CodeGen/MachinePassManager.h"
-#include "llvm/CodeGen/RegisterClassInfo.h"
 #include "llvm/CodeGen/TailDuplicator.h"
-#include "llvm/IR/Analysis.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Pass.h"
 
 using namespace llvm;
 

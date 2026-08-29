@@ -8,10 +8,7 @@
 
 #include "llvm/Object/DXContainer.h"
 #include "llvm/ADT/Sequence.h"
-#include "llvm/BinaryFormat/DXContainer.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Support/Compression.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/TargetParser/SubtargetFeature.h"
 

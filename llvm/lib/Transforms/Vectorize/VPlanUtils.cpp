@@ -6,20 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "VPlanUtils.h"
 #include "LoopVectorizationPlanner.h"
 #include "VPlanAnalysis.h"
-#include "VPlanCFG.h"
 #include "VPlanDominatorTree.h"
 #include "VPlanPatternMatch.h"
-#include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Analysis/InstSimplifyFolder.h"
 #include "llvm/Analysis/LoopInfo.h"
-#include "llvm/Analysis/MemoryLocation.h"
-#include "llvm/Analysis/ScalarEvolutionExpressions.h"
 #include "llvm/Analysis/ScalarEvolutionPatternMatch.h"
-#include "llvm/IR/Dominators.h"
 #include "llvm/Transforms/Utils/ScalarEvolutionExpander.h"
 
 using namespace llvm;

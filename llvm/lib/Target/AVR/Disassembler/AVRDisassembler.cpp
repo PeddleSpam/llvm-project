@@ -10,18 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../include/llvm/MC/MCSubtargetInfo.h"
+#include "../../../../include/llvm/Support/LEB128.h"
 #include "MCTargetDesc/AVRMCTargetDesc.h"
 #include "TargetInfo/AVRTargetInfo.h"
 
-#include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCDecoder.h"
 #include "llvm/MC/MCDecoderOps.h"
-#include "llvm/MC/MCDisassembler/MCDisassembler.h"
-#include "llvm/MC/MCInst.h"
 #include "llvm/MC/TargetRegistry.h"
 
-#include "llvm/Support/Compiler.h"
 
 using namespace llvm;
 using namespace llvm::MCD;

@@ -6,23 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/IR/Metadata.h"
+#include "../../include/llvm/IR/InlineAsm.h"
+#include "../../lib/IR/LLVMContextImpl.h"
 #include "../lib/IR/LLVMContextImpl.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/IR/Constants.h"
 #include "llvm/IR/DIBuilder.h"
 #include "llvm/IR/DebugInfo.h"
-#include "llvm/IR/DebugInfoMetadata.h"
-#include "llvm/IR/Function.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
 #include "llvm/IR/ModuleSlotTracker.h"
-#include "llvm/IR/Type.h"
 #include "llvm/IR/Verifier.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <optional>
 #include <type_traits>

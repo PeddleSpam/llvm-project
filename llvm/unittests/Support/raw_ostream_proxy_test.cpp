@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/WithColor.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Support/raw_ostream_proxy.h"
 #include "gtest/gtest.h"
 

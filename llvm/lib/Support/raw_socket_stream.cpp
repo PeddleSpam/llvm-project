@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/raw_socket_stream.h"
-#include "llvm/Config/config.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
 
 #include <atomic>

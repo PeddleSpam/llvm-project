@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Support/TypeSize.h"
 #include "AArch64InstrInfo.h"
 #include "gtest/gtest.h"
 

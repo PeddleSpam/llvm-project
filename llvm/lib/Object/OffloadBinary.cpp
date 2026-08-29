@@ -8,19 +8,13 @@
 
 #include "llvm/Object/OffloadBinary.h"
 
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/IR/Constants.h"
 #include "llvm/IR/Module.h"
 #include "llvm/IRReader/IRReader.h"
 #include "llvm/MC/StringTableBuilder.h"
 #include "llvm/Object/Archive.h"
-#include "llvm/Object/Binary.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Object/IRObjectFile.h"
-#include "llvm/Object/ObjectFile.h"
-#include "llvm/Support/Alignment.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/TargetParser/AMDGPUTargetParser.h"
 

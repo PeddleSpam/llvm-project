@@ -14,15 +14,6 @@
 #include "llvm/ADT/SmallBitVector.h"
 #include "llvm/Analysis/CmpInstAnalysis.h"
 #include "llvm/Analysis/FloatingPointPredicateUtils.h"
-#include "llvm/Analysis/InstructionSimplify.h"
-#include "llvm/IR/ConstantRange.h"
-#include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/Intrinsics.h"
-#include "llvm/IR/PatternMatch.h"
-#include "llvm/IR/ProfDataUtils.h"
-#include "llvm/Transforms/InstCombine/InstCombiner.h"
-#include "llvm/Transforms/Utils/Local.h"
 
 using namespace llvm;
 using namespace PatternMatch;

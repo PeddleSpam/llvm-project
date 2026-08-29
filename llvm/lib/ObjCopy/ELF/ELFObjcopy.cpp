@@ -8,27 +8,10 @@
 
 #include "llvm/ObjCopy/ELF/ELFObjcopy.h"
 #include "ELFObject.h"
-#include "llvm/ADT/BitmaskEnum.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/MC/MCTargetOptions.h"
-#include "llvm/ObjCopy/CommonConfig.h"
 #include "llvm/ObjCopy/ELF/ELFConfig.h"
-#include "llvm/Object/Binary.h"
-#include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Object/ELFTypes.h"
-#include "llvm/Object/Error.h"
 #include "llvm/Option/Option.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Compression.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/Memory.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cassert>
 #include <cstdlib>

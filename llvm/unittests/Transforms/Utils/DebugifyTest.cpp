@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/DebugInfoMetadata.h"
 #include "llvm/IR/IntrinsicInst.h"
-#include "llvm/IR/LegacyPassManager.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Transforms/Utils/Debugify.h"
 #include "gtest/gtest.h"

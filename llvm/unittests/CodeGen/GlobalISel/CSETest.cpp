@@ -9,7 +9,6 @@
 #include "GISelMITest.h"
 #include "llvm/CodeGen/GlobalISel/CSEInfo.h"
 #include "llvm/CodeGen/GlobalISel/CSEMIRBuilder.h"
-#include "gtest/gtest.h"
 
 namespace {
 

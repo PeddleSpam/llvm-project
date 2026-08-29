@@ -9,16 +9,11 @@
 #include "llvm/DebugInfo/CodeView/AppendingTypeTableBuilder.h"
 #include "llvm/DebugInfo/CodeView/CVTypeVisitor.h"
 #include "llvm/DebugInfo/CodeView/LazyRandomTypeCollection.h"
-#include "llvm/DebugInfo/CodeView/TypeRecord.h"
 #include "llvm/DebugInfo/CodeView/TypeRecordMapping.h"
-#include "llvm/DebugInfo/CodeView/TypeVisitorCallbacks.h"
-#include "llvm/Support/Allocator.h"
 #include "llvm/Support/BinaryByteStream.h"
 #include "llvm/Support/BinaryItemStream.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::codeview;

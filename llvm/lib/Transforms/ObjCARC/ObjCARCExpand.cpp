@@ -23,15 +23,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Analysis/ObjCARCAnalysisUtils.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/PassManager.h"
-#include "llvm/IR/Value.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Transforms/ObjCARC.h"
 
 #define DEBUG_TYPE "objc-arc-expand"

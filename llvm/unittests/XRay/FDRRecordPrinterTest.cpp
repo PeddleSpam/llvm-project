@@ -5,11 +5,8 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/XRay/FDRRecords.h"
 #include "llvm/XRay/RecordPrinter.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <string>
 
 namespace llvm {

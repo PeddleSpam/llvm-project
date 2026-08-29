@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "AMDGPUTargetMachine.h"
 #include "AMDGPUUnitTests.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 

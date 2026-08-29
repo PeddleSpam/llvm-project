@@ -13,7 +13,6 @@
 #include "llvm/ExecutionEngine/JITLink/ELF_hexagon.h"
 #include "ELFLinkGraphBuilder.h"
 #include "JITLinkGeneric.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/ExecutionEngine/JITLink/hexagon.h"
 #include "llvm/Object/ELFObjectFile.h"
 

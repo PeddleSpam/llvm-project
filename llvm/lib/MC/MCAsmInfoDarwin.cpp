@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/MC/MCAsmInfoDarwin.h"
-#include "llvm/BinaryFormat/MachO.h"
-#include "llvm/MC/MCDirectives.h"
 #include "llvm/MC/MCSectionMachO.h"
 
 using namespace llvm;

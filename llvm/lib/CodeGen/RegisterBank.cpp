@@ -9,12 +9,8 @@
 /// This file implements the RegisterBank class.
 //===----------------------------------------------------------------------===//
 
-#include "llvm/CodeGen/RegisterBank.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/CodeGen/RegisterBankInfo.h"
 #include "llvm/CodeGen/TargetRegisterInfo.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "registerbank"
 

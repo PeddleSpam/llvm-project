@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ABI/IRTypeMapper.h"
-#include "llvm/ABI/Types.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/IR/DataLayout.h"
-#include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Type.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace llvm::abi;
 

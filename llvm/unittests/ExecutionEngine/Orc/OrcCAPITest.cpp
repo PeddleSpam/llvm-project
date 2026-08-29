@@ -7,23 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm-c/Core.h"
-#include "llvm-c/Error.h"
-#include "llvm-c/LLJIT.h"
 #include "llvm-c/LLJITUtils.h"
-#include "llvm-c/Orc.h"
-#include "gtest/gtest.h"
 
 #include "llvm/Analysis/TargetLibraryInfo.h"
 #include "llvm/ExecutionEngine/Orc/CompileUtils.h"
 #include "llvm/ExecutionEngine/Orc/ObjectLinkingLayer.h"
 #include "llvm/ExecutionEngine/Orc/TargetProcess/JITLoaderGDB.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
 #include "llvm/IRReader/IRReader.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/Testing/Support/Error.h"
 #include <string>
 

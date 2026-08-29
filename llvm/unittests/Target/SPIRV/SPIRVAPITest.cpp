@@ -16,8 +16,6 @@
 #include "llvm/BinaryFormat/Magic.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/TargetParser/Triple.h"
-#include "gtest/gtest.h"
 #include <gmock/gmock.h>
 #include <string>
 

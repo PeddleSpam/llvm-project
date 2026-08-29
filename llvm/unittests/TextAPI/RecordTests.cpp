@@ -6,7 +6,6 @@
 //
 //===-----------------------------------------------------------------------===//
 
-#include "llvm/TargetParser/Triple.h"
 #include "llvm/TextAPI/RecordsSlice.h"
 #include "gtest/gtest.h"
 

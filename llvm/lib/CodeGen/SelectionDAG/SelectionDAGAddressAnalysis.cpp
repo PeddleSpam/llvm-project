@@ -7,16 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/CodeGen/SelectionDAGAddressAnalysis.h"
-#include "llvm/Analysis/MemoryLocation.h"
-#include "llvm/CodeGen/ISDOpcodes.h"
 #include "llvm/CodeGen/MachineFrameInfo.h"
-#include "llvm/CodeGen/MachineFunction.h"
-#include "llvm/CodeGen/SelectionDAG.h"
-#include "llvm/CodeGen/SelectionDAGNodes.h"
 #include "llvm/CodeGen/TargetLowering.h"
 #include "llvm/IR/GlobalAlias.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 #include <cstdint>
 
 using namespace llvm;

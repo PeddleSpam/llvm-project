@@ -8,8 +8,6 @@
 
 #include "llvm/IR/AbstractCallSite.h"
 #include "llvm/AsmParser/Parser.h"
-#include "llvm/IR/Argument.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/Module.h"
 #include "llvm/Support/SourceMgr.h"
 #include "gtest/gtest.h"

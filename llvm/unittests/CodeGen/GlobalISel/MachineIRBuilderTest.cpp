@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "GISelMITest.h"
-#include "llvm/CodeGen/GlobalISel/MachineIRBuilder.h"
 
 TEST_F(AArch64GISelMITest, TestBuildConstantFConstant) {
   setUp();

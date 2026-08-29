@@ -8,7 +8,6 @@
 
 #include "llvm/Support/BlockFrequency.h"
 #include "llvm/Support/BranchProbability.h"
-#include "llvm/Support/DataTypes.h"
 #include "gtest/gtest.h"
 #include <climits>
 #include <cstdint>

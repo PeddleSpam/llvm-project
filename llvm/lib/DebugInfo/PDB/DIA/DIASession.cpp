@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "llvm/DebugInfo/PDB/DIA/DIASession.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/DebugInfo/PDB/DIA/DIAEnumDebugStreams.h"
 #include "llvm/DebugInfo/PDB/DIA/DIAEnumFrameData.h"
 #include "llvm/DebugInfo/PDB/DIA/DIAEnumInjectedSources.h"
@@ -22,10 +21,7 @@
 #include "llvm/DebugInfo/PDB/PDB.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolCompiland.h"
 #include "llvm/DebugInfo/PDB/PDBSymbolExe.h"
-#include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::pdb;

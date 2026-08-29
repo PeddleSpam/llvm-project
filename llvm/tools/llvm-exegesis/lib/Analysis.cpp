@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Analysis.h"
-#include "BenchmarkResult.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/MC/MCAsmInfo.h"
-#include "llvm/MC/MCTargetOptions.h"
 #include "llvm/Support/FormatVariadic.h"
 #include <cmath>
 #include <limits>

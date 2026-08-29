@@ -14,15 +14,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "SPIRV.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/InstVisitor.h"
-#include "llvm/IR/Intrinsics.h"
 #include "llvm/IR/IntrinsicsSPIRV.h"
-#include "llvm/IR/Module.h"
-#include "llvm/Pass.h"
 #include <algorithm>
 #include <vector>
 

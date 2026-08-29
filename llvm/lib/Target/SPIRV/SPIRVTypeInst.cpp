@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "SPIRVTypeInst.h"
-#include "MCTargetDesc/SPIRVMCTargetDesc.h"
 #include "SPIRVInstrInfo.h"
 
 #include "SPIRV.h"

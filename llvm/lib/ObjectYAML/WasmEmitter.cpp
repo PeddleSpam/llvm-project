@@ -15,7 +15,6 @@
 #include "llvm/Object/Wasm.h"
 #include "llvm/ObjectYAML/ObjectYAML.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/LEB128.h"
 
 using namespace llvm;

@@ -5,10 +5,26 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../../include/llvm/ADT/PackedVector.h"
+#include "../../../../include/llvm/CodeGen/MachineModuleInfo.h"
+#include "../../../../include/llvm/CodeGen/TargetPassConfig.h"
+#include "../../../../include/llvm/ExecutionEngine/Orc/LLJIT.h"
+#include "../../../../include/llvm/IR/LegacyPassManager.h"
+#include "../../../../include/llvm/MC/MCAsmInfo.h"
+#include "../../../../include/llvm/MC/MCInstBuilder.h"
+#include "../../../../include/llvm/MC/MCSubtargetInfo.h"
+#include "../../../../include/llvm/Support/YAMLTraits.h"
+#include "../BenchmarkResult.h"
+#include "../BenchmarkRunner.h"
 #include "../Error.h"
 #include "../Target.h"
+#include "../MCInstrDescView.h"
+#include "../PerfHelper.h"
+#include "../RegisterValue.h"
+#include "../SnippetGenerator.h"
+#include "../SnippetRepetitor.h"
+#include "../ValidationEvent.h"
 #include "MCTargetDesc/MipsBaseInfo.h"
-#include "Mips.h"
 #include "MipsRegisterInfo.h"
 
 #define GET_AVAILABLE_OPCODE_CHECKER

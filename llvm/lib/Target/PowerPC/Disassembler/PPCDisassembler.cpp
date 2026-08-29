@@ -6,16 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../include/llvm/Support/LEB128.h"
 #include "MCTargetDesc/PPCMCTargetDesc.h"
 #include "TargetInfo/PowerPCTargetInfo.h"
 #include "llvm/MC/MCDecoder.h"
 #include "llvm/MC/MCDecoderOps.h"
-#include "llvm/MC/MCDisassembler/MCDisassembler.h"
-#include "llvm/MC/MCInst.h"
 #include "llvm/MC/MCSubtargetInfo.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Endian.h"
 
 using namespace llvm;
 using namespace llvm::MCD;

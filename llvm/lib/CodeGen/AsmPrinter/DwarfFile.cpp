@@ -6,13 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DwarfFile.h"
 #include "DwarfCompileUnit.h"
-#include "DwarfDebug.h"
-#include "DwarfUnit.h"
-#include "llvm/CodeGen/AsmPrinter.h"
-#include "llvm/IR/DebugInfoMetadata.h"
-#include "llvm/MC/MCStreamer.h"
 #include <cstdint>
 
 using namespace llvm;

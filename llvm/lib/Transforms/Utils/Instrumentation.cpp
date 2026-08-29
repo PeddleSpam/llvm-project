@@ -16,7 +16,6 @@
 #include "llvm/IR/DiagnosticPrinter.h"
 #include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/Module.h"
-#include "llvm/TargetParser/Triple.h"
 
 using namespace llvm;
 

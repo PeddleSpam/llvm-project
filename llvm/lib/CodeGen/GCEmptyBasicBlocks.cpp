@@ -12,10 +12,7 @@
 ///
 //===----------------------------------------------------------------------===//
 #include "llvm/CodeGen/GCEmptyBasicBlocks.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/CodeGen/MachineBasicBlock.h"
-#include "llvm/CodeGen/MachineFunction.h"
 #include "llvm/CodeGen/MachineFunctionPass.h"
 #include "llvm/CodeGen/MachineJumpTableInfo.h"
 #include "llvm/CodeGen/Passes.h"

@@ -11,14 +11,10 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Support/Jobserver.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <future>
 #include <random>

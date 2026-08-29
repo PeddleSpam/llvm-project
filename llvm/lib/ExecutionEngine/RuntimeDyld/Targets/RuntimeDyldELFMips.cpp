@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "RuntimeDyldELFMips.h"
+#include "../RuntimeDyldImpl.h"
 #include "llvm/BinaryFormat/ELF.h"
 
 #define DEBUG_TYPE "dyld"

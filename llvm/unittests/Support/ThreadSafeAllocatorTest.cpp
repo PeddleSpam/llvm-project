@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/ThreadSafeAllocator.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/ThreadPool.h"
 #include "gtest/gtest.h"
 #include <atomic>

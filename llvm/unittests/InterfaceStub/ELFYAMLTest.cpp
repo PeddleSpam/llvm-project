@@ -6,13 +6,10 @@
 //
 //===-----------------------------------------------------------------------===/
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/BinaryFormat/ELF.h"
 #include "llvm/InterfaceStub/IFSHandler.h"
 #include "llvm/InterfaceStub/IFSStub.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <string>
 
 using namespace llvm;

@@ -12,9 +12,7 @@
 
 #include "AsmWriterInst.h"
 #include "CodeGenInstruction.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace llvm;
 

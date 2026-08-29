@@ -14,8 +14,6 @@
 #include "ReduceUsingSimplifyCFG.h"
 #include "Utils.h"
 #include "llvm/Analysis/TargetTransformInfo.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/Transforms/Utils/Local.h"
 
 using namespace llvm;

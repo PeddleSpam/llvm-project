@@ -8,12 +8,9 @@
 
 #include "llvm/ExecutionEngine/Orc/InProcessEPC.h"
 
-#include "llvm/ADT/FunctionExtras.h"
 #include "llvm/ExecutionEngine/Orc/AbsoluteSymbols.h"
 #include "llvm/ExecutionEngine/Orc/Core.h"
-#include "llvm/ExecutionEngine/Orc/Shared/WrapperFunctionUtils.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #include <condition_variable>
 #include <mutex>

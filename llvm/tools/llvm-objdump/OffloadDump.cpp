@@ -13,10 +13,7 @@
 
 #include "OffloadDump.h"
 #include "llvm-objdump.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Object/OffloadBinary.h"
-#include "llvm/Object/OffloadBundle.h"
 
 using namespace llvm;
 using namespace llvm::object;

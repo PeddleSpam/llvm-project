@@ -8,7 +8,6 @@
 
 #include "llvm-c/Core.h"
 #include "llvm-c/Transforms/PassBuilder.h"
-#include "llvm-c/Types.h"
 #include "gtest/gtest.h"
 #include <string.h>
 

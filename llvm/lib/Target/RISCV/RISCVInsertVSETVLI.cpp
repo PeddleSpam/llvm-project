@@ -24,16 +24,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "RISCV.h"
-#include "RISCVSubtarget.h"
 #include "RISCVVSETVLIInfoAnalysis.h"
 #include "llvm/ADT/PostOrderIterator.h"
-#include "llvm/ADT/Statistic.h"
-#include "llvm/CodeGen/LiveDebugVariables.h"
-#include "llvm/CodeGen/LiveIntervals.h"
-#include "llvm/CodeGen/LiveStacks.h"
-#include "llvm/CodeGen/MachineFunctionPass.h"
-#include "llvm/CodeGen/RegisterClassInfo.h"
 #include <queue>
 using namespace llvm;
 using namespace RISCV;

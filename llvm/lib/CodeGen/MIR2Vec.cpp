@@ -17,9 +17,7 @@
 #include "llvm/CodeGen/TargetInstrInfo.h"
 #include "llvm/IR/Module.h"
 #include "llvm/InitializePasses.h"
-#include "llvm/Pass.h"
 #include "llvm/Support/Errc.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Regex.h"
 
 using namespace llvm;

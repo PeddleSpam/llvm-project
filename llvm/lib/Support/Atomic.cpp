@@ -11,8 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Atomic.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/mm_malloc.h"
+#include "llvm/Config/llvm-config.h"
 
 using namespace llvm;
 

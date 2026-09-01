@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Program.h"
-#include "../../include/llvm/ADT/BitVector.h"
-#include "../../include/llvm/Support/ConvertUTF.h"
-#include "../../include/llvm/Support/Errc.h"
-#include "../../include/llvm/Support/Path.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
-#include "../../include/llvm/Support/WindowsError.h"
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Config/llvm-config.h"
+#include "llvm/Support/raw_ostream.h"
 using namespace llvm;
 using namespace sys;
 

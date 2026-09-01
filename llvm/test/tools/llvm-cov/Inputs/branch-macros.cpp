@@ -2,8 +2,6 @@
 
 
 
-#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
-#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
 #define COND1 (a == b)
 #define COND2 (a != b)
 #define COND3 (COND1 && COND2)

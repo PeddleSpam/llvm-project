@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/mlir/Dialect/LLVMIR/LLVMAttrs.h"
-#include "../../../include/mlir/Dialect/LLVMIR/Transforms/AddComdats.h"
-#include "../../../include/mlir/Dialect/LLVMIR/Transforms/LegalizeForExport.h"
-#include "../../../include/mlir/Dialect/LLVMIR/Transforms/RequestCWrappers.h"
 #include "mlir/CAPI/Pass.h"
+#include "mlir/Dialect/LLVMIR/Transforms/Passes.h"
+#include "mlir/Pass/Pass.h"
 
 // Must include the declarations as they carry important visibility attributes.
 #include "mlir/Dialect/LLVMIR/Transforms/Passes.capi.h.inc"

@@ -6,7 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
+#include "lldb/Host/Config.h"
 
 #include <cerrno>
 #include <cstdlib>
@@ -22,31 +22,62 @@
 #include <sys/sysctl.h>
 #endif
 #ifdef _WIN32
+#include "lldb/Host/windows/windows.h"
 #endif
 #include <ctime>
 #include <sys/types.h>
 
+#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Breakpoint/Watchpoint.h"
 #include "lldb/Breakpoint/WatchpointAlgorithms.h"
+#include "lldb/Breakpoint/WatchpointResource.h"
+#include "lldb/Core/Debugger.h"
+#include "lldb/Core/Diagnostics.h"
 #include "lldb/Core/Module.h"
+#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
+#include "lldb/Core/Value.h"
 #include "lldb/DataFormatters/FormatManager.h"
+#include "lldb/Host/ConnectionFileDescriptor.h"
+#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
+#include "lldb/Host/HostThread.h"
+#include "lldb/Host/PosixApi.h"
+#include "lldb/Host/PseudoTerminal.h"
+#include "lldb/Host/StreamFile.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Host/XML.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
+#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandObjectMultiword.h"
+#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionGroupBoolean.h"
 #include "lldb/Interpreter/OptionGroupPlatform.h"
 #include "lldb/Interpreter/OptionGroupUInt64.h"
+#include "lldb/Interpreter/OptionValueProperties.h"
+#include "lldb/Interpreter/Options.h"
+#include "lldb/Interpreter/Property.h"
+#include "lldb/Symbol/ObjectFile.h"
+#include "lldb/Symbol/Symbol.h"
+#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/DynamicLoader.h"
+#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/ProcessIOHandler.h"
 #include "lldb/Target/SystemRuntime.h"
+#include "lldb/Target/Target.h"
+#include "lldb/Target/TargetList.h"
 #include "lldb/Target/ThreadPlanCallFunction.h"
+#include "lldb/Utility/Args.h"
+#include "lldb/Utility/Baton.h"
+#include "lldb/Utility/FileSpec.h"
+#include "lldb/Utility/FileSpecList.h"
+#include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/RegisterTypeFlags.h"
 #include "lldb/Utility/State.h"
+#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
 #include <algorithm>
 #include <csignal>
@@ -57,6 +88,7 @@
 #include <sstream>
 #include <thread>
 
+#include "GDBRemoteRegisterContext.h"
 #include "GDBRemoteRegisterFallback.h"
 #include "Plugins/Process/Utility/GDBRemoteSignals.h"
 #include "Plugins/Process/Utility/InferiorCallPOSIX.h"
@@ -64,8 +96,18 @@
 #include "ProcessGDBRemote.h"
 #include "ProcessGDBRemoteLog.h"
 #include "ThreadGDBRemote.h"
+#include "lldb/Host/Host.h"
+#include "lldb/Utility/StringExtractorGDBRemote.h"
 
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/ADT/ScopeExit.h"
+#include "llvm/ADT/StringMap.h"
+#include "llvm/ADT/StringSwitch.h"
+#include "llvm/Support/Chrono.h"
+#include "llvm/Support/ErrorExtras.h"
 #include "llvm/Support/FormatAdapters.h"
+#include "llvm/Support/Threading.h"
+#include "llvm/Support/raw_ostream.h"
 
 #if defined(__APPLE__)
 #define DEBUGSERVER_BASENAME "debugserver"

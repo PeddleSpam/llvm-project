@@ -6,9 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/lldb/Host/windows/PosixApi.h"
+#include "DAP.h"
 #include "EventHelper.h"
+#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
+#include "lldb/Host/PosixApi.h" // IWYU pragma: keep
 
 using namespace lldb_dap;
 using namespace lldb_dap::protocol;

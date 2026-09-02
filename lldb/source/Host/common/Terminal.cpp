@@ -8,7 +8,9 @@
 
 #include "lldb/Host/Terminal.h"
 
-#include "../../../include/lldb/Host/windows/PosixApi.h"
+#include "lldb/Host/Config.h"
+#include "lldb/Host/PosixApi.h"
+#include "llvm/ADT/STLExtras.h"
 
 #include <csignal>
 #include <fcntl.h>

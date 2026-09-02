@@ -13,23 +13,23 @@
 
 #include "llvm/Support/Signals.h"
 
-#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/io.h"
-#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/signal.h"
-#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/DbgHelp.h"
-#include "../../include/llvm/Support/ConvertUTF.h"
-#include "../../include/llvm/Support/ExitCodes.h"
-#include "../../include/llvm/Support/Process.h"
-#include "../../include/llvm/Support/Windows/WindowsSupport.h"
-#include "../../include/llvm/Support/WindowsError.h"
 #include "DebugOptions.h"
 
+#include "llvm/ADT/StringRef.h"
+#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/CommandLine.h"
+#include "llvm/Support/ErrorOr.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
+#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/IOSandbox.h"
 #include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Path.h"
+#include "llvm/Support/Program.h"
+#include "llvm/Support/StringSaver.h"
+#include "llvm/Support/raw_ostream.h"
 #include <array>
 #include <cmath>
 

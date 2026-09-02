@@ -10,15 +10,22 @@
 #include <optional>
 
 #include "EmulateInstructionARM.h"
-#include "../../../../include/lldb/Host/windows/PosixApi.h"
 #include "EmulationStateARM.h"
+#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
+#include "lldb/Host/PosixApi.h"
 #include "lldb/Interpreter/OptionValueArray.h"
 #include "lldb/Interpreter/OptionValueDictionary.h"
+#include "lldb/Symbol/UnwindPlan.h"
+#include "lldb/Utility/ArchSpec.h"
+#include "lldb/Utility/Stream.h"
 
+#include "Plugins/Process/Utility/ARMDefines.h"
 #include "Plugins/Process/Utility/ARMUtils.h"
 #include "Utility/ARM_DWARF_Registers.h"
 
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/Support/MathExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

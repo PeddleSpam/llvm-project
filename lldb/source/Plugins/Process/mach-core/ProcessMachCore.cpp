@@ -11,15 +11,29 @@
 
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
+#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
+#include "lldb/Core/Section.h"
+#include "lldb/Host/Host.h"
+#include "lldb/Symbol/ObjectFile.h"
+#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/SectionLoadList.h"
+#include "lldb/Target/Target.h"
+#include "lldb/Target/Thread.h"
+#include "lldb/Utility/AppleUuidCompatibility.h"
+#include "lldb/Utility/DataBuffer.h"
+#include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
+#include "lldb/Utility/UUID.h"
+#include "llvm/Support/MathExtras.h"
 
 #include "ProcessMachCore.h"
 #include "Plugins/Process/Utility/StopInfoMachException.h"
 #include "ThreadMachCore.h"
 
 // Needed for the plug-in names for the dynamic loaders.
+#include "lldb/Host/SafeMachO.h"
 
 #include "Plugins/DynamicLoader/Darwin-Kernel/DynamicLoaderDarwinKernel.h"
 #include "Plugins/DynamicLoader/MacOSX-DYLD/DynamicLoaderMacOSXDYLD.h"

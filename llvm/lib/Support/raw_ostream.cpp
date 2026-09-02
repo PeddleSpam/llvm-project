@@ -10,11 +10,21 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/Config/config.h"
 #include "llvm/Support/AutoConvert.h"
+#include "llvm/Support/Compiler.h"
 #include "llvm/Support/Duration.h"
+#include "llvm/Support/ErrorHandling.h"
+#include "llvm/Support/FileSystem.h"
+#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/IOSandbox.h"
+#include "llvm/Support/MathExtras.h"
+#include "llvm/Support/NativeFormatting.h"
 #include "llvm/Support/Process.h"
+#include "llvm/Support/Program.h"
 #include <algorithm>
 #include <cerrno>
 #include <cstdio>

@@ -8,9 +8,14 @@
 
 #include "lldb/Target/ModuleCache.h"
 
-#include "../../include/lldb/Host/windows/LockFileWindows.h"
 #include "lldb/Core/Module.h"
+#include "lldb/Core/ModuleList.h"
+#include "lldb/Core/ModuleSpec.h"
+#include "lldb/Host/File.h"
+#include "lldb/Host/LockFile.h"
 #include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/Log.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
 
 #include <cassert>

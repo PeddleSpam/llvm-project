@@ -6,7 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/lldb/Host/windows/HostProcessWindows.h"
+#include "lldb/Host/HostProcess.h"
+#include "lldb/Host/HostNativeProcess.h"
+#include "lldb/Host/HostThread.h"
 
 using namespace lldb;
 using namespace lldb_private;

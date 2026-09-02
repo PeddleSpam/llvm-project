@@ -15,21 +15,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "ClangTidyMain.h"
-#include "../../../build/tools/clang/tools/extra/clang-tidy/clang-tidy-config.h"
-#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
-#include "../../../llvm/include/llvm/ADT/SmallSet.h"
-#include "../../../llvm/include/llvm/Support/Regex.h"
-#include "../../../llvm/include/llvm/Support/Timer.h"
 #include "../ClangTidy.h"
-#include "../ClangTidyDiagnosticConsumer.h"
 #include "../ClangTidyForceLinker.h" // IWYU pragma: keep
-#include "../ClangTidyOptions.h"
-#include "../ClangTidyProfiling.h"
-#include "../FileExtensionsSet.h"
 #include "../GlobList.h"
-#include "../NoLintDirectiveHandler.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "llvm/ADT/StringSet.h"
+#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/PluginLoader.h" // IWYU pragma: keep
 #include "llvm/Support/Process.h"

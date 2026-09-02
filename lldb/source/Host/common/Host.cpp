@@ -40,15 +40,28 @@
 
 #include <csignal>
 
+#include "lldb/Host/FileAction.h"
 #include "lldb/Host/FileSystem.h"
+#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/HostProcess.h"
 #include "lldb/Host/MonitoringProcessLauncher.h"
+#include "lldb/Host/ProcessLaunchInfo.h"
+#include "lldb/Host/ProcessLauncher.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
+#include "lldb/Utility/Args.h"
+#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/LLDBLog.h"
+#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Predicate.h"
+#include "lldb/Utility/Status.h"
+#include "lldb/lldb-private-forward.h"
+#include "llvm/ADT/SmallString.h"
+#include "llvm/ADT/StringExtras.h"
+#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
 #include "llvm/Support/Errno.h"
+#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Program.h"
 
 #if defined(_WIN32)

@@ -12,7 +12,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/lldb/Host/windows/PosixApi.h"
 #if defined(_MSC_VER)
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #endif
@@ -28,6 +27,7 @@
 #include <cassert>
 #include <cstring>
 
+#include "lldb/Host/PosixApi.h"
 
 // WindowsXP needs an inet_ntop implementation
 #ifdef _WIN32

@@ -7,12 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/windows/HostProcessWindows.h"
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Host/windows/windows.h"
-#include "lldb/Utility/FileSpec.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ConvertUTF.h"
 #include "llvm/Support/WindowsError.h"
 

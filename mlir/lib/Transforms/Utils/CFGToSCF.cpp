@@ -116,11 +116,8 @@
 #include "mlir/Transforms/CFGToSCF.h"
 
 #include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "llvm/ADT/DepthFirstIterator.h"
-#include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/SCCIterator.h"
-#include "llvm/ADT/SetVector.h"
 
 using namespace mlir;
 

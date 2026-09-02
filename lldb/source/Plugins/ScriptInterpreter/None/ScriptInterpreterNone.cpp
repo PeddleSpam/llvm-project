@@ -9,8 +9,6 @@
 #include "ScriptInterpreterNone.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StringList.h"
 
 using namespace lldb;
 using namespace lldb_private;

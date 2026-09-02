@@ -7,25 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "EmulateInstructionRISCV.h"
-#include "Plugins/Process/Utility/RegisterInfoInterface.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_riscv32.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_riscv64.h"
-#include "Plugins/Process/Utility/lldb-riscv-register-enums.h"
 #include "RISCVCInstructions.h"
-#include "RISCVInstructions.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Interpreter/OptionValueArray.h"
 #include "lldb/Interpreter/OptionValueDictionary.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Stream.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/MathExtras.h"
 #include <optional>
 
 using namespace llvm;

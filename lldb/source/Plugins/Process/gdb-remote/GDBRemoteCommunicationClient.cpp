@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "GDBRemoteCommunicationClient.h"
 
 #include <cmath>
 #include <sys/stat.h>
@@ -15,35 +14,19 @@
 #include <optional>
 #include <sstream>
 
+#include "../../../../../llvm/include/llvm/BinaryFormat/MachO.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/SafeMachO.h"
 #include "lldb/Host/XML.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Utility/AcceleratorGDBRemotePackets.h"
-#include "lldb/Utility/Args.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/StreamString.h"
 
 #include "ProcessGDBRemote.h"
 #include "ProcessGDBRemoteLog.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Utility/StringExtractorGDBRemote.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ENABLE_ZLIB
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/TargetParser/Triple.h"
 
 #if HAVE_LIBCOMPRESSION
 #include <compression.h>

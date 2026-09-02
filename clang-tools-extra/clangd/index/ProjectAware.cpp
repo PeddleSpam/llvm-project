@@ -7,15 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ProjectAware.h"
-#include "Config.h"
-#include "index/Index.h"
-#include "index/Ref.h"
-#include "index/Symbol.h"
-#include "index/SymbolID.h"
-#include "support/Threading.h"
 #include "support/Trace.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringRef.h"
 #include <map>
 #include <memory>
 #include <mutex>

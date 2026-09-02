@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Dialect/Complex.h"
-#include "mlir-c/IR.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
 

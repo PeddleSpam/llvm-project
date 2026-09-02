@@ -13,32 +13,24 @@
 
 #include "mlir/Target/LLVM/NVVM/Target.h"
 
-#include "mlir/Dialect/GPU/IR/CompilationInterfaces.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Dialect/LLVMIR/NVVMDialect.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectResourceBlobManager.h"
 #include "mlir/Target/LLVM/NVVM/Utils.h"
 #include "mlir/Target/LLVMIR/Dialect/GPU/GPUToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Dialect/NVVM/NVVMToLLVMIRTranslation.h"
-#include "mlir/Target/LLVMIR/Export.h"
 #include "llvm/Support/InterleavedRange.h"
 
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/Config/Targets.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/Program.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Support/Timer.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cstdint>
 #include <cstdlib>

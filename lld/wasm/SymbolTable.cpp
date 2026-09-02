@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "SymbolTable.h"
-#include "Config.h"
 #include "InputChunks.h"
 #include "InputElement.h"
-#include "WriterUtils.h"
 #include "lld/Common/CommonLinkerContext.h"
 #include <optional>
 

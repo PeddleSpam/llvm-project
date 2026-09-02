@@ -1,11 +1,8 @@
 // RUN: %check_clang_tidy -std=c++14-or-later %s bugprone-nondeterministic-pointer-iteration-order %t -- -- -I%S
 
 #include "Inputs/system-header-simulator/sim_set"
-#include "Inputs/system-header-simulator/sim_unordered_set"
 #include "Inputs/system-header-simulator/sim_map"
-#include "Inputs/system-header-simulator/sim_unordered_map"
 #include "Inputs/system-header-simulator/sim_vector"
-#include "Inputs/system-header-simulator/sim_algorithm"
 
 template<class T>
 void f(T x);

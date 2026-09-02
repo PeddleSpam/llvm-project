@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Query/Query.h"
 #include "QueryParser.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Query/Matcher/MatchFinder.h"
-#include "mlir/Query/QuerySession.h"
-#include "llvm/Support/SourceMgr.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace mlir::query {
 

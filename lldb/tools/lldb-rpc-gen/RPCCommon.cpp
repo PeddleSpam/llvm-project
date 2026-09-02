@@ -8,17 +8,10 @@
 
 #include "RPCCommon.h"
 
-#include "clang/AST/AST.h"
 #include "clang/AST/Attr.h"
-#include "clang/AST/DeclBase.h"
 #include "clang/AST/Mangle.h"
 #include "clang/Lex/Lexer.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cstring>
 

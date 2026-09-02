@@ -46,31 +46,14 @@
 //    creating a NewFunction.
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "FindTarget.h"
-#include "ParsedAST.h"
-#include "Selection.h"
-#include "SourceCode.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/NestedNameSpecifier.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Tooling/Core/Replacement.h"
 #include "clang/Tooling/Refactoring/Extract/SourceExtraction.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include <optional>
 
 namespace clang {

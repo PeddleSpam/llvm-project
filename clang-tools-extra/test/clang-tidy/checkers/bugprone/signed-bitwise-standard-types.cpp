@@ -1,7 +1,6 @@
 // RUN: clang-tidy %s -checks='-*,bugprone-signed-bitwise' -- -std=c++11
 // FIXME: Make the test work in all language modes.
 
-#include "signed-bitwise-standard-types.h"
 
 void pure_bitmask_types() {
   // std::locale::category

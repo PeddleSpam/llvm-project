@@ -6,16 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Dialect/Transform.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/Dialect/Transform.h"
 #include "mlir/CAPI/Interfaces.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/CAPI/Rewrite.h"
 #include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/IR/TransformTypes.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;
 

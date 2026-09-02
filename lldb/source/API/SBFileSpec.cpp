@@ -10,13 +10,9 @@
 #include "Utils.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Host/PosixApi.h"
 #include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Stream.h"
 
-#include "llvm/ADT/SmallString.h"
 
 #include <cinttypes>
 #include <climits>

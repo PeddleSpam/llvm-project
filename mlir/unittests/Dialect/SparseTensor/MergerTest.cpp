@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/SparseTensor/Utils/Merger.h"
-#include "llvm/Support/Compiler.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include <memory>
 

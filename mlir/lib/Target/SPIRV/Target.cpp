@@ -14,7 +14,6 @@
 #include "mlir/Target/SPIRV/Target.h"
 
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 #include "mlir/Target/SPIRV/Serialization.h"

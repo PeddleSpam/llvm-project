@@ -8,13 +8,9 @@
 
 #include "../clang-tidy/utils/TransformerClangTidyCheck.h"
 #include "ClangTidyTest.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Tooling/Transformer/RangeSelector.h"
-#include "clang/Tooling/Transformer/RewriteRule.h"
 #include "clang/Tooling/Transformer/Stencil.h"
 #include "clang/Tooling/Transformer/Transformer.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang {

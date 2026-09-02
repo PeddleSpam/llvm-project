@@ -12,19 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "../ReorderFieldsAction.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Refactoring.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
 #include <cstdlib>
 #include <string>
 #include <system_error>

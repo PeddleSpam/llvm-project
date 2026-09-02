@@ -11,11 +11,8 @@
 #include "lldb/Utility/Stream.h"
 
 #include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/iterator.h"
 #include "llvm/Support/Allocator.h"
 #include "llvm/Support/DJB.h"
-#include "llvm/Support/FormatProviders.h"
 #include "llvm/Support/Threading.h"
 
 #include <array>

@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Profile/DataAggregator.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/TargetSelect.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace llvm::object;

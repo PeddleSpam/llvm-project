@@ -10,10 +10,7 @@
 #include "Plugins/Language/ObjC/ObjCLanguage.h"
 #include "Plugins/Language/ObjCPlusPlus/ObjCPlusPlusLanguage.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/lldb-enumerations.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

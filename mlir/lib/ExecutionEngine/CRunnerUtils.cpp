@@ -24,7 +24,6 @@
 #endif
 #include <sys/time.h>
 #else
-#include "malloc.h"
 #endif // _WIN32
 
 #include <algorithm>

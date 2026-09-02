@@ -8,10 +8,6 @@
 
 #include "mlir/Target/LLVMIR/DataLayoutImporter.h"
 #include "mlir/Dialect/DLTI/DLTI.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 #include "mlir/Target/LLVMIR/Import.h"
 
 #include "llvm/IR/DataLayout.h"

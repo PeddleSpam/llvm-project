@@ -7,7 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "index/BackgroundRebuild.h"
-#include "index/FileIndex.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "support/Logger.h"
 #include "support/Trace.h"
 

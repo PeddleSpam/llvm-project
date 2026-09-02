@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DWARFDataExtractor.h"
-#include "llvm/ADT/ArrayRef.h"
 
 namespace lldb_private {
 

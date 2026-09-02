@@ -12,24 +12,16 @@
 
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 
-#include "mlir/Config/mlir-config.h"
-#include "mlir/IR/Action.h"
 #include "mlir/IR/Dominance.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Rewrite/PatternApplicator.h"
 #include "mlir/Transforms/CSE.h"
 #include "mlir/Transforms/FoldUtils.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 
 #ifdef MLIR_GREEDY_REWRITE_RANDOMIZER_SEED
 #include <random>

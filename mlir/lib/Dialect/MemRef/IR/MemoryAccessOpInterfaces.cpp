@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/MemRef/IR/MemoryAccessOpInterfaces.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Value.h"
 
 //===----------------------------------------------------------------------===//
 // IndexedAccessOpInterface and IndexedMemCpyOpInterface

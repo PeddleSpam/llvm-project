@@ -17,12 +17,7 @@
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/EmitC/Transforms/TypeConversions.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "mlir/Transforms/Passes.h"
-#include "llvm/Support/LogicalResult.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_SCFTOEMITC

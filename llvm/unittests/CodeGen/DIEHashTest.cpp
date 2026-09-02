@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "../lib/CodeGen/AsmPrinter/DIEHash.h"
-#include "../../lib/CodeGen/AsmPrinter/DIEHash.h"
 #include "TestAsmPrinter.h"
 #include "llvm/TargetParser/Host.h"
 #include "llvm/Testing/Support/Error.h"

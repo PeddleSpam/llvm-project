@@ -8,14 +8,8 @@
 
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/MemRef/Utils/MemRefUtils.h"
-#include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
 #include "mlir/Dialect/XeGPU/IR/XeGPU.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/Interfaces/ViewLikeInterface.h"
 
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "xegpu"
 

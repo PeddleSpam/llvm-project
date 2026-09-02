@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/Operator.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

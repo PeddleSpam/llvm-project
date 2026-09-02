@@ -19,10 +19,6 @@
 
 #include "mlir/Dialect/MemRef/IR/MemoryAccessOpInterfaces.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/PatternMatch.h"
 
 #include <type_traits>
 

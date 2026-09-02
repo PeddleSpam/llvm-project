@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/TargetAPIMutex.h"
 #include "lldb/Target/Target.h"
 
 using namespace lldb_private;

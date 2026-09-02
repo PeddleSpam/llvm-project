@@ -8,10 +8,6 @@
 
 #include "mlir/Dialect/OpenACC/OpenACCUtilsGPU.h"
 #include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/OwningOpRef.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

@@ -12,18 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/MemRef/IR/MemRefMemorySlot.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/UB/IR/UBOps.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Value.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace mlir;
 

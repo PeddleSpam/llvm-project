@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestTracer.h"
-#include "support/Trace.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/Threading.h"
 #include "llvm/Support/YAMLParser.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Symbols.h"
-#include "Config.h"
-#include "InputChunks.h"
 #include "InputElement.h"
-#include "InputFiles.h"
 #include "OutputSections.h"
 #include "OutputSegment.h"
 #include "SymbolTable.h"
-#include "lld/Common/ErrorHandler.h"
 #include "lld/Common/Memory.h"
 #include "llvm/Demangle/Demangle.h"
 

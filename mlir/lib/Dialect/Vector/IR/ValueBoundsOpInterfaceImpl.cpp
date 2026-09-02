@@ -9,8 +9,6 @@
 #include "mlir/Dialect/Vector/IR/ValueBoundsOpInterfaceImpl.h"
 
 #include "mlir/Dialect/Vector/IR/ScalableValueBoundsConstraintSet.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 using namespace mlir;
 

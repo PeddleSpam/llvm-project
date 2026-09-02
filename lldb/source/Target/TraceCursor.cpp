@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/TraceCursor.h"
 
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Trace.h"
 
 using namespace lldb;

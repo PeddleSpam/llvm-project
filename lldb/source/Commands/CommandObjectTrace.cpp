@@ -8,24 +8,16 @@
 
 #include "CommandObjectTrace.h"
 
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/MemoryBuffer.h"
 
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionGroupFormat.h"
 #include "lldb/Interpreter/OptionValueBoolean.h"
 #include "lldb/Interpreter/OptionValueLanguage.h"
 #include "lldb/Interpreter/OptionValueString.h"
-#include "lldb/Interpreter/Options.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Trace.h"
 
 using namespace lldb;
 using namespace lldb_private;

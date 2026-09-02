@@ -12,14 +12,7 @@
 #include "PlatformRemoteAppleXR.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

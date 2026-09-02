@@ -1,6 +1,5 @@
 #include "polly/Support/ISLTools.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace isl {
 static bool operator==(const isl::basic_set &A, const isl::basic_set &B) {

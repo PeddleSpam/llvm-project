@@ -6,33 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "ClangdServer.h"
-#include "Compiler.h"
-#include "Config.h"
-#include "Diagnostics.h"
-#include "GlobalCompilationDatabase.h"
 #include "Matchers.h"
-#include "ParsedAST.h"
-#include "Preamble.h"
-#include "TUScheduler.h"
 #include "TestFS.h"
 #include "TestIndex.h"
-#include "clang-include-cleaner/Record.h"
 #include "support/Cancellation.h"
-#include "support/Context.h"
 #include "support/Path.h"
 #include "support/TestTracer.h"
-#include "support/Threading.h"
 #include "clang/Basic/DiagnosticDriver.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/FunctionExtras.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <atomic>
 #include <chrono>
 #include <condition_variable>

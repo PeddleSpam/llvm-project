@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 #include "mlir/Target/LLVMIR/Dialect/Builtin/BuiltinToLLVMIRTranslation.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Target/LLVMIR/LLVMTranslationInterface.h"
 
 using namespace mlir;

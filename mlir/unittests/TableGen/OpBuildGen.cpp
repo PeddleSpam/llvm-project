@@ -10,12 +10,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../test/lib/Dialect/Test/TestAttributes.h"
+#include "../../test/lib/Dialect/Test/TestDialect.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
+#include "../../test/lib/Dialect/Test/TestOps.h"
+#include "../../test/lib/Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Dialect.h"
 #include "gmock/gmock.h"
 #include <vector>
 

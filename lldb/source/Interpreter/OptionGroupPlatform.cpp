@@ -10,7 +10,6 @@
 
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Target/Platform.h"
 
 using namespace lldb;
 using namespace lldb_private;

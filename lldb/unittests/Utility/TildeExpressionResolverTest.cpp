@@ -1,9 +1,7 @@
 #include "gtest/gtest.h"
 
 #include "TestingSupport/MockTildeExpressionResolver.h"
-#include "lldb/Utility/TildeExpressionResolver.h"
 
-#include "llvm/ADT/SmallString.h"
 
 using namespace llvm;
 using namespace lldb_private;

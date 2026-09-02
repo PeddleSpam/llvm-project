@@ -6,30 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "clang-include-cleaner/Analysis.h"
 #include "AnalysisInternal.h"
 #include "clang-include-cleaner/IncludeSpeller.h"
-#include "clang-include-cleaner/Record.h"
-#include "clang-include-cleaner/Types.h"
 #include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/Basic/DirectoryEntry.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Format/Format.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/Preprocessor.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <cassert>
 #include <climits>
 #include <string>

@@ -1,9 +1,7 @@
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <limits.h>
 
 #include "lldb/Utility/StringExtractorGDBRemote.h"
-#include "lldb/lldb-defines.h"
 
 TEST(StringExtractorGDBRemoteTest, GetPidTid) {
   StringExtractorGDBRemote ex("");

@@ -9,7 +9,6 @@
 #include "Plugins/Architecture/Wasm/ArchitectureWasm.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Utility/ArchSpec.h"
 
 using namespace lldb_private;

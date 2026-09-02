@@ -7,14 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "StringviewNullptrCheck.h"
-#include "../utils/TransformerClangTidyCheck.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/OperationKinds.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Tooling/Transformer/RangeSelector.h"
-#include "clang/Tooling/Transformer/RewriteRule.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Transformer/Transformer.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeInserter.h"
+#include "../utils/IncludeSorter.h"
 #include "clang/Tooling/Transformer/Stencil.h"
-#include "llvm/ADT/StringRef.h"
 
 namespace clang::tidy::bugprone {
 

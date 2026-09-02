@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Interpreter/Options.h"
 
 #include <algorithm>
 #include <bitset>
@@ -14,18 +13,8 @@
 #include <set>
 
 #include "lldb/Host/OptionParser.h"
-#include "lldb/Host/common/DiagnosticsRendering.h"
-#include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/OptionDefinition.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;

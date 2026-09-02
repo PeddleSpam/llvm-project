@@ -10,14 +10,9 @@
 
 #include "MinidumpFileBuilder.h"
 
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Target/Process.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/Support/FileSystem.h"
 
 using namespace lldb;
 using namespace lldb_private;

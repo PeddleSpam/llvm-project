@@ -6,12 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
-#include "Watchpoint.h"
-#include "llvm/ADT/DenseSet.h"
 #include <algorithm>
 
 namespace lldb_dap {

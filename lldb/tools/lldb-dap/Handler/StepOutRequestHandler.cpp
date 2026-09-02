@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 using namespace lldb;

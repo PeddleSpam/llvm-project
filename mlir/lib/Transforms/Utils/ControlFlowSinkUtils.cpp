@@ -21,8 +21,6 @@
 #include "mlir/Transforms/ControlFlowSinkUtils.h"
 #include "mlir/IR/Dominance.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/Interfaces/ControlFlowInterfaces.h"
 #include "llvm/Support/DebugLog.h"
 #include <vector>

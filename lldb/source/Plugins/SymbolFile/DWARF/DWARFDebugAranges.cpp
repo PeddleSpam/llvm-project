@@ -9,7 +9,6 @@
 #include "DWARFDebugAranges.h"
 #include "DWARFUnit.h"
 #include "LogChannelDWARF.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Timer.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugArangeSet.h"
 

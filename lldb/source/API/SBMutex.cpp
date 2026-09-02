@@ -9,7 +9,6 @@
 #include "lldb/API/SBMutex.h"
 #include "lldb/Target/TargetAPIMutex.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/lldb-forward.h"
 #include <memory>
 #include <mutex>
 #include <variant>

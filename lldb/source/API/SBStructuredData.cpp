@@ -6,22 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBStructuredData.h"
 
 #include "lldb/API/SBDebugger.h"
-#include "lldb/API/SBScriptObject.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBStringList.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/StructuredDataImpl.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Target/StructuredDataPlugin.h"
-#include "lldb/Utility/Event.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/Utility/StructuredData.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -17,7 +17,6 @@
 #include "polly/DeLICM.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
-#include "polly/Support/GICHelper.h"
 #include "polly/Support/ISLOStream.h"
 #include "polly/Support/ISLTools.h"
 #include "polly/ZoneAlgo.h"

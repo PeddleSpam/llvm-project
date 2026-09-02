@@ -6,17 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/ValueObject/ValueObjectConstResultImpl.h"
 
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 #include "lldb/ValueObject/ValueObjectConstResultCast.h"
 #include "lldb/ValueObject/ValueObjectConstResultChild.h"

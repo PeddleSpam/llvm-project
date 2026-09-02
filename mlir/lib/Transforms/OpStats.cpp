@@ -8,10 +8,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_PRINTOPSTATSPASS

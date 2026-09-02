@@ -9,7 +9,6 @@
 #include "lldb/Utility/ZipFile.h"
 #include "lldb/Utility/DataBuffer.h"
 #include "lldb/Utility/FileSpec.h"
-#include "llvm/Support/Endian.h"
 
 using namespace lldb_private;
 using namespace llvm::support;

@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "sanitizer_common.h"
-#include "sanitizer_flags.h"
-#include "sanitizer_libc.h"
-#include "sanitizer_platform.h"
 
 namespace __sanitizer {
 

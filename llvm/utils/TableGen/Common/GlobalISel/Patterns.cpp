@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Patterns.h"
+#include "../../../../include/llvm/ADT/BitmaskEnum.h"
 #include "../../../../include/llvm/CodeGenTypes/MachineValueType.h"
 #include "../../../../include/llvm/Support/ModRef.h"
 #include "../../Basic/SDNodeProperties.h"

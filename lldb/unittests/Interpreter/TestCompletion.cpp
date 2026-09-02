@@ -6,21 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Interpreter/CommandCompletions.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/Utility/TildeExpressionResolver.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "TestingSupport/MockTildeExpressionResolver.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace fs = llvm::sys::fs;
 namespace path = llvm::sys::path;

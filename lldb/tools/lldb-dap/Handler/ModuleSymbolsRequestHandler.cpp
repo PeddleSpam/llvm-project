@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
-#include "Protocol/DAPTypes.h"
 #include "RequestHandler.h"
-#include "lldb/API/SBAddress.h"
-#include "lldb/API/SBFileSpec.h"
-#include "lldb/API/SBModule.h"
 #include "lldb/API/SBModuleSpec.h"
 #include "lldb/Utility/UUID.h"
-#include "llvm/Support/Error.h"
 #include <cstddef>
 
 using namespace lldb_dap::protocol;

@@ -10,20 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../Dialect/Test/TestAttributes.h"
+#include "../../Dialect/Test/TestInterfaces.h"
+#include "../../Dialect/Test/TestOps.h"
+#include "../../Dialect/Test/TestTypes.h"
 #include "TestDenseDataFlowAnalysis.h"
 #include "TestOps.h"
 #include "mlir/Analysis/DataFlow/DenseAnalysis.h"
 #include "mlir/Analysis/DataFlow/Utils.h"
-#include "mlir/Analysis/DataFlowFramework.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/TypeID.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 using namespace mlir::dataflow;

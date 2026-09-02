@@ -11,17 +11,10 @@
 #include <cstring>
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "llvm/Support/Compiler.h"
 
 #include "RegisterContextPOSIX_x86.h"
-#include "RegisterContext_x86.h"
 
 using namespace lldb_private;
 using namespace lldb;

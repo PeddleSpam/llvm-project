@@ -8,16 +8,8 @@
 
 #include "lldb/DataFormatters/FormatterBytecode.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
-#include "lldb/lldb-forward.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/DataExtractor.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/FormatProviders.h"
-#include "llvm/Support/FormatVariadicDetails.h"
 
 using namespace lldb;
 namespace lldb_private {

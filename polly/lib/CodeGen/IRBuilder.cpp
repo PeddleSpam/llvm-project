@@ -13,9 +13,6 @@
 
 #include "polly/CodeGen/IRBuilder.h"
 #include "polly/ScopInfo.h"
-#include "polly/Support/ScopHelper.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Metadata.h"
 
 using namespace llvm;
 using namespace polly;

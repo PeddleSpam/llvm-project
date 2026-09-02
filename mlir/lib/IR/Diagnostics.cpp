@@ -6,13 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/IR/Operation.h"
-#include "mlir/IR/Types.h"
-#include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringMap.h"
 #include "llvm/ADT/TypeSwitch.h"
@@ -21,7 +15,6 @@
 #include "llvm/Support/Regex.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace mlir;

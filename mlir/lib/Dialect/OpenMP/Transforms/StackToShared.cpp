@@ -13,11 +13,7 @@
 
 #include "mlir/Dialect/OpenMP/Transforms/Passes.h"
 
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/OpenMP/OpenMPDialect.h"
-#include "mlir/Dialect/OpenMP/Utils/Utils.h"
-#include "mlir/Pass/Pass.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace mlir {
 namespace omp {

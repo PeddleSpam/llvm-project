@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Interfaces/InferIntRangeInterface.h"
-#include "llvm/ADT/APInt.h"
 #include <limits>
 
 #include <gtest/gtest.h>

@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "clang/CrossTU/CrossTranslationUnit.h"
-#include "../../include/clang/Basic/DiagnosticCrossTU.h"
 #include "clang/AST/ASTImporter.h"
 #include "clang/AST/ParentMapContext.h"
 #include "clang/Basic/DiagnosticDriver.h"

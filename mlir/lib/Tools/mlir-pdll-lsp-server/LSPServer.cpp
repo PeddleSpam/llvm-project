@@ -10,8 +10,6 @@
 
 #include "PDLLServer.h"
 #include "Protocol.h"
-#include "llvm/Support/LSP/Logging.h"
-#include "llvm/Support/LSP/Protocol.h"
 #include "llvm/Support/LSP/Transport.h"
 #include <optional>
 

@@ -9,14 +9,8 @@
 #include "lldb/Utility/Status.h"
 
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/VASPrintf.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/FormatProviders.h"
 
 #include <cerrno>
 #include <cstdarg>

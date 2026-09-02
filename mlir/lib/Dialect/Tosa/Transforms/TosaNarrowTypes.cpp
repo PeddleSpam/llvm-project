@@ -13,7 +13,6 @@
 
 #include "mlir/Dialect/Tosa/Transforms/Passes.h"
 
-#include "llvm/ADT/APFloat.h"
 
 #include <algorithm>
 #include <limits>
@@ -21,12 +20,9 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Func/Transforms/FuncConversions.h"
-#include "mlir/Dialect/Tosa/IR/TosaOps.h"
 #include "mlir/Dialect/Tosa/Utils/ConversionUtils.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/DialectResourceBlobManager.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/Pass/Pass.h"
 
 namespace mlir {
 namespace tosa {

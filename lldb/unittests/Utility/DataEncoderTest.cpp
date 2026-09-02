@@ -9,7 +9,6 @@
 #include "gtest/gtest.h"
 
 #include "lldb/Utility/DataEncoder.h"
-#include "llvm/ADT/ArrayRef.h"
 #include <vector>
 using namespace lldb_private;
 using namespace llvm;

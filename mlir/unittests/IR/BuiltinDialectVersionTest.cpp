@@ -11,8 +11,6 @@
 #include "mlir/Bytecode/BytecodeWriter.h"
 #include "mlir/IR/BuiltinDialect.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Parser/Parser.h"
 
 using namespace mlir;

@@ -1,6 +1,4 @@
 #include "Protocol/DAPTypes.h"
-#include "lldb/API/SBSymbol.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace llvm;
 namespace lldb_dap::protocol {

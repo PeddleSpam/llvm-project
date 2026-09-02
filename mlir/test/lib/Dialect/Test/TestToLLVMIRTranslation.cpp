@@ -12,17 +12,10 @@
 
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Target/LLVMIR/Dialect/Builtin/BuiltinToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h"
-#include "mlir/Target/LLVMIR/LLVMTranslationInterface.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 #include "mlir/Tools/mlir-translate/Translation.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/IR/DebugProgramInstruction.h"
 
 using namespace mlir;
 

@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Protocol/MCP/Client.h"
-#include "lldb/Protocol/MCP/Protocol.h"
-#include "lldb/Protocol/MCP/Transport.h"
-#include "llvm/Support/FormatVariadic.h"
 
 using namespace llvm;
 using namespace lldb_protocol::mcp;

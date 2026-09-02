@@ -8,8 +8,6 @@
 
 #include "mlir/Dialect/OpenACC/OpenACCRuntimeUtils.h"
 
-#include "mlir/IR/SymbolTable.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <optional>
 

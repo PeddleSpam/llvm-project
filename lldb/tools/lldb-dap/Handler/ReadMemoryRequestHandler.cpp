@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "JSONUtils.h"
 #include "RequestHandler.h"
-#include "llvm/ADT/StringExtras.h"
 
 namespace lldb_dap {
 

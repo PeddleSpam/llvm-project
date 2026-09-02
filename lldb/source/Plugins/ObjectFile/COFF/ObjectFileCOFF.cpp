@@ -9,12 +9,9 @@
 #include "ObjectFileCOFF.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/LLDBLog.h"
 
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatAdapters.h"
 
 using namespace lldb;

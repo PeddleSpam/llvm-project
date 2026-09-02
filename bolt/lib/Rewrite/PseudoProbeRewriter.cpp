@@ -15,11 +15,6 @@
 #include "bolt/Rewrite/MetadataRewriters.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/IR/Function.h"
-#include "llvm/MC/MCPseudoProbe.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/LEB128.h"
 #include <memory>
 
 #undef DEBUG_TYPE

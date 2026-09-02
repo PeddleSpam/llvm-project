@@ -8,7 +8,6 @@
 
 #include "RegisterInfos_x86_64_with_base_shared.h"
 
-#include "lldb/lldb-defines.h"
 #include <mutex>
 
 using namespace lldb;

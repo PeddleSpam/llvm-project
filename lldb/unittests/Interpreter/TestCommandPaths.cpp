@@ -8,15 +8,9 @@
 
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandObjectMultiword.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/Status.h"
 
 #include "gtest/gtest.h"
 

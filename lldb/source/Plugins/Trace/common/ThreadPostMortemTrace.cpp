@@ -13,7 +13,6 @@
 
 #include "Plugins/Process/Utility/RegisterContextHistory.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 
 using namespace lldb;
 using namespace lldb_private;

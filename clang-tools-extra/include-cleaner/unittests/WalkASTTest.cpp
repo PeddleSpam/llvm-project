@@ -5,25 +5,18 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../clang/include/clang/Format/Format.h"
+#include "../../../clang/include/clang/Lex/Preprocessor.h"
+#include "../include/clang-include-cleaner/Analysis.h"
+#include "../include/clang-include-cleaner/Record.h"
+#include "../lib/TypesInternal.h"
 #include "AnalysisInternal.h"
-#include "clang-include-cleaner/Types.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/SourceLocation.h"
 #include "clang/Frontend/TextDiagnostic.h"
 #include "clang/Testing/TestAST.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Annotations/Annotations.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstddef>
 #include <string>
 #include <unordered_map>

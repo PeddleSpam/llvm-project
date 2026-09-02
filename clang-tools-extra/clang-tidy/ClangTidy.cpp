@@ -16,32 +16,22 @@
 
 #include "ClangTidy.h"
 #include "ClangTidyCheck.h"
-#include "ClangTidyDiagnosticConsumer.h"
 #include "ClangTidyModule.h"
-#include "ClangTidyProfiling.h"
 #include "ExpandModularHeadersPPCallbacks.h"
 #include "clang-tidy-config.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Basic/DiagnosticFrontend.h"
 #include "clang/Format/Format.h"
 #include "clang/Frontend/ASTConsumers.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Frontend/MultiplexConsumer.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Lex/PreprocessorOptions.h"
 #include "clang/Rewrite/Frontend/FixItRewriter.h"
-#include "clang/Tooling/Core/Diagnostic.h"
 #include "clang/Tooling/DiagnosticsYaml.h" // IWYU pragma: keep
-#include "clang/Tooling/Refactoring.h"
-#include "clang/Tooling/Tooling.h"
 #include "llvm/Support/Process.h"
 #include <memory>
 #include <utility>
 
 #if CLANG_TIDY_ENABLE_STATIC_ANALYZER
-#include "clang/Analysis/PathDiagnostic.h"
 #include "clang/StaticAnalyzer/Core/AnalyzerOptions.h"
 #include "clang/StaticAnalyzer/Frontend/AnalysisConsumer.h"
 #endif // CLANG_TIDY_ENABLE_STATIC_ANALYZER

@@ -7,18 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "FindSymbols.h"
-#include "Headers.h"
 #include "RIFF.h"
 #include "index/Serialization.h"
 #include "support/Logger.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
-#include "llvm/Support/Compression.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #ifdef LLVM_ON_UNIX
 #include <sys/resource.h>
 #endif

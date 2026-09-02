@@ -13,6 +13,7 @@
 #include "ValueProfileCollector.h"
 #include "../../../include/llvm/Analysis/IndirectCallVisitor.h"
 #include "../../../include/llvm/Analysis/TargetLibraryInfo.h"
+#include "../../../include/llvm/IR/InstVisitor.h"
 #include "ValueProfilePlugins.inc"
 
 using namespace llvm;

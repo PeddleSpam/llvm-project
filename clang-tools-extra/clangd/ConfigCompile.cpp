@@ -24,25 +24,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "CompileCommands.h"
-#include "Config.h"
 #include "ConfigFragment.h"
-#include "ConfigProvider.h"
 #include "Diagnostics.h"
 #include "Feature.h"
 #include "TidyProvider.h"
 #include "support/Logger.h"
-#include "support/Path.h"
 #include "support/Trace.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Regex.h"
-#include "llvm/Support/SMLoc.h"
-#include "llvm/Support/SourceMgr.h"
 #include <memory>
 #include <optional>
 #include <string>

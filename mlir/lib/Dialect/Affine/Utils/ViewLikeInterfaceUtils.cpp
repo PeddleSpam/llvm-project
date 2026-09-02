@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Affine/ViewLikeInterfaceUtils.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 using namespace affine;

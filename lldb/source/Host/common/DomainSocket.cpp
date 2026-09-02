@@ -14,8 +14,6 @@
 
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
 
 #include <algorithm>
 #include <cstddef>

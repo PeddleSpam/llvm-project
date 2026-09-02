@@ -12,14 +12,10 @@
 
 #include "Serializer.h"
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
 #include "mlir/IR/RegionGraphTraits.h"
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
-#include "mlir/Target/SPIRV/SPIRVExtInstSets.h"
 #include "llvm/ADT/DepthFirstIterator.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatVariadic.h"
 
 #define DEBUG_TYPE "spirv-serialization"

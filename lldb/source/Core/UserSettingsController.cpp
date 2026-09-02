@@ -8,9 +8,6 @@
 
 #include "lldb/Core/UserSettingsController.h"
 
-#include "lldb/Interpreter/OptionValueProperties.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
 
 #include <memory>
 

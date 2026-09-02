@@ -12,7 +12,6 @@
 #include "Plugins/Process/minidump/RegisterContextMinidump_x86_64.h"
 #include "Plugins/Process/minidump/RegisterContextMinidump_ARM.h"
 #include "lldb/Utility/DataBuffer.h"
-#include "llvm/ADT/StringRef.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

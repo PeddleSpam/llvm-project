@@ -6,39 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/StackFrame.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Disassembler.h"
-#include "lldb/Core/FormatEntity.h"
-#include "lldb/Core/Mangled.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Value.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContextScope.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/VariableList.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/StackFrameRecognizer.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
 #include "lldb/ValueObject/DILEval.h"
-#include "lldb/ValueObject/DILLexer.h"
-#include "lldb/ValueObject/DILParser.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 #include "lldb/ValueObject/ValueObjectMemory.h"
 #include "lldb/ValueObject/ValueObjectVariable.h"
 
-#include "lldb/lldb-enumerations.h"
 
 #include <memory>
 

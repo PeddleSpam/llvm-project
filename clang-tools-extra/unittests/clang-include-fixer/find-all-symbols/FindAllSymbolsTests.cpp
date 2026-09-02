@@ -7,20 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "FindAllSymbolsAction.h"
-#include "HeaderMapCollector.h"
-#include "SymbolInfo.h"
-#include "SymbolReporter.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/PCHContainerOperations.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gtest/gtest.h"
 #include <memory>
 #include <string>

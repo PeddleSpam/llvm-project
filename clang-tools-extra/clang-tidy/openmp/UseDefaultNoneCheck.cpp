@@ -7,10 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseDefaultNoneCheck.h"
-#include "clang/AST/OpenMPClause.h"
-#include "clang/AST/StmtOpenMP.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 
 using namespace clang::ast_matchers;
 

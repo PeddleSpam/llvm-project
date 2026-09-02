@@ -12,30 +12,12 @@
 #include <memory>
 #include <optional>
 
-#include "lldb/Core/Module.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/StreamString.h"
 
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/SymbolContextScope.h"
-#include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeList.h"
-#include "lldb/Symbol/TypeSystem.h"
 
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-private-enumerations.h"
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/SaveAndRestore.h"
 
 using namespace lldb;

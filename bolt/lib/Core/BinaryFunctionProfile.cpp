@@ -11,11 +11,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/BinaryBasicBlock.h"
 #include "bolt/Core/BinaryFunction.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 
 #undef  DEBUG_TYPE
 #define DEBUG_TYPE "bolt-prof"

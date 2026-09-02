@@ -8,9 +8,7 @@
 
 #include "InMemorySymbolIndex.h"
 #include "IncludeFixer.h"
-#include "SymbolIndexManager.h"
 #include "unittests/Tooling/RewriterTestContext.h"
-#include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 
 namespace clang {

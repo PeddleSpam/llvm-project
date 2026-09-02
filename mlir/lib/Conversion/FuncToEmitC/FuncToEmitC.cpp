@@ -16,11 +16,8 @@
 #include "mlir/Conversion/ConvertToEmitC/ToEmitCInterface.h"
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/SymbolTable.h"
 #include "mlir/Transforms/DialectConversion.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/LogicalResult.h"
 
 using namespace mlir;
 

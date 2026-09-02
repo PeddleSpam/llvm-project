@@ -9,13 +9,7 @@
 #include "lldb/Utility/Scalar.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-types.h"
-#include "llvm/ADT/APSInt.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringExtras.h"
 
 #include <algorithm>

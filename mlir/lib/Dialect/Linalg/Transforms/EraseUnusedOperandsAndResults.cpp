@@ -8,7 +8,6 @@
 
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
 
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 
 using namespace mlir;
 using namespace mlir::linalg;

@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "UniqueDWARFASTType.h"
 #include "SymbolFileDWARF.h"
 
-#include "lldb/Core/Declaration.h"
 #include "lldb/Target/Language.h"
 
 using namespace lldb_private::plugin::dwarf;

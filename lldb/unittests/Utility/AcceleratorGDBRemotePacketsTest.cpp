@@ -8,9 +8,7 @@
 
 #include "lldb/Utility/AcceleratorGDBRemotePackets.h"
 #include "TestingSupport/TestUtilities.h"
-#include "llvm/Support/JSON.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace llvm;

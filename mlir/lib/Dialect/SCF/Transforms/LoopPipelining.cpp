@@ -10,17 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Patterns.h"
-#include "mlir/Dialect/SCF/Transforms/Transforms.h"
 #include "mlir/Dialect/SCF/Utils/Utils.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/ADT/MapVector.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/MathExtras.h"
 
 #define DEBUG_TYPE "scf-loop-pipelining"
 

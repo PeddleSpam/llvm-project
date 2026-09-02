@@ -8,13 +8,7 @@
 
 #include "../clang-tidy/utils/LexerUtils.h"
 
-#include "clang/AST/DeclCXX.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Frontend/ASTUnit.h"
-#include "clang/Serialization/PCHContainerOperations.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Annotations/Annotations.h"
 #include "gtest/gtest.h"
 

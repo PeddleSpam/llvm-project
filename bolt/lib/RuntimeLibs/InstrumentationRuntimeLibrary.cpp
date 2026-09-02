@@ -12,12 +12,7 @@
 
 #include "bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/JumpTable.h"
-#include "bolt/Core/Linker.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/Support/Alignment.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 using namespace bolt;

@@ -7,6 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Model/BuildNamespace.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Model/EntityLinkage.h"
 #include "../ModelStringConversions.h"
 
 namespace clang::ssaf {

@@ -11,13 +11,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
 #include "mlir/Dialect/Vector/Utils/VectorUtils.h"
 #include "mlir/Dialect/X86/Transforms.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
 
 using namespace mlir;

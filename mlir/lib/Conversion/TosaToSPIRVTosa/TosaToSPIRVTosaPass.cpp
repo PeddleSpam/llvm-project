@@ -14,14 +14,7 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/TargetAndABI.h"
-#include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/CommandLine.h"
 
 #include <algorithm>
 #include <string>

@@ -7,25 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectImplementation.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Transforms/DialectConversion.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/LogicalResult.h"
 #include <variant>
 
 using namespace mlir;

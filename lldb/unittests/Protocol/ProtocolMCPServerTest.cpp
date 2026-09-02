@@ -9,24 +9,9 @@
 #include "ProtocolMCPTestUtilities.h" // IWYU pragma: keep
 #include "TestingSupport/Host/JSONTransportTestUtilities.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/JSONTransport.h"
-#include "lldb/Host/MainLoop.h"
-#include "lldb/Host/MainLoopBase.h"
 #include "lldb/Host/Socket.h"
-#include "lldb/Protocol/MCP/MCPError.h"
-#include "lldb/Protocol/MCP/Protocol.h"
-#include "lldb/Protocol/MCP/Resource.h"
 #include "lldb/Protocol/MCP/Server.h"
-#include "lldb/Protocol/MCP/Tool.h"
-#include "lldb/Protocol/MCP/Transport.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <future>
 #include <memory>
 #include <optional>

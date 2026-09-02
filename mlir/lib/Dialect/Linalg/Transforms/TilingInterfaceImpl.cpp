@@ -9,23 +9,11 @@
 #include "mlir/Dialect/Linalg/Transforms/TilingInterfaceImpl.h"
 
 #include "mlir/Analysis/SliceAnalysis.h"
-#include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Affine/Utils.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/Arith/Utils/Utils.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Utils/Utils.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/Interfaces/TilingInterface.h"
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/Support/Debug.h"
 #include <optional>
 
 #define DEBUG_TYPE "linalg-tiling-interface-impl"

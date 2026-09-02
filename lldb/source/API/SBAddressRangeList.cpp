@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBAddressRangeList.h"
 #include "Utils.h"
-#include "lldb/API/SBAddressRange.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/Core/AddressRangeListImpl.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Stream.h"
 
 #include <memory>
 

@@ -7,9 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "TimeSubtractionCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "DurationRewriter.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Lexer.h"
 #include <optional>
 

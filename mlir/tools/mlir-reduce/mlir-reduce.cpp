@@ -14,7 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Dialect.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/InitAllDialects.h"
 #include "mlir/InitAllPasses.h"
 #include "mlir/Tools/mlir-reduce/MlirReduceMain.h"

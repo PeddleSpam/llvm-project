@@ -6,25 +6,19 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Socket.h"
 
-#include "lldb/Host/Config.h"
+#include "../../../include/lldb/Host/windows/DomainSocketWindows.h"
+#include "../../../include/lldb/Host/windows/MainLoopWindows.h"
 #include "lldb/Host/Host.h"
-#include "lldb/Host/MainLoop.h"
-#include "lldb/Host/SocketAddress.h"
 #include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Host/common/UDPSocket.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/Regex.h"
 #include "llvm/Support/WindowsError.h"
 
-#include "lldb/Host/DomainSocket.h"
 
 #if LLDB_ENABLE_POSIX
 #include <arpa/inet.h>

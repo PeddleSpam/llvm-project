@@ -12,16 +12,10 @@
 #include "Plugins/Process/gdb-remote/GDBRemoteCommunicationServerLLGS.h"
 #include "Plugins/Process/gdb-remote/ProcessGDBRemoteLog.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/ProcessLaunchInfo.h"
-#include "lldb/Host/Socket.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/Connection.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/Support/FormatVariadic.h"
 
 #include <cstdlib>
 

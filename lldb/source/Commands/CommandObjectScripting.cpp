@@ -7,24 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "CommandObjectScripting.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/DataFormatters/DataVisualization.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/Interfaces/ScriptedInterfaceUsages.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/ADT/StringMap.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -7,19 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Dex.h"
-#include "FileDistance.h"
 #include "FuzzyMatch.h"
 #include "Quality.h"
-#include "URI.h"
-#include "index/Index.h"
-#include "index/dex/Iterator.h"
-#include "index/dex/Token.h"
 #include "index/dex/Trigram.h"
 #include "support/Logger.h"
 #include "support/Trace.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringSet.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include <algorithm>

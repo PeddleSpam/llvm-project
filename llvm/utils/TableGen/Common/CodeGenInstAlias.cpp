@@ -12,6 +12,7 @@
 
 #include "CodeGenInstAlias.h"
 #include "../../../include/llvm/Support/ModRef.h"
+#include "../Basic/CodeGenIntrinsics.h"
 #include "CodeGenRegisters.h"
 #include "CodeGenTarget.h"
 #include "llvm/TableGen/Error.h"

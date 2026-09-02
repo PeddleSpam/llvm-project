@@ -14,13 +14,9 @@
 #endif
 
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Socket.h"
-#include "lldb/Host/SocketAddress.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/SelectHelper.h"
-#include "lldb/Utility/Timeout.h"
 
 #include <cerrno>
 #include <cstdlib>
@@ -37,15 +33,12 @@
 #include <sstream>
 
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/ErrorHandling.h"
 #if defined(__APPLE__)
 #include "llvm/ADT/SmallVector.h"
 #endif
 #include "lldb/Host/Host.h"
-#include "lldb/Host/Socket.h"
 #include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Host/common/UDPSocket.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
 

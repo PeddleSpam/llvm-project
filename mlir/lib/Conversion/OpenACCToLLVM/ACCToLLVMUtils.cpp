@@ -9,9 +9,6 @@
 #include "mlir/Conversion/OpenACCToLLVM/ACCToLLVMUtils.h"
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "llvm/ADT/Hashing.h"
-#include "llvm/ADT/SmallString.h"
 
 using namespace mlir;
 using namespace mlir::acc;

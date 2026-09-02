@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Config.h"
 #include "lldb/Host/File.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/lldb-forward.h"
 #include "llvm/Testing/Support/Error.h"
 
 #if LLDB_ENABLE_LIBEDIT

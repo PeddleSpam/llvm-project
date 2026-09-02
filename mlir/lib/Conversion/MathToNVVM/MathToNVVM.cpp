@@ -7,9 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/MathToNVVM/MathToNVVM.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
+#include "../../../include/mlir/Conversion/LLVMCommon/LowerFunctionDiscardablesToLLVM.h"
+#include "../../../include/mlir/Conversion/LLVMCommon/Pattern.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/LLVMIR/NVVMDialect.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"

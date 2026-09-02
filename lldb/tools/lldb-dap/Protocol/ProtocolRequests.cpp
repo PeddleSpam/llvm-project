@@ -6,16 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Protocol/ProtocolRequests.h"
 #include "JSONUtils.h"
-#include "Protocol/ProtocolBase.h"
-#include "Protocol/ProtocolTypes.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Base64.h"
-#include "llvm/Support/JSON.h"
 #include <optional>
 #include <utility>
 

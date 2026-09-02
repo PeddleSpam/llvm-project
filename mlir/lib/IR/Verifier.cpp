@@ -25,14 +25,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/Dominance.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/IR/RegionKindInterface.h"
 #include "mlir/IR/Threading.h"
-#include "llvm/ADT/PointerIntPair.h"
 #include <optional>
 
 using namespace mlir;

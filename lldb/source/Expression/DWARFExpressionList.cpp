@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Expression/DWARFExpressionList.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Symbol/Function.h"
 #include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugLoc.h"
 #include "llvm/DebugInfo/DWARF/DWARFFormValue.h"
 

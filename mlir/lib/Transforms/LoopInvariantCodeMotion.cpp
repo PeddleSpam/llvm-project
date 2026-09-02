@@ -12,7 +12,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/LoopLikeInterface.h"
 #include "mlir/Transforms/LoopInvariantCodeMotionUtils.h"
 

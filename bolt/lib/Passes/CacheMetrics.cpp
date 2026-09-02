@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/CacheMetrics.h"
-#include "bolt/Core/BinaryBasicBlock.h"
 #include "bolt/Core/BinaryFunction.h"
 #include <cmath>
 

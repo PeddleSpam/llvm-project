@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "support/Markup.h"
 #include "clang/Basic/CharInfo.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstddef>
 #include <iterator>
 #include <memory>

@@ -9,8 +9,6 @@
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include <optional>
 
 using namespace mlir;

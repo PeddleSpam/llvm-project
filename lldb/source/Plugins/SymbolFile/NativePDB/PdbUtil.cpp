@@ -10,7 +10,6 @@
 
 #include "DWARFLocationExpression.h"
 #include "PdbIndex.h"
-#include "PdbSymUid.h"
 
 #include "llvm/DebugInfo/CodeView/CVTypeVisitor.h"
 #include "llvm/DebugInfo/CodeView/SymbolDeserializer.h"
@@ -22,7 +21,6 @@
 #include "Plugins/SymbolFile/NativePDB/CodeViewRegisterMapping.h"
 #include "lldb/Symbol/Block.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace lldb_private;
 using namespace lldb_private::npdb;

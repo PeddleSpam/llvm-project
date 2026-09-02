@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticInstallAPI.h"
 #include "DiagnosticBuilderWrappers.h"
 #include "clang/InstallAPI/FrontendRecords.h"
 #include "llvm/Demangle/Demangle.h"

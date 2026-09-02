@@ -7,22 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/IRDLToCpp/IRDLToCpp.h"
-#include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "TemplatingUtils.h"
 
 using namespace mlir;
 
 constexpr char headerTemplateText[] =
-#include "Templates/Header.txt"
     ;
 
 constexpr char declarationMacroFlag[] = "GEN_DIALECT_DECL_HEADER";
@@ -176,7 +169,6 @@ static LogicalResult generateOpList(irdl::DialectOp &dialect,
 static LogicalResult generateTypeInclude(irdl::TypeOp type, raw_ostream &output,
                                          irdl::detail::dictionary &dict) {
   static const auto typeDeclTemplate = irdl::detail::Template(
-#include "Templates/TypeDecl.txt"
   );
 
   fillDict(dict, getStrings(type));
@@ -285,7 +277,6 @@ static LogicalResult generateOperationInclude(irdl::OperationOp op,
                                               raw_ostream &output,
                                               irdl::detail::dictionary &dict) {
   static const auto perOpDeclTemplate = irdl::detail::Template(
-#include "Templates/PerOperationDecl.txt"
   );
   const auto opStrings = getStrings(op);
   fillDict(dict, opStrings);
@@ -308,10 +299,8 @@ static LogicalResult generateInclude(irdl::DialectOp dialect,
                                      raw_ostream &output,
                                      DialectStrings &dialectStrings) {
   static const auto dialectDeclTemplate = irdl::detail::Template(
-#include "Templates/DialectDecl.txt"
   );
   static const auto typeHeaderDeclTemplate = irdl::detail::Template(
-#include "Templates/TypeHeaderDecl.txt"
   );
 
   irdl::detail::dictionary dict;
@@ -458,7 +447,6 @@ static void generateVerifiers(irdl::detail::dictionary &dict,
 static std::string generateOpDefinition(irdl::detail::dictionary &dict,
                                         irdl::OperationOp op) {
   static const auto perOpDefTemplate = mlir::irdl::detail::Template{
-#include "Templates/PerOperationDef.txt"
   };
 
   auto opStrings = getStrings(op);
@@ -540,13 +528,10 @@ static LogicalResult generateLib(irdl::DialectOp dialect, raw_ostream &output,
                                  DialectStrings &dialectStrings) {
 
   static const auto typeHeaderDefTemplate = mlir::irdl::detail::Template{
-#include "Templates/TypeHeaderDef.txt"
   };
   static const auto typeDefTemplate = mlir::irdl::detail::Template{
-#include "Templates/TypeDef.txt"
   };
   static const auto dialectDefTemplate = mlir::irdl::detail::Template{
-#include "Templates/DialectDef.txt"
   };
 
   irdl::detail::dictionary dict;
@@ -690,7 +675,6 @@ LogicalResult
 irdl::translateIRDLDialectToCpp(llvm::ArrayRef<irdl::DialectOp> dialects,
                                 raw_ostream &output) {
   static const auto typeDefTempl = detail::Template(
-#include "Templates/TypeDef.txt"
   );
 
   llvm::SmallMapVector<DialectOp, DialectStrings, 2> dialectStringTable;

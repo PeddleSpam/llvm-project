@@ -8,16 +8,9 @@
 
 #include "lldb/Breakpoint/BreakpointLocation.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/ThreadPlanRunToAddress.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include "DynamicLoaderHexagonDYLD.h"
 

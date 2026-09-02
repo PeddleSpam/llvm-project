@@ -7,12 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "NamespaceCommentCheck.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/TokenKinds.h"
-#include "clang/Lex/Lexer.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

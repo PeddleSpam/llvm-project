@@ -9,7 +9,6 @@
 #include <cstdint>
 #include <limits>
 
-#include "mlir/IR/AffineExpr.h"
 #include "mlir/IR/Builders.h"
 #include "gtest/gtest.h"
 

@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Transforms/BubbleDownMemorySpaceCasts.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/MemOpInterfaces.h"
-#include "mlir/Pass/Pass.h"
-#include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 #include "mlir/Transforms/Passes.h"
-#include "llvm/Support/Debug.h"
 
 using namespace mlir;
 

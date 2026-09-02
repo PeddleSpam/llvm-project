@@ -7,10 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "SpecialMemberFunctionsCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
-#include "clang/AST/ASTContext.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "llvm/ADT/StringExtras.h"
 
 #define DEBUG_TYPE "clang-tidy"
 

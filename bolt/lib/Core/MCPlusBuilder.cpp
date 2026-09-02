@@ -11,16 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/MCPlusBuilder.h"
-#include "bolt/Core/MCPlus.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCInstrAnalysis.h"
-#include "llvm/MC/MCInstrDesc.h"
-#include "llvm/MC/MCInstrInfo.h"
-#include "llvm/MC/MCRegisterInfo.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 #include <cstdint>
 
 #define DEBUG_TYPE "mcplus"

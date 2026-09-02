@@ -7,17 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantNestedIfCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/Stmt.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/Tooling/FixIt.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include <cassert>
 #include <optional>
 #include <string>

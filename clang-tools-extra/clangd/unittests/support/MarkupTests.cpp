@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "support/Markup.h"
 #include "clang/Basic/LLVM.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

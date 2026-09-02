@@ -9,13 +9,7 @@
 #include "Annotations.h"
 #include "ConfigFragment.h"
 #include "ConfigTesting.h"
-#include "Protocol.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/SMLoc.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

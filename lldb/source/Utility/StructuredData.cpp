@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Utility/StructuredData.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/Status.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/MemoryBuffer.h"

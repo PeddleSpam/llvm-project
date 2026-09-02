@@ -13,18 +13,10 @@
 #include "mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.h"
 #include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/UB/IR/UBOps.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/IR/TypeUtilities.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Transforms/InliningUtils.h"
-#include "llvm/ADT/STLExtras.h"
 #include <numeric>
 
 #include "mlir/Dialect/ControlFlow/IR/ControlFlowOpsDialect.cpp.inc"

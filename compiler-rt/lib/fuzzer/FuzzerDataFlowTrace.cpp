@@ -10,8 +10,6 @@
 
 #include "FuzzerDataFlowTrace.h"
 
-#include "FuzzerCommand.h"
-#include "FuzzerIO.h"
 #include "FuzzerRandom.h"
 #include "FuzzerSHA1.h"
 #include "FuzzerUtil.h"

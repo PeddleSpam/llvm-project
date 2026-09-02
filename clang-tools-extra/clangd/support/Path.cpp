@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "support/Path.h"
-#include "llvm/Support/Path.h"
 namespace clang {
 namespace clangd {
 

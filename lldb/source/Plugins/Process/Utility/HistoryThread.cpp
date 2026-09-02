@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/lldb-private.h"
 
 #include "Plugins/Process/Utility/HistoryThread.h"
 
@@ -14,9 +13,7 @@
 #include "Plugins/Process/Utility/RegisterContextHistory.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrameList.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include <memory>
 

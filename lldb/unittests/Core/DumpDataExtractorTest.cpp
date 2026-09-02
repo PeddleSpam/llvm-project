@@ -10,8 +10,6 @@
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/StreamString.h"
 #include "gtest/gtest.h"
 #include <complex>

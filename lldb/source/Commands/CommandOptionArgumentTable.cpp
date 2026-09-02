@@ -9,7 +9,6 @@
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
 #include "lldb/DataFormatters/FormatManager.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Utility/StreamString.h"
 
 using namespace lldb;
 using namespace lldb_private;

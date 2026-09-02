@@ -39,28 +39,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/OpenACC/OpenACCParMapping.h"
-#include "mlir/Dialect/OpenACC/OpenACCUtils.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsCG.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsLoop.h"
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
-#include "mlir/IR/ValueRange.h"
-#include "mlir/Interfaces/LoopLikeInterface.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
 
 namespace mlir {
 namespace acc {

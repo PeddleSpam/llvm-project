@@ -11,8 +11,6 @@
 #include "support/Logger.h"
 #include "support/Shutdown.h"
 #include "support/ThreadCrashReporter.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/Error.h"
 #include <optional>
 #include <system_error>
 

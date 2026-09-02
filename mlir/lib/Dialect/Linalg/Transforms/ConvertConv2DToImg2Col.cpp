@@ -7,20 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Affine/Utils.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/Dialect/Utils/ReshapeOpsUtils.h"
-#include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include <cassert>
 #include <utility>
 

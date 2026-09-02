@@ -6,36 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/Variable.h"
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/CompilerDecl.h"
-#include "lldb/Symbol/CompilerDeclContext.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/ValueType.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectVariable.h"
 
-#include "llvm/ADT/Twine.h"
 
 using namespace lldb;
 using namespace lldb_private;

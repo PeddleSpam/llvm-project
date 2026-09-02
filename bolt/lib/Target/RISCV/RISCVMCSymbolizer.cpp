@@ -7,12 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "RISCVMCSymbolizer.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/MCPlusBuilder.h"
-#include "bolt/Core/Relocation.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/MC/MCInst.h"
 
 #define DEBUG_TYPE "bolt-symbolizer"
 

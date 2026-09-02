@@ -42,8 +42,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/ABI/Targets/Test/TestTarget.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/Support/Alignment.h"
 
 using namespace mlir;
 using namespace mlir::abi;

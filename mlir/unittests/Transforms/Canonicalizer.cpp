@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Parser/Parser.h"
-#include "mlir/Pass/PassManager.h"
-#include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 #include "mlir/Transforms/Passes.h"
 #include "gtest/gtest.h"
 

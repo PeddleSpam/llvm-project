@@ -9,7 +9,6 @@
 #include "mlir/Dialect/MLProgram/Transforms/Passes.h"
 
 #include "mlir/Dialect/MLProgram/IR/MLProgram.h"
-#include "mlir/IR/BuiltinOps.h"
 
 namespace mlir {
 namespace ml_program {

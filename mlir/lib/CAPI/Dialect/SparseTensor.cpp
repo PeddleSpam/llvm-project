@@ -7,11 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Dialect/SparseTensor.h"
-#include "mlir-c/IR.h"
 #include "mlir/CAPI/AffineMap.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/Dialect/SparseTensor/IR/SparseTensor.h"
-#include "mlir/Support/LLVM.h"
 
 using namespace llvm;
 using namespace mlir::sparse_tensor;

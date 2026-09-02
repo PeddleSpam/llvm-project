@@ -7,12 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/MemoryMonitor.h"
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Error.h"
 #include <cstddef>
 #include <cstdio>
 #include <cstring>

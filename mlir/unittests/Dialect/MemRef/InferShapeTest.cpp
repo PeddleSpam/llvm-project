@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

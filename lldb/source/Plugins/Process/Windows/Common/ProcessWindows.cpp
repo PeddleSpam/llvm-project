@@ -9,46 +9,27 @@
 #include "ProcessWindows.h"
 
 // Windows includes
-#include "lldb/Host/windows/windows.h"
 #include <dbghelp.h>
 #include <excpt.h>
 #include <psapi.h>
 
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/IOHandler.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/HostNativeProcessBase.h"
-#include "lldb/Host/HostProcess.h"
-#include "lldb/Host/Pipe.h"
 #include "lldb/Host/PseudoTerminal.h"
 #include "lldb/Host/windows/ConnectionConPTYWindows.h"
 #include "lldb/Host/windows/HostThreadWindows.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/ProcessIOHandler.h"
 #include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
 
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/Format.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "DebuggerThread.h"
 #include "ExceptionRecord.h"
-#include "ForwardDecl.h"
 #include "LocalDebugDelegate.h"
 #include "ProcessWindowsLog.h"
 #include "TargetThreadWindows.h"

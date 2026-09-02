@@ -47,19 +47,14 @@
 
 #include "polly/ScheduleOptimizer.h"
 #include "polly/CodeGen/CodeGeneration.h"
-#include "polly/DependenceInfo.h"
 #include "polly/ManualOptimizer.h"
 #include "polly/MatmulOptimizer.h"
 #include "polly/Options.h"
 #include "polly/ScheduleTreeTransform.h"
 #include "polly/ScopInfo.h"
 #include "polly/Support/ISLOStream.h"
-#include "polly/Support/ISLTools.h"
-#include "llvm/ADT/Sequence.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
-#include "llvm/Support/CommandLine.h"
-#include "isl/options.h"
 
 using namespace llvm;
 using namespace polly;

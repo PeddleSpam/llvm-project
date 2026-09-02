@@ -12,8 +12,6 @@
 #include "lldb/Utility/Log.h"
 #include "lldb/Utility/StreamString.h"
 
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FormatAdapters.h"
 

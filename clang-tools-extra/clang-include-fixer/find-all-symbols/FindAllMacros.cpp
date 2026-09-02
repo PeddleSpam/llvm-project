@@ -7,14 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "FindAllMacros.h"
-#include "HeaderMapCollector.h"
 #include "PathConfig.h"
-#include "SymbolInfo.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/IdentifierTable.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Lex/MacroInfo.h"
-#include "clang/Lex/Token.h"
 #include "llvm/Support/Path.h"
 #include <optional>
 

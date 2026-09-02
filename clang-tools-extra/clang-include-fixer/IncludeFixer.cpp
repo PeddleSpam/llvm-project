@@ -7,14 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "IncludeFixer.h"
-#include "clang/Format/Format.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Parse/ParseAST.h"
-#include "clang/Sema/Sema.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 
 #define DEBUG_TYPE "clang-include-fixer"
 

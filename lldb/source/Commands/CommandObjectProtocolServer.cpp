@@ -9,11 +9,8 @@
 #include "CommandObjectProtocolServer.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Core/ProtocolServer.h"
-#include "lldb/Host/Socket.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Utility/UriParser.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/FormatAdapters.h"
 #include <string>
 

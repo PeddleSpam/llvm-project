@@ -6,20 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Location.h"
-#include "mlir/IR/AttributeSupport.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Visitors.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/Hashing.h"
-#include "llvm/ADT/PointerIntPair.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SetVector.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/TrailingObjects.h"
 #include <cassert>
 #include <tuple>
 #include <utility>

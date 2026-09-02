@@ -10,9 +10,7 @@
 
 #include <memory>
 
-#include "llvm-c/Disassembler.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Symbol/UnwindPlan.h"
 #include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/UnwindAssembly.h"

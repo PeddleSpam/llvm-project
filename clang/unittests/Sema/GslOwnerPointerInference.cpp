@@ -6,8 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/Option/Option.h"
+#include "../../../llvm/include/llvm/Support/Timer.h"
 #include "../../include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../include/clang/ASTMatchers/ASTMatchers.h"
+#include "../../include/clang/Frontend/ASTUnit.h"
+#include "../../include/clang/Frontend/FrontendAction.h"
+#include "../../include/clang/Testing/CommandLineArgs.h"
 #include "../../include/clang/Testing/TestClangConfig.h"
+#include "../../include/clang/Tooling/ArgumentsAdjusters.h"
 #include "../../include/clang/Tooling/Tooling.h"
 #include "../ASTMatchers/ASTMatchersTest.h"
 #include "gtest/gtest.h"

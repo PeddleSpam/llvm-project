@@ -8,7 +8,11 @@
 
 #include "llvm/FileCheck/FileCheck.h"
 #include "../../include/llvm/ADT/APInt.h"
+#include "../../include/llvm/ADT/IntrusiveRefCntPtr.h"
 #include "../../include/llvm/ADT/StringMap.h"
+#include "../../include/llvm/ADT/StringMapEntry.h"
+#include "../../include/llvm/Support/AllocatorBase.h"
+#include "../../include/llvm/Support/MemoryBuffer.h"
 #include "../../include/llvm/Support/SourceMgr.h"
 #include "../lib/FileCheck/FileCheckImpl.h"
 #include "llvm/Testing/Support/Error.h"

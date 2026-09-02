@@ -9,14 +9,7 @@
 #include "clang-include-cleaner/Types.h"
 #include "TypesInternal.h"
 #include "clang/AST/Decl.h"
-#include "clang/Basic/FileEntry.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include <vector>
 
 namespace clang::include_cleaner {

@@ -6,6 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../SymbolIndexManager.h"
+#include "../YamlSymbolIndex.h"
 #include "FuzzySymbolIndex.h"
 #include "InMemorySymbolIndex.h"
 #include "IncludeFixer.h"
@@ -16,11 +18,7 @@
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/CommonOptionsParser.h"
-#include "clang/Tooling/Core/Replacement.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/YAMLTraits.h"
 
 using namespace clang;
 using namespace llvm;

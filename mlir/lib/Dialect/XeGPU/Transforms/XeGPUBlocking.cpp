@@ -6,23 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/XeGPU/Transforms/Passes.h"
+#include "../../../../include/mlir/Pass/Pass.h"
 
 #include "mlir/Dialect/Index/IR/IndexDialect.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Patterns.h"
 #include "mlir/Dialect/Vector/Transforms/VectorTransforms.h"
-#include "mlir/Dialect/XeGPU/IR/XeGPU.h"
 #include "mlir/Dialect/XeGPU/Transforms/Transforms.h"
 #include "mlir/Dialect/XeGPU/Transforms/XeGPULayoutImpl.h"
-#include "mlir/Dialect/XeGPU/Utils/XeGPUUtils.h"
-#include "mlir/Interfaces/LoopLikeInterface.h"
 #include "mlir/Pass/PassManager.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SetVector.h"
-#include "llvm/Support/DebugLog.h"
 
 namespace mlir {
 namespace xegpu {

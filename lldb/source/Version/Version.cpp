@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Version/Version.h"
+#include "../../../llvm/include/llvm/ADT/StringRef.h"
 #include "VCSVersion.inc"
 #include "lldb/Version/Version.inc"
 #include "clang/Basic/Version.h"

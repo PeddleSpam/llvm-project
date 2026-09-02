@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Bufferization/IR/ValueBoundsOpInterfaceImpl.h"
 
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
-#include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 using namespace mlir;
 

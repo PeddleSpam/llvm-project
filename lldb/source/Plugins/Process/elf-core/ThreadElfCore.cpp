@@ -6,15 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Target/Unwind.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/ProcessInfo.h"
 
 #include "Plugins/Process/Utility/RegisterContextFreeBSD_i386.h"
 #include "Plugins/Process/Utility/RegisterContextFreeBSD_powerpc.h"
@@ -26,8 +18,6 @@
 #include "Plugins/Process/Utility/RegisterContextNetBSD_x86_64.h"
 #include "Plugins/Process/Utility/RegisterContextOpenBSD_i386.h"
 #include "Plugins/Process/Utility/RegisterContextOpenBSD_x86_64.h"
-#include "Plugins/Process/Utility/RegisterInfoPOSIX_arm.h"
-#include "Plugins/Process/Utility/RegisterInfoPOSIX_arm64.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_ppc64le.h"
 #include "ProcessElfCore.h"
 #include "RegisterContextLinuxCore_x86.h"
@@ -39,7 +29,6 @@
 #include "RegisterContextPOSIXCore_riscv32.h"
 #include "RegisterContextPOSIXCore_riscv64.h"
 #include "RegisterContextPOSIXCore_s390x.h"
-#include "RegisterContextPOSIXCore_x86.h"
 #include "ThreadElfCore.h"
 
 #include <memory>

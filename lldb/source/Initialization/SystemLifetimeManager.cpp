@@ -8,7 +8,6 @@
 
 #include "lldb/Initialization/SystemLifetimeManager.h"
 
-#include "lldb/Initialization/SystemInitializer.h"
 
 #include <utility>
 

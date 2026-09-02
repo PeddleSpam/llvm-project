@@ -10,8 +10,6 @@
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/Host.h"
 
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 

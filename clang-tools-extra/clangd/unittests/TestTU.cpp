@@ -8,17 +8,9 @@
 
 #include "TestTU.h"
 #include "CompileCommands.h"
-#include "Compiler.h"
-#include "Diagnostics.h"
-#include "TestFS.h"
 #include "index/FileIndex.h"
-#include "index/SymbolOrigin.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Frontend/CompilerInvocation.h"
-#include "llvm/ADT/ScopeExit.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdlib>
 
 namespace clang {

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "IncludeFixerContext.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace clang {
 namespace include_fixer {

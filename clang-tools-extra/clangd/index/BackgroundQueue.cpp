@@ -6,6 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Record.h"
 #include "index/Background.h"
 #include "support/Logger.h"
 #include <optional>

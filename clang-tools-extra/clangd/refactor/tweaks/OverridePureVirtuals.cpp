@@ -74,18 +74,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
 #include "support/Token.h"
 
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/TypeBase.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/Support/FormatVariadic.h"
 #include <string>
 
 namespace clang {

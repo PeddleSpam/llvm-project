@@ -28,9 +28,6 @@
 
 #include "ScriptLexer.h"
 #include "Config.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 
 using namespace llvm;

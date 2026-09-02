@@ -7,9 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "SimplifyBooleanExprCheck.h"
-#include "clang/AST/Expr.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/DiagnosticIDs.h"
 #include "clang/Lex/Lexer.h"
 #include "llvm/Support/SaveAndRestore.h"
 

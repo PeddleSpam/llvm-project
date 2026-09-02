@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/OpenACC/OpenACCUtilsGPU.h"
-#include "mlir/IR/SymbolTable.h"
 
 namespace mlir {
 namespace acc {

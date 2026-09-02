@@ -8,7 +8,6 @@
 
 #include "lldb/Symbol/Symbol.h"
 #include "lldb/Core/DataFileCache.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Utility/DataEncoder.h"
 #include "lldb/Utility/DataExtractor.h"
 

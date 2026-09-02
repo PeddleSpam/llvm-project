@@ -8,23 +8,7 @@
 
 #include "mlir/Analysis/DataFlow/DeadCodeAnalysis.h"
 #include "mlir/Analysis/DataFlow/ConstantPropagationAnalysis.h"
-#include "mlir/Analysis/DataFlow/SparseAnalysis.h"
-#include "mlir/Analysis/DataFlowFramework.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
-#include "mlir/IR/ValueRange.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Support/LLVM.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include <cassert>
 #include <optional>

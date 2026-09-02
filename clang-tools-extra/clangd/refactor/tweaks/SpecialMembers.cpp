@@ -5,15 +5,11 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "ParsedAST.h"
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/InsertionPoint.h"
 #include "refactor/Tweak.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/Sema/Sema.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 
 namespace clang {
 namespace clangd {

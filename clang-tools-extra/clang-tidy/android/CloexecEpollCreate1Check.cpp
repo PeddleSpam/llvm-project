@@ -7,6 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "CloexecEpollCreate1Check.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 
 using namespace clang::ast_matchers;

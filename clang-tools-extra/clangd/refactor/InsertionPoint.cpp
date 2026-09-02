@@ -8,8 +8,6 @@
 
 #include "refactor/InsertionPoint.h"
 #include "support/Logger.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DeclObjC.h"
 #include "clang/AST/DeclTemplate.h"
 #include "clang/Basic/SourceManager.h"

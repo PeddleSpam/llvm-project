@@ -8,7 +8,6 @@
 
 #include "lldb/Core/ProtocolServer.h"
 #include "lldb/Core/PluginManager.h"
-#include "llvm/Support/Error.h"
 
 using namespace lldb_private;
 using namespace lldb;

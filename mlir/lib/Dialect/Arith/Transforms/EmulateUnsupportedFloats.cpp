@@ -12,15 +12,9 @@
 
 #include "mlir/Dialect/Arith/Transforms/Passes.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <optional>
 
 namespace mlir::arith {

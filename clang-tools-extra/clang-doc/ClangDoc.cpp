@@ -14,10 +14,7 @@
 
 #include "ClangDoc.h"
 #include "Mapper.h"
-#include "Representation.h"
-#include "clang/AST/ASTConsumer.h"
 #include "clang/Frontend/ASTConsumers.h"
-#include "clang/Frontend/CompilerInstance.h"
 
 namespace clang {
 namespace doc {

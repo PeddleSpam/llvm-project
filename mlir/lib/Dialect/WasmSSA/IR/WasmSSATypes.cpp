@@ -7,9 +7,6 @@
 //===---------------------------------------------------------------------===//
 
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/Types.h"
-#include "llvm/Support/LogicalResult.h"
 
 #include <optional>
 

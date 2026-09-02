@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "MCTargetDesc/MipsInstPrinter.h"
-#include "MCTargetDesc/MipsMCTargetDesc.h"
 #include "MipsCCState.h"
 #include "MipsMachineFunction.h"
 #include "MipsTargetMachine.h"

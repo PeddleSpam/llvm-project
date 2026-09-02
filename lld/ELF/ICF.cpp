@@ -73,17 +73,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "ICF.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "LinkerScript.h"
 #include "OutputSections.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/Support/Parallel.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/xxhash.h"
 #include <algorithm>
 #include <atomic>
 

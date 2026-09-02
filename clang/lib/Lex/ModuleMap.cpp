@@ -11,7 +11,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Basic/CharInfo.h"
 #include "clang/Basic/TargetInfo.h"
 #include "clang/Lex/HeaderSearch.h"

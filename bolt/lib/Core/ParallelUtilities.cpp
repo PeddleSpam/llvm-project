@@ -11,10 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/ParallelUtilities.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "llvm/Support/RWMutex.h"
-#include "llvm/Support/ThreadPool.h"
 #include "llvm/Support/Timer.h"
 #include <mutex>
 

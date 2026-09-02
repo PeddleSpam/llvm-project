@@ -6,18 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Config.h"
 #include "TestIndex.h"
-#include "index/Index.h"
 #include "index/MemIndex.h"
 #include "index/ProjectAware.h"
-#include "index/Ref.h"
-#include "index/Relation.h"
-#include "support/Context.h"
-#include "support/Threading.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <utility>
 

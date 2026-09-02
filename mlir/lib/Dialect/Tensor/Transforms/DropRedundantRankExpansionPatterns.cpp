@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Affine/ViewLikeInterfaceUtils.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/Tensor/Transforms/Transforms.h"
 #include "mlir/Dialect/Tensor/Utils/Utils.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 using namespace mlir::tensor;

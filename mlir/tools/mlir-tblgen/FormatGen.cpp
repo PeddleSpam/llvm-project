@@ -8,7 +8,6 @@
 
 #include "FormatGen.h"
 #include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/TableGen/Error.h"
 
 using namespace mlir;

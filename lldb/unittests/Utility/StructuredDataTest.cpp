@@ -9,10 +9,7 @@
 #include "gtest/gtest.h"
 
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
-#include "llvm/Support/Path.h"
 
 using namespace lldb;
 using namespace lldb_private;

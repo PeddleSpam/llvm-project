@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "RegisterContextUnifiedCore.h"
-#include "lldb/Target/DynamicRegisterInfo.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/StructuredData.h"
 
 using namespace lldb;
 using namespace lldb_private;

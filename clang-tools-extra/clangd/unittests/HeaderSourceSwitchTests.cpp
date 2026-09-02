@@ -6,16 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "HeaderSourceSwitch.h"
 
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestTU.h"
 #include "index/MemIndex.h"
 #include "support/Path.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang {

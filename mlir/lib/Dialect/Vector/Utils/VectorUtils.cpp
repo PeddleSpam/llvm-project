@@ -14,21 +14,10 @@
 
 #include "mlir/Dialect/Affine/Analysis/LoopAnalysis.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/IntegerSet.h"
-#include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/Support/LLVM.h"
 
-#include "llvm/ADT/DenseSet.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/InterleavedRange.h"
 

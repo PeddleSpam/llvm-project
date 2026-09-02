@@ -6,18 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Statusline.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/FormatEntity.h"
-#include "lldb/Host/StreamFile.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Locale.h"
 
 #define ESCAPE "\x1b"
 #define ANSI_NORMAL ESCAPE "[0m"

@@ -12,23 +12,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/TableGen/AttrOrTypeDef.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "mlir/TableGen/GenNameParser.h"
 #include "mlir/TableGen/Interfaces.h"
 #include "mlir/TableGen/Operator.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TableGen/Main.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace llvm;

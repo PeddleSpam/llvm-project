@@ -1,3 +1,6 @@
+#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/float.h"
+#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
+#include "../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>

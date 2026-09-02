@@ -12,7 +12,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "bolt/Passes/PointerAuthCFIFixup.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Core/ParallelUtilities.h"
 #include <cstdlib>
 

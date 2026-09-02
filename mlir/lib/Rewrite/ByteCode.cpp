@@ -12,16 +12,11 @@
 
 #include "ByteCode.h"
 #include "mlir/Analysis/Liveness.h"
-#include "mlir/Dialect/PDL/IR/PDLTypes.h"
 #include "mlir/Dialect/PDLInterp/IR/PDLInterp.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/IR/RegionGraphTraits.h"
 #include "llvm/ADT/IntervalMap.h"
 #include "llvm/ADT/PostOrderIterator.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/InterleavedRange.h"
 #include <numeric>

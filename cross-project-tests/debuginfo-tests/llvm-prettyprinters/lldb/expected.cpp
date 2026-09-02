@@ -1,6 +1,5 @@
 // Test llvm::Expected<T> data formatters.
 
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Support/Error.h"
 #include <cstdio>
 

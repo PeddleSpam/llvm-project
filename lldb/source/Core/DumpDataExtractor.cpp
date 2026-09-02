@@ -8,29 +8,12 @@
 
 #include "lldb/Core/DumpDataExtractor.h"
 
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-forward.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Disassembler.h"
-#include "lldb/Core/ModuleList.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/ExecutionContextScope.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/MemoryTagManager.h"
 #include "lldb/Target/MemoryTagMap.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
 
 #include <limits>
 #include <memory>

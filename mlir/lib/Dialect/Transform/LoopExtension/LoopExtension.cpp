@@ -8,9 +8,7 @@
 
 #include "mlir/Dialect/Transform/LoopExtension/LoopExtension.h"
 
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/LoopExtension/LoopExtensionOps.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 

@@ -9,15 +9,10 @@
 #include "lldb/API/SBSourceManager.h"
 #include "lldb/API/SBDebugger.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/Utility/Instrumentation.h"
 
-#include "lldb/API/SBFileSpec.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/SourceManager.h"
-#include "lldb/Utility/Stream.h"
 
-#include "lldb/Target/Target.h"
 
 namespace lldb_private {
 class SourceManagerImpl {

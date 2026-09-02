@@ -6,12 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "FeatureModule.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using testing::ElementsAre;
 

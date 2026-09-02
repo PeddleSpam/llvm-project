@@ -11,14 +11,8 @@
 #include <cstring>
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "llvm/Support/Compiler.h"
 
 #include "RegisterContextPOSIX_arm.h"
 

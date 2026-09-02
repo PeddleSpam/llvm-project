@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/ConnectionFileDescriptor.h"
+#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Host/common/TCPSocket.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/Utility/UriParser.h"
 
 #include "PlatformAndroidRemoteGDBServer.h"

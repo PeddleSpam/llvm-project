@@ -6,31 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/IR.h"
-#include "mlir-c/Support.h"
 
 #include "mlir/AsmParser/AsmParser.h"
-#include "mlir/Bytecode/BytecodeWriter.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/IRMapping.h"
 #include "mlir/CAPI/Support.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/OwningOpRef.h"
-#include "mlir/IR/Types.h"
-#include "mlir/IR/Value.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Visitors.h"
 #include "mlir/Interfaces/InferTypeOpInterface.h"
 #include "mlir/Parser/Parser.h"
-#include "llvm/ADT/SmallPtrSet.h"
 
 #include <cstddef>
 #include <memory>

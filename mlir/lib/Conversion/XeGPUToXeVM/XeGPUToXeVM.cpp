@@ -7,32 +7,21 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/XeGPUToXeVM/XeGPUToXeVM.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "mlir/Dialect/LLVMIR/XeVMDialect.h"
 
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/Index/IR/IndexDialect.h"
 #include "mlir/Dialect/Index/IR/IndexOps.h"
 #include "mlir/Dialect/LLVMIR/FunctionCallUtils.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Patterns.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/Dialect/XeGPU/IR/XeGPU.h"
 #include "mlir/Dialect/XeGPU/Utils/XeGPUUtils.h"
 #include "mlir/Dialect/XeGPU/uArch/uArchCommon.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/FormatVariadic.h"
 
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Types.h"
 
-#include "llvm/ADT/TypeSwitch.h"
 
 #include <numeric>
 

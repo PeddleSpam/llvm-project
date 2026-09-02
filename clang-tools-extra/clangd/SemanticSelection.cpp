@@ -7,25 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "SemanticSelection.h"
-#include "ParsedAST.h"
-#include "Protocol.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Selection.h"
-#include "SourceCode.h"
 #include "support/Bracket.h"
 #include "support/DirectiveTree.h"
 #include "support/Token.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TokenKinds.h"
 #include "clang/Tooling/Syntax/BuildTree.h"
-#include "clang/Tooling/Syntax/Nodes.h"
-#include "clang/Tooling/Syntax/TokenBufferTokenManager.h"
-#include "clang/Tooling/Syntax/Tree.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include <optional>
 #include <queue>
 #include <vector>

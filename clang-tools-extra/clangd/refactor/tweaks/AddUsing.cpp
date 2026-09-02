@@ -6,24 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "Config.h"
-#include "SourceCode.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/NestedNameSpecifier.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/Type.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include <string>
 #include <tuple>
 #include <utility>

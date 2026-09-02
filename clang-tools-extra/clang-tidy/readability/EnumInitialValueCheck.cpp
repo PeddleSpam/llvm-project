@@ -7,14 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "EnumInitialValueCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/Decl.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/SourceLocation.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
 
 using namespace clang::ast_matchers;
 

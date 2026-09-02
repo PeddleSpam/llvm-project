@@ -6,23 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ParsedAST.h"
-#include "Protocol.h"
-#include "Selection.h"
-#include "SourceCode.h"
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "XRefs.h"
 #include "refactor/Tweak.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 #include <cstddef>
 #include <functional>

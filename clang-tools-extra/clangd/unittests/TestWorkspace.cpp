@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestWorkspace.h"
-#include "clang-include-cleaner/Record.h"
 #include "index/FileIndex.h"
 #include "gtest/gtest.h"
 #include <memory>

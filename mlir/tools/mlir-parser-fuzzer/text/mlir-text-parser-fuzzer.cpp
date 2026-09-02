@@ -11,11 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Parser/Parser.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Compiler.h"
 
 using namespace mlir;
 

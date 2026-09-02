@@ -12,8 +12,6 @@
 
 #include "LLDBTableGenBackends.h"
 #include "LLDBTableGenUtils.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/StringMatcher.h"
 #include "llvm/TableGen/TableGenBackend.h"
 #include <optional>

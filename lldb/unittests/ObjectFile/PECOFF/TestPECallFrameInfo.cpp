@@ -7,7 +7,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "Plugins/ObjectFile/PECOFF/ObjectFilePECOFF.h"
 #include "Plugins/Process/Utility/lldb-x86-register-enums.h"
@@ -17,7 +16,6 @@
 #include "lldb/Core/Module.h"
 #include "lldb/Symbol/CallFrameInfo.h"
 #include "lldb/Symbol/UnwindPlan.h"
-#include "llvm/Testing/Support/Error.h"
 
 using namespace lldb_private;
 using namespace lldb;

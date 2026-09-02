@@ -8,13 +8,9 @@
 
 #include "mlir/Dialect/Vector/Transforms/BufferizableOpInterfaceImpl.h"
 
-#include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Bufferization/IR/DstBufferizableOpInterfaceImpl.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Value.h"
 
 using namespace mlir;
 using namespace mlir::bufferization;

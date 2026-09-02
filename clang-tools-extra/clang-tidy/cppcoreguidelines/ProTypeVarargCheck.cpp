@@ -7,14 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "ProTypeVarargCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Matchers.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Basic/TargetInfo.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
-#include "clang/Lex/Token.h"
 
 using namespace clang::ast_matchers;
 

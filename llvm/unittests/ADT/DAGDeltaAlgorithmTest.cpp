@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/ADT/DAGDeltaAlgorithm.h"
-#include "llvm/ADT/STLExtras.h"
 #include "gtest/gtest.h"
 #include <cstdarg>
 using namespace llvm;

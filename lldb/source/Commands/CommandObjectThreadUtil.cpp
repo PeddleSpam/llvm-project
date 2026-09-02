@@ -10,7 +10,6 @@
 
 #include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 
 using namespace lldb;
 using namespace lldb_private;

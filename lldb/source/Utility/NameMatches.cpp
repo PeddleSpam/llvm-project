@@ -8,7 +8,6 @@
 #include "lldb/Utility/NameMatches.h"
 #include "lldb/Utility/RegularExpression.h"
 
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb_private;
 

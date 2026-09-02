@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestBase.h"
-#include "lldb/Host/Host.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace llgs_tests;
 using namespace lldb_private;

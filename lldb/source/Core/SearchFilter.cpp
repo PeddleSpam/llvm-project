@@ -6,22 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/SearchFilter.h"
 
-#include "lldb/Breakpoint/Breakpoint.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-enumerations.h"
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <memory>
 #include <mutex>

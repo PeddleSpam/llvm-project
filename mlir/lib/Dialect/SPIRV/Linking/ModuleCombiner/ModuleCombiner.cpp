@@ -13,12 +13,6 @@
 #include "mlir/Dialect/SPIRV/Linking/ModuleCombiner.h"
 
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/SymbolTable.h"
-#include "llvm/ADT/Hashing.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
 
 using namespace mlir;
 

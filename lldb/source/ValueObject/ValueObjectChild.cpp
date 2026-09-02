@@ -8,14 +8,6 @@
 
 #include "lldb/ValueObject/ValueObjectChild.h"
 
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/Flags.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-forward.h"
 
 #include <functional>
 #include <memory>

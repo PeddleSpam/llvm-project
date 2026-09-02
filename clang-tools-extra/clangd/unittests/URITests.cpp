@@ -8,9 +8,6 @@
 
 #include "Matchers.h"
 #include "TestFS.h"
-#include "URI.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

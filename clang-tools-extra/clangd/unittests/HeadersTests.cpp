@@ -6,24 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Headers.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 
-#include "Compiler.h"
 #include "Matchers.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "clang/Basic/TokenKinds.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendActions.h"
-#include "clang/Tooling/Inclusions/HeaderIncludes.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang {

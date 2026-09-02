@@ -16,17 +16,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "FileDistance.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Record.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Quality.h"
-#include "TestFS.h"
 #include "TestTU.h"
 #include "index/FileIndex.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/Sema/CodeCompleteConsumer.h"
-#include "llvm/Support/Casting.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <vector>
 
 namespace clang {

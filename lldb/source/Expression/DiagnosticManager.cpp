@@ -8,7 +8,6 @@
 
 #include "lldb/Expression/DiagnosticManager.h"
 
-#include "llvm/Support/ErrorHandling.h"
 
 #include "lldb/Utility/ErrorMessages.h"
 #include "lldb/Utility/Log.h"

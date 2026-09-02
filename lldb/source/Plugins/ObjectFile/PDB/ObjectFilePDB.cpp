@@ -8,17 +8,12 @@
 
 #include "ObjectFilePDB.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/DebugInfo/PDB/Native/DbiStream.h"
 #include "llvm/DebugInfo/PDB/Native/InfoStream.h"
-#include "llvm/DebugInfo/PDB/Native/NativeSession.h"
 #include "llvm/DebugInfo/PDB/Native/PDBFile.h"
 #include "llvm/DebugInfo/PDB/PDB.h"
-#include "llvm/Support/BinaryByteStream.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -10,9 +10,7 @@
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "gtest/gtest.h"
 
 using namespace lldb;

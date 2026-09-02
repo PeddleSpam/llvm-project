@@ -10,23 +10,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Passes.h"
-#include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/Interfaces/ValueBoundsOpInterface.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Transforms/FoldUtils.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SmallBitVector.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Debug.h"
 
 using namespace mlir;
 using namespace mlir::linalg;

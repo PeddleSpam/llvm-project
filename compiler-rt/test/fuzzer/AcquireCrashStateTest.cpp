@@ -4,7 +4,6 @@
 
 // Ensures that error reports are suppressed after
 // __sanitizer_acquire_crash_state() has been called the first time.
-#include "sanitizer/common_interface_defs.h"
 
 #include <cassert>
 #include <cstdint>

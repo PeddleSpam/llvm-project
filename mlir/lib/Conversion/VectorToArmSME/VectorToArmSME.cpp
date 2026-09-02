@@ -9,11 +9,8 @@
 #include "mlir/Conversion/VectorToArmSME/VectorToArmSME.h"
 
 #include "mlir/Dialect/ArmSME/IR/ArmSME.h"
-#include "mlir/Dialect/ArmSME/Utils/Utils.h"
 #include "mlir/Dialect/ArmSVE/IR/ArmSVEDialect.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/Support/Casting.h"
 
 using namespace mlir;
 

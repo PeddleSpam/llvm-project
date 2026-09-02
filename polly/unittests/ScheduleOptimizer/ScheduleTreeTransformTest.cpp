@@ -8,7 +8,6 @@
 
 #include "polly/ScheduleTreeTransform.h"
 #include "gtest/gtest.h"
-#include "isl/ctx.h"
 
 using namespace isl;
 using namespace polly;

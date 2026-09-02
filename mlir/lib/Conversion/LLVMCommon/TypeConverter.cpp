@@ -9,9 +9,7 @@
 #include "mlir/Conversion/LLVMCommon/TypeConverter.h"
 #include "mlir/Conversion/LLVMCommon/MemRefBuilder.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Threading.h"
 #include <memory>
 #include <mutex>
 #include <optional>

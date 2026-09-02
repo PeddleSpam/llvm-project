@@ -10,10 +10,6 @@
 #include "ConfigProvider.h"
 #include "ConfigTesting.h"
 #include "TestFS.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/SourceMgr.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <atomic>
 #include <chrono>
 

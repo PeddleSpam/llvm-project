@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Utility/Broadcaster.h"
 #include "lldb/Utility/Event.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/Listener.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
 
 #include <algorithm>

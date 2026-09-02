@@ -5,40 +5,14 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "SourceCode.h"
 
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "FuzzyMatch.h"
 #include "Preamble.h"
-#include "Protocol.h"
-#include "support/Context.h"
 #include "support/Logger.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TokenKinds.h"
 #include "clang/Driver/Types.h"
-#include "clang/Format/Format.h"
-#include "clang/Lex/Lexer.h"
-#include "clang/Lex/Preprocessor.h"
-#include "clang/Lex/Token.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/LineIterator.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/xxhash.h"
 #include <algorithm>
 #include <cstddef>
 #include <optional>

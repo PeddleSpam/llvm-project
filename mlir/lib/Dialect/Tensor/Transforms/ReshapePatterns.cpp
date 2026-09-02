@@ -8,13 +8,8 @@
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/Tensor/Transforms/Transforms.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/LogicalResult.h"
 
 using namespace mlir;
 using namespace mlir::tensor;

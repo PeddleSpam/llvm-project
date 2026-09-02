@@ -8,8 +8,6 @@
 
 #include "DWARFTypeUnit.h"
 
-#include "SymbolFileDWARF.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

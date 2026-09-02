@@ -7,13 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "RegisterContextWasm.h"
-#include "Plugins/Process/gdb-remote/GDBRemoteRegisterContext.h"
 #include "ProcessWasm.h"
-#include "ThreadWasm.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/Support/Error.h"
 #include <memory>
 
 using namespace lldb;

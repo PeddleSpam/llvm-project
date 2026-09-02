@@ -8,17 +8,11 @@
 // FuzzerDriver and flag parsing.
 //===----------------------------------------------------------------------===//
 
-#include "FuzzerCommand.h"
 #include "FuzzerCorpus.h"
 #include "FuzzerFork.h"
-#include "FuzzerIO.h"
-#include "FuzzerInterface.h"
 #include "FuzzerInternal.h"
 #include "FuzzerMerge.h"
 #include "FuzzerMutate.h"
-#include "FuzzerPlatform.h"
-#include "FuzzerRandom.h"
-#include "FuzzerTracePC.h"
 #include <algorithm>
 #include <atomic>
 #include <chrono>

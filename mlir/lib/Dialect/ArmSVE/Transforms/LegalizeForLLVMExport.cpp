@@ -13,7 +13,6 @@
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/Utils/IndexingUtils.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 using namespace mlir::arm_sve;

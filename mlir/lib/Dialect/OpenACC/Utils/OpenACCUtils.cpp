@@ -8,17 +8,8 @@
 
 #include "mlir/Dialect/OpenACC/OpenACCUtils.h"
 
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Dominance.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Interfaces/FunctionInterfaces.h"
-#include "mlir/Interfaces/ViewLikeInterface.h"
-#include "llvm/ADT/SetVector.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/IR/Intrinsics.h"
-#include "llvm/Support/Casting.h"
 
 mlir::Operation *mlir::acc::getEnclosingComputeOp(mlir::Region &region) {
   return region

@@ -7,32 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang-include-cleaner/Record.h"
-#include "clang-include-cleaner/Types.h"
 #include "clang/AST/Decl.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Frontend/CompilerInvocation.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/FrontendActions.h"
-#include "clang/Frontend/FrontendOptions.h"
 #include "clang/Lex/Preprocessor.h"
-#include "clang/Serialization/PCHContainerOperations.h"
-#include "clang/Testing/CommandLineArgs.h"
 #include "clang/Testing/TestAST.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Annotations/Annotations.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cassert>
 #include <memory>
 #include <optional>

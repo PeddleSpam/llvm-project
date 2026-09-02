@@ -7,9 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "GlobalVariableDeclarationCheck.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
 #include <string>
 

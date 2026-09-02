@@ -6,14 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputChunks.h"
-#include "Config.h"
 #include "OutputSegment.h"
 #include "WriterUtils.h"
-#include "lld/Common/ErrorHandler.h"
-#include "lld/Common/LLVM.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/xxhash.h"
 #include <algorithm>
 
 #define DEBUG_TYPE "lld"

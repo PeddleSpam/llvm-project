@@ -9,7 +9,6 @@
 #include "mlir/Bytecode/BytecodeWriter.h"
 #include "mlir/Bytecode/Encoding.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/OwningOpRef.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Pass/Pass.h"
 

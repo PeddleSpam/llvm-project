@@ -13,7 +13,6 @@
 #include "mlir/Support/ToolUtilities.h"
 #include "mlir/Tools/PDLL/AST/Context.h"
 #include "mlir/Tools/PDLL/AST/Nodes.h"
-#include "mlir/Tools/PDLL/AST/Types.h"
 #include "mlir/Tools/PDLL/CodeGen/CPPGen.h"
 #include "mlir/Tools/PDLL/CodeGen/MLIRGen.h"
 #include "mlir/Tools/PDLL/ODS/Constraint.h"
@@ -25,12 +24,9 @@
 #include "mlir/Tools/lsp-server-support/CompilationDatabase.h"
 #include "mlir/Tools/lsp-server-support/SourceMgrUtils.h"
 #include "llvm/ADT/IntervalMap.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/ADT/StringSet.h"
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LSP/Logging.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/VirtualFileSystem.h"
 #include <optional>
 

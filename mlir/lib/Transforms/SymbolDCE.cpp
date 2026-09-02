@@ -13,9 +13,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/SymbolTable.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/InterleavedRange.h"
 

@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
 #include "EventHelper.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
 
 using namespace lldb_dap;

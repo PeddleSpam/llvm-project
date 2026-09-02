@@ -6,25 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Linalg/IR/LinalgInterfaces.h"
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
 #include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/IR/AffineExpr.h"
 #include "mlir/IR/AffineExprVisitor.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SetOperations.h"
-#include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace mlir;

@@ -11,7 +11,6 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Basic/Attributes.h"
 #include "clang/Basic/TargetInfo.h"
 #include "clang/Lex/CodeCompletionHandler.h"

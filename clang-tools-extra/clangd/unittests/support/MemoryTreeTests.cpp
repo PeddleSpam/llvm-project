@@ -9,9 +9,7 @@
 #include "support/MemoryTree.h"
 #include "support/TestTracer.h"
 #include "support/Trace.h"
-#include "llvm/Support/Allocator.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <ostream>
 
 namespace clang {

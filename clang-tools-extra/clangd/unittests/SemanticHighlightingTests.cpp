@@ -6,18 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "Config.h"
-#include "Protocol.h"
 #include "SemanticHighlighting.h"
-#include "SourceCode.h"
 #include "TestTU.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
 #include <algorithm>
 

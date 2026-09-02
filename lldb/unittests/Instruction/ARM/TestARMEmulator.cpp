@@ -10,9 +10,7 @@
 
 #include "Plugins/Instruction/ARM/EmulateInstructionARM.h"
 #include "Utility/ARM_DWARF_Registers.h"
-#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/RegisterValue.h"
 
 #include <map>

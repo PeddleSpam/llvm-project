@@ -13,11 +13,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/GPU/Transforms/Passes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 

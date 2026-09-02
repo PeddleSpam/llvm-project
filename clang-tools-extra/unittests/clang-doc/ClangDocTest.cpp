@@ -6,11 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ClangDocTest.h"
-#include "Representation.h"
-#include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace doc {

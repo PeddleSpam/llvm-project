@@ -10,18 +10,7 @@
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/UB/IR/UBMatchers.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/Value.h"
-#include "mlir/Interfaces/TilingInterface.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Casting.h"
 
 #define DEBUG_TYPE "pad-tiling-interface"
 

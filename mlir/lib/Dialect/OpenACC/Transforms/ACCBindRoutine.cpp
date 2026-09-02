@@ -32,11 +32,6 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 namespace acc {

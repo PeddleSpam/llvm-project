@@ -8,7 +8,6 @@
 
 #include "mlir/Transforms/Passes.h"
 #include "mlir/CAPI/Pass.h"
-#include "mlir/Pass/Pass.h"
 
 // Must include the declarations as they carry important visibility attributes.
 #include "mlir/Transforms/Transforms.capi.h.inc"

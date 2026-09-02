@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/lldb-enumerations.h"
 #include "lldb/Breakpoint/BreakpointIDList.h"
 
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-forward.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb;
 using namespace lldb_private;

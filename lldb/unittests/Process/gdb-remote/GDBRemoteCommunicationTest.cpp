@@ -6,8 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "GDBRemoteTestUtils.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
 #include "llvm/Testing/Support/Error.h"
 
 using namespace lldb_private::process_gdb_remote;

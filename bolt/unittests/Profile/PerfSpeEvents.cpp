@@ -8,10 +8,7 @@
 
 #ifdef AARCH64_AVAILABLE
 
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Profile/DataAggregator.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/TargetSelect.h"
 #include "gtest/gtest.h"

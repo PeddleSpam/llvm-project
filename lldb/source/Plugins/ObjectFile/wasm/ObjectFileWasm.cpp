@@ -8,24 +8,13 @@
 
 #include "ObjectFileWasm.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/BinaryFormat/Wasm.h"
 #include "llvm/Support/CheckedArithmetic.h"
-#include "llvm/Support/Endian.h"
-#include "llvm/Support/Format.h"
 #include <cstring>
 #include <optional>
 

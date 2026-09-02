@@ -14,7 +14,6 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Basic/CharInfo.h"
 #include "clang/Lex/Lexer.h"
 #include "clang/Lex/Pragma.h"

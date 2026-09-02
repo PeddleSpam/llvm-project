@@ -8,9 +8,7 @@
 
 #include "lld/Common/Args.h"
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Option/ArgList.h"
 #include "llvm/Support/Path.h"
 

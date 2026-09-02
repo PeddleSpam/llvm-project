@@ -10,13 +10,7 @@
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/Event.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

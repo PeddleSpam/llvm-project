@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/ABI/ABITypeMapper.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/Support/Alignment.h"
 
 using namespace mlir;
 using namespace mlir::abi;

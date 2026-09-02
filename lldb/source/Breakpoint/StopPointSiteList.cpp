@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Breakpoint/StopPointSiteList.h"
-#include "lldb/Breakpoint/BreakpointSite.h"
 #include "lldb/Breakpoint/WatchpointResource.h"
 
-#include "lldb/Utility/Stream.h"
 #include <algorithm>
 
 using namespace lldb;

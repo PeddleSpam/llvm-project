@@ -6,13 +6,25 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Basic/CharInfo.h"
+#include "../../../clang/include/clang/Format/Format.h"
+#include "../../../clang/include/clang/Frontend/CompilerInstance.h"
+#include "../../../clang/include/clang/Lex/Preprocessor.h"
+#include "../../../clang/include/clang/Tooling/CompilationDatabase.h"
+#include "../../../clang/include/clang/Tooling/Inclusions/HeaderIncludes.h"
+#include "../../../clang/include/clang/Tooling/Inclusions/StandardLibrary.h"
+#include "../../../clang/include/clang/Tooling/Syntax/Tokens.h"
+#include "../Headers.h"
+#include "../Protocol.h"
+#include "../SourceCode.h"
+#include "../index/Index.h"
 #include "../index/Serialization.h"
+#include "../index/Symbol.h"
 #include "../index/dex/Dex.h"
+#include "../support/Path.h"
+#include "../support/ThreadsafeFS.h"
+#include "../support/Trace.h"
 #include "benchmark/benchmark.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/Regex.h"
 #include <string>
 
 const char *IndexFilename;

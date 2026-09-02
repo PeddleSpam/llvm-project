@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Protocol/ProtocolBase.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/JSON.h"
 #include <optional>
 #include <utility>
 

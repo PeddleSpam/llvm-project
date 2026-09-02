@@ -6,17 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Headers.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "TestFS.h"
-#include "URI.h"
 #include "index/IndexAction.h"
 #include "index/Serialization.h"
-#include "index/Symbol.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Tooling/Tooling.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <string>
 
 namespace clang {

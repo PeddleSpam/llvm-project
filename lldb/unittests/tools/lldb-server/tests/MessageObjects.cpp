@@ -10,7 +10,6 @@
 #include "lldb/Utility/Args.h"
 #include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/StringExtractor.h"
-#include "llvm/ADT/StringExtras.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

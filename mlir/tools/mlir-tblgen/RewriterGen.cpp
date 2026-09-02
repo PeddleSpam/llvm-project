@@ -11,28 +11,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Support/IndentedOstream.h"
-#include "mlir/TableGen/Argument.h"
-#include "mlir/TableGen/Attribute.h"
 #include "mlir/TableGen/CodeGenHelpers.h"
-#include "mlir/TableGen/Format.h"
 #include "mlir/TableGen/GenInfo.h"
-#include "mlir/TableGen/Operator.h"
 #include "mlir/TableGen/Pattern.h"
-#include "mlir/TableGen/Predicate.h"
-#include "mlir/TableGen/Property.h"
-#include "mlir/TableGen/Type.h"
 #include "llvm/ADT/FunctionExtras.h"
 #include "llvm/ADT/SetVector.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatAdapters.h"
 #include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Main.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace mlir;

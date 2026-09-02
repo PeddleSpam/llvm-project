@@ -17,29 +17,24 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/ilist.h"
+#include "../../../llvm/include/llvm/ADT/simple_ilist.h"
+#include "../../../llvm/include/llvm/Bitstream/BitstreamReader.h"
+#include "../../../llvm/include/llvm/Support/JSON.h"
+#include "../../../llvm/include/llvm/Support/Mustache.h"
+#include "../BitcodeWriter.h"
 #include "BitcodeReader.h"
 #include "ClangDoc.h"
 #include "Generators.h"
 #include "Representation.h"
 #include "support/Utils.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Tooling/AllTUsExecution.h"
-#include "clang/Tooling/CommonOptionsParser.h"
-#include "clang/Tooling/Execution.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Mutex.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/Support/ThreadPool.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/raw_ostream.h"
 #include <atomic>
 #include <mutex>
 #include <string>

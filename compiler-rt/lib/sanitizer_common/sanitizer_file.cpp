@@ -13,11 +13,9 @@
 //
 //===---------------------------------------------------------------------===//
 
-#include "sanitizer_platform.h"
 
 #if !SANITIZER_FUCHSIA
 
-#include "sanitizer_common.h"
 #include "sanitizer_file.h"
 #  include "sanitizer_interface_internal.h"
 

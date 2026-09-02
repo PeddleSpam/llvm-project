@@ -12,15 +12,9 @@
 
 #include "mlir/Dialect/OpenACC/OpenACCUtilsLoop.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Utils/Utils.h"
-#include "mlir/IR/IRMapping.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace mlir;
 

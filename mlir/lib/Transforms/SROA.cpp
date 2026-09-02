@@ -10,7 +10,6 @@
 #include "mlir/Analysis/DataLayoutAnalysis.h"
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Analysis/TopologicalSortUtils.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
 #include "mlir/Transforms/Passes.h"
 #include "llvm/Support/DebugLog.h"
 

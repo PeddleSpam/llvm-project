@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Func/Extensions/ShardingExtensions.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
-#include "mlir/IR/MLIRContext.h"
 
 namespace mlir::func {
 

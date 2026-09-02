@@ -8,7 +8,7 @@
 
 #include <fcntl.h>
 
-#include "lldb/Host/PosixApi.h"
+#include "../../../include/lldb/Host/windows/PosixApi.h"
 #include "lldb/Host/windows/WindowsFileAction.h"
 #include "lldb/Host/windows/windows.h"
 

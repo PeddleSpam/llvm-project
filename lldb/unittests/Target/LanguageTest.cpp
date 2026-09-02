@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/Language.h"
-#include "lldb/lldb-enumerations.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

@@ -6,19 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/Diagnostics.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/DialectInterface.h"
-#include "mlir/IR/DialectRegistry.h"
 #include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Support/TypeID.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/Regex.h"
 #include <memory>

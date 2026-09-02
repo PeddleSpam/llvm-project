@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Interfaces/SubsetOpInterface.h"
-#include "mlir/Interfaces/DestinationStyleOpInterface.h"
-#include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 #include "mlir/Interfaces/SubsetOpInterface.cpp.inc"
 

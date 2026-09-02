@@ -13,14 +13,9 @@
 
 #include "mlir/Interfaces/Utils/InferIntRangeCommon.h"
 
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/Interfaces/InferIntRangeInterface.h"
 #include "mlir/Interfaces/ShapedOpInterfaces.h"
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
 
-#include "llvm/Support/Debug.h"
 
 #include <iterator>
 #include <optional>

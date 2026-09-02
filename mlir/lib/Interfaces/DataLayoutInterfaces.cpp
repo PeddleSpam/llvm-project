@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 #include "mlir/IR/BuiltinDialect.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Operation.h"
 
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace mlir;
 

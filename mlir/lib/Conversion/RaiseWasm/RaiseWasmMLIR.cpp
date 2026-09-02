@@ -13,20 +13,14 @@
 
 #include "mlir/Conversion/RaiseWasm/RaiseWasmMLIR.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/ControlFlow/IR/ControlFlowOps.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/Dialect/WasmSSA/IR/WasmSSAInterfaces.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/ValueRange.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "mlir/Transforms/Passes.h"
-#include "llvm/Support/LogicalResult.h"
 #include <optional>
 
 #define DEBUG_TYPE "wasm-convert"

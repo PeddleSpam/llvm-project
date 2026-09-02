@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBValue.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include "lldb/API/SBDeclaration.h"
@@ -17,35 +16,16 @@
 #include "lldb/API/SBTypeSynthetic.h"
 
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Core/Declaration.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Core/Value.h"
 #include "lldb/DataFormatters/DataVisualization.h"
 #include "lldb/DataFormatters/DumpValueObjectOptions.h"
 #include "lldb/Symbol/Block.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/Variable.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 
 #include "lldb/API/SBDebugger.h"
 #include "lldb/API/SBExpressionOptions.h"
-#include "lldb/API/SBFrame.h"
-#include "lldb/API/SBProcess.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/API/SBThread.h"
-#include "lldb/lldb-enumerations.h"
 
 #include <memory>
 

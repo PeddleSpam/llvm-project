@@ -8,10 +8,8 @@
 
 #include "gtest/gtest.h"
 
-#include "lldb/Utility/Broadcaster.h"
 #include "lldb/Utility/Event.h"
 #include "lldb/Utility/Listener.h"
-#include "lldb/Utility/Predicate.h"
 
 #include <thread>
 

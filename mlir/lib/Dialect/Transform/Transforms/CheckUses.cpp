@@ -14,7 +14,6 @@
 #include "mlir/Dialect/Transform/Transforms/Passes.h"
 
 #include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "llvm/ADT/SetOperations.h"
 
 namespace mlir {

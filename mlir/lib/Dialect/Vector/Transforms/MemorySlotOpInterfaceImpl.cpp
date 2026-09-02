@@ -33,10 +33,7 @@
 #include "mlir/Dialect/Vector/Transforms/MemorySlotOpInterfaceImpl.h"
 
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
 
 using namespace mlir;
 using namespace mlir::vector;

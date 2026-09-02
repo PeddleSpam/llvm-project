@@ -11,22 +11,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributeInterfaces.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Location.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Target/Wasm/WasmBinaryEncoding.h"
 #include "mlir/Target/Wasm/WasmImporter.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/Endian.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/LogicalResult.h"
 
 #include <cassert>
 #include <cstddef>

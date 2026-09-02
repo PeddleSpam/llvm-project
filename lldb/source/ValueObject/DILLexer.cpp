@@ -11,10 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/ValueObject/DILLexer.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/ValueObject/DILParser.h"
-#include "llvm/ADT/StringSwitch.h"
 
 namespace lldb_private::dil {
 

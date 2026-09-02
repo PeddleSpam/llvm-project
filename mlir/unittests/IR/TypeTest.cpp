@@ -8,8 +8,6 @@
 
 #include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Dialect.h"
-#include "mlir/IR/Types.h"
-#include "mlir/IR/Value.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/EnumInfo.h"
-#include "mlir/TableGen/Attribute.h"
 #include "llvm/TableGen/Record.h"
 
 using namespace mlir;

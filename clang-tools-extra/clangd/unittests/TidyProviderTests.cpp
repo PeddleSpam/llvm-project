@@ -6,11 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../clang-tidy/ClangTidyOptions.h"
 #include "Feature.h"
 #include "TestFS.h"
 #include "TidyProvider.h"
 #include "llvm/Testing/Support/SupportHelpers.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

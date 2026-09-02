@@ -13,8 +13,6 @@
 
 #include "mlir/Target/LLVMIR/Dialect/VCIX/VCIXToLLVMIRTranslation.h"
 #include "mlir/Dialect/LLVMIR/VCIXDialect.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
 #include "llvm/IR/IRBuilder.h"

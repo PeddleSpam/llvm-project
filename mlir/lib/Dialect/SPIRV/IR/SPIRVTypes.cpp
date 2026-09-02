@@ -12,12 +12,7 @@
 
 #include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <cstdint>
 #include <optional>

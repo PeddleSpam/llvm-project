@@ -8,12 +8,6 @@
 
 #include "mlir/Dialect/Transform/IRDLExtension/IRDLExtensionOps.h"
 #include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/Dialect/IRDL/IRDLVerifiers.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace mlir;
 

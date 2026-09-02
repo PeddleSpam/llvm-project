@@ -8,13 +8,8 @@
 
 #include "Trigram.h"
 #include "FuzzyMatch.h"
-#include "index/dex/Token.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include <cctype>
 #include <limits>
 #include <queue>

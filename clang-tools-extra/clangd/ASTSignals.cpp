@@ -7,11 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "ASTSignals.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "FindTarget.h"
-#include "Headers.h"
 #include "support/Trace.h"
-#include "clang/AST/DeclObjC.h"
 
 namespace clang {
 namespace clangd {

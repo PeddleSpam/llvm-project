@@ -13,13 +13,10 @@
 
 #include "mlir/Target/LLVMIR/Dialect/ROCDL/ROCDLToLLVMIRTranslation.h"
 #include "mlir/Dialect/LLVMIR/ROCDLDialect.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/IntrinsicsAMDGPU.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdint>
 
 using namespace mlir;

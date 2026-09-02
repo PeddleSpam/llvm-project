@@ -6,14 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Conversion/LLVMCommon/MemRefBuilder.h"
 #include "MemRefDescriptor.h"
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Conversion/LLVMCommon/TypeConverter.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/Builders.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace mlir;
 

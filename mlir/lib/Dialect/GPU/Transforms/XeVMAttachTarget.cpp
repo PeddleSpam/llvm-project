@@ -13,10 +13,7 @@
 
 #include "mlir/Dialect/GPU/Transforms/Passes.h"
 
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/LLVMIR/XeVMDialect.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/Pass/Pass.h"
 #include "mlir/Target/LLVM/XeVM/Target.h"
 #include "llvm/Support/Regex.h"
 

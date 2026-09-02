@@ -16,15 +16,7 @@
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/PseudoTerminal.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 
-#include "llvm/Support/Threading.h"
 
 #include <mutex>
 #include <thread>

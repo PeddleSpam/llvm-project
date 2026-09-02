@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Breakpoint/WatchpointAlgorithms.h"
-#include "lldb/Breakpoint/WatchpointResource.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include <algorithm>
 #include <utility>

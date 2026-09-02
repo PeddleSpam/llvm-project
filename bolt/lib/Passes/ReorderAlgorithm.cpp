@@ -12,8 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/ReorderAlgorithm.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Transforms/Utils/CodeLayout.h"
 #include <queue>

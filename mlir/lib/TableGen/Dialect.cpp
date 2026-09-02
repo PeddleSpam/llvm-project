@@ -12,7 +12,6 @@
 
 #include "mlir/TableGen/Dialect.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

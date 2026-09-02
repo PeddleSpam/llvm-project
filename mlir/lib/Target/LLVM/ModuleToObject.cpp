@@ -14,9 +14,6 @@
 #include "mlir/Target/LLVM/ModuleToObject.h"
 
 #include "mlir/ExecutionEngine/OptUtils.h"
-#include "mlir/IR/BuiltinAttributeInterfaces.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/Target/LLVMIR/Export.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
 #include "llvm/Bitcode/BitcodeWriter.h"
@@ -25,9 +22,7 @@
 #include "llvm/Linker/Linker.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Target/TargetMachine.h"
 #include "llvm/Transforms/IPO/Internalize.h"
 

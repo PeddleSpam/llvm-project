@@ -8,7 +8,6 @@
 
 #include "lldb/Host/linux/AbstractSocket.h"
 
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -10,12 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/BinarySection.h"
 #include "bolt/Core/BinaryContext.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/Support/CommandLine.h"
 
 #define DEBUG_TYPE "bolt"
 

@@ -8,21 +8,12 @@
 
 #include "mlir/Bytecode/BytecodeReader.h"
 #include "mlir/Bytecode/BytecodeWriter.h"
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/OwningOpRef.h"
 #include "mlir/Parser/Parser.h"
 
 #include "mlir/IR/BuiltinOps.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Alignment.h"
 #include "llvm/Support/Endian.h"
 #include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace mlir;

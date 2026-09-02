@@ -11,7 +11,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Lex/PreprocessorOptions.h"
 #include "llvm/Support/VirtualFileSystem.h"

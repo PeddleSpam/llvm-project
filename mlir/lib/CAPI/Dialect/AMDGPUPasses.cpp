@@ -8,7 +8,6 @@
 
 #include "mlir/CAPI/Pass.h"
 #include "mlir/Dialect/AMDGPU/Transforms/Passes.h"
-#include "mlir/Pass/Pass.h"
 
 // Must include the declarations as they carry important visibility attributes.
 #include "mlir/Dialect/AMDGPU/Transforms/Passes.capi.h.inc"

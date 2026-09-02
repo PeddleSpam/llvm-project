@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/FunctionLayout.h"
 #include "bolt/Core/BinaryBasicBlock.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/edit_distance.h"
 #include <algorithm>
 #include <iterator>

@@ -6,34 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "Compiler.h"
 #include "Config.h"
-#include "Diagnostics.h"
-#include "Headers.h"
 #include "Hover.h"
-#include "ParsedAST.h"
-#include "Preamble.h"
-#include "Protocol.h"
-#include "SourceCode.h"
-#include "TestFS.h"
 #include "TestTU.h"
 #include "XRefs.h"
-#include "support/Context.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Format/Format.h"
 #include "clang/Frontend/FrontendActions.h"
-#include "clang/Frontend/PrecompiledPreamble.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Testing/Annotations/Annotations.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest-matchers.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <optional>
 #include <string>

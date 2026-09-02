@@ -1,6 +1,5 @@
 #include "CFBasicHash.h"
 
-#include "lldb/Utility/Endian.h"
 
 using namespace lldb;
 using namespace lldb_private;

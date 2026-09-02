@@ -6,10 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBLineEntry.h"
+#include "../../include/lldb/Host/windows/PosixApi.h"
 #include "Utils.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/Host/PosixApi.h"
 #include "lldb/Symbol/LineEntry.h"
 #include "lldb/Utility/Instrumentation.h"
 #include "lldb/Utility/StreamString.h"

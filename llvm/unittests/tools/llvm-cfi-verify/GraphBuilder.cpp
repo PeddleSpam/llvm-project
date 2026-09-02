@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "../tools/llvm-cfi-verify/lib/GraphBuilder.h"
-#include "../../../include/llvm/ADT/SmallSet.h"
-#include "../../../include/llvm/DebugInfo/Symbolize/Symbolize.h"
 #include "../tools/llvm-cfi-verify/lib/FileAnalysis.h"
 #include "gmock/gmock.h"
 

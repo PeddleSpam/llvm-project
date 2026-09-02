@@ -6,16 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ClangTidyOptions.h"
 #include "ClangTidyModule.h"
-#include "clang/Basic/DiagnosticIDs.h"
-#include "clang/Basic/LLVM.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorOr.h"
-#include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/YAMLTraits.h"
 #include <algorithm>
 #include <optional>

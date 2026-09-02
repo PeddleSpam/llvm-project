@@ -8,8 +8,6 @@
 
 #include "Transport.h"
 #include "DAPLog.h"
-#include "lldb/lldb-forward.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace llvm;
 using namespace lldb;

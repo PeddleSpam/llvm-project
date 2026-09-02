@@ -7,16 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "ICF.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "InputSection.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 
 #include "lld/Common/CommonLinkerContext.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/xxhash.h"
 
 #include <atomic>
 

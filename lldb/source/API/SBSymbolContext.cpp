@@ -6,13 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBSymbolContext.h"
 #include "Utils.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Utility/Instrumentation.h"
 
 using namespace lldb;

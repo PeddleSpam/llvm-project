@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Section.h"
 #include "lldb/Symbol/Symbol.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace llvm;

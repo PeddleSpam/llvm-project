@@ -46,55 +46,25 @@
 #include "Commands/CommandObjectVersion.h"
 #include "Commands/CommandObjectWatchpoint.h"
 
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Telemetry.h"
-#include "lldb/Host/StreamFile.h"
-#include "lldb/Symbol/CompilerType.h"
 #include "lldb/Utility/ErrorMessages.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StructuredData.h"
 #include "lldb/Utility/Timer.h"
-#include "lldb/ValueObject/ValueObject.h"
 
-#include "lldb/Host/Config.h"
-#include "lldb/lldb-forward.h"
 #if LLDB_ENABLE_LIBEDIT
 #include "lldb/Host/Editline.h"
 #endif
-#include "lldb/Host/File.h"
 #include "lldb/Host/FileCache.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 
-#include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
-#include "lldb/Interpreter/Options.h"
-#include "lldb/Interpreter/Property.h"
-#include "lldb/Utility/Args.h"
 
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/TargetList.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/UnixSignals.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/FormatAdapters.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Telemetry/Telemetry.h"
 
 #if defined(__APPLE__)
 #include <TargetConditionals.h>

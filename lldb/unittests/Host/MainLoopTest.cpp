@@ -6,17 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/MainLoop.h"
+#include "../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
+#include "../../include/lldb/Host/windows/MainLoopWindows.h"
 #include "TestingSupport/Host/SocketTestUtilities.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Host/MainLoopBase.h"
 #include "lldb/Host/PseudoTerminal.h"
-#include "lldb/Host/common/TCPSocket.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #include <future>
 #include <thread>

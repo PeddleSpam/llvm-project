@@ -11,7 +11,6 @@
 #include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/Flags.h"
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/BinaryFormat/MachO.h"
 
 #include <cstdio>

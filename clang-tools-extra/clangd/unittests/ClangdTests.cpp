@@ -6,38 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "ClangdServer.h"
-#include "CodeComplete.h"
 #include "CompileCommands.h"
 #include "ConfigFragment.h"
-#include "GlobalCompilationDatabase.h"
 #include "Matchers.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "TidyProvider.h"
-#include "refactor/Tweak.h"
-#include "support/MemoryTree.h"
-#include "support/Path.h"
-#include "support/Threading.h"
-#include "clang/Config/config.h"
-#include "clang/Sema/CodeCompleteConsumer.h"
-#include "clang/Tooling/ArgumentsAdjusters.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ON_UNIX
-#include "llvm/Support/Allocator.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/Regex.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <algorithm>
 #include <chrono>
 #include <iostream>

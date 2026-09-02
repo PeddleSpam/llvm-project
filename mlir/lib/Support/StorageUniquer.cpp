@@ -8,9 +8,7 @@
 
 #include "mlir/Support/StorageUniquer.h"
 
-#include "mlir/Support/LLVM.h"
 #include "mlir/Support/ThreadLocalCache.h"
-#include "mlir/Support/TypeID.h"
 #include "llvm/Support/RWMutex.h"
 
 using namespace mlir;

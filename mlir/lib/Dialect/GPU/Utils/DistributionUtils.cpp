@@ -11,11 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/GPU/Utils/DistributionUtils.h"
-#include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/IR/Value.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
 
 #include <numeric>
 

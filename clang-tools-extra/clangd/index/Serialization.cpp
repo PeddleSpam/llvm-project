@@ -7,21 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Serialization.h"
-#include "Headers.h"
 #include "RIFF.h"
 #include "index/MemIndex.h"
-#include "index/SymbolLocation.h"
-#include "index/SymbolOrigin.h"
 #include "index/dex/Dex.h"
 #include "support/Logger.h"
 #include "support/Trace.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Compression.h"
-#include "llvm/Support/Endian.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdint>
 #include <vector>
 

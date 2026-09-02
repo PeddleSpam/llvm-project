@@ -8,20 +8,11 @@
 
 #include "mlir/Bytecode/BytecodeWriter.h"
 #include "IRNumbering.h"
-#include "mlir/Bytecode/BytecodeImplementation.h"
 #include "mlir/Bytecode/BytecodeOpInterface.h"
 #include "mlir/Bytecode/Encoding.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/OpImplementation.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/CachedHashString.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/Endian.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 #define DEBUG_TYPE "mlir-bytecode-writer"

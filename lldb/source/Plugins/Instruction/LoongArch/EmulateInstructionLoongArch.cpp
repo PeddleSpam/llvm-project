@@ -13,17 +13,11 @@
 #include "Plugins/Process/Utility/InstructionUtils.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_loongarch64.h"
 #include "Plugins/Process/Utility/lldb-loongarch-register-enums.h"
-#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Interpreter/OptionValueArray.h"
 #include "lldb/Interpreter/OptionValueDictionary.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Stream.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

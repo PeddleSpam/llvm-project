@@ -8,12 +8,7 @@
 
 #include "mlir/Dialect/Quant/IR/Quant.h"
 #include "mlir/Dialect/Quant/IR/QuantTypes.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/QuantStorageTypeInterface.h"
-#include "mlir/IR/Types.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 using namespace mlir;
 using namespace quant;

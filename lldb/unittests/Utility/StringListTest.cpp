@@ -9,7 +9,6 @@
 #include "lldb/Utility/StringList.h"
 #include "lldb/Utility/StreamString.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

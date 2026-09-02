@@ -5,18 +5,8 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "lldb/Core/Telemetry.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/UUID.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-forward.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/RandomNumberGenerator.h"
-#include "llvm/Telemetry/Telemetry.h"
 #include <chrono>
 #include <cstdlib>
 #include <ctime>

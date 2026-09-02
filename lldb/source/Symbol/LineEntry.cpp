@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/LineEntry.h"
 #include "lldb/Symbol/CompileUnit.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
 
 using namespace lldb_private;
 

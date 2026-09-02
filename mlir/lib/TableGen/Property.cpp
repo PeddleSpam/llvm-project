@@ -11,10 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/TableGen/Property.h"
 #include "mlir/TableGen/Operator.h"
-#include "mlir/TableGen/Predicate.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

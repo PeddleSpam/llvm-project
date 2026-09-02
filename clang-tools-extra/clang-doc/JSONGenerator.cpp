@@ -15,9 +15,6 @@
 ///
 //===----------------------------------------------------------------------===//
 #include "Generators.h"
-#include "clang/Basic/Specifiers.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/Support/JSON.h"
 
 using namespace llvm;
 using namespace llvm::json;

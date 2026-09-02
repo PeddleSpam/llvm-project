@@ -7,15 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseDesignatedInitializersCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/DesignatedInitializers.h"
-#include "clang/AST/APValue.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/Stmt.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersMacros.h"
-#include "clang/Basic/Diagnostic.h"
 #include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;

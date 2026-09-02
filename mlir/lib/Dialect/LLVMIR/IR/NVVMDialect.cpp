@@ -17,26 +17,12 @@
 #include "mlir/Dialect/LLVMIR/NVVMDialect.h"
 
 #include "mlir/Conversion/ConvertToLLVM/ToLLVMInterface.h"
-#include "mlir/Dialect/GPU/IR/CompilationInterfaces.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/Types.h"
 #include "mlir/Transforms/InliningUtils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/NVVMIntrinsicUtils.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/NVPTXAddrSpace.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <cmath>
 #include <optional>

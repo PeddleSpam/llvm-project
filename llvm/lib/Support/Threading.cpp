@@ -12,8 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Threading.h"
-#include "llvm/Config/config.h"
-#include "llvm/Config/llvm-config.h"
+#include "../../../../../../../../Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/include/bitset"
+#include "../../include/llvm/Support/Windows/WindowsSupport.h"
+#include "../../include/llvm/Support/thread.h"
 #include "llvm/Support/Jobserver.h"
 
 #include <cassert>

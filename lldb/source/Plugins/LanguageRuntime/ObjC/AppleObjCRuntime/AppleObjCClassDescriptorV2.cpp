@@ -11,11 +11,6 @@
 #include "lldb/Expression/FunctionCaller.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/Sequence.h"
-#include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

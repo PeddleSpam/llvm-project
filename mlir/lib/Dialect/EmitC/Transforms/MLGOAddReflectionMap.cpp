@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/EmitC/Transforms/Passes.h"
 #include "mlir/Dialect/EmitC/Transforms/Transforms.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Transforms/WalkPatternRewriteDriver.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/FormatVariadic.h"
 
 using namespace mlir;

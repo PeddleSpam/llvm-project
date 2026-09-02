@@ -26,17 +26,10 @@ typedef struct ar_hdr {
 #endif
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/Timer.h"
 
-#include "llvm/Object/Archive.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 using namespace lldb;
 using namespace lldb_private;

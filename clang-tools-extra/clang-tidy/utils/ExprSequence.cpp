@@ -7,8 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "ExprSequence.h"
+#include "../../../llvm/include/llvm/Support/Timer.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/ParentMapContext.h"
-#include "llvm/ADT/SmallVector.h"
 #include <optional>
 
 namespace clang::tidy::utils {

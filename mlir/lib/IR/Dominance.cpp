@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Dominance.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/IR/RegionKindInterface.h"
 #include "llvm/Support/GenericDomTreeConstruction.h"
 

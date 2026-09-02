@@ -9,7 +9,6 @@
 #include "lldb/Expression/ExpressionParser.h"
 #include "lldb/Expression/DiagnosticManager.h"
 #include "lldb/Expression/IRExecutionUnit.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/ThreadPlanCallFunction.h"
 
 using namespace lldb;

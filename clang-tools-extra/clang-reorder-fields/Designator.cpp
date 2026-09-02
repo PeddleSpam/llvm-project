@@ -14,8 +14,6 @@
 
 #include "Designator.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/AST/Expr.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace clang {
 namespace reorder_fields {

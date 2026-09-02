@@ -7,15 +7,19 @@
 //===----------------------------------------------------------------------===//
 
 #include "EasilySwappableParametersCheck.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/SmallSet.h"
 
 #define DEBUG_TYPE "EasilySwappableParametersCheck"
-#include "llvm/Support/Debug.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

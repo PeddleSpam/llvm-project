@@ -7,31 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "PlatformRemoteGDBServer.h"
-#include "lldb/Host/Config.h"
+#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 
 #include "lldb/Breakpoint/BreakpointLocation.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/PosixApi.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/ProcessInfo.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/UriParser.h"
-#include "llvm/ADT/StringSet.h"
 #include "llvm/Support/FormatAdapters.h"
 
-#include "Plugins/Process/Utility/GDBRemoteSignals.h"
 #include "Plugins/Process/gdb-remote/ProcessGDBRemote.h"
 #include <mutex>
 #include <optional>

@@ -7,7 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "MinMaxUseInitializerListCheck.h"
+#include "../../../clang/include/clang/AST/StmtVisitor.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/ASTUtils.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/LexerUtils.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Frontend/CompilerInstance.h"

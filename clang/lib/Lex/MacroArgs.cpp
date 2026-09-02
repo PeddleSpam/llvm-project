@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Lex/MacroArgs.h"
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Lex/Preprocessor.h"
 #include "llvm/Support/SaveAndRestore.h"
 #include <algorithm>

@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "YamlSymbolIndex.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Support/Errc.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Path.h"
 #include <string>
 #include <vector>

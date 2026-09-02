@@ -245,12 +245,7 @@
 
 #include "PreprocessorTracker.h"
 #include "ModularizeUtilities.h"
-#include "clang/Lex/LexDiagnostic.h"
 #include "clang/Lex/MacroArgs.h"
-#include "clang/Lex/PPCallbacks.h"
-#include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace Modularize {
 

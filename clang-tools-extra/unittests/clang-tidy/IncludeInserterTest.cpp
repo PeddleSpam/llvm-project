@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "../clang-tidy/utils/IncludeInserter.h"
-#include "clang/Lex/Preprocessor.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "ClangTidyTest.h"
 #include "gtest/gtest.h"
 

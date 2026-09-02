@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/Class.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/Debug.h"
 
 using namespace mlir;

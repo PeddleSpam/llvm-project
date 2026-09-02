@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Symbol/DeclVendor.h"
-#include "lldb/Symbol/CompilerDecl.h"
-#include "lldb/Symbol/TypeSystem.h"
 
 #include <vector>
 

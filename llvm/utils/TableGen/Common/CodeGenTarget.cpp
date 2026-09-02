@@ -14,7 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "CodeGenTarget.h"
-#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenRegisters.h"
 #include "CodeGenSchedule.h"
 #include "llvm/Support/CommandLine.h"

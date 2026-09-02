@@ -8,19 +8,11 @@
 
 #include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Remarks.h"
 #include "mlir/Remark/RemarkStreamer.h"
-#include "mlir/Support/TypeID.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/IR/LLVMRemarkStreamer.h"
-#include "llvm/Remarks/RemarkFormat.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/LogicalResult.h"
 #include "llvm/Support/YAMLParser.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace mlir;

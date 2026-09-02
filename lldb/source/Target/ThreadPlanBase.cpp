@@ -9,16 +9,9 @@
 #include "lldb/Target/ThreadPlanBase.h"
 
 //
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Breakpoint/BreakpointSite.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

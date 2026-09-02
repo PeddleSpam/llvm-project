@@ -178,15 +178,6 @@
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
 
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Value.h"
-#include "mlir/Interfaces/FunctionInterfaces.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 namespace mlir {
 namespace acc {

@@ -8,8 +8,6 @@
 
 #include "lldb/Target/SystemRuntime.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/Process.h"
-#include "lldb/lldb-private.h"
 
 using namespace lldb;
 using namespace lldb_private;

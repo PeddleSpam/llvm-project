@@ -9,8 +9,6 @@
 #include "mlir/Dialect/Transform/DebugExtension/DebugExtension.h"
 
 #include "mlir/Dialect/Transform/DebugExtension/DebugExtensionOps.h"
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 

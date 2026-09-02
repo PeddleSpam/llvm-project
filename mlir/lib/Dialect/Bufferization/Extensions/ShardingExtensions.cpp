@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Bufferization/Extensions/ShardingExtensions.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 using namespace mlir::bufferization;

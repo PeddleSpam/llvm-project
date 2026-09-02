@@ -17,7 +17,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../../include/clang/Basic/DiagnosticDriver.h"
 #include "UninitializedObject.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/StaticAnalyzer/Checkers/BuiltinCheckerRegistration.h"

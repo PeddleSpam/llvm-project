@@ -8,10 +8,7 @@
 
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace lldb_private;

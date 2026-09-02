@@ -12,15 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/MaximalStaticExpansion.h"
-#include "polly/DependenceInfo.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
 #include "polly/Support/ISLTools.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
-#include "isl/isl-noexceptions.h"
-#include "isl/union_map.h"
 #include <cassert>
 #include <limits>
 #include <string>

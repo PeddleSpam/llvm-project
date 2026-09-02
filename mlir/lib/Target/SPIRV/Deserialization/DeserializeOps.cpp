@@ -12,15 +12,8 @@
 
 #include "Deserializer.h"
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/Location.h"
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
 #include "mlir/Target/SPIRV/SPIRVExtInstSets.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Debug.h"
 #include <optional>
 
 using namespace mlir;

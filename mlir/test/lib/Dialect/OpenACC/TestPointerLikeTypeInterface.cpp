@@ -11,13 +11,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/Pass/Pass.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace mlir;
 using namespace mlir::acc;

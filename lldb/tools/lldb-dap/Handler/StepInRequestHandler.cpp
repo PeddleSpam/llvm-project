@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Protocol/ProtocolTypes.h"
 #include "RequestHandler.h"
 
 using namespace llvm;

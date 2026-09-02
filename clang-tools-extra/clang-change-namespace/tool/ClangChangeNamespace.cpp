@@ -28,17 +28,19 @@
 //    } // namespace y
 //    } // namespace x
 
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchers.h"
+#include "../../../clang/include/clang/Format/Format.h"
+#include "../../../clang/include/clang/Tooling/Inclusions/IncludeStyle.h"
+#include "../../../llvm/include/llvm/Support/Timer.h"
+#include "../ChangeNamespace.h"
 #include "ChangeNamespace.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Refactoring.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/YAMLTraits.h"
 
 using namespace clang;
 using namespace llvm;

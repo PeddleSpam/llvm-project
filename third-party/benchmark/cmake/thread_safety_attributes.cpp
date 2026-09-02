@@ -1,3 +1,5 @@
+#include "../src/internal_macros.h"
+#include "../src/log.h"
 #define HAVE_THREAD_SAFETY_ATTRIBUTES
 #include "../src/mutex.h"
 

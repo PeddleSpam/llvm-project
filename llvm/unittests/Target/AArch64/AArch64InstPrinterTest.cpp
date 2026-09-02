@@ -14,7 +14,6 @@
 #include "llvm/MC/MCSubtargetInfo.h"
 
 #include "MCTargetDesc/AArch64InstPrinter.h"
-#include "../../../lib/Target/AArch64/Utils/AArch64BaseInfo.h"
 
 #include "gtest/gtest.h"
 

@@ -14,7 +14,6 @@
 #include "SymbolTable.h"
 #include "Target.h"
 
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/Support/MipsABIFlags.h"
 
 using namespace llvm;

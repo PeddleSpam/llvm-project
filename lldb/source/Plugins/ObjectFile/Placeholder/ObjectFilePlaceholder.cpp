@@ -9,11 +9,8 @@
 #include "ObjectFilePlaceholder.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
 
 #include <memory>
 

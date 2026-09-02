@@ -9,10 +9,7 @@
 #include <map>
 #include <utility>
 
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/ControlFlowInterfaces.h"
 #include "llvm/ADT/EquivalenceClasses.h"
 #include "llvm/Support/DebugLog.h"

@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Merge.h"
-#include "index/Symbol.h"
-#include "index/SymbolLocation.h"
-#include "index/SymbolOrigin.h"
 #include "support/Trace.h"
-#include "llvm/ADT/StringRef.h"
 #include <algorithm>
 #include <iterator>
 

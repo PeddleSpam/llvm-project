@@ -11,18 +11,10 @@
 #include "Plugins/Process/Utility/InstructionUtils.h"
 #include "Utility/ARM_DWARF_Registers.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/UnwindPlan.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/RegisterNumber.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/UnwindLLDB.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
 
-#include "llvm/Support/Endian.h"
 
 using namespace lldb_private;
 using namespace lldb;

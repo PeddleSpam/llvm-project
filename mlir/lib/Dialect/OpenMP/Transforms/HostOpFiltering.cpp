@@ -13,9 +13,7 @@
 
 #include "mlir/Dialect/OpenMP/Transforms/Passes.h"
 
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/OpenMP/OpenMPDialect.h"
-#include "mlir/Interfaces/FunctionInterfaces.h"
 
 namespace mlir {
 namespace omp {

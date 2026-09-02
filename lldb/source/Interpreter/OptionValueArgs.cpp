@@ -8,7 +8,6 @@
 
 #include "lldb/Interpreter/OptionValueArgs.h"
 
-#include "lldb/Utility/Args.h"
 
 using namespace lldb;
 using namespace lldb_private;

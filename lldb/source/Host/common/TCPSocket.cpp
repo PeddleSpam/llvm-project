@@ -6,22 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../include/lldb/Host/windows/MainLoopWindows.h"
 #if defined(_MSC_VER)
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 #endif
 
 #include "lldb/Host/common/TCPSocket.h"
 
-#include "lldb/Host/Config.h"
-#include "lldb/Host/MainLoop.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/WindowsError.h"
-#include "llvm/Support/raw_ostream.h"
 
 #if LLDB_ENABLE_POSIX
 #include <arpa/inet.h>

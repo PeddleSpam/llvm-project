@@ -8,16 +8,8 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/Shard/IR/ShardOps.h"
 #include "mlir/Dialect/Shard/Transforms/Partition.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/ImplicitLocOpBuilder.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 

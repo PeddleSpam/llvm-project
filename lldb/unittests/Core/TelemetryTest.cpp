@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "lldb/Core/Telemetry.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Core/PluginInterface.h"
 #include "lldb/Core/PluginManager.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Telemetry/Telemetry.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <vector>
 

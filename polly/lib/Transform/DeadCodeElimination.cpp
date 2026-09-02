@@ -32,11 +32,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/DeadCodeElimination.h"
-#include "polly/DependenceInfo.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
-#include "llvm/Support/CommandLine.h"
-#include "isl/isl-noexceptions.h"
 
 using namespace llvm;
 using namespace polly;

@@ -9,7 +9,6 @@
 #include "mlir-c/Dialect/NVGPU.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/Dialect/NVGPU/IR/NVGPUDialect.h"
-#include "mlir/IR/BuiltinTypes.h"
 
 using namespace mlir;
 using namespace mlir::nvgpu;

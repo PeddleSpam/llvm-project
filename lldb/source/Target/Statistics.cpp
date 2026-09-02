@@ -6,19 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/Statistics.h"
 
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/StructuredData.h"
 
 using namespace lldb;
 using namespace lldb_private;

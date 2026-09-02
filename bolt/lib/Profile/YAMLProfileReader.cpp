@@ -7,17 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Profile/YAMLProfileReader.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Passes/MCF.h"
-#include "bolt/Profile/ProfileYAMLMapping.h"
-#include "bolt/Utils/NameResolver.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/edit_distance.h"
 #include "llvm/Demangle/Demangle.h"
-#include "llvm/MC/MCPseudoProbe.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 

@@ -9,18 +9,8 @@
 #include "lldb/Symbol/CompactUnwindInfo.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
 
-#include "llvm/Support/MathExtras.h"
 
 #include <algorithm>
 #include <memory>

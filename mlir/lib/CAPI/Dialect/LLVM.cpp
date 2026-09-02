@@ -7,16 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Dialect/LLVM.h"
-#include "mlir-c/IR.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/Registration.h"
-#include "mlir/CAPI/Wrap.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "llvm-c/Core.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 using namespace mlir;
 using namespace mlir::LLVM;

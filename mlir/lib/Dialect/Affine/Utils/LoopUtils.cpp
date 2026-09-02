@@ -19,14 +19,9 @@
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/IR/IRMapping.h"
 #include "mlir/IR/IntegerSet.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 #define DEBUG_TYPE "loop-utils"

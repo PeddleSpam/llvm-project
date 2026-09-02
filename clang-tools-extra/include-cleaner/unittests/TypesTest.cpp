@@ -7,12 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang-include-cleaner/Types.h"
+#include "../../../llvm/include/llvm/ADT/BitmaskEnum.h"
 #include "TypesInternal.h"
 #include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang::include_cleaner {
 namespace {

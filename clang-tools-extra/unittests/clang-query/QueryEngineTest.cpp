@@ -6,15 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/LineEditor/LineEditor.h"
 #include "Query.h"
 #include "QueryParser.h"
 #include "QuerySession.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/ASTMatchers/Dynamic/VariantValue.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <string>
 

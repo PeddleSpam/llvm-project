@@ -9,9 +9,7 @@
 #include "lldb/Utility/StringList.h"
 
 #include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/ArrayRef.h"
 
 #include <algorithm>
 #include <cstdint>

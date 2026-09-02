@@ -5,19 +5,15 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "Config.h"
 #include "InlayHints.h"
-#include "Protocol.h"
-#include "TestTU.h"
 #include "TestWorkspace.h"
 #include "XRefs.h"
-#include "support/Context.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 #include <string>
 #include <utility>

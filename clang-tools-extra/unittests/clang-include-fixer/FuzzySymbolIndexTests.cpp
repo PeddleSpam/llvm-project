@@ -9,7 +9,6 @@
 #include "FuzzySymbolIndex.h"
 #include "gmock/gmock.h"
 #include "llvm/Support/Regex.h"
-#include "gtest/gtest.h"
 
 using testing::ElementsAre;
 using testing::Not;

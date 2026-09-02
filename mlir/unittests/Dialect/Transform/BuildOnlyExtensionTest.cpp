@@ -8,8 +8,6 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Transform/IR/TransformDialect.h"
-#include "mlir/IR/DialectRegistry.h"
-#include "mlir/IR/MLIRContext.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

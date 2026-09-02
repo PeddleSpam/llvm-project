@@ -17,11 +17,7 @@
 #include "mlir/Dialect/Bufferization/Transforms/BufferUtils.h"
 #include "mlir/Dialect/Bufferization/Transforms/Transforms.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 #include "mlir/Interfaces/LoopLikeInterface.h"
-#include "mlir/Pass/Pass.h"
 
 namespace mlir {
 namespace bufferization {

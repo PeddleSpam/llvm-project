@@ -7,12 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/IRDLToCpp/TranslationRegistration.h"
-#include "mlir/Dialect/IRDL/IR/IRDL.h"
 #include "mlir/IR/BuiltinOps.h"
 #include "mlir/Target/IRDLToCpp/IRDLToCpp.h"
 #include "mlir/Tools/mlir-translate/Translation.h"
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Casting.h"
 
 using namespace mlir;
 

@@ -11,14 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/OpenMP/OpenMPDialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Interfaces/FunctionInterfaces.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 namespace mlir {
 namespace omp {

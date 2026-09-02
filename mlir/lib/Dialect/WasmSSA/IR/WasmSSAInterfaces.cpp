@@ -10,12 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/WasmSSA/IR/WasmSSAInterfaces.h"
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Visitors.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/Support/LogicalResult.h"
 
 namespace mlir::wasmssa {
 #include "mlir/Dialect/WasmSSA/IR/WasmSSAInterfaces.cpp.inc"

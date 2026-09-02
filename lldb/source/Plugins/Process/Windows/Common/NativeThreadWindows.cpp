@@ -9,12 +9,9 @@
 #include "NativeThreadWindows.h"
 #include "NativeProcessWindows.h"
 
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/LazyImport.h"
-#include "lldb/Host/windows/windows.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
 
 #include <llvm/Support/ConvertUTF.h>

@@ -10,15 +10,17 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../Dialect/Test/TestAttributes.h"
+#include "../../Dialect/Test/TestDialect.h"
+#include "../../Dialect/Test/TestInterfaces.h"
+#include "../../Dialect/Test/TestOps.h"
+#include "../../Dialect/Test/TestTypes.h"
 #include "TestDenseDataFlowAnalysis.h"
 #include "TestDialect.h"
 #include "TestOps.h"
 #include "mlir/Analysis/DataFlow/DenseAnalysis.h"
 #include "mlir/Analysis/DataFlow/Utils.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include <optional>
 
 using namespace mlir;

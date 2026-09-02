@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/PseudoTerminal.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Host/FileSystem.h"
-#include "llvm/Support/Errc.h"
 #include "llvm/Support/Errno.h"
 #include <cassert>
 #include <climits>
@@ -21,7 +19,6 @@
 #include <sys/ioctl.h>
 #endif
 
-#include "lldb/Host/PosixApi.h"
 
 #if defined(__APPLE__)
 #include <Availability.h>

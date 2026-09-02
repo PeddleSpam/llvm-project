@@ -15,14 +15,9 @@
 
 #include "lldb/Host/windows/HostInfoWindows.h"
 #include "lldb/Host/windows/PosixApi.h"
-#include "lldb/Utility/UserIDResolver.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/ManagedStatic.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 

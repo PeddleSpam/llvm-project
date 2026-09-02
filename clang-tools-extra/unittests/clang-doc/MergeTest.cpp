@@ -6,9 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ClangDocTest.h"
-#include "Representation.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace doc {

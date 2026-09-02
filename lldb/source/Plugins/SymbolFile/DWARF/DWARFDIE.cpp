@@ -6,21 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DWARFDIE.h"
 
 #include "DWARFASTParser.h"
 #include "DWARFDebugInfo.h"
-#include "DWARFDebugInfoEntry.h"
 #include "DWARFDeclContext.h"
-#include "DWARFUnit.h"
 #include "LogChannelDWARF.h"
-#include "lldb/Symbol/Type.h"
 
-#include "llvm/ADT/iterator.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/DebugInfo/DWARF/DWARFAddressRange.h"
 #include "llvm/DebugInfo/DWARF/DWARFTypePrinter.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 using namespace lldb_private::plugin::dwarf;

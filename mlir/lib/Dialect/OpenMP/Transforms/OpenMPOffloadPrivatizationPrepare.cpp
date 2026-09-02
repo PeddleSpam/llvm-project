@@ -8,14 +8,9 @@
 
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Dialect/LLVMIR/FunctionCallUtils.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/OpenMP/OpenMPDialect.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/Dominance.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/Support/DebugLog.h"
 #include "llvm/Support/FormatVariadic.h"
 #include <cstdint>
 #include <iterator>

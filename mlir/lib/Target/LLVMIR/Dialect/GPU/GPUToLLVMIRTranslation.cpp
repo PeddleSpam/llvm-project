@@ -12,7 +12,6 @@
 #include "mlir/Target/LLVMIR/Dialect/GPU/GPUToLLVMIRTranslation.h"
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Target/LLVMIR/LLVMTranslationInterface.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;
 

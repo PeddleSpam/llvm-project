@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputFiles.h"
 #include "OutputSections.h"
 #include "RelocScan.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/Support/LEB128.h"
 
 using namespace llvm;

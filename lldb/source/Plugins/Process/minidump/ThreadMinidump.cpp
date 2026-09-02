@@ -18,14 +18,7 @@
 #include "Plugins/Process/Utility/RegisterContextLinux_i386.h"
 #include "Plugins/Process/Utility/RegisterContextLinux_x86_64.h"
 #include "Plugins/Process/elf-core/RegisterContextPOSIXCore_x86.h"
-#include "Plugins/Process/elf-core/RegisterUtilities.h"
 
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Unwind.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Log.h"
 
 #include <memory>
 

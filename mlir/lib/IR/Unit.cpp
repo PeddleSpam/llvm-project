@@ -8,9 +8,6 @@
 
 #include "mlir/IR/Unit.h"
 #include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/Region.h"
-#include "llvm/Support/raw_ostream.h"
 #include <iterator>
 
 using namespace mlir;

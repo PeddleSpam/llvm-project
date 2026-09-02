@@ -8,7 +8,6 @@
 
 #include "CommandObjectDiagnostics.h"
 #include "lldb/Core/BugReporter.h"
-#include "lldb/Core/Diagnostics.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
@@ -16,9 +15,7 @@
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionValueEnumeration.h"
 #include "lldb/Interpreter/OptionValueUInt64.h"
-#include "lldb/Interpreter/Options.h"
 
-#include "llvm/Support/JSON.h"
 
 using namespace lldb;
 using namespace lldb_private;

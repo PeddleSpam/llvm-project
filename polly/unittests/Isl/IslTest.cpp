@@ -11,7 +11,6 @@
 #include "polly/Support/ISLTools.h"
 #include "gtest/gtest.h"
 #include "isl/stream.h"
-#include "isl/val.h"
 
 using namespace llvm;
 using namespace polly;

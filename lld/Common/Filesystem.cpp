@@ -12,8 +12,6 @@
 
 #include "lld/Common/Filesystem.h"
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/Support/FileOutputBuffer.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/Path.h"

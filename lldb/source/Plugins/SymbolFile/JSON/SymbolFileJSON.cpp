@@ -9,20 +9,9 @@
 #include "SymbolFileJSON.h"
 
 #include "Plugins/ObjectFile/JSON/ObjectFileJSON.h"
-#include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Symbol/TypeList.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
 #include "lldb/Utility/Timer.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 #include <memory>
 #include <optional>

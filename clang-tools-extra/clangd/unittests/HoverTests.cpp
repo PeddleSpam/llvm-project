@@ -6,20 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "Annotations.h"
 #include "Config.h"
 #include "Hover.h"
-#include "Protocol.h"
-#include "TestFS.h"
 #include "TestIndex.h"
 #include "TestTU.h"
 #include "index/MemIndex.h"
 #include "clang/AST/Attr.h"
-#include "clang/Format/Format.h"
-#include "clang/Index/IndexSymbol.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/Twine.h"
 
 #include "gtest/gtest.h"
 #include <functional>

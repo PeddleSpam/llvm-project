@@ -8,7 +8,6 @@
 
 #include "lldb/Host/FileCache.h"
 
-#include "lldb/Host/File.h"
 #include "lldb/Host/FileSystem.h"
 
 using namespace lldb;

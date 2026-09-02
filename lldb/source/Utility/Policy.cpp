@@ -8,10 +8,7 @@
 
 #include "lldb/Utility/Policy.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace lldb_private;
 

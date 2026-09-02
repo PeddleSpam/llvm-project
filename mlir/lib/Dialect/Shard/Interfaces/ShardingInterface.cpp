@@ -6,17 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
 
-#include "mlir/Dialect/Shard/IR/ShardOps.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/Support/Debug.h"
 
 #include <utility>
 

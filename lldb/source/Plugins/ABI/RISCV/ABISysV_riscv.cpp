@@ -12,15 +12,10 @@
 #include <limits>
 #include <sstream>
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/IR/DerivedTypes.h"
 
 #include "Utility/RISCV_DWARF_Registers.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/RegisterValue.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"

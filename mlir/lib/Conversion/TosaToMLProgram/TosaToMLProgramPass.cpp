@@ -13,9 +13,7 @@
 #include "mlir/Conversion/TosaToMLProgram/TosaToMLProgram.h"
 #include "mlir/Dialect/MLProgram/IR/MLProgram.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Pass/PassManager.h"
-#include "mlir/Transforms/DialectConversion.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_TOSATOMLPROGRAM

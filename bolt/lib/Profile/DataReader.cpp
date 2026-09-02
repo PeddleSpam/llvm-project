@@ -12,13 +12,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Profile/DataReader.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Passes/MCF.h"
-#include "bolt/Utils/NameResolver.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Errc.h"
 
 #undef  DEBUG_TYPE
 #define DEBUG_TYPE "bolt-prof"

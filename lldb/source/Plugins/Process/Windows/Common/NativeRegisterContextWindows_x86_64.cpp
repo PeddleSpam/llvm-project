@@ -15,13 +15,10 @@
 #include "Plugins/Process/Utility/RegisterContextWindows_x86_64.h"
 #include "ProcessWindowsLog.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/windows.h"
 
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

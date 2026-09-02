@@ -8,13 +8,7 @@
 
 #include "bolt/Rewrite/JITLinkLinker.h"
 #include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/BinaryData.h"
-#include "bolt/Core/BinarySection.h"
 #include "llvm/ExecutionEngine/JITLink/ELF_riscv.h"
-#include "llvm/ExecutionEngine/JITLink/JITLink.h"
-#include "llvm/ExecutionEngine/Orc/Shared/ExecutorAddress.h"
-#include "llvm/ExecutionEngine/Orc/Shared/ExecutorSymbolDef.h"
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "bolt"
 

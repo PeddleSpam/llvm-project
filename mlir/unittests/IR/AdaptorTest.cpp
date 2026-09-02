@@ -6,11 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../test/lib/Dialect/Test/TestAttributes.h"
 #include "../../test/lib/Dialect/Test/TestDialect.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
 #include "../../test/lib/Dialect/Test/TestOps.h"
 #include "../../test/lib/Dialect/Test/TestOpsSyntax.h"
+#include "../../test/lib/Dialect/Test/TestTypes.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace mlir;

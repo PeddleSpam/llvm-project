@@ -7,18 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantExpressionCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Matchers.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/APSInt.h"
 #include "llvm/ADT/SmallBitVector.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cassert>
 #include <cstdint>

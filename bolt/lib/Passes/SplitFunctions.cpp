@@ -11,16 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/SplitFunctions.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/FunctionLayout.h"
 #include "bolt/Core/ParallelUtilities.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/iterator_range.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FormatVariadic.h"
 #include <algorithm>
 #include <cmath>
 #include <iterator>

@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/IR/AttributeSupport.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/StorageUniquerSupport.h"
 #include "llvm/Support/InterleavedRange.h"
 
 using namespace mlir;

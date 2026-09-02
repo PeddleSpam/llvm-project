@@ -12,8 +12,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/Pass/Pass.h"
-#include "mlir/Pass/PassManager.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_COMPOSITEFIXEDPOINTPASS

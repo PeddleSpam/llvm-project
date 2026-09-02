@@ -6,17 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ConfigProvider.h"
-#include "Config.h"
 #include "ConfigFragment.h"
 #include "support/FileCache.h"
 #include "support/Path.h"
 #include "support/ThreadsafeFS.h"
 #include "support/Trace.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Path.h"
 #include <chrono>
 #include <mutex>
 #include <optional>

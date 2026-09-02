@@ -6,8 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/Builders.h"
+#include "../../test/lib/Dialect/Test/TestAttributes.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
+#include "../../test/lib/Dialect/Test/TestTypes.h"
 #include "gtest/gtest.h"
 
 #include "../../test/lib/Dialect/Test/TestDialect.h"

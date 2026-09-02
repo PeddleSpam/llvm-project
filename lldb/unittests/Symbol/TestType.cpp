@@ -8,13 +8,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
-#include "lldb/Core/Declaration.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-private-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

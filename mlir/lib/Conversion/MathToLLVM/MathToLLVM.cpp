@@ -11,14 +11,10 @@
 #include "mlir/Conversion/ArithCommon/AttrToLLVMConverter.h"
 #include "mlir/Conversion/ConvertToLLVM/ToLLVMInterface.h"
 #include "mlir/Conversion/LLVMCommon/ConversionTarget.h"
-#include "mlir/Conversion/LLVMCommon/Pattern.h"
 #include "mlir/Conversion/LLVMCommon/VectorPattern.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/Math/IR/Math.h"
-#include "mlir/IR/TypeUtilities.h"
 #include "mlir/Pass/Pass.h"
 
-#include "llvm/ADT/FloatingPointMode.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_CONVERTMATHTOLLVMPASS

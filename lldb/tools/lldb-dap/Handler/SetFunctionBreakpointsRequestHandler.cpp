@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
 #include "RequestHandler.h"
 

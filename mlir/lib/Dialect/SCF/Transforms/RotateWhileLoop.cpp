@@ -12,7 +12,6 @@
 
 #include "mlir/Dialect/SCF/Transforms/Patterns.h"
 
-#include "mlir/Dialect/SCF/IR/SCF.h"
 
 using namespace mlir;
 

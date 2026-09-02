@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/DynamicRegisterInfo.h"
 #include "lldb/DataFormatters/FormatManager.h"
-#include "lldb/Host/StreamFile.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
 #include "lldb/Utility/StringExtractor.h"
-#include "lldb/Utility/StructuredData.h"
 
 using namespace lldb;
 using namespace lldb_private;

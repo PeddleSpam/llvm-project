@@ -7,12 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "ConstCorrectnessCheck.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/FixItHintUtils.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include <cassert>
 
 using namespace clang::ast_matchers;

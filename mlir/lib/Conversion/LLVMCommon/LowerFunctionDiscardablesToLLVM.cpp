@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/LLVMCommon/LowerFunctionDiscardablesToLLVM.h"
-#include "llvm/ADT/DenseSet.h"
 #include "llvm/Support/DebugLog.h"
 
 using namespace mlir;

@@ -6,20 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/ModuleList.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Symbol/SymbolLocator.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/UUID.h"
 
 #include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace lldb_private;

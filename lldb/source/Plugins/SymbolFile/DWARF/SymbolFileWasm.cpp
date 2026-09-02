@@ -11,16 +11,7 @@
 #include "Plugins/SymbolFile/DWARF/DWARFUnit.h"
 #include "Plugins/SymbolFile/DWARF/LogChannelDWARF.h"
 #include "Utility/WasmVirtualRegisters.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
-#include "lldb/Core/Mangled.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Expression/DWARFExpression.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "llvm/ADT/DenseMap.h"
 #include <optional>
 
 using namespace lldb;

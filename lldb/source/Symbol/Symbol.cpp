@@ -6,23 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/Symbol.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/DataFileCache.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/Stream.h"
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace lldb;
 using namespace lldb_private;

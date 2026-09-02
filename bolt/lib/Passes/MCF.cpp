@@ -11,13 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/MCF.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Core/ParallelUtilities.h"
 #include "bolt/Passes/DataflowInfoManager.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/CommandLine.h"
 #include <algorithm>
 #include <vector>
 

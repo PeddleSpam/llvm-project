@@ -5,22 +5,10 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "ParsedAST.h"
-#include "Protocol.h"
-#include "Selection.h"
-#include "SourceCode.h"
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/OperationKinds.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/FormatVariadic.h"
 #include <string>
 #include <utility>
 

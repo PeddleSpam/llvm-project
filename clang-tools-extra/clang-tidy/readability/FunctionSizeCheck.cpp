@@ -7,9 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "FunctionSizeCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "llvm/ADT/BitVector.h"
 
 using namespace clang::ast_matchers;
 

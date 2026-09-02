@@ -7,16 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "AnalysisInternal.h"
-#include "TypesInternal.h"
-#include "clang-include-cleaner/Types.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DeclObjC.h"
 #include "clang/AST/DeclTemplate.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <vector>
 
 namespace clang::include_cleaner {

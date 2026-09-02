@@ -6,18 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Breakpoint.h"
 #include "DAP.h"
 #include "LLDBUtils.h"
-#include "Protocol/DAPTypes.h"
 #include "ProtocolUtils.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBBreakpointLocation.h"
-#include "lldb/API/SBFileSpec.h"
-#include "lldb/API/SBLineEntry.h"
-#include "lldb/API/SBModule.h"
-#include "lldb/API/SBMutex.h"
-#include "llvm/ADT/StringExtras.h"
 #include <cstddef>
 #include <cstdint>
 #include <mutex>

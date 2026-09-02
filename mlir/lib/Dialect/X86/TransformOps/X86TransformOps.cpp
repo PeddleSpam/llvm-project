@@ -7,16 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/X86/TransformOps/X86TransformOps.h"
-#include "mlir/Conversion/LLVMCommon/TypeConverter.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/Transform/IR/TransformDialect.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
 #include "mlir/Dialect/X86/Transforms.h"
 #include "mlir/Dialect/X86/X86Dialect.h"
 
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/RegionKindInterface.h"
 
 using namespace mlir;
 using namespace mlir::x86;

@@ -6,30 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../include/mlir/Conversion/LLVMCommon/LowerFunctionDiscardablesToLLVM.h"
 #include "mlir/Conversion/GPUToLLVMSPV/GPUToLLVMSPVPass.h"
 
 #include "../GPUCommon/GPUOpsLowering.h"
 #include "mlir/Conversion/GPUCommon/AttrToSPIRVConverter.h"
 #include "mlir/Conversion/GPUCommon/GPUCommonPass.h"
 #include "mlir/Conversion/LLVMCommon/ConversionTarget.h"
-#include "mlir/Conversion/LLVMCommon/LoweringOptions.h"
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Conversion/LLVMCommon/TypeConverter.h"
 #include "mlir/Conversion/SPIRVCommon/AttrToLLVMConverter.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/SymbolTable.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Support/LLVM.h"
-#include "mlir/Transforms/DialectConversion.h"
 
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/FormatVariadic.h"
 
 #define DEBUG_TYPE "gpu-to-llvm-spv"

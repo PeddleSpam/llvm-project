@@ -12,18 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/BinaryEmitter.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/DebugData.h"
-#include "bolt/Core/FunctionLayout.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
 #include "llvm/DebugInfo/DWARF/DWARFCompileUnit.h"
-#include "llvm/MC/MCSection.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/LEB128.h"
-#include "llvm/Support/SMLoc.h"
 
 #define DEBUG_TYPE "bolt"
 

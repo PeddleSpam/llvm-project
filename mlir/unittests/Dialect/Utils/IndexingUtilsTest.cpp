@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "llvm/ADT/STLExtras.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

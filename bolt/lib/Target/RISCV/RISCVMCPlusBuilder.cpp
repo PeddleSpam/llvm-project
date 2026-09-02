@@ -13,13 +13,7 @@
 #include "MCTargetDesc/RISCVMCAsmInfo.h"
 #include "MCTargetDesc/RISCVMCTargetDesc.h"
 #include "RISCVMCSymbolizer.h"
-#include "bolt/Core/MCPlusBuilder.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/MC/MCContext.h"
-#include "llvm/MC/MCInst.h"
 #include "llvm/MC/MCInstBuilder.h"
-#include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #define DEBUG_TYPE "mcplus"
 

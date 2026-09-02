@@ -14,7 +14,6 @@
 #include "mlir/Conversion/TosaToSPIRVTosa/TosaToSPIRVTosa.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include <optional>
 
 namespace mlir {

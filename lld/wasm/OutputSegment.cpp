@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "OutputSegment.h"
-#include "InputChunks.h"
 #include "lld/Common/Memory.h"
 
 #define DEBUG_TYPE "lld"

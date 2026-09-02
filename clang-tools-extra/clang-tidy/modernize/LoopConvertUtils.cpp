@@ -7,17 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "LoopConvertUtils.h"
+#include "../../../clang/include/clang/AST/StmtVisitor.h"
 #include "../utils/ASTUtils.h"
-#include "clang/Basic/IdentifierTable.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/Lambda.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TokenKinds.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/APSInt.h"
-#include "llvm/ADT/FoldingSet.h"
-#include "llvm/ADT/StringRef.h"
 #include <cassert>
 #include <cstddef>
 #include <optional>

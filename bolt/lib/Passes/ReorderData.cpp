@@ -17,7 +17,6 @@
 
 #include "bolt/Passes/ReorderData.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/MapVector.h"
 #include <algorithm>
 
 #undef  DEBUG_TYPE

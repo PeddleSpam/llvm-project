@@ -11,11 +11,7 @@
 #include <cstdlib>
 #include <optional>
 
-#include "Plugins/Process/Utility/lldb-ppc64le-register-enums.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/LLDBLog.h"
 
 #define DECLARE_REGISTER_INFOS_PPC64LE_STRUCT

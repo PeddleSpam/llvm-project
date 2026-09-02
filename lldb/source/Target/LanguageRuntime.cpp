@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Core/SearchFilter.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Target.h"
 
 using namespace lldb;
 using namespace lldb_private;

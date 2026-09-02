@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Lex/HeaderSearchOptions.h"
 #include "clang/Lex/Preprocessor.h"
 #include "llvm/ADT/Statistic.h"

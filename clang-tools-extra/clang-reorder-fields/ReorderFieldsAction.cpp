@@ -13,20 +13,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "ReorderFieldsAction.h"
+#include "../../clang/include/clang/AST/StmtVisitor.h"
 #include "Designator.h"
-#include "clang/AST/AST.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Lex/Lexer.h"
-#include "clang/Tooling/Refactoring.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SetVector.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <string>
 
 namespace clang {

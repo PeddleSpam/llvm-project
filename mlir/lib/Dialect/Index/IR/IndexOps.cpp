@@ -7,14 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Index/IR/IndexOps.h"
-#include "mlir/Dialect/Index/IR/IndexAttrs.h"
 #include "mlir/Dialect/Index/IR/IndexDialect.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/Matchers.h"
 #include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/Utils/InferIntRangeCommon.h"
 #include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;
 using namespace mlir::index;

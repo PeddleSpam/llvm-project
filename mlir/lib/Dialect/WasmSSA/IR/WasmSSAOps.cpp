@@ -7,17 +7,8 @@
 //===---------------------------------------------------------------------===//
 
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/Dialect/WasmSSA/IR/WasmSSAInterfaces.h"
 
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Region.h"
-#include "mlir/IR/SymbolTable.h"
 #include "mlir/Interfaces/FunctionImplementation.h"
-#include "llvm/Support/Casting.h"
 
 //===----------------------------------------------------------------------===//
 // TableGen'd op method definitions
@@ -45,9 +36,6 @@ void printElseRegion(OpAsmPrinter &opPrinter, Operation *op,
 #define GET_OP_CLASSES
 #include "mlir/Dialect/WasmSSA/IR/WasmSSAOps.cpp.inc"
 
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/Types.h"
-#include "llvm/Support/LogicalResult.h"
 
 using namespace wasmssa;
 

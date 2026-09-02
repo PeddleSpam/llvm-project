@@ -7,25 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "AnalysisInternal.h"
-#include "TypesInternal.h"
-#include "clang-include-cleaner/Record.h"
-#include "clang-include-cleaner/Types.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/Basic/Builtins.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Lex/Preprocessor.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/Path.h"
 #include <optional>
 #include <queue>

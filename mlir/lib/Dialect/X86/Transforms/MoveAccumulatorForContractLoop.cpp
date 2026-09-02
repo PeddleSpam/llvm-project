@@ -7,16 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
 #include "mlir/Dialect/Vector/Utils/VectorUtils.h"
 #include "mlir/Dialect/X86/Transforms.h"
 #include "mlir/Dialect/X86/Utils/X86Utils.h"
 #include "mlir/Dialect/X86/X86Dialect.h"
 
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Dominance.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/Support/Casting.h"
 
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"

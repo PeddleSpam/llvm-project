@@ -9,12 +9,8 @@
 #include <vector>
 
 #include "llvm/Support/FormattedStream.h"
-#include "llvm/Support/raw_ostream.h"
 
-#include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeMap.h"
 
 using namespace lldb;
 using namespace lldb_private;

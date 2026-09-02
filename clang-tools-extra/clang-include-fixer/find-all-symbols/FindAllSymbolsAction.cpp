@@ -8,9 +8,6 @@
 
 #include "FindAllSymbolsAction.h"
 #include "FindAllMacros.h"
-#include "clang/Lex/PPCallbacks.h"
-#include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace clang {
 namespace find_all_symbols {

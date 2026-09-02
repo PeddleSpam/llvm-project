@@ -7,12 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "BPSectionOrderer.h"
+#include "../../llvm/include/llvm/ProfileData/InstrProfReader.h"
+#include "../../llvm/include/llvm/Support/TimeProfiler.h"
+#include "../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../include/lld/Common/Utils.h"
 #include "InputFiles.h"
 #include "InputSection.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "lld/Common/BPSectionOrdererBase.inc"
-#include "llvm/Support/Endian.h"
 
 using namespace llvm;
 using namespace lld::elf;

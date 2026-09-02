@@ -8,10 +8,6 @@
 
 #include "RegisterInfoPOSIXDynamic_riscv32.h"
 
-#include "lldb-riscv-register-enums.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/Compiler.h"
 
 #include <stddef.h>
 

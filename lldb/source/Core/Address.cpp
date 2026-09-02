@@ -6,41 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Declaration.h"
 #include "lldb/Core/DumpDataExtractor.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/Block.h"
-#include "lldb/Symbol/LineEntry.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/Variable.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/ExecutionContextScope.h"
-#include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include <cstdint>
 #include <memory>

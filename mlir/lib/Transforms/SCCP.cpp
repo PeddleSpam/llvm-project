@@ -18,10 +18,6 @@
 
 #include "mlir/Analysis/DataFlow/ConstantPropagationAnalysis.h"
 #include "mlir/Analysis/DataFlow/DeadCodeAnalysis.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
-#include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/FoldUtils.h"
 
 namespace mlir {

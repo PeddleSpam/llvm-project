@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/DynoStats.h"
 #include "bolt/Core/BinaryFunction.h"
 #include "gtest/gtest.h"
 #include <map>

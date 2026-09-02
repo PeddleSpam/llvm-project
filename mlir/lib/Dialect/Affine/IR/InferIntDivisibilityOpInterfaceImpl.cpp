@@ -13,7 +13,6 @@
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/IR/AffineExprVisitor.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/InferIntDivisibilityOpInterface.h"
 
 #include <cstdlib>
 #include <numeric>

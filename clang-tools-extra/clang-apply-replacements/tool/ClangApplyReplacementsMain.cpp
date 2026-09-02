@@ -13,15 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang-apply-replacements/Tooling/ApplyReplacements.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Basic/Version.h"
-#include "clang/Format/Format.h"
 #include "clang/Rewrite/Core/Rewriter.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace llvm;
 using namespace clang;

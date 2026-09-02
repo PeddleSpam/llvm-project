@@ -8,9 +8,7 @@
 
 #include "ProtocolMCPTestUtilities.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Protocol/MCP/Protocol.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace lldb_private;

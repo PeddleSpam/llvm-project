@@ -11,36 +11,20 @@
 #include "DWARFDebugAranges.h"
 #include "DWARFDebugInfo.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Core/Progress.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Utility/RangeMap.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
 #include "lldb/Utility/Timer.h"
 
 //#define DEBUG_OSO_DMAP // DO NOT CHECKIN WITH THIS NOT COMMENTED OUT
 
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/LineTable.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/TypeMap.h"
 #include "lldb/Symbol/VariableList.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ErrorExtras.h"
 #include "llvm/Support/ScopedPrinter.h"
 
-#include "lldb/Target/StackFrame.h"
 
 #include "LogChannelDWARF.h"
-#include "SymbolFileDWARF.h"
-#include "lldb/lldb-private-enumerations.h"
 
 #include <memory>
 #include <optional>

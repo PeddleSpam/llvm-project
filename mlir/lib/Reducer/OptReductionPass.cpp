@@ -13,7 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Pass/PassManager.h"
-#include "mlir/Pass/PassRegistry.h"
 #include "mlir/Reducer/Passes.h"
 #include "mlir/Reducer/Tester.h"
 

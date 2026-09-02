@@ -6,22 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBWatchpoint.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBDebugger.h"
-#include "lldb/API/SBDefines.h"
 #include "lldb/API/SBEvent.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Breakpoint/WatchpointList.h"
-#include "lldb/Symbol/CompilerType.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-types.h"
 
 using namespace lldb;
 using namespace lldb_private;

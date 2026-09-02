@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "index/BackgroundIndexLoader.h"
-#include "GlobalCompilationDatabase.h"
-#include "index/Background.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "support/Logger.h"
-#include "support/Path.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/Path.h"
 #include <string>
 #include <utility>
 #include <vector>

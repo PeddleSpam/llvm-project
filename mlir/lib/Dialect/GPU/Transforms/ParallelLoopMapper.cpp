@@ -14,10 +14,8 @@
 #include "mlir/Dialect/GPU/Transforms/Passes.h"
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/GPU/Transforms/ParallelLoopMapper.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/IR/AffineMap.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_GPUMAPPARALLELLOOPSPASS

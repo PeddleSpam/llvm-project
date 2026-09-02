@@ -8,10 +8,7 @@
 
 #include "CommandObjectRegexCommand.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
 
 using namespace lldb;
 using namespace lldb_private;

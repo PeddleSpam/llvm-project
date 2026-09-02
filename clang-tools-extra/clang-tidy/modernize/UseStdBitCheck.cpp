@@ -7,6 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseStdBitCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeSorter.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "llvm/Support/FormatVariadic.h"
 

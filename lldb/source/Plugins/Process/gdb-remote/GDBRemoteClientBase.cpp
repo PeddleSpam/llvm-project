@@ -8,7 +8,6 @@
 
 #include "GDBRemoteClientBase.h"
 
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/ErrorExtras.h"
 
 #include "lldb/Target/UnixSignals.h"

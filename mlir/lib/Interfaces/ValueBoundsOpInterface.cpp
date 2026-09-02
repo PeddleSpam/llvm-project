@@ -8,13 +8,9 @@
 
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/DestinationStyleOpInterface.h"
 #include "mlir/Interfaces/ViewLikeInterface.h"
 #include "llvm/ADT/APSInt.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 
 #include <utility>

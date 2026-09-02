@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lld/Common/Memory.h"
 #include "lld/Common/CommonLinkerContext.h"
 
 using namespace llvm;

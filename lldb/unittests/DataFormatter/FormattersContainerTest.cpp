@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/DataFormatters/FormattersContainer.h"
-#include "lldb/DataFormatters/FormatClasses.h"
 
 #include "gtest/gtest.h"
 

@@ -8,9 +8,6 @@
 
 #include "lldb/Target/OperatingSystem.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-private.h"
 
 #include "RegisterContextThreadMemory.h"
 

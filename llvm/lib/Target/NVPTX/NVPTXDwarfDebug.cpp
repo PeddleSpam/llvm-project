@@ -12,17 +12,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "NVPTXDwarfDebug.h"
-#include "../../../include/llvm/CodeGen/AccelTable.h"
-#include "../../../include/llvm/CodeGen/AsmPrinter.h"
-#include "../../../include/llvm/CodeGen/DebugHandlerBase.h"
-#include "../../../include/llvm/IR/DebugInfo.h"
-#include "../../../include/llvm/MC/MachineLocation.h"
-#include "../../../include/llvm/Support/LEB128.h"
 #include "../../CodeGen/AsmPrinter/AddressPool.h"
 #include "../../CodeGen/AsmPrinter/ByteStreamer.h"
 #include "../../CodeGen/AsmPrinter/DIEHash.h"
 #include "../../CodeGen/AsmPrinter/DebugLocEntry.h"
 #include "../../CodeGen/AsmPrinter/DebugLocStream.h"
+#include "../../CodeGen/AsmPrinter/DwarfCompileUnit.h"
 #include "../../CodeGen/AsmPrinter/DwarfDebug.h"
 #include "../../CodeGen/AsmPrinter/DwarfFile.h"
 #include "../../CodeGen/AsmPrinter/DwarfStringPool.h"

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Config.h"
-#include "support/Context.h"
 
 namespace clang {
 namespace clangd {

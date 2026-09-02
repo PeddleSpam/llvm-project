@@ -7,8 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "SyncAPI.h"
-#include "Protocol.h"
-#include "index/Index.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include <optional>
 
 namespace clang {

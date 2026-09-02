@@ -8,11 +8,8 @@
 // Mutate a test input.
 //===----------------------------------------------------------------------===//
 
-#include "FuzzerDefs.h"
 #include "FuzzerExtFunctions.h"
-#include "FuzzerIO.h"
 #include "FuzzerMutate.h"
-#include "FuzzerOptions.h"
 #include "FuzzerTracePC.h"
 
 namespace fuzzer {

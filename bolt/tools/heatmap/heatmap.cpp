@@ -8,12 +8,6 @@
 
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/MC/TargetRegistry.h"
-#include "llvm/Object/Binary.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/TargetSelect.h"
 

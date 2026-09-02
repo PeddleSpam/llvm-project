@@ -10,8 +10,6 @@
 #include "bolt/Core/BinaryContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFTypeUnit.h"
 #include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
-#include "llvm/Support/EndianStream.h"
-#include "llvm/Support/LEB128.h"
 #include <cstdint>
 #include <limits>
 #include <optional>

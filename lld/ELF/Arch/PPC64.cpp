@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputFiles.h"
 #include "OutputSections.h"
 #include "RelocScan.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 #include "Thunks.h"
 
 using namespace llvm;

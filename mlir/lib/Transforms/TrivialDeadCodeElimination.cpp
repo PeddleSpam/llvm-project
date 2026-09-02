@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Operation.h"
-#include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/Passes.h"
 #include "mlir/Transforms/RegionUtils.h"
 

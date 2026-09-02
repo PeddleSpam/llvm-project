@@ -8,7 +8,6 @@
 
 #include "lldb/Target/Queue.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/QueueList.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -12,12 +12,9 @@
 
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -15,8 +15,6 @@
 #include <mutex>
 #include <stdio.h>
 
-#include "lldb/Utility/Status.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 

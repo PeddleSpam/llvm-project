@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/DataFormatters/FormatClasses.h"
 
 #include "lldb/DataFormatters/FormatManager.h"
 

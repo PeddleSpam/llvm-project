@@ -9,7 +9,6 @@
 #include "mlir-c/Dialect/GPU.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "llvm/Support/Casting.h"
 
 using namespace mlir;
 

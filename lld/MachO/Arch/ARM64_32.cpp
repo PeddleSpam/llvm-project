@@ -7,14 +7,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "Arch/ARM64Common.h"
-#include "InputFiles.h"
-#include "Symbols.h"
-#include "Target.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/BinaryFormat/MachO.h"
 
 using namespace llvm::MachO;
 using namespace llvm::support::endian;

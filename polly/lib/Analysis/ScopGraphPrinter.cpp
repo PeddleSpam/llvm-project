@@ -14,8 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/ScopGraphPrinter.h"
-#include "polly/ScopDetection.h"
-#include "llvm/Support/CommandLine.h"
 
 using namespace polly;
 using namespace llvm;

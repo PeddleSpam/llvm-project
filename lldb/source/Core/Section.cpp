@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Section.h"
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Target/SectionLoadList.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/FileSpec.h"
 #include <cinttypes>
 #include <limits>
 #include <utility>

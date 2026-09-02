@@ -7,15 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseStringViewCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/AST/ASTDiagnostic.h"
-#include "clang/AST/Stmt.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/Diagnostic.h"
-#include "llvm/ADT/StringMap.h"
 
 using namespace clang::ast_matchers;
 

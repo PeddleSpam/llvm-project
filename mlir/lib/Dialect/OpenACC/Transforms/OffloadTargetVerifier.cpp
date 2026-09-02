@@ -54,10 +54,7 @@
 #include "mlir/Analysis/Liveness.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
-#include "mlir/IR/SymbolTable.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 namespace acc {

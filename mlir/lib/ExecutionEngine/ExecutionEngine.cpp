@@ -12,25 +12,14 @@
 //===----------------------------------------------------------------------===//
 #include "mlir/ExecutionEngine/ExecutionEngine.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Support/FileUtilities.h"
 #include "mlir/Target/LLVMIR/Export.h"
 
-#include "llvm/ExecutionEngine/JITEventListener.h"
-#include "llvm/ExecutionEngine/ObjectCache.h"
-#include "llvm/ExecutionEngine/Orc/CompileUtils.h"
-#include "llvm/ExecutionEngine/Orc/ExecutionUtils.h"
-#include "llvm/ExecutionEngine/Orc/IRCompileLayer.h"
-#include "llvm/ExecutionEngine/Orc/IRTransformLayer.h"
-#include "llvm/ExecutionEngine/Orc/JITTargetMachineBuilder.h"
 #include "llvm/ExecutionEngine/Orc/RTDyldObjectLinkingLayer.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/MC/TargetRegistry.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ToolOutputFile.h"
 #include "llvm/TargetParser/Host.h"
-#include "llvm/TargetParser/SubtargetFeature.h"
 
 #define DEBUG_TYPE "execution-engine"
 

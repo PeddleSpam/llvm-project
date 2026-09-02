@@ -8,7 +8,6 @@
 
 #include "lldb/Host/ThreadLauncher.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <future>
 
 using namespace lldb_private;

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Rewrite/MetadataManager.h"
-#include "llvm/Support/Debug.h"
 
 #undef DEBUG_TYPE
 #define DEBUG_TYPE "bolt-metadata"

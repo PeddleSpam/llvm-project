@@ -12,9 +12,6 @@
 
 #include "sanitizer_stacktrace.h"
 
-#include "sanitizer_common.h"
-#include "sanitizer_flags.h"
-#include "sanitizer_platform.h"
 #include "sanitizer_ptrauth.h"
 
 namespace __sanitizer {

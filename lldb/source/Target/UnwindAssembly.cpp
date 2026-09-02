@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/UnwindAssembly.h"
-#include "lldb/Core/PluginInterface.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/lldb-private.h"
 
 using namespace lldb;
 using namespace lldb_private;

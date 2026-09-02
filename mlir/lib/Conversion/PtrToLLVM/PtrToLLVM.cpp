@@ -11,14 +11,8 @@
 #include "mlir/Conversion/ConvertToLLVM/ToLLVMInterface.h"
 #include "mlir/Conversion/LLVMCommon/ConversionTarget.h"
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Conversion/LLVMCommon/TypeConverter.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/Dialect/Ptr/IR/PtrAttrs.h"
 #include "mlir/Dialect/Ptr/IR/PtrOps.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "llvm/Support/LogicalResult.h"
 #include <type_traits>
 
 using namespace mlir;

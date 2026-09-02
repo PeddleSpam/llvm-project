@@ -8,7 +8,6 @@
 
 #include "Commands/CommandObjectRegexCommand.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace lldb;

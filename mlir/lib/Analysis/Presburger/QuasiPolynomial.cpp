@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/Presburger/QuasiPolynomial.h"
-#include "mlir/Analysis/Presburger/Fraction.h"
-#include "mlir/Analysis/Presburger/PresburgerSpace.h"
 
 using namespace mlir;
 using namespace presburger;

@@ -10,11 +10,7 @@
 #include "MsvcStl.h"
 
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

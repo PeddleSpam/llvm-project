@@ -9,11 +9,7 @@
 #include "mlir/IR/Remarks.h"
 
 #include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Value.h"
 
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace mlir::remark::detail;
 using namespace mlir::remark;

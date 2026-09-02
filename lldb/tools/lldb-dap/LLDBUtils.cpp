@@ -10,20 +10,10 @@
 #include "DAPError.h"
 #include "JSONUtils.h"
 #include "lldb/API/SBCommandInterpreter.h"
-#include "lldb/API/SBCommandReturnObject.h"
-#include "lldb/API/SBDebugger.h"
-#include "lldb/API/SBFrame.h"
 #include "lldb/API/SBMutex.h"
 #include "lldb/API/SBStringList.h"
-#include "lldb/API/SBStructuredData.h"
 #include "lldb/API/SBThread.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cstdint>
 #include <cstring>

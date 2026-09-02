@@ -6,8 +6,23 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Core/Replacement.h"
+#include "../../../clang/include/clang/Tooling/Inclusions/StandardLibrary.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../llvm/include/llvm/Support/Errc.h"
+#include "../../../llvm/include/llvm/Support/ExtensibleRTTI.h"
+#include "../../../llvm/include/llvm/Support/FileSystem.h"
+#include "../../../llvm/include/llvm/Support/Path.h"
+#include "../../../llvm/include/llvm/Support/SourceMgr.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
 #include "../ClangTidy.h"
+#include "../ClangTidyCheck.h"
 #include "../ClangTidyModule.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeSorter.h"
 #include "AnonymousNamespaceInHeaderCheck.h"
 #include "ConfusableIdentifierCheck.h"
 #include "ConstCorrectnessCheck.h"

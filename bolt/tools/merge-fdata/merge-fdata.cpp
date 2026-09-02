@@ -13,8 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Profile/ProfileYAMLMapping.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/ADT/StringSet.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FileSystem.h"

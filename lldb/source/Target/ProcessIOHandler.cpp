@@ -9,13 +9,8 @@
 #include "lldb/Target/ProcessIOHandler.h"
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Host/Terminal.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/SelectHelper.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/Status.h"
 
 using namespace lldb_private;
 
@@ -149,7 +144,6 @@ bool IOHandlerProcessSTDIO::Interrupt() {
 
 #ifdef _WIN32
 
-#include "lldb/Host/windows/windows.h"
 
 IOHandlerProcessSTDIOWindows::IOHandlerProcessSTDIOWindows(Process *process)
     : IOHandler(process->GetTarget().GetDebugger(), IOHandler::Type::ProcessIO),

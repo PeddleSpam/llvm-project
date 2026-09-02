@@ -13,7 +13,6 @@
 #include "bolt/Passes/StackAvailableExpressions.h"
 #include "bolt/Passes/FrameAnalysis.h"
 #include "bolt/Passes/RegAnalysis.h"
-#include "llvm/MC/MCRegisterInfo.h"
 
 #define DEBUG_TYPE "sae"
 

@@ -7,16 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Expression/IRMemoryMap.h"
-#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
 
 using namespace lldb_private;
 

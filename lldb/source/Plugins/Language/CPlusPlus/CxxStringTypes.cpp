@@ -11,17 +11,8 @@
 #include "llvm/Support/ConvertUTF.h"
 
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/DataFormatters/StringPrinter.h"
-#include "lldb/DataFormatters/TypeSummary.h"
 #include "lldb/Host/Time.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 
 #include <algorithm>

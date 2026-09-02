@@ -6,15 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TokenKinds.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
 #include <string>
 namespace clang {
 namespace clangd {

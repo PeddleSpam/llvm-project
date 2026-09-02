@@ -9,10 +9,6 @@
 #include "llvm/Support/TargetSelect.h"
 #include "gtest/gtest.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Disassembler.h"
-#include "lldb/Core/Opcode.h"
-#include "lldb/Utility/ArchSpec.h"
 
 #include "Plugins/Disassembler/LLVMC/DisassemblerLLVMC.h"
 

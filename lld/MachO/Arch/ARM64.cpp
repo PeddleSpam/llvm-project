@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "Arch/ARM64Common.h"
-#include "InputFiles.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "mach-o/compact_unwind_encoding.h"
-#include "llvm/BinaryFormat/MachO.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

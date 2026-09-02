@@ -7,8 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "SuspiciousIncludeCheck.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/FileExtensionsUtils.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/Lex/Preprocessor.h"
 #include <optional>
 

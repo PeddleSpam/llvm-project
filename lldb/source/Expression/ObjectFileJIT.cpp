@@ -6,24 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/StringRef.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Expression/ObjectFileJIT.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/DataBuffer.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/FileSpecList.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Timer.h"
-#include "lldb/Utility/UUID.h"
 
 using namespace lldb;
 using namespace lldb_private;

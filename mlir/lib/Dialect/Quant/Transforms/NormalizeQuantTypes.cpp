@@ -17,7 +17,6 @@
 #include "mlir/Dialect/Quant/IR/QuantTypes.h"
 #include "mlir/Dialect/Quant/Transforms/Passes.h"
 #include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 namespace mlir {
 namespace quant {

@@ -12,14 +12,8 @@
 
 #include "mlir/Dialect/IRDL/IRDLLoading.h"
 #include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/Dialect/IRDL/IR/IRDLInterfaces.h"
 #include "mlir/Dialect/IRDL/IRDLSymbols.h"
-#include "mlir/Dialect/IRDL/IRDLVerifiers.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/IR/OperationSupport.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace mlir;
 using namespace mlir::irdl;

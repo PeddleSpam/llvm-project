@@ -9,8 +9,6 @@
 #include "URI.h"
 #include "support/Logger.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/Path.h"
 #include <algorithm>
 

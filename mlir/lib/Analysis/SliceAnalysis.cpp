@@ -12,12 +12,7 @@
 
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Analysis/TopologicalSortUtils.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Interfaces/SideEffectInterfaces.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SetVector.h"
 
 ///
 /// Implements Analysis functions specific to slicing in Function.

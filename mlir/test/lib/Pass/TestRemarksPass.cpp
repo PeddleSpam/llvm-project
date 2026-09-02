@@ -11,11 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Location.h"
 #include "mlir/IR/Remarks.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassManager.h"
-#include "mlir/Support/WalkResult.h"
 
 using namespace mlir;
 

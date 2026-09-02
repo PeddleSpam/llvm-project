@@ -6,37 +6,20 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/MLIRContext.h"
 #include "AffineExprDetail.h"
 #include "AffineMapDetail.h"
 #include "AttributeDetail.h"
 #include "IntegerSetDetail.h"
 #include "TypeDetail.h"
 #include "mlir/IR/Action.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/IR/IntegerSet.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/IR/Remarks.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Allocator.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Compiler.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/Mutex.h"
-#include "llvm/Support/RWMutex.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/raw_ostream.h"
 #include <memory>
 #include <optional>
 

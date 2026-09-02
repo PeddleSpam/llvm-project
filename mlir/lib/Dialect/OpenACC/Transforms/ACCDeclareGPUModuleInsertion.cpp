@@ -48,14 +48,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/SymbolTable.h"
 
 namespace mlir {
 namespace acc {

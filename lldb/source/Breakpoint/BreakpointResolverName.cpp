@@ -9,17 +9,8 @@
 #include "lldb/Breakpoint/BreakpointResolverName.h"
 
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Core/Architecture.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
 
 using namespace lldb;
 using namespace lldb_private;

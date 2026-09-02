@@ -12,13 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/DebugLog.h"
 
 #define DEBUG_TYPE "sroa"

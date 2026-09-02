@@ -8,22 +8,14 @@
 
 #include "MemoryHistoryASan.h"
 
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Target/MemoryHistory.h"
 
 #include "Plugins/InstrumentationRuntime/Utility/Utility.h"
 #include "Plugins/Process/Utility/HistoryThread.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/PluginInterface.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Expression/UserExpression.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadList.h"
 #include "lldb/ValueObject/ValueObject.h"
-#include "lldb/lldb-private.h"
 
 #include <sstream>
 

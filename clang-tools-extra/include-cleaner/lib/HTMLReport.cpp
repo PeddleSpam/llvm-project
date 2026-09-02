@@ -15,17 +15,9 @@
 
 #include "AnalysisInternal.h"
 #include "clang-include-cleaner/IncludeSpeller.h"
-#include "clang-include-cleaner/Types.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/AST/PrettyPrinter.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/Lexer.h"
-#include "clang/Lex/Preprocessor.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include <numeric>
 
 namespace clang::include_cleaner {

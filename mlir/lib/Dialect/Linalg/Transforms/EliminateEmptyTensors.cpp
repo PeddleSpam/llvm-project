@@ -8,11 +8,7 @@
 
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
 
-#include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
-#include "mlir/Dialect/Bufferization/Transforms/OneShotAnalysis.h"
 #include "mlir/Dialect/Bufferization/Transforms/Transforms.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 
 using namespace mlir;
 using namespace mlir::bufferization;

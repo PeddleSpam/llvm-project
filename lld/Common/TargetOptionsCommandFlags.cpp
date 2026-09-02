@@ -8,7 +8,6 @@
 
 #include "lld/Common/TargetOptionsCommandFlags.h"
 #include "llvm/CodeGen/CommandFlags.h"
-#include "llvm/Target/TargetOptions.h"
 #include "llvm/TargetParser/Triple.h"
 #include <optional>
 

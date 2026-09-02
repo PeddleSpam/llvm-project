@@ -12,8 +12,6 @@
 
 #include "mlir/Config/mlir-config.h"
 #include "mlir/IR/AsmState.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/InitAllDialects.h"
 #include "mlir/InitAllExtensions.h"
 #include "mlir/InitAllPasses.h"
@@ -22,7 +20,6 @@
 #include "mlir/Support/FileUtilities.h"
 #include "mlir/Target/LLVMIR/Dialect/All.h"
 #include "mlir/Tools/mlir-opt/MlirOptMain.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/ToolOutputFile.h"

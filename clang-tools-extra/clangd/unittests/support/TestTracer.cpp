@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "TestTracer.h"
-#include "support/Trace.h"
-#include "llvm/ADT/StringRef.h"
 #include <mutex>
 
 namespace clang {

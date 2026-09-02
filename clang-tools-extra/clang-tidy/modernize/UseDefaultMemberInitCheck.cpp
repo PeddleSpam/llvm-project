@@ -7,14 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseDefaultMemberInitCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Expr.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/DiagnosticIDs.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace clang::ast_matchers;
 

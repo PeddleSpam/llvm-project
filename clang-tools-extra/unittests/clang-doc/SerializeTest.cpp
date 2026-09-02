@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Serialize.h"
-#include "ClangDocTest.h"
-#include "Representation.h"
 #include "clang/AST/Comment.h"
-#include "clang/AST/RecursiveASTVisitor.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace doc {

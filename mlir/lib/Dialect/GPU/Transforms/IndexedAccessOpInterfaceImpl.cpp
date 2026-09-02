@@ -14,9 +14,6 @@
 
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/MemRef/IR/MemoryAccessOpInterfaces.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 using namespace mlir::memref;

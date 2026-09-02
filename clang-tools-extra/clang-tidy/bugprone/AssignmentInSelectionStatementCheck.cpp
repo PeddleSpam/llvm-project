@@ -7,10 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "AssignmentInSelectionStatementCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/IgnoreExpr.h"
 #include "clang/AST/StmtVisitor.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace clang;
 using namespace clang::ast_matchers;

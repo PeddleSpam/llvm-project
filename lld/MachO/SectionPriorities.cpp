@@ -13,21 +13,11 @@
 
 #include "SectionPriorities.h"
 #include "BPSectionOrderer.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "Symbols.h"
-#include "Target.h"
 
 #include "lld/Common/Args.h"
 #include "lld/Common/CommonLinkerContext.h"
-#include "lld/Common/ErrorHandler.h"
 #include "lld/Common/Utils.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/Support/xxhash.h"
 
 #include <numeric>
 

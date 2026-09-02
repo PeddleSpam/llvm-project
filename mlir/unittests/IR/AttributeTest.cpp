@@ -6,10 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
+#include "../../test/lib/Dialect/Test/TestAttributes.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
+#include "../../test/lib/Dialect/Test/TestTypes.h"
 #include "gtest/gtest.h"
 #include <optional>
 

@@ -10,12 +10,7 @@
 
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Target/Platform.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SmallSet.h"
 #include "llvm/Support/ThreadPool.h"
 

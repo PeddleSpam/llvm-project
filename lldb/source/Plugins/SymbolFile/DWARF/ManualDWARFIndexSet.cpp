@@ -8,8 +8,6 @@
 
 #include "Plugins/SymbolFile/DWARF/ManualDWARFIndexSet.h"
 #include "lldb/Core/DataFileCache.h"
-#include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/DataExtractor.h"
 #include <cstdint>
 
 using namespace lldb_private;

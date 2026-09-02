@@ -8,23 +8,13 @@
 
 #include "lldb/Target/ThreadPlanCallUserExpression.h"
 
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Core/Address.h"
 #include "lldb/Expression/DiagnosticManager.h"
 #include "lldb/Expression/DynamicCheckerFunctions.h"
-#include "lldb/Expression/UserExpression.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/ThreadPlanRunToAddress.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

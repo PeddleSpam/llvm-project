@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/OpDefinition.h"
 
 #include "mlir/Dialect/SPIRV/Interfaces/SPIRVImageInterfaces.h"
 

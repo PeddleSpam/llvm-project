@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/lldb-private.h"
 
 #include "Plugins/Process/Utility/HistoryUnwind.h"
 #include "Plugins/Process/Utility/RegisterContextHistory.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 
 #include <memory>
 

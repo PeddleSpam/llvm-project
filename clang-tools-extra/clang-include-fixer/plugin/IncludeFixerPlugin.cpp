@@ -6,13 +6,22 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Format/Format.h"
+#include "../../../clang/include/clang/Frontend/ASTUnit.h"
+#include "../../../clang/include/clang/Frontend/PrecompiledPreamble.h"
+#include "../../../clang/include/clang/Frontend/StandaloneDiagnostic.h"
+#include "../../../clang/include/clang/Lex/PreprocessingRecord.h"
+#include "../../../clang/include/clang/Sema/CodeCompleteConsumer.h"
+#include "../../../clang/include/clang/Serialization/ASTWriter.h"
+#include "../../../clang/include/clang/Tooling/ArgumentsAdjusters.h"
+#include "../../../clang/include/clang/Tooling/Tooling.h"
 #include "../IncludeFixer.h"
+#include "../IncludeFixerContext.h"
+#include "../SymbolIndexManager.h"
 #include "../YamlSymbolIndex.h"
-#include "clang/Frontend/CompilerInstance.h"
+#include "../find-all-symbols/SymbolInfo.h"
 #include "clang/Frontend/FrontendPluginRegistry.h"
 #include "clang/Parse/ParseAST.h"
-#include "clang/Sema/Sema.h"
-#include "llvm/Support/Path.h"
 
 namespace clang {
 namespace include_fixer {

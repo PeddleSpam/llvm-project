@@ -6,16 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "OutputSegment.h"
 #include "ConcatOutputSection.h"
-#include "InputSection.h"
 #include "Sections.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 
-#include "lld/Common/Memory.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/BinaryFormat/MachO.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

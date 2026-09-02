@@ -6,18 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBFunction.h"
-#include "lldb/API/SBAddressRange.h"
 #include "lldb/API/SBProcess.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Core/AddressRangeListImpl.h"
-#include "lldb/Core/Disassembler.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Type.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Target.h"
 #include "lldb/Utility/Instrumentation.h"
 

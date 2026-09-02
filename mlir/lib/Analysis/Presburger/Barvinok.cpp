@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/Presburger/Barvinok.h"
-#include "mlir/Analysis/Presburger/Utils.h"
-#include "llvm/ADT/Sequence.h"
 #include <algorithm>
 
 using namespace mlir;

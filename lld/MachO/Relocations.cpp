@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Relocations.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "ConcatOutputSection.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "Target.h"
 
 #include "lld/Common/ErrorHandler.h"
 

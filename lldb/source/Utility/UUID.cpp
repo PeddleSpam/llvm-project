@@ -9,8 +9,6 @@
 #include "lldb/Utility/UUID.h"
 
 #include "lldb/Utility/Stream.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/RandomNumberGenerator.h"
 
 #include <cctype>

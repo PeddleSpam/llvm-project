@@ -6,24 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Mangled.h"
 
 #include "lldb/Core/DataFileCache.h"
-#include "lldb/Core/DemangledNameInfo.h"
 #include "lldb/Core/RichManglingContext.h"
-#include "lldb/Target/Language.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-enumerations.h"
 
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Demangle/Demangle.h"
-#include "llvm/Support/Compiler.h"
 
 #include <mutex>
 #include <string>

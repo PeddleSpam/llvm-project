@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "Handler/RequestHandler.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
-#include "lldb/API/SBError.h"
-#include "lldb/API/SBProcess.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 using namespace lldb;

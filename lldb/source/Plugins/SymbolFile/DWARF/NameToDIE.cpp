@@ -9,14 +9,7 @@
 #include "NameToDIE.h"
 #include "DWARFUnit.h"
 #include "lldb/Core/DataFileCache.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-private-enumerations.h"
 #include <optional>
 
 using namespace lldb;

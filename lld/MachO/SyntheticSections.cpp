@@ -8,23 +8,14 @@
 
 #include "SyntheticSections.h"
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "ExportTrie.h"
 #include "ICF.h"
-#include "InputFiles.h"
 #include "ObjC.h"
-#include "OutputSegment.h"
 #include "SectionPriorities.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 
 #include "lld/Common/CommonLinkerContext.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Config/llvm-config.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LEB128.h"
 #include "llvm/Support/Parallel.h"
-#include "llvm/Support/xxhash.h"
 
 #if defined(__APPLE__)
 #include <sys/mman.h>

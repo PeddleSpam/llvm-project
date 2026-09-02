@@ -8,13 +8,8 @@
 
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/DataFormatters/FormatManager.h"
-#include "lldb/Symbol/CompilerType.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 
 using namespace lldb_private;
 using namespace lldb;

@@ -10,10 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Utils/Utils.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/Pass/Pass.h"
 
 using namespace mlir;

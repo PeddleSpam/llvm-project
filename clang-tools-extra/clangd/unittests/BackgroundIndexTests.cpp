@@ -1,19 +1,12 @@
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "CompileCommands.h"
-#include "Config.h"
-#include "Headers.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "index/Background.h"
-#include "index/BackgroundRebuild.h"
 #include "index/MemIndex.h"
-#include "clang/Tooling/ArgumentsAdjusters.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <deque>
 
 using ::testing::_;

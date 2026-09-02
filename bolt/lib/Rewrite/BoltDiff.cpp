@@ -15,8 +15,6 @@
 #include "bolt/Profile/ProfileReaderBase.h"
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/CommandLine.h"
 
 #undef  DEBUG_TYPE
 #define DEBUG_TYPE "boltdiff"

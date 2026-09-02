@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/Architecture/RISCV/ArchitectureRISCV.h"
-#include "lldb/Core/Architecture.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Utility/ArchSpec.h"
 

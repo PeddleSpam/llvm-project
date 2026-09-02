@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Debug/Counter.h"
-#include "mlir/Support/TypeID.h"
 #include "gmock/gmock.h"
 
 using namespace mlir;

@@ -12,12 +12,8 @@
 
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/AsmParser/AsmParser.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
 #include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/Diagnostics.h"
-#include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include <numeric>
 
 using namespace mlir;

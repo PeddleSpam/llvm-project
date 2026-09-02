@@ -11,10 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "SPIRVParsingUtils.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace mlir::spirv::AttrNames;
 

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Diagnostics.h"
-#include "mlir/Support/TypeID.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

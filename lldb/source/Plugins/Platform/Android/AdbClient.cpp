@@ -8,19 +8,12 @@
 
 #include "AdbClient.h"
 
-#include "lldb/Host/ConnectionFileDescriptor.h"
+#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Utility/Connection.h"
 #include "lldb/Utility/DataEncoder.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/Timeout.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/FileUtilities.h"
 #include <chrono>
 

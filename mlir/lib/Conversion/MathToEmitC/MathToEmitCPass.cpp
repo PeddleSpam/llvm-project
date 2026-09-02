@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/MathToEmitC/MathToEmitCPass.h"
-#include "mlir/Conversion/MathToEmitC/MathToEmitC.h"
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Pass/Pass.h"

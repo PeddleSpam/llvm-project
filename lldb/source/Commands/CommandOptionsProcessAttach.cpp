@@ -8,18 +8,12 @@
 
 #include "CommandOptionsProcessAttach.h"
 
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/OptionParser.h"
-#include "lldb/Interpreter/CommandCompletions.h"
-#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Target/Target.h"
 
-#include "llvm/ADT/ArrayRef.h"
 
 using namespace llvm;
 using namespace lldb;

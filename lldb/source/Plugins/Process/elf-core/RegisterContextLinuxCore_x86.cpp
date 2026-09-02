@@ -8,7 +8,6 @@
 
 #include "RegisterContextLinuxCore_x86.h"
 #include "lldb/Target/Thread.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
 
 using namespace lldb_private;

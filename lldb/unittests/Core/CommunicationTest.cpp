@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Communication.h"
+#include "../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Core/ThreadedCommunication.h"
 #include "lldb/Host/Config.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Host/Pipe.h"
-#include "lldb/Host/Socket.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #include <chrono>
 #include <thread>

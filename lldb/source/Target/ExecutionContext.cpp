@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/ExecutionContextScope.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/State.h"
 #include <mutex>

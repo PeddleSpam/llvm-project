@@ -10,6 +10,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../include/clang/AST/ExprCXX.h"
+#include "../../../include/clang/AST/ExprConcepts.h"
+#include "../../../include/clang/AST/ExprObjC.h"
+#include "../../../include/clang/AST/ExprOpenMP.h"
+#include "../../../include/clang/AST/StmtObjC.h"
+#include "../../../include/clang/AST/StmtOpenACC.h"
+#include "../../../include/clang/AST/StmtOpenMP.h"
+#include "../../../include/clang/AST/StmtSYCL.h"
 #include "../../../include/clang/AST/StmtVisitor.h"
 #include "clang/Rewrite/Frontend/ASTConsumers.h"
 #include "clang/AST/ASTConsumer.h"

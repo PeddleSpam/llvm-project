@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "OutputSegment.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "Target.h"
 #include "lld/Common/CommonLinkerContext.h"
-#include "llvm/BinaryFormat/MachO.h"
 #include <deque>
 
 using namespace llvm;

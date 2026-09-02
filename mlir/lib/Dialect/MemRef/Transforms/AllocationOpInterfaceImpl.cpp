@@ -8,11 +8,8 @@
 
 #include "mlir/Dialect/MemRef/Transforms/AllocationOpInterfaceImpl.h"
 
-#include "mlir/Dialect/Bufferization/IR/AllocationOpInterface.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
 
 using namespace mlir;
 

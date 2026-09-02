@@ -12,7 +12,6 @@
 
 #include "bolt/Rewrite/MetadataRewriter.h"
 #include "bolt/Rewrite/MetadataRewriters.h"
-#include "llvm/Support/Errc.h"
 
 using namespace llvm;
 using namespace bolt;

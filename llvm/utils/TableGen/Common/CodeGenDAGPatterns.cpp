@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "CodeGenDAGPatterns.h"
-#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenRegisters.h"
 #include "SubtargetFeatureInfo.h"
 #include "llvm/ADT/SmallSet.h"

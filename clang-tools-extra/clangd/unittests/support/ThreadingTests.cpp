@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "support/Threading.h"
-#include "llvm/ADT/DenseMap.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #include <mutex>
 

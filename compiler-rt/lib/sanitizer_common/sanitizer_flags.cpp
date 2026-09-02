@@ -10,13 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "sanitizer_flags.h"
 
-#include "sanitizer_common.h"
 #include "sanitizer_flag_parser.h"
-#include "sanitizer_libc.h"
 #include "sanitizer_linux.h"
-#include "sanitizer_list.h"
 
 namespace __sanitizer {
 

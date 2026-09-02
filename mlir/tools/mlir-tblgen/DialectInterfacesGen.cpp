@@ -15,13 +15,9 @@
 #include "mlir/Support/IndentedOstream.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "mlir/TableGen/Interfaces.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/CodeGenHelpers.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace mlir;

@@ -12,13 +12,11 @@
 
 #include "mlir/Conversion/ControlFlowToSCF/ControlFlowToSCF.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/ControlFlow/IR/ControlFlowOps.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/UB/IR/UBOps.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Transforms/CFGToSCF.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_LIFTCONTROLFLOWTOSCFPASS

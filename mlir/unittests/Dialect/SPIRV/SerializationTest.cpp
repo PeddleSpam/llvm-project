@@ -12,21 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/SPIRV/Serialization.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Target/SPIRV/Deserialization.h"
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
 
 using namespace mlir;

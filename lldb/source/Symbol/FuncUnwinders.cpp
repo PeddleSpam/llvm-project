@@ -6,24 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/FuncUnwinders.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Symbol/ArmUnwindInfo.h"
 #include "lldb/Symbol/CallFrameInfo.h"
 #include "lldb/Symbol/CompactUnwindInfo.h"
 #include "lldb/Symbol/DWARFCallFrameInfo.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Symbol/UnwindTable.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/RegisterNumber.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/UnwindAssembly.h"
 
 #include <memory>

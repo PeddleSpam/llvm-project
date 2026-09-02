@@ -9,7 +9,6 @@
 #include "Transport.h"
 #include "URI.h"
 #include "support/Logger.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/Path.h"
 #include <algorithm>
 #include <optional>

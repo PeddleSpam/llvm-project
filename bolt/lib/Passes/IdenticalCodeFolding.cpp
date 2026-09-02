@@ -13,10 +13,6 @@
 #include "bolt/Passes/IdenticalCodeFolding.h"
 #include "bolt/Core/HashUtilities.h"
 #include "bolt/Core/ParallelUtilities.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/ThreadPool.h"
 #include "llvm/Support/Timer.h"
 #include <atomic>
 #include <iterator>

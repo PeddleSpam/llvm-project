@@ -8,12 +8,7 @@
 
 #include "lldb/Target/RemoteAwarePlatform.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb_private;

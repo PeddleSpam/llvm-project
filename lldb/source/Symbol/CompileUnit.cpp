@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/LineTable.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Target/Language.h"

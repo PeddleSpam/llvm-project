@@ -9,7 +9,6 @@
 #include "mlir/TableGen/GenInfo.h"
 
 #include "mlir/TableGen/GenNameParser.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/ManagedStatic.h"
 
 using namespace mlir;

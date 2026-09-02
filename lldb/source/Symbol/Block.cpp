@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/Block.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/Function.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include <memory>
 

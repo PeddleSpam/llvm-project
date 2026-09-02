@@ -13,7 +13,6 @@
 #include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/StackFrame.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
 
 #include "Utility/ARM_DWARF_Registers.h"
 

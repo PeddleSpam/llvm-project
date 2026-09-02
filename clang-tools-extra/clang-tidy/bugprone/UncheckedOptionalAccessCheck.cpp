@@ -7,14 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "UncheckedOptionalAccessCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
-#include "clang/Analysis/FlowSensitive/Models/UncheckedOptionalAccessModel.h"
-#include "clang/Basic/SourceLocation.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Error.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
 namespace clang::tidy::bugprone {
 using ast_matchers::MatchFinder;

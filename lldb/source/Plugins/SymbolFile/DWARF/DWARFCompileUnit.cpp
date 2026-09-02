@@ -12,9 +12,6 @@
 #include "SymbolFileDWARFDebugMap.h"
 
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/LineTable.h"
-#include "lldb/Utility/Stream.h"
-#include "llvm/DebugInfo/DWARF/DWARFAddressRange.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -12,28 +12,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Profile/DataAggregator.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Passes/BinaryPasses.h"
-#include "bolt/Profile/BoltAddressTranslation.h"
 #include "bolt/Profile/Heatmap.h"
-#include "bolt/Profile/YAMLProfileWriter.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/BinaryFormat/Magic.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/Program.h"
 #include "llvm/Support/Regex.h"
 #include "llvm/Support/Timer.h"
-#include "llvm/Support/raw_ostream.h"
 #include <map>
 #include <optional>
 #include <unordered_map>

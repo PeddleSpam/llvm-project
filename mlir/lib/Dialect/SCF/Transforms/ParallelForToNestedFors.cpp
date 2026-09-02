@@ -10,11 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Passes.h"
 #include "mlir/Dialect/SCF/Transforms/Transforms.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_SCFPARALLELFORTONESTEDFORS

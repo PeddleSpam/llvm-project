@@ -50,10 +50,7 @@
 
 #ifdef MLIR_CRUNNERUTILS_DEFINE_FUNCTIONS
 
-#include "mlir/ExecutionEngine/SparseTensor/ArithmeticUtils.h"
-#include "mlir/ExecutionEngine/SparseTensor/COO.h"
 #include "mlir/ExecutionEngine/SparseTensor/File.h"
-#include "mlir/ExecutionEngine/SparseTensor/Storage.h"
 
 #include <cstring>
 #include <numeric>

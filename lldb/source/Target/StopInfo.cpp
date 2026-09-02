@@ -10,25 +10,14 @@
 #include <cstdint>
 #include <string>
 
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Breakpoint/WatchpointResource.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Expression/UserExpression.h"
 #include "lldb/Symbol/Block.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadPlan.h"
 #include "lldb/Target/ThreadPlanStepInstruction.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Policy.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/ValueObject/ValueObject.h"
 
 using namespace lldb;

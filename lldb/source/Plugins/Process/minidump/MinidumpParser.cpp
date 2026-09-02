@@ -11,9 +11,7 @@
 #include "RegisterContextMinidump_x86_32.h"
 
 #include "Plugins/Process/Utility/LinuxProcMaps.h"
-#include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 // C includes
 // C++ includes

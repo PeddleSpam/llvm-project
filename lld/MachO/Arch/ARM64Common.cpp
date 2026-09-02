@@ -8,8 +8,8 @@
 
 #include "Arch/ARM64Common.h"
 
+#include "../../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/Support/Endian.h"
 
 using namespace llvm::MachO;
 using namespace llvm::support::endian;

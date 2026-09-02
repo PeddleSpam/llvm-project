@@ -11,8 +11,6 @@
 #include "mlir/Bytecode/BytecodeImplementation.h"
 #include "mlir/Dialect/Quant/IR/Quant.h"
 #include "mlir/Dialect/Quant/IR/QuantTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "llvm/ADT/APFloat.h"
 #include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "HeaderMapCollector.h"
-#include "llvm/Support/Regex.h"
 
 namespace clang {
 namespace find_all_symbols {

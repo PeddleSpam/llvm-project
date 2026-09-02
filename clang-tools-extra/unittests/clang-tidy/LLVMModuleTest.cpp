@@ -1,7 +1,4 @@
-#include "ClangTidyOptions.h"
 #include "ClangTidyTest.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/HeaderGuardCheck.h"
 #include "llvm/IncludeOrderCheck.h"
 #include "gtest/gtest.h"

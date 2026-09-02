@@ -6,22 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/DataFormatters/TypeSummary.h"
 
-#include "lldb/Core/FormatEntity.h"
 #include "lldb/DataFormatters/FormatterBytecode.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-public.h"
 
-#include "lldb/Core/Debugger.h"
 #include "lldb/DataFormatters/ValueObjectPrinter.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/Interfaces/ScriptedStringSummaryInterface.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/ValueObject/ValueObject.h"
 
 using namespace lldb;

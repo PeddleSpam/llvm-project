@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/DebugMacros.h"
 
 #include "lldb/Symbol/CompileUnit.h"
 

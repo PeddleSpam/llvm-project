@@ -7,24 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/DIEBuilder.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/DebugData.h"
 #include "bolt/Core/ParallelUtilities.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/CodeGen/DIE.h"
-#include "llvm/DebugInfo/DWARF/DWARFAbbreviationDeclaration.h"
-#include "llvm/DebugInfo/DWARF/DWARFDie.h"
-#include "llvm/DebugInfo/DWARF/DWARFFormValue.h"
 #include "llvm/DebugInfo/DWARF/DWARFTypeUnit.h"
-#include "llvm/DebugInfo/DWARF/DWARFUnit.h"
-#include "llvm/DebugInfo/DWARF/DWARFUnitIndex.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/LEB128.h"
 
 #include <algorithm>
 #include <cstdint>

@@ -6,21 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputFiles.h"
-#include "Config.h"
-#include "InputChunks.h"
 #include "InputElement.h"
 #include "OutputSegment.h"
 #include "SymbolTable.h"
 #include "lld/Common/CommonLinkerContext.h"
 #include "lld/Common/Reproduce.h"
-#include "llvm/BinaryFormat/Wasm.h"
-#include "llvm/Object/Binary.h"
-#include "llvm/Object/Wasm.h"
 #include "llvm/ProfileData/InstrProf.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TarWriter.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 #define DEBUG_TYPE "lld"

@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
 #include "EventHelper.h"
 #include "Handler/RequestHandler.h"
-#include "Protocol/DAPTypes.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Variables.h"
 
 using namespace llvm;
 using namespace lldb_dap::protocol;

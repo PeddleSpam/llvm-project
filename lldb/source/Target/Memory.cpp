@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/Memory.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RangeMap.h"
 #include "lldb/Utility/State.h"
 
-#include "llvm/ADT/STLExtras.h"
 
 #include <cinttypes>
 #include <memory>

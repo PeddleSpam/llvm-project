@@ -13,13 +13,8 @@
 
 #include "mlir/Target/LLVMIR/Dialect/NVVM/NVVMToLLVMIRTranslation.h"
 #include "mlir/Dialect/LLVMIR/NVVMDialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/iterator_range.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/IntrinsicsNVPTX.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/NVVMAttributes.h"
 #include <cmath>

@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Utils/ReshapeOpsUtils.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "llvm/ADT/STLExtras.h"
 #include "gtest/gtest.h"
 #include <optional>
 

@@ -8,9 +8,6 @@
 
 #include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassManager.h"
-#include "mlir/Pass/PassRegistry.h"
-#include "mlir/Support/Timing.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/ManagedStatic.h"
 
 using namespace mlir;

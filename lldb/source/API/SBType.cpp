@@ -6,26 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBType.h"
 #include "Utils.h"
-#include "lldb/API/SBDefines.h"
-#include "lldb/API/SBModule.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBTypeEnumMember.h"
-#include "lldb/Core/Mangled.h"
-#include "lldb/Symbol/CompilerDecl.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 
-#include "llvm/ADT/APSInt.h"
-#include "llvm/Support/MathExtras.h"
 
 #include <memory>
 #include <optional>

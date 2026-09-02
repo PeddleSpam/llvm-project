@@ -8,11 +8,7 @@
 
 #include "mlir/ABI/Targets/Test/TestTarget.h"
 #include "mlir/Dialect/DLTI/DLTI.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include <gtest/gtest.h>
 
 using namespace mlir;

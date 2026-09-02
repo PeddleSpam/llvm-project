@@ -6,26 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/EmulateInstruction.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/DumpRegisterValue.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/StreamFile.h"
-#include "lldb/Symbol/UnwindPlan.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-private-interfaces.h"
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ErrorExtras.h"
 
 #include <cstring>

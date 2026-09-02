@@ -10,7 +10,6 @@
 #include "JSONUtils.h"
 
 #ifdef _WIN32
-#include "lldb/Host/windows/windows.h"
 #else
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -20,7 +19,6 @@
 #include <chrono>
 #include <future>
 
-#include "llvm/Support/FileSystem.h"
 
 using namespace llvm;
 

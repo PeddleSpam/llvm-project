@@ -26,15 +26,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "AArch64ErrataFix.h"
-#include "InputFiles.h"
-#include "LinkerScript.h"
 #include "OutputSections.h"
-#include "Relocations.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "Target.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Endian.h"
 #include <algorithm>
 
 using namespace llvm;

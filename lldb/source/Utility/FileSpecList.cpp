@@ -8,7 +8,6 @@
 
 #include "lldb/Utility/FileSpecList.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RealpathPrefixes.h"
 #include "lldb/Utility/Stream.h"
 

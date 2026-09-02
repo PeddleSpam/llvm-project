@@ -8,7 +8,6 @@
 
 #include "gtest/gtest.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "llvm/Support/Error.h"
 
 using namespace lldb_private;
 

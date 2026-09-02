@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Shard/Transforms/Transforms.h"
 #include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/IR/SymbolTable.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 

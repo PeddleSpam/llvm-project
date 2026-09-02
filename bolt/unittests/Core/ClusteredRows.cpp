@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/DebugData.h"
-#include "llvm/Support/SMLoc.h"
 #include "gtest/gtest.h"
 #include <vector>
 

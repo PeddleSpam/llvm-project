@@ -8,7 +8,6 @@
 
 #include "MsvcStl.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/Symbol/CompilerType.h"
 #include <optional>
 
 using namespace lldb;

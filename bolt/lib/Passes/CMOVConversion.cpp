@@ -11,12 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/CMOVConversion.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/PostOrderIterator.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #define DEBUG_TYPE "cmov"
 

@@ -12,7 +12,6 @@
 
 #include "mlir/Target/LLVMIR/Dialect/ArmSVE/ArmSVEToLLVMIRTranslation.h"
 #include "mlir/Dialect/ArmSVE/IR/ArmSVEDialect.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
 #include "llvm/IR/IRBuilder.h"

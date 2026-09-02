@@ -11,10 +11,7 @@
 //===----------------------------------------------------------------------===//
 #include "mlir/Conversion/ArmSMEToSCF/ArmSMEToSCF.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/ArmSME/IR/ArmSME.h"
-#include "mlir/Dialect/ArmSME/Utils/Utils.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/DialectConversion.h"
 

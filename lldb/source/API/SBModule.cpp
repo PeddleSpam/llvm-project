@@ -6,24 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBModule.h"
-#include "lldb/API/SBAddress.h"
-#include "lldb/API/SBFileSpec.h"
 #include "lldb/API/SBModuleSpec.h"
 #include "lldb/API/SBProcess.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBSymbolContextList.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/ValueObject/ValueObjectList.h"
 #include "lldb/ValueObject/ValueObjectVariable.h"
 
 using namespace lldb;

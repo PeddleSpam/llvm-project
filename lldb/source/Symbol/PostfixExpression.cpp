@@ -12,7 +12,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Symbol/PostfixExpression.h"
-#include "lldb/Core/dwarf.h"
+#include "../../../llvm/include/llvm/BinaryFormat/Dwarf.h"
 #include "lldb/Utility/Stream.h"
 #include "llvm/ADT/StringExtras.h"
 #include <optional>

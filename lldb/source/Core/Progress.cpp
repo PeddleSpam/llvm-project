@@ -6,10 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Progress.h"
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Utility/StreamString.h"
 #include "llvm/Support/Signposts.h"
 #include <atomic>
 #include <chrono>

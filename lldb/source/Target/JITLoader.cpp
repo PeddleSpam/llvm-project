@@ -8,9 +8,7 @@
 
 #include "lldb/Target/JITLoader.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/JITLoaderList.h"
 #include "lldb/Target/Process.h"
-#include "lldb/lldb-private.h"
 
 using namespace lldb;
 using namespace lldb_private;

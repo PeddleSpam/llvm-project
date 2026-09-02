@@ -8,8 +8,6 @@
 // IO functions.
 //===----------------------------------------------------------------------===//
 
-#include "FuzzerIO.h"
-#include "FuzzerDefs.h"
 #include "FuzzerExtFunctions.h"
 #include "FuzzerUtil.h"
 #include <algorithm>

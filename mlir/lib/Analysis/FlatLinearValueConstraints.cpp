@@ -8,18 +8,11 @@
 
 #include "mlir/Analysis//FlatLinearValueConstraints.h"
 
-#include "mlir/Analysis/Presburger/PresburgerSpace.h"
 #include "mlir/Analysis/Presburger/Simplex.h"
-#include "mlir/Analysis/Presburger/Utils.h"
 #include "mlir/IR/AffineExprVisitor.h"
 #include "mlir/IR/Builders.h"
 #include "mlir/IR/IntegerSet.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/InterleavedRange.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 #define DEBUG_TYPE "flat-value-constraints"

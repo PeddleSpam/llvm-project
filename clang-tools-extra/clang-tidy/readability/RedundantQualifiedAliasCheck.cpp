@@ -7,6 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantQualifiedAliasCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
 #include <cassert>
 #include <optional>

@@ -7,9 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseStdPrintCheck.h"
+#include "../../../clang/include/clang/AST/FormatString.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/FormatStringConverter.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Lexer.h"
 

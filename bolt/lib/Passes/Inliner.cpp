@@ -25,8 +25,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/Inliner.h"
-#include "bolt/Core/MCPlus.h"
-#include "llvm/Support/CommandLine.h"
 
 #define DEBUG_TYPE "bolt-inliner"
 

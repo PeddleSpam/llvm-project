@@ -12,12 +12,8 @@
 
 #include "mlir/Dialect/OpenACC/OpenACCUtilsTiling.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/ADT/STLExtras.h"
 
 // Resolve unknown tile sizes (represented as -1 for tile(*)) to the default.
 // Returns a value with the same type as targetType.

@@ -8,13 +8,7 @@
 
 #include "clang-include-cleaner/IncludeSpeller.h"
 #include "clang-include-cleaner/Analysis.h"
-#include "clang-include-cleaner/Types.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Testing/TestAST.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Path.h"
 #include "gtest/gtest.h"
 #include <assert.h>
 #include <string>

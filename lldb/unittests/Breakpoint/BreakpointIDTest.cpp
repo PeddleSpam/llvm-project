@@ -11,7 +11,6 @@
 #include "lldb/Breakpoint/BreakpointID.h"
 #include "lldb/Utility/Status.h"
 
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb;
 using namespace lldb_private;

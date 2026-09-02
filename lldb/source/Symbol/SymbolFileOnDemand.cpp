@@ -8,8 +8,6 @@
 
 #include "lldb/Symbol/SymbolFileOnDemand.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/SymbolFile.h"
 
 #include <memory>
 #include <optional>

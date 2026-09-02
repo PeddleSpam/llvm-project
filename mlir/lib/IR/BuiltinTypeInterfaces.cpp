@@ -8,9 +8,7 @@
 
 #include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/APFloat.h"
 #include "llvm/Support/CheckedArithmetic.h"
-#include "llvm/Support/MathExtras.h"
 #include <climits>
 
 using namespace mlir;

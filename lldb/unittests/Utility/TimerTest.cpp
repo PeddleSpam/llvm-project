@@ -8,9 +8,7 @@
 
 #include "lldb/Utility/Timer.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Regex.h"
 #include "gtest/gtest.h"
 #include <optional>

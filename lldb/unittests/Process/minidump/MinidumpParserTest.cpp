@@ -12,20 +12,9 @@
 #include "Plugins/Process/minidump/RegisterContextMinidump_x86_64.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/FileSpec.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/YAMLTraits.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 // C includes
 

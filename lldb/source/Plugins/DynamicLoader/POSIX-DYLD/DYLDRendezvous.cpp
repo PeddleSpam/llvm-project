@@ -7,18 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Core/Module.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
 
-#include "llvm/Support/Path.h"
 
 #include "DYLDRendezvous.h"
 

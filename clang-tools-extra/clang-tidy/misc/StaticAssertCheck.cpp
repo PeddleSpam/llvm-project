@@ -7,13 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "StaticAssertCheck.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Matchers.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Expr.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Frontend/CompilerInstance.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/StringRef.h"
 #include <optional>
 #include <string>
 

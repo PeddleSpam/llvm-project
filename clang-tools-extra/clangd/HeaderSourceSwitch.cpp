@@ -7,12 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "HeaderSourceSwitch.h"
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
-#include "SourceCode.h"
 #include "index/SymbolCollector.h"
 #include "support/Logger.h"
 #include "support/Path.h"
-#include "clang/AST/Decl.h"
 #include <optional>
 
 namespace clang {

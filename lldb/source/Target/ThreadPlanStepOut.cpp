@@ -7,21 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/ThreadPlanStepOut.h"
-#include "lldb/Breakpoint/Breakpoint.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/Type.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/ThreadPlanStepOverRange.h"
 #include "lldb/Target/ThreadPlanStepThrough.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 
 #include <memory>

@@ -7,15 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "ComparePointerToMemberVirtualFunctionCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/OperationKinds.h"
-#include "clang/AST/Type.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersMacros.h"
-#include "clang/Basic/DiagnosticIDs.h"
-#include "llvm/ADT/SmallVector.h"
 
 using namespace clang::ast_matchers;
 

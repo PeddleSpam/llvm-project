@@ -7,10 +7,27 @@
 //===----------------------------------------------------------------------===//
 
 #include "CPlusPlusNameParser.h"
+#include "../../../../../clang/include/clang/Basic/Builtins.h"
+#include "../../../../../clang/include/clang/Basic/CFProtectionOptions.h"
+#include "../../../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticCategories.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../../../../clang/include/clang/Basic/DirectoryEntry.h"
+#include "../../../../../clang/include/clang/Basic/FileEntry.h"
+#include "../../../../../clang/include/clang/Basic/IdentifierTable.h"
+#include "../../../../../clang/include/clang/Basic/LangOptions.h"
+#include "../../../../../clang/include/clang/Basic/LangStandard.h"
+#include "../../../../../clang/include/clang/Basic/Linkage.h"
+#include "../../../../../clang/include/clang/Basic/Sanitizers.h"
+#include "../../../../../clang/include/clang/Basic/TargetCXXABI.h"
+#include "../../../../../clang/include/clang/Basic/TokenKinds.h"
+#include "../../../../../clang/include/clang/Lex/DependencyDirectivesScanner.h"
+#include "../../../../../clang/include/clang/Lex/MultipleIncludeOpt.h"
+#include "../../../../../clang/include/clang/Lex/PreprocessorLexer.h"
+#include "../../../../../clang/include/clang/Lex/Token.h"
+#include "../../../../../llvm/include/llvm/Support/FileSystem/UniqueID.h"
 
 #include "clang/Basic/IdentifierTable.h"
-#include "clang/Basic/TokenKinds.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Support/Threading.h"
 #include <optional>
 

@@ -7,24 +7,14 @@
 //===----------------------------------------------------------------------===//
 #include "FindSymbols.h"
 
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "FuzzyMatch.h"
 #include "ParsedAST.h"
 #include "Quality.h"
-#include "SourceCode.h"
-#include "index/Index.h"
-#include "index/Symbol.h"
-#include "index/SymbolLocation.h"
 #include "support/Logger.h"
 #include "clang/AST/Attr.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclFriend.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/Index/IndexSymbol.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include <limits>
 #include <optional>
 

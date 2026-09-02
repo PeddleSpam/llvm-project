@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/AddressMap.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/BinarySection.h"
-#include "llvm/MC/MCStreamer.h"
-#include "llvm/Support/DataExtractor.h"
 
 namespace llvm {
 namespace bolt {

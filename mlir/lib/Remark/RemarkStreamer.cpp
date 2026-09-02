@@ -1,12 +1,6 @@
 #include "mlir/Remark/RemarkStreamer.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Remarks.h"
 
-#include "llvm/Remarks/RemarkSerializer.h"
-#include "llvm/Remarks/RemarkStreamer.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/ToolOutputFile.h"
 
 namespace mlir::remark::detail {
 

@@ -15,8 +15,6 @@
 #include "mlir/Target/SPIRV/Deserialization.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
 #include "mlir/Target/SPIRV/SPIRVExtInstSets.h"
 #include "gmock/gmock.h"

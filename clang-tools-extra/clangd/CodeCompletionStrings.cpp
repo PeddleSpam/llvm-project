@@ -9,16 +9,7 @@
 #include "CodeCompletionStrings.h"
 #include "Config.h"
 #include "SymbolDocumentation.h"
-#include "clang-c/Index.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Comment.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/RawCommentList.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Sema/CodeCompleteConsumer.h"
-#include "llvm/Support/Compiler.h"
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include <limits>
 #include <utility>
 

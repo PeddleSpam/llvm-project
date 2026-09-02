@@ -7,13 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnnecessaryValueParamCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/DeclRefExprUtils.h"
 #include "../utils/FixItHintUtils.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
 #include "../utils/TypeTraits.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/Lex/Preprocessor.h"
 #include <optional>
 

@@ -18,23 +18,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/ScopDetectionDiagnostic.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Analysis/AliasSetTracker.h"
-#include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
 #include "llvm/Analysis/RegionInfo.h"
 #include "llvm/Analysis/ScalarEvolution.h"
-#include "llvm/IR/BasicBlock.h"
-#include "llvm/IR/CFG.h"
-#include "llvm/IR/DebugLoc.h"
-#include "llvm/IR/DiagnosticInfo.h"
-#include "llvm/IR/Instruction.h"
-#include "llvm/IR/Value.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cassert>
 #include <string>

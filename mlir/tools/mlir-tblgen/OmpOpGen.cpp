@@ -13,12 +13,10 @@
 #include "mlir/TableGen/GenInfo.h"
 
 #include "mlir/TableGen/CodeGenHelpers.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/StringSet.h"
 #include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/FormatAdapters.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace llvm;
 

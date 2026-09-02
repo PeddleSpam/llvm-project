@@ -9,23 +9,13 @@
 #include "CommandObjectCommands.h"
 #include "CommandObjectHelp.h"
 #include "CommandObjectRegexCommand.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/IOHandler.h"
-#include "lldb/Host/StreamFile.h"
-#include "lldb/Interpreter/CommandHistory.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/Interfaces/ScriptedCommandInterface.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionValueBoolean.h"
 #include "lldb/Interpreter/OptionValueString.h"
 #include "lldb/Interpreter/OptionValueUInt64.h"
-#include "lldb/Interpreter/Options.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/StringList.h"
-#include "llvm/ADT/StringRef.h"
 #include <memory>
 #include <optional>
 

@@ -7,15 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Expression/REPL.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Expression/ExpressionVariable.h"
 #include "lldb/Expression/UserExpression.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/StreamFile.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/AnsiTerminal.h"
 
 #include <memory>

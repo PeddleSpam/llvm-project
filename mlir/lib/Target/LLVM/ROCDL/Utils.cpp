@@ -11,9 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/LLVM/ROCDL/Utils.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Frontend/Offloading/Utility.h"
 
 using namespace mlir;

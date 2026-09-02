@@ -9,10 +9,7 @@
 #include "LibCxxVariant.h"
 #include "LibCxx.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Utility/LLDBAssert.h"
 
-#include "llvm/ADT/ScopeExit.h"
 #include <optional>
 
 using namespace lldb;

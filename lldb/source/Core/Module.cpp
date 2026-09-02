@@ -6,63 +6,22 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Module.h"
 
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Core/AddressResolverFileLine.h"
 #include "lldb/Core/DataFileCache.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/Mangled.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Core/SearchFilter.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/SymbolLocator.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeList.h"
-#include "lldb/Symbol/TypeMap.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/FileSpecList.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
 
 #if defined(_WIN32)
-#include "lldb/Host/windows/PosixApi.h"
 #endif
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Compiler.h"
 #include "llvm/Support/DJB.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cassert>
 #include <cinttypes>

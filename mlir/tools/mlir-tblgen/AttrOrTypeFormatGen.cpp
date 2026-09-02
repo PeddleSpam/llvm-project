@@ -8,18 +8,11 @@
 
 #include "AttrOrTypeFormatGen.h"
 #include "FormatGen.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/TableGen/AttrOrTypeDef.h"
-#include "mlir/TableGen/Format.h"
 #include "mlir/TableGen/GenInfo.h"
-#include "llvm/ADT/BitVector.h"
 #include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/SaveAndRestore.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/TableGenBackend.h"
 

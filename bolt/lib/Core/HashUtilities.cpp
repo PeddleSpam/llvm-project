@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/HashUtilities.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Utils/NameResolver.h"
-#include "llvm/MC/MCInstPrinter.h"
 
 namespace llvm {
 namespace bolt {

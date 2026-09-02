@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "ClangTidyCheck.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSet.h"
 #include "llvm/Support/YAMLParser.h"
 #include <optional>
 #include <string>

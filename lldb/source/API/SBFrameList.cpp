@@ -10,7 +10,6 @@
 #include "lldb/API/SBFrame.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBThread.h"
-#include "lldb/Target/StackFrameList.h"
 #include "lldb/Target/Thread.h"
 #include "lldb/Utility/Instrumentation.h"
 

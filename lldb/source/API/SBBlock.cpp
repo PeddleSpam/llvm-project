@@ -6,21 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBBlock.h"
-#include "lldb/API/SBAddress.h"
-#include "lldb/API/SBFileSpec.h"
-#include "lldb/API/SBFrame.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBValue.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Core/AddressRangeListImpl.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Utility/Instrumentation.h"
 #include "lldb/ValueObject/ValueObjectVariable.h"
-#include "lldb/lldb-types.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -10,12 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/Support/Errc.h"
 
 #define DEBUG_TYPE "bolt"
 

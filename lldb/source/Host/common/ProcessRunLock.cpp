@@ -8,7 +8,6 @@
 
 #include "lldb/Host/ProcessRunLock.h"
 
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/Threading.h"
 
 #include <cassert>

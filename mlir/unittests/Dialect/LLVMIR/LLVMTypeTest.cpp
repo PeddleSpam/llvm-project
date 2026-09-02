@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "LLVMTestBase.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 
 using namespace mlir;
 using namespace mlir::LLVM;

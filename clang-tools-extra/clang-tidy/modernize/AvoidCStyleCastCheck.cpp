@@ -7,9 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "AvoidCStyleCastCheck.h"
-#include "clang/AST/ASTContext.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;

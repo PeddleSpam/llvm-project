@@ -17,12 +17,7 @@
 #include "mlir/Dialect/Affine/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/AffineExpr.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Pass/Pass.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 namespace affine {

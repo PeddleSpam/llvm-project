@@ -8,9 +8,6 @@
 
 #include "mlir/Analysis/DataLayoutAnalysis.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
-#include "mlir/Support/LLVM.h"
 #include <memory>
 
 using namespace mlir;

@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/SocketAddress.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Host/Socket.h"
-#include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

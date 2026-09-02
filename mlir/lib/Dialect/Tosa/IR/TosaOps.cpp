@@ -12,24 +12,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Tosa/IR/TosaOps.h"
 #include "mlir/Dialect/Quant/IR/Quant.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/Tosa/Utils/QuantUtils.h"
-#include "mlir/Dialect/Tosa/Utils/ShapeUtils.h"
 #include "mlir/Dialect/Utils/IndexingUtils.h"
 #include "mlir/Dialect/Utils/VerificationUtils.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/Matchers.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/Interfaces/InferTypeOpInterface.h"
 #include "mlir/Transforms/InliningUtils.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 #include <numeric>
 #include <type_traits>

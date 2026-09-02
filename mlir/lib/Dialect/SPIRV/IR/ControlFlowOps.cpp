@@ -10,10 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
-#include "mlir/Interfaces/CallInterfaces.h"
 
 #include "llvm/Support/InterleavedRange.h"
 

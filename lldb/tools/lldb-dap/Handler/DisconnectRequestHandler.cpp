@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
-#include "llvm/Support/Error.h"
 #include <optional>
 
 using namespace llvm;

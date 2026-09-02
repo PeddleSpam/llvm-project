@@ -9,8 +9,6 @@
 #include "mlir/Conversion/EmitCCommon/TypeConverter.h"
 
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace mlir;
 

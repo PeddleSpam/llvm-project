@@ -19,17 +19,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "MapFile.h"
-#include "InputFiles.h"
-#include "LinkerScript.h"
 #include "OutputSections.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SetVector.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/Support/Parallel.h"
 #include "llvm/Support/TimeProfiler.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::object;

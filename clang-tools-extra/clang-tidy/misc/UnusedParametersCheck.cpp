@@ -7,13 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnusedParametersCheck.h"
-#include "clang/AST/ASTContext.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/ASTLambda.h"
-#include "clang/AST/Attr.h"
-#include "clang/AST/Decl.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;

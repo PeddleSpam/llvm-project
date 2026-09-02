@@ -11,17 +11,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
 #include "gtest/gtest.h"
 
-#include "../../test/lib/Dialect/Test/TestAttributes.h"
 #include "../../test/lib/Dialect/Test/TestDialect.h"
 #include "../../test/lib/Dialect/Test/TestOps.h"
 #include "../../test/lib/Dialect/Test/TestTypes.h"
-#include "mlir/IR/OwningOpRef.h"
 
 using namespace mlir;
 using namespace test;

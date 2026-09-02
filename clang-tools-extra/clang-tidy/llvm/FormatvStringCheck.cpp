@@ -7,13 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "FormatvStringCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/Expr.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Error.h"
 
 using namespace clang::ast_matchers;
 

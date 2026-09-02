@@ -64,14 +64,7 @@
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "llvm/ADT/SetVector.h"
 #include <string>
 
 namespace mlir {

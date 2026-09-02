@@ -9,9 +9,7 @@
 #include "lldb/API/SBExecutionContext.h"
 #include "lldb/Utility/Instrumentation.h"
 
-#include "lldb/API/SBFrame.h"
 #include "lldb/API/SBProcess.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/API/SBThread.h"
 
 #include "lldb/Target/ExecutionContext.h"

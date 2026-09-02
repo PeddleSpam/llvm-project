@@ -7,11 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "QualifiedAutoCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "llvm/ADT/SmallVector.h"
+#include "../utils/TypeTraits.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

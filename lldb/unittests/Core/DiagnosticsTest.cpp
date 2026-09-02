@@ -6,19 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Diagnostics.h"
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #include <mutex>
 

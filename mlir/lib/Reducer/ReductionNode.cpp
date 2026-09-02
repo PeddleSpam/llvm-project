@@ -16,7 +16,6 @@
 
 #include "mlir/Reducer/ReductionNode.h"
 #include "mlir/IR/IRMapping.h"
-#include "llvm/ADT/STLExtras.h"
 
 #include <limits>
 

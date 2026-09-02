@@ -10,14 +10,11 @@
 #include "TestingSupport/TestUtilities.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Utility/DataBuffer.h"
 
 #include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 #include "Plugins/ObjectFile/Mach-O/ObjectFileMachO.h"
 #include "Plugins/ObjectFile/PECOFF/ObjectFilePECOFF.h"
 
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace lldb_private;

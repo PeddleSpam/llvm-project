@@ -5,17 +5,14 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../clang-tidy/ClangTidyOptions.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "FindTarget.h"
-#include "Selection.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Tooling/Core/Replacement.h"
 #include <optional>
 
 namespace clang {

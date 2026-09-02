@@ -9,11 +9,7 @@
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
 #include "mlir/Dialect/LLVMIR/FunctionCallUtils.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "llvm/Support/CheckedArithmetic.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace mlir;
 

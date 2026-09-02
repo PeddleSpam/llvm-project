@@ -12,11 +12,7 @@
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/DebugInfo/DIContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFExpressionPrinter.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace lldb_private::postfix;

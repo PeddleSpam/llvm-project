@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Dialect/Func.h"
-#include "mlir-c/IR.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/Registration.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 

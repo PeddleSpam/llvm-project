@@ -13,10 +13,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/DialectRegistry.h"
-#include "mlir/Pass/Pass.h"
-#include "mlir/Transforms/GreedyPatternRewriteDriver.h"
-#include "llvm/ADT/DenseSet.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_CANONICALIZERPASS

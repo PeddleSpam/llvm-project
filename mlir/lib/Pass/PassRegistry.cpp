@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Pass/PassRegistry.h"
 
 #include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassManager.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/ManagedStatic.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/SourceMgr.h"
 
 #include <optional>

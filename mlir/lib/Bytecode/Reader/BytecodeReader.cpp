@@ -8,21 +8,12 @@
 
 #include "mlir/Bytecode/BytecodeReader.h"
 #include "mlir/AsmParser/AsmParser.h"
-#include "mlir/Bytecode/BytecodeImplementation.h"
-#include "mlir/Bytecode/BytecodeOpInterface.h"
 #include "mlir/Bytecode/Encoding.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/OpImplementation.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Visitors.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Endian.h"
-#include "llvm/Support/MemoryBufferRef.h"
 #include "llvm/Support/SourceMgr.h"
 
 #include <cstddef>

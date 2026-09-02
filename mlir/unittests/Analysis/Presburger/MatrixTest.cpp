@@ -6,9 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Analysis/Presburger/Matrix.h"
+#include "../../../include/mlir/Analysis/Presburger/GeneratingFunction.h"
+#include "../../../include/mlir/Analysis/Presburger/IntegerRelation.h"
+#include "../../../include/mlir/Analysis/Presburger/QuasiPolynomial.h"
 #include "./Utils.h"
-#include "mlir/Analysis/Presburger/Fraction.h"
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 

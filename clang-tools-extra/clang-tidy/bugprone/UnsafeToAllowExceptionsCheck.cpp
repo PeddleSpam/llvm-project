@@ -7,6 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnsafeToAllowExceptionsCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/OptionsUtils.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 

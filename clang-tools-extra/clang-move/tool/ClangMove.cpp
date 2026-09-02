@@ -6,16 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/AST/DynamicRecursiveASTVisitor.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Analysis/CallGraph.h"
+#include "../HelperDeclRefGraph.h"
 #include "Move.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Rewrite/Core/Rewriter.h"
-#include "clang/Tooling/ArgumentsAdjusters.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Refactoring.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/Support/YAMLTraits.h"

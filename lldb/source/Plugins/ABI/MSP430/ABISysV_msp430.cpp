@@ -11,23 +11,11 @@
 
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegisterValue.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 #include "lldb/ValueObject/ValueObjectMemory.h"
 #include "lldb/ValueObject/ValueObjectRegister.h"
 
 #include "llvm/IR/DerivedTypes.h"
-#include "llvm/TargetParser/Triple.h"
 
 using namespace lldb;
 using namespace lldb_private;

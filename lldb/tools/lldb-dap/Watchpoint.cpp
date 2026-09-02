@@ -6,14 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Watchpoint.h"
 #include "DAP.h"
-#include "Protocol/ProtocolTypes.h"
 #include "ProtocolUtils.h"
-#include "lldb/API/SBTarget.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include <cstdint>
 #include <string>
 

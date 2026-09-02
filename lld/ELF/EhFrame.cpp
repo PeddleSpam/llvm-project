@@ -16,10 +16,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "EhFrame.h"
-#include "Config.h"
 #include "InputFiles.h"
-#include "InputSection.h"
-#include "Relocations.h"
 #include "Target.h"
 #include "llvm/BinaryFormat/Dwarf.h"
 

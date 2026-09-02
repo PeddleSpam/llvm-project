@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBLaunchInfo.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include "lldb/API/SBEnvironment.h"
-#include "lldb/API/SBError.h"
-#include "lldb/API/SBFileSpec.h"
 #include "lldb/API/SBListener.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBStructuredData.h"

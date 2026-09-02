@@ -10,8 +10,6 @@
 #include <cstddef>
 #include <vector>
 
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/Compiler.h"
 
 #include "RegisterInfoPOSIX_ppc64le.h"
 

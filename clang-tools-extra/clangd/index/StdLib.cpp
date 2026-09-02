@@ -12,24 +12,15 @@
 #include <string>
 #include <vector>
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "Compiler.h"
 #include "Config.h"
-#include "SymbolCollector.h"
-#include "clang-include-cleaner/Record.h"
 #include "index/FileIndex.h"
 #include "index/IndexAction.h"
 #include "support/Logger.h"
-#include "support/ThreadsafeFS.h"
 #include "support/Trace.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 
 namespace clang {
 namespace clangd {

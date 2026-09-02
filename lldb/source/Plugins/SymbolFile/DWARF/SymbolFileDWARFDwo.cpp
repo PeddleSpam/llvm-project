@@ -8,15 +8,9 @@
 
 #include "SymbolFileDWARFDwo.h"
 
-#include "lldb/Core/Section.h"
-#include "lldb/Expression/DWARFExpression.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "llvm/Support/Casting.h"
 
 #include "DWARFCompileUnit.h"
 #include "DWARFDebugInfo.h"
-#include "DWARFUnit.h"
 #include <optional>
 
 using namespace lldb;

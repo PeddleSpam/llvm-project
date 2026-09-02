@@ -8,10 +8,17 @@
 
 #include "StringFindStrContainsCheck.h"
 
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Transformer/Transformer.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeInserter.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Tooling/Transformer/RewriteRule.h"
 #include "clang/Tooling/Transformer/Stencil.h"
 
 // FixItHint - Hint to check documentation script to mark this check as

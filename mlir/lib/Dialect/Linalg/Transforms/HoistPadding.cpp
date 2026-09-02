@@ -10,24 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Analysis/Presburger/IntegerRelation.h"
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Affine/Transforms/Transforms.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Transforms/Hoisting.h"
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/Tensor/Utils/Utils.h"
 #include "mlir/IR/AsmState.h"
-#include "mlir/IR/Dominance.h"
-#include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/DestinationStyleOpInterface.h"
 #include "mlir/Transforms/LoopInvariantCodeMotionUtils.h"
 #include "mlir/Transforms/RegionUtils.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/Support/Debug.h"
 
 using llvm::dbgs;
 

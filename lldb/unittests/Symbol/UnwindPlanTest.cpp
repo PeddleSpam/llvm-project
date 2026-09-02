@@ -9,7 +9,6 @@
 
 #include "lldb/Symbol/UnwindPlan.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace lldb;

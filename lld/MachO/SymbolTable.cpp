@@ -8,13 +8,8 @@
 
 #include "SymbolTable.h"
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "InputSection.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "lld/Common/ErrorHandler.h"
-#include "lld/Common/Memory.h"
 #include "llvm/Demangle/Demangle.h"
 
 using namespace llvm;

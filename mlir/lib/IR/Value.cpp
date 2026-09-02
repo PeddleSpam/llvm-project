@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Value.h"
-#include "mlir/IR/Block.h"
 #include "mlir/IR/Operation.h"
 
 using namespace mlir;

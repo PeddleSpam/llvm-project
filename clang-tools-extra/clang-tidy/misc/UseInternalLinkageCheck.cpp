@@ -7,18 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseInternalLinkageCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/FileExtensionsUtils.h"
-#include "clang/AST/Decl.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersMacros.h"
 #include "clang/Basic/Module.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/Specifiers.h"
 #include "clang/Lex/Token.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 
 using namespace clang::ast_matchers;
 

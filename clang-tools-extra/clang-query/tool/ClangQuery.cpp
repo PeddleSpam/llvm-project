@@ -25,16 +25,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchers.h"
+#include "../../../clang/include/clang/ASTMatchers/Dynamic/VariantValue.h"
 #include "Query.h"
 #include "QueryParser.h"
 #include "QuerySession.h"
-#include "clang/Frontend/ASTUnit.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Tooling.h"
 #include "llvm/LineEditor/LineEditor.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/Support/WithColor.h"
 #include <optional>

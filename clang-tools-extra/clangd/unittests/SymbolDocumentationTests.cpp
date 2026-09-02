@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 #include "SymbolDocumentation.h"
 
-#include "support/Markup.h"
-#include "clang/Basic/CommentOptions.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 namespace clang {

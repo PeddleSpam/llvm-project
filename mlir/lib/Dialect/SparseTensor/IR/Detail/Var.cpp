@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Var.h"
 #include "DimLvlMap.h"
 
 using namespace mlir;

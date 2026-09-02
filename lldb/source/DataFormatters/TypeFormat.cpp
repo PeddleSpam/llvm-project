@@ -6,23 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/DataFormatters/TypeFormat.h"
 
 
 
 
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-public.h"
 
 #include "lldb/Core/DumpDataExtractor.h"
 #include "lldb/DataFormatters/FormatManager.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/TypeList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb;

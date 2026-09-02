@@ -10,16 +10,9 @@
 
 #include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
 
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/CastInterfaces.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/iterator.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/InterleavedRange.h"
 
 #define DEBUG_TYPE "transform-dialect"

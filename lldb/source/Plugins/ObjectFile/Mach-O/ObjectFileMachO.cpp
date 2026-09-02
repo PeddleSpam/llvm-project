@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringRef.h"
 
 #include "Plugins/Process/Utility/RegisterContextDarwin_arm.h"
 #include "Plugins/Process/Utility/RegisterContextDarwin_arm64.h"
@@ -15,39 +13,14 @@
 #include "Plugins/Process/Utility/RegisterContextDarwin_x86_64.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Symbol/DWARFCallFrameInfo.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadList.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/FileSpecList.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RangeMap.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
-#include "lldb/Utility/UUID.h"
 
-#include "lldb/Host/SafeMachO.h"
 
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/MemoryBuffer.h"
 
 #include "MachOTrie.h"
 #include "ObjectFileMachO.h"
@@ -62,7 +35,6 @@
 #endif
 
 #ifndef __APPLE__
-#include "lldb/Utility/AppleUuidCompatibility.h"
 #else
 #include <uuid/uuid.h>
 #endif

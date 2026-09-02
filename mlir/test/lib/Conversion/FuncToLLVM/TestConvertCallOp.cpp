@@ -6,12 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../Dialect/Test/TestAttributes.h"
+#include "../../Dialect/Test/TestDialect.h"
+#include "../../Dialect/Test/TestInterfaces.h"
+#include "../../Dialect/Test/TestOps.h"
+#include "../../Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "TestTypes.h"
 #include "mlir/Conversion/FuncToLLVM/ConvertFuncToLLVM.h"
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Pass/Pass.h"
 

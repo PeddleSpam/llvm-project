@@ -9,7 +9,6 @@
 #include "mlir/Support/IndentedOstream.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SmallVectorExtras.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FormatVariadic.h"

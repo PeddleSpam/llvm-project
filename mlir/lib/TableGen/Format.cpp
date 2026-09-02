@@ -13,8 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/Format.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/ADT/Twine.h"
 #include <cctype>
 
 using namespace mlir;

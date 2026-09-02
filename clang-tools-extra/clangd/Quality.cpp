@@ -7,23 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Quality.h"
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "ASTSignals.h"
-#include "FileDistance.h"
-#include "SourceCode.h"
-#include "index/Symbol.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclTemplate.h"
 #include "clang/AST/DeclVisitor.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Sema/CodeCompleteConsumer.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cmath>
 #include <optional>

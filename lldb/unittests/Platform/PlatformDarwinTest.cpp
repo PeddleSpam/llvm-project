@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "TestUtils.h"
 
-#include "Plugins/Platform/MacOSX/PlatformDarwin.h"
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "TestingSupport/SubsystemRAII.h"
@@ -19,10 +17,6 @@
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/HostInfo.h"
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Testing/Support/Error.h"
 
 #include <memory>
 #include <tuple>

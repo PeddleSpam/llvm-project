@@ -6,20 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/UnwindTable.h"
 
 #include <cstdio>
 #include <optional>
 
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Symbol/ArmUnwindInfo.h"
 #include "lldb/Symbol/CallFrameInfo.h"
 #include "lldb/Symbol/CompactUnwindInfo.h"
 #include "lldb/Symbol/DWARFCallFrameInfo.h"
 #include "lldb/Symbol/FuncUnwinders.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/SymbolVendor.h"
 
 // There is one UnwindTable object per ObjectFile. It contains a list of Unwind

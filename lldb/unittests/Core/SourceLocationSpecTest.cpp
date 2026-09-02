@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "lldb/Core/SourceLocationSpec.h"
 #include "lldb/Utility/LLDBAssert.h"

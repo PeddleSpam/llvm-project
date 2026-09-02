@@ -6,23 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../lib/TypesInternal.h"
 #include "AnalysisInternal.h"
 #include "clang-include-cleaner/Analysis.h"
-#include "clang-include-cleaner/Record.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Regex.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/raw_ostream.h"
 #include <functional>
 #include <memory>
 #include <string>

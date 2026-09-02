@@ -8,13 +8,6 @@
 
 #include "Utils.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/Value.h"
 
 using namespace mlir;
 

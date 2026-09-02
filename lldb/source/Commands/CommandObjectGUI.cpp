@@ -9,9 +9,7 @@
 #include "CommandObjectGUI.h"
 
 #include "lldb/Core/IOHandlerCursesGUI.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 
 using namespace lldb;
 using namespace lldb_private;

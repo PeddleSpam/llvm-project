@@ -10,16 +10,16 @@
 // canHandleMultipleBlocks and doClone.
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestAttributes.h"
+#include "../Dialect/Test/TestDialect.h"
+#include "../Dialect/Test/TestInterfaces.h"
+#include "../Dialect/Test/TestOps.h"
+#include "../Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "mlir/Analysis/CallGraph.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/IRMapping.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/Inliner.h"
-#include "mlir/Transforms/InliningUtils.h"
 #include "llvm/ADT/StringSet.h"
 
 using namespace mlir;

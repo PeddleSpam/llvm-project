@@ -6,27 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "GDBRemoteCommunication.h"
 #include "ProcessGDBRemote.h"
 #include "ProcessGDBRemoteLog.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Host/Pipe.h"
-#include "lldb/Host/ProcessLaunchInfo.h"
-#include "lldb/Host/Socket.h"
 #include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Utility/Event.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_ENABLE_ZLIB
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include <climits>
 #include <cstring>

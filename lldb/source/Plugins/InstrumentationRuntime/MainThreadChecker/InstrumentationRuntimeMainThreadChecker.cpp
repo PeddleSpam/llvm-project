@@ -12,17 +12,9 @@
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/Variable.h"
 #include "lldb/Symbol/VariableList.h"
 #include "lldb/Target/InstrumentationRuntimeStopInfo.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/RegularExpression.h"
 
 #include <memory>
 

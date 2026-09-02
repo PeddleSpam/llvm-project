@@ -7,31 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "SemanticHighlighting.h"
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "Config.h"
 #include "FindSymbols.h"
 #include "FindTarget.h"
 #include "ParsedAST.h"
-#include "Protocol.h"
-#include "SourceCode.h"
 #include "support/Logger.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclObjC.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/DeclarationName.h"
-#include "clang/AST/ExprCXX.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Sema/HeuristicResolver.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 
 #include <algorithm>
 #include <optional>

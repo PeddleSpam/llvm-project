@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/PathMappingList.h"
-#include "lldb/Utility/FileSpec.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "gtest/gtest.h"
 #include <utility>
 

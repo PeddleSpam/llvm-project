@@ -6,14 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestAttributes.h"
+#include "../Dialect/Test/TestDialect.h"
+#include "../Dialect/Test/TestInterfaces.h"
+#include "../Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
 #include "mlir/Bytecode/BytecodeReader.h"
 #include "mlir/Bytecode/BytecodeWriter.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/Pass/Pass.h"
 #include "llvm/Support/MemoryBufferRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include <list>
 
 using namespace mlir;

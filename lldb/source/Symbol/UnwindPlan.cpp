@@ -6,19 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/UnwindPlan.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/DebugInfo/DIContext.h"
 #include "llvm/DebugInfo/DWARF/DWARFExpressionPrinter.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
 #include <optional>
 
 using namespace lldb;

@@ -10,19 +10,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "CompileCommands.h"
 #include "Compiler.h"
 #include "index/IndexAction.h"
 #include "index/Merge.h"
-#include "index/Ref.h"
 #include "index/Serialization.h"
-#include "index/Symbol.h"
-#include "index/SymbolCollector.h"
 #include "support/Logger.h"
-#include "clang/Tooling/ArgumentsAdjusters.h"
 #include "clang/Tooling/Execution.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Signals.h"
 #include <utility>
 

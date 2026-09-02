@@ -11,7 +11,6 @@
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Target/Language.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

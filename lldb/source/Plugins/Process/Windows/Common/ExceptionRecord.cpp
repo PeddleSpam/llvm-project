@@ -8,11 +8,7 @@
 
 #include "ExceptionRecord.h"
 #include "lldb/Host/windows/windows.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-types.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Support/Format.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <dbghelp.h>
 #include <memory>

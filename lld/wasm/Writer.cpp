@@ -6,32 +6,19 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Writer.h"
-#include "Config.h"
-#include "InputChunks.h"
 #include "InputElement.h"
 #include "MapFile.h"
-#include "OutputSections.h"
 #include "OutputSegment.h"
 #include "Relocations.h"
 #include "SymbolTable.h"
 #include "SyntheticSections.h"
-#include "WriterUtils.h"
 #include "lld/Common/Arrays.h"
 #include "lld/Common/CommonLinkerContext.h"
 #include "lld/Common/Strings.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/BinaryFormat/Wasm.h"
-#include "llvm/Support/FileOutputBuffer.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/RandomNumberGenerator.h"
 #include "llvm/Support/SHA1.h"
-#include "llvm/Support/xxhash.h"
 
 #include <cstdarg>
 #include <optional>

@@ -12,9 +12,6 @@
 
 #include "mlir/Interfaces/TilingInterface.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace mlir;
 

@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "LLDBServerAcceleratorPlugin.h"
 
 #include "GDBRemoteCommunicationServerLLGS.h"
 

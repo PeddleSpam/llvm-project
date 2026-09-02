@@ -9,14 +9,9 @@
 #include "RegisterContextFreeBSDKernelCore_arm64.h"
 #include "Plugins/Process/Utility/lldb-arm64-register-enums.h"
 
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/Support/Endian.h"
 
 #if defined(__FreeBSD__) && defined(__aarch64__)
 #include <machine/pcb.h>

@@ -7,16 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "Tool.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Host/File.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Protocol/MCP/Protocol.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/UriParser.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include <cstdint>
 #include <optional>
 

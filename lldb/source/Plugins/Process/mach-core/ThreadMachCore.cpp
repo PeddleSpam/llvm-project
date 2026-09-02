@@ -10,25 +10,15 @@
 #include <string>
 #include <vector>
 
+#include "../../../../../llvm/include/llvm/BinaryFormat/MachO.h"
 #include "RegisterContextUnifiedCore.h"
 #include "ThreadMachCore.h"
 
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Host/SafeMachO.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Target/AppleArm64ExceptionClass.h"
-#include "lldb/Target/DynamicRegisterInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Unwind.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
 
 #include "ProcessMachCore.h"
 //#include "RegisterContextKDP_arm.h"

@@ -11,17 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "Protocol.h"
-#include "URI.h"
 #include "support/Logger.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Index/IndexSymbol.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/JSON.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace clang {
 namespace clangd {

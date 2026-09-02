@@ -10,7 +10,6 @@
 #include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Utility/Status.h"
 #include "lldb/Utility/StringExtractor.h"
-#include "llvm/ADT/StringRef.h"
 #include <optional>
 
 using namespace lldb_private;

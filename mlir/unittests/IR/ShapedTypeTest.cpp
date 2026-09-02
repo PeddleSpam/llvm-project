@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Dialect.h"
 #include "mlir/IR/DialectInterface.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/SmallVector.h"
 #include "gtest/gtest.h"
 #include <cstdint>
 #include <limits>

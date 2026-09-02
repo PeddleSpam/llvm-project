@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "tsan_test_util.h"
-#include "gtest/gtest.h"
 #include <string.h>
 
 namespace __tsan {

@@ -9,10 +9,7 @@
 #include "SBTestUtilities.h"
 
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/API/SBStructuredData.h"
-#include "lldb/API/SBTarget.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

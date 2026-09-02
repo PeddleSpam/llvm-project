@@ -11,15 +11,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/ValueObject/DILParser.h"
-#include "lldb/Host/common/DiagnosticsRendering.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Target/ExecutionContextScope.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/ValueObject/DILAST.h"
 #include "lldb/ValueObject/DILEval.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/FormatAdapters.h"
 #include <cstdlib>
 #include <limits.h>

@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Rewrite/ExecutableFileMemoryManager.h"
 #include "bolt/Rewrite/JITLinkLinker.h"
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "llvm/ExecutionEngine/JITLink/JITLink.h"
-#include "llvm/Support/MemAlloc.h"
 
 #undef  DEBUG_TYPE
 #define DEBUG_TYPE "efmm"

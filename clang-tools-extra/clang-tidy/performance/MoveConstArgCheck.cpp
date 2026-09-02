@@ -7,6 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "MoveConstArgCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
 #include "clang/Lex/Lexer.h"
 

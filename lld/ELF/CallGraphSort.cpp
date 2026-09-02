@@ -26,8 +26,6 @@
 #include "CallGraphSort.h"
 #include "InputFiles.h"
 #include "InputSection.h"
-#include "Symbols.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Transforms/Utils/CodeLayout.h"
 
 #include <numeric>

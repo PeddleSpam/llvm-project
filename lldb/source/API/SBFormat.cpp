@@ -9,7 +9,6 @@
 #include "lldb/API/SBFormat.h"
 #include "Utils.h"
 #include "lldb/Core/FormatEntity.h"
-#include "lldb/lldb-types.h"
 #include <lldb/API/SBError.h>
 #include <lldb/Utility/Status.h>
 

@@ -14,9 +14,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "PPCallbacksTracker.h"
-#include "clang/Basic/FileManager.h"
 #include "clang/Lex/MacroArgs.h"
-#include "llvm/Support/raw_ostream.h"
 
 namespace clang {
 namespace pp_trace {

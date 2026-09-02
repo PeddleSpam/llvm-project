@@ -13,9 +13,6 @@
 #include "bolt/Passes/ReorderFunctions.h"
 #include "bolt/Passes/HFSort.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Transforms/Utils/CodeLayout.h"
 #include <fstream>
 

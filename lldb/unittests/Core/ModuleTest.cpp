@@ -6,19 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Module.h"
 #include "Plugins/Language/CPlusPlus/CPlusPlusLanguage.h"
 #include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 #include "Plugins/SymbolFile/Symtab/SymbolFileSymtab.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Language.h"
-#include "lldb/Utility/ConstString.h"
-#include "gtest/gtest.h"
 #include <condition_variable>
 #include <mutex>
 #include <optional>

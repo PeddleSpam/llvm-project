@@ -14,19 +14,11 @@
 #include <optional>
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #include "mlir/Dialect/Vector/Transforms/VectorTransforms.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Interfaces/VectorInterfaces.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #define DEBUG_TYPE "vector-transfer-split"
 

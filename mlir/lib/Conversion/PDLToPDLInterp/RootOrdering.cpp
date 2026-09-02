@@ -13,8 +13,6 @@
 
 #include "RootOrdering.h"
 
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/SmallVector.h"
 #include <utility>
 
 using namespace mlir;

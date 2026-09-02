@@ -6,17 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
-#include "lldb/API/SBAttachInfo.h"
 #include "lldb/API/SBListener.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 using namespace llvm;
 using namespace lldb_dap::protocol;

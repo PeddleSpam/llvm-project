@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/Process/elf-core/RegisterUtilities.h"
-#include "llvm/ADT/STLExtras.h"
 #include <optional>
 
 using namespace lldb_private;

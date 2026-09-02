@@ -8,20 +8,8 @@
 
 #include "IndexAction.h"
 #include "AST.h"
-#include "Headers.h"
-#include "clang-include-cleaner/Record.h"
-#include "index/Relation.h"
 #include "index/Serialization.h"
-#include "index/SymbolCollector.h"
-#include "index/SymbolOrigin.h"
-#include "clang/AST/ASTConsumer.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Index/IndexingAction.h"
-#include "clang/Index/IndexingOptions.h"
 #include <functional>
 #include <memory>
 #include <optional>

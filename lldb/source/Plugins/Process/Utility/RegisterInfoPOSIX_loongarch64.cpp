@@ -10,8 +10,6 @@
 #include <lldb/Utility/Flags.h>
 #include <stddef.h>
 
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/Compiler.h"
 
 #include "RegisterInfoPOSIX_loongarch64.h"
 

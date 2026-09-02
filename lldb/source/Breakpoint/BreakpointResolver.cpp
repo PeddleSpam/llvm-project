@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Breakpoint/BreakpointResolver.h"
 
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
 // Have to include the other breakpoint resolver types here so the static
 // create from StructuredData can call them.
@@ -17,18 +15,8 @@
 #include "lldb/Breakpoint/BreakpointResolverFileRegex.h"
 #include "lldb/Breakpoint/BreakpointResolverName.h"
 #include "lldb/Breakpoint/BreakpointResolverScripted.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/SearchFilter.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb_private;

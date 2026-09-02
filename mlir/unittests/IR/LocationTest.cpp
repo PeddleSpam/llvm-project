@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Location.h"
 #include "mlir/IR/Builders.h"
 #include "gtest/gtest.h"
 

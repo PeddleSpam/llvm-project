@@ -11,7 +11,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticDriver.h"
 #include "clang/Basic/DiagnosticFrontend.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
 #include "clang/Frontend/Utils.h"

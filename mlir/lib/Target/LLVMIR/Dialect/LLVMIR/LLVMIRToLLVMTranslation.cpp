@@ -11,16 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMIRToLLVMTranslation.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMInterfaces.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Target/LLVMIR/ModuleImport.h"
 
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/IR/Constants.h"
 #include "llvm/IR/InlineAsm.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/IntrinsicInst.h"
 #include "llvm/IR/MemoryModelRelaxationAnnotations.h"
 #include <optional>

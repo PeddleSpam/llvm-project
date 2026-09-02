@@ -7,9 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "IncludeInserter.h"
-#include "clang/Lex/PPCallbacks.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Lex/Preprocessor.h"
-#include "clang/Lex/Token.h"
 #include <optional>
 
 namespace clang::tidy::utils {

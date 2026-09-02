@@ -8,7 +8,6 @@
 
 #include "FormatUtil.h"
 #include "llvm/Support/Format.h"
-#include "llvm/Support/FormatVariadic.h"
 
 using namespace lldb_private;
 using namespace llvm;

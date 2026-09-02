@@ -7,22 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Transforms/DialectConversion.h"
-#include "mlir/Config/mlir-config.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/IR/Dominance.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Iterators.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
 #include "mlir/Rewrite/PatternApplicator.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/DebugLog.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/SaveAndRestore.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include <optional>

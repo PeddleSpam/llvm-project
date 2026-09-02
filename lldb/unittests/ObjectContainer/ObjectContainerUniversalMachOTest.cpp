@@ -10,16 +10,8 @@
 #include "Plugins/ObjectContainer/Mach-O-Fileset/ObjectContainerMachOFileset.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/FileSpec.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

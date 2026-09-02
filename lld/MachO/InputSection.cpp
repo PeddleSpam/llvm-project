@@ -6,20 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputSection.h"
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "OutputSegment.h"
 #include "Sections.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "Target.h"
-#include "Writer.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "lld/Common/Memory.h"
-#include "llvm/Support/xxhash.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

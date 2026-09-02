@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "GDBRemoteCommunicationServerCommon.h"
+#include "../../../../../llvm/include/llvm/BinaryFormat/MachO.h"
 
 #include <cerrno>
 
@@ -18,29 +19,11 @@
 #include <cstring>
 #include <optional>
 
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/File.h"
-#include "lldb/Host/FileAction.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/SafeMachO.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/GDBRemote.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include "ProcessGDBRemoteLog.h"
-#include "lldb/Utility/StringExtractorGDBRemote.h"
 
 #ifdef __ANDROID__
 #include "lldb/Host/android/HostInfoAndroid.h"

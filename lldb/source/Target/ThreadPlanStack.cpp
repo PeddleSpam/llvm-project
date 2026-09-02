@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/ThreadPlanStack.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/ThreadPlan.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

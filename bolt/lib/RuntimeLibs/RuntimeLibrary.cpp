@@ -11,10 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/RuntimeLibs/RuntimeLibrary.h"
-#include "bolt/Core/Linker.h"
 #include "bolt/RuntimeLibs/RuntimeLibraryVariables.inc"
 #include "bolt/Utils/Utils.h"
-#include "llvm/BinaryFormat/Magic.h"
 #include "llvm/Object/Archive.h"
 #include "llvm/Object/ObjectFile.h"
 #include "llvm/Support/Path.h"

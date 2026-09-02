@@ -27,12 +27,8 @@
 
 #include "bolt/Core/HashUtilities.h"
 #include "bolt/Profile/YAMLProfileReader.h"
-#include "llvm/ADT/Bitfields.h"
-#include "llvm/ADT/Hashing.h"
-#include "llvm/MC/MCPseudoProbe.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Timer.h"
-#include "llvm/Support/xxhash.h"
 #include "llvm/Transforms/Utils/SampleProfileInference.h"
 
 #include <queue>

@@ -7,18 +7,21 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Basic/Version.h"
-#include "clang/Config/config.h"
 #include "clang/Options/OptionUtils.h"
 
+#include "../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../clang/include/clang/Basic/Diagnostic.h"
+#include "../../../clang/include/clang/Basic/DiagnosticCategories.h"
+#include "../../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../../clang/include/clang/Basic/DiagnosticOptions.h"
+#include "../../../clang/include/clang/Basic/DirectoryEntry.h"
+#include "../../../clang/include/clang/Basic/FileEntry.h"
+#include "../../../clang/include/clang/Basic/Specifiers.h"
+#include "../../../llvm/include/llvm/Option/OptSpecifier.h"
 #include "Plugins/ExpressionParser/Clang/ClangHost.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/lldb-defines.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

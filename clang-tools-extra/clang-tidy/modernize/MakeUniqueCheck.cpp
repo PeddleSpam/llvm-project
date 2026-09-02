@@ -7,6 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "MakeUniqueCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeInserter.h"
+#include "../utils/IncludeSorter.h"
 
 using namespace clang::ast_matchers;
 

@@ -10,15 +10,7 @@
 #include "Plugins/Process/scripted/ScriptedFrame.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Interpreter/Interfaces/ScriptedFrameProviderInterface.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
 #include "lldb/Target/BorrowedStackFrame.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/ScriptedMetadata.h"
-#include "lldb/Utility/Status.h"
-#include "llvm/Support/Error.h"
 #include <cstdint>
 
 using namespace lldb;

@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestTypes.h"
 #include "TestTypes.h"
 #include "mlir/IR/BuiltinOps.h"
 #include "mlir/Pass/Pass.h"

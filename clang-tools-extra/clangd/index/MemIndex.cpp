@@ -9,7 +9,6 @@
 #include "MemIndex.h"
 #include "FuzzyMatch.h"
 #include "Quality.h"
-#include "index/Index.h"
 #include "support/Trace.h"
 
 namespace clang {

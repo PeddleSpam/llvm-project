@@ -9,9 +9,7 @@
 #include "RegisterContextFreeBSDKernelCore_riscv64.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/Support/Endian.h"
 
 #if defined(__FreeBSD__) && defined(__riscv) && __riscv_xlen == 64
 #include <machine/pcb.h>

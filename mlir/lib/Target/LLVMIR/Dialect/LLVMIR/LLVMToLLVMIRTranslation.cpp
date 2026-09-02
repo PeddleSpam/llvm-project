@@ -11,22 +11,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/IR/DIBuilder.h"
-#include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/InlineAsm.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/MDBuilder.h"
 #include "llvm/IR/MatrixBuilder.h"
 #include "llvm/IR/MemoryModelRelaxationAnnotations.h"
-#include "llvm/Support/LogicalResult.h"
 
 using namespace mlir;
 using namespace mlir::LLVM;

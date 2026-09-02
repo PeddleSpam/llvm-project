@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "HelperDeclRefGraph.h"
 #include "Move.h"
-#include "clang/AST/Decl.h"
-#include "llvm/Support/Debug.h"
 #include <vector>
 
 #define DEBUG_TYPE "clang-move"

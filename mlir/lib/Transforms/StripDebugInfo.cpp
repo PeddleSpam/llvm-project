@@ -8,8 +8,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/Operation.h"
-#include "mlir/Pass/Pass.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_STRIPDEBUGINFOPASS

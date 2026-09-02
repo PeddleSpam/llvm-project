@@ -10,27 +10,10 @@
 
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/Dialect/Linalg/IR/LinalgInterfaces.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Shard/IR/ShardOps.h"
-#include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
 #include "mlir/Dialect/Shard/Transforms/Transforms.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/DialectRegistry.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include <numeric>
 #include <optional>
 

@@ -20,10 +20,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "Representation.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Path.h"
 
 namespace clang {
 namespace doc {

@@ -50,6 +50,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "VarLenCodeEmitterGen.h"
+#include "../../../include/llvm/ADT/BitmaskEnum.h"
 #include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenTarget.h"
 #include "llvm/TableGen/Error.h"

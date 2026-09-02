@@ -13,11 +13,7 @@
 
 #include "mlir/ExecutionEngine/OptUtils.h"
 
-#include "llvm/Analysis/TargetTransformInfo.h"
-#include "llvm/IR/Module.h"
-#include "llvm/Passes/OptimizationLevel.h"
 #include "llvm/Passes/PassBuilder.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Target/TargetMachine.h"
 #include <optional>

@@ -8,8 +8,6 @@
 
 #include "mlir/IR/PatternMatch.h"
 #include "mlir/IR/Iterators.h"
-#include "mlir/IR/RegionKindInterface.h"
-#include "llvm/ADT/SmallPtrSet.h"
 
 using namespace mlir;
 

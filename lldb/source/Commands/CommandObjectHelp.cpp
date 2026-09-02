@@ -9,7 +9,6 @@
 #include "CommandObjectHelp.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -7,8 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "DurationComparisonCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "DurationRewriter.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

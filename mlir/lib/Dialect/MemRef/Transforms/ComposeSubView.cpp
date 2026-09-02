@@ -14,9 +14,6 @@
 #include "mlir/Dialect/MemRef/Transforms/ComposeSubView.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Transforms/DialectConversion.h"
 
 using namespace mlir;

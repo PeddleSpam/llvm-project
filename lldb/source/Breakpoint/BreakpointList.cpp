@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Breakpoint/BreakpointList.h"
 
 #include "lldb/Target/Target.h"
 
-#include "llvm/Support/Errc.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -6,10 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Core/Replacement.h"
+#include "../../../llvm/include/llvm/Support/Mutex.h"
+#include "../../../llvm/include/llvm/Support/Timer.h"
 #include "../ClangTidy.h"
 #include "../ClangTidyDiagnosticConsumer.h"
 #include "../ClangTidyModule.h"
-#include "clang/Frontend/CompilerInstance.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Frontend/FrontendPluginRegistry.h"
 #include "clang/Frontend/MultiplexConsumer.h"
 

@@ -7,15 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/BuiltinTypes.h"
-#include "mlir-c/AffineMap.h"
-#include "mlir-c/IR.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/AffineMap.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Support.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Types.h"
 
 #include <algorithm>
 

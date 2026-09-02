@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBCompileUnit.h"
-#include "lldb/API/SBLineEntry.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/Core/Module.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/LineEntry.h"
-#include "lldb/Symbol/LineTable.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeList.h"
 #include "lldb/Utility/Instrumentation.h"
 
 using namespace lldb;

@@ -9,14 +9,9 @@
 #include <cassert>
 #include <optional>
 
-#include "lldb/Core/Module.h"
-#include "lldb/Core/dwarf.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/Stream.h"
 
 #include "DWARFDebugInfo.h"
 #include "DWARFFormValue.h"
-#include "DWARFUnit.h"
 
 using namespace lldb_private;
 using namespace lldb_private::plugin::dwarf;

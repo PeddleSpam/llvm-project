@@ -8,13 +8,6 @@
 
 #include "SymbolDocumentation.h"
 
-#include "support/Markup.h"
-#include "clang/AST/Comment.h"
-#include "clang/AST/CommentCommandTraits.h"
-#include "clang/AST/CommentVisitor.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 
 namespace clang {
 namespace clangd {

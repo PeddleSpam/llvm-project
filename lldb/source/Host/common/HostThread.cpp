@@ -7,7 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/HostThread.h"
-#include "lldb/Host/HostNativeThread.h"
+#include "../../../include/lldb/Host/windows/HostThreadWindows.h"
 
 using namespace lldb;
 using namespace lldb_private;

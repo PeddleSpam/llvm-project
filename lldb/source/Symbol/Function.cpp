@@ -6,23 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/Function.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Disassembler.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/LineTable.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

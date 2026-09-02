@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/Queue.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/QueueItem.h"
 #include "lldb/Target/SystemRuntime.h"
 
 using namespace lldb;

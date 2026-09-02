@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/ValueObject/DILLexer.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <string>
 
 using llvm::StringRef;

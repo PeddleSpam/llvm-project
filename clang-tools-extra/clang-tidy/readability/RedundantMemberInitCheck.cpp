@@ -7,11 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantMemberInitCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/LexerUtils.h"
 #include "../utils/Matchers.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;
 using namespace clang::tidy::matchers;

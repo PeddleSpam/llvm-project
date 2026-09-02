@@ -11,13 +11,9 @@
 #include <utility>
 
 #include "AffineExprDetail.h"
-#include "mlir/IR/AffineExpr.h"
 #include "mlir/IR/AffineExprVisitor.h"
 #include "mlir/IR/AffineMap.h"
 #include "mlir/IR/IntegerSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/Support/MathExtras.h"
 #include <numeric>
 #include <optional>
 

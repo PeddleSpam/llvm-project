@@ -8,8 +8,6 @@
 
 #include "Parser.h"
 #include "Utils.h"
-#include "mlir/Analysis/Presburger/IntegerRelation.h"
-#include "mlir/Analysis/Presburger/PWMAFunction.h"
 #include "mlir/Analysis/Presburger/Simplex.h"
 
 #include <gmock/gmock.h>

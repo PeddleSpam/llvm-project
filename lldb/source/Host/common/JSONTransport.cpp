@@ -8,9 +8,6 @@
 
 #include "lldb/Host/JSONTransport.h"
 #include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include <string>
 
 using namespace llvm;

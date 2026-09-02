@@ -11,12 +11,9 @@
 #include "lldb/Initialization/SystemLifetimeManager.h"
 #include "lldb/Version/Version.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/ManagedStatic.h"
-#include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/Signals.h"
 
 #include <cstdio>

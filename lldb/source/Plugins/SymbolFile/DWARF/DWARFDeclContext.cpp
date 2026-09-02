@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DWARFDeclContext.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private::plugin::dwarf;
 using namespace llvm::dwarf;

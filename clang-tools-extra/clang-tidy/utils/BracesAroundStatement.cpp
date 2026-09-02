@@ -15,8 +15,6 @@
 #include "../utils/LexerUtils.h"
 #include "LexerUtils.h"
 #include "clang/AST/ASTContext.h"
-#include "clang/Basic/CharInfo.h"
-#include "clang/Basic/LangOptions.h"
 #include "clang/Lex/Lexer.h"
 
 namespace clang::tidy::utils {

@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/AffineExpr.h"
-#include "mlir-c/AffineMap.h"
-#include "mlir-c/IR.h"
 #include "mlir/CAPI/AffineExpr.h"
 #include "mlir/CAPI/AffineMap.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/IR/AffineExpr.h"
 
 using namespace mlir;
 

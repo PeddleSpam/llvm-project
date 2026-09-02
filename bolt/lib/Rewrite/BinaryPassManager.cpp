@@ -41,9 +41,7 @@
 #include "bolt/Passes/ValidateMemRefs.h"
 #include "bolt/Passes/VeneerElimination.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Timer.h"
-#include "llvm/Support/raw_ostream.h"
 #include <memory>
 #include <numeric>
 

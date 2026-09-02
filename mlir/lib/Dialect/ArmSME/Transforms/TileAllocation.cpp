@@ -53,8 +53,6 @@
 #include "mlir/Dialect/ControlFlow/IR/ControlFlowOps.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "llvm/ADT/IntervalMap.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 namespace mlir::arm_sme {
 #define GEN_PASS_DEF_TESTTILEALLOCATION

@@ -7,10 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/MathToXeVM/MathToXeVM.h"
+#include "../../../include/mlir/Conversion/LLVMCommon/LowerFunctionDiscardablesToLLVM.h"
+#include "../../../include/mlir/Conversion/LLVMCommon/Pattern.h"
+#include "../../../include/mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Analysis/DataLayoutAnalysis.h"
 #include "mlir/Conversion/ArithCommon/AttrToLLVMConverter.h"
 #include "mlir/Dialect/LLVMIR/FunctionCallUtils.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Dialect/Vector/IR/VectorOps.h"
 #include "mlir/IR/BuiltinDialect.h"

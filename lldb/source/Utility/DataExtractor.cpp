@@ -8,25 +8,16 @@
 
 #include "lldb/Utility/DataExtractor.h"
 
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-types.h"
 
-#include "lldb/Utility/DataBuffer.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/UUID.h"
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/LEB128.h"
 #include "llvm/Support/MD5.h"
-#include "llvm/Support/MathExtras.h"
 
 #include <algorithm>
 #include <array>

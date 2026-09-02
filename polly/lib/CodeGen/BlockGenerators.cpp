@@ -16,17 +16,11 @@
 #include "polly/CodeGen/IslExprBuilder.h"
 #include "polly/CodeGen/RuntimeDebugBuilder.h"
 #include "polly/Options.h"
-#include "polly/ScopInfo.h"
 #include "polly/Support/ISLTools.h"
-#include "polly/Support/ScopHelper.h"
 #include "polly/Support/VirtualInstruction.h"
 #include "llvm/Analysis/DomTreeUpdater.h"
-#include "llvm/Analysis/LoopInfo.h"
-#include "llvm/Analysis/RegionInfo.h"
-#include "llvm/Analysis/ScalarEvolution.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"
 #include "llvm/Transforms/Utils/Local.h"
-#include "isl/ast.h"
 #include <deque>
 
 using namespace llvm;

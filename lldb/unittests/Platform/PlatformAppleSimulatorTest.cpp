@@ -6,16 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "Plugins/Platform/MacOSX/PlatformAppleSimulator.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteAppleTV.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteAppleWatch.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteiOS.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Platform.h"
 
 using namespace lldb;
 using namespace lldb_private;

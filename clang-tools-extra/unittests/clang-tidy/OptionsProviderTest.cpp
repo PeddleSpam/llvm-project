@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "ClangTidyOptions.h"
-#include "clang/Basic/LLVM.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "gtest/gtest.h"
 
 namespace clang {

@@ -10,7 +10,6 @@
 
 #include "lldb/Host/Config.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #if LLDB_ENABLE_POSIX
 #include <arpa/inet.h>

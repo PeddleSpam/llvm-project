@@ -15,11 +15,6 @@
 #include "SPIRVParsingUtils.h"
 
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Interfaces/FunctionImplementation.h"
 #include "llvm/Support/InterleavedRange.h"
 

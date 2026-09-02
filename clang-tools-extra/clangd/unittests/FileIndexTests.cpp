@@ -6,30 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "Compiler.h"
-#include "Headers.h"
-#include "ParsedAST.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
-#include "TestTU.h"
 #include "TestWorkspace.h"
-#include "URI.h"
-#include "clang-include-cleaner/Record.h"
-#include "index/FileIndex.h"
-#include "index/Index.h"
-#include "index/Ref.h"
-#include "index/Relation.h"
-#include "index/Serialization.h"
-#include "index/Symbol.h"
-#include "index/SymbolID.h"
-#include "support/Threading.h"
-#include "clang/Frontend/CompilerInvocation.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/Support/Allocator.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <utility>
 #include <vector>

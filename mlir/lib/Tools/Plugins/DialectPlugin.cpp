@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Tools/Plugins/DialectPlugin.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <cstdint>
 

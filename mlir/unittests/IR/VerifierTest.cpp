@@ -7,14 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/Region.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

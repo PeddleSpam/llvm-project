@@ -17,7 +17,6 @@
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/Pass/Pass.h"
 
 using namespace mlir;

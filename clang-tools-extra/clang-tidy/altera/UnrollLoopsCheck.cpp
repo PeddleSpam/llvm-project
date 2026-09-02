@@ -7,11 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnrollLoopsCheck.h"
-#include "clang/AST/APValue.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/OperationKinds.h"
-#include "clang/AST/ParentMapContext.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include <cmath>
 

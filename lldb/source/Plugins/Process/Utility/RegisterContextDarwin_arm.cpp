@@ -11,11 +11,8 @@
 
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "llvm/Support/Compiler.h"
 
 #include "Plugins/Process/Utility/InstructionUtils.h"
 
@@ -24,7 +21,6 @@
 #include "Utility/ARM_DWARF_Registers.h"
 #include "Utility/ARM_ehframe_Registers.h"
 
-#include "llvm/ADT/STLExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

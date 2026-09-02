@@ -12,9 +12,7 @@
 
 #include "bolt/Passes/AsmDump.h"
 #include "llvm/CodeGen/AsmPrinter.h"
-#include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Target/TargetMachine.h"
 #include <unordered_set>
 

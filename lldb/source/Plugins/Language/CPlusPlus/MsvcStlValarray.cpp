@@ -9,9 +9,6 @@
 #include "MsvcStl.h"
 
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/ValueObject/ValueObject.h"
-#include "llvm/Support/ErrorExtras.h"
 #include <cinttypes>
 #include <optional>
 

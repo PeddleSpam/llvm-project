@@ -7,22 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantCastingCheck.h"
-#include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/NestedNameSpecifierBase.h"
-#include "clang/AST/ParentMapContext.h"
-#include "clang/AST/TemplateBase.h"
-#include "clang/AST/TypeBase.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Lex/Lexer.h"
 #include "clang/Tooling/FixIt.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace clang::ast_matchers;
 

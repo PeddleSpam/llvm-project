@@ -11,10 +11,6 @@
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/TargetParser/SubtargetFeature.h"
 
 #define GPR_OFFSET(idx) ((idx) * sizeof(uint32_t))
 #define FPR_OFFSET(idx) ((idx) * sizeof(uint32_t))

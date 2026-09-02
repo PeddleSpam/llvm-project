@@ -7,14 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "LLVMDialectBytecode.h"
-#include "mlir/Bytecode/BytecodeImplementation.h"
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include <type_traits>
 
 using namespace mlir;

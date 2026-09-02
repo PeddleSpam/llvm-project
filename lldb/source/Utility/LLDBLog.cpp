@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/ArrayRef.h"
 #include <cstdarg>
 
 using namespace lldb_private;

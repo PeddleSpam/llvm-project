@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Config.h"
 #include "lldb/Host/XML.h"
 
 #include "llvm/ADT/StringExtras.h"

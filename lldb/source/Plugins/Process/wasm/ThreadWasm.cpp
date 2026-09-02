@@ -6,13 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ThreadWasm.h"
 
 #include "ProcessWasm.h"
 #include "RegisterContextWasm.h"
 #include "UnwindWasm.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Unwind.h"
 
 using namespace lldb;
 using namespace lldb_private;

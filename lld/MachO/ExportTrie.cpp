@@ -35,11 +35,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "ExportTrie.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "Symbols.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/BinaryFormat/MachO.h"
 #include "llvm/Support/LEB128.h"
 #include <optional>
 

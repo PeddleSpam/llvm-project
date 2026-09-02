@@ -6,13 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Platform.h"
 
 using namespace lldb;
 using namespace lldb_private;

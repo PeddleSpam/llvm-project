@@ -18,27 +18,14 @@
 #include <sstream>
 #include <thread>
 
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/Threading.h"
 
-#include "lldb/Host/Config.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Host/FileAction.h"
-#include "lldb/Host/Host.h"
+#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Target/Platform.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Utility/GDBRemote.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
-#include "lldb/Utility/TildeExpressionResolver.h"
 #include "lldb/Utility/UriParser.h"
 
-#include "lldb/Utility/StringExtractorGDBRemote.h"
 
 using namespace lldb;
 using namespace lldb_private::process_gdb_remote;

@@ -8,7 +8,6 @@
 
 #include "lldb/Host/ScriptInterpreterRuntimeLoader.h"
 #include "lldb/Host/Config.h"
-#include "llvm/Support/ErrorHandling.h"
 
 namespace lldb_private {
 

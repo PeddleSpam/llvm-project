@@ -9,27 +9,11 @@
 
 #include "ObjectFileXCOFF.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Core/Progress.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/FileSpecList.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RangeMap.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/XCOFF.h"
-#include "llvm/Object/XCOFFObjectFile.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include <algorithm>
 #include <cassert>
 #include <cstring>

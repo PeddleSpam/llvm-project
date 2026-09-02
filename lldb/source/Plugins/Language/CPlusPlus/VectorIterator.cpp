@@ -10,9 +10,6 @@
 
 #include "Plugins/Language/CPlusPlus/LibCxx.h"
 
-#include "lldb/Utility/Status.h"
-#include "lldb/ValueObject/ValueObject.h"
-#include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -6,17 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../clang-tidy/ClangTidyOptions.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "Protocol.h"
-#include "SourceCode.h"
 #include "TestTU.h"
 #include "XRefs.h"
 #include "refactor/InsertionPoint.h"
-#include "clang/AST/DeclBase.h"
 #include "clang/AST/DeclObjC.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

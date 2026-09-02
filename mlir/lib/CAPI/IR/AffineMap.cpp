@@ -6,13 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/AffineMap.h"
-#include "mlir-c/IR.h"
 #include "mlir/CAPI/AffineExpr.h"
 #include "mlir/CAPI/AffineMap.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/IR/AffineMap.h"
 
 // TODO: expose the C API related to `AffineExpr` and mutable affine map.
 

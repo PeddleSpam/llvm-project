@@ -6,14 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/OperationSupport.h"
 #include "llvm/Support/ThreadPool.h"
 #include "gtest/gtest.h"
 

@@ -6,10 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Test/TestAttributes.h"
+#include "../Test/TestInterfaces.h"
+#include "../Test/TestOps.h"
+#include "../Test/TestTypes.h"
 #include "TestOps.h"
 #include "mlir/Analysis/DataLayoutAnalysis.h"
-#include "mlir/Dialect/DLTI/DLTI.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/Pass/Pass.h"
 
 using namespace mlir;

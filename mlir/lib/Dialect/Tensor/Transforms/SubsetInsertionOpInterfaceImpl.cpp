@@ -10,7 +10,6 @@
 
 #include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Interfaces/SubsetOpInterface.h"
-#include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 using namespace mlir;
 using namespace mlir::tensor;

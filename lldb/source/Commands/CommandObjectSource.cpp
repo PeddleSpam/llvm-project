@@ -11,21 +11,12 @@
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/FileLineResolver.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Core/SourceManager.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionValueFileColonLine.h"
-#include "lldb/Interpreter/Options.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Utility/FileSpec.h"
 #include <optional>
 
 using namespace lldb;

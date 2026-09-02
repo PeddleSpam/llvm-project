@@ -8,21 +8,15 @@
 
 #include <climits>
 
-#include "lldb/Host/Config.h"
-#include "lldb/Host/FileAction.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/ProcessLaunchInfo.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/StreamString.h"
 
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/FileSystem.h"
 
 #ifdef _WIN32
-#include "lldb/Host/windows/PseudoConsole.h"
-#include "lldb/Host/windows/WindowsFileAction.h"
 #else
 #include <climits>
 #endif

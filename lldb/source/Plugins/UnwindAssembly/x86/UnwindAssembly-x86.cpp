@@ -7,25 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnwindAssembly-x86.h"
-#include "x86AssemblyInspectionEngine.h"
 
-#include "llvm-c/Disassembler.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/TargetSelect.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/UnwindPlan.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/RegisterNumber.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/UnwindAssembly.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/Status.h"
 
 using namespace lldb;
 using namespace lldb_private;

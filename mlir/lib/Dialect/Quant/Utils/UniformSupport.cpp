@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Quant/Utils/UniformSupport.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/STLExtras.h"
 #include <numeric>
 
 using namespace mlir;

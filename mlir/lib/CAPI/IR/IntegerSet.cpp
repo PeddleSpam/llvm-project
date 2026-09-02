@@ -6,13 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/IntegerSet.h"
-#include "mlir-c/AffineExpr.h"
 #include "mlir/CAPI/AffineExpr.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/IntegerSet.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/IR/IntegerSet.h"
 
 using namespace mlir;
 

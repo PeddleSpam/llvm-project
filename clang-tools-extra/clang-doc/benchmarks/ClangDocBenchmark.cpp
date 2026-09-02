@@ -12,6 +12,12 @@
 ///
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/ilist.h"
+#include "../../../llvm/include/llvm/Bitstream/BitstreamReader.h"
+#include "../../../llvm/include/llvm/Support/JSON.h"
+#include "../../../llvm/include/llvm/Support/Mustache.h"
+#include "../../../llvm/include/llvm/Support/Mutex.h"
+#include "../../../llvm/include/llvm/Support/Threading.h"
 #include "BitcodeReader.h"
 #include "BitcodeWriter.h"
 #include "ClangDoc.h"
@@ -19,11 +25,8 @@
 #include "Representation.h"
 #include "Serialize.h"
 #include "benchmark/benchmark.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/Tooling/Execution.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/Bitstream/BitstreamWriter.h"
 #include <string>
 #include <vector>
 

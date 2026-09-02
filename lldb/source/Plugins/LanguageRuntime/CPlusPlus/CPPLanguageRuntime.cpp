@@ -16,21 +16,12 @@
 #include "ItaniumABIRuntime.h"
 #include "VerboseTrapFrameRecognizer.h"
 
-#include "llvm/ADT/StringRef.h"
 
-#include "lldb/Symbol/Block.h"
-#include "lldb/Symbol/Variable.h"
-#include "lldb/Symbol/VariableList.h"
 
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/UniqueCStringMap.h"
 #include "lldb/Symbol/CompileUnit.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/StackFrameRecognizer.h"
 #include "lldb/Target/ThreadPlanRunToAddress.h"
 #include "lldb/Target/ThreadPlanStepInRange.h"
 #include "lldb/Utility/LLDBLog.h"

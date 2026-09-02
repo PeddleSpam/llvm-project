@@ -13,36 +13,19 @@
 #include <map>
 #include <string>
 
-#include "lldb/Core/Module.h"
 #include "lldb/Core/Progress.h"
 #include "lldb/Expression/DiagnosticManager.h"
 #include "lldb/Expression/ExpressionVariable.h"
 #include "lldb/Expression/IRExecutionUnit.h"
 #include "lldb/Expression/IRInterpreter.h"
-#include "lldb/Expression/Materializer.h"
 #include "lldb/Expression/UserExpression.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Symbol/Block.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/ThreadPlan.h"
 #include "lldb/Target/ThreadPlanCallUserExpression.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/BinaryFormat/Dwarf.h"
 
 using namespace lldb_private;
 

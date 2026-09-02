@@ -12,6 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "../../../include/llvm/CodeGen/DFAPacketizer.h"
+#include "../../../include/llvm/CodeGen/ScheduleDAGInstrs.h"
+#include "../../../include/llvm/CodeGen/ScheduleDAGMutation.h"
+#include "../../../include/llvm/Support/Automaton.h"
 #include "MCTargetDesc/R600MCTargetDesc.h"
 #include "R600Defines.h"
 #include "R600Subtarget.h"

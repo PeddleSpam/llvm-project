@@ -7,16 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "index/CanonicalIncludes.h"
-#include "clang/Basic/FileEntry.h"
 #include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "clang/Basic/LangOptions.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

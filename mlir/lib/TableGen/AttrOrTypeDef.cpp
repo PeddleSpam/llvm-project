@@ -10,10 +10,7 @@
 #include "mlir/TableGen/Dialect.h"
 #include "llvm/ADT/FunctionExtras.h"
 #include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

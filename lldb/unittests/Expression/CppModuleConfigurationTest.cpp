@@ -12,8 +12,6 @@
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

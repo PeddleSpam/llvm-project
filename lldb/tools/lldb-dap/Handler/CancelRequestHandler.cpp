@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Handler/RequestHandler.h"
-#include "Protocol/ProtocolRequests.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 using namespace lldb_dap::protocol;

@@ -10,12 +10,7 @@
 #include "Resource.h"
 #include "Tool.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Protocol/MCP/Server.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Threading.h"
 #include <thread>
 
 using namespace lldb_private;

@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ScriptedProcess.h"
 
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 
@@ -17,17 +15,10 @@
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionGroupBoolean.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/Queue.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/ScriptedMetadata.h"
-#include "lldb/Utility/State.h"
 
 #include "Plugins/ObjectFile/Placeholder/ObjectFilePlaceholder.h"
 
-#include "llvm/Support/Error.h"
 
 #include <string>
 

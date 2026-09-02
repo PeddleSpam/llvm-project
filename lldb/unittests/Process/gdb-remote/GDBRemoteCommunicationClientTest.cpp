@@ -6,17 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 #include "Plugins/Process/gdb-remote/GDBRemoteCommunicationClient.h"
+#include "../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "GDBRemoteTestUtils.h"
 #include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
 #include "lldb/Host/XML.h"
 #include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/StructuredData.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/ArrayRef.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
 #include <future>
 #include <limits>
 #include <optional>

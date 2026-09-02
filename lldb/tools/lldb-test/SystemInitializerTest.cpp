@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "SystemInitializerTest.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Initialization/SystemInitializerCommon.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Utility/Timer.h"
 #include "llvm/Support/TargetSelect.h"

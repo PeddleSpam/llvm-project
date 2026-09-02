@@ -13,9 +13,7 @@
 
 #include "Serializer.h"
 
-#include "mlir/Target/SPIRV/Serialization.h"
 
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "spirv-serialization"
 

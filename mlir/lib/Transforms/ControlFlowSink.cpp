@@ -17,7 +17,6 @@
 
 #include "mlir/IR/Dominance.h"
 #include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Transforms/ControlFlowSinkUtils.h"
 
 namespace mlir {

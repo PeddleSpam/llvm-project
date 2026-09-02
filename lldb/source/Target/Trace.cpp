@@ -6,19 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/Trace.h"
 
-#include "llvm/Support/Format.h"
 
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Stream.h"
 #include <optional>
 
 using namespace lldb;

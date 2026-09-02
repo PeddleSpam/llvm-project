@@ -12,9 +12,7 @@
 
 #include "mlir/Conversion/ComplexToSPIRV/ComplexToSPIRV.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 #include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
-#include "mlir/Transforms/DialectConversion.h"
 
 #define DEBUG_TYPE "complex-to-spirv-pattern"
 

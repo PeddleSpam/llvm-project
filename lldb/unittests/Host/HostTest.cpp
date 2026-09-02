@@ -6,19 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Host.h"
+#include "../../include/lldb/Host/windows/PipeWindows.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/Pipe.h"
 #include "lldb/Host/ProcessLaunchInfo.h"
-#include "lldb/Utility/ProcessInfo.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <future>
 #include <thread>
 

@@ -6,35 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ASTSignals.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "ClangdServer.h"
-#include "CodeComplete.h"
-#include "Compiler.h"
-#include "Config.h"
 #include "Feature.h"
 #include "Matchers.h"
-#include "Protocol.h"
-#include "Quality.h"
-#include "SourceCode.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestIndex.h"
 #include "TestTU.h"
-#include "index/Index.h"
 #include "index/MemIndex.h"
-#include "index/SymbolOrigin.h"
-#include "support/Threading.h"
-#include "clang/Sema/CodeCompleteConsumer.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Testing/Annotations/Annotations.h"
 #include "llvm/Testing/Support/Error.h"
-#include "llvm/Testing/Support/SupportHelpers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <condition_variable>
 #include <functional>
 #include <mutex>

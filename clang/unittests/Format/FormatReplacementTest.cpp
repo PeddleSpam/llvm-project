@@ -6,8 +6,20 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseSet.h"
+#include "../../../llvm/include/llvm/ADT/PagedVector.h"
+#include "../../../llvm/include/llvm/ADT/RewriteBuffer.h"
+#include "../../../llvm/include/llvm/Support/Errc.h"
+#include "../../../llvm/include/llvm/Support/ExtensibleRTTI.h"
+#include "../../../llvm/include/llvm/Support/FileSystem.h"
+#include "../../../llvm/include/llvm/Support/Path.h"
 #include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../../../third-party/unittest/googletest/include/gtest/gtest-death-test.h"
+#include "../../../third-party/unittest/googletest/include/gtest/gtest-param-test.h"
 #include "../../../third-party/unittest/googletest/include/gtest/gtest.h"
+#include "../../../third-party/unittest/googletest/include/gtest/gtest_pred_impl.h"
+#include "../../include/clang/Basic/Diagnostic.h"
+#include "../../include/clang/Basic/FileManager.h"
 #include "../../include/clang/Basic/SourceManager.h"
 #include "../../include/clang/Rewrite/Core/Rewriter.h"
 #include "../Tooling/ReplacementTest.h"

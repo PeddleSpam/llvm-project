@@ -13,9 +13,6 @@
 #include "mlir/Dialect/MemRef/Utils/MemRefUtils.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Interfaces/ViewLikeInterface.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace mlir {
 namespace memref {

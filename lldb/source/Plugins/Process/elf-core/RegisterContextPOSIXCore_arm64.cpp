@@ -10,10 +10,7 @@
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_arm64.h"
 
 #include "Plugins/Process/Utility/AuxVector.h"
-#include "Plugins/Process/Utility/RegisterTypeDetector_arm64.h"
 #include "Plugins/Process/elf-core/ProcessElfCore.h"
-#include "Plugins/Process/elf-core/RegisterUtilities.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/RegisterValue.h"
 
 #include <memory>

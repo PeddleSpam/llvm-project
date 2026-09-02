@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/SideEffects.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

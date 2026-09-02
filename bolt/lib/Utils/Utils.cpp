@@ -15,7 +15,6 @@
 #include "llvm/BinaryFormat/Dwarf.h"
 #include "llvm/MC/MCDwarf.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/raw_ostream.h"
 
 #if defined(__linux__)
 #include <fcntl.h>

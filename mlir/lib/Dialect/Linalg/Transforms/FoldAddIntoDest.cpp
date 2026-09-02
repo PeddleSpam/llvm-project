@@ -6,11 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/Dialect/Linalg/IR/LinalgInterfaces.h"
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/IR/Dominance.h"
-#include "mlir/Interfaces/DestinationStyleOpInterface.h"
 
 using namespace mlir;
 

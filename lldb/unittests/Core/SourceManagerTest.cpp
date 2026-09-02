@@ -8,7 +8,6 @@
 
 #include "lldb/Core/SourceManager.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Utility/SupportFile.h"
 #include "gtest/gtest.h"
 
 #include "TestingSupport/MockTildeExpressionResolver.h"

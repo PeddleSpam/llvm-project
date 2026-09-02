@@ -10,10 +10,6 @@
 
 #include "lldb/Core/Module.h"
 #include "lldb/DataFormatters/DataVisualization.h"
-#include "lldb/DataFormatters/FormatterBytecode.h"
-#include "lldb/DataFormatters/TypeSynthetic.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include <memory>
 
 using namespace lldb;

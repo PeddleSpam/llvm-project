@@ -9,12 +9,7 @@
 #include "lldb/Target/RemoteAwarePlatform.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace lldb;

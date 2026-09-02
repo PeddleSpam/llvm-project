@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/SymbolFile.h"
 
-#include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolFileOnDemand.h"
-#include "lldb/Symbol/TypeMap.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
-#include "lldb/lldb-private.h"
 
 #include <future>
 

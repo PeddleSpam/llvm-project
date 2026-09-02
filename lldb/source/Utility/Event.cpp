@@ -8,13 +8,9 @@
 
 #include "lldb/Utility/Event.h"
 
-#include "lldb/Utility/Broadcaster.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/Listener.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-enumerations.h"
 
 #include "llvm/ADT/StringExtras.h"
 

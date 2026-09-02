@@ -6,10 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Config/mlir-config.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/Dialect/LLVMIR/NVVMDialect.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/InitAllDialects.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Target/LLVM/NVVM/Target.h"
@@ -21,11 +18,9 @@
 #include "llvm/Bitcode/BitcodeWriter.h"
 #include "llvm/Config/Targets.h" // for LLVM_HAS_NVPTX_TARGET
 #include "llvm/IRReader/IRReader.h"
-#include "llvm/Support/MemoryBufferRef.h"
 #include "llvm/Support/Process.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Host.h"
 
 #include "gmock/gmock.h"

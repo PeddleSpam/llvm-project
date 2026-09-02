@@ -9,7 +9,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "FuzzerUtil.h"
-#include "FuzzerIO.h"
 #include "FuzzerInternal.h"
 #include <cassert>
 #include <chrono>

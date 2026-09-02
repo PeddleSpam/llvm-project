@@ -7,11 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseRangesCheck.h"
-#include "clang/AST/Decl.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeInserter.h"
+#include "../utils/IncludeSorter.h"
 #include <initializer_list>
 
 // FixItHint - Let the docs script know that this class does provide fixits

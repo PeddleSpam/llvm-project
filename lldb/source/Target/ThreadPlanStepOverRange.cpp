@@ -7,21 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/ThreadPlanStepOverRange.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/LineTable.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadPlanSingleThreadTimeout.h"
 #include "lldb/Target/ThreadPlanStepOut.h"
 #include "lldb/Target/ThreadPlanStepThrough.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb_private;
 using namespace lldb;

@@ -7,20 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Transform/DebugExtension/DebugExtension.h"
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/IR/Utils.h"
 #include "mlir/Dialect/Transform/Transforms/TransformInterpreterUtils.h"
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/DialectRegistry.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Parser/Parser.h"
-#include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Support/FileUtilities.h"
-#include "mlir/Support/TypeID.h"
 #include "mlir/Tools/mlir-opt/MlirOptMain.h"
 #include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

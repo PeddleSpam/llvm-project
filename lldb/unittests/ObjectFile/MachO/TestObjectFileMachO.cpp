@@ -12,17 +12,7 @@
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #ifdef __APPLE__
 #include <dlfcn.h>

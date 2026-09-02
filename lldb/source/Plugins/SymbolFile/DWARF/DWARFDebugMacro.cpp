@@ -9,9 +9,7 @@
 #include "DWARFDebugMacro.h"
 #include "SymbolFileDWARF.h"
 
-#include "lldb/Symbol/DebugMacros.h"
 
-#include "DWARFDataExtractor.h"
 
 using namespace lldb_private;
 using namespace lldb_private::plugin::dwarf;

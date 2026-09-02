@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../../include/clang/Basic/DiagnosticDriver.h"
 #include "clang/Basic/JsonSupport.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CallEvent.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/CheckerContext.h"

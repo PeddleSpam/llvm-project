@@ -6,17 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Interpreter/ScriptInterpreter.h"
+#include "../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Host/Pipe.h"
-#include "lldb/Host/PseudoTerminal.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/Utility/UnimplementedError.h"
-#include "llvm/ADT/StringSwitch.h"
 #if defined(_WIN32)
 #include "lldb/Host/windows/ConnectionGenericFileWindows.h"
 #endif

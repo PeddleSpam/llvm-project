@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBInstructionList.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBExecutionContext.h"
 #include "lldb/API/SBFile.h"
 #include "lldb/API/SBInstruction.h"
@@ -15,10 +13,7 @@
 #include "lldb/Core/Disassembler.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Host/StreamFile.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

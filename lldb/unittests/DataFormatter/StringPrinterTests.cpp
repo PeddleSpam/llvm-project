@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/DataFormatters/StringPrinter.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <optional>
 #include <string>

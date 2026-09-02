@@ -8,7 +8,6 @@
 
 #include "ExceptionSpecAnalyzer.h"
 
-#include "clang/AST/Expr.h"
 #include "clang/AST/Type.h"
 
 namespace clang::tidy::utils {

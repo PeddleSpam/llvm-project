@@ -14,17 +14,8 @@
 
 #include "bolt/Core/Exceptions.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/BinaryFormat/Dwarf.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugFrame.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/LEB128.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include <map>
 
 #undef  DEBUG_TYPE

@@ -10,13 +10,8 @@
 #include "bolt/Utils/CommandLineOpts.h"
 #include "llvm/ADT/AddressRanges.h"
 #include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/MathExtras.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <cctype>
 #include <cmath>

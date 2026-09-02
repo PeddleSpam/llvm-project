@@ -6,19 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "ClangdServer.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "index/Ref.h"
-#include "refactor/Rename.h"
 #include "support/TestTracer.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include <algorithm>
 

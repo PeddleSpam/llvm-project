@@ -9,7 +9,6 @@
 #include "NativeRegisterContextDBReg_arm.h"
 
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
 
 using namespace lldb_private;

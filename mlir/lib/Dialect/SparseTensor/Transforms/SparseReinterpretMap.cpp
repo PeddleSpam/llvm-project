@@ -10,14 +10,8 @@
 #include "Utils/IterationGraphSorter.h"
 
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Utils/Utils.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensor.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensorType.h"
-#include "mlir/Dialect/SparseTensor/Transforms/Passes.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/IR/AffineExprVisitor.h"
-#include "mlir/IR/AffineMap.h"
 
 using namespace mlir;
 using namespace mlir::sparse_tensor;

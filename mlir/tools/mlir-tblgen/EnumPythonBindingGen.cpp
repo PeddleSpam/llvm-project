@@ -13,13 +13,11 @@
 #include "OpGenHelpers.h"
 
 #include "mlir/TableGen/AttrOrTypeDef.h"
-#include "mlir/TableGen/Attribute.h"
 #include "mlir/TableGen/Dialect.h"
 #include "mlir/TableGen/EnumInfo.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/TableGen/Record.h"
 
 using namespace mlir;
 using namespace mlir::tblgen;

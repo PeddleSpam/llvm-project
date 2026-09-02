@@ -8,9 +8,6 @@
 
 #include "DeclRefExprUtils.h"
 #include "Matchers.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/ExprCXX.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include <cassert>
 

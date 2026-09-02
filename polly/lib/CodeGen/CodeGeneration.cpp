@@ -19,27 +19,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/CodeGen/CodeGeneration.h"
-#include "polly/CodeGen/IRBuilder.h"
 #include "polly/CodeGen/IslAst.h"
 #include "polly/CodeGen/IslNodeBuilder.h"
 #include "polly/CodeGen/PerfMonitor.h"
 #include "polly/CodeGen/Utils.h"
-#include "polly/DependenceInfo.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
-#include "polly/Support/ScopHelper.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/Analysis/LoopInfo.h"
-#include "llvm/Analysis/RegionInfo.h"
-#include "llvm/IR/BasicBlock.h"
-#include "llvm/IR/Dominators.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/Verifier.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Transforms/Utils/LoopUtils.h"
-#include "isl/ast.h"
 #include <cassert>
 
 using namespace llvm;

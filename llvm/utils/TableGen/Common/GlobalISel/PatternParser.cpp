@@ -7,9 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "Common/GlobalISel/PatternParser.h"
-#include "../../../../include/llvm/ADT/SmallPtrSet.h"
 #include "../../../../include/llvm/Support/ModRef.h"
+#include "../../Basic/CodeGenIntrinsics.h"
 #include "../../Basic/SDNodeProperties.h"
+#include "../CodeGenHwModes.h"
 #include "../CodeGenInstruction.h"
 #include "../InfoByHwMode.h"
 #include "Basic/CodeGenIntrinsics.h"

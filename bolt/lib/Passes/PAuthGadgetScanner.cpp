@@ -82,11 +82,7 @@
 #include "bolt/Passes/PAuthGadgetScanner.h"
 #include "bolt/Core/ParallelUtilities.h"
 #include "bolt/Passes/DataflowAnalysis.h"
-#include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/Support/Format.h"
 #include <memory>
 
 #define DEBUG_TYPE "bolt-pauth-scanner"

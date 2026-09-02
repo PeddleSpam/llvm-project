@@ -6,12 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Diagnostics.h"
 #include "mlir/CAPI/Diagnostics.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Support.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/IR/Diagnostics.h"
 
 using namespace mlir;
 

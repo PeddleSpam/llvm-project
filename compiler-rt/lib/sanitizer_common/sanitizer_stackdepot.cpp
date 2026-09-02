@@ -12,10 +12,7 @@
 
 #include "sanitizer_stackdepot.h"
 
-#include "sanitizer_atomic.h"
-#include "sanitizer_common.h"
 #include "sanitizer_hash.h"
-#include "sanitizer_mutex.h"
 #include "sanitizer_stack_store.h"
 #include "sanitizer_stackdepotbase.h"
 

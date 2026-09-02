@@ -14,14 +14,7 @@
 #include "Plugins/SymbolFile/DWARF/SymbolFileDWARFDwo.h"
 #include "lldb/Core/DataFileCache.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/Timer.h"
-#include "lldb/lldb-private-enumerations.h"
 #include "llvm/Support/ThreadPool.h"
 #include <atomic>
 #include <optional>

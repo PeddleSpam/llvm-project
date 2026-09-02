@@ -7,14 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "UncheckedStatusOrAccessCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Analysis/FlowSensitive/DataflowAnalysis.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Analysis/FlowSensitive/Models/UncheckedStatusOrAccessModel.h"
-#include "clang/Basic/SourceLocation.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Error.h"
 
 namespace clang::tidy::abseil {
 using ast_matchers::MatchFinder;

@@ -7,12 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "MacroToEnumCheck.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "IntegralLiteralExpressionMatcher.h"
 
-#include "clang/AST/ASTContext.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/STLExtras.h"
 #include <cassert>
 #include <cctype>
 #include <string>

@@ -10,9 +10,6 @@
 #include "JSONUtils.h"
 
 #ifdef _WIN32
-#include "lldb/Host/windows/PipeWindows.h"
-#include "lldb/Host/windows/windows.h"
-#include "llvm/Support/Path.h"
 #else
 #include <sys/stat.h>
 #include <sys/types.h>

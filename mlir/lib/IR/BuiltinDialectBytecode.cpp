@@ -8,17 +8,8 @@
 
 #include "BuiltinDialectBytecode.h"
 #include "AttributeDetail.h"
-#include "mlir/Bytecode/BytecodeImplementation.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
 #include "mlir/IR/DialectResourceBlobManager.h"
-#include "mlir/IR/IntegerSet.h"
-#include "mlir/IR/Location.h"
-#include "mlir/Support/LLVM.h"
 #include "llvm/ADT/TypeSwitch.h"
 #include <cstdint>
 

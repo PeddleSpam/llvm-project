@@ -9,7 +9,6 @@
 #include "mlir/Dialect/GPU/IR/ValueBoundsOpInterfaceImpl.h"
 
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Interfaces/InferIntRangeInterface.h"
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 using namespace mlir;

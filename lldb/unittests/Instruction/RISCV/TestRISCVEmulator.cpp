@@ -8,12 +8,8 @@
 
 #include "gtest/gtest.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Disassembler.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/RegisterValue.h"
 
 #include "Plugins/Instruction/RISCV/EmulateInstructionRISCV.h"
 #include "Plugins/Process/Utility/RegisterInfoPOSIX_riscv32.h"

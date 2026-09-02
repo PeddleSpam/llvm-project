@@ -9,20 +9,14 @@
 #include "lldb/Utility/Log.h"
 #include "lldb/Utility/VASPrintf.h"
 
-#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/ADT/iterator.h"
 
 #include "llvm/Support/Casting.h"
 #include "llvm/Support/Chrono.h"
 #include "llvm/Support/ErrorExtras.h"
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <chrono>
 #include <cstdarg>

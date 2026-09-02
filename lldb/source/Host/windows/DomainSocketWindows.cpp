@@ -9,9 +9,6 @@
 #include "lldb/Host/windows/DomainSocketWindows.h"
 
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 #include <chrono>
 #include <memory>

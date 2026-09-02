@@ -6,25 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/TargetList.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/OptionGroupPlatform.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/Broadcaster.h"
-#include "lldb/Utility/Event.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/TildeExpressionResolver.h"
 #include "lldb/Utility/Timer.h"
 
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/FileSystem.h"
 
 using namespace lldb;
 using namespace lldb_private;

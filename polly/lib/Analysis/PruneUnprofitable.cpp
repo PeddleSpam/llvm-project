@@ -11,12 +11,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/PruneUnprofitable.h"
-#include "polly/ScopDetection.h"
 #include "polly/ScopInfo.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/IR/DebugLoc.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace polly;

@@ -7,17 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "BPSectionOrderer.h"
+#include "../../llvm/include/llvm/ProfileData/InstrProfReader.h"
+#include "../../llvm/include/llvm/Support/TimeProfiler.h"
+#include "../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../include/lld/Common/ErrorHandler.h"
+#include "../include/lld/Common/Utils.h"
 #include "InputSection.h"
 #include "OutputSegment.h"
-#include "Relocations.h"
-#include "Symbols.h"
-#include "Target.h"
 #include "lld/Common/BPSectionOrdererBase.inc"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StableHashing.h"
-#include "llvm/Support/Endian.h"
-#include "llvm/Support/xxhash.h"
 
 #define DEBUG_TYPE "bp-section-orderer"
 

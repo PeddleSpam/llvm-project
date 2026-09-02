@@ -12,16 +12,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/Dialect/XeGPU/IR/XeGPU.h"
 #include "mlir/Dialect/XeGPU/Transforms/Transforms.h"
 #include "mlir/Dialect/XeGPU/Transforms/XeGPULayoutImpl.h"
-#include "mlir/Dialect/XeGPU/Utils/XeGPUUtils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/DebugLog.h"
 
 namespace mlir {
 namespace xegpu {

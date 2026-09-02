@@ -12,8 +12,6 @@
 
 #include "bolt/RuntimeLibs/HugifyRuntimeLibrary.h"
 #include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/Linker.h"
-#include "llvm/MC/MCStreamer.h"
 #include "llvm/Support/CommandLine.h"
 
 using namespace llvm;

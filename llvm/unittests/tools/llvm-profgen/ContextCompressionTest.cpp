@@ -5,6 +5,7 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../include/llvm/ADT/GraphTraits.h"
 #include "../../../include/llvm/ADT/PriorityQueue.h"
 #include "../../../include/llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "../../../include/llvm/DebugInfo/Symbolize/Symbolize.h"
@@ -15,12 +16,12 @@
 #include "../../../include/llvm/MC/MCInstrAnalysis.h"
 #include "../../../include/llvm/MC/MCObjectFileInfo.h"
 #include "../../../include/llvm/Object/ELFObjectFile.h"
+#include "../../../include/llvm/ProfileData/InstrProf.h"
 #include "../../../include/llvm/ProfileData/ProfileCommon.h"
+#include "../../../include/llvm/ProfileData/SampleProfReader.h"
 #include "../../../include/llvm/Transforms/IPO/ProfiledCallGraph.h"
-#include "../../../tools/llvm-profgen/CallContext.h"
-#include "../../../tools/llvm-profgen/PerfReader.h"
 #include "../../../tools/llvm-profgen/ProfileGenerator.h"
-#include "../tools/llvm-profgen/ProfileGenerator.h"
+#include "../../../tools/llvm-profgen/ProfiledBinary.h"
 #include "llvm/DebugInfo/Symbolize/SymbolizableModule.h"
 #include "gtest/gtest.h"
 

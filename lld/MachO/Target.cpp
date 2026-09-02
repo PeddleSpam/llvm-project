@@ -7,6 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Target.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 
 using namespace lld;
 using namespace lld::macho;

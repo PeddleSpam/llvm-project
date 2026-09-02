@@ -7,16 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/DataFlowFramework.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/iterator.h"
-#include "llvm/Config/abi-breaking.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/DebugLog.h"
-#include "llvm/Support/raw_ostream.h"
 
 #define DEBUG_TYPE "dataflow"
 #if LLVM_ENABLE_ABI_BREAKING_CHECKS

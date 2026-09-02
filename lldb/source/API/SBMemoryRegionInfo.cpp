@@ -8,7 +8,6 @@
 
 #include "lldb/API/SBMemoryRegionInfo.h"
 #include "Utils.h"
-#include "lldb/API/SBDefines.h"
 #include "lldb/API/SBError.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Target/MemoryRegionInfo.h"

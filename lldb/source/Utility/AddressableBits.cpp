@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/AddressableBits.h"
-#include "lldb/lldb-types.h"
 
 #include <cassert>
 

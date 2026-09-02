@@ -16,26 +16,29 @@
 #include <mutex>
 #include <set>
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Demangle/ItaniumDemangle.h"
-#include "llvm/Support/ErrorExtras.h"
 
-#include "lldb/Core/DemangledNameInfo.h"
-#include "lldb/Core/Mangled.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Core/UniqueCStringMap.h"
+#include "../../../../../clang/include/clang/Basic/CFProtectionOptions.h"
+#include "../../../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../../../clang/include/clang/Basic/DirectoryEntry.h"
+#include "../../../../../clang/include/clang/Basic/FileEntry.h"
+#include "../../../../../clang/include/clang/Basic/LangOptions.h"
+#include "../../../../../clang/include/clang/Basic/LangStandard.h"
+#include "../../../../../clang/include/clang/Basic/Linkage.h"
+#include "../../../../../clang/include/clang/Basic/Sanitizers.h"
+#include "../../../../../clang/include/clang/Basic/SourceLocation.h"
+#include "../../../../../clang/include/clang/Basic/TargetCXXABI.h"
+#include "../../../../../clang/include/clang/Basic/TokenKinds.h"
+#include "../../../../../clang/include/clang/Lex/DependencyDirectivesScanner.h"
+#include "../../../../../clang/include/clang/Lex/MultipleIncludeOpt.h"
+#include "../../../../../clang/include/clang/Lex/PreprocessorLexer.h"
+#include "../../../../../clang/include/clang/Lex/Token.h"
+#include "../../../../../llvm/include/llvm/ADT/PointerUnion.h"
 #include "lldb/DataFormatters/CXXFunctionPointer.h"
 #include "lldb/DataFormatters/DataVisualization.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
 #include "lldb/DataFormatters/VectorType.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
 #include "lldb/ValueObject/ValueObjectVariable.h"
 
 #include "BlockPointer.h"
@@ -49,7 +52,6 @@
 #include "LibStdcpp.h"
 #include "MSVCUndecoratedNameParser.h"
 #include "MsvcStl.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

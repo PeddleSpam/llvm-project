@@ -7,22 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/API/SBHostOS.h"
+#include "../../include/lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/API/SBError.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/HostNativeThread.h"
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/ThreadLauncher.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include "Plugins/ExpressionParser/Clang/ClangHost.h"
 
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/Path.h"
 
 using namespace lldb;
 using namespace lldb_private;

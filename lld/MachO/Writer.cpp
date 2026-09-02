@@ -6,31 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Writer.h"
-#include "ConcatOutputSection.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "InputSection.h"
 #include "LinkerOptimizationHints.h"
 #include "MapFile.h"
-#include "OutputSection.h"
-#include "OutputSegment.h"
 #include "SectionPriorities.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 #include "UnwindInfoSection.h"
 
 #include "lld/Common/Arrays.h"
 #include "lld/Common/CommonLinkerContext.h"
-#include "llvm/BinaryFormat/MachO.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/Parallel.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TimeProfiler.h"
 #include "llvm/Support/thread.h"
-#include "llvm/Support/xxhash.h"
 
 #include <algorithm>
 

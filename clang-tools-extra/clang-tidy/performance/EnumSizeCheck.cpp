@@ -7,9 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "EnumSizeCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
+#include "../utils/TypeTraits.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include <algorithm>
 #include <cinttypes>

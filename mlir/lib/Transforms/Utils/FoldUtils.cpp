@@ -13,9 +13,7 @@
 
 #include "mlir/Transforms/FoldUtils.h"
 
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/IR/Operation.h"
 #include "llvm/Support/DebugLog.h"
 
 using namespace mlir;

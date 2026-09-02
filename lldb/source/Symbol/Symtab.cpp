@@ -12,20 +12,9 @@
 #include "lldb/Core/DataFileCache.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/RichManglingContext.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/Symtab.h"
-#include "lldb/Target/Language.h"
 #include "lldb/Utility/DataEncoder.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
 #include "lldb/Utility/Timer.h"
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/DJB.h"
 
 using namespace lldb;

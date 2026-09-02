@@ -11,11 +11,8 @@
 // and validation before dispatching to the actual implementations.
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/TableGen/Record.h"
 
 #include "GenCommon.hpp"
-#include "RecordTypes.hpp"
 
 using namespace llvm;
 using namespace offload::tblgen;

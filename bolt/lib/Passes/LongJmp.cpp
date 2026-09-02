@@ -15,8 +15,6 @@
 #include "bolt/Passes/BranchLivenessUtils.h"
 #include "bolt/Passes/RegAnalysis.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/MathExtras.h"
 
 #define DEBUG_TYPE "longjmp"
 

@@ -8,13 +8,10 @@
 
 #include "LinkerOptimizationHints.h"
 
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "Arch/ARM64Common.h"
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/BinaryFormat/MachO.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/MathExtras.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

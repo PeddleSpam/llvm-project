@@ -8,12 +8,10 @@
 
 #include "Plugins/Architecture/AArch64/ArchitectureAArch64.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataExtractor.h"
 
-#include "llvm/Support/Endian.h"
 
 using namespace lldb_private;
 using namespace lldb;

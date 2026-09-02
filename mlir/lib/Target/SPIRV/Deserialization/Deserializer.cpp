@@ -12,22 +12,9 @@
 
 #include "Deserializer.h"
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/IRMapping.h"
-#include "mlir/IR/Location.h"
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/bit.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/SaveAndRestore.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace mlir;

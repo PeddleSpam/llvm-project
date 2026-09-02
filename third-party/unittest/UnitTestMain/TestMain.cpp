@@ -9,7 +9,6 @@
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Signals.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <stdlib.h>
 
 #if defined(_WIN32)

@@ -10,11 +10,7 @@
 
 #include "lldb/Utility/DataBufferLLVM.h"
 
-#include "llvm/Support/Errc.h"
 #include "llvm/Support/Errno.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/Threading.h"
 

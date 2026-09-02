@@ -10,9 +10,7 @@
 
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/Stream.h"
-#include "lldb/lldb-forward.h"
 
 #include <memory>
 

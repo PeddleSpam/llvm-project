@@ -8,7 +8,6 @@
 
 #include "StopInfoMachException.h"
 
-#include "lldb/lldb-forward.h"
 
 #if defined(__APPLE__)
 // Needed for the EXC_RESOURCE interpretation macros
@@ -16,19 +15,11 @@
 #endif
 
 #include "lldb/Breakpoint/Watchpoint.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/ThreadPlan.h"
 #include "lldb/Target/UnixSignals.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb;

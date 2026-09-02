@@ -7,13 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Matchers.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include "llvm/Support/DebugLog.h"
 
 using namespace mlir;

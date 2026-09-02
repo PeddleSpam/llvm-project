@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Bufferization/Transforms/FuncBufferizableOpInterfaceImpl.h"
-#include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Bufferization/IR/UnstructuredControlFlow.h"
 #include "mlir/Dialect/Bufferization/Transforms/Bufferize.h"
-#include "mlir/Dialect/Bufferization/Transforms/OneShotAnalysis.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
 #include <optional>
 
 namespace mlir {

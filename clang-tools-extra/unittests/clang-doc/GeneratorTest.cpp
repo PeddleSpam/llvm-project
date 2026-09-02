@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ClangDocTest.h"
 #include "Generators.h"
-#include "Representation.h"
 #include "Serialize.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace doc {

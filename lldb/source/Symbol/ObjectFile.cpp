@@ -6,23 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Symbol/CallFrameInfo.h"
 #include "lldb/Symbol/ObjectContainer.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Timer.h"
-#include "lldb/lldb-private.h"
 
 #include "llvm/Support/DJB.h"
 

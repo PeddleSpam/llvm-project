@@ -7,10 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "MacroRepeatedSideEffectsCheck.h"
-#include "clang/Basic/Builtins.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Frontend/CompilerInstance.h"
 #include "clang/Lex/MacroArgs.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
 #include <stack>
 

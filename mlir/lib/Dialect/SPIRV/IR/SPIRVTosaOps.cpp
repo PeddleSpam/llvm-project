@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/InterleavedRange.h"
 #include <algorithm>
 

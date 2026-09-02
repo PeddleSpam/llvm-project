@@ -9,8 +9,6 @@
 #include "SymbolInfo.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 
 using ContextType = clang::find_all_symbols::SymbolInfo::ContextType;
 using clang::find_all_symbols::SymbolInfo;

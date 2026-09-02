@@ -10,11 +10,9 @@
 #include "mlir/Analysis/CallGraph.h"
 #include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/Interfaces/CallInterfaces.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
 #include "mlir/Transforms/InliningUtils.h"
 #include "llvm/ADT/SCCIterator.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 
 using namespace mlir;

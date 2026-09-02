@@ -12,12 +12,8 @@
 
 #include "mlir/Dialect/SCF/Transforms/Passes.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Transforms.h"
 #include "mlir/Dialect/SCF/Utils/Utils.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/IRMapping.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_SCFFORLOOPRANGEFOLDING

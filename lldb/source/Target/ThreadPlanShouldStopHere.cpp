@@ -7,13 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/ThreadPlanShouldStopHere.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/Language.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

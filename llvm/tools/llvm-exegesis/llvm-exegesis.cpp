@@ -14,7 +14,6 @@
 #include "lib/Analysis.h"
 #include "lib/BenchmarkResult.h"
 #include "lib/Clustering.h"
-#include "lib/Error.h"
 #include "lib/LlvmState.h"
 #include "lib/ProgressMeter.h"
 #include "lib/ResultAggregator.h"

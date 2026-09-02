@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
 #include "lldb/API/SBInstruction.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/Error.h"
 
 using namespace lldb_dap::protocol;
 namespace lldb_dap {

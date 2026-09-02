@@ -8,7 +8,6 @@
 
 #include "mlir/Dialect/Transform/Utils/Utils.h"
 
-#include "mlir/IR/OpDefinition.h"
 #include "mlir/Interfaces/ViewLikeInterface.h"
 
 using namespace mlir;

@@ -8,8 +8,7 @@
 
 // lldb Includes
 #include "lldb/Host/ThreadLauncher.h"
-#include "lldb/Host/HostNativeThread.h"
-#include "lldb/Host/HostThread.h"
+#include "../../../include/lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Utility/Log.h"
 
 #if defined(_WIN32)

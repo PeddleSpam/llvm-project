@@ -7,13 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "RestrictSystemIncludesCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/Path.h"
 #include <cstring>
 
 namespace clang::tidy::portability {

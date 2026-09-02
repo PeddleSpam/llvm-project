@@ -13,10 +13,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Generators.h"
-#include "Representation.h"
 #include "support/File.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Path.h"
 
 using namespace llvm;
 using namespace llvm::json;

@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Highlighter.h"
 
 #include "lldb/Target/Language.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb_private;

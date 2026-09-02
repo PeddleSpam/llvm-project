@@ -6,14 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Pass.h"
 
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Pass.h"
 #include "mlir/CAPI/Support.h"
 #include "mlir/CAPI/Utils.h"
-#include "mlir/Pass/PassManager.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <optional>
 
 using namespace mlir;

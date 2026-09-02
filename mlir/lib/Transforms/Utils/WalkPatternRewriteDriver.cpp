@@ -12,17 +12,9 @@
 
 #include "mlir/Transforms/WalkPatternRewriteDriver.h"
 
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Visitors.h"
 #include "mlir/Rewrite/PatternApplicator.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #define DEBUG_TYPE "walk-rewriter"
 

@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "MarkLive.h"
-#include "Config.h"
-#include "OutputSegment.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "UnwindInfoSection.h"
 
 #include "lld/Common/ErrorHandler.h"

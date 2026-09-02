@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/ValueObject/DILAST.h"
-#include "llvm/Support/ErrorHandling.h"
 
 namespace lldb_private::dil {
 

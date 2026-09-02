@@ -11,12 +11,7 @@
 #include <optional>
 
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Host/PosixApi.h"
 #include "lldb/Target/PathMappingList.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-private-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

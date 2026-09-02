@@ -8,19 +8,8 @@
 
 #include "lldb/ValueObject/ValueObjectSynthetic.h"
 
-#include "lldb/Core/Value.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/DataFormatters/TypeSynthetic.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/ValueObject/ValueObject.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorExtras.h"
 #include <optional>
 
 namespace lldb_private {

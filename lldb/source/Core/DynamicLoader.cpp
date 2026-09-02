@@ -10,25 +10,9 @@
 
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolLocator.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/lldb-private-interfaces.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 
 #include <memory>
 #include <optional>

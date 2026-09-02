@@ -8,6 +8,8 @@
 
 #include "Common/GlobalISel/CodeExpander.h"
 #include "../../include/llvm/ADT/StringMap.h"
+#include "../../include/llvm/ADT/StringMapEntry.h"
+#include "../../include/llvm/Support/AllocatorBase.h"
 #include "Common/GlobalISel/CodeExpansions.h"
 
 #include "llvm/TableGen/Error.h"

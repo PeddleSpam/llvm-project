@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Tosa/IR/ShardingInterfaceImpl.h"
-#include "mlir/Dialect/Shard/IR/ShardOps.h"
-#include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/DialectRegistry.h"
 
 #define DEBUG_TYPE "tosa-sharding-impl"
 #define DBGS() (llvm::dbgs() << "[" DEBUG_TYPE << "]: ")

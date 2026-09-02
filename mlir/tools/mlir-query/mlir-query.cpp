@@ -11,11 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/MLIRContext.h"
-#include "mlir/IR/Matchers.h"
 #include "mlir/InitAllDialects.h"
-#include "mlir/Query/Matcher/Registry.h"
 #include "mlir/Query/Matcher/SliceMatchers.h"
 #include "mlir/Tools/mlir-query/MlirQueryMain.h"
 

@@ -7,20 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "TidyProvider.h"
+#include "../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../llvm/include/llvm/Support/DynamicLibrary.h"
+#include "../../llvm/include/llvm/Support/Registry.h"
 #include "../clang-tidy/ClangTidyModule.h"
-#include "../clang-tidy/ClangTidyOptions.h"
 #include "Config.h"
 #include "support/FileCache.h"
 #include "support/Logger.h"
 #include "support/Path.h"
-#include "support/ThreadsafeFS.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSet.h"
 #include "llvm/Support/Allocator.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/SourceMgr.h"
 #include <memory>
 #include <optional>
 

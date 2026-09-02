@@ -30,7 +30,6 @@
 #include "mlir/Dialect/Bufferization/Transforms/Passes.h"
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
 
 namespace mlir {
 namespace bufferization {

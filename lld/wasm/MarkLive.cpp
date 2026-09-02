@@ -19,11 +19,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "MarkLive.h"
-#include "Config.h"
 #include "InputChunks.h"
 #include "InputElement.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 
 #define DEBUG_TYPE "lld"
 

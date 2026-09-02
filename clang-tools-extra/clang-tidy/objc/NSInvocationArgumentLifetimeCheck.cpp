@@ -7,23 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "NSInvocationArgumentLifetimeCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/ComputeDependence.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprObjC.h"
-#include "clang/AST/Type.h"
-#include "clang/AST/TypeLoc.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersMacros.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/StringRef.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

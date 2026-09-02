@@ -15,14 +15,9 @@
 #include "FormatStringConverter.h"
 #include "../utils/FixItHintUtils.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/Expr.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Tooling/FixIt.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/Path.h"
 
 using namespace clang::ast_matchers;

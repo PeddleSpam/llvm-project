@@ -8,15 +8,10 @@
 
 #include "lldb/Host/windows/ProcessLauncherWindows.h"
 #include "lldb/Host/HostProcess.h"
-#include "lldb/Host/windows/PseudoConsole.h"
-#include "lldb/Host/windows/WindowsFileAction.h"
-#include "lldb/Host/windows/windows.h"
 
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Support/ConvertUTF.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/Windows/WindowsSupport.h"
-#include "llvm/Support/WindowsError.h"
 
 #include <string>
 #include <vector>

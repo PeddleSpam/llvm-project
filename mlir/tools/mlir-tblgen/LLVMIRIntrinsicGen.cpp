@@ -16,13 +16,10 @@
 #include "llvm/ADT/SmallBitVector.h"
 #include "llvm/ADT/StringSwitch.h"
 #include "llvm/CodeGenTypes/MachineValueType.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/Regex.h"
 #include "llvm/Support/Signals.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Main.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using llvm::Record;

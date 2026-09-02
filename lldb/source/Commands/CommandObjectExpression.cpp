@@ -7,24 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "CommandObjectExpression.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Expression/ExpressionVariable.h"
 #include "lldb/Expression/REPL.h"
 #include "lldb/Expression/UserExpression.h"
 #include "lldb/Host/OptionParser.h"
-#include "lldb/Host/StreamFile.h"
-#include "lldb/Host/common/DiagnosticsRendering.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-private-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -11,7 +11,6 @@
 #include "mlir/Dialect/MemRef/Transforms/Transforms.h"
 
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Pass/Pass.h"
 
 using namespace mlir;
 

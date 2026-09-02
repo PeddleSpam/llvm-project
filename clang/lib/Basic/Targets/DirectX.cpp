@@ -11,6 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "DirectX.h"
+#include "../../../include/clang/Basic/MacroBuilder.h"
 #include "../TargetDefines.h"
 #include "clang/Basic/TargetBuiltins.h"
 

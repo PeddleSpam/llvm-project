@@ -8,12 +8,6 @@
 
 #include "lldb/ValueObject/ValueObjectCast.h"
 
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include <optional>
 
 using namespace lldb_private;

@@ -11,11 +11,8 @@
 #include <cassert>
 #include <system_error>
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 
 #if !defined(_WIN32)
 #include <pwd.h>

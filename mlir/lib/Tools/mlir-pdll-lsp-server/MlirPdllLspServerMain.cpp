@@ -10,7 +10,6 @@
 #include "LSPServer.h"
 #include "PDLLServer.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/LSP/Logging.h"
 #include "llvm/Support/LSP/Transport.h"
 #include "llvm/Support/Program.h"
 

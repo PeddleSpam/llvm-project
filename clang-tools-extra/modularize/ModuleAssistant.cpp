@@ -29,7 +29,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Modularize.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/ToolOutputFile.h"

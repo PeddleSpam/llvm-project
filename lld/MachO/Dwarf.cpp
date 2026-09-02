@@ -7,7 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Dwarf.h"
-#include "InputFiles.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "InputSection.h"
 #include "OutputSegment.h"
 

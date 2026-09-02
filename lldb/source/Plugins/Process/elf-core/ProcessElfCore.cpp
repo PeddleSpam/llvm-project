@@ -13,26 +13,15 @@
 #include <vector>
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/UnixSignals.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
 
-#include "llvm/BinaryFormat/ELF.h"
 
 #include "Plugins/DynamicLoader/POSIX-DYLD/DynamicLoaderPOSIXDYLD.h"
 #include "Plugins/DynamicLoader/Static/DynamicLoaderStatic.h"
-#include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 #include "Plugins/ObjectFile/Placeholder/ObjectFilePlaceholder.h"
-#include "Plugins/Process/elf-core/RegisterUtilities.h"
 #include "ProcessElfCore.h"
 #include "ThreadElfCore.h"
 

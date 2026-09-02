@@ -10,18 +10,9 @@
 
 #include <algorithm>
 
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadList.h"
-#include "lldb/Target/ThreadPlan.h"
 #include "lldb/Target/ThreadPlanStepOverBreakpoint.h"
-#include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/SmallVector.h"
 
 using namespace lldb;
 using namespace lldb_private;

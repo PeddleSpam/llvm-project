@@ -18,11 +18,9 @@
 #include "mlir/Query/Query.h"
 #include "mlir/Query/QuerySession.h"
 #include "mlir/Support/FileUtilities.h"
-#include "llvm/LineEditor/LineEditor.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/SourceMgr.h"
 
 //===----------------------------------------------------------------------===//
 // Query Parser

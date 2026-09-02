@@ -13,7 +13,6 @@
 #include "lldb/DataFormatters/DataVisualization.h"
 #include "lldb/Utility/Instrumentation.h"
 
-#include "llvm/Support/Casting.h"
 
 using namespace lldb;
 using namespace lldb_private;

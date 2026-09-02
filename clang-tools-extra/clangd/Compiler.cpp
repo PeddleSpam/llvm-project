@@ -8,12 +8,8 @@
 
 #include "Compiler.h"
 #include "support/Logger.h"
-#include "clang/Basic/TargetInfo.h"
 #include "clang/Driver/CreateInvocationFromArgs.h"
-#include "clang/Frontend/CompilerInvocation.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "clang/Serialization/PCHContainerOperations.h"
-#include "llvm/ADT/StringRef.h"
 
 namespace clang {
 namespace clangd {

@@ -7,17 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/ValueObject/ValueObjectMemory.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Symbol/Type.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/ValueObject/ValueObject.h"
-#include "lldb/lldb-types.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <cassert>
 #include <memory>

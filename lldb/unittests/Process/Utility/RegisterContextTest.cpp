@@ -10,7 +10,6 @@
 
 #include "Plugins/Process/Utility/RegisterContext_x86.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/FormatVariadic.h"
 
 #include <array>

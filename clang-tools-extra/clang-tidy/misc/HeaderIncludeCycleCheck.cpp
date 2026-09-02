@@ -7,11 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "HeaderIncludeCycleCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
-#include "llvm/Support/Regex.h"
 #include <algorithm>
 #include <optional>
 #include <vector>

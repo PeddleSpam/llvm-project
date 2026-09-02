@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Debug/ExecutionContext.h"
 #include "mlir/Debug/BreakpointManagers/TagBreakpointManager.h"
-#include "llvm/ADT/MapVector.h"
 #include "gmock/gmock.h"
 
 using namespace mlir;

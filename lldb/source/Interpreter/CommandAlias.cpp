@@ -6,17 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Interpreter/CommandAlias.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/FormatAdapters.h"
 
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Interpreter/Options.h"
-#include "lldb/Utility/StreamString.h"
 
 using namespace lldb;
 using namespace lldb_private;

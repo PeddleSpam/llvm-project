@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Ref.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace clang {
 namespace clangd {

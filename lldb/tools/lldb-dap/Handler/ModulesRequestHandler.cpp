@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "ProtocolUtils.h"
 #include "RequestHandler.h"
 

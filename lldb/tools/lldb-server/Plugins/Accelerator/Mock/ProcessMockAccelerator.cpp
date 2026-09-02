@@ -11,7 +11,6 @@
 
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/ProcessLaunchInfo.h"
-#include "llvm/Support/Error.h"
 
 using namespace lldb;
 using namespace lldb_private;

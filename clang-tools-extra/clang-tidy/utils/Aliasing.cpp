@@ -8,7 +8,6 @@
 
 #include "Aliasing.h"
 
-#include "clang/AST/Expr.h"
 #include "clang/AST/ExprCXX.h"
 
 namespace clang::tidy::utils {

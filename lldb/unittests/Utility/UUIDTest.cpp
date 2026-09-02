@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/UUID.h"
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/ADT/DenseSet.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

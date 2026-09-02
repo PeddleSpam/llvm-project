@@ -9,9 +9,6 @@
 #include "support/Logger.h"
 #include "support/Trace.h"
 #include "llvm/Support/Chrono.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include <mutex>
 
 namespace clang {

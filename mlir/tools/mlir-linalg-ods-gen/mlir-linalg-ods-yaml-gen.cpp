@@ -15,14 +15,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/AsmParser/AsmParser.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Support/FileUtilities.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/ToolOutputFile.h"
 #include "llvm/Support/YAMLTraits.h"

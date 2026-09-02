@@ -14,13 +14,10 @@
 #include "lldb/Utility/Event.h"
 #include "lldb/Utility/LLDBLog.h"
 #include "lldb/Utility/Listener.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Status.h"
 #ifdef _WIN32
 #include "lldb/Host/windows/windows.h"
 #endif
 
-#include "llvm/Support/Compiler.h"
 
 #include <algorithm>
 #include <chrono>

@@ -8,9 +8,7 @@
 
 #include "ObjectContainerBigArchive.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Utility/ArchSpec.h"
 
 using namespace lldb;
 using namespace lldb_private;

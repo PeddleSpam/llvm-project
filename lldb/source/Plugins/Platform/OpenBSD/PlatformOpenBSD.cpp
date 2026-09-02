@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "PlatformOpenBSD.h"
-#include "lldb/Host/Config.h"
 
 #include <cstdio>
 #if LLDB_ENABLE_POSIX
@@ -17,14 +16,7 @@
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 
 // Define these constants from OpenBSD mman.h for use when targeting remote
 // openbsd systems even when host has different values.

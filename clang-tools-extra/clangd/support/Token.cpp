@@ -9,7 +9,6 @@
 #include "Token.h"
 #include "clang/Basic/LangOptions.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/FormatVariadic.h"
 
 namespace clang {

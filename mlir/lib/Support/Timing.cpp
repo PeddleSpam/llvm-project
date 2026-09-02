@@ -14,15 +14,10 @@
 #include "mlir/Support/ThreadLocalCache.h"
 #include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/Support/Allocator.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Format.h"
-#include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/RWMutex.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <chrono>
 #include <optional>

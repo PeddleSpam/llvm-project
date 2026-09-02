@@ -6,48 +6,25 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBProcess.h"
-#include "lldb/Host/File.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include <cinttypes>
 
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-types.h"
 
 #include "lldb/Core/AddressRangeListImpl.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/StructuredDataImpl.h"
-#include "lldb/Host/StreamFile.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/SystemRuntime.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/ProcessInfo.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/Stream.h"
 
-#include "lldb/API/SBBroadcaster.h"
-#include "lldb/API/SBCommandReturnObject.h"
 #include "lldb/API/SBDebugger.h"
 #include "lldb/API/SBEvent.h"
 #include "lldb/API/SBFile.h"
-#include "lldb/API/SBFileSpec.h"
 #include "lldb/API/SBMemoryRegionInfo.h"
-#include "lldb/API/SBMemoryRegionInfoList.h"
 #include "lldb/API/SBSaveCoreOptions.h"
-#include "lldb/API/SBScriptObject.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBStringList.h"
-#include "lldb/API/SBStructuredData.h"
-#include "lldb/API/SBThread.h"
-#include "lldb/API/SBThreadCollection.h"
 #include "lldb/API/SBTrace.h"
 #include "lldb/API/SBUnixSignals.h"
 

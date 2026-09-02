@@ -8,7 +8,6 @@
 
 #include "mlir/Rewrite/FrozenRewritePatternSet.h"
 #include "ByteCode.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Pass/PassManager.h"
 #include <optional>
 

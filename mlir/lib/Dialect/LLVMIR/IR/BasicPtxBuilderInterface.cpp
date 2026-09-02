@@ -12,17 +12,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/LLVMIR/BasicPtxBuilderInterface.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/MLIRContext.h"
 
-#include "mlir/Support/LLVM.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/LogicalResult.h"
 #include "llvm/Support/Regex.h"
 
 #define DEBUG_TYPE "ptx-builder"

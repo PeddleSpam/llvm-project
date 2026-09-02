@@ -6,31 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Value.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/Type.h"
 #include "lldb/Symbol/Variable.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-types.h"
 
 #include <memory>
 #include <optional>

@@ -8,16 +8,14 @@
 
 #include "IdentifierNamingCheck.h"
 
+#include "../../../clang/include/clang/AST/ExprOpenMP.h"
+#include "../../../clang/include/clang/AST/StmtOpenACC.h"
+#include "../../../clang/include/clang/AST/StmtSYCL.h"
+#include "../../../clang/include/clang/AST/StmtVisitor.h"
 #include "../GlobList.h"
 #include "../utils/ASTUtils.h"
-#include "clang/AST/CXXInheritance.h"
 #include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Token.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/Regex.h"
 #include "llvm/Support/YAMLParser.h"
 #include <optional>
 

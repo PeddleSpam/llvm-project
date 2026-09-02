@@ -9,12 +9,6 @@
 #include "PredicateTree.h"
 #include "RootOrdering.h"
 
-#include "mlir/Dialect/PDL/IR/PDLTypes.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include <queue>
 

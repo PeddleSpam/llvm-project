@@ -8,9 +8,6 @@
 
 #include "lldb/Interpreter/CommandReturnObject.h"
 
-#include "lldb/Host/common/DiagnosticsRendering.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
 
 using namespace lldb;
 using namespace lldb_private;

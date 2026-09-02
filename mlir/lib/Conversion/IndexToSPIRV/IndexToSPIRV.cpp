@@ -7,11 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/IndexToSPIRV/IndexToSPIRV.h"
+#include "../../../../llvm/include/llvm/Support/FormatVariadic.h"
 #include "../SPIRVCommon/Pattern.h"
 #include "mlir/Dialect/Index/IR/IndexDialect.h"
 #include "mlir/Dialect/Index/IR/IndexOps.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 #include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
 
 using namespace mlir;

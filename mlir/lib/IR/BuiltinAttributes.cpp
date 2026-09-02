@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/BuiltinAttributes.h"
 #include "AttributeDetail.h"
-#include "mlir/IR/AffineMap.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/DialectResourceBlobManager.h"
-#include "mlir/IR/IntegerSet.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Types.h"
 #include "llvm/ADT/APSInt.h"
-#include "llvm/Support/Alignment.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/Endian.h"
 #include <optional>

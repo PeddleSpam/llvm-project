@@ -6,17 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-types.h"
 
-#include "llvm/Support/Compiler.h"
 
 #include <memory>
 

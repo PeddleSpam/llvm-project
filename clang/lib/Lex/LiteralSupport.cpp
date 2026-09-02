@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang/Lex/LiteralSupport.h"
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Basic/TargetInfo.h"
 #include "clang/Lex/Preprocessor.h"
 #include "llvm/ADT/ScopeExit.h"

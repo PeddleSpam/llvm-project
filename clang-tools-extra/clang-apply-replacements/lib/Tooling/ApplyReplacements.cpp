@@ -14,22 +14,8 @@
 ///
 //===----------------------------------------------------------------------===//
 #include "clang-apply-replacements/Tooling/ApplyReplacements.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Format/Format.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/Rewrite/Core/Rewriter.h"
-#include "clang/Tooling/Core/Diagnostic.h"
 #include "clang/Tooling/DiagnosticsYaml.h"
-#include "clang/Tooling/ReplacementsYaml.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include <array>
 #include <optional>
 

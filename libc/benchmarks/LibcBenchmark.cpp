@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "LibcBenchmark.h"
-#include "llvm/ADT/StringRef.h"
 #ifdef LIBC_BENCHMARKS_HAS_LLVM_SUPPORT
 #include "llvm/TargetParser/Host.h"
 #endif

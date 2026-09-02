@@ -9,15 +9,8 @@
 #include "lldb/Core/DumpRegisterValue.h"
 #include "lldb/Core/DumpDataExtractor.h"
 #include "lldb/DataFormatters/DumpValueObjectOptions.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/RegisterTypeFlags.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
-#include "lldb/lldb-private-types.h"
-#include "llvm/ADT/bit.h"
 
 using namespace lldb;
 

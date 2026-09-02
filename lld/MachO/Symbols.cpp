@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Symbols.h"
-#include "InputFiles.h"
 #include "SyntheticSections.h"
 #include "llvm/Demangle/Demangle.h"
 

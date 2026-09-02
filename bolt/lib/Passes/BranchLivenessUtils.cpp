@@ -7,14 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/BranchLivenessUtils.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/MCPlusBuilder.h"
 #include "bolt/Passes/DataflowInfoManager.h"
-#include "bolt/Passes/RegAnalysis.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/MC/MCRegister.h"
 
 namespace llvm {
 namespace bolt {

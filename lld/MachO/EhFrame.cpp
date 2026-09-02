@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "EhFrame.h"
-#include "InputFiles.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/Support/Endian.h"
 
 using namespace llvm;
 using namespace lld;

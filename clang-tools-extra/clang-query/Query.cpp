@@ -6,14 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Query.h"
 #include "QueryParser.h"
-#include "QuerySession.h"
 #include "clang/AST/ASTDumper.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Frontend/ASTUnit.h"
 #include "clang/Frontend/TextDiagnostic.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

@@ -72,7 +72,6 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "MCTargetDesc/MipsMCTargetDesc.h"
 #include "MipsMachineFunction.h"
 #include "MipsTargetMachine.h"
 #include "llvm/ADT/Statistic.h"

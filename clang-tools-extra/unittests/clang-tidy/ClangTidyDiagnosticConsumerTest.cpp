@@ -1,4 +1,3 @@
-#include "ClangTidy.h"
 #include "ClangTidyTest.h"
 #include "gtest/gtest.h"
 

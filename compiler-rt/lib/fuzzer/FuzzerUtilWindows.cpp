@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 // Misc utils implementation for Windows.
 //===----------------------------------------------------------------------===//
-#include "FuzzerPlatform.h"
 #if LIBFUZZER_WINDOWS
 #include "FuzzerCommand.h"
-#include "FuzzerIO.h"
 #include "FuzzerInternal.h"
 #include <cassert>
 #include <chrono>

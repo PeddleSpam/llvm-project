@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "GDBRemoteTestUtils.h"
-#include "lldb/Host/Socket.h"
 #include "llvm/Testing/Support/Error.h"
 
 namespace lldb_private {

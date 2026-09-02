@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/Dialect.h"
 
 using namespace mlir;

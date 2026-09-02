@@ -14,13 +14,10 @@
 #include <utility>
 
 #include "mlir/TableGen/Pattern.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Path.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 
 #define DEBUG_TYPE "mlir-tblgen-pattern"
 

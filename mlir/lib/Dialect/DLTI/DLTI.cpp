@@ -8,14 +8,10 @@
 
 #include "mlir/Dialect/DLTI/DLTI.h"
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
 #include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/DialectImplementation.h"
 
-#include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;

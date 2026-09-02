@@ -16,7 +16,6 @@
 #include "bolt/Passes/DataflowInfoManager.h"
 #include "bolt/Passes/ShrinkWrapping.h"
 #include "bolt/Passes/StackAvailableExpressions.h"
-#include "bolt/Passes/StackReachingUses.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "llvm/Support/Timer.h"
 #include <deque>

@@ -9,17 +9,10 @@
 #include "DWARFLocationExpression.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Expression/DWARFExpression.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/StreamBuffer.h"
 
-#include "llvm/BinaryFormat/Dwarf.h"
 #include "llvm/DebugInfo/CodeView/TypeDeserializer.h"
-#include "llvm/DebugInfo/CodeView/TypeIndex.h"
 #include "llvm/DebugInfo/PDB/Native/TpiStream.h"
-#include "llvm/Support/Endian.h"
 
 #include "PdbUtil.h"
 #include "CodeViewRegisterMapping.h"

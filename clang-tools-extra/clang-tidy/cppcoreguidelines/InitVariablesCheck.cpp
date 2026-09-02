@@ -8,10 +8,13 @@
 
 #include "InitVariablesCheck.h"
 
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/AST/StmtObjC.h"
-#include "clang/AST/Type.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Preprocessor.h"
 #include <optional>

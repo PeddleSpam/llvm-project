@@ -11,20 +11,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Transform/Transforms/TransformInterpreterUtils.h"
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/IR/TransformOps.h"
 #include "mlir/Dialect/Transform/IR/Utils.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/IR/Verifier.h"
-#include "mlir/IR/Visitors.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Support/FileUtilities.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/SourceMgr.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 

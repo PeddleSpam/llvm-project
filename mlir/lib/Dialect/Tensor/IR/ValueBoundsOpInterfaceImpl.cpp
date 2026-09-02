@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Tensor/IR/ValueBoundsOpInterfaceImpl.h"
 
 #include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
 
 using namespace mlir;

@@ -14,8 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DWARF.h"
-#include "InputSection.h"
-#include "Symbols.h"
 
 using namespace llvm;
 using namespace llvm::object;

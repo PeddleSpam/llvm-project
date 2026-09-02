@@ -10,6 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestAttributes.h"
+#include "../Dialect/Test/TestDialect.h"
+#include "../Dialect/Test/TestInterfaces.h"
+#include "../Dialect/Test/TestTypes.h"
 #include "mlir/Transforms/CommutativityUtils.h"
 
 #include "TestDialect.h"

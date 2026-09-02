@@ -11,7 +11,6 @@
 // sanitizer_libc.h.
 //===----------------------------------------------------------------------===//
 
-#include "sanitizer_platform.h"
 #if SANITIZER_WINDOWS
 
 #define WIN32_LEAN_AND_MEAN
@@ -21,12 +20,8 @@
 #include <psapi.h>
 #include <stdlib.h>
 
-#include "sanitizer_common.h"
 #include "sanitizer_file.h"
-#include "sanitizer_libc.h"
-#include "sanitizer_mutex.h"
 #include "sanitizer_placement_new.h"
-#include "sanitizer_win_defs.h"
 
 #if defined(PSAPI_VERSION) && PSAPI_VERSION == 1
 #pragma comment(lib, "psapi")

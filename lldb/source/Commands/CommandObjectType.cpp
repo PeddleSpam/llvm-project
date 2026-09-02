@@ -8,35 +8,18 @@
 
 #include "CommandObjectType.h"
 
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/IOHandler.h"
 #include "lldb/DataFormatters/DataVisualization.h"
-#include "lldb/DataFormatters/FormatClasses.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Host/OptionParser.h"
-#include "lldb/Host/StreamFile.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionGroupFormat.h"
 #include "lldb/Interpreter/OptionGroupPythonClassWithDict.h"
 #include "lldb/Interpreter/OptionValueBoolean.h"
 #include "lldb/Interpreter/OptionValueLanguage.h"
 #include "lldb/Interpreter/OptionValueString.h"
-#include "lldb/Interpreter/Options.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/lldb-forward.h"
 
-#include "llvm/ADT/STLExtras.h"
 
 #include <algorithm>
 #include <functional>

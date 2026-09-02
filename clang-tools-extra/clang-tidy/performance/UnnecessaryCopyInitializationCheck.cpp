@@ -7,13 +7,18 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnnecessaryCopyInitializationCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/DeclRefExprUtils.h"
 #include "../utils/FixItHintUtils.h"
 #include "../utils/LexerUtils.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/Decl.h"
-#include "clang/Basic/Diagnostic.h"
+#include "../utils/TypeTraits.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

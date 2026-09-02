@@ -11,8 +11,6 @@
 #include "mlir/Dialect/Affine/Analysis/NestedMatcher.h"
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Allocator.h"
 
 using namespace mlir;
 using namespace mlir::affine;

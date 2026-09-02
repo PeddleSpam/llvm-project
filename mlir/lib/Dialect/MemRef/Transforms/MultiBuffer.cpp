@@ -14,15 +14,6 @@
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/MemRef/Transforms/Transforms.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Dominance.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/ValueRange.h"
-#include "mlir/Interfaces/LoopLikeInterface.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Debug.h"
 
 using namespace mlir;
 

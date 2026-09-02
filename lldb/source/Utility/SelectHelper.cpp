@@ -15,11 +15,7 @@
 
 #include "lldb/Utility/SelectHelper.h"
 #include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-types.h"
 
-#include "llvm/ADT/DenseMap.h"
 
 #include <algorithm>
 #include <chrono>

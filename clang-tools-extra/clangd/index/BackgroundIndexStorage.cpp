@@ -6,17 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "GlobalCompilationDatabase.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Record.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "index/Background.h"
 #include "support/Logger.h"
-#include "support/Path.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include <functional>
 #include <optional>
 

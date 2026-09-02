@@ -8,8 +8,6 @@
 
 #include "lldb/Utility/GDBRemote.h"
 
-#include "lldb/Utility/Flags.h"
-#include "lldb/Utility/Stream.h"
 
 #include <cstdio>
 

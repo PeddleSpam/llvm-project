@@ -8,12 +8,6 @@
 
 #include "PlatformWebInspectorWasm.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Host/ProcessLaunchInfo.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/ErrorExtras.h"
 
 #include <chrono>

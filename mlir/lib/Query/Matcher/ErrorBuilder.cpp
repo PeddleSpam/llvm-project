@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Query/Matcher/ErrorBuilder.h"
 #include "Diagnostics.h"
-#include "llvm/ADT/Twine.h"
 #include <initializer_list>
 
 namespace mlir::query::matcher::internal {

@@ -8,11 +8,9 @@
 
 #include "gtest/gtest.h"
 
-#include "lldb/Utility/DataBuffer.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/DataBufferLLVM.h"
 
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/MemoryBuffer.h"
 
 using namespace lldb_private;

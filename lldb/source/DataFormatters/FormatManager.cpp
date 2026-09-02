@@ -10,14 +10,7 @@
 
 #include "lldb/Core/Debugger.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/DataFormatters/LanguageCategory.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/ValueObject/ValueObject.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

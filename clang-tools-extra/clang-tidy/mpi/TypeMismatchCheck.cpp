@@ -7,9 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "TypeMismatchCheck.h"
-#include "clang/Lex/Lexer.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Tooling/FixIt.h"
-#include "llvm/ADT/StringSet.h"
 #include <map>
 
 using namespace clang::ast_matchers;

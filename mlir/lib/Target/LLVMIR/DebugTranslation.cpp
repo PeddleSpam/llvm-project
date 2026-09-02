@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "DebugTranslation.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/IR/Module.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 

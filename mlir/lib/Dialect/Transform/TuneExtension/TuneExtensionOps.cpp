@@ -6,11 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Transform/IR/TransformOps.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "llvm/Support/Debug.h"
 
 #include "mlir/Dialect/Transform/TuneExtension/TuneExtensionOps.h"
 

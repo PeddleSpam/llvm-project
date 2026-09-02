@@ -10,7 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../Basic/CodeGenIntrinsics.h"
+#include "../../../include/llvm/Support/ModRef.h"
 #include "CodeGenTarget.h"
 #include "llvm/TableGen/Error.h"
 #include <set>

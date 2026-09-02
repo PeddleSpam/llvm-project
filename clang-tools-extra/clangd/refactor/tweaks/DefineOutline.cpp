@@ -6,32 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Record.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "FindSymbols.h"
 #include "FindTarget.h"
 #include "HeaderSourceSwitch.h"
-#include "ParsedAST.h"
-#include "Selection.h"
-#include "SourceCode.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
 #include "support/Path.h"
-#include "clang/AST/ASTTypeTraits.h"
 #include "clang/AST/Attr.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DeclTemplate.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/TokenKinds.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include <cstddef>
 #include <optional>
 #include <string>

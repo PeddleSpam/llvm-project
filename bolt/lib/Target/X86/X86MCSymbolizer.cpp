@@ -8,12 +8,6 @@
 
 #include "X86MCSymbolizer.h"
 #include "MCTargetDesc/X86BaseInfo.h"
-#include "bolt/Core/BinaryContext.h"
-#include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/MCPlusBuilder.h"
-#include "bolt/Core/Relocation.h"
-#include "llvm/MC/MCInst.h"
-#include "llvm/MC/MCRegisterInfo.h"
 
 #define DEBUG_TYPE "bolt-symbolizer"
 

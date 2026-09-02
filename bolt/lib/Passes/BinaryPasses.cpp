@@ -10,16 +10,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Passes/BinaryPasses.h"
-#include "bolt/Core/FunctionLayout.h"
 #include "bolt/Core/ParallelUtilities.h"
 #include "bolt/Passes/BranchLivenessUtils.h"
 #include "bolt/Passes/RegAnalysis.h"
 #include "bolt/Passes/ReorderAlgorithm.h"
 #include "bolt/Passes/ReorderFunctions.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/CommandLine.h"
 #include <atomic>
 #include <cmath>
 #include <mutex>

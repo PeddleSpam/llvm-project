@@ -10,10 +10,8 @@
 
 #include "lldb/Utility/Connection.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Status.h"
 
-#include "llvm/Support/Compiler.h"
 
 #include <algorithm>
 #include <cstring>

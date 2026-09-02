@@ -12,7 +12,6 @@
 #include "lldb/Utility/Endian.h"
 
 #include "llvm/Support/Endian.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <cstddef>
 

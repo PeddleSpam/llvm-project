@@ -6,18 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "SyncAPI.h"
 #include "TestIndex.h"
 #include "TestTU.h"
-#include "index/FileIndex.h"
-#include "index/Index.h"
 #include "index/MemIndex.h"
-#include "index/Merge.h"
-#include "index/Symbol.h"
-#include "clang/Index/IndexSymbol.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <utility>
 
 using ::testing::_;

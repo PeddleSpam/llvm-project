@@ -15,8 +15,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/Analysis/CallGraph.h"
-#include "mlir/Pass/PassManager.h"
 #include "mlir/Transforms/Inliner.h"
 #include "llvm/Support/DebugLog.h"
 

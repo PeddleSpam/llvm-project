@@ -6,35 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSet.h"
 
 #include "lldb/Breakpoint/Watchpoint.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/PluginManager.h"
 #include "lldb/DataFormatters/DataVisualization.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandObject.h"
 #include "lldb/Interpreter/CommandObjectMultiword.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
-#include "lldb/Interpreter/Property.h"
 #include "lldb/Symbol/CompileUnit.h"
 #include "lldb/Symbol/Variable.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/FileSpecList.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/TildeExpressionResolver.h"
 
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 using namespace lldb_private;
 

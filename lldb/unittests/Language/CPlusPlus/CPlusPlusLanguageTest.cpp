@@ -6,13 +6,24 @@
 //
 //===----------------------------------------------------------------------===//
 #include "Plugins/Language/CPlusPlus/CPlusPlusLanguage.h"
+#include "../../../../clang/include/clang/Basic/CFProtectionOptions.h"
+#include "../../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../../clang/include/clang/Basic/DirectoryEntry.h"
+#include "../../../../clang/include/clang/Basic/FileEntry.h"
+#include "../../../../clang/include/clang/Basic/LangOptions.h"
+#include "../../../../clang/include/clang/Basic/LangStandard.h"
+#include "../../../../clang/include/clang/Basic/Linkage.h"
+#include "../../../../clang/include/clang/Basic/Sanitizers.h"
+#include "../../../../clang/include/clang/Basic/SourceLocation.h"
+#include "../../../../clang/include/clang/Basic/TargetCXXABI.h"
+#include "../../../../clang/include/clang/Basic/TokenKinds.h"
+#include "../../../../clang/include/clang/Lex/DependencyDirectivesScanner.h"
+#include "../../../../clang/include/clang/Lex/MultipleIncludeOpt.h"
+#include "../../../../clang/include/clang/Lex/PreprocessorLexer.h"
+#include "../../../../clang/include/clang/Lex/Token.h"
+#include "../../../../llvm/include/llvm/ADT/PointerUnion.h"
 #include "Plugins/Language/CPlusPlus/CPlusPlusNameParser.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace lldb_private;

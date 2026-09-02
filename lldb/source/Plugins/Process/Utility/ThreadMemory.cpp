@@ -10,10 +10,7 @@
 
 #include "Plugins/Process/Utility/RegisterContextThreadMemory.h"
 #include "lldb/Target/OperatingSystem.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Unwind.h"
 
 #include <memory>
 

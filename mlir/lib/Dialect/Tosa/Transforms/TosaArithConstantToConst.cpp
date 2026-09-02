@@ -13,13 +13,7 @@
 
 #include "mlir/Dialect/Tosa/Transforms/Passes.h"
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/Quant/IR/QuantTypes.h"
-#include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 
 namespace mlir {

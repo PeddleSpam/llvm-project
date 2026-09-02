@@ -13,10 +13,7 @@
 
 #include "mlir/Dialect/GPU/Transforms/Passes.h"
 
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace mlir;
 using namespace mlir::gpu;

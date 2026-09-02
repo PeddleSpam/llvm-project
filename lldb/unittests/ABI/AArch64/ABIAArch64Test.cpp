@@ -11,7 +11,6 @@
 #include "Plugins/ABI/AArch64/ABISysV_arm64.h"
 #include "Utility/ARM64_DWARF_Registers.h"
 #include "Utility/ARM64_ehframe_Registers.h"
-#include "lldb/Target/DynamicRegisterInfo.h"
 #include "lldb/Utility/ArchSpec.h"
 #include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/TargetSelect.h"

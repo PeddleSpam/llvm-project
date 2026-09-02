@@ -7,18 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "ProtocolUtils.h"
+#include "../../include/lldb/Host/windows/PosixApi.h"
 #include "JSONUtils.h"
 #include "LLDBUtils.h"
 
-#include "lldb/API/SBDebugger.h"
 #include "lldb/API/SBDeclaration.h"
-#include "lldb/API/SBFileSpec.h"
 #include "lldb/API/SBFormat.h"
 #include "lldb/API/SBMutex.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/API/SBThread.h"
-#include "lldb/Host/PosixApi.h" // Adds PATH_MAX for windows
 
 #include <iomanip>
 #include <mutex>

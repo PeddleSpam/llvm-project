@@ -6,21 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ModulesBuilder.h"
 #include "Compiler.h"
 #include "SourceCode.h"
 #include "support/Logger.h"
-#include "clang/Frontend/FrontendAction.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Serialization/ASTReader.h"
 #include "clang/Serialization/ModuleCache.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LockFileManager.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Process.h"
 
 #include <chrono>

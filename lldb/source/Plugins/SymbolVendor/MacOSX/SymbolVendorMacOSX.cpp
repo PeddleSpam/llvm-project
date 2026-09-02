@@ -11,15 +11,9 @@
 #include <cstring>
 
 #include "Plugins/ObjectFile/Mach-O/ObjectFileMachO.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/XML.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
 
 using namespace lldb;

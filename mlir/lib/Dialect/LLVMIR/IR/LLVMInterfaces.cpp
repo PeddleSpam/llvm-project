@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/LLVMIR/LLVMInterfaces.h"
 
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 

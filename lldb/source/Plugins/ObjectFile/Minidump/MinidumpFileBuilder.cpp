@@ -14,32 +14,13 @@
 #include "Plugins/Process/minidump/RegisterContextMinidump_x86_64.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/StopInfo.h"
-#include "lldb/Target/ThreadList.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RangeMap.h"
 #include "lldb/Utility/RegisterValue.h"
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/Minidump.h"
-#include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Endian.h"
-#include "llvm/Support/Error.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include "Plugins/Process/minidump/MinidumpTypes.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-types.h"
 
 #include <algorithm>
 #include <cinttypes>

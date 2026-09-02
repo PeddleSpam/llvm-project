@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticDriver.h"
 #include "BackendConsumer.h"
 #include "CodeGenModule.h"
 #include "CoverageMappingGen.h"

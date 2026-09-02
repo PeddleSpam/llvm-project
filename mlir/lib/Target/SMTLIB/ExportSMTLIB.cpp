@@ -14,14 +14,11 @@
 
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/SMT/IR/SMTOps.h"
 #include "mlir/Dialect/SMT/IR/SMTVisitors.h"
 #include "mlir/Support/IndentedOstream.h"
 #include "mlir/Target/SMTLIB/Namespace.h"
 #include "mlir/Tools/mlir-translate/Translation.h"
 #include "llvm/ADT/ScopedHashTable.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 using namespace smt;

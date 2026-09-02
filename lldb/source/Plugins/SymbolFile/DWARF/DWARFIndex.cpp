@@ -6,17 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Plugins/SymbolFile/DWARF/DWARFIndex.h"
 #include "DWARFDebugInfoEntry.h"
 #include "DWARFDeclContext.h"
 #include "Plugins/Language/ObjC/ObjCLanguage.h"
-#include "Plugins/SymbolFile/DWARF/DWARFDIE.h"
 #include "Plugins/SymbolFile/DWARF/SymbolFileDWARF.h"
 
-#include "lldb/Core/Mangled.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Target/Language.h"
-#include "lldb/lldb-private-enumerations.h"
 
 using namespace lldb_private;
 using namespace lldb;

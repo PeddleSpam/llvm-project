@@ -9,12 +9,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "FuzzerCorpus.h"
-#include "FuzzerIO.h"
 #include "FuzzerInternal.h"
 #include "FuzzerMutate.h"
-#include "FuzzerPlatform.h"
-#include "FuzzerRandom.h"
-#include "FuzzerTracePC.h"
 #include <algorithm>
 #include <cstring>
 #include <memory>

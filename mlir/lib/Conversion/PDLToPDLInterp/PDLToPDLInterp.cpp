@@ -9,14 +9,8 @@
 #include "mlir/Conversion/PDLToPDLInterp/PDLToPDLInterp.h"
 
 #include "PredicateTree.h"
-#include "mlir/Dialect/PDL/IR/PDLTypes.h"
 #include "mlir/Dialect/PDLInterp/IR/PDLInterp.h"
-#include "mlir/Pass/Pass.h"
-#include "llvm/ADT/MapVector.h"
 #include "llvm/ADT/ScopedHashTable.h"
-#include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_CONVERTPDLTOPDLINTERPPASS

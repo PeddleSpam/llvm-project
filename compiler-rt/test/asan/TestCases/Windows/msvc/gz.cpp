@@ -5,6 +5,7 @@
 // RUN: %clang_cl_asan -Gz %Od %s %Fe%t
 
 // includes a declaration of `_ReturnAddress`
+#include "../../../../../../../../sie/llvm-project/build/Release/lib/clang/24/include/intrin0.h"
 #include <intrin.h>
 
 #include <sanitizer/asan_interface.h>

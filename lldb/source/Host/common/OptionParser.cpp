@@ -7,9 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/OptionParser.h"
-#include "lldb/Host/HostGetOpt.h"
+#include "../../../include/lldb/Host/common/GetOptInc.h"
 #include "lldb/Utility/OptionDefinition.h"
-#include "lldb/lldb-private-types.h"
 
 #include <vector>
 

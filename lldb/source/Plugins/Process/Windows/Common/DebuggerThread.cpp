@@ -10,8 +10,6 @@
 #include "ExceptionRecord.h"
 #include "IDebugDelegate.h"
 
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/ProcessLaunchInfo.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Host/windows/AutoHandle.h"
 #include "lldb/Host/windows/HostProcessWindows.h"
@@ -19,18 +17,11 @@
 #include "lldb/Host/windows/LazyImport.h"
 #include "lldb/Host/windows/ProcessLauncherWindows.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Predicate.h"
-#include "lldb/Utility/Status.h"
 
 #include "Plugins/Process/Windows/Common/ProcessWindowsLog.h"
 
 #include "lldb/Utility/LLDBLog.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <optional>
 #include <pathcch.h>

@@ -1,4 +1,6 @@
-#include "mlir/Analysis/Presburger/Fraction.h"
+#include "../../../include/mlir/Analysis/Presburger/GeneratingFunction.h"
+#include "../../../include/mlir/Analysis/Presburger/IntegerRelation.h"
+#include "../../../include/mlir/Analysis/Presburger/QuasiPolynomial.h"
 #include "./Utils.h"
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>

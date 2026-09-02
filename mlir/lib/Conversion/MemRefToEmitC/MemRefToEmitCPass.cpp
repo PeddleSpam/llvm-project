@@ -16,11 +16,8 @@
 #include "mlir/Conversion/MemRefToEmitC/MemRefToEmitC.h"
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/StringRef.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_CONVERTMEMREFTOEMITC

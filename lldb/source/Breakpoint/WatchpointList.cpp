@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Breakpoint/WatchpointList.h"
 #include "lldb/Breakpoint/Watchpoint.h"
 
 using namespace lldb;

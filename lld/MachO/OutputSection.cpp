@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "OutputSection.h"
 #include "OutputSegment.h"
 
 using namespace llvm;

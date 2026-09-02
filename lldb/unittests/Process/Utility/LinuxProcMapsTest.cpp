@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "Plugins/Process/Utility/LinuxProcMaps.h"
 #include "lldb/Target/MemoryRegionInfo.h"

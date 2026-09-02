@@ -10,17 +10,11 @@
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Utility/FileSpecList.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/VirtualFileSystem.h"
 #include "llvm/Testing/Support/Error.h"
 
-#include "gtest/gtest.h"
 
 #include <atomic>
 #include <condition_variable>

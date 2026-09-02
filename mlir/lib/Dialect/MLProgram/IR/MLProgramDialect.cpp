@@ -9,7 +9,6 @@
 #include "mlir/Dialect/MLProgram/IR/MLProgram.h"
 #include "mlir/IR/DialectImplementation.h"
 #include "mlir/Transforms/InliningUtils.h"
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir;
 using namespace mlir::ml_program;

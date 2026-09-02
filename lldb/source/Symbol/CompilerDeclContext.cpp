@@ -6,9 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/CompilerDeclContext.h"
-#include "lldb/Symbol/CompilerDecl.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include <vector>
 
 using namespace lldb_private;

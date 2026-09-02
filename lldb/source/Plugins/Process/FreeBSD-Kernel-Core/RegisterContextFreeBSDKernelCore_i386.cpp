@@ -9,9 +9,7 @@
 #include "RegisterContextFreeBSDKernelCore_i386.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/Support/Endian.h"
 
 #if defined(__FreeBSD__) && defined(__i386__)
 #include <machine/pcb.h>

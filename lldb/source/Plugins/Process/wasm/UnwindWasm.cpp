@@ -7,12 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnwindWasm.h"
-#include "Plugins/Process/gdb-remote/ThreadGDBRemote.h"
 #include "ProcessWasm.h"
 #include "RegisterContextWasm.h"
-#include "ThreadWasm.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

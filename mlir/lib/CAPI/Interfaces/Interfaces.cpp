@@ -8,15 +8,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Interfaces.h"
 
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Interfaces.h"
 #include "mlir/CAPI/Support.h"
-#include "mlir/CAPI/Wrap.h"
-#include "mlir/IR/ValueRange.h"
 #include "mlir/Interfaces/InferTypeOpInterface.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "llvm/ADT/ScopeExit.h"
 #include <optional>
 

@@ -9,17 +9,9 @@
 #include "mlir/Dialect/X86/Utils/X86Utils.h"
 
 #include "mlir/Dialect/Linalg/IR/Linalg.h"
-#include "mlir/Dialect/Linalg/IR/LinalgInterfaces.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/IR/Types.h"
 
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Casting.h"
 
-#include "llvm/ADT/ArrayRef.h"
 #include <cassert>
 
 namespace mlir {

@@ -5,18 +5,14 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "Annotations.h"
 #include "Matchers.h"
-#include "ParsedAST.h"
-#include "TestFS.h"
 #include "TestTU.h"
 #include "XRefs.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/DeclTemplate.h"
-#include "llvm/Support/Path.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <vector>
 
 namespace clang {

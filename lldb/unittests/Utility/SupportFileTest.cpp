@@ -9,8 +9,6 @@
 
 #include "gtest/gtest.h"
 
-#include "lldb/Utility/Checksum.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/SupportFile.h"
 
 using namespace lldb_private;

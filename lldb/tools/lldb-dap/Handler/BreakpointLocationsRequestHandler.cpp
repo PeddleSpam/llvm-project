@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "RequestHandler.h"
 #include <optional>
 #include <vector>

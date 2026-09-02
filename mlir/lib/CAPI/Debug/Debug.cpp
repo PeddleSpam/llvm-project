@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Debug.h"
-#include "mlir-c/Support.h"
 
 #include "mlir/CAPI/Support.h"
 

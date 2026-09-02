@@ -13,8 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestTransformStateExtension.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Pass/Pass.h"
 
 using namespace llvm;

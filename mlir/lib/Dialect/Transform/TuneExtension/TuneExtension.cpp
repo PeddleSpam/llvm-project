@@ -8,9 +8,7 @@
 
 #include "mlir/Dialect/Transform/TuneExtension/TuneExtension.h"
 
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/TuneExtension/TuneExtensionOps.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 

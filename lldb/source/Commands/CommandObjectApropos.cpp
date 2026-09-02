@@ -7,13 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "CommandObjectApropos.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Interpreter/Property.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/StreamString.h"
-#include "llvm/Support/Regex.h"
 
 using namespace lldb;
 using namespace lldb_private;

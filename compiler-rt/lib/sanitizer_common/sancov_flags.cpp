@@ -11,8 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "sancov_flags.h"
-#include "sanitizer_flag_parser.h"
-#include "sanitizer_platform.h"
 
 SANITIZER_INTERFACE_WEAK_DEF(const char*, __sancov_default_options, void) {
   return "";

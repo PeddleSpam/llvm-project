@@ -10,10 +10,8 @@
 
 #include "mlir/Debug/Counter.h"
 #include "mlir/Debug/DebuggerExecutionContextHook.h"
-#include "mlir/Debug/ExecutionContext.h"
 #include "mlir/Debug/Observers/ActionLogging.h"
 #include "mlir/Debug/Observers/ActionProfiler.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Support/FileUtilities.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/ManagedStatic.h"

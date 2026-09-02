@@ -10,9 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/JumpTable.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/BinarySection.h"
 #include "llvm/Support/CommandLine.h"
 
 #define DEBUG_TYPE "bolt"

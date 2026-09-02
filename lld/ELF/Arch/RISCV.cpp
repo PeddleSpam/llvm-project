@@ -6,16 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputFiles.h"
 #include "OutputSections.h"
 #include "RelocScan.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
-#include "llvm/Support/ELFAttributes.h"
 #include "llvm/Support/LEB128.h"
 #include "llvm/Support/RISCVAttributeParser.h"
-#include "llvm/Support/RISCVAttributes.h"
 #include "llvm/Support/TimeProfiler.h"
 #include "llvm/TargetParser/RISCVISAInfo.h"
 

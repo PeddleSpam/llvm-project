@@ -6,14 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/OpenACC/OpenACCUtilsType.h"
 #include "mlir/Dialect/LLVMIR/LLVMTypes.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsCG.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 
 namespace mlir {
 namespace acc {

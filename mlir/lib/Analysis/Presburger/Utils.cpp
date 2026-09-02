@@ -10,12 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Analysis/Presburger/Utils.h"
 #include "mlir/Analysis/Presburger/IntegerRelation.h"
-#include "mlir/Analysis/Presburger/PresburgerSpace.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
-#include "llvm/ADT/SmallBitVector.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <cstdint>
 #include <numeric>

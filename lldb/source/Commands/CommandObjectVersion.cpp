@@ -9,9 +9,7 @@
 #include "CommandObjectVersion.h"
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Version/Version.h"
-#include "llvm/ADT/StringExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

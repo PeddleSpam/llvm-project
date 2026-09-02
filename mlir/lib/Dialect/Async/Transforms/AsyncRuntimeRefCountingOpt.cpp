@@ -14,7 +14,6 @@
 
 #include "mlir/Dialect/Async/IR/Async.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_ASYNCRUNTIMEREFCOUNTINGOPTPASS

@@ -12,23 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/TableGen/CodeGenHelpers.h"
-#include "mlir/Support/LLVM.h"
-#include "mlir/TableGen/Argument.h"
-#include "mlir/TableGen/Attribute.h"
-#include "mlir/TableGen/Format.h"
-#include "mlir/TableGen/Operator.h"
 #include "mlir/TableGen/Pattern.h"
-#include "mlir/TableGen/Property.h"
-#include "mlir/TableGen/Region.h"
-#include "mlir/TableGen/Successor.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TableGen/CodeGenHelpers.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include <cassert>
 #include <optional>
 #include <string>

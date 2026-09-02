@@ -8,13 +8,8 @@
 
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Debug/BreakpointManagers/TagBreakpointManager.h"
-#include "mlir/Debug/ExecutionContext.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Diagnostics.h"
 #include "mlir/Pass/Pass.h"
-#include "mlir/Pass/PassInstrumentation.h"
 #include "gtest/gtest.h"
 
 #include <memory>

@@ -8,7 +8,6 @@
 
 #include "mlir/Interfaces/MemorySlotInterfaces.h"
 
-#include "llvm/ADT/SmallVector.h"
 
 #include "mlir/Interfaces/MemorySlotOpInterfaces.cpp.inc"
 #include "mlir/Interfaces/MemorySlotTypeInterfaces.cpp.inc"

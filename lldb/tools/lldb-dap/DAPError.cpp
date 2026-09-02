@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DAPError.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include <system_error>
 
 namespace lldb_dap {

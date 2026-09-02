@@ -9,7 +9,6 @@
 #include "ProgressEvent.h"
 
 #include "JSONUtils.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <optional>
 
 using namespace lldb_dap;

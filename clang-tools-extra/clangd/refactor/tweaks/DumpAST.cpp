@@ -9,13 +9,11 @@
 // Some of these are fairly clang-specific and hidden (e.g. textual AST dumps).
 // Others are more generally useful (class layout) and are exposed by default.
 //===----------------------------------------------------------------------===//
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "XRefs.h"
 #include "refactor/Tweak.h"
-#include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/Type.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 namespace clang {

@@ -7,9 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseConcisePreprocessorDirectivesCheck.h"
-#include "clang/Basic/TokenKinds.h"
-#include "clang/Lex/Lexer.h"
-#include "clang/Lex/PPCallbacks.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Lex/Preprocessor.h"
 
 #include <array>

@@ -15,10 +15,8 @@
 #include "polly/Options.h"
 #include "polly/ScheduleTreeTransform.h"
 #include "polly/Support/ScopHelper.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Analysis/LoopInfo.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/Transforms/Utils/LoopUtils.h"
 #include <optional>
 

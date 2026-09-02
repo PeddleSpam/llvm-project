@@ -6,14 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 #include "Annotations.h"
-#include "Protocol.h"
-#include "SourceCode.h"
 #include "TestTU.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

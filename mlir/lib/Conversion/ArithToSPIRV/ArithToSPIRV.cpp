@@ -8,21 +8,11 @@
 
 #include "mlir/Conversion/ArithToSPIRV/ArithToSPIRV.h"
 
+#include "../../../../llvm/include/llvm/Support/FormatVariadic.h"
 #include "../SPIRVCommon/Pattern.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
 #include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectResourceBlobManager.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/MathExtras.h"
 #include <cassert>
 #include <memory>
 

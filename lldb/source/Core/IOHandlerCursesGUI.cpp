@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Core/IOHandlerCursesGUI.h"
-#include "lldb/Core/FormatEntity.h"
-#include "lldb/Host/Config.h"
 
 #if LLDB_ENABLE_CURSES
 #if CURSES_HAVE_NCURSES_CURSES_H
@@ -26,17 +24,9 @@
 #include <memory>
 #include <string>
 
-#include "lldb/Core/Debugger.h"
-#include "lldb/Host/File.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/Predicate.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StringList.h"
 #include "lldb/ValueObject/ValueObjectUpdater.h"
-#include "lldb/lldb-forward.h"
 
-#include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/OptionGroupPlatform.h"
 
@@ -60,7 +50,6 @@
 #include "lldb/ValueObject/ValueObjectRegister.h"
 #endif
 
-#include "llvm/ADT/StringRef.h"
 
 #ifdef _WIN32
 #include "lldb/Host/windows/windows.h"

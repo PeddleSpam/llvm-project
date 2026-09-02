@@ -6,30 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/IOHandler.h"
 
 #if defined(__APPLE__)
 #include <deque>
 #endif
 #include <string>
 
-#include "lldb/Core/Debugger.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/File.h"
-#include "lldb/Host/StreamFile.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/Predicate.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/lldb-forward.h"
 
 #if LLDB_ENABLE_LIBEDIT
 #include "lldb/Host/Editline.h"
 #endif
-#include "lldb/Interpreter/CommandCompletions.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "llvm/ADT/StringRef.h"
 
 #ifdef _WIN32
 #include "lldb/Host/windows/windows.h"

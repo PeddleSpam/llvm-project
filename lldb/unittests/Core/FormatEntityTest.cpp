@@ -9,10 +9,7 @@
 #include "lldb/Core/FormatEntity.h"
 #include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace llvm;

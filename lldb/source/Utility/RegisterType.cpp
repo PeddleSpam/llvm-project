@@ -10,7 +10,6 @@
 
 #include "lldb/Utility/Stream.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <atomic>
 

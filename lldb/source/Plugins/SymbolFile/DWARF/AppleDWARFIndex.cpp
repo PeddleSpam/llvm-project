@@ -11,9 +11,6 @@
 #include "Plugins/SymbolFile/DWARF/DWARFUnit.h"
 #include "Plugins/SymbolFile/DWARF/LogChannelDWARF.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/lldb-private-enumerations.h"
 #include "llvm/Support/DJB.h"
 
 using namespace lldb;

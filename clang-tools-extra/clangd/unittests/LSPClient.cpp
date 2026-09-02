@@ -11,14 +11,6 @@
 #include "TestFS.h"
 #include "Transport.h"
 #include "support/Logger.h"
-#include "support/Threading.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gtest/gtest.h"
 #include <condition_variable>
 #include <cstddef>

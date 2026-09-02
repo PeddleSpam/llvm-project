@@ -8,7 +8,6 @@
 
 #include "lldb/Utility/SharedCluster.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

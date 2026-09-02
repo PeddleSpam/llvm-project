@@ -10,12 +10,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/Dialect.h"
-#include "mlir/IR/Types.h"
-#include "mlir/IR/Value.h"
-#include "mlir/Support/TypeID.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

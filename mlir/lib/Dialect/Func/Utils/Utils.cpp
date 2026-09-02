@@ -13,9 +13,6 @@
 #include "mlir/Dialect/Func/Utils/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/IR/IRMapping.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/Support/DebugLog.h"
 
 #define DEBUG_TYPE "func-utils"

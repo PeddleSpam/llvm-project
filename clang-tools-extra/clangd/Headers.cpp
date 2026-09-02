@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Headers.h"
+#include "../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Preamble.h"
-#include "SourceCode.h"
 #include "support/Logger.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/DirectoryLookup.h"
-#include "clang/Lex/HeaderSearch.h"
-#include "clang/Lex/PPCallbacks.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Tooling/Inclusions/HeaderAnalysis.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Path.h"
 #include <cstring>
 #include <optional>
 #include <string>

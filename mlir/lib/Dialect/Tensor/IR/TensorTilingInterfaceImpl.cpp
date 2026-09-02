@@ -7,14 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Tensor/IR/TensorTilingInterfaceImpl.h"
-#include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Affine/Utils.h"
-#include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Linalg/Utils/Utils.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Interfaces/InferTypeOpInterface.h"
-#include "mlir/Interfaces/TilingInterface.h"
 
 using namespace mlir;
 using namespace mlir::tensor;

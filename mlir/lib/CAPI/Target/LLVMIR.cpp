@@ -9,12 +9,8 @@
 
 #include "mlir-c/Target/LLVMIR.h"
 
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Module.h"
-#include "llvm/IR/Type.h"
 
 #include "mlir/CAPI/IR.h"
-#include "mlir/CAPI/Wrap.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
 #include "mlir/Target/LLVMIR/TypeFromLLVM.h"
 

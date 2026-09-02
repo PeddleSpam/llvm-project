@@ -11,11 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/IR/TypeUtilities.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Types.h"
-#include "mlir/IR/Value.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include <numeric>
 
 using namespace mlir;

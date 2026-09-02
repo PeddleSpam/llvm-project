@@ -16,27 +16,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "ClangTidyDiagnosticConsumer.h"
-#include "ClangTidyOptions.h"
 #include "GlobList.h"
-#include "NoLintDirectiveHandler.h"
 #include "clang/AST/ASTContext.h"
 #include "clang/AST/ASTDiagnostic.h"
 #include "clang/AST/Attr.h"
-#include "clang/AST/Expr.h"
-#include "clang/Basic/CharInfo.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "clang/Basic/FileManager.h"
 #include "clang/Basic/SourceManager.h"
 #include "clang/Frontend/DiagnosticRenderer.h"
 #include "clang/Lex/Lexer.h"
-#include "clang/Tooling/Core/Diagnostic.h"
 #include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Regex.h"
 #include <optional>
 #include <tuple>
 #include <utility>

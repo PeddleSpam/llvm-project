@@ -6,11 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/CommonFolders.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Dialect/UB/IR/UBOps.h"
-#include "mlir/IR/Builders.h"
 #include <optional>
 
 using namespace mlir;

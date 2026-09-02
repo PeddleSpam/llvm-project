@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/OwningOpRef.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Rewrite/PatternApplicator.h"
 #include "gtest/gtest.h"
 

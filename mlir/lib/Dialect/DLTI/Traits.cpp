@@ -8,7 +8,6 @@
 
 #include "mlir/Dialect/DLTI/Traits.h"
 #include "mlir/Dialect/DLTI/DLTI.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 
 using namespace mlir;
 

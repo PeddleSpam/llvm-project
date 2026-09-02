@@ -7,7 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "NoexceptSwapCheck.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
 using namespace clang::ast_matchers;
 

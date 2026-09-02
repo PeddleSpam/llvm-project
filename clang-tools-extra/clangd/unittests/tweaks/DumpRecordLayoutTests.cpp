@@ -6,9 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "TweakTesting.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using ::testing::AllOf;
 using ::testing::HasSubstr;

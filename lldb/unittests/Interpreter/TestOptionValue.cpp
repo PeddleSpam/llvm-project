@@ -6,9 +6,26 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Interpreter/OptionValues.h"
+#include "../../include/lldb/Interpreter/OptionValueArch.h"
+#include "../../include/lldb/Interpreter/OptionValueArgs.h"
+#include "../../include/lldb/Interpreter/OptionValueBoolean.h"
+#include "../../include/lldb/Interpreter/OptionValueChar.h"
+#include "../../include/lldb/Interpreter/OptionValueDictionary.h"
+#include "../../include/lldb/Interpreter/OptionValueEnumeration.h"
+#include "../../include/lldb/Interpreter/OptionValueFileColonLine.h"
+#include "../../include/lldb/Interpreter/OptionValueFileSpec.h"
+#include "../../include/lldb/Interpreter/OptionValueFileSpecList.h"
+#include "../../include/lldb/Interpreter/OptionValueFormat.h"
+#include "../../include/lldb/Interpreter/OptionValueFormatEntity.h"
+#include "../../include/lldb/Interpreter/OptionValueLanguage.h"
+#include "../../include/lldb/Interpreter/OptionValuePathMappings.h"
+#include "../../include/lldb/Interpreter/OptionValueProperties.h"
+#include "../../include/lldb/Interpreter/OptionValueRegex.h"
+#include "../../include/lldb/Interpreter/OptionValueSInt64.h"
+#include "../../include/lldb/Interpreter/OptionValueString.h"
+#include "../../include/lldb/Interpreter/OptionValueUInt64.h"
+#include "../../include/lldb/Interpreter/OptionValueUUID.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 

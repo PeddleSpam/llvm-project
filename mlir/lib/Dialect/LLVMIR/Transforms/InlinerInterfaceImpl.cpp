@@ -15,11 +15,8 @@
 #include "mlir/Analysis/SliceWalk.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
-#include "mlir/Interfaces/ViewLikeInterface.h"
 #include "mlir/Transforms/InliningUtils.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Support/Debug.h"
 
 #include "llvm/Support/DebugLog.h"
 

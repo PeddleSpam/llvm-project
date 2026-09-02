@@ -10,9 +10,7 @@
 
 #include "Plugins/Language/CPlusPlus/CPlusPlusLanguage.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Utility/ConstString.h"
 
-#include "gtest/gtest.h"
 
 using namespace lldb;
 using namespace lldb_private;

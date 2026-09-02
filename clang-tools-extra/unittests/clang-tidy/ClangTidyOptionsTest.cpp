@@ -1,12 +1,8 @@
-#include "ClangTidyOptions.h"
 #include "ClangTidyCheck.h"
-#include "ClangTidyDiagnosticConsumer.h"
 #include "utils/CheckUtils.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "llvm/Testing/Annotations/Annotations.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 namespace clang {

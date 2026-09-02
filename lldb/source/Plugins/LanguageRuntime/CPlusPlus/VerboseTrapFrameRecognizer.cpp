@@ -1,14 +1,11 @@
 #include "VerboseTrapFrameRecognizer.h"
 
+#include "../../../../../clang/include/clang/AST/ASTConsumer.h"
+#include "../../../../../clang/include/clang/Basic/LLVM.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrameRecognizer.h"
-#include "lldb/Target/Target.h"
 
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include "clang/CodeGen/ModuleBuilder.h"
 

@@ -8,12 +8,9 @@
 
 #include "TweakTesting.h"
 
-#include "SourceCode.h"
-#include "TestTU.h"
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
-#include "llvm/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 #include <string>
 

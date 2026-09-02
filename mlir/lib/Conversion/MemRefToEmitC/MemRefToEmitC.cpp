@@ -15,14 +15,7 @@
 #include "mlir/Conversion/ConvertToEmitC/ToEmitCInterface.h"
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/TypeRange.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/STLExtras.h"
 #include <cstdint>
 #include <numeric>
 

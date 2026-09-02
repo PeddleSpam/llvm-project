@@ -11,7 +11,6 @@
 #include "mlir/Tools/PDLL/Parser/CodeComplete.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/SourceMgr.h"
 
 using namespace mlir;
 using namespace mlir::pdll;

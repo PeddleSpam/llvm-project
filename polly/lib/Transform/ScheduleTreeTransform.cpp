@@ -12,13 +12,7 @@
 
 #include "polly/ScheduleTreeTransform.h"
 #include "polly/Support/GICHelper.h"
-#include "polly/Support/ISLTools.h"
 #include "polly/Support/ScopHelper.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/Transforms/Utils/UnrollLoop.h"
 
 #include "polly/Support/PollyDebug.h"

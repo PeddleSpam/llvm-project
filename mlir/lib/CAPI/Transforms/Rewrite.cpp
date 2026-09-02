@@ -6,20 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Rewrite.h"
 
-#include "mlir-c/Support.h"
 #include "mlir-c/Transforms.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/IRMapping.h"
 #include "mlir/CAPI/Rewrite.h"
 #include "mlir/CAPI/Support.h"
-#include "mlir/CAPI/Wrap.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/PDLPatternMatch.h.inc"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Rewrite/FrozenRewritePatternSet.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 #include "mlir/Transforms/WalkPatternRewriteDriver.h"
 

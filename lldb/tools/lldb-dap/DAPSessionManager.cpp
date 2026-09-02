@@ -5,15 +5,10 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "DAPSessionManager.h"
 #include "DAP.h"
 #include "EventHelper.h"
-#include "lldb/API/SBBroadcaster.h"
 #include "lldb/API/SBEvent.h"
 #include "lldb/API/SBListener.h"
-#include "lldb/API/SBTarget.h"
-#include "lldb/Host/MainLoopBase.h"
-#include "llvm/Support/Threading.h"
 #include "llvm/Support/WithColor.h"
 
 #include <chrono>

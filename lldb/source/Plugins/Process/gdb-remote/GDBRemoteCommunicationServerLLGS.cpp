@@ -8,7 +8,7 @@
 
 #include <cerrno>
 
-#include "lldb/Host/Config.h"
+#include "../../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 
 #include <chrono>
 #include <cstring>
@@ -18,42 +18,17 @@
 #include <variant>
 
 #include "GDBRemoteCommunicationServerLLGS.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Host/Debug.h"
-#include "lldb/Host/File.h"
-#include "lldb/Host/FileAction.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/PosixApi.h"
-#include "lldb/Host/Socket.h"
-#include "lldb/Host/common/NativeProcessProtocol.h"
 #include "lldb/Host/common/NativeRegisterContext.h"
 #include "lldb/Host/common/NativeThreadProtocol.h"
-#include "lldb/Target/MemoryRegionInfo.h"
-#include "lldb/Utility/AcceleratorGDBRemotePackets.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/GDBRemote.h"
-#include "lldb/Utility/LLDBAssert.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegisterType.h"
 #include "lldb/Utility/State.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/UnimplementedError.h"
 #include "lldb/Utility/UriParser.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/JSON.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include "ProcessGDBRemote.h"
 #include "ProcessGDBRemoteLog.h"
-#include "lldb/Utility/StringExtractorGDBRemote.h"
 
 using namespace lldb;
 using namespace lldb_private;

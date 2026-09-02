@@ -7,13 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseNewMLIROpBuilderCheck.h"
+#include "../../../clang/include/clang/Lex/Lexer.h"
+#include "../utils/IncludeInserter.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/LexerUtils.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Tooling/Transformer/RangeSelector.h"
-#include "clang/Tooling/Transformer/RewriteRule.h"
 #include "clang/Tooling/Transformer/Stencil.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatVariadic.h"
 
 namespace clang::tidy::llvm_check {

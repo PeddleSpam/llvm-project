@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/RegularExpression.h"
-#include "llvm/ADT/SmallVector.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

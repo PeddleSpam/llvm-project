@@ -9,14 +9,10 @@
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/windows.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-private-types.h"
 
 #include "ProcessWindowsLog.h"
-#include "RegisterContextWindows.h"
 #include "TargetThreadWindows.h"
 
-#include "llvm/ADT/STLExtras.h"
 #include "lldb/Target/Target.h"
 
 using namespace lldb;

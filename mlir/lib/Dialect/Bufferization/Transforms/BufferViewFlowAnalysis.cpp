@@ -9,7 +9,6 @@
 #include "mlir/Dialect/Bufferization/Transforms/BufferViewFlowAnalysis.h"
 
 #include "mlir/Dialect/Bufferization/IR/BufferViewFlowOpInterface.h"
-#include "mlir/Interfaces/CallInterfaces.h"
 #include "mlir/Interfaces/ControlFlowInterfaces.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
 #include "mlir/Interfaces/ViewLikeInterface.h"

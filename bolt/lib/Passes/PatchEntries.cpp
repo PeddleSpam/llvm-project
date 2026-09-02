@@ -20,9 +20,6 @@
 
 #include "bolt/Passes/PatchEntries.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "bolt/Utils/NameResolver.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/CommandLine.h"
 
 namespace opts {
 extern llvm::cl::OptionCategory BoltCategory;

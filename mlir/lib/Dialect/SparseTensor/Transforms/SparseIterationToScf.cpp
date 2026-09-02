@@ -5,9 +5,6 @@
 
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensor.h"
-#include "mlir/Dialect/SparseTensor/Transforms/Passes.h"
-#include "mlir/Transforms/DialectConversion.h"
 
 using namespace mlir;
 using namespace mlir::sparse_tensor;

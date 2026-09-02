@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/Dialect/Transform/Interpreter.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Support.h"
-#include "mlir/CAPI/Wrap.h"
 #include "mlir/Dialect/Transform/IR/Utils.h"
-#include "mlir/Dialect/Transform/Interfaces/TransformInterfaces.h"
 #include "mlir/Dialect/Transform/Transforms/TransformInterpreterUtils.h"
 
 using namespace mlir;

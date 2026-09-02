@@ -9,8 +9,6 @@
 #include "../clang-tidy/utils/UsingInserter.h"
 
 #include "ClangTidyTest.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "gtest/gtest.h"
 
 namespace clang {

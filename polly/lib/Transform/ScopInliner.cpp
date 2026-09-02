@@ -19,8 +19,6 @@
 #include "llvm/Analysis/CallGraph.h"
 #include "llvm/Analysis/CallGraphSCCPass.h"
 #include "llvm/Analysis/OptimizationRemarkEmitter.h"
-#include "llvm/Analysis/RegionInfo.h"
-#include "llvm/IR/Dominators.h"
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Transforms/IPO/AlwaysInliner.h"
 

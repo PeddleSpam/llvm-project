@@ -6,18 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Profile/YAMLProfileWriter.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Profile/BoltAddressTranslation.h"
 #include "bolt/Profile/DataAggregator.h"
-#include "bolt/Profile/ProfileReaderBase.h"
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/MC/MCPseudoProbe.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 
 #undef  DEBUG_TYPE
 #define DEBUG_TYPE "bolt-prof"

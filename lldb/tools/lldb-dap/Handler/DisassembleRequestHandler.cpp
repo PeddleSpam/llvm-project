@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
-#include "JSONUtils.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Protocol/ProtocolTypes.h"
 #include "ProtocolUtils.h"
 #include "RequestHandler.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBInstruction.h"
-#include "lldb/API/SBLineEntry.h"
-#include "lldb/API/SBTarget.h"
-#include "lldb/lldb-types.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Error.h"
 #include <cstdint>
 #include <optional>
 

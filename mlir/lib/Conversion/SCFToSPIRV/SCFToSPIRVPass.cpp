@@ -19,7 +19,6 @@
 #include "mlir/Conversion/SCFToSPIRV/SCFToSPIRV.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
 #include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
-#include "mlir/IR/BuiltinOps.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_SCFTOSPIRV

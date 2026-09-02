@@ -7,16 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "InferiorCallPOSIX.h"
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Expression/DiagnosticManager.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/ThreadPlanCallFunction.h"
 #include "lldb/ValueObject/ValueObject.h"
 

@@ -8,9 +8,7 @@
 
 #include "lldb/Host/windows/PipeWindows.h"
 
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <fcntl.h>
 #include <io.h>

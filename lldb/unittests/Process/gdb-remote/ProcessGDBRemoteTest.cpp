@@ -10,20 +10,8 @@
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Diagnostics.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/TargetList.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/Listener.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 #include <mutex>
 

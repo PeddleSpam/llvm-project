@@ -11,10 +11,6 @@
 #include "Plugins/SymbolFile/DWARF/DWARFDeclContext.h"
 #include "Plugins/SymbolFile/DWARF/LogChannelDWARF.h"
 #include "Plugins/SymbolFile/DWARF/SymbolFileDWARFDwo.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-private-enumerations.h"
 #include "llvm/ADT/Sequence.h"
 #include <optional>
 

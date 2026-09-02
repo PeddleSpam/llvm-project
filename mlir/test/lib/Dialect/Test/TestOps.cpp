@@ -9,7 +9,6 @@
 #include "TestOps.h"
 #include "TestDialect.h"
 #include "TestFormatUtils.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 
 using namespace mlir;
 using namespace test;

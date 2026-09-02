@@ -11,12 +11,8 @@
 #include "clang/Format/Format.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Frontend/TextDiagnosticPrinter.h"
-#include "clang/Rewrite/Core/Rewriter.h"
 #include "clang/Tooling/Refactoring.h"
-#include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock-matchers.h"
-#include "gtest/gtest.h"
 #include <string>
 #include <vector>
 

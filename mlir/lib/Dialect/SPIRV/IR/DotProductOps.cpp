@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 
 #include "SPIRVOpUtils.h"
 #include "SPIRVParsingUtils.h"

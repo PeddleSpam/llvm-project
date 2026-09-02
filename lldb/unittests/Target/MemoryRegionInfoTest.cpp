@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/MemoryRegionInfo.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

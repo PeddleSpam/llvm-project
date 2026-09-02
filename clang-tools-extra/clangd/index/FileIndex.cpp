@@ -7,31 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "FileIndex.h"
-#include "CollectMacros.h"
 #include "ParsedAST.h"
-#include "clang-include-cleaner/Record.h"
-#include "index/Index.h"
 #include "index/MemIndex.h"
-#include "index/Merge.h"
-#include "index/Ref.h"
-#include "index/Relation.h"
-#include "index/Serialization.h"
-#include "index/Symbol.h"
 #include "index/SymbolCollector.h"
-#include "index/SymbolID.h"
-#include "index/SymbolOrigin.h"
 #include "index/dex/Dex.h"
 #include "support/Logger.h"
-#include "support/MemoryTree.h"
 #include "support/Path.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/Index/IndexingAction.h"
-#include "clang/Index/IndexingOptions.h"
-#include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
 #include <algorithm>
 #include <memory>
 #include <optional>

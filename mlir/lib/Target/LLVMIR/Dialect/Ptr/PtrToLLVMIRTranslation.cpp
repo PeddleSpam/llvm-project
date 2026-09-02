@@ -13,14 +13,8 @@
 
 #include "mlir/Target/LLVMIR/Dialect/Ptr/PtrToLLVMIRTranslation.h"
 #include "mlir/Dialect/Ptr/IR/PtrOps.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Target/LLVMIR/ModuleTranslation.h"
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/Instructions.h"
-#include "llvm/IR/Type.h"
-#include "llvm/IR/Value.h"
 
 using namespace mlir;
 using namespace mlir::ptr;

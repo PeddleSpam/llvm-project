@@ -8,13 +8,8 @@
 
 #include "lldb/Core/DataFileCache.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Utility/DataEncoder.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/Support/CachePruning.h"
 
 using namespace lldb_private;
 

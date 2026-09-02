@@ -6,32 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
 #include "ClangdLSPServer.h"
-#include "ClangdServer.h"
-#include "ConfigProvider.h"
-#include "Diagnostics.h"
-#include "Feature.h"
-#include "FeatureModule.h"
-#include "LSPBinder.h"
 #include "LSPClient.h"
 #include "TestFS.h"
-#include "support/Function.h"
-#include "support/Logger.h"
 #include "support/TestTracer.h"
-#include "support/Threading.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/LLVM.h"
-#include "llvm/ADT/FunctionExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
-#include "llvm/Testing/Support/SupportHelpers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cassert>
 #include <condition_variable>
 #include <cstddef>

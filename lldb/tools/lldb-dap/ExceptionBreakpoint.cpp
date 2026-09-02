@@ -6,12 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ExceptionBreakpoint.h"
-#include "BreakpointBase.h"
 #include "DAP.h"
-#include "Protocol/ProtocolTypes.h"
-#include "lldb/API/SBMutex.h"
-#include "lldb/API/SBTarget.h"
 #include <mutex>
 
 using namespace llvm;

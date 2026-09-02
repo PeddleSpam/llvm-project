@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/LLDBAssert.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/raw_ostream.h"
 #include <mutex>
 
 #if LLVM_SUPPORT_XCODE_SIGNPOSTS

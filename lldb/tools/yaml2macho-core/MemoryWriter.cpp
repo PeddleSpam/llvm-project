@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "MemoryWriter.h"
-#include "CoreSpec.h"
 #include "Utility.h"
 #include "llvm/BinaryFormat/MachO.h"
 

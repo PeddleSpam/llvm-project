@@ -10,7 +10,6 @@
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/Support.h"
 #include "mlir/IR/ExtensibleDialect.h"
-#include "mlir/IR/OperationSupport.h"
 
 using namespace mlir;
 

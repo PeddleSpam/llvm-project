@@ -6,30 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/StackFrameList.h"
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/SourceManager.h"
-#include "lldb/Host/StreamFile.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/BorrowedStackFrame.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
 #include "lldb/Target/StackFrameRecognizer.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/SyntheticFrameProvider.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/Unwind.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Policy.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallPtrSet.h"
 #include "llvm/Support/ConvertUTF.h"
 
 #include <memory>

@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 #include "Plugins/Language/ObjC/ObjCLanguage.h"
-#include "lldb/lldb-enumerations.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb_private;
 

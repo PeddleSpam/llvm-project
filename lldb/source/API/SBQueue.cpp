@@ -8,7 +8,6 @@
 
 #include <cinttypes>
 
-#include "lldb/API/SBQueue.h"
 #include "lldb/Utility/Instrumentation.h"
 
 #include "lldb/API/SBProcess.h"
@@ -17,8 +16,6 @@
 
 #include "lldb/Target/Process.h"
 #include "lldb/Target/Queue.h"
-#include "lldb/Target/QueueItem.h"
-#include "lldb/Target/Thread.h"
 
 using namespace lldb;
 using namespace lldb_private;

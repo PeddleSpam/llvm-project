@@ -8,13 +8,9 @@
 
 #include "mlir/Transforms/ViewOpGraph.h"
 
-#include "mlir/IR/Block.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Support/IndentedOstream.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/GraphWriter.h"
 #include <map>
 #include <optional>

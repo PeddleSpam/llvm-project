@@ -9,8 +9,6 @@
 #include "lldb/Target/TraceDumper.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Target/SectionLoadList.h"
 #include <optional>

@@ -36,14 +36,7 @@
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/Dialect/OpenACC/OpenACCParMapping.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsCG.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/IRMapping.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
 
 namespace mlir {
 namespace acc {

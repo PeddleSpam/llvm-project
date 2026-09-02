@@ -10,11 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/SCF/IR/SCF.h"
 #include "mlir/Dialect/SCF/Transforms/Patterns.h"
-#include "mlir/IR/Dominance.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 

@@ -9,14 +9,9 @@
 #include "mlir/Dialect/Shard/Transforms/Passes.h"
 
 #include "mlir/Dialect/Shard/IR/ShardDialect.h"
-#include "mlir/Dialect/Shard/IR/ShardOps.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/iterator_range.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
 #include <algorithm>
 #include <vector>
 

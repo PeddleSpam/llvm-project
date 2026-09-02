@@ -6,28 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "Annotations.h"
-#include "Compiler.h"
-#include "Diagnostics.h"
 #include "IncludeCleaner.h"
-#include "ParsedAST.h"
-#include "SourceCode.h"
-#include "TestFS.h"
 #include "TestTU.h"
 #include "clang-include-cleaner/Analysis.h"
-#include "clang-include-cleaner/Types.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/ScopedPrinter.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstddef>
 #include <optional>
 #include <string>

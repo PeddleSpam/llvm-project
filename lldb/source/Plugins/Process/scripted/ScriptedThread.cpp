@@ -6,19 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ScriptedThread.h"
 #include "ScriptedFrame.h"
 
 #include "Plugins/Process/Utility/RegisterContextThreadMemory.h"
 #include "Plugins/Process/Utility/StopInfoMachException.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Target/OperatingSystem.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StopInfo.h"
-#include "lldb/Target/Unwind.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/LLDBLog.h"
 #include <memory>
 #include <optional>
 

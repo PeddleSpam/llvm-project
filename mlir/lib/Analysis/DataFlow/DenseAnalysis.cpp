@@ -8,15 +8,6 @@
 
 #include "mlir/Analysis/DataFlow/DenseAnalysis.h"
 #include "mlir/Analysis/DataFlow/DeadCodeAnalysis.h"
-#include "mlir/Analysis/DataFlowFramework.h"
-#include "mlir/IR/Block.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Region.h"
-#include "mlir/Interfaces/CallInterfaces.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/DebugLog.h"
 #include <cassert>
 #include <optional>

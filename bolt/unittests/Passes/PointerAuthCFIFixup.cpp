@@ -9,17 +9,12 @@
 
 #ifdef AARCH64_AVAILABLE
 #include "AArch64Subtarget.h"
-#include "MCTargetDesc/AArch64MCTargetDesc.h"
 #endif // AARCH64_AVAILABLE
 
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Passes/PointerAuthCFIFixup.h"
 #include "bolt/Rewrite/BinaryPassManager.h"
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/MC/MCDwarf.h"
 #include "llvm/MC/MCInstBuilder.h"
 #include "llvm/Support/TargetSelect.h"
 #include "gtest/gtest.h"

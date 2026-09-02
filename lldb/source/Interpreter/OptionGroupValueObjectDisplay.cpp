@@ -12,9 +12,7 @@
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Target/Target.h"
 
-#include "llvm/ADT/ArrayRef.h"
 
 using namespace lldb;
 using namespace lldb_private;

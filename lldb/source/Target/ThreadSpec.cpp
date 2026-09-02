@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/ThreadSpec.h"
 #include "lldb/Target/Thread.h"
-#include "lldb/Utility/StructuredData.h"
 
 using namespace lldb;
 using namespace lldb_private;

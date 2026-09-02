@@ -28,25 +28,10 @@
 
 #include "polly/CodeGen/IslAst.h"
 #include "polly/CodeGen/CodeGeneration.h"
-#include "polly/DependenceInfo.h"
 #include "polly/Options.h"
-#include "polly/ScopDetection.h"
 #include "polly/ScopInfo.h"
 #include "polly/Support/GICHelper.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/IR/Function.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/raw_ostream.h"
-#include "isl/aff.h"
-#include "isl/ast.h"
-#include "isl/ast_build.h"
-#include "isl/id.h"
-#include "isl/isl-noexceptions.h"
-#include "isl/printer.h"
-#include "isl/schedule.h"
-#include "isl/set.h"
-#include "isl/union_map.h"
-#include "isl/val.h"
 #include <cassert>
 #include <cstdlib>
 

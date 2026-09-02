@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/AffineMap.h"
 #include "mlir/IR/Builders.h"
 #include "gtest/gtest.h"
 

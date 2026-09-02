@@ -11,16 +11,12 @@
 
 #include "llvm/DebugInfo/CodeView/SymbolDeserializer.h"
 #include "llvm/DebugInfo/PDB/Native/DbiStream.h"
-#include "llvm/DebugInfo/PDB/Native/GlobalsStream.h"
 #include "llvm/DebugInfo/PDB/Native/ISectionContribVisitor.h"
-#include "llvm/DebugInfo/PDB/Native/PDBFile.h"
 #include "llvm/DebugInfo/PDB/Native/PublicsStream.h"
 #include "llvm/DebugInfo/PDB/Native/SymbolStream.h"
 #include "llvm/DebugInfo/PDB/Native/TpiStream.h"
 #include "llvm/Object/COFF.h"
-#include "llvm/Support/Error.h"
 
-#include "lldb/lldb-defines.h"
 #include <optional>
 
 using namespace lldb_private;

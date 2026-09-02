@@ -7,19 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/Presburger/Simplex.h"
-#include "mlir/Analysis/Presburger/Fraction.h"
-#include "mlir/Analysis/Presburger/IntegerRelation.h"
-#include "mlir/Analysis/Presburger/Matrix.h"
-#include "mlir/Analysis/Presburger/PresburgerSpace.h"
-#include "mlir/Analysis/Presburger/Utils.h"
-#include "llvm/ADT/DynamicAPInt.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallVector.h"
 #include "llvm/ADT/SmallVectorExtras.h"
-#include "llvm/Support/Compiler.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <functional>
 #include <limits>

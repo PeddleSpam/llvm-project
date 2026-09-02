@@ -13,11 +13,7 @@
 #include "Parser.h"
 
 #include "mlir/AsmParser/AsmParserState.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectResourceBlobManager.h"
 #include "mlir/IR/IntegerSet.h"
 #include <optional>

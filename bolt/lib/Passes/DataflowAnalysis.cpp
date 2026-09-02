@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/DataflowAnalysis.h"
-#include "llvm/MC/MCRegisterInfo.h"
 
 #define DEBUG_TYPE "dataflow"
 

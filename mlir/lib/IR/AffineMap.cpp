@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/AffineMap.h"
 #include "AffineMapDetail.h"
-#include "mlir/IR/AffineExpr.h"
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallBitVector.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/Support/MathExtras.h"
 #include <numeric>
 #include <optional>
 #include <type_traits>

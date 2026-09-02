@@ -7,17 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Protocol/MCP/Server.h"
-#include "lldb/Host/File.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Protocol/MCP/MCPError.h"
-#include "lldb/Protocol/MCP/Protocol.h"
-#include "lldb/Protocol/MCP/Transport.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/Signals.h"
 
 using namespace llvm;
 using namespace lldb_private;

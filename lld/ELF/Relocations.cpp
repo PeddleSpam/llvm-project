@@ -25,23 +25,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Relocations.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "LinkerScript.h"
 #include "OutputSections.h"
 #include "RelocScan.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 #include "Thunks.h"
-#include "lld/Common/ErrorHandler.h"
-#include "lld/Common/Memory.h"
-#include "llvm/ADT/SmallSet.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/Demangle/Demangle.h"
-#include "llvm/Support/Parallel.h"
 #include <algorithm>
 #include <atomic>
 

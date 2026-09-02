@@ -6,17 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Config.h"
 #include "lldb/Host/ScriptInterpreterRuntimeLoader.h"
 
 #include "PythonRuntimeLoaderInternal.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/DynamicLibrary.h"
 #include "llvm/Support/ErrorExtras.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/Threading.h"
 
 #include <cstdlib>
 #include <string>

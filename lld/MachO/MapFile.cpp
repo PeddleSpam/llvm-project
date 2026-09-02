@@ -30,15 +30,8 @@
 
 #include "MapFile.h"
 #include "ConcatOutputSection.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "InputSection.h"
-#include "OutputSegment.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
-#include "Target.h"
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/TimeProfiler.h"
 

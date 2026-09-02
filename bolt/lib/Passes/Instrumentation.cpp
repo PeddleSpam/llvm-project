@@ -15,8 +15,6 @@
 #include "bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/RWMutex.h"
 #include <queue>
 #include <stack>
 

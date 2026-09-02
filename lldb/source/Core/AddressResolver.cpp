@@ -8,7 +8,6 @@
 
 #include "lldb/Core/AddressResolver.h"
 
-#include "lldb/Core/SearchFilter.h"
 
 namespace lldb_private {
 class ModuleList;

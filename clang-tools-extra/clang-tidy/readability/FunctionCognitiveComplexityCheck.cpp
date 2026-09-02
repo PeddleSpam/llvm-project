@@ -8,20 +8,12 @@
 
 #include "FunctionCognitiveComplexityCheck.h"
 #include "../ClangTidyDiagnosticConsumer.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/Expr.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/Stmt.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/ASTMatchers/ASTMatchersInternal.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticIDs.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/SourceLocation.h"
-#include "llvm/ADT/BitmaskEnum.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <array>
 #include <cassert>
 #include <optional>

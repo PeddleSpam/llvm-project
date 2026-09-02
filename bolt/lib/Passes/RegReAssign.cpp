@@ -11,9 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/RegReAssign.h"
-#include "bolt/Core/BinaryFunctionCallGraph.h"
-#include "bolt/Core/MCPlus.h"
-#include "bolt/Passes/DataflowAnalysis.h"
 #include "bolt/Passes/DataflowInfoManager.h"
 #include "bolt/Utils/Utils.h"
 #include <numeric>

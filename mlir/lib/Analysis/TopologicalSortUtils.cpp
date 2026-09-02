@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/TopologicalSortUtils.h"
-#include "mlir/IR/Block.h"
 #include "mlir/IR/OpDefinition.h"
 #include "mlir/IR/RegionGraphTraits.h"
 

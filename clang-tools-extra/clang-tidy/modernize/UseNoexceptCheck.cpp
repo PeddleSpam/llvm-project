@@ -7,7 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseNoexceptCheck.h"
-#include "clang/AST/ASTContext.h"
+#include "../ClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;

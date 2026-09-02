@@ -9,9 +9,8 @@
 
 #include "../clang-tidy/utils/NamespaceAliaser.h"
 
+#include "../../clang-tidy/utils/NamespaceAliaser.h"
 #include "ClangTidyTest.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "gtest/gtest.h"
 
 namespace clang {

@@ -6,6 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../../llvm/include/llvm/TargetParser/Triple.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/EntityLinker/EntitySummaryEncoding.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Model/EntityIdTable.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Model/EntityName.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/Serialization/SerializationFormat.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/TUSummary/EntitySummary.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisBase.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h"
+#include "../../../../include/clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/DerivedAnalysis.h"
 #include "AnalysisResults.h"
 #include "clang/ScalableStaticAnalysis/Core/Serialization/JSONFormat.h"
 #include "clang/ScalableStaticAnalysis/Core/WholeProgramAnalysis/AnalysisRegistry.h"

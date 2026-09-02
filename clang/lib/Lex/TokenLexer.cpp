@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticLex.h"
 #include "clang/Lex/MacroArgs.h"
 #include "clang/Lex/VariadicMacroSupport.h"
 #include <cassert>

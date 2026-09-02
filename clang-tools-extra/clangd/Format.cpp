@@ -8,9 +8,7 @@
 #include "Format.h"
 #include "support/Logger.h"
 #include "clang/Basic/SourceManager.h"
-#include "clang/Format/Format.h"
 #include "clang/Lex/Lexer.h"
-#include "clang/Tooling/Core/Replacement.h"
 #include "llvm/Support/Unicode.h"
 
 namespace clang {

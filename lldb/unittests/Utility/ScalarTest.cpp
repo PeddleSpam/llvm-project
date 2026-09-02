@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
 #include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/APSInt.h"
 #include "llvm/Testing/Support/Error.h"
 
 #include <algorithm>

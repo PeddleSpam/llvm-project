@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/EmitC/Transforms/Transforms.h"
-#include "mlir/Dialect/EmitC/IR/EmitC.h"
 #include "mlir/IR/IRMapping.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/ADT/STLExtras.h"
 
 namespace mlir {
 namespace emitc {

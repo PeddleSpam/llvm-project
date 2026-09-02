@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 #include "ClangTidyTest.h"
 #include "modernize/IntegralLiteralExpressionMatcher.h"
-#include "clang/Lex/Lexer.h"
 #include "gtest/gtest.h"
 
 #include <cstring>

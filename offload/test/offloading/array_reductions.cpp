@@ -12,7 +12,6 @@
 #include <ios>
 #include <iostream>
 
-#include "omp.h"
 
 #define N 10000
 #define L 32

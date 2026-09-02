@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/ValueRange.h"
 #include "mlir/IR/TypeRange.h"
 
 using namespace mlir;

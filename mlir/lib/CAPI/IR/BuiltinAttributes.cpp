@@ -7,15 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir-c/BuiltinAttributes.h"
-#include "mlir-c/Support.h"
 #include "mlir/CAPI/AffineMap.h"
 #include "mlir/CAPI/IR.h"
 #include "mlir/CAPI/IntegerSet.h"
 #include "mlir/CAPI/Support.h"
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/BuiltinTypes.h"
 
 using namespace mlir;
 

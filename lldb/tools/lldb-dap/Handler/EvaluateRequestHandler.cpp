@@ -6,18 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
 #include "EventHelper.h"
-#include "JSONUtils.h"
 #include "LLDBUtils.h"
-#include "Protocol/DAPTypes.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Protocol/ProtocolTypes.h"
 #include "RequestHandler.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 
 using namespace llvm;
 using namespace lldb_dap;

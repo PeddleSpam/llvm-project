@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Traits.h"
-#include "llvm/ADT/SmallVector.h"
 #include "gmock/gmock.h"
 
 using namespace mlir::OpTrait::util;

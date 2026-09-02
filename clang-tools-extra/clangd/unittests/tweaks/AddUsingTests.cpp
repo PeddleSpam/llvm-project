@@ -6,12 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Config.h"
 #include "TweakTesting.h"
-#include "support/Context.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "gtest/gtest.h"
 #include <string>
 #include <utility>
 

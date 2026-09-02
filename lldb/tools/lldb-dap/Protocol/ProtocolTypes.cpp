@@ -6,15 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Protocol/ProtocolTypes.h"
 #include "JSONUtils.h"
 #include "ProtocolUtils.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-types.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/JSON.h"
 #include <cassert>
 #include <optional>
 

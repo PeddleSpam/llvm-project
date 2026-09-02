@@ -11,10 +11,7 @@
 #include "mlir/Dialect/Bufferization/IR/AllocationOpInterface.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/UB/IR/UBOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
 #include "mlir/Interfaces/RuntimeVerifiableOpInterface.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Interfaces/ValueBoundsOpInterface.h"
 #include "mlir/Transforms/InliningUtils.h"
 #include <optional>

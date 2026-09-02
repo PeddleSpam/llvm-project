@@ -8,10 +8,8 @@
 
 #include "gtest/gtest.h"
 
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/XcodeSDK.h"
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/TargetParser/Triple.h"
 
 #include <tuple>

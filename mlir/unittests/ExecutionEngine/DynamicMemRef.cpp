@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/ExecutionEngine/CRunnerUtils.h"
-#include "llvm/ADT/SmallVector.h"
 
 #include "gmock/gmock.h"
 

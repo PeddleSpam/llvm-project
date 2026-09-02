@@ -7,11 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Parser.h"
-#include "Token.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Location.h"
-#include "mlir/Support/LLVM.h"
 #include <optional>
 
 using namespace mlir;

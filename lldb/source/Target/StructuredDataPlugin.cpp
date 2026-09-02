@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Target/StructuredDataPlugin.h"
 
-#include "lldb/Core/Debugger.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandObjectMultiword.h"
 

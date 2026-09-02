@@ -10,11 +10,9 @@
 #include "lldb/Utility/Instrumentation.h"
 
 #include "lldb/API/SBDebugger.h"
-#include "lldb/API/SBStructuredData.h"
 #include "lldb/API/SBThread.h"
 #include "lldb/API/SBTrace.h"
 
-#include "lldb/Core/StructuredDataImpl.h"
 
 #include <memory>
 

@@ -7,6 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "AvoidReturnWithVoidValueCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/BracesAroundStatement.h"
 #include "../utils/LexerUtils.h"
 

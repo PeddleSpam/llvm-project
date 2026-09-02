@@ -7,14 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "BitcodeReader.h"
-#include "BitcodeWriter.h"
-#include "ClangDocTest.h"
-#include "Representation.h"
-#include "clang/Basic/Diagnostic.h"
-#include "clang/Basic/DiagnosticOptions.h"
-#include "llvm/Bitstream/BitstreamReader.h"
-#include "llvm/Bitstream/BitstreamWriter.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace doc {

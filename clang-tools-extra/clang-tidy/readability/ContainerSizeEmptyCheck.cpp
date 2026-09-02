@@ -6,13 +6,17 @@
 //
 //===----------------------------------------------------------------------===//
 #include "ContainerSizeEmptyCheck.h"
+#include "../../../clang/include/clang/AST/StmtVisitor.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/ASTUtils.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
+#include "../utils/TypeTraits.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/StringRef.h"
 
 using namespace clang::ast_matchers;
 

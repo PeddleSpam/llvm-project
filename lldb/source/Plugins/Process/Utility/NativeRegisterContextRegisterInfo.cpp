@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "NativeRegisterContextRegisterInfo.h"
-#include "lldb/lldb-private-forward.h"
-#include "lldb/lldb-types.h"
 
 using namespace lldb_private;
 

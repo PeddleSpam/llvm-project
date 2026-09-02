@@ -6,17 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lld/Common/ErrorHandler.h"
 
 #include "lld/Common/CommonLinkerContext.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/IR/DiagnosticInfo.h"
 #include "llvm/IR/DiagnosticPrinter.h"
 #include "llvm/Support/CrashRecoveryContext.h"
 #include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Support/Program.h"
-#include "llvm/Support/raw_ostream.h"
 #include <regex>
 
 using namespace llvm;

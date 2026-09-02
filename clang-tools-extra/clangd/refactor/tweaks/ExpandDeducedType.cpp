@@ -5,14 +5,12 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/Tweak.h"
 
 #include "support/Logger.h"
 #include "clang/AST/DeclTemplate.h"
-#include "clang/AST/Type.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/LLVM.h"
-#include "llvm/Support/Error.h"
 #include <AST.h>
 #include <climits>
 #include <memory>

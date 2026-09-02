@@ -7,10 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "SuspiciousReallocUsageCheck.h"
-#include "clang/AST/ASTContext.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/StmtVisitor.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;

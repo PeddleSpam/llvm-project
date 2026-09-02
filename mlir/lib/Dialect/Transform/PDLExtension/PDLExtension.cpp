@@ -7,12 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Transform/PDLExtension/PDLExtension.h"
-#include "mlir/Dialect/PDL/IR/PDL.h"
-#include "mlir/Dialect/PDL/IR/PDLTypes.h"
 #include "mlir/Dialect/PDLInterp/IR/PDLInterp.h"
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/PDLExtension/PDLExtensionOps.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 

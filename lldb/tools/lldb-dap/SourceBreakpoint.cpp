@@ -6,22 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SourceBreakpoint.h"
-#include "BreakpointBase.h"
 #include "DAP.h"
 #include "JSONUtils.h"
-#include "lldb/API/SBBreakpoint.h"
-#include "lldb/API/SBFileSpec.h"
-#include "lldb/API/SBFileSpecList.h"
-#include "lldb/API/SBFrame.h"
 #include "lldb/API/SBInstruction.h"
-#include "lldb/API/SBMutex.h"
-#include "lldb/API/SBSymbol.h"
-#include "lldb/API/SBTarget.h"
-#include "lldb/API/SBThread.h"
-#include "lldb/API/SBValue.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/Support/Error.h"
 #include <cassert>
 #include <cctype>
 #include <cstdlib>

@@ -13,7 +13,6 @@
 
 #include "X86AsmPrinter.h"
 #include "MCTargetDesc/X86ATTInstPrinter.h"
-#include "MCTargetDesc/X86MCTargetDesc.h"
 #include "MCTargetDesc/X86TargetStreamer.h"
 #include "TargetInfo/X86TargetInfo.h"
 #include "X86.h"

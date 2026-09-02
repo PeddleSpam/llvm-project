@@ -56,15 +56,9 @@
 
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/OpenACC/Analysis/OpenACCSupport.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsTiling.h"
 #include "mlir/Dialect/OpenACC/Transforms/Passes.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 namespace acc {

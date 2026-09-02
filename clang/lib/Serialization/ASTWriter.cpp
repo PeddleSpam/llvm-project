@@ -10,7 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticSerialization.h"
 #include "ASTCommon.h"
 #include "ASTReaderInternals.h"
 #include "TemplateArgumentHasher.h"

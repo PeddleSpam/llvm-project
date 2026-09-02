@@ -7,9 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "CanonicalIncludes.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/LangOptions.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/Path.h"
 
 namespace clang {

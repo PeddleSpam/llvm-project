@@ -10,7 +10,6 @@
 #include "InputSection.h"
 #include "OutputSegment.h"
 
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace llvm;
 using namespace llvm::MachO;

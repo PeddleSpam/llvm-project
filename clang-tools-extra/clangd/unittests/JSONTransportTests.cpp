@@ -9,7 +9,6 @@
 #include "Transport.h"
 #include "support/Cancellation.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstdio>
 
 namespace clang {

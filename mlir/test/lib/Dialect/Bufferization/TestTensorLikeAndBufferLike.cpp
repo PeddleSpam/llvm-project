@@ -6,12 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Test/TestAttributes.h"
+#include "../Test/TestDialect.h"
+#include "../Test/TestInterfaces.h"
+#include "../Test/TestTypes.h"
 #include "TestDialect.h"
-#include "mlir/Dialect/Bufferization/IR/Bufferization.h"
-#include "mlir/Dialect/Bufferization/IR/BufferizationTypeInterfaces.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/Pass/Pass.h"
 
 #include <string>

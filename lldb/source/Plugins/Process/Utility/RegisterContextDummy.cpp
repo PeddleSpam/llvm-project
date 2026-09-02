@@ -6,27 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Expression/DWARFExpression.h"
-#include "lldb/Symbol/FuncUnwinders.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/ABI.h"
 #include "lldb/Target/DynamicLoader.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/lldb-private.h"
 
 #include "RegisterContextDummy.h"
 

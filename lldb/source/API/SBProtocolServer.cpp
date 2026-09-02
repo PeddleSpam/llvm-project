@@ -9,12 +9,10 @@
 #include "lldb/API/SBProtocolServer.h"
 #include "lldb/API/SBError.h"
 #include "lldb/Core/ProtocolServer.h"
-#include "lldb/Host/Socket.h"
 #include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/Instrumentation.h"
 #include "lldb/Utility/UriParser.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/FormatVariadic.h"
 
 #include <memory>
 

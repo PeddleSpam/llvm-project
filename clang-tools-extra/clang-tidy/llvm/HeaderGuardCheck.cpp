@@ -7,8 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "HeaderGuardCheck.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/Support/Path.h"
 
 namespace clang::tidy::llvm_check {
 

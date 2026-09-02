@@ -8,8 +8,6 @@
 
 #include "IndexIntrinsicsOpLowering.h"
 
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/IR/BuiltinAttributes.h"
 
 using namespace mlir;
 using namespace mlir::gpu::index_lowering;

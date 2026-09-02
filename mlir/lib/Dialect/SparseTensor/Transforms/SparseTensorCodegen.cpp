@@ -18,18 +18,9 @@
 #include "Utils/CodegenUtils.h"
 #include "Utils/SparseTensorDescriptor.h"
 
-#include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Linalg/Utils/Utils.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/Dialect/SparseTensor/IR/Enums.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensor.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensorType.h"
-#include "mlir/Dialect/SparseTensor/Transforms/Passes.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #include <optional>
 

@@ -1,18 +1,10 @@
-#include "gtest/gtest.h"
 
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 #include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 #include "Plugins/SymbolFile/Symtab/SymbolFileSymtab.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/ModuleCache.h"
 
 using namespace lldb_private;

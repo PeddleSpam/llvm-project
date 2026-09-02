@@ -13,8 +13,6 @@
 #include "mlir/Dialect/Func/Utils/Utils.h"
 #include "mlir/Dialect/Math/IR/Math.h"
 #include "mlir/Dialect/Math/Transforms/Passes.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Transforms/WalkPatternRewriteDriver.h"
 

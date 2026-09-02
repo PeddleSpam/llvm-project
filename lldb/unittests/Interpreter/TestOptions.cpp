@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Interpreter/Options.h"
-#include "gtest/gtest.h"
 
 #include "llvm/Testing/Support/Error.h"
 

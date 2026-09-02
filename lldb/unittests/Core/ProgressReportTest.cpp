@@ -11,11 +11,7 @@
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/Listener.h"
-#include "gtest/gtest.h"
 #include <memory>
 #include <mutex>
 #include <thread>

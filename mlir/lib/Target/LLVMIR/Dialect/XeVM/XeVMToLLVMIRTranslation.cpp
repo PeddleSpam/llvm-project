@@ -13,18 +13,9 @@
 
 #include "mlir/Target/LLVMIR/Dialect/XeVM/XeVMToLLVMIRTranslation.h"
 #include "mlir/Dialect/LLVMIR/XeVMDialect.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/Target/LLVMIR/ModuleTranslation.h"
 
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/LLVMContext.h"
-#include "llvm/IR/Metadata.h"
 
-#include "llvm/IR/ConstantRange.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 using namespace mlir::LLVM;

@@ -7,20 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "OutputSections.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "LinkerScript.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "Target.h"
 #include "lld/Common/Arrays.h"
-#include "lld/Common/Memory.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/Config/llvm-config.h" // LLVM_ENABLE_ZLIB, LLVM_ENABLE_ZSTD
-#include "llvm/Support/Compression.h"
 #include "llvm/Support/LEB128.h"
-#include "llvm/Support/Parallel.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/TimeProfiler.h"
 #undef in
 #if LLVM_ENABLE_ZLIB

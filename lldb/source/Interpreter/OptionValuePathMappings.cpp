@@ -9,10 +9,6 @@
 #include "lldb/Interpreter/OptionValuePathMappings.h"
 
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Interpreter/OptionValue.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

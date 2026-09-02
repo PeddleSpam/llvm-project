@@ -9,9 +9,6 @@
 #include "MsvcStl.h"
 
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/DataFormatters/TypeSynthetic.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;
 

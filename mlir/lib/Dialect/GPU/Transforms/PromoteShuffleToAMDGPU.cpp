@@ -11,13 +11,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/AMDGPU/Utils/Chipset.h"
 #include "mlir/Dialect/GPU/Transforms/Passes.h"
 
 #include "mlir/Dialect/AMDGPU/IR/AMDGPUDialect.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/IR/PatternMatch.h"
 #include <optional>
 
 using namespace mlir;

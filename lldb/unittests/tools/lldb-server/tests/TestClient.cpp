@@ -9,14 +9,7 @@
 #include "TestClient.h"
 #include "TestingSupport/Host/SocketTestUtilities.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/common/TCPSocket.h"
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
-#include "lldb/Utility/Args.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <cstdlib>
 #include <future>
 #include <sstream>

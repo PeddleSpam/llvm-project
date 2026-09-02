@@ -14,7 +14,6 @@
 #include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/limits.h"
 #include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stddef.h"
 #include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/stdint.h"
-#include "../../../../../sie/llvm-project/build/Release/lib/clang/24/include/yvals_core.h"
 #include <typeinfo>
 
 // C is an incomplete class type, so any direct or indirect pointer types should have 

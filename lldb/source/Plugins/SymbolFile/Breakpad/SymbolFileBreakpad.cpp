@@ -7,20 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/SymbolFile/Breakpad/SymbolFileBreakpad.h"
-#include "Plugins/ObjectFile/Breakpad/BreakpadRecords.h"
 #include "Plugins/ObjectFile/Breakpad/ObjectFileBreakpad.h"
-#include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/ObjectFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
-#include "lldb/Symbol/TypeMap.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
-#include "llvm/ADT/StringExtras.h"
 #include <optional>
 
 using namespace lldb;

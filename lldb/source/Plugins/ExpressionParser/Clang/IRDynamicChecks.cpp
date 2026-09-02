@@ -7,24 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/IR/Constants.h"
-#include "llvm/IR/DataLayout.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
-#include "llvm/IR/Value.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "IRDynamicChecks.h"
 
 #include "lldb/Expression/UtilityFunction.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include "Plugins/LanguageRuntime/ObjC/ObjCLanguageRuntime.h"
 

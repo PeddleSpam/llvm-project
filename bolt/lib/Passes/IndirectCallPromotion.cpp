@@ -14,8 +14,6 @@
 #include "bolt/Core/BinaryFunctionCallGraph.h"
 #include "bolt/Passes/DataflowInfoManager.h"
 #include "bolt/Passes/Inliner.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/CommandLine.h"
 #include <iterator>
 
 #define DEBUG_TYPE "ICP"

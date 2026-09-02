@@ -35,13 +35,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "InjectPointerSigningFixups.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/Function.h"
 #include "llvm/IR/IRBuilder.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/Module.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/TargetParser/Triple.h"
 
 using namespace llvm;
 

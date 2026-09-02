@@ -8,14 +8,9 @@
 
 #include "Plugins/ObjectFile/JSON/ObjectFileJSON.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "llvm/ADT/DenseSet.h"
 #include <optional>
 
 using namespace llvm;

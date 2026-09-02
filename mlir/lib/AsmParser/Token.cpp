@@ -11,9 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "Token.h"
-#include "mlir/Support/LLVM.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/ErrorHandling.h"
 #include <cassert>
 #include <cstdint>
 #include <optional>

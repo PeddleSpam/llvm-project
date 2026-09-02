@@ -8,12 +8,8 @@
 
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "mlir/Dialect/Bufferization/IR/Bufferization.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Interfaces/FunctionImplementation.h"
-#include "mlir/Interfaces/MemorySlotInterfaces.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 using namespace mlir;
 using namespace test;

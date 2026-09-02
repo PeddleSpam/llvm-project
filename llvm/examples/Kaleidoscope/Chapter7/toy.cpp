@@ -1,3 +1,8 @@
+#include "../../../include/llvm/ExecutionEngine/Orc/CompileUtils.h"
+#include "../../../include/llvm/ExecutionEngine/Orc/ExecutionUtils.h"
+#include "../../../include/llvm/ExecutionEngine/Orc/RTDyldObjectLinkingLayer.h"
+#include "../../../include/llvm/ExecutionEngine/Orc/SelfExecutorProcessControl.h"
+#include "../../../include/llvm/ExecutionEngine/SectionMemoryManager.h"
 #include "../include/KaleidoscopeJIT.h"
 #include "llvm/IR/IRBuilder.h"
 #include "llvm/IR/Verifier.h"

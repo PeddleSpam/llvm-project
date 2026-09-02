@@ -11,10 +11,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/DynamicLibrary.h"
+#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/Psapi.h"
+#include "../../include/llvm/Support/ConvertUTF.h"
+#include "../../include/llvm/Support/Windows/WindowsSupport.h"
 #include "llvm-c/Support.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringMap.h"
-#include "llvm/Config/config.h"
 #include "llvm/Support/Mutex.h"
 #include <vector>
 

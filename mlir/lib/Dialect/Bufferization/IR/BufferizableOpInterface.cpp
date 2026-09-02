@@ -6,19 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/IR/AsmState.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "mlir/IR/Value.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 //===----------------------------------------------------------------------===//
 // BufferizableOpInterface

@@ -8,22 +8,12 @@
 
 #include "lldb/API/SBBreakpointName.h"
 #include "lldb/API/SBDebugger.h"
-#include "lldb/API/SBError.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBStringList.h"
-#include "lldb/API/SBStructuredData.h"
-#include "lldb/API/SBTarget.h"
 #include "lldb/Utility/Instrumentation.h"
 
-#include "lldb/Breakpoint/BreakpointName.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
-#include "lldb/Core/Debugger.h"
-#include "lldb/Core/StructuredDataImpl.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/ThreadSpec.h"
-#include "lldb/Utility/Stream.h"
 
 #include "SBBreakpointOptionCommon.h"
 

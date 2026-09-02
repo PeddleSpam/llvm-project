@@ -11,23 +11,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/TableGen/Attribute.h"
 #include "mlir/TableGen/CodeGenHelpers.h"
 #include "mlir/TableGen/EnumInfo.h"
-#include "mlir/TableGen/Format.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "mlir/TableGen/Operator.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 #include <list>

@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RequestHandler.h"
 
 namespace lldb_dap {

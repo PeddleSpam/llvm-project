@@ -7,17 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "RenamerClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "ASTUtils.h"
-#include "clang/AST/CXXInheritance.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/Basic/CharInfo.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/PPCallbacks.h"
 #include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/DenseMapInfo.h"
-#include "llvm/ADT/PointerIntPair.h"
-#include "llvm/ADT/ScopeExit.h"
 #include <optional>
 
 #define DEBUG_TYPE "clang-tidy"

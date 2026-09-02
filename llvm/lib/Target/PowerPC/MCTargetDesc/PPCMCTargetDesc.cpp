@@ -13,7 +13,6 @@
 #include "MCTargetDesc/PPCMCTargetDesc.h"
 #include "MCTargetDesc/PPCInstPrinter.h"
 #include "PPCELFStreamer.h"
-#include "PPCMCAsmInfo.h"
 #include "PPCTargetStreamer.h"
 #include "PPCXCOFFStreamer.h"
 #include "TargetInfo/PowerPCTargetInfo.h"

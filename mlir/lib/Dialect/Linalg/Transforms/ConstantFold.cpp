@@ -10,12 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/IR/Matchers.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Support/LLVM.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include <optional>
 
 using namespace mlir;

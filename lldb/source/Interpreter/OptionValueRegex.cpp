@@ -8,8 +8,6 @@
 
 #include "lldb/Interpreter/OptionValueRegex.h"
 
-#include "lldb/Interpreter/OptionValue.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

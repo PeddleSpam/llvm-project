@@ -6,7 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/LLVMIR/Transforms/Passes.h"
+#include "../../../../include/mlir/Dialect/LLVMIR/Transforms/AddComdats.h"
+#include "../../../../include/mlir/Dialect/LLVMIR/Transforms/LegalizeForExport.h"
+#include "../../../../include/mlir/Dialect/LLVMIR/Transforms/RequestCWrappers.h"
+#include "../../../../include/mlir/Pass/Pass.h"
 
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
 #include "llvm/BinaryFormat/Dwarf.h"

@@ -9,10 +9,6 @@
 #include "lldb/Target/InstrumentationRuntimeStopInfo.h"
 
 #include "lldb/Core/Module.h"
-#include "lldb/Target/InstrumentationRuntime.h"
-#include "lldb/Target/Process.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-private.h"
 
 using namespace lldb;
 using namespace lldb_private;

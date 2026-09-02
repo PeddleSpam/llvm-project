@@ -8,7 +8,6 @@
 
 #include "support/Function.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

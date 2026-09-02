@@ -8,16 +8,7 @@
 
 #include "mlir/Dialect/Affine/IR/AffineOps.h"
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/Attributes.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/Interfaces/TilingInterface.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVector.h"
 
 using namespace mlir;
 using namespace mlir::linalg;

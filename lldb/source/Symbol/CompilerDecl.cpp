@@ -6,10 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/CompilerDecl.h"
-#include "lldb/Symbol/CompilerDeclContext.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Utility/Scalar.h"
 
 using namespace lldb_private;
 

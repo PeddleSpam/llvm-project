@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Interfaces/SideEffectInterfaces.h"
-#include "mlir/Support/TypeID.h"
-#include "llvm/Support/Casting.h"
 #include <gtest/gtest.h>
 
 using namespace mlir;

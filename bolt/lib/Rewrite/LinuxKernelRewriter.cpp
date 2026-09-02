@@ -14,14 +14,8 @@
 #include "bolt/Rewrite/MetadataRewriter.h"
 #include "bolt/Rewrite/MetadataRewriters.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/DenseSet.h"
 #include "llvm/MC/MCDisassembler/MCDisassembler.h"
 #include "llvm/Support/BinaryStreamWriter.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/ErrorOr.h"
 #include <regex>
 
 #define DEBUG_TYPE "bolt-linux"

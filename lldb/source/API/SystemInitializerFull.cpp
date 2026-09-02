@@ -8,18 +8,11 @@
 
 #include "SystemInitializerFull.h"
 #include "lldb/API/SBCommandInterpreter.h"
-#include "lldb/API/SBDebugger.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Initialization/SystemInitializerCommon.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Target/ProcessTrace.h"
 #include "lldb/Utility/Timer.h"
 #include "lldb/Version/Version.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/TargetSelect.h"
 
 #if LLDB_ENABLE_PYTHON

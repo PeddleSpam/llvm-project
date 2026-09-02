@@ -7,20 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "CommandObjectDisassemble.h"
-#include "lldb/Core/AddressRange.h"
-#include "lldb/Core/Disassembler.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
-#include "lldb/Interpreter/Options.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
 #include <iterator>
 
 static constexpr unsigned default_disasm_byte_size = 32;

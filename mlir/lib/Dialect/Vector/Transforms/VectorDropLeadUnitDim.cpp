@@ -8,14 +8,7 @@
 
 #include <numeric>
 
-#include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "mlir/Dialect/Vector/IR/VectorOps.h"
-#include "mlir/Dialect/Vector/Transforms/VectorRewritePatterns.h"
 #include "mlir/Dialect/Vector/Transforms/VectorTransforms.h"
-#include "mlir/Dialect/Vector/Utils/VectorUtils.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/TypeUtilities.h"
-#include "llvm/ADT/STLExtras.h"
 
 #define DEBUG_TYPE "vector-drop-unit-dim"
 

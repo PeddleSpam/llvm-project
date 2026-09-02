@@ -14,10 +14,7 @@
 #include "mlir/Dialect/SPIRV/Transforms/Passes.h"
 
 #include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
 #include "mlir/Dialect/SPIRV/IR/TargetAndABI.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/Visitors.h"
 #include "llvm/ADT/StringExtras.h"
 #include <optional>
 

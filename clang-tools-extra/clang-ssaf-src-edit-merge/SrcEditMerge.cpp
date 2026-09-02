@@ -27,21 +27,8 @@
 
 #include "clang/Basic/Version.h"
 #include "clang/Tooling/ReplacementsYaml.h" // IWYU pragma: keep
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/ErrorOr.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <algorithm>
 #include <map>

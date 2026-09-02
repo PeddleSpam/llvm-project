@@ -10,7 +10,6 @@
 // run-time libraries.
 //===----------------------------------------------------------------------===//
 
-#include "sanitizer_mutex.h"
 
 #include "sanitizer_common.h"
 

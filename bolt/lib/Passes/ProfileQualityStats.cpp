@@ -11,10 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Passes/ProfileQualityStats.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryFunction.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/Support/CommandLine.h"
 #include <cmath>
 #include <queue>
 #include <unordered_map>

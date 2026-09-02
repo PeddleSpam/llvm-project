@@ -9,19 +9,11 @@
 #include "ProcessDebugger.h"
 
 // Windows includes
-#include "lldb/Host/windows/windows.h"
 #include <psapi.h>
 
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostNativeProcessBase.h"
-#include "lldb/Host/HostProcess.h"
-#include "lldb/Host/HostThread.h"
-#include "lldb/Host/ProcessLaunchInfo.h"
-#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Utility/FileSpec.h"
 #include "llvm/Support/ConvertUTF.h"
-#include "llvm/Support/Error.h"
 
 #include "DebuggerThread.h"
 #include "ExceptionRecord.h"

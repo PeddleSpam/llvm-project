@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/SymbolTable.h"
 #include <cassert>
 #include <mlir/Analysis/DataFlow/LivenessAnalysis.h>
 

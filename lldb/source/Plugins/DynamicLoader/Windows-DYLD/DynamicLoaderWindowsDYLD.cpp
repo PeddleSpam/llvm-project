@@ -11,16 +11,9 @@
 #include "MSVCRTCFrameRecognizer.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Target/ThreadPlanStepInstruction.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/TargetParser/Triple.h"
 
 using namespace lldb;
 using namespace lldb_private;

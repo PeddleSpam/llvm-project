@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestFS.h"
-#include "support/Path.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

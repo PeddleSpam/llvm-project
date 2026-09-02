@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 #include "mlir/Dialect/WasmSSA/IR/WasmSSA.h"
-#include "mlir/IR/DialectRegistry.h"
-#include "mlir/IR/OwningOpRef.h"
 #include "mlir/Target/Wasm/WasmImporter.h"
 #include "mlir/Tools/mlir-translate/Translation.h"
 

@@ -6,23 +6,16 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
 
 #include "Annotations.h"
-#include "ParsedAST.h"
 #include "TestTU.h"
-#include "index/Symbol.h"
 #include "clang/AST/ASTTypeTraits.h"
 #include "clang/AST/Attr.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
 #include "clang/AST/DeclTemplate.h"
-#include "clang/Basic/AttrKinds.h"
-#include "clang/Basic/SourceManager.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cstddef>
 #include <string>
 #include <vector>

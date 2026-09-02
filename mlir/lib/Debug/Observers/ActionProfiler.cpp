@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Debug/Observers/ActionProfiler.h"
-#include "mlir/Debug/BreakpointManager.h"
-#include "mlir/IR/Action.h"
 #include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 #include <chrono>
 
 using namespace mlir;

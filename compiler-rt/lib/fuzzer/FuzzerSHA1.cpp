@@ -16,7 +16,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "FuzzerSHA1.h"
-#include "FuzzerDefs.h"
 #include "FuzzerPlatform.h"
 
 /* This code is public-domain - it is based on libcrypt

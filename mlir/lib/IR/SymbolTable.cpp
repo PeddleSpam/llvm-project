@@ -9,7 +9,6 @@
 #include "mlir/IR/SymbolTable.h"
 #include "mlir/IR/Builders.h"
 #include "mlir/IR/OpImplementation.h"
-#include "llvm/ADT/SetVector.h"
 #include "llvm/ADT/SmallString.h"
 #include <optional>
 

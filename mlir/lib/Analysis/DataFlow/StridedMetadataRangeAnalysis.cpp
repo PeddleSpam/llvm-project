@@ -16,10 +16,7 @@
 #include "mlir/Analysis/DataFlow/StridedMetadataRangeAnalysis.h"
 #include "mlir/Analysis/DataFlow/IntegerRangeAnalysis.h"
 #include "mlir/Dialect/Utils/IndexingUtils.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Support/DebugStringHelper.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 
 #define DEBUG_TYPE "strided-metadata-range-analysis"

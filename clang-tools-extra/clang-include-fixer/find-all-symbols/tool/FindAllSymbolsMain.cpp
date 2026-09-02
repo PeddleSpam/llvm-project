@@ -6,26 +6,20 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/Support/YAMLParser.h"
+#include "../../../../llvm/include/llvm/Support/YAMLTraits.h"
+#include "../FindAllSymbols.h"
+#include "../HeaderMapCollector.h"
+#include "../PragmaCommentHandler.h"
 #include "FindAllSymbolsAction.h"
 #include "STLPostfixHeaderMap.h"
 #include "SymbolInfo.h"
 #include "SymbolReporter.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Frontend/FrontendActions.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Tooling/CommonOptionsParser.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/ThreadPool.h"
-#include "llvm/Support/raw_ostream.h"
 #include <map>
 #include <mutex>
 #include <set>

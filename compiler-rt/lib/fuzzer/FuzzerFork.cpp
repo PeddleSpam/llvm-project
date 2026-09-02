@@ -8,14 +8,10 @@
 // Spawn and orchestrate separate fuzzing processes.
 //===----------------------------------------------------------------------===//
 
-#include "FuzzerCommand.h"
 #include "FuzzerFork.h"
-#include "FuzzerIO.h"
 #include "FuzzerInternal.h"
 #include "FuzzerMerge.h"
-#include "FuzzerSHA1.h"
 #include "FuzzerTracePC.h"
-#include "FuzzerUtil.h"
 
 #include <atomic>
 #include <chrono>

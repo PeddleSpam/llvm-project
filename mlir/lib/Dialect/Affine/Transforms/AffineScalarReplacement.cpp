@@ -13,7 +13,6 @@
 
 #include "mlir/Dialect/Affine/Transforms/Passes.h"
 
-#include "mlir/Analysis/AliasAnalysis.h"
 #include "mlir/Dialect/Affine/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/IR/Dominance.h"

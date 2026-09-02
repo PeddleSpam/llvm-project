@@ -10,14 +10,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "polly/Support/ScopHelper.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
 #include "polly/Support/SCEVValidator.h"
-#include "llvm/Analysis/LoopInfo.h"
-#include "llvm/Analysis/RegionInfo.h"
-#include "llvm/Analysis/ScalarEvolution.h"
-#include "llvm/Analysis/ScalarEvolutionExpressions.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"
 #include "llvm/Transforms/Utils/LoopUtils.h"
 #include "llvm/Transforms/Utils/ScalarEvolutionExpander.h"

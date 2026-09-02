@@ -13,13 +13,7 @@
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Progress.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/lldb-private-enumerations.h"
-#include "lldb/lldb-types.h"
-#include "gtest/gtest.h"
 #include <iostream>
 #include <memory>
 #include <mutex>

@@ -8,7 +8,6 @@
 
 #include "NativeProcessELF.h"
 
-#include "lldb/Utility/DataExtractor.h"
 #include <optional>
 
 namespace lldb_private {

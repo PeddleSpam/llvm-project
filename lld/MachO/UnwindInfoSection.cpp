@@ -7,23 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "UnwindInfoSection.h"
-#include "InputSection.h"
 #include "Layout.h"
-#include "OutputSection.h"
-#include "OutputSegment.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "lld/Common/Memory.h"
-#include "llvm/ADT/DenseMap.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/BinaryFormat/MachO.h"
 #include "llvm/Support/Parallel.h"
 
-#include "mach-o/compact_unwind_encoding.h"
 
 #include <numeric>
 

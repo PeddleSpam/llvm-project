@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Linalg/Transforms/Transforms.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir;
 using namespace mlir::linalg;

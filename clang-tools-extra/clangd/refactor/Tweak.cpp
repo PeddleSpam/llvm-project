@@ -6,16 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 #include "Tweak.h"
-#include "FeatureModule.h"
-#include "SourceCode.h"
-#include "index/Index.h"
 #include "support/Logger.h"
 #include "support/Path.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringMap.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/Registry.h"
 #include <functional>
 #include <memory>
 #include <utility>

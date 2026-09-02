@@ -10,9 +10,7 @@
 #include "Plugins/Process/Utility/lldb-arm-register-enums.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "llvm/Support/Endian.h"
 
 #if defined(__FreeBSD__) && defined(__arm__)
 #include <machine/frame.h>

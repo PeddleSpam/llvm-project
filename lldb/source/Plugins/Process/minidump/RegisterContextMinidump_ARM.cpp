@@ -12,8 +12,6 @@
 #include "Utility/ARM_ehframe_Registers.h"
 #include "lldb/Utility/RegisterValue.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/lldb-enumerations.h"
 
 // C includes
 #include <cassert>

@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "../../include/clang/Basic/DiagnosticSerialization.h"
 #include "clang/Basic/AtomicLineLogger.h"
 #include "clang/Basic/DiagnosticFrontend.h"
 #include "clang/Basic/Stack.h"

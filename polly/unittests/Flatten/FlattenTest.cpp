@@ -9,7 +9,6 @@
 #include "polly/FlattenAlgo.h"
 #include "polly/Support/GICHelper.h"
 #include "gtest/gtest.h"
-#include "isl/union_map.h"
 
 using namespace llvm;
 using namespace polly;

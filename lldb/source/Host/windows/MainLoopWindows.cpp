@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/windows/MainLoopWindows.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Host/Socket.h"
-#include "lldb/Host/windows/windows.h"
-#include "lldb/Utility/Status.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/WindowsError.h"
 #include <algorithm>
 #include <atomic>

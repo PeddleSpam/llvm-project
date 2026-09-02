@@ -8,11 +8,6 @@
 
 #include "CollectMacros.h"
 #include "AST.h"
-#include "Protocol.h"
-#include "SourceCode.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/STLExtras.h"
 #include <cstddef>
 
 namespace clang {

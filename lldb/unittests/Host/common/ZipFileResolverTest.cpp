@@ -9,7 +9,6 @@
 #include "lldb/Host/common/ZipFileResolver.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace llvm;

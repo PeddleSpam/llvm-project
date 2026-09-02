@@ -6,11 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 #include "ChangeNamespace.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/Format/Format.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorHandling.h"
 
 using namespace clang::ast_matchers;
 

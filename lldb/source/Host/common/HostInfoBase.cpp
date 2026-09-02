@@ -6,24 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Config.h"
 
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Host/HostInfoBase.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/StreamString.h"
 
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/ScopedPrinter.h"
-#include "llvm/Support/Threading.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Host.h"
-#include "llvm/TargetParser/Triple.h"
 
 #include <mutex>
 #include <optional>

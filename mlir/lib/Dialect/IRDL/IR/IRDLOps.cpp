@@ -8,7 +8,6 @@
 
 #include "mlir/Dialect/IRDL/IR/IRDL.h"
 #include "mlir/Dialect/IRDL/IRDLSymbols.h"
-#include "mlir/IR/ValueRange.h"
 #include <optional>
 
 using namespace mlir;

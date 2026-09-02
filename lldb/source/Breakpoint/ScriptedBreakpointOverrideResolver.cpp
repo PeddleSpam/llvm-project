@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Breakpoint/ScriptedBreakpointOverrideResolver.h"
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointResolverScripted.h"
 
 namespace lldb_private {

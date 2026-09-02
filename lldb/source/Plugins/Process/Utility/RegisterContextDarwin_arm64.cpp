@@ -10,15 +10,8 @@
 #include "RegisterContextDarwinConstants.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Endian.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Compiler.h"
 
 #include "Plugins/Process/Utility/InstructionUtils.h"
 
@@ -29,7 +22,6 @@
 #include <sys/sysctl.h>
 #endif
 
-#include "Utility/ARM64_DWARF_Registers.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -9,15 +9,9 @@
 #include "Serialize.h"
 #include "BitcodeWriter.h"
 
-#include "clang/AST/Attr.h"
-#include "clang/AST/Comment.h"
 #include "clang/AST/CommentVisitor.h"
-#include "clang/AST/DeclFriend.h"
-#include "clang/AST/ExprConcepts.h"
 #include "clang/AST/Mangle.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/SHA1.h"
 
 using clang::comments::FullComment;

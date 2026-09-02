@@ -14,12 +14,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "SymbolTable.h"
-#include "Config.h"
 #include "InputFiles.h"
-#include "Symbols.h"
-#include "lld/Common/Memory.h"
 #include "lld/Common/Strings.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Demangle/Demangle.h"
 
 using namespace llvm;

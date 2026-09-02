@@ -7,12 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "UseTrailingReturnTypeCheck.h"
-#include "clang/AST/ASTContext.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Lex/Preprocessor.h"
 #include "clang/Tooling/FixIt.h"
-#include "llvm/ADT/StringExtras.h"
 
 #include <optional>
 

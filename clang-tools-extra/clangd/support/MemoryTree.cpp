@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "support/MemoryTree.h"
-#include "Trace.h"
-#include "llvm/ADT/StringRef.h"
 #include <cstddef>
 
 namespace clang {

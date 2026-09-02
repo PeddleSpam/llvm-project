@@ -10,21 +10,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "bolt/Core/DebugData.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/DIEBuilder.h"
 #include "bolt/Utils/Utils.h"
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/CodeGen/DIE.h"
 #include "llvm/DebugInfo/DWARF/DWARFCompileUnit.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugAbbrev.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugAddr.h"
 #include "llvm/MC/MCAssembler.h"
-#include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCObjectStreamer.h"
 #include "llvm/Support/CommandLine.h"
-#include "llvm/Support/EndianStream.h"
-#include "llvm/Support/LEB128.h"
 #include "llvm/Support/SHA1.h"
 #include <algorithm>
 #include <cassert>

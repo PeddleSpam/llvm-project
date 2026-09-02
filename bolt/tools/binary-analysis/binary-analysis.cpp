@@ -14,11 +14,6 @@
 
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/MC/TargetRegistry.h"
-#include "llvm/Object/Binary.h"
-#include "llvm/Object/ELFObjectFile.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Errc.h"
 #include "llvm/Support/ManagedStatic.h"
 #include "llvm/Support/PrettyStackTrace.h"
 #include "llvm/Support/Program.h"

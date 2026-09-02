@@ -8,9 +8,6 @@
 
 #include "Protocol/ProtocolEvents.h"
 #include "JSONUtils.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/ErrorHandling.h"
-#include "llvm/Support/JSON.h"
 
 using namespace llvm;
 

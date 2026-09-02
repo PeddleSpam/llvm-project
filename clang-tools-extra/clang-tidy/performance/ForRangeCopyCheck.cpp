@@ -7,12 +7,16 @@
 //===----------------------------------------------------------------------===//
 
 #include "ForRangeCopyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/FixItHintUtils.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
 #include "../utils/TypeTraits.h"
 #include "clang/Analysis/Analyses/ExprMutationAnalyzer.h"
-#include "clang/Basic/Diagnostic.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

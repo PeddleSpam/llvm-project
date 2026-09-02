@@ -13,15 +13,9 @@
 
 #include "TypeDetail.h"
 
-#include "mlir/Dialect/LLVMIR/LLVMAttrs.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/BuiltinTypes.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/TypeSupport.h"
 
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/TypeSize.h"
 #include <optional>
 
 using namespace mlir;

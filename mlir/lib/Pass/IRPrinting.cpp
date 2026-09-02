@@ -8,12 +8,9 @@
 
 #include "PassDetail.h"
 #include "mlir/IR/SymbolTable.h"
-#include "mlir/Pass/PassManager.h"
 #include "mlir/Support/FileUtilities.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/ToolOutputFile.h"
 

@@ -8,11 +8,7 @@
 
 #include "CoreMedia.h"
 
-#include "lldb/Utility/Flags.h"
-#include "lldb/Utility/Log.h"
 
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Target/Target.h"
 #include <cinttypes>
 
 using namespace lldb;

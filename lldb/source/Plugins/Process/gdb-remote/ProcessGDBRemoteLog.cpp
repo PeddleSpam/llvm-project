@@ -8,7 +8,6 @@
 
 #include "ProcessGDBRemoteLog.h"
 #include "ProcessGDBRemote.h"
-#include "llvm/Support/Threading.h"
 
 using namespace lldb;
 using namespace lldb_private;

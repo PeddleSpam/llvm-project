@@ -11,21 +11,13 @@
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/PluginInterface.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Expression/UserExpression.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/InstrumentationRuntimeStopInfo.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/RegularExpression.h"
 #include "lldb/ValueObject/ValueObject.h"
 
 #include "Plugins/InstrumentationRuntime/Utility/Utility.h"
 
-#include "llvm/ADT/StringSwitch.h"
 
 using namespace lldb;
 using namespace lldb_private;

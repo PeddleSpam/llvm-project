@@ -13,7 +13,6 @@
 #include "bolt/Passes/JTFootprintReduction.h"
 #include "bolt/Core/BinaryFunctionCallGraph.h"
 #include "bolt/Passes/DataflowInfoManager.h"
-#include "llvm/Support/CommandLine.h"
 
 #define DEBUG_TYPE "JT"
 

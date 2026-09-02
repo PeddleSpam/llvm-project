@@ -9,20 +9,10 @@
 #include "AnalysisInternal.h"
 #include "TypesInternal.h"
 #include "clang-include-cleaner/Analysis.h"
-#include "clang-include-cleaner/Record.h"
-#include "clang-include-cleaner/Types.h"
-#include "clang/AST/Expr.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/Basic/FileEntry.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/LLVM.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Testing/TestAST.h"
-#include "clang/Tooling/Inclusions/StandardLibrary.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <cassert>
 #include <memory>
 

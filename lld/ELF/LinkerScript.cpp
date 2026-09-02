@@ -10,23 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "LinkerScript.h"
-#include "Config.h"
-#include "InputFiles.h"
-#include "InputSection.h"
 #include "OutputSections.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "Target.h"
-#include "Writer.h"
-#include "lld/Common/CommonLinkerContext.h"
-#include "lld/Common/Strings.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/TimeProfiler.h"
 #include <algorithm>
 #include <cassert>

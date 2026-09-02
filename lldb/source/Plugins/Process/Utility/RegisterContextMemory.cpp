@@ -9,10 +9,8 @@
 #include "RegisterContextMemory.h"
 
 #include "lldb/Target/Process.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Utility/DataBufferHeap.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Status.h"
 
 using namespace lldb;
 using namespace lldb_private;

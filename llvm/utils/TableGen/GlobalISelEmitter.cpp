@@ -30,9 +30,7 @@
 ///
 //===----------------------------------------------------------------------===//
 
-#include "Common/CodeGenInstruction.h"
 #include "Common/CodeGenRegisters.h"
-#include "Common/CodeGenTarget.h"
 #include "Common/GlobalISel/GlobalISelMatchTableExecutorEmitter.h"
 #include "Common/GlobalISel/MatchTable/Matchers.h"
 #include "Common/InfoByHwMode.h"

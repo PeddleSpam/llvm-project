@@ -8,9 +8,7 @@
 
 #include "mlir/Dialect/Transform/IRDLExtension/IRDLExtension.h"
 #include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/Dialect/Transform/IR/TransformDialect.h"
 #include "mlir/Dialect/Transform/IRDLExtension/IRDLExtensionOps.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 

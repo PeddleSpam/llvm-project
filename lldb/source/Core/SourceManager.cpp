@@ -6,34 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/SourceManager.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/FormatEntity.h"
 #include "lldb/Core/Highlighter.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/LineEntry.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Target/PathMappingList.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/SupportFile.h"
-#include "lldb/lldb-enumerations.h"
 
-#include "llvm/ADT/Twine.h"
 
 #include <future>
 #include <memory>

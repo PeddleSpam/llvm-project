@@ -6,28 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/SymbolContext.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/DemangledNameInfo.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Host/Host.h"
-#include "lldb/Symbol/Block.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Symbol/SymbolVendor.h"
 #include "lldb/Symbol/Variable.h"
 #include "lldb/Target/Language.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-enumerations.h"
 
 using namespace lldb;
 using namespace lldb_private;

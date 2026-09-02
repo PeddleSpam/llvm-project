@@ -30,17 +30,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "AST.h"
-#include "Selection.h"
 #include "refactor/Tweak.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/Stmt.h"
-#include "clang/AST/Type.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/MapVector.h"
-#include "llvm/ADT/STLExtras.h"
 #include <cassert>
 #include <string>
 

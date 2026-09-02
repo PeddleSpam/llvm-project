@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Tensor/Extensions/ShardingExtensions.h"
-#include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
 #include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 using namespace mlir::tensor;

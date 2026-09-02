@@ -6,9 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../include/lldb/lldb-private-interfaces.h"
+#include "../../include/lldb/lldb-private-types.h"
 #include "lldb/Target/JITLoader.h"
-#include "lldb/Target/JITLoaderList.h"
-#include "lldb/lldb-private.h"
 
 using namespace lldb;
 using namespace lldb_private;

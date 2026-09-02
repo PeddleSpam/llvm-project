@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "MemoryTagManagerAArch64MTE.h"
-#include "llvm/Support/Error.h"
 #include <assert.h>
 
 using namespace lldb_private;

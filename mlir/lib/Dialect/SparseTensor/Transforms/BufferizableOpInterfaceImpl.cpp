@@ -14,8 +14,6 @@
 
 #include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/SparseTensor/IR/SparseTensor.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/PatternMatch.h"
 
 using namespace mlir::bufferization;
 using namespace mlir::sparse_tensor;

@@ -8,7 +8,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "PathConfig.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/Path.h"
 
 namespace clang {

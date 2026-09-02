@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "ValueMatcher.h"
-#include "llvm/Support/Format.h"
 #include "llvm/Support/InterleavedRange.h"
-#include "llvm/Support/raw_os_ostream.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 

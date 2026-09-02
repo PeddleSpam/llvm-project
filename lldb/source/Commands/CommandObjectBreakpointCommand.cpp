@@ -8,17 +8,13 @@
 
 #include "CommandObjectBreakpointCommand.h"
 #include "CommandObjectBreakpoint.h"
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointIDList.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Core/IOHandler.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionArgParser.h"
 #include "lldb/Interpreter/OptionGroupPythonClassWithDict.h"
-#include "lldb/Target/Target.h"
 
 using namespace lldb;
 using namespace lldb_private;

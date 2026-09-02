@@ -10,12 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 
 #include "SPIRVOpUtils.h"
 #include "SPIRVParsingUtils.h"
 
-#include "llvm/ADT/TypeSwitch.h"
 
 using namespace mlir::spirv::AttrNames;
 

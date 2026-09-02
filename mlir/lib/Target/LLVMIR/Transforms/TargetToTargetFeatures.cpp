@@ -8,7 +8,6 @@
 
 #include "mlir/Target/LLVMIR/Transforms/Passes.h"
 #include "mlir/Target/LLVMIR/Transforms/TargetUtils.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #include "mlir/Dialect/DLTI/DLTI.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"

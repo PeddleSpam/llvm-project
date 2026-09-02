@@ -12,7 +12,6 @@
 
 #include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/InferIntDivisibilityOpInterface.h"
 
 #include <cstdlib>
 

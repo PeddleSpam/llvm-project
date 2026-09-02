@@ -20,13 +20,9 @@
 
 #include "MapFile.h"
 #include "InputElement.h"
-#include "InputFiles.h"
-#include "OutputSections.h"
 #include "OutputSegment.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "llvm/Support/Parallel.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace llvm;
 using namespace llvm::object;

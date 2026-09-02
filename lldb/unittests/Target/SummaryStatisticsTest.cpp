@@ -1,11 +1,7 @@
-#include "lldb/DataFormatters/TypeSummary.h"
+#include "../../include/lldb/lldb-private-interfaces.h"
+#include "../../include/lldb/lldb-private-types.h"
 #include "lldb/Target/Statistics.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/lldb-forward.h"
-#include "lldb/lldb-private-enumerations.h"
-#include "lldb/lldb-private.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <thread>
 
 using namespace lldb_private;

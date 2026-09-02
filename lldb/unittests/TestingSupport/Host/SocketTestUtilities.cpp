@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport/Host/SocketTestUtilities.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Utility/StreamString.h"
 
 #ifdef _WIN32

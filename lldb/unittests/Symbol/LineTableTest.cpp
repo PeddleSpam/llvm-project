@@ -12,7 +12,6 @@
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Symbol/CompileUnit.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 using namespace lldb;

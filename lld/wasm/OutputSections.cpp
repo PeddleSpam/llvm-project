@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "OutputSections.h"
-#include "InputChunks.h"
 #include "InputElement.h"
-#include "InputFiles.h"
 #include "OutputSegment.h"
-#include "WriterUtils.h"
-#include "lld/Common/ErrorHandler.h"
 #include "lld/Common/Memory.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/LEB128.h"
 
 #define DEBUG_TYPE "lld"

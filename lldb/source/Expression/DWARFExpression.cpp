@@ -13,7 +13,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Expression/DWARFExpression.h"
 
 #include <cinttypes>
 #include <limits>
@@ -22,29 +21,16 @@
 #include <vector>
 
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Value.h"
 #include "lldb/Utility/DataEncoder.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/StreamString.h"
 
-#include "lldb/Host/Host.h"
-#include "lldb/Utility/Endian.h"
 
 #include "lldb/Symbol/Function.h"
 
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/StackID.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "llvm/DebugInfo/DWARF/DWARFExpressionPrinter.h"
-#include "llvm/DebugInfo/DWARF/LowLevel/DWARFExpression.h"
 #include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;

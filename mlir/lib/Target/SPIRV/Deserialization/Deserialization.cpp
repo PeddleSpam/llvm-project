@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Target/SPIRV/Deserialization.h"
 
 #include "Deserializer.h"
 

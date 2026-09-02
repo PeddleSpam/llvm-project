@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Core/PluginManager.h"
 #include "lldb/Expression/UtilityFunction.h"
-#include "lldb/Symbol/CompilerType.h"
 #include "lldb/Target/Language.h"
 
-#include "llvm/ADT/DenseSet.h"
 #include <optional>
 
 using namespace lldb_private;

@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/lldb-types.h"
 
 #include "lldb/Utility/Instrumentation.h"
 

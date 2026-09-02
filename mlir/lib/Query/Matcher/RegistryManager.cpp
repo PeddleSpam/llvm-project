@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "RegistryManager.h"
-#include "mlir/Query/Matcher/Registry.h"
 
 #include <set>
 #include <utility>

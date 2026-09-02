@@ -14,7 +14,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Tools/mlir-reduce/MlirReduceMain.h"
-#include "mlir/Parser/Parser.h"
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Reducer/Passes.h"
 #include "mlir/Support/FileUtilities.h"

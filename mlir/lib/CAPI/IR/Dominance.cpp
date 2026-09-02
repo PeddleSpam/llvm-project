@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir-c/Dominance.h"
 #include "mlir/CAPI/Dominance.h"
 #include "mlir/CAPI/IR.h"
 

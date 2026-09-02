@@ -7,9 +7,6 @@
 //===---------------------------------------------------------------------===//
 
 #include "RegisterInfoPOSIX_riscv64.h"
-#include "lldb/Utility/Flags.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/Support/Compiler.h"
 
 #include <cassert>
 #include <stddef.h>

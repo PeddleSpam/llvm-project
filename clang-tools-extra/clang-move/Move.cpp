@@ -7,17 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "Move.h"
-#include "HelperDeclRefGraph.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/Format/Format.h"
-#include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/Lexer.h"
-#include "clang/Lex/Preprocessor.h"
 #include "clang/Rewrite/Core/Rewriter.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/Support/Debug.h"
-#include "llvm/Support/Path.h"
 
 #define DEBUG_TYPE "clang-move"
 

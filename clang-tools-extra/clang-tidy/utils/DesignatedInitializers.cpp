@@ -12,7 +12,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "DesignatedInitializers.h"
-#include "clang/AST/DeclCXX.h"
 #include "clang/AST/Type.h"
 #include "llvm/ADT/ScopeExit.h"
 

@@ -7,14 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "../Target.h"
-#include "../../../../include/llvm/ADT/PackedVector.h"
-#include "../../../../include/llvm/CodeGen/MachineModuleInfo.h"
-#include "../../../../include/llvm/CodeGen/TargetPassConfig.h"
-#include "../../../../include/llvm/ExecutionEngine/Orc/LLJIT.h"
-#include "../../../../include/llvm/IR/LegacyPassManager.h"
-#include "../../../../include/llvm/MC/MCAsmInfo.h"
-#include "../../../../include/llvm/MC/MCInstBuilder.h"
-#include "../../../../include/llvm/Support/YAMLTraits.h"
 #include "../BenchmarkResult.h"
 #include "../BenchmarkRunner.h"
 #include "../Error.h"

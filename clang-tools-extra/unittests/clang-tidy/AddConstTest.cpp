@@ -1,9 +1,5 @@
 #include "../clang-tidy/utils/FixItHintUtils.h"
-#include "ClangTidyDiagnosticConsumer.h"
 #include "ClangTidyTest.h"
-#include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
-#include "clang/Tooling/Tooling.h"
 #include "gtest/gtest.h"
 #include <optional>
 

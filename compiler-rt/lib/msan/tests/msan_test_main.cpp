@@ -9,8 +9,8 @@
 // This file is a part of MemorySanitizer.
 //
 //===----------------------------------------------------------------------===//
+#include "../../../../third-party/unittest/googletest/include/gtest/gtest.h"
 #ifndef MSAN_EXTERNAL_TEST_CONFIG
-#include "msan_test_config.h"
 #endif // MSAN_EXTERNAL_TEST_CONFIG
 
 int main(int argc, char **argv) {

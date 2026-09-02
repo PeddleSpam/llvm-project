@@ -8,22 +8,11 @@
 
 #include "mlir/Dialect/ControlFlow/IR/ControlFlowOps.h"
 #include "mlir/Dialect/EmitC/IR/EmitC.h"
-#include "mlir/Dialect/EmitC/IR/EmitCInterfaces.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/SymbolTable.h"
-#include "mlir/IR/Value.h"
 #include "mlir/Support/IndentedOstream.h"
-#include "mlir/Support/LLVM.h"
 #include "mlir/Target/Cpp/CppEmitter.h"
 #include "llvm/ADT/ScopedHashTable.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/FormatVariadic.h"
 #include <stack>
 

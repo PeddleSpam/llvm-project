@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/JSONExporter.h"
-#include "polly/DependenceInfo.h"
 #include "polly/Options.h"
 #include "polly/ScopInfo.h"
 #include "polly/Support/ISLTools.h"
@@ -22,9 +21,6 @@
 #include "llvm/Support/JSON.h"
 #include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/ToolOutputFile.h"
-#include "llvm/Support/raw_ostream.h"
-#include "isl/map.h"
-#include "isl/set.h"
 #include <memory>
 #include <string>
 #include <system_error>

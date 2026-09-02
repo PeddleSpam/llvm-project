@@ -9,15 +9,10 @@
 #include "lldb/Breakpoint/BreakpointResolverFileLine.h"
 
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Core/Module.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
 #include "lldb/Symbol/SymbolFile.h"
 #include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/RealpathPrefixes.h"
-#include "lldb/Utility/StreamString.h"
 #include <optional>
 
 using namespace lldb;

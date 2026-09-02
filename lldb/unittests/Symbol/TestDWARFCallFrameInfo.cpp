@@ -7,8 +7,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "Plugins/ObjectFile/ELF/ObjectFileELF.h"
 #include "Plugins/Process/Utility/RegisterContext_x86.h"
@@ -16,19 +14,11 @@
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Symbol/DWARFCallFrameInfo.h"
-#include "lldb/Utility/StreamString.h"
-#include "llvm/Testing/Support/Error.h"
 
 #include "llvm/Support/FileUtilities.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Program.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace lldb_private;
 using namespace lldb;

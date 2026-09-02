@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 #include "ConfigFragment.h"
 #include "support/Logger.h"
-#include "llvm/ADT/FunctionExtras.h"
 #include "llvm/ADT/SmallSet.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/YAMLParser.h"
 #include <optional>
 #include <string>

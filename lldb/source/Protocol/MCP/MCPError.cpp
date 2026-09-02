@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Protocol/MCP/MCPError.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include <system_error>
 
 using namespace lldb_protocol::mcp;

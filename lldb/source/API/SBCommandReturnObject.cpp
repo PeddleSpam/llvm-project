@@ -6,22 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/API/SBCommandReturnObject.h"
 #include "SBCommandReturnObjectImpl.h"
 #include "Utils.h"
-#include "lldb/API/SBError.h"
 #include "lldb/API/SBFile.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBStructuredData.h"
-#include "lldb/API/SBValue.h"
-#include "lldb/API/SBValueList.h"
 #include "lldb/Core/StructuredDataImpl.h"
-#include "lldb/Host/File.h"
 #include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/Instrumentation.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-forward.h"
 
 using namespace lldb;
 using namespace lldb_private;

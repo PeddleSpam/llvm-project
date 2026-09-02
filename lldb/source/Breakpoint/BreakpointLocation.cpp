@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Breakpoint/BreakpointID.h"
-#include "lldb/Breakpoint/BreakpointResolver.h"
 #include "lldb/Breakpoint/BreakpointResolverScripted.h"
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
 #include "lldb/Core/Debugger.h"
@@ -17,16 +15,6 @@
 #include "lldb/Expression/ExpressionVariable.h"
 #include "lldb/Expression/UserExpression.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadSpec.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/ValueObject/ValueObject.h"
 
 using namespace lldb;
 using namespace lldb_private;

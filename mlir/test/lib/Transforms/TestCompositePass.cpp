@@ -10,11 +10,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/Pass/Pass.h"
-#include "mlir/Pass/PassManager.h"
-#include "mlir/Pass/PassRegistry.h"
 #include "mlir/Transforms/Passes.h"
 
 using namespace mlir;

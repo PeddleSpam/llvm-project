@@ -7,17 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/StackFrameRecognizer.h"
-#include "lldb/Core/Architecture.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Interpreter/Interfaces/ScriptedStackFrameRecognizerInterface.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/ScriptedMetadata.h"
-#include "llvm/Support/FormatVariadic.h"
 
 using namespace lldb;
 using namespace lldb_private;

@@ -11,7 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/GPU/Utils/GPUUtils.h"
-#include "llvm/Support/ErrorHandling.h"
 
 namespace mlir::gpu {
 

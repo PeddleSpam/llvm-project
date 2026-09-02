@@ -6,13 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "EventHelper.h"
-#include "JSONUtils.h"
-#include "Protocol/ProtocolEvents.h"
 #include "RequestHandler.h"
 #include "lldb/API/SBMemoryRegionInfo.h"
-#include "llvm/ADT/StringExtras.h"
 #include "llvm/Support/Base64.h"
 
 using namespace lldb_dap::protocol;

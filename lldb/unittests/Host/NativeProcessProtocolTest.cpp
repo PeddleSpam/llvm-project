@@ -8,10 +8,7 @@
 
 #include "TestingSupport/Host/NativeProcessTestUtils.h"
 
-#include "lldb/Host/common/NativeProcessProtocol.h"
 #include "llvm/Support/Process.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
 
 using namespace lldb_private;
 using namespace lldb;

@@ -10,7 +10,6 @@
 #include "gtest/gtest.h"
 
 #include "lldb/Target/UnixSignals.h"
-#include "llvm/Support/FormatVariadic.h"
 
 using namespace lldb;
 using namespace lldb_private;

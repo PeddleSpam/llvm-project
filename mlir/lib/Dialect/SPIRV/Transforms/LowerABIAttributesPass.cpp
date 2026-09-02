@@ -13,15 +13,9 @@
 
 #include "mlir/Dialect/SPIRV/Transforms/Passes.h"
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVAttributes.h"
 #include "mlir/Dialect/SPIRV/IR/SPIRVDialect.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
-#include "mlir/Dialect/SPIRV/IR/TargetAndABI.h"
 #include "mlir/Dialect/SPIRV/Transforms/SPIRVConversion.h"
 #include "mlir/Dialect/SPIRV/Utils/LayoutUtils.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/Transforms/DialectConversion.h"
 #include "llvm/Support/FormatVariadic.h"
 
 namespace mlir {

@@ -9,8 +9,6 @@
 #include "gtest/gtest.h"
 
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/MLIRContext.h"
 #include "llvm/Support/CrashRecoveryContext.h"
 #include <thread>
 

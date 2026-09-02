@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Index.h"
-#include "llvm/ADT/StringRef.h"
 #include <limits>
 
 namespace clang {

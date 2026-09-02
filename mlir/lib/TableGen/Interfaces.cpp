@@ -9,7 +9,6 @@
 #include "mlir/TableGen/Interfaces.h"
 #include "llvm/ADT/FunctionExtras.h"
 #include "llvm/ADT/StringSet.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/TableGen/Error.h"
 #include "llvm/TableGen/Record.h"
 #include <utility>

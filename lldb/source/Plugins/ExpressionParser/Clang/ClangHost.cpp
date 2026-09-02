@@ -9,20 +9,21 @@
 #include "ClangHost.h"
 
 #include "clang/Basic/Version.h"
-#include "clang/Config/config.h"
 #include "clang/Options/OptionUtils.h"
 
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Threading.h"
 
-#include "lldb/Host/Config.h"
+#include "../../../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../../../clang/include/clang/Basic/Diagnostic.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticCategories.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticOptions.h"
+#include "../../../../../clang/include/clang/Basic/DirectoryEntry.h"
+#include "../../../../../clang/include/clang/Basic/FileEntry.h"
+#include "../../../../../clang/include/clang/Basic/Specifiers.h"
+#include "../../../../../llvm/include/llvm/Option/OptSpecifier.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include <string>
 

@@ -7,9 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Core/RichManglingContext.h"
-#include "lldb/Utility/LLDBLog.h"
 
-#include "llvm/ADT/StringRef.h"
 
 using namespace lldb;
 using namespace lldb_private;

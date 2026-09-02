@@ -9,8 +9,6 @@
 #include "PragmaCommentHandler.h"
 #include "FindAllSymbols.h"
 #include "HeaderMapCollector.h"
-#include "clang/Lex/Preprocessor.h"
-#include "llvm/Support/Regex.h"
 
 namespace clang {
 namespace find_all_symbols {

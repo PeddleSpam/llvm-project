@@ -10,7 +10,6 @@
 
 #include "mlir/IR/AsmState.h"
 #include "mlir/IR/Builders.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Support/FileUtilities.h"
 #include "llvm/Support/FileSystem.h"

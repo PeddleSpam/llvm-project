@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "lldb/Target/DynamicRegisterInfo.h"
 #include "lldb/Utility/ArchSpec.h"

@@ -7,8 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Interpreter/OptionValueFileColonLine.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Status.h"
 #include "gtest/gtest.h"
 
 using namespace lldb_private;

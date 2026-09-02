@@ -8,9 +8,6 @@
 
 #include "Plugins/Platform/Android/AdbClient.h"
 #include "TestingSupport/Host/SocketTestUtilities.h"
-#include "lldb/Host/Socket.h"
-#include "lldb/Host/common/TCPSocket.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #include <cstdlib>
 

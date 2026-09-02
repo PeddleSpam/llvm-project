@@ -6,9 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
-#include "mlir/Dialect/LLVMIR/ROCDLDialect.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/InitAllDialects.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Target/LLVM/ROCDL/Target.h"
@@ -21,10 +18,8 @@
 #include "llvm/Config/Targets.h"
 #include "llvm/IRReader/IRReader.h"
 #include "llvm/Support/FileSystem.h"
-#include "llvm/Support/MemoryBufferRef.h"
 #include "llvm/Support/Path.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Host.h"
 
 #include "gmock/gmock.h"

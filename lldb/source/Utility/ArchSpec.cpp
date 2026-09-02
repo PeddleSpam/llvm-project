@@ -9,16 +9,10 @@
 #include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
 
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StringList.h"
-#include "lldb/lldb-defines.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "llvm/BinaryFormat/COFF.h"
 #include "llvm/BinaryFormat/ELF.h"
 #include "llvm/BinaryFormat/MachO.h"
 #include "llvm/BinaryFormat/XCOFF.h"
-#include "llvm/Support/Compiler.h"
 #include "llvm/TargetParser/ARMTargetParser.h"
 
 using namespace lldb;

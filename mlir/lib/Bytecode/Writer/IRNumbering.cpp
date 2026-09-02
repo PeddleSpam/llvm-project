@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "IRNumbering.h"
-#include "mlir/Bytecode/BytecodeImplementation.h"
 #include "mlir/Bytecode/BytecodeOpInterface.h"
 #include "mlir/Bytecode/BytecodeWriter.h"
 #include "mlir/Bytecode/Encoding.h"
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/Location.h"
-#include "mlir/IR/OpDefinition.h"
 
 using namespace mlir;
 using namespace mlir::bytecode::detail;

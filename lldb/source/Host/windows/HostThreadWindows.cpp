@@ -6,12 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Utility/Status.h"
 
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/windows.h"
 
-#include "llvm/ADT/STLExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

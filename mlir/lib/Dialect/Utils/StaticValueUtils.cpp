@@ -7,14 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/Attributes.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Support/LLVM.h"
 #include "llvm/ADT/APSInt.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 #include "llvm/Support/DebugLog.h"
-#include "llvm/Support/MathExtras.h"
 
 namespace mlir {
 

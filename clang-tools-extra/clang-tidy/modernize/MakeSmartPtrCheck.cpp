@@ -7,9 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "MakeSmartPtrCheck.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeSorter.h"
 #include "../utils/TypeTraits.h"
 #include "clang/Frontend/CompilerInstance.h"
-#include "clang/Lex/Lexer.h"
 #include "clang/Lex/Preprocessor.h"
 
 using namespace clang::ast_matchers;

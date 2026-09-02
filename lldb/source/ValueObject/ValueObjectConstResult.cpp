@@ -8,14 +8,6 @@
 
 #include "lldb/ValueObject/ValueObjectConstResult.h"
 
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/ExecutionContextScope.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Scalar.h"
 #include "lldb/ValueObject/ValueObjectDynamicValue.h"
 #include <optional>
 

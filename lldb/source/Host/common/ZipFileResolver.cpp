@@ -8,8 +8,6 @@
 
 #include "lldb/Host/common/ZipFileResolver.h"
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/FileSpec.h"
 #include "lldb/Utility/ZipFile.h"
 
 using namespace lldb_private;

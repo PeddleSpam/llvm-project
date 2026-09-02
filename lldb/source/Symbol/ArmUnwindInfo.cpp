@@ -9,12 +9,9 @@
 #include <vector>
 
 #include "Utility/ARM_DWARF_Registers.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Symbol/ArmUnwindInfo.h"
 #include "lldb/Symbol/SymbolVendor.h"
 #include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/Endian.h"
 
 /*
  * Unwind information reader and parser for the ARM exception handling ABI

@@ -11,9 +11,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/TosaToSPIRVTosa/TosaToSPIRVTosa.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
-#include "mlir/Transforms/DialectConversion.h"
 
 #define DEBUG_TYPE "tosa-to-spirv-tosa-ops-pattern"
 

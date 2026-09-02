@@ -8,8 +8,6 @@
 
 #include "Generic.h"
 #include "lldb/DataFormatters/FormattersHelpers.h"
-#include "lldb/DataFormatters/TypeSynthetic.h"
-#include "llvm/Support/ErrorExtras.h"
 
 using namespace lldb;
 using namespace lldb_private;

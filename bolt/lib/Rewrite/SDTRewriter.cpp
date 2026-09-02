@@ -12,12 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/DebugData.h"
 #include "bolt/Rewrite/MetadataRewriter.h"
 #include "bolt/Rewrite/MetadataRewriters.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/Support/CommandLine.h"
-#include "llvm/Support/Errc.h"
 #include "llvm/Support/Timer.h"
 
 using namespace llvm;

@@ -8,7 +8,6 @@
 
 #include "CommandObjectCPlusPlus.h"
 
-#include "lldb/Core/Mangled.h"
 #include "lldb/Interpreter/CommandReturnObject.h"
 
 using namespace lldb;

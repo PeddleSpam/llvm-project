@@ -13,11 +13,6 @@
 
 #include "Plugins/UnwindAssembly/InstEmulation/UnwindAssemblyInstEmulation.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Target/UnwindAssembly.h"
-#include "lldb/Utility/ArchSpec.h"
 
 #include "Plugins/Disassembler/LLVMC/DisassemblerLLVMC.h"
 #include "Plugins/Instruction/ARM64/EmulateInstructionARM64.h"

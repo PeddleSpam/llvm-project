@@ -6,33 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "llvm/Support/Casting.h"
 
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Breakpoint/BreakpointLocation.h"
-#include "lldb/Breakpoint/BreakpointLocationCollection.h"
 #include "lldb/Breakpoint/BreakpointPrecondition.h"
-#include "lldb/Breakpoint/BreakpointResolver.h"
 #include "lldb/Breakpoint/BreakpointResolverFileLine.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Architecture.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Core/SearchFilter.h"
-#include "lldb/Core/Section.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/Symbol.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/ThreadSpec.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
 
 #include <memory>
 

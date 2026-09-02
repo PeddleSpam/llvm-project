@@ -9,8 +9,6 @@
 #include "mlir/Dialect/Shard/Interfaces/ShardingInterfaceImpl.h"
 #include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Arith/Transforms/ShardingInterfaceImpl.h"
-#include "mlir/Dialect/Shard/Interfaces/ShardingInterface.h"
-#include "mlir/IR/DialectRegistry.h"
 
 using namespace mlir;
 using namespace mlir::arith;

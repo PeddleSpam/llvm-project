@@ -5,14 +5,9 @@
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 //
 //===----------------------------------------------------------------------===//
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "GDBRemoteTestUtils.h"
-#include "Plugins/Process/gdb-remote/GDBRemoteCommunicationServer.h"
-#include "lldb/Utility/Connection.h"
 #include "lldb/Utility/UnimplementedError.h"
-#include "lldb/lldb-enumerations.h"
 
 namespace lldb_private {
 namespace process_gdb_remote {

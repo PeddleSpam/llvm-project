@@ -8,18 +8,8 @@
 
 #include "lldb/Core/AddressResolverFileLine.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/LineEntry.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-types.h"
 
 #include <cinttypes>
 #include <vector>

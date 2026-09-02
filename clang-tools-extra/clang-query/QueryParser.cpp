@@ -7,12 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "QueryParser.h"
-#include "Query.h"
-#include "QuerySession.h"
 #include "clang/ASTMatchers/Dynamic/Parser.h"
-#include "clang/Basic/CharInfo.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSwitch.h"
 #include <optional>
 #include <set>
 

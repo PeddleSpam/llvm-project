@@ -6,14 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
 #include "EventHelper.h"
-#include "Protocol/ProtocolTypes.h"
 #include "RequestHandler.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBMemoryRegionInfo.h"
-#include "llvm/ADT/StringExtras.h"
 #include <optional>
 
 namespace lldb_dap {

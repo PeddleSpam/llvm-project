@@ -7,35 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "ScriptedFrame.h"
-#include "Plugins/Process/Utility/RegisterContextMemory.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleList.h"
-#include "lldb/Expression/DWARFExpressionList.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Interpreter/Interfaces/ScriptedFrameInterface.h"
 #include "lldb/Interpreter/Interfaces/ScriptedInterface.h"
 #include "lldb/Interpreter/Interfaces/ScriptedThreadInterface.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Symbol/VariableList.h"
-#include "lldb/Target/DynamicRegisterInfo.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/StructuredData.h"
 #include "lldb/Utility/ValueType.h"
 #include "lldb/ValueObject/ValueObject.h"
-#include "lldb/ValueObject/ValueObjectList.h"
-#include "lldb/lldb-enumerations.h"
-#include "lldb/lldb-forward.h"
-#include "llvm/Support/ErrorHandling.h"
 
 #include <memory>
 

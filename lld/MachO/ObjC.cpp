@@ -7,16 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "ObjC.h"
+#include "../../libunwind/include/mach-o/compact_unwind_encoding.h"
 #include "ConcatOutputSection.h"
-#include "InputFiles.h"
-#include "InputSection.h"
 #include "Layout.h"
-#include "OutputSegment.h"
 #include "SyntheticSections.h"
-#include "Target.h"
 
 #include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/DenseMap.h"
 #include "llvm/Bitcode/BitcodeReader.h"
 #include "llvm/Support/TimeProfiler.h"
 

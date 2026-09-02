@@ -7,9 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/API/SBCommunication.h"
+#include "../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/API/SBBroadcaster.h"
 #include "lldb/Core/ThreadedCommunication.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
 #include "lldb/Host/Host.h"
 #include "lldb/Utility/ConstString.h"
 #include "lldb/Utility/Instrumentation.h"

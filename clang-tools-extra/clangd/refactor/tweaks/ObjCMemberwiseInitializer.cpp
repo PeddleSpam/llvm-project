@@ -6,22 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ParsedAST.h"
-#include "SourceCode.h"
+#include "../../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "refactor/InsertionPoint.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
 #include "clang/AST/DeclObjC.h"
-#include "clang/AST/PrettyPrinter.h"
-#include "clang/Basic/LLVM.h"
-#include "clang/Basic/LangOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Tooling/Core/Replacement.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/iterator_range.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/Error.h"
 #include <optional>
 
 namespace clang {

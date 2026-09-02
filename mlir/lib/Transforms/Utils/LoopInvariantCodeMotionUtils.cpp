@@ -12,13 +12,9 @@
 
 #include "mlir/Transforms/LoopInvariantCodeMotionUtils.h"
 
-#include "mlir/IR/Operation.h"
-#include "mlir/IR/OperationSupport.h"
 #include "mlir/IR/PatternMatch.h"
 #include "mlir/Interfaces/LoopLikeInterface.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 #include "mlir/Interfaces/SubsetOpInterface.h"
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include <queue>
 

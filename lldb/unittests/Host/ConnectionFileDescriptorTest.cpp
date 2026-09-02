@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestingSupport/Host/SocketTestUtilities.h"
-#include "gtest/gtest.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "lldb/Utility/UriParser.h"

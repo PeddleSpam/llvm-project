@@ -6,12 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/HostThread.h"
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/windows.h"
-#include "lldb/Utility/Log.h"
 
-#include "NativeRegisterContextWindows.h"
 #include "NativeThreadWindows.h"
 #include "ProcessWindowsLog.h"
 

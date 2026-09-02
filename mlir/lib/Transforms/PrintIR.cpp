@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/Passes.h"
-#include "llvm/Support/Debug.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_PRINTIRPASS

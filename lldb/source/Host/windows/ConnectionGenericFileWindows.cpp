@@ -8,12 +8,9 @@
 
 #include "lldb/Host/windows/ConnectionGenericFileWindows.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/Status.h"
 #include "lldb/Utility/Timeout.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ConvertUTF.h"
 
 using namespace lldb;

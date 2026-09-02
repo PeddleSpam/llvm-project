@@ -14,15 +14,9 @@
 
 #include "ModularizeUtilities.h"
 #include "CoverageChecker.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Frontend/FrontendActions.h"
 #include "clang/Options/Options.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/FileUtilities.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace clang;
 using namespace llvm;

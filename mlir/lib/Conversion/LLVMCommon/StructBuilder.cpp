@@ -8,8 +8,6 @@
 
 #include "mlir/Conversion/LLVMCommon/StructBuilder.h"
 #include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/Builders.h"
 
 using namespace mlir;
 

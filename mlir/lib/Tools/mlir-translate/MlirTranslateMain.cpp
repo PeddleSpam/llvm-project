@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Tools/mlir-translate/MlirTranslateMain.h"
-#include "mlir/IR/AsmState.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Support/FileUtilities.h"
 #include "mlir/Support/Timing.h"

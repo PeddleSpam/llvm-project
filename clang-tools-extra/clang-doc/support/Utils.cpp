@@ -13,10 +13,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Utils.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 
 using namespace llvm;
 

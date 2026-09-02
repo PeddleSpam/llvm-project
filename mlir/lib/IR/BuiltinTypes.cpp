@@ -6,20 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/BuiltinTypes.h"
 #include "TypeDetail.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "mlir/IR/Diagnostics.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/TensorEncoding.h"
 #include "mlir/IR/TypeUtilities.h"
-#include "llvm/ADT/APFloat.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/ADT/Sequence.h"
 #include "llvm/ADT/TypeSwitch.h"
 #include "llvm/Support/CheckedArithmetic.h"
 #include <cstring>

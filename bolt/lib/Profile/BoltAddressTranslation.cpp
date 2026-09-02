@@ -8,10 +8,6 @@
 
 #include "bolt/Profile/BoltAddressTranslation.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "llvm/ADT/APInt.h"
-#include "llvm/Support/Errc.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/LEB128.h"
 
 #define DEBUG_TYPE "bolt-bat"
 

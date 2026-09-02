@@ -149,12 +149,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "polly/ZoneAlgo.h"
-#include "polly/ScopInfo.h"
 #include "polly/Support/GICHelper.h"
 #include "polly/Support/ISLTools.h"
 #include "polly/Support/VirtualInstruction.h"
 #include "llvm/ADT/Statistic.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include "polly/Support/PollyDebug.h"
 #define DEBUG_TYPE "polly-zone"

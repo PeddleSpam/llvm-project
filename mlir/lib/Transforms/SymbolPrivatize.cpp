@@ -13,7 +13,6 @@
 
 #include "mlir/Transforms/Passes.h"
 
-#include "mlir/IR/SymbolTable.h"
 
 namespace mlir {
 #define GEN_PASS_DEF_SYMBOLPRIVATIZEPASS

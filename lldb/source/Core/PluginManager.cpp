@@ -10,29 +10,14 @@
 
 #include "lldb/Core/BugReporter.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
-#include "lldb/Interpreter/ScriptInterpreter.h"
-#include "lldb/Symbol/SaveCoreOptions.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/FileSpec.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/StringList.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/ADT/Twine.h"
-#include "llvm/Support/DynamicLibrary.h"
 #include "llvm/Support/ErrorExtras.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cassert>
 #include <memory>
 #include <mutex>
 #include <string>
 #include <utility>
 #if defined(_WIN32)
-#include "lldb/Host/windows/PosixApi.h"
 #endif
 
 using namespace lldb;

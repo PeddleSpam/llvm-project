@@ -7,10 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "RelocScan.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
-#include "llvm/Support/Endian.h"
 
 using namespace llvm;
 using namespace llvm::object;

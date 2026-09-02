@@ -6,27 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
 #include "Annotations.h"
 #include "FindSymbols.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "URI.h"
-#include "clang-include-cleaner/Record.h"
 #include "index/SymbolCollector.h"
-#include "clang/Basic/FileManager.h"
-#include "clang/Basic/FileSystemOptions.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Frontend/CompilerInstance.h"
 #include "clang/Index/IndexingAction.h"
-#include "clang/Index/IndexingOptions.h"
 #include "clang/Tooling/Tooling.h"
-#include "llvm/ADT/IntrusiveRefCntPtr.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/MemoryBuffer.h"
-#include "llvm/Support/VirtualFileSystem.h"
-#include "gmock/gmock-matchers.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include <memory>
 #include <optional>

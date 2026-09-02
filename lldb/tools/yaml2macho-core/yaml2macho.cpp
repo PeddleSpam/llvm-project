@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "CoreSpec.h"
 #include "LCNoteWriter.h"
 #include "MemoryWriter.h"
 #include "ThreadWriter.h"

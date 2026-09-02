@@ -15,7 +15,6 @@
 #include "mlir/Dialect/Affine/Analysis/LoopAnalysis.h"
 #include "mlir/Dialect/Affine/Analysis/Utils.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/Interfaces/SideEffectInterfaces.h"
 
 namespace mlir {
 namespace affine {

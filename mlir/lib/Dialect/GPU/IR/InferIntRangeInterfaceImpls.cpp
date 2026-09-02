@@ -8,8 +8,6 @@
 
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/FunctionInterfaces.h"
-#include "mlir/Interfaces/InferIntRangeInterface.h"
 #include <optional>
 
 using namespace mlir;

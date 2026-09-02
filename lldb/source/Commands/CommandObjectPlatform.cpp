@@ -9,25 +9,17 @@
 #include "CommandObjectPlatform.h"
 #include "CommandOptionsProcessAttach.h"
 #include "CommandOptionsProcessLaunch.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Host/OptionParser.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
 #include "lldb/Interpreter/CommandOptionArgumentTable.h"
 #include "lldb/Interpreter/CommandOptionValidators.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
 #include "lldb/Interpreter/OptionGroupFile.h"
 #include "lldb/Interpreter/OptionGroupPlatform.h"
 #include "lldb/Interpreter/OptionGroupPythonClassWithDict.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/ScriptedMetadata.h"
 #include "lldb/Utility/State.h"
 
-#include "llvm/ADT/SmallString.h"
 
 using namespace lldb;
 using namespace lldb_private;

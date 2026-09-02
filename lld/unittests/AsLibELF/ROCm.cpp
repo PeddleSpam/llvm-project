@@ -18,8 +18,6 @@
 #ifndef LLD_DEFAULT_LD_LLD_IS_MINGW
 
 #include "lld/Common/Driver.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/FileUtilities.h"
 #include "llvm/Support/Path.h"
 #include "gmock/gmock.h"

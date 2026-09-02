@@ -7,11 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "ConfusableIdentifierCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Lex/Preprocessor.h"
-#include "llvm/ADT/SmallString.h"
-#include "llvm/Support/ConvertUTF.h"
 
 namespace {
 // Preprocessed version of

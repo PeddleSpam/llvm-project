@@ -6,19 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "Plugins/Platform/MacOSX/PlatformMacOSX.h"
 #include "Plugins/Platform/MacOSX/PlatformRemoteMacOSX.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/DebuggerEvents.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/Broadcaster.h"
-#include "lldb/Utility/Event.h"
-#include "lldb/Utility/Listener.h"
 
 using namespace lldb;
 using namespace lldb_private;

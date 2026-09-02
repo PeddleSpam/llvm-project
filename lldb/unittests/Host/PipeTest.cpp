@@ -6,12 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Host/Pipe.h"
+#include "../../include/lldb/Host/windows/PipeWindows.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #include <fcntl.h>
 #include <future>

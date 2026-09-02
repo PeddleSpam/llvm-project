@@ -9,18 +9,9 @@
 #include "MsvcStl.h"
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/FormatEntity.h"
-#include "lldb/DataFormatters/StringPrinter.h"
-#include "lldb/DataFormatters/TypeSummary.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/ValueObject/ValueObject.h"
-#include "llvm/ADT/StringRef.h"
 
 #include "Plugins/Language/CPlusPlus/CxxStringTypes.h"
 
-#include "lldb/lldb-forward.h"
 #include <optional>
 #include <tuple>
 

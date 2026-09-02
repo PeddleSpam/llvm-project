@@ -8,7 +8,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "clang-apply-replacements/Tooling/ApplyReplacements.h"
-#include "clang/Format/Format.h"
 #include "gtest/gtest.h"
 
 using namespace clang::replace;

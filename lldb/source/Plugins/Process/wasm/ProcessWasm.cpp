@@ -11,8 +11,6 @@
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Core/Value.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Utility/DataBufferHeap.h"
 #include "llvm/Support/ErrorExtras.h"
 #include <cstring>
 

@@ -6,9 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "FunctionBreakpoint.h"
 #include "DAP.h"
-#include "lldb/API/SBMutex.h"
 #include <mutex>
 
 namespace lldb_dap {

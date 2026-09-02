@@ -6,17 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "ClangdServer.h"
-#include "Protocol.h"
 #include "SemanticSelection.h"
 #include "SyncAPI.h"
-#include "TestFS.h"
 #include "TestTU.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/Support/Error.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <vector>
 
 namespace clang {

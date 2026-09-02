@@ -8,9 +8,7 @@
 
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/windows/LazyImport.h"
-#include "lldb/Target/Unwind.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 #include "ProcessWindows.h"
 #include "TargetThreadWindows.h"

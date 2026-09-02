@@ -8,12 +8,6 @@
 
 #include "mlir/Dialect/Utils/ReshapeOpsUtils.h"
 
-#include "mlir/IR/AffineMap.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypeInterfaces.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #include <numeric>
 #include <optional>

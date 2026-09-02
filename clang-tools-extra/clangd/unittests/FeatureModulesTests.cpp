@@ -6,16 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Annotations.h"
-#include "FeatureModule.h"
-#include "Selection.h"
 #include "TestTU.h"
 #include "refactor/Tweak.h"
 #include "support/Logger.h"
 #include "clang/Lex/PreprocessorOptions.h"
-#include "llvm/Support/Error.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <memory>
 
 namespace clang {

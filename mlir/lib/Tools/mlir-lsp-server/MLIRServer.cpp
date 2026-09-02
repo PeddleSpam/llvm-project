@@ -7,12 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "MLIRServer.h"
-#include "Protocol.h"
 #include "mlir/AsmParser/AsmParser.h"
 #include "mlir/AsmParser/AsmParserState.h"
 #include "mlir/AsmParser/CodeComplete.h"
 #include "mlir/Bytecode/BytecodeWriter.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Support/ToolUtilities.h"
@@ -22,7 +20,6 @@
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/LSP/Logging.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/SourceMgr.h"
 #include <optional>
 
 using namespace mlir;

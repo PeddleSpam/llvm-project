@@ -10,8 +10,6 @@
 
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Linalg/Utils/Utils.h"
-#include "mlir/Dialect/SparseTensor/IR/SparseTensorType.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 
 #include <optional>
 

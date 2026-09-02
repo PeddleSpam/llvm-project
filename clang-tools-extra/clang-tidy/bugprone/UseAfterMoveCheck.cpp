@@ -8,19 +8,20 @@
 
 #include "UseAfterMoveCheck.h"
 
-#include "clang/AST/Attr.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/ASTMatchers/ASTMatchers.h"
 #include "clang/Analysis/Analyses/CFGReachabilityAnalysis.h"
 #include "clang/Analysis/CFG.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/SmallPtrSet.h"
 
+#include "../ClangTidy.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/ExprSequence.h"
 #include "../utils/Matchers.h"
 #include "../utils/OptionsUtils.h"
+#include "../utils/TypeTraits.h"
 #include <optional>
 
 using namespace clang::ast_matchers;

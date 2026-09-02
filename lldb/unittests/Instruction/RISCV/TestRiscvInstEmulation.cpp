@@ -10,9 +10,6 @@
 
 #include "Plugins/UnwindAssembly/InstEmulation/UnwindAssemblyInstEmulation.h"
 
-#include "lldb/Core/AddressRange.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/ArchSpec.h"
 
 #include "Plugins/Disassembler/LLVMC/DisassemblerLLVMC.h"
 #include "Plugins/Instruction/RISCV/EmulateInstructionRISCV.h"

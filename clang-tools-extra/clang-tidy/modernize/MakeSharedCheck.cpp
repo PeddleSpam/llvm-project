@@ -7,6 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "MakeSharedCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
+#include "../utils/IncludeSorter.h"
 
 // FixItHint - Hint to check documentation script to mark this check as
 // providing a FixIt.

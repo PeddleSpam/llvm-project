@@ -38,24 +38,16 @@
 // critical: the analysis should fail if the bufferized form of the function
 // needs to return a buffer, unless `allowReturnAllocs` is enabled.
 
-#include "mlir/Dialect/Bufferization/Transforms/OneShotAnalysis.h"
 
 #include <random>
 
-#include "mlir/Dialect/Bufferization/IR/BufferizableOpInterface.h"
 #include "mlir/Dialect/Bufferization/IR/Bufferization.h"
 #include "mlir/Dialect/Bufferization/Transforms/Bufferize.h"
 #include "mlir/Dialect/Bufferization/Transforms/Transforms.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
 #include "mlir/IR/AsmState.h"
-#include "mlir/IR/Dominance.h"
 #include "mlir/IR/Iterators.h"
-#include "mlir/IR/Operation.h"
 #include "mlir/IR/TypeUtilities.h"
-#include "mlir/Interfaces/ControlFlowInterfaces.h"
-#include "mlir/Interfaces/SubsetOpInterface.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/SetVector.h"
 #include "llvm/Support/DebugLog.h"
 
 MLIR_DEFINE_EXPLICIT_TYPE_ID(mlir::bufferization::OneShotAnalysisState)

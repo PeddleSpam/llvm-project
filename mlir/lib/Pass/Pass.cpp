@@ -10,21 +10,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Pass/Pass.h"
 #include "PassDetail.h"
-#include "mlir/IR/Diagnostics.h"
 #include "mlir/IR/OpDefinition.h"
 #include "mlir/IR/Threading.h"
 #include "mlir/IR/Verifier.h"
 #include "mlir/Support/FileUtilities.h"
 #include "mlir/Support/IndentedOstream.h"
-#include "llvm/ADT/Hashing.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/ScopeExit.h"
 #include "llvm/Support/DebugLog.h"
 #include "llvm/Support/Mutex.h"
 #include "llvm/Support/Signals.h"
-#include "llvm/Support/Threading.h"
 #include <optional>
 
 #define DEBUG_TYPE "pass-manager"

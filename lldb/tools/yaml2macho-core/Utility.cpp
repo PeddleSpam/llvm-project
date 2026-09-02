@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Utility.h"
-#include "CoreSpec.h"
 
 void add_uint64(std::vector<uint8_t> &buf, uint64_t val) {
   uint8_t *p = reinterpret_cast<uint8_t *>(&val);

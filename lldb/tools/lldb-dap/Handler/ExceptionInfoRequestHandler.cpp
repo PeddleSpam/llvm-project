@@ -6,25 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Protocol/ProtocolTypes.h"
 #include "RequestHandler.h"
 #include "SBAPIExtras.h"
-#include "lldb/API/SBStream.h"
-#include "lldb/API/SBStructuredData.h"
-#include "lldb/API/SBThread.h"
-#include "lldb/API/SBThreadCollection.h"
-#include "lldb/API/SBValue.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-enumerations.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/BranchProbability.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include <string>
 
 using namespace llvm;

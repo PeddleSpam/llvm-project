@@ -10,11 +10,7 @@
 #include "TypeDetail.h"
 #include "mlir/Dialect/Quant/IR/Quant.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/OpImplementation.h"
-#include "mlir/IR/QuantStorageTypeInterface.h"
 
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/MLIRContext.h"
 
 using namespace mlir;
 using namespace mlir::quant;

@@ -7,11 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Arith/Transforms/BufferDeallocationOpInterfaceImpl.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Bufferization/IR/BufferDeallocationOpInterface.h"
 #include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Dialect.h"
-#include "mlir/IR/Operation.h"
 
 using namespace mlir;
 using namespace mlir::bufferization;

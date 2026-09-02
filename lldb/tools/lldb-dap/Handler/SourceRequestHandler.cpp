@@ -6,22 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
 #include "Handler/RequestHandler.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolRequests.h"
-#include "Protocol/ProtocolTypes.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBExecutionContext.h"
-#include "lldb/API/SBFrame.h"
-#include "lldb/API/SBInstructionList.h"
-#include "lldb/API/SBProcess.h"
 #include "lldb/API/SBStream.h"
-#include "lldb/API/SBSymbol.h"
-#include "lldb/API/SBTarget.h"
-#include "lldb/API/SBThread.h"
-#include "lldb/lldb-types.h"
-#include "llvm/Support/Error.h"
 
 namespace lldb_dap {
 

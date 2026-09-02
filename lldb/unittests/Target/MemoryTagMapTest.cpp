@@ -9,7 +9,6 @@
 #include "lldb/Target/MemoryTagMap.h"
 #include "Plugins/Process/Utility/MemoryTagManagerAArch64MTE.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <optional>
 
 using namespace lldb_private;

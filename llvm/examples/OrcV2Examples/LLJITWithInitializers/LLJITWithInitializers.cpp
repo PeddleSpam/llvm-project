@@ -22,6 +22,8 @@
 #include "llvm/Support/InitLLVM.h"
 #include "llvm/Support/TargetSelect.h"
 
+#include "../../../include/llvm/AsmParser/AsmParserContext.h"
+#include "../../../include/llvm/Bitcode/BitcodeReader.h"
 #include "../../../include/llvm/IRReader/IRReader.h"
 #include "../../../include/llvm/Support/SourceMgr.h"
 #include "../ExampleModules.h"

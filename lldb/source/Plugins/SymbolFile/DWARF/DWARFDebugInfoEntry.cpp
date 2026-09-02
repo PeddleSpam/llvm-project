@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DWARFDebugInfoEntry.h"
 
 #include <cassert>
 
@@ -15,12 +14,6 @@
 #include <optional>
 
 #include "LogChannelDWARF.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Expression/DWARFExpression.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/DebugInfo/DWARF/DWARFAddressRange.h"
-#include "llvm/Support/Error.h"
 #include "llvm/Support/FormatAdapters.h"
 #include "llvm/Support/LEB128.h"
 
@@ -29,8 +22,6 @@
 #include "DWARFDebugInfo.h"
 #include "DWARFDeclContext.h"
 #include "DWARFFormValue.h"
-#include "DWARFUnit.h"
-#include "SymbolFileDWARF.h"
 #include "SymbolFileDWARFDwo.h"
 
 using namespace lldb_private;

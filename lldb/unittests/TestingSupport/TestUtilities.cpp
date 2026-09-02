@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "TestUtilities.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/ObjectYAML/yaml2obj.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Program.h"
 #include "llvm/Support/YAMLTraits.h"
 #include "gtest/gtest.h"

@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/ConstString.h"
-#include "llvm/Support/FormatVariadic.h"
 #include "gtest/gtest.h"
 
 #include <atomic>

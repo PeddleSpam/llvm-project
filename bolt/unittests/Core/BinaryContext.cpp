@@ -8,8 +8,6 @@
 
 #include "bolt/Core/BinaryContext.h"
 #include "bolt/Utils/CommandLineOpts.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/DebugInfo/DWARF/DWARFContext.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/TargetSelect.h"
 #include "gtest/gtest.h"

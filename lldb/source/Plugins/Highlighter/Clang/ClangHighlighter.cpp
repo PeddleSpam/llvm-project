@@ -8,17 +8,33 @@
 
 #include "ClangHighlighter.h"
 
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Host/FileSystem.h"
+#include "../../../../../clang/include/clang/Basic/CFProtectionOptions.h"
+#include "../../../../../clang/include/clang/Basic/CustomizableOptional.h"
+#include "../../../../../clang/include/clang/Basic/Diagnostic.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticCategories.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticIDs.h"
+#include "../../../../../clang/include/clang/Basic/DiagnosticOptions.h"
+#include "../../../../../clang/include/clang/Basic/FileManager.h"
+#include "../../../../../clang/include/clang/Basic/LangOptions.h"
+#include "../../../../../clang/include/clang/Basic/LangStandard.h"
+#include "../../../../../clang/include/clang/Basic/Linkage.h"
+#include "../../../../../clang/include/clang/Basic/OptionalUnsigned.h"
+#include "../../../../../clang/include/clang/Basic/Sanitizers.h"
+#include "../../../../../clang/include/clang/Basic/SourceLocation.h"
+#include "../../../../../clang/include/clang/Basic/Specifiers.h"
+#include "../../../../../clang/include/clang/Basic/TargetCXXABI.h"
+#include "../../../../../clang/include/clang/Basic/TokenKinds.h"
+#include "../../../../../clang/include/clang/Lex/DependencyDirectivesScanner.h"
+#include "../../../../../clang/include/clang/Lex/MultipleIncludeOpt.h"
+#include "../../../../../clang/include/clang/Lex/PreprocessorLexer.h"
+#include "../../../../../clang/include/clang/Lex/Token.h"
+#include "../../../../../llvm/include/llvm/ADT/PagedVector.h"
 #include "lldb/Target/Language.h"
 #include "lldb/Utility/AnsiTerminal.h"
-#include "lldb/Utility/StreamString.h"
 
 #include "clang/Basic/FileManager.h"
 #include "clang/Basic/SourceManager.h"
 #include "clang/Lex/Lexer.h"
-#include "llvm/ADT/StringSet.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include <optional>
 
 using namespace lldb_private;

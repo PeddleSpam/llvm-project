@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "lldb/Utility/Log.h"
 #include "lldb/Utility/StreamString.h"
 #include "llvm/ADT/BitmaskEnum.h"
 #include "llvm/Support/JSON.h"
-#include "llvm/Support/ManagedStatic.h"
-#include "llvm/Support/Threading.h"
 #include "llvm/Testing/Support/Error.h"
 #include <thread>
 

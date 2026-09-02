@@ -7,15 +7,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/ThreadPlanStepThrough.h"
-#include "lldb/Breakpoint/Breakpoint.h"
 #include "lldb/Target/DynamicLoader.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
 
 using namespace lldb;
 using namespace lldb_private;

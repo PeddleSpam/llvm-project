@@ -11,8 +11,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Target/SPIRV/SPIRVBinaryUtils.h"
-#include "llvm/Config/llvm-config.h" // for LLVM_VERSION_MAJOR
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "spirv-binary-utils"
 

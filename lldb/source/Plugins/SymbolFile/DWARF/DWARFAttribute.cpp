@@ -6,8 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DWARFAttribute.h"
-#include "DWARFUnit.h"
 #include "DWARFDebugInfo.h"
 
 using namespace llvm::dwarf;

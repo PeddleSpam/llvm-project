@@ -8,33 +8,10 @@
 
 #include "AST.h"
 
-#include "SourceCode.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/Decl.h"
-#include "clang/AST/DeclBase.h"
-#include "clang/AST/DeclCXX.h"
-#include "clang/AST/DeclObjC.h"
-#include "clang/AST/DeclTemplate.h"
-#include "clang/AST/DeclarationName.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/PrettyPrinter.h"
 #include "clang/AST/RecursiveASTVisitor.h"
-#include "clang/AST/Stmt.h"
-#include "clang/AST/TemplateBase.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/Builtins.h"
-#include "clang/Basic/SourceLocation.h"
-#include "clang/Basic/SourceManager.h"
-#include "clang/Basic/Specifiers.h"
 #include "clang/Sema/HeuristicResolver.h"
 #include "clang/UnifiedSymbolResolution/USRGeneration.h"
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/DenseSet.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Casting.h"
-#include "llvm/Support/raw_ostream.h"
 #include <iterator>
 #include <optional>
 #include <string>

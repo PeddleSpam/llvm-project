@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Target/MemoryRegionInfoCache.h"
-#include "lldb/Target/MemoryRegionInfo.h"
 
 using namespace lldb;
 using namespace lldb_private;

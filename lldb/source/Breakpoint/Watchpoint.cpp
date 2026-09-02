@@ -9,18 +9,9 @@
 #include "lldb/Breakpoint/Watchpoint.h"
 
 #include "lldb/Breakpoint/StoppointCallbackContext.h"
-#include "lldb/Breakpoint/WatchpointResource.h"
-#include "lldb/Core/Value.h"
 #include "lldb/DataFormatters/DumpValueObjectOptions.h"
 #include "lldb/Expression/UserExpression.h"
-#include "lldb/Symbol/TypeSystem.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/ThreadSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/ValueObject/ValueObject.h"
 #include "lldb/ValueObject/ValueObjectMemory.h"
 
 using namespace lldb;

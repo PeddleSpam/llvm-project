@@ -11,15 +11,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "index/Index.h"
-#include "index/Relation.h"
 #include "index/Serialization.h"
 #include "index/remote/Client.h"
-#include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/LineEditor/LineEditor.h"
-#include "llvm/Support/CommandLine.h"
 #include "llvm/Support/Signals.h"
 #include <optional>
 

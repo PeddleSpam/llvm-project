@@ -7,9 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "SignalHandlerCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "llvm/ADT/DepthFirstIterator.h"
-#include "llvm/ADT/STLExtras.h"
 
 using namespace clang::ast_matchers;
 

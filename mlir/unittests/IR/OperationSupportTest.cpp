@@ -6,13 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/OperationSupport.h"
+#include "../../test/lib/Dialect/Test/TestAttributes.h"
 #include "../../test/lib/Dialect/Test/TestDialect.h"
+#include "../../test/lib/Dialect/Test/TestInterfaces.h"
 #include "../../test/lib/Dialect/Test/TestOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "llvm/ADT/BitVector.h"
-#include "llvm/ADT/Repeated.h"
+#include "../../test/lib/Dialect/Test/TestTypes.h"
 #include "llvm/Support/FormatVariadic.h"
 #include "gtest/gtest.h"
 

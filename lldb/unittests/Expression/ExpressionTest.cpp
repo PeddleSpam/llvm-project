@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Expression/Expression.h"
 #include "lldb/Target/Target.h"
 #include "llvm/Testing/Support/Error.h"
 

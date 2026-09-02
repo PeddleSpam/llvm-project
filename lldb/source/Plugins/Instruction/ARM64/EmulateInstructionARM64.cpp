@@ -8,16 +8,11 @@
 
 #include "EmulateInstructionARM64.h"
 
-#include "lldb/Core/Address.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/UnwindPlan.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Stream.h"
 
 #include "llvm/Support/CheckedArithmetic.h"
 
-#include "Plugins/Process/Utility/ARMDefines.h"
 #include "Plugins/Process/Utility/ARMUtils.h"
 #include "Plugins/Process/Utility/lldb-arm64-register-enums.h"
 
@@ -42,8 +37,6 @@
 
 #include "Plugins/Process/Utility/RegisterInfos_arm64.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/MathExtras.h"
 
 #include "Plugins/Process/Utility/InstructionUtils.h"
 

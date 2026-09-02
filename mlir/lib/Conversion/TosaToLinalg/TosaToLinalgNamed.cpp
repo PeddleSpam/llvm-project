@@ -11,16 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Conversion/TosaToLinalg/TosaToLinalg.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Linalg/IR/Linalg.h"
 #include "mlir/Dialect/Math/IR/Math.h"
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
-#include "mlir/Dialect/Tosa/IR/TosaOps.h"
 #include "mlir/Dialect/Tosa/Utils/ConversionUtils.h"
-#include "mlir/Dialect/Utils/ReshapeOpsUtils.h"
-#include "mlir/IR/PatternMatch.h"
-#include "mlir/Transforms/DialectConversion.h"
-#include "llvm/ADT/SmallVectorExtras.h"
 
 #include <type_traits>
 

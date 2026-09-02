@@ -6,25 +6,18 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "CompileUnitIndex.h"
 
 #include "PdbIndex.h"
 #include "PdbUtil.h"
 
-#include "llvm/DebugInfo/CodeView/LazyRandomTypeCollection.h"
 #include "llvm/DebugInfo/CodeView/SymbolDeserializer.h"
 #include "llvm/DebugInfo/CodeView/TypeDeserializer.h"
 #include "llvm/DebugInfo/MSF/MappedBlockStream.h"
-#include "llvm/DebugInfo/PDB/Native/DbiModuleDescriptor.h"
 #include "llvm/DebugInfo/PDB/Native/DbiStream.h"
 #include "llvm/DebugInfo/PDB/Native/InfoStream.h"
-#include "llvm/DebugInfo/PDB/Native/ModuleDebugStream.h"
-#include "llvm/DebugInfo/PDB/Native/NamedStreamMap.h"
 #include "llvm/DebugInfo/PDB/Native/TpiStream.h"
-#include "llvm/Support/Path.h"
 
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
 using namespace lldb;
 using namespace lldb_private;

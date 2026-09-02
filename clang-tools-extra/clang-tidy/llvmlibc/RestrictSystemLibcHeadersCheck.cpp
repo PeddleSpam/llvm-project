@@ -7,8 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "RestrictSystemLibcHeadersCheck.h"
-#include "clang/AST/ASTContext.h"
-#include "clang/Lex/HeaderSearch.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../GlobList.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/Lex/HeaderSearchOptions.h"
 #include "clang/Lex/Preprocessor.h"
 

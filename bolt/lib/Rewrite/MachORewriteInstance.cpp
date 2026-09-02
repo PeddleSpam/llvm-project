@@ -7,23 +7,17 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Rewrite/MachORewriteInstance.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryEmitter.h"
-#include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/JumpTable.h"
-#include "bolt/Core/MCPlusBuilder.h"
 #include "bolt/Passes/Instrumentation.h"
 #include "bolt/Passes/PatchEntries.h"
 #include "bolt/Profile/DataReader.h"
 #include "bolt/Rewrite/BinaryPassManager.h"
-#include "bolt/Rewrite/ExecutableFileMemoryManager.h"
 #include "bolt/Rewrite/JITLinkLinker.h"
 #include "bolt/Rewrite/RewriteInstance.h"
 #include "bolt/RuntimeLibs/InstrumentationRuntimeLibrary.h"
 #include "bolt/Utils/CommandLineOpts.h"
 #include "bolt/Utils/Utils.h"
 #include "llvm/MC/MCObjectStreamer.h"
-#include "llvm/Support/Errc.h"
 #include "llvm/Support/FileSystem.h"
 #include "llvm/Support/ToolOutputFile.h"
 #include <memory>

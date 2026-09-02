@@ -8,7 +8,6 @@
 
 #include "ClientLauncher.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSwitch.h"
 #include "llvm/Support/FormatVariadic.h"
 
 using namespace lldb_dap;

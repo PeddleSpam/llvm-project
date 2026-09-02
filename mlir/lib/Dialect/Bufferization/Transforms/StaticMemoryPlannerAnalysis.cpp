@@ -12,15 +12,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Bufferization/Transforms/BufferViewFlowAnalysis.h"
 #include "mlir/Dialect/Bufferization/Transforms/Passes.h"
 #include "mlir/Dialect/Bufferization/Transforms/StaticMemoryPlanning.h"
-#include "mlir/Dialect/MemRef/IR/MemRef.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/Interfaces/FunctionInterfaces.h"
-#include "llvm/ADT/SmallPtrSet.h"
-#include "llvm/Support/Debug.h"
 #include <numeric>
 
 #define DEBUG_TYPE "static-memory-planner"

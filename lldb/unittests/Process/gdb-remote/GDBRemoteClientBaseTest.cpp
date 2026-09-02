@@ -7,15 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/Process/gdb-remote/GDBRemoteClientBase.h"
+#include "../../../include/lldb/Host/posix/ConnectionFileDescriptorPosix.h"
 #include "GDBRemoteTestUtils.h"
 #include "Plugins/Process/Utility/LinuxSignals.h"
-#include "Plugins/Process/gdb-remote/GDBRemoteCommunicationServer.h"
-#include "lldb/Host/ConnectionFileDescriptor.h"
-#include "lldb/Utility/GDBRemote.h"
 #include "lldb/Utility/Listener.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #include <future>
 #include <string>

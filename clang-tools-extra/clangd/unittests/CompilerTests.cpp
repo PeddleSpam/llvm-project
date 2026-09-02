@@ -6,15 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Compiler.h"
+#include "../../../llvm/include/llvm/ADT/DenseMapInfoVariant.h"
+#include "../../include-cleaner/include/clang-include-cleaner/Types.h"
 #include "Config.h"
-#include "Diagnostics.h"
 #include "TestTU.h"
-#include "clang/Frontend/DependencyOutputOptions.h"
-#include "clang/Frontend/FrontendOptions.h"
 #include "clang/Lex/PreprocessorOptions.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 namespace clang {
 namespace clangd {

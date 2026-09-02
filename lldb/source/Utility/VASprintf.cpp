@@ -9,8 +9,6 @@
 #include "lldb/Utility/VASPrintf.h"
 
 #include "llvm/ADT/SmallString.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/ADT/StringRef.h"
 
 #include <cassert>
 #include <cstdarg>

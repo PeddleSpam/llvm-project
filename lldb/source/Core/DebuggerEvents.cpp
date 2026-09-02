@@ -6,11 +6,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/DebuggerEvents.h"
 #include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Progress.h"
-#include "llvm/Support/WithColor.h"
 
 using namespace lldb_private;
 using namespace lldb;

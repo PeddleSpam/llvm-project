@@ -10,8 +10,10 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../../include/llvm/MC/MCInstrItineraries.h"
 #include "../../../../include/llvm/MC/MCSubtargetInfo.h"
 #include "../../../../include/llvm/Support/LEB128.h"
+#include "../../../../include/llvm/TargetParser/SubtargetFeature.h"
 #include "MCTargetDesc/BPFMCTargetDesc.h"
 #include "TargetInfo/BPFTargetInfo.h"
 #include "llvm/MC/MCDecoder.h"

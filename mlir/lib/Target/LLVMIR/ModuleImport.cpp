@@ -11,39 +11,24 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Target/LLVMIR/ModuleImport.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/Target/LLVMIR/Import.h"
 
 #include "AttrKindDetail.h"
 #include "DebugImporter.h"
 #include "LoopAnnotationImporter.h"
 
 #include "mlir/Dialect/DLTI/DLTI.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/IR/Builders.h"
 #include "mlir/IR/Matchers.h"
-#include "mlir/Interfaces/DataLayoutInterfaces.h"
 #include "mlir/Target/LLVMIR/DataLayoutImporter.h"
 #include "mlir/Tools/mlir-translate/Translation.h"
 
 #include "llvm/ADT/DepthFirstIterator.h"
 #include "llvm/ADT/PostOrderIterator.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/ADT/SmallPtrSet.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/TypeSwitch.h"
-#include "llvm/IR/Comdat.h"
-#include "llvm/IR/Constants.h"
-#include "llvm/IR/DebugProgramInstruction.h"
 #include "llvm/IR/InlineAsm.h"
 #include "llvm/IR/InstIterator.h"
-#include "llvm/IR/Instructions.h"
 #include "llvm/IR/IntrinsicInst.h"
-#include "llvm/IR/Metadata.h"
 #include "llvm/IR/Operator.h"
-#include "llvm/Support/LogicalResult.h"
-#include "llvm/Support/ModRef.h"
 #include <optional>
 
 using namespace mlir;

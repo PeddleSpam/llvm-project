@@ -6,8 +6,24 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchFinder.h"
+#include "../../../clang/include/clang/ASTMatchers/ASTMatchers.h"
+#include "../../../clang/include/clang/Analysis/CallGraph.h"
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Core/Replacement.h"
+#include "../../../llvm/include/llvm/ADT/DepthFirstIterator.h"
+#include "../../../llvm/include/llvm/Support/DynamicLibrary.h"
+#include "../../../llvm/include/llvm/Support/Registry.h"
+#include "../../../llvm/include/llvm/Support/Timer.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
 #include "../ClangTidy.h"
+#include "../ClangTidyCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
 #include "../ClangTidyModule.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../bugprone/AssignmentInSelectionStatementCheck.h"
 #include "../bugprone/BadSignalToKillThreadCheck.h"
 #include "../bugprone/CommandProcessorCheck.h"
@@ -42,6 +58,7 @@
 #include "../performance/MoveConstructorInitCheck.h"
 #include "../readability/EnumInitialValueCheck.h"
 #include "../readability/UppercaseLiteralSuffixCheck.h"
+#include "../utils/Matchers.h"
 
 namespace clang::tidy {
 

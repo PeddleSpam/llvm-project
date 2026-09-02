@@ -11,18 +11,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/IRDL/IR/IRDL.h"
-#include "mlir/IR/AsmState.h"
-#include "mlir/IR/DialectRegistry.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Support/FileUtilities.h"
 #include "mlir/Support/ToolUtilities.h"
 #include "mlir/Target/IRDLToCpp/IRDLToCpp.h"
 #include "mlir/Tools/ParseUtilities.h"
-#include "llvm/Support/Casting.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/InitLLVM.h"
-#include "llvm/Support/MemoryBuffer.h"
 #include "llvm/Support/SourceMgr.h"
 #include "llvm/Support/ToolOutputFile.h"
 

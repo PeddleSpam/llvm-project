@@ -14,8 +14,6 @@
 #include "llvm/ADT/DenseMap.h"
 
 #include "llvm/ADT/Enum.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/DebugInfo/CodeView/CodeView.h"
 #include "llvm/DebugInfo/CodeView/EnumTables.h"
 
 using namespace lldb;

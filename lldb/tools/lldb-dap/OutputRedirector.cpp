@@ -6,13 +6,8 @@
 //
 //===----------------------------------------------------------------------===/
 
-#include "OutputRedirector.h"
 #include "DAP.h"
-#include "DAPLog.h"
 #include "lldb/Host/File.h"
-#include "lldb/Host/MainLoopBase.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Error.h"
 #include <cstring>
 #include <system_error>
 #if defined(_WIN32)

@@ -6,15 +6,10 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "ClangDocTest.h"
 #include "Generators.h"
-#include "Representation.h"
-#include "config.h"
 #include "support/Utils.h"
 #include "clang/Basic/Version.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace llvm;
 using namespace testing;

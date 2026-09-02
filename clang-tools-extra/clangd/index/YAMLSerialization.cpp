@@ -12,19 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "Headers.h"
-#include "index/Ref.h"
-#include "index/Relation.h"
 #include "index/Serialization.h"
-#include "index/Symbol.h"
-#include "index/SymbolLocation.h"
-#include "index/SymbolOrigin.h"
-#include "clang/Tooling/CompilationDatabase.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/Allocator.h"
-#include "llvm/Support/StringSaver.h"
-#include "llvm/Support/YAMLTraits.h"
-#include "llvm/Support/raw_ostream.h"
 #include <cstdint>
 #include <optional>
 

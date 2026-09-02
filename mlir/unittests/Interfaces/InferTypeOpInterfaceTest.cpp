@@ -6,16 +6,9 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Interfaces/InferTypeOpInterface.h"
 #include "mlir/Dialect/Arith/IR/Arith.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/Dialect.h"
 #include "mlir/IR/DialectImplementation.h"
-#include "mlir/IR/ImplicitLocOpBuilder.h"
-#include "mlir/IR/OpDefinition.h"
-#include "mlir/IR/OpImplementation.h"
 #include "mlir/Parser/Parser.h"
 
 #include <gtest/gtest.h>

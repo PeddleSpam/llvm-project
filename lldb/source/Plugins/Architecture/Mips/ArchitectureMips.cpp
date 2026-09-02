@@ -7,19 +7,13 @@
 //===----------------------------------------------------------------------===//
 
 #include "Plugins/Architecture/Mips/ArchitectureMips.h"
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Disassembler.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/PluginManager.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/SymbolContext.h"
 #include "lldb/Target/SectionLoadList.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/Support/Endian.h"
 
 using namespace lldb_private;
 using namespace lldb;

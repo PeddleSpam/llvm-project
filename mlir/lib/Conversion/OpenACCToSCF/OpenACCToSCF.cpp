@@ -10,7 +10,6 @@
 
 #include "mlir/Dialect/OpenACC/OpenACC.h"
 #include "mlir/Dialect/SCF/IR/SCF.h"
-#include "mlir/IR/Matchers.h"
 #include "mlir/Transforms/DialectConversion.h"
 
 namespace mlir {

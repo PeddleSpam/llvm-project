@@ -6,24 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "SymbolFileDWARF.h"
 
 #include <algorithm>
 #include <set>
 
-#include "lldb/Host/PosixApi.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/RegularExpression.h"
-#include "lldb/Utility/Stream.h"
-#include "llvm/Support/Casting.h"
 
 #include "DWARFCompileUnit.h"
-#include "DWARFContext.h"
 #include "DWARFDebugAranges.h"
 #include "DWARFDebugInfo.h"
-#include "DWARFDebugInfoEntry.h"
 #include "DWARFFormValue.h"
-#include "DWARFTypeUnit.h"
 #include "LogChannelDWARF.h"
 
 using namespace lldb;

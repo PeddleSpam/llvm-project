@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "Diagnostics.h"
-#include "mlir/Query/Matcher/ErrorBuilder.h"
 
 namespace mlir::query::matcher::internal {
 

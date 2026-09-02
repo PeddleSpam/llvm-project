@@ -10,7 +10,6 @@
 #include "mlir/Dialect/Arith/Utils/Utils.h"
 #include "mlir/Dialect/Complex/IR/Complex.h"
 #include "mlir/Dialect/OpenACC/OpenACCUtilsCG.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 

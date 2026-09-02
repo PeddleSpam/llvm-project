@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Protocol/MCP/MCPError.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 #include <system_error>
 
 using namespace llvm;

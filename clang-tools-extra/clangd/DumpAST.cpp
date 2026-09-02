@@ -7,22 +7,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "DumpAST.h"
-#include "Protocol.h"
 #include "SourceCode.h"
 #include "support/Logger.h"
 #include "clang/AST/ASTTypeTraits.h"
-#include "clang/AST/Expr.h"
-#include "clang/AST/ExprCXX.h"
-#include "clang/AST/NestedNameSpecifier.h"
-#include "clang/AST/PrettyPrinter.h"
 #include "clang/AST/RecursiveASTVisitor.h"
 #include "clang/AST/TextNodeDumper.h"
-#include "clang/AST/Type.h"
-#include "clang/AST/TypeLoc.h"
-#include "clang/Basic/Specifiers.h"
-#include "clang/Tooling/Syntax/Tokens.h"
-#include "llvm/ADT/StringRef.h"
-#include "llvm/Support/raw_ostream.h"
 #include <optional>
 
 namespace clang {

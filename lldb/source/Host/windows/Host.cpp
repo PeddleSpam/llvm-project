@@ -7,22 +7,14 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Host/windows/AutoHandle.h"
-#include "lldb/Host/windows/windows.h"
 #include <cstdio>
 
 #include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/ProcessLaunchInfo.h"
 #include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/ProcessInfo.h"
-#include "lldb/Utility/Status.h"
 #include "lldb/Utility/StreamString.h"
-#include "lldb/Utility/StructuredData.h"
 
-#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ConvertUTF.h"
 
 // Windows includes

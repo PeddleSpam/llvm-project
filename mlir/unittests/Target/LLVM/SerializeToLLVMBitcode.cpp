@@ -8,17 +8,13 @@
 
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include "mlir/IR/BuiltinDialect.h"
-#include "mlir/IR/BuiltinOps.h"
-#include "mlir/IR/MLIRContext.h"
 #include "mlir/Parser/Parser.h"
 #include "mlir/Target/LLVM/ModuleToObject.h"
 #include "mlir/Target/LLVMIR/Dialect/Builtin/BuiltinToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h"
 
 #include "llvm/IRReader/IRReader.h"
-#include "llvm/Support/MemoryBufferRef.h"
 #include "llvm/Support/TargetSelect.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TargetParser/Host.h"
 
 #include "gmock/gmock.h"

@@ -10,10 +10,7 @@
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Host/ThreadLauncher.h"
 #include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Threading.h"
 
 using namespace lldb;
 using namespace lldb_private;

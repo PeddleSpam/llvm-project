@@ -7,12 +7,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "RedundantBranchConditionCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "../utils/Aliasing.h"
 #include "../utils/LexerUtils.h"
-#include "clang/AST/ASTContext.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
 #include "clang/Analysis/Analyses/ExprMutationAnalyzer.h"
-#include "clang/Lex/Lexer.h"
 
 using namespace clang::ast_matchers;
 using clang::tidy::utils::hasPtrOrReferenceInFunc;

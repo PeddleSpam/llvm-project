@@ -7,14 +7,16 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Bufferization/IR/Bufferization.h"
+#include "../Test/TestAttributes.h"
+#include "../Test/TestDialect.h"
+#include "../Test/TestInterfaces.h"
+#include "../Test/TestOps.h"
+#include "../Test/TestTypes.h"
 #include "mlir/Dialect/Bufferization/Transforms/Bufferize.h"
 #include "mlir/Dialect/Bufferization/Transforms/OneShotModuleBufferize.h"
 #include "mlir/Dialect/Bufferization/Transforms/Transforms.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Pass/Pass.h"
 
-#include "TestAttributes.h" // TestTensorEncodingAttr, TestMemRefLayoutAttr
 #include "TestDialect.h"
 #include "TestOps.h"
 

@@ -6,42 +6,15 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/ValueObject/ValueObject.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Declaration.h"
-#include "lldb/Core/Module.h"
 #include "lldb/DataFormatters/DataVisualization.h"
-#include "lldb/DataFormatters/DumpValueObjectOptions.h"
-#include "lldb/DataFormatters/FormatManager.h"
-#include "lldb/DataFormatters/StringPrinter.h"
-#include "lldb/DataFormatters/TypeFormat.h"
-#include "lldb/DataFormatters/TypeSummary.h"
 #include "lldb/DataFormatters/ValueObjectPrinter.h"
 #include "lldb/Expression/ExpressionVariable.h"
-#include "lldb/Host/Config.h"
 #include "lldb/Symbol/CompileUnit.h"
-#include "lldb/Symbol/CompilerType.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/Type.h"
 #include "lldb/Symbol/Variable.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/ExecutionContext.h"
 #include "lldb/Target/Language.h"
 #include "lldb/Target/LanguageRuntime.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/StackFrame.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
-#include "lldb/Target/ThreadList.h"
-#include "lldb/Utility/DataBuffer.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/Flags.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Stream.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/ValueObject/ValueObjectCast.h"
 #include "lldb/ValueObject/ValueObjectChild.h"
 #include "lldb/ValueObject/ValueObjectConstResult.h"
@@ -49,9 +22,7 @@
 #include "lldb/ValueObject/ValueObjectMemory.h"
 #include "lldb/ValueObject/ValueObjectSynthetic.h"
 #include "lldb/ValueObject/ValueObjectVTable.h"
-#include "lldb/lldb-enumerations.h"
 
-#include "llvm/Support/Compiler.h"
 
 #include <algorithm>
 #include <atomic>

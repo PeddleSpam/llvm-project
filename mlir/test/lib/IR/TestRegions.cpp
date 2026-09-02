@@ -6,9 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestAttributes.h"
+#include "../Dialect/Test/TestDialect.h"
+#include "../Dialect/Test/TestInterfaces.h"
+#include "../Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Pass/Pass.h"
 
 using namespace mlir;

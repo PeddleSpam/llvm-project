@@ -9,25 +9,13 @@
 #include <cstring>
 
 #include "lldb/Core/Debugger.h"
-#include "lldb/Core/Disassembler.h"
 #include "lldb/Core/DumpRegisterValue.h"
 #include "lldb/Core/Module.h"
 #include "lldb/Core/Value.h"
-#include "lldb/Symbol/TypeList.h"
-#include "lldb/Symbol/TypeSystem.h"
 #include "lldb/Target/ABI.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
 #include "lldb/Target/SectionLoadList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Target/Thread.h"
 #include "lldb/Target/ThreadPlan.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "lldb/Utility/DataExtractor.h"
-#include "lldb/Utility/LLDBLog.h"
-#include "lldb/Utility/Log.h"
 #include "lldb/Utility/State.h"
-#include "lldb/lldb-forward.h"
 
 using namespace lldb;
 using namespace lldb_private;

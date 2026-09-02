@@ -9,9 +9,7 @@
 #ifndef LLD_DEFAULT_LD_LLD_IS_MINGW
 
 #include "lld/Common/Driver.h"
-#include "llvm/ADT/SmallString.h"
 #include "llvm/Support/Path.h"
-#include "llvm/Support/raw_ostream.h"
 #include "gmock/gmock.h"
 
 LLD_HAS_DRIVER(elf)

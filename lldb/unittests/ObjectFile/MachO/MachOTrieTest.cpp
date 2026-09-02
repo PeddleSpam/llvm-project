@@ -8,11 +8,7 @@
 
 #include "Plugins/ObjectFile/Mach-O/MachOTrie.h"
 #include "lldb/Utility/DataExtractor.h"
-#include "lldb/lldb-defines.h"
-#include "lldb/lldb-types.h"
 
-#include "llvm/ADT/ArrayRef.h"
-#include "llvm/ADT/StringRef.h"
 #include "llvm/BinaryFormat/MachO.h"
 #include "gtest/gtest.h"
 

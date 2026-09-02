@@ -6,7 +6,6 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/IR/Region.h"
 #include "mlir/IR/IRMapping.h"
 #include "mlir/IR/Operation.h"
 using namespace mlir;

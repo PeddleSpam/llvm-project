@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Protocol/MCP/Transport.h"
-#include "llvm/ADT/StringRef.h"
 #include <utility>
 
 using namespace lldb_protocol::mcp;

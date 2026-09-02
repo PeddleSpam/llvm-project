@@ -7,19 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "Handler/RequestHandler.h"
-#include "DAP.h"
 #include "EventHelper.h"
 #include "Handler/ResponseHandler.h"
-#include "JSONUtils.h"
 #include "LLDBUtils.h"
-#include "Protocol/ProtocolBase.h"
-#include "Protocol/ProtocolRequests.h"
 #include "RunInTerminal.h"
-#include "lldb/API/SBDefines.h"
-#include "lldb/API/SBEnvironment.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 #include <mutex>
 
 #ifdef _WIN32

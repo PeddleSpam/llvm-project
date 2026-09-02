@@ -7,15 +7,10 @@
 //===----------------------------------------------------------------------===//
 
 #include "Matchers.h"
-#include "../../../../../include/llvm/ADT/PointerUnion.h"
-#include "../../../../../include/llvm/ADT/StringSet.h"
-#include "../../../../../include/llvm/Support/ModRef.h"
-#include "../../../Basic/CodeGenIntrinsics.h"
-#include "../../../Basic/SDNodeProperties.h"
+#include "../../CodeGenHwModes.h"
 #include "../../CodeGenRegisters.h"
-#include "../../CodeGenTarget.h"
+#include "../../InfoByHwMode.h"
 #include "Common/CodeGenInstruction.h"
-#include "Common/CodeGenRegisters.h"
 #include "llvm/ADT/Statistic.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/LEB128.h"

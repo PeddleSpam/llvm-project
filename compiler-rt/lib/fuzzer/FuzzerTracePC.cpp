@@ -11,17 +11,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "FuzzerTracePC.h"
-#include "FuzzerBuiltins.h"
-#include "FuzzerBuiltinsMsvc.h"
 #include "FuzzerCorpus.h"
-#include "FuzzerDefs.h"
-#include "FuzzerDictionary.h"
 #include "FuzzerExtFunctions.h"
-#include "FuzzerIO.h"
-#include "FuzzerPlatform.h"
-#include "FuzzerUtil.h"
-#include "FuzzerValueBitMap.h"
 #include <set>
 
 // Used by -fsanitize-coverage=stack-depth to track stack depth

@@ -11,19 +11,13 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/TableGen/Argument.h"
-#include "mlir/TableGen/Attribute.h"
 #include "mlir/TableGen/EnumInfo.h"
 #include "mlir/TableGen/GenInfo.h"
 #include "mlir/TableGen/Operator.h"
 
 #include "llvm/ADT/Sequence.h"
-#include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/Twine.h"
 #include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/raw_ostream.h"
 #include "llvm/TableGen/Error.h"
-#include "llvm/TableGen/Record.h"
 #include "llvm/TableGen/TableGenBackend.h"
 
 using namespace llvm;

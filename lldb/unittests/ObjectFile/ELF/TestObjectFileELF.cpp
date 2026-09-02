@@ -11,21 +11,10 @@
 #include "Plugins/SymbolFile/Symtab/SymbolFileSymtab.h"
 #include "TestingSupport/SubsystemRAII.h"
 #include "TestingSupport/TestUtilities.h"
-#include "lldb/Core/Module.h"
-#include "lldb/Core/ModuleSpec.h"
-#include "lldb/Core/Section.h"
-#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostInfo.h"
-#include "lldb/Utility/DataBufferHeap.h"
-#include "llvm/BinaryFormat/ELF.h"
 #include "llvm/Support/Compression.h"
 #include "llvm/Support/FileUtilities.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/Path.h"
 #include "llvm/Support/Program.h"
-#include "llvm/Support/raw_ostream.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gtest/gtest.h"
 
 using namespace lldb_private;
 using namespace lldb;

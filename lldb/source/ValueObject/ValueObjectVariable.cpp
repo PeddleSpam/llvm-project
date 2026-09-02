@@ -8,30 +8,11 @@
 
 #include "lldb/ValueObject/ValueObjectVariable.h"
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/AddressRange.h"
-#include "lldb/Core/Declaration.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Core/Value.h"
-#include "lldb/Expression/DWARFExpressionList.h"
 #include "lldb/Symbol/Function.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Symbol/SymbolContext.h"
-#include "lldb/Symbol/SymbolContextScope.h"
-#include "lldb/Symbol/Type.h"
 #include "lldb/Symbol/Variable.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/RegisterContext.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Scalar.h"
-#include "lldb/Utility/Status.h"
-#include "lldb/lldb-private-enumerations.h"
-#include "lldb/lldb-types.h"
 
-#include "llvm/ADT/StringRef.h"
 
 #include <cassert>
 #include <memory>

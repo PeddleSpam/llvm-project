@@ -6,31 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "lldb/Core/Diagnostics.h"
-#include "lldb/Core/Debugger.h"
 #include "lldb/Core/Module.h"
-#include "lldb/Host/FileSystem.h"
-#include "lldb/Host/Host.h"
 #include "lldb/Host/HostInfo.h"
 #include "lldb/Interpreter/CommandInterpreter.h"
-#include "lldb/Interpreter/CommandReturnObject.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
-#include "lldb/Target/ExecutionContext.h"
-#include "lldb/Target/Platform.h"
-#include "lldb/Target/Process.h"
-#include "lldb/Target/Statistics.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/Args.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/ProcessInfo.h"
 #include "lldb/Version/Version.h"
 
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/Support/Error.h"
-#include "llvm/Support/FileSystem.h"
-#include "llvm/Support/FormatVariadic.h"
-#include "llvm/Support/JSON.h"
-#include "llvm/Support/raw_ostream.h"
 
 #include <mutex>
 #include <optional>

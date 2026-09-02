@@ -6,8 +6,21 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../../clang/include/clang/Tooling/Core/Diagnostic.h"
+#include "../../../clang/include/clang/Tooling/Core/Replacement.h"
+#include "../../../llvm/include/llvm/Support/Errc.h"
+#include "../../../llvm/include/llvm/Support/ExtensibleRTTI.h"
+#include "../../../llvm/include/llvm/Support/FileSystem.h"
+#include "../../../llvm/include/llvm/Support/Path.h"
+#include "../../../llvm/include/llvm/Support/SourceMgr.h"
+#include "../../../llvm/include/llvm/Support/VirtualFileSystem.h"
 #include "../ClangTidy.h"
+#include "../ClangTidyDiagnosticConsumer.h"
 #include "../ClangTidyModule.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "BufferDerefCheck.h"
 #include "TypeMismatchCheck.h"
 

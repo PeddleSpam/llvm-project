@@ -15,12 +15,6 @@
 #include "mlir/Conversion/OpenACCToLLVM/ACCToLLVMUtils.h"
 
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Dialect/Arith/IR/Arith.h"
-#include "mlir/Dialect/LLVMIR/LLVMDialect.h"
-#include "mlir/Dialect/OpenACC/OpenACC.h"
-#include "mlir/IR/PatternMatch.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/STLFunctionalExtras.h"
 
 #include <cstdint>
 #include <iterator>

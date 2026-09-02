@@ -6,21 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "InputFiles.h"
 #include "OutputSections.h"
 #include "RelocScan.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
-#include "SyntheticSections.h"
-#include "Target.h"
 #include "Thunks.h"
-#include "lld/Common/ErrorHandler.h"
-#include "llvm/ADT/SmallVector.h"
-#include "llvm/BinaryFormat/ELF.h"
-#include "llvm/Support/ELFAttributes.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/HexagonAttributeParser.h"
-#include "llvm/Support/HexagonAttributes.h"
 #include "llvm/Support/LEB128.h"
 
 using namespace llvm;

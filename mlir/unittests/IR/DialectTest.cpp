@@ -8,7 +8,6 @@
 
 #include "mlir/IR/Dialect.h"
 #include "mlir/IR/DialectInterface.h"
-#include "mlir/Support/TypeID.h"
 #include "gtest/gtest.h"
 
 using namespace mlir;

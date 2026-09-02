@@ -8,10 +8,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "lldb/Target/CoreFileMemoryRanges.h"
-#include "lldb/lldb-types.h"
 
 using namespace lldb_private;
 

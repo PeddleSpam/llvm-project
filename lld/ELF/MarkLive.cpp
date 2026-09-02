@@ -20,16 +20,11 @@
 //===----------------------------------------------------------------------===//
 
 #include "MarkLive.h"
-#include "InputFiles.h"
-#include "InputSection.h"
 #include "LinkerScript.h"
 #include "SymbolTable.h"
-#include "Symbols.h"
 #include "SyntheticSections.h"
 #include "Target.h"
-#include "lld/Common/Strings.h"
 #include "llvm/ADT/DenseMapInfoVariant.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/Support/Parallel.h"
 #include "llvm/Support/TimeProfiler.h"
 #include <variant>

@@ -9,8 +9,6 @@
 #include "Plugins/ObjectFile/Breakpad/BreakpadRecords.h"
 #include "lldb/lldb-defines.h"
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/ADT/StringSwitch.h"
-#include "llvm/Support/Endian.h"
 #include "llvm/Support/FormatVariadic.h"
 #include <optional>
 

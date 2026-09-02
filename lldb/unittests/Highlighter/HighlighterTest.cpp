@@ -6,16 +6,12 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "gtest/gtest.h"
 
 #include "Plugins/Highlighter/Clang/ClangHighlighter.h"
 #include "Plugins/Highlighter/Default/DefaultHighlighter.h"
 #include "Plugins/Language/CPlusPlus/CPlusPlusLanguage.h"
 #include "Plugins/Language/ObjC/ObjCLanguage.h"
 #include "Plugins/Language/ObjCPlusPlus/ObjCPlusPlusLanguage.h"
-#include "lldb/Core/Highlighter.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/FileSystem.h"
 
 #if LLDB_ENABLE_TREESITTER
 #include "Plugins/Highlighter/TreeSitter/Rust/RustTreeSitterHighlighter.h"

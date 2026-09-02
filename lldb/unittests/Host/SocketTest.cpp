@@ -6,15 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../../include/lldb/Host/windows/MainLoopWindows.h"
 #include "TestingSupport/Host/SocketTestUtilities.h"
 #include "TestingSupport/SubsystemRAII.h"
-#include "lldb/Host/Config.h"
-#include "lldb/Host/MainLoop.h"
 #include "lldb/Utility/UriParser.h"
 #include "llvm/ADT/ScopeExit.h"
-#include "llvm/Testing/Support/Error.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
 #include <chrono>
 #if LLDB_ENABLE_POSIX
 #include <cerrno>

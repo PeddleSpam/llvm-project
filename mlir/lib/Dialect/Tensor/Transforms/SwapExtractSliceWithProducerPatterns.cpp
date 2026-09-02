@@ -12,11 +12,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/Tensor/IR/Tensor.h"
 #include "mlir/Dialect/Tensor/Transforms/Transforms.h"
-#include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/Interfaces/TilingInterface.h"
-#include "llvm/Support/Debug.h"
 
 #define DEBUG_TYPE "tensor-swap-slices"
 

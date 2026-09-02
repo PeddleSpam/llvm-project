@@ -11,29 +11,18 @@
 #include <cstdlib>
 #include <optional>
 
-#include "lldb/Core/Address.h"
-#include "lldb/Core/Opcode.h"
 #include "lldb/Core/PluginManager.h"
-#include "lldb/Symbol/UnwindPlan.h"
 #include "lldb/Target/Target.h"
-#include "lldb/Utility/ArchSpec.h"
-#include "lldb/Utility/ConstString.h"
-#include "lldb/Utility/DataExtractor.h"
 #include "lldb/Utility/RegisterValue.h"
-#include "lldb/Utility/Stream.h"
 #include "llvm-c/Disassembler.h"
-#include "llvm/MC/MCAsmInfo.h"
 #include "llvm/MC/MCContext.h"
 #include "llvm/MC/MCDisassembler/MCDisassembler.h"
-#include "llvm/MC/MCInst.h"
 #include "llvm/MC/MCInstrInfo.h"
 #include "llvm/MC/MCRegisterInfo.h"
 #include "llvm/MC/MCSubtargetInfo.h"
-#include "llvm/MC/MCTargetOptions.h"
 #include "llvm/MC/TargetRegistry.h"
 #include "llvm/Support/TargetSelect.h"
 
-#include "llvm/ADT/STLExtras.h"
 
 #include "Plugins/Process/Utility/InstructionUtils.h"
 #include "Plugins/Process/Utility/RegisterContext_mips.h"

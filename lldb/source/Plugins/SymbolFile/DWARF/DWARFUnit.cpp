@@ -6,23 +6,14 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DWARFUnit.h"
 
-#include "lldb/Core/Module.h"
-#include "lldb/Symbol/ObjectFile.h"
-#include "lldb/Utility/LLDBAssert.h"
-#include "lldb/Utility/StreamString.h"
 #include "lldb/Utility/Timer.h"
-#include "llvm/DebugInfo/DWARF/DWARFAddressRange.h"
-#include "llvm/DebugInfo/DWARF/DWARFDebugAbbrev.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugLoc.h"
 #include "llvm/DebugInfo/DWARF/DWARFDebugRangeList.h"
-#include "llvm/Object/Error.h"
 
 #include "DWARFCompileUnit.h"
 #include "DWARFDebugAranges.h"
 #include "DWARFDebugInfo.h"
-#include "DWARFTypeUnit.h"
 #include "LogChannelDWARF.h"
 #include "SymbolFileDWARFDwo.h"
 #include <optional>

@@ -16,7 +16,6 @@
 
 #include "SPIRVParsingUtils.h"
 
-#include "mlir/IR/TypeUtilities.h"
 
 namespace mlir::spirv {
 /// Returns true if the given op is a function-like op or nested in a

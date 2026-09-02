@@ -14,13 +14,10 @@
 
 #include "mlir/Analysis/SliceAnalysis.h"
 #include "mlir/Dialect/Affine/Analysis/AffineAnalysis.h"
-#include "mlir/Dialect/Affine/Analysis/AffineStructures.h"
 #include "mlir/Dialect/Affine/Analysis/NestedMatcher.h"
 #include "mlir/Dialect/Affine/Analysis/Utils.h"
 #include "mlir/Dialect/Affine/IR/AffineValueMap.h"
-#include "llvm/Support/MathExtras.h"
 
-#include "llvm/Support/Debug.h"
 #include "llvm/Support/DebugLog.h"
 #include <numeric>
 #include <optional>

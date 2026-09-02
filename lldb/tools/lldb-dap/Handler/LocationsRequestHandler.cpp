@@ -6,16 +6,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "DAP.h"
-#include "DAPError.h"
 #include "EventHelper.h"
-#include "JSONUtils.h"
 #include "LLDBUtils.h"
 #include "ProtocolUtils.h"
 #include "RequestHandler.h"
-#include "lldb/API/SBAddress.h"
 #include "lldb/API/SBDeclaration.h"
-#include "lldb/API/SBLineEntry.h"
 
 namespace lldb_dap {
 

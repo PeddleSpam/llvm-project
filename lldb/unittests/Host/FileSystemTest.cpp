@@ -7,10 +7,8 @@
 //===----------------------------------------------------------------------===//
 
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 #include "lldb/Host/FileSystem.h"
-#include "llvm/Support/Errc.h"
 
 extern const char *TestMainArgv0;
 

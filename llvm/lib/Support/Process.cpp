@@ -11,12 +11,15 @@
 //===----------------------------------------------------------------------===//
 
 #include "llvm/Support/Process.h"
-#include "llvm/ADT/STLExtras.h"
-#include "llvm/ADT/StringExtras.h"
+#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/direct.h"
+#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/io.h"
+#include "../../../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/shellapi.h"
+#include "../../include/llvm/Support/CommandLine.h"
+#include "../../include/llvm/Support/ConvertUTF.h"
+#include "../../include/llvm/Support/Windows/WindowsSupport.h"
+#include "../../include/llvm/Support/WindowsError.h"
 #include "llvm/Config/config.h"
-#include "llvm/Config/llvm-config.h"
 #include "llvm/Support/CrashRecoveryContext.h"
-#include "llvm/Support/FileSystem.h"
 #include "llvm/Support/Path.h"
 
 #include <optional>

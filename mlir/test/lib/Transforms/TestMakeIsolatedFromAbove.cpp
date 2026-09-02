@@ -6,10 +6,13 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "../Dialect/Test/TestAttributes.h"
+#include "../Dialect/Test/TestDialect.h"
+#include "../Dialect/Test/TestInterfaces.h"
+#include "../Dialect/Test/TestOps.h"
+#include "../Dialect/Test/TestTypes.h"
 #include "TestDialect.h"
 #include "TestOps.h"
-#include "mlir/Dialect/Func/IR/FuncOps.h"
-#include "mlir/IR/PatternMatch.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
 #include "mlir/Transforms/RegionUtils.h"

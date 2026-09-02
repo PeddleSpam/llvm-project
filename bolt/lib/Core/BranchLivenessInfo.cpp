@@ -7,11 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "bolt/Core/BranchLivenessInfo.h"
-#include "bolt/Core/BinaryBasicBlock.h"
-#include "bolt/Core/BinaryContext.h"
 #include "bolt/Core/BinaryFunction.h"
-#include "bolt/Core/MCPlusBuilder.h"
-#include "llvm/MC/MCInst.h"
 #include <cassert>
 #include <utility>
 

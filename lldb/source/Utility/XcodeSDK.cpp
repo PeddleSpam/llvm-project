@@ -7,7 +7,6 @@
 //===----------------------------------------------------------------------===//
 
 #include "lldb/Utility/XcodeSDK.h"
-#include "lldb/Utility/FileSpec.h"
 
 #include "lldb/lldb-types.h"
 

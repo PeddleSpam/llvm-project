@@ -11,14 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Analysis/Liveness.h"
-#include "mlir/IR/Block.h"
 #include "mlir/IR/Operation.h"
-#include "mlir/IR/Region.h"
-#include "mlir/IR/Value.h"
-#include "llvm/ADT/STLExtras.h"
 #include "llvm/ADT/SetOperations.h"
 #include "llvm/ADT/SetVector.h"
-#include "llvm/Support/raw_ostream.h"
 
 using namespace mlir;
 

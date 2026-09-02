@@ -8,12 +8,8 @@
 
 #include "mlir/Target/LLVMIR/TypeFromLLVM.h"
 #include "mlir/Dialect/LLVMIR/LLVMTypes.h"
-#include "mlir/IR/BuiltinTypes.h"
-#include "mlir/IR/MLIRContext.h"
 
-#include "llvm/ADT/TypeSwitch.h"
 #include "llvm/IR/DerivedTypes.h"
-#include "llvm/IR/Type.h"
 
 using namespace mlir;
 

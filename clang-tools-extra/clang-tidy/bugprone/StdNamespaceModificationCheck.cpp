@@ -7,8 +7,12 @@
 //===----------------------------------------------------------------------===//
 
 #include "StdNamespaceModificationCheck.h"
+#include "../ClangTidyDiagnosticConsumer.h"
+#include "../ClangTidyOptions.h"
+#include "../ClangTidyProfiling.h"
+#include "../FileExtensionsSet.h"
+#include "../NoLintDirectiveHandler.h"
 #include "clang/ASTMatchers/ASTMatchFinder.h"
-#include "clang/ASTMatchers/ASTMatchersInternal.h"
 
 using namespace clang;
 using namespace clang::ast_matchers;

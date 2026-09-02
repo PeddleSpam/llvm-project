@@ -8,11 +8,6 @@
 
 #include "mlir/Dialect/Utils/IndexingUtils.h"
 #include "mlir/Dialect/Utils/StaticValueUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/Builders.h"
-#include "mlir/IR/BuiltinAttributes.h"
-#include "mlir/IR/MLIRContext.h"
-#include "llvm/ADT/STLExtras.h"
 #include <numeric>
 #include <optional>
 

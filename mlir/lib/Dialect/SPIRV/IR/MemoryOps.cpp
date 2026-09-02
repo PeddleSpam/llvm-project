@@ -10,16 +10,11 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include "mlir/Dialect/SPIRV/IR/SPIRVEnums.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVOps.h"
 
 #include "SPIRVOpUtils.h"
 #include "SPIRVParsingUtils.h"
-#include "mlir/Dialect/SPIRV/IR/SPIRVTypes.h"
-#include "mlir/IR/Diagnostics.h"
 
 #include "llvm/ADT/StringExtras.h"
-#include "llvm/Support/Casting.h"
 
 using namespace mlir::spirv::AttrNames;
 

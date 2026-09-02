@@ -12,12 +12,9 @@
 
 #include "SyntheticSections.h"
 
-#include "InputChunks.h"
 #include "InputElement.h"
 #include "OutputSegment.h"
 #include "SymbolTable.h"
-#include "llvm/BinaryFormat/Wasm.h"
-#include "llvm/Support/Path.h"
 #include <optional>
 
 using namespace llvm;

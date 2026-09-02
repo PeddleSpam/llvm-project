@@ -12,15 +12,8 @@
 
 #include "lldb/Target/Language.h"
 
-#include "lldb/Core/PluginManager.h"
-#include "lldb/Interpreter/OptionValueProperties.h"
 #include "lldb/Symbol/SymbolFile.h"
-#include "lldb/Symbol/TypeList.h"
-#include "lldb/Target/Target.h"
-#include "lldb/Utility/Stream.h"
 
-#include "llvm/BinaryFormat/Dwarf.h"
-#include "llvm/Support/Threading.h"
 
 using namespace lldb;
 using namespace lldb_private;

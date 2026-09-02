@@ -7,10 +7,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "mlir/Dialect/Utils/StructuredOpsUtils.h"
-#include "mlir/IR/AffineExpr.h"
-#include "mlir/IR/AffineMap.h"
 #include "gmock/gmock.h"
-#include "gtest/gtest.h"
 
 using namespace mlir;
 using testing::Not;

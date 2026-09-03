@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "lldb/API/SBSymbolContextList.h"
 #include "Utils.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/Symbol/SymbolContext.h"

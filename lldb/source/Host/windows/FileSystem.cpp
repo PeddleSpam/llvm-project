@@ -6,6 +6,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "lldb/Host/windows/windows.h"
 
 #include <share.h>
 #include <shellapi.h>
@@ -14,8 +15,10 @@
 
 #include "lldb/Host/FileSystem.h"
 #include "lldb/Host/windows/AutoHandle.h"
+#include "lldb/Host/windows/PosixApi.h"
 
 #include "llvm/Support/ConvertUTF.h"
+#include "llvm/Support/FileSystem.h"
 
 using namespace lldb_private;
 

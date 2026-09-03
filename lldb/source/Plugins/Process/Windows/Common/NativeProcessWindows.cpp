@@ -6,21 +6,33 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include "lldb/Host/windows/windows.h"
 #include <dbghelp.h>
 #include <excpt.h>
 #include <psapi.h>
 
 #include "NativeProcessWindows.h"
 #include "NativeThreadWindows.h"
+#include "lldb/Host/FileSystem.h"
 #include "lldb/Host/HostNativeProcessBase.h"
+#include "lldb/Host/HostProcess.h"
+#include "lldb/Host/ProcessLaunchInfo.h"
 #include "lldb/Host/PseudoTerminal.h"
 #include "lldb/Host/windows/AutoHandle.h"
 #include "lldb/Host/windows/ConnectionConPTYWindows.h"
 #include "lldb/Host/windows/HostThreadWindows.h"
 #include "lldb/Host/windows/ProcessLauncherWindows.h"
+#include "lldb/Host/windows/PseudoConsole.h"
+#include "lldb/Target/MemoryRegionInfo.h"
 #include "lldb/Target/Process.h"
 #include "lldb/Utility/State.h"
+#include "llvm/ADT/StringRef.h"
 #include "llvm/Support/ConvertUTF.h"
+#include "llvm/Support/Errc.h"
+#include "llvm/Support/Error.h"
+#include "llvm/Support/Format.h"
+#include "llvm/Support/Threading.h"
+#include "llvm/Support/raw_ostream.h"
 
 #include "DebuggerThread.h"
 #include "ExceptionRecord.h"

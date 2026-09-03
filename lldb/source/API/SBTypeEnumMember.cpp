@@ -8,9 +8,13 @@
 
 #include "lldb/API/SBTypeEnumMember.h"
 #include "Utils.h"
+#include "lldb/API/SBDefines.h"
 #include "lldb/API/SBStream.h"
 #include "lldb/API/SBType.h"
+#include "lldb/Symbol/CompilerType.h"
+#include "lldb/Symbol/Type.h"
 #include "lldb/Utility/Instrumentation.h"
+#include "lldb/Utility/Stream.h"
 
 #include <memory>
 
